@@ -53,6 +53,11 @@ let examScore = 0;
 let examFinished = false;
 let examKeyLoaded = null;
 let ttsVoice = null;
+let timerInterval = null;
+let timerEndAt = null;
+let timerRemainingMs = 0;
+let timerRunning = false;
+let audioCtx = null;
 
 function shuffleArray(arr) {
   for (let i = arr.length - 1; i > 0; i -= 1) {
@@ -91,9 +96,123 @@ function speakText(text) {
   window.speechSynthesis.speak(utter);
 }
 
+function updateTimerDisplay(ms) {
+  if (!els.timerRemaining) return;
+  const totalSeconds = Math.max(0, Math.ceil(ms / 1000));
+  const minutes = String(Math.floor(totalSeconds / 60)).padStart(2, "0");
+  const seconds = String(totalSeconds % 60).padStart(2, "0");
+  els.timerRemaining.textContent = `${minutes}:${seconds}`;
+}
+
+function setTimerStatus(text) {
+  if (els.timerStatus) els.timerStatus.textContent = text;
+}
+
+function syncTimerToSelection() {
+  const minutes = Number(els.timerDuration?.value || 0);
+  const ms = Math.max(0, minutes * 60 * 1000);
+  timerRemainingMs = ms;
+  timerEndAt = null;
+  timerRunning = false;
+  updateTimerDisplay(ms);
+  if (els.timerStart) els.timerStart.textContent = "Start";
+}
+
+function toggleTimer() {
+  if (timerRunning) {
+    pauseTimer();
+    return;
+  }
+  if (timerRemainingMs <= 0) {
+    syncTimerToSelection();
+  }
+  if (timerRemainingMs <= 0) return;
+  resumeTimer();
+}
+
+function resumeTimer() {
+  timerEndAt = Date.now() + timerRemainingMs;
+  timerRunning = true;
+  if (els.timerStart) els.timerStart.textContent = "Pause";
+  setTimerStatus("Süre başladı. İyi çalışmalar!");
+  tickTimer();
+  timerInterval = setInterval(tickTimer, 500);
+}
+
+function pauseTimer() {
+  if (timerInterval) {
+    clearInterval(timerInterval);
+    timerInterval = null;
+  }
+  timerRemainingMs = Math.max(0, timerEndAt ? timerEndAt - Date.now() : timerRemainingMs);
+  timerRunning = false;
+  updateTimerDisplay(timerRemainingMs);
+  if (els.timerStart) els.timerStart.textContent = "Resume";
+  setTimerStatus("Durduruldu.");
+}
+
+function resetTimer() {
+  if (timerInterval) {
+    clearInterval(timerInterval);
+    timerInterval = null;
+  }
+  timerRunning = false;
+  timerEndAt = null;
+  syncTimerToSelection();
+  setTimerStatus("Hazırsan başlat.");
+}
+
+function tickTimer() {
+  if (!timerRunning || !timerEndAt) return;
+  const remaining = Math.max(0, timerEndAt - Date.now());
+  timerRemainingMs = remaining;
+  updateTimerDisplay(remaining);
+  if (remaining <= 0) {
+    clearInterval(timerInterval);
+    timerInterval = null;
+    timerRunning = false;
+    timerEndAt = null;
+    if (els.timerStart) els.timerStart.textContent = "Start";
+    setTimerStatus("Süre tamamlandı! Harika iş çıkardın.");
+    playTimerChime();
+  }
+}
+
+function getAudioContext() {
+  if (audioCtx) return audioCtx;
+  if (typeof window === "undefined") return null;
+  const Ctx = window.AudioContext || window.webkitAudioContext;
+  if (!Ctx) return null;
+  audioCtx = new Ctx();
+  return audioCtx;
+}
+
+function playTimerChime() {
+  const ctx = getAudioContext();
+  if (!ctx) return;
+  const now = ctx.currentTime;
+  const osc = ctx.createOscillator();
+  const gain = ctx.createGain();
+  osc.type = "sine";
+  osc.frequency.setValueAtTime(880, now);
+  gain.gain.setValueAtTime(0.0001, now);
+  gain.gain.exponentialRampToValueAtTime(0.14, now + 0.02);
+  gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.7);
+  osc.connect(gain).connect(ctx.destination);
+  osc.start(now);
+  osc.stop(now + 0.8);
+}
+
 const els = {
   status: document.getElementById("status"),
+  loadHint: document.getElementById("load-hint"),
+  timerDuration: document.getElementById("timer-duration"),
+  timerStart: document.getElementById("timer-start"),
+  timerReset: document.getElementById("timer-reset"),
+  timerRemaining: document.getElementById("timer-remaining"),
+  timerStatus: document.getElementById("timer-status"),
   card: document.getElementById("card"),
+  nextBtnCard: document.getElementById("next-btn-card"),
   word: document.getElementById("word"),
   pos: document.getElementById("pos"),
   level: document.getElementById("level"),
@@ -159,18 +278,8 @@ const els = {
 };
 
 els.loadBtn.addEventListener("click", loadAllData);
-els.nextBtn.addEventListener("click", () => {
-  if (!filteredData.length) {
-    els.status.textContent = "Press Load Data first, then Next Word.";
-    els.card.classList.add("hidden");
-    return;
-  }
-  els.chunkCard.classList.add("hidden");
-  els.exampleCard.classList.add("hidden");
-  if (els.examPanel) els.examPanel.classList.add("hidden");
-  if (els.readingPanel) els.readingPanel.classList.add("hidden");
-  showRandomCard();
-});
+els.nextBtn.addEventListener("click", () => goNextWord());
+els.nextBtnCard?.addEventListener("click", () => goNextWord());
 els.levelFilter.addEventListener("change", () => {
   filterByLevel(els.levelFilter.value);
   showRandomCard();
@@ -205,6 +314,7 @@ els.vocabLang.addEventListener("change", (e) => {
   allData = [];
   els.card.classList.add("hidden");
   els.status.textContent = "Language changed. Press Load Data to fetch vocabulary.";
+  els.loadHint?.classList.remove("hidden");
   readingItems = [];
   currentReading = null;
   if (els.grammarPanel) els.grammarPanel.classList.add("hidden");
@@ -237,6 +347,27 @@ els.readingLang.addEventListener("change", () => {
   loadReadings(els.readingLang.value);
 });
 els.readingNext.addEventListener("click", () => renderReading(randomReading()));
+els.timerStart?.addEventListener("click", () => toggleTimer());
+els.timerReset?.addEventListener("click", () => resetTimer());
+els.timerDuration?.addEventListener("change", () => {
+  if (!timerRunning) {
+    syncTimerToSelection();
+    setTimerStatus("Hazırsan başlat.");
+  }
+});
+
+function goNextWord() {
+  if (!filteredData.length) {
+    els.status.textContent = "Press Load Data first, then Next Word.";
+    els.card.classList.add("hidden");
+    return;
+  }
+  els.chunkCard.classList.add("hidden");
+  els.exampleCard.classList.add("hidden");
+  if (els.examPanel) els.examPanel.classList.add("hidden");
+  if (els.readingPanel) els.readingPanel.classList.add("hidden");
+  showRandomCard();
+}
 
 els.grammarLang.value = currentLang;
 els.readingLang.value = currentLang;
@@ -245,6 +376,8 @@ if (typeof window !== "undefined" && window.speechSynthesis) {
   window.speechSynthesis.addEventListener("voiceschanged", pickTtsVoice);
   pickTtsVoice();
 }
+syncTimerToSelection();
+setTimerStatus("Hazırsan başlat.");
 
 async function loadAllData() {
   els.status.textContent = "Loading data...";
@@ -284,7 +417,8 @@ async function loadAllData() {
 
   filterByLevel(els.levelFilter.value);
   els.card.classList.add("hidden");
-  els.status.textContent = `Loaded ${allData.length} items (${currentLang}). Press Next Word to view.`;
+  els.status.textContent = `Loaded ${allData.length} items (${currentLang}). Next Word ile başla.`;
+  els.loadHint?.classList.add("hidden");
 }
 
 function filterByLevel(level) {
