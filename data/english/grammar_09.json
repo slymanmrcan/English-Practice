@@ -14,20 +14,32 @@
       "Some/any: I have **some** questions. / Do you have **any** coffee? → Birkaç sorum var / Kahve var mı?",
       "Much/many: **Much** water (sayılamaz), **many** books (sayılabilir). A lot of hem sayılabilir hem sayılamaz.",
       "Few/a few: **Few** options (çok az, yetersiz), **a few** options (birkaç, fena değil).",
-      "Little/a little: **Little** time (yetersiz), **a little** time (biraz, idare eder)."
+      "Little/a little: **Little** time (yetersiz), **a little** time (biraz, idare eder).",
+      "The + of phrase: the end of the movie, the beginning of the year → filmin sonu, yılın başı.",
+      "Belirli grup: the police, the media, the government (tekil anlamlı ama the ile).",
+      "Okullar/kurumlar: school/bed/prison/hospital (genel işlev): at school, in hospital (article yok); the school (bina olarak).",
+      "Superlatives/only: the best day, the only option, the first time → en iyi gün, tek seçenek, ilk sefer.",
+      "Count vs noncount: advice (count değil): some advice / a piece of advice; information (a/an yok)."
     ],
     "tips": [
       "a/an → tekil, sayılabilir, belirsiz; an sesli başlangıç: an hour (h sessiz), an umbrella.",
       "the → daha önce bahsedilen, tek, benzersiz, ‘of’ yapıları: the end of the day, the top of the mountain.",
       "Genel konuşurken çoğul/sayılamaz isimde article kullanma: I like coffee/tea, Dogs are friendly.",
       "this/that yakın-uzak; these/those çoğul. Konuşurken nesneye işaret etmekte kullan.",
-      "much negatif/soru, many daha yaygın; a lot of her yerde güvenli."
+      "much negatif/soru, many daha yaygın; a lot of her yerde güvenli.",
+      "Çoğul özel adlar: the Netherlands, the Philippines, the United States (the + çoğul ülke).",
+      "Gazete/deniz/nehir/otel/körfez: the Times, the Pacific, the Amazon, the Ritz, the Bay of Biscay.",
+      "Genelleme: People are friendly (article yok); The people in this city are friendly (belirli grup).",
+      "that/which ile gelen tanımlayıcı relative’lerde genelde the kullanılır: the book that I bought."
     ],
     "mistakes": [
       "Her isme the koymak: I love the music ❌ (genel) → I love music ✅",
       "A/an’ı çoğulda kullanmak: a books ❌ → books / some books ✅",
       "Belirli şeyi articlesız bırakmak: Pass me pen ❌ → Pass me **the** pen ✅",
-      "Few/a few anlam farkını gözden kaçırmak: few money ❌ → little money ✅ (sayılamaz)."
+      "Few/a few anlam farkını gözden kaçırmak: few money ❌ → little money ✅ (sayılamaz).",
+      "Tek/benzersizde a/an: a sun ❌ → the sun ✅",
+      "Noncount isimlere a/an: an advice ❌ → some advice / a piece of advice ✅",
+      "this/that + çoğul: this books ❌ → these books ✅"
     ],
     "note": "Özel adlar genelde article almaz; ancak gruplar (the US, the Netherlands), nehir/deniz/dağ grupları (the Nile, the Andes) alır. Genel ifadede article düşer; belirli/tek/ikinci bahiste the kullanılır."
   }

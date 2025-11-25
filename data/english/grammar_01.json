@@ -10,24 +10,35 @@
       "Hundreds: 500 → five hundred (tek 'hundred', sonuna 's' yok) → beş yüz",
       "Binler: 1,200 → one thousand two hundred (US: 'and' çoğunlukla yok; UK: two hundred and) → bin iki yüz",
       "Büyük sayılar: 1,234,567 → one million two hundred thirty-four thousand five hundred sixty-seven → bir milyon iki yüz otuz dört bin beş yüz altmış yedi",
+      "On milyarlar: 12,500,000,000 → twelve point five billion → on iki buçuk milyar",
       "Ordinals: 1st, 2nd, 3rd, 4th → first, second, third, fourth → birinci, ikinci, üçüncü, dördüncü",
+      "Yıl aralıkları: the 1990s → the nineteen-nineties (doksanlar), 2020s → the twenty-twenties",
       "Tarihler: May 3rd 2024 → May third, twenty twenty-four (US ay-gün-yıl) / 3 May 2024 → the third of May, twenty twenty-four (UK gün-ay-yıl) → 3 Mayıs 2024",
       "Yıllar: 1999 → nineteen ninety-nine; 2005 → two thousand (and) five; 2018 → twenty eighteen → 1999 / 2005 / 2018",
       "Ondalık: 3.14 → three point one four; 0.5 → zero/oh point five → üç nokta on dört / sıfır nokta beş",
       "Telefon: 555 210 34 89 → five five five, two one zero, three four, eight nine (her rakam ayrı okunur) → 555 210 34 89",
-      "Kesir: 1/2 → one half; 1/4 → one quarter; 3/4 → three quarters; 2/3 → two thirds → bir bölü iki, üç bölü dört…"
+      "Kesir: 1/2 → one half; 1/4 → one quarter; 3/4 → three quarters; 2/3 → two thirds → bir bölü iki, üç bölü dört…",
+      "Sıra sayısı + yazı: the 21st century → the twenty-first century → yirmi birinci yüzyıl",
+      "Para: $5.99 → five ninety-nine / five dollars ninety-nine → beş doksan dokuz",
+      "Saat: 7:45 → seven forty-five / a quarter to eight → yedi kırk beş / sekize çeyrek var",
+      "Yüzdelik: 12% → twelve percent; 0.8% → zero point eight percent → yüzde on iki / yüzde sıfır nokta sekiz"
     ],
     "tips": [
       "US İngilizcesinde 1,100 → one thousand one hundred; UK İngilizcesinde 'and' eklenir: one thousand one hundred and.",
       "21–99 arasında (10’luk + 1’lik) araya kısa çizgi gelir: twenty-one, sixty-five.",
       "Yuvarlama cümleleri: about 1,000 (yaklaşık), over/under 50 (50’nin üstü/altı), almost 100 (neredeyse).",
       "0 telaffuzu: telefon numaralarında 'oh' sık kullanılır (oh-eight), matematikte 'zero'/'nought'.",
-      "Tarihlerde sıra sayı eki (st/nd/rd/th) yazıda görünür, konuşmada söylenir: 5th → fifth."
+      "Tarihlerde sıra sayı eki (st/nd/rd/th) yazıda görünür, konuşmada söylenir: 5th → fifth.",
+      "Büyük sayıları üçlü gruplara ayır: million → thousand → hundred.",
+      "Küçük sayıların yazımı: fifteen (15), fifty (50); thirteen (13), thirty (30) karışmasın.",
+      "Para okurken birim yazılmazsa bağlamla anlaşılır: It costs twenty (pounds/dollars)."
     ],
     "mistakes": [
       "“Hundreds” çoğul yapılmaz: five hundreds ❌ → five hundred ✅",
       "“And” unutulursa UK tarzı kulağa eksik gelir: one hundred twenty ❌ (UK’de) → one hundred and twenty ✅",
-      "21–99 arası kısa çizgi atlama: twenty one ❌ → twenty-one ✅"
+      "21–99 arası kısa çizgi atlama: twenty one ❌ → twenty-one ✅",
+      "İngilizce virgül/nokta farkı: 1,5 (TR) → 1.5 (EN) / 1.500 (TR) → 1,500 (EN).",
+      "thousand yerine milyon yazma: 1,000,000 → one million (one thousand thousand değil)."
     ],
     "note": "Büyük sayıları parçalara bölüp oku: [milyon] [bin] [yüzlükler]. Tarihlerde yazım (US/UK) ve okunuş farklarına dikkat."
   }

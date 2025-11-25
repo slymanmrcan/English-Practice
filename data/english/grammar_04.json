@@ -13,20 +13,29 @@
       "Otelde check-in: \nA: Hi, I have a reservation under the name Yılmaz. → Merhaba, Yılmaz adına rezervasyonum var.\nB: Welcome. May I see your ID and a credit card? → Hoş geldiniz. Kimlik ve kredi kartınızı alabilir miyim?\n---\nA: Is breakfast included? What time is checkout? → Kahvaltı dahil mi? Çıkış saati kaçta?\nB: Yes, it’s included. Checkout is at 12. → Evet, dahil. Çıkış 12’de.\nNot: “included / extra charge / checkout / key card / Wi‑Fi password”.",
       "Mağazada beden/soru: \nA: Excuse me, do you have this in a medium? → Affedersiniz, bunun M bedeni var mı?\nB: Let me check. Yes, here you go. → Kontrol edeyim. Evet, buyurun.\nA: Can I try it on? → Deneyebilir miyim?\nB: The fitting rooms are over there. → Kabinler şurada.\nNot: “small/medium/large”, “It fits / It’s too tight/loose/long/short”.",
       "Rica ederken: \nA: Could you please speak a bit slower? → Biraz yavaş konuşabilir misiniz?\nB: Sure, no problem. → Tabii, sorun değil.\nNot: Kibar kalıplar: “Could you…?”, “Would you mind…?”, “Can you… (informal)”.",
-      "Acil durumda yardım: \nA: I need help. I lost my wallet. → Yardıma ihtiyacım var. Cüzdanımı kaybettim.\nB: Stay here, I’ll call security. → Burada kalın, güvenliği çağıracağım.\nNot: “I need help / emergency / call the police / ambulance / I’m lost / I can’t find…”"
+      "Acil durumda yardım: \nA: I need help. I lost my wallet. → Yardıma ihtiyacım var. Cüzdanımı kaybettim.\nB: Stay here, I’ll call security. → Burada kalın, güvenliği çağıracağım.\nNot: “I need help / emergency / call the police / ambulance / I’m lost / I can’t find…”",
+      "Doktorda randevu: \nA: I’d like to make an appointment for tomorrow. → Yarın için randevu almak istiyorum.\nB: Morning or afternoon? → Sabah mı öğleden sonra mı?\nA: Afternoon, please. → Öğleden sonra lütfen.\nNot: “appointment / check-up / prescription / symptoms”.",
+      "Kargo/alım teslimat: \nA: I’m here to pick up a package. → Bir paket almaya geldim.\nB: Do you have an ID? → Kimliğiniz var mı?\nA: Yes, here it is. → Evet, buyurun.\nNot: “pick up / drop off / sign here / tracking number”.",
+      "İş toplantısında tanışma: \nA: Nice to meet you. I’m Ali, product manager. → Tanıştığımıza memnun oldum. Ali, ürün yöneticisi.\nB: Likewise. I handle marketing. → Ben de. Pazarlamadan sorumluyum.\nNot: “Nice to meet you / Likewise / I’m in charge of… / I handle…”.",
+      "Kayıp eşya sorma: \nA: Excuse me, I think I left my phone here. → Affedersiniz, sanırım telefonumu burada bıraktım.\nB: Can you describe it? → Tarif edebilir misiniz?\nA: It’s a black iPhone with a cracked screen. → Kırık ekranlı siyah iPhone.\nNot: “describe / lost and found / turn it in / claim a lost item”."
     ],
     "tips": [
       "Nazik girişler: Excuse me…, Could you…, Would you mind…, I’m sorry but…",
       "Yön tarifinde kısa komutlar: go straight, turn left/right, take the second left, across from, next to, on the corner.",
       "Restoran/mağaza/otel diyaloglarında içten ton: please, thank you, of course, sure, no problem.",
       "Seyahatte zaman ifadeleri: on time, delayed, boarding, gate, aisle/window seat.",
-      "Kısa cevapları uzatmak için: That would be great / That’s perfect / I’d appreciate it."
+      "Kısa cevapları uzatmak için: That would be great / That’s perfect / I’d appreciate it.",
+      "İlk cümlede amacını söyle: I’m here to…, I’d like to…, I need to…",
+      "Soruları yumuşat: Could you possibly…, Would it be okay if…, Do you mind if…",
+      "Acil durumlarda net ol: I need help, call the police/ambulance, I’m lost."
     ],
     "mistakes": [
       "Direkt emir gibi söylemek: Give me water ❌ → Could I have some water, please? ✅",
       "Yön tarifinde belirsiz olmak: go there ❌ → go straight, then turn left at the light ✅",
       "Soru yapısını korumamak: Can I see the menu? → I want the menu ❌ (daha kaba)",
-      "Hitapsız giriş: Where is the station? ❌ → Excuse me, where is the station? ✅"
+      "Hitapsız giriş: Where is the station? ❌ → Excuse me, where is the station? ✅",
+      "Şikayeti sert vermek: This is bad ❌ → I’m sorry, but this is cold. Could you… ✅",
+      "Too informal in formal contexts: Yo, gimme ❌ → Could I have… ✅"
     ],
     "note": "Kalıpları ezberlemek yerine blok halinde düşün: nazik giriş + istek + teşekkür. Kısa, net, kibar cümleler her ortamda iş görür."
   }

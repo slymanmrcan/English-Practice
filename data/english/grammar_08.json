@@ -13,20 +13,30 @@
       "Tavsiye: You **should** see a doctor. → Doktora görünmelisin.",
       "Gerekmeme: You **don’t have to** come. / You **mustn’t** smoke here. → Gelmen gerekmez / Burada sigara yasak.",
       "Geçmiş tahmin: She **must have left** early. / He **might have forgotten**. → Muhtemelen erken çıktı / Unutmuş olabilir.",
-      "Geçmiş pişmanlık: You **should have called** me. → Beni aramalıydın (ama aramadın)."
+      "Geçmiş pişmanlık: You **should have called** me. → Beni aramalıydın (ama aramadın).",
+      "İzin (resmî): **May I** come in? → İçeri girebilir miyim? (resmî/kibar)",
+      "Yasak: You **must not** park here. → Buraya park etmemelisin (yasak).",
+      "Teklif/istek: **Could you** help me? / **Would you** mind opening the window? → Yardım eder misin? / Pencereyi açar mısın?",
+      "Alışkanlık (modal-less): I **used to** play tennis. → Eskiden tenis oynardım. (modal değil ama zorunluluk/alışkanlık için yakın)",
+      "Kabullenme/tahmin: That **can’t** be true. → Bu doğru olamaz (imkânsız)."
     ],
     "tips": [
       "mustn’t = yasak; don’t have to = gerek yok. Aynı şey değil.",
       "He/she/it’te modal değişmez: he can, she should, it might.",
       "Geçmiş zorunluluk: had to (must’un geçmişi yok).",
       "Tahmin gücü: must (yüksek), might/may/could (orta), can’t (imkânsız).",
-      "should have + V3 → yapılması gereken ama yapılmayan şey; must have + V3 → güçlü geçmiş çıkarım."
+      "should have + V3 → yapılması gereken ama yapılmayan şey; must have + V3 → güçlü geçmiş çıkarım.",
+      "Could/can for polite requests: Could you…? (daha kibar), Can you…? (daha günlük).",
+      "Might = may’den daha düşük olasılık; can/may izin için, might nadiren izin.",
+      "Need to = have to gibi zorunluluk; needn’t (British) / don’t need to (American) = gerek yok."
     ],
     "mistakes": [
       "Modal + to kullanmak: can to go ❌ → can go ✅",
       "mustn’t / don’t have to karışıklığı: mustn’t = yasak; don’t have to = gerek değil.",
       "Geçmişte must kullanmak: I must did ❌ → I had to do ✅",
-      "Modal + V3’yı normal geçmiş sanmak: should have go ❌ → should have gone ✅"
+      "Modal + V3’yı normal geçmiş sanmak: should have go ❌ → should have gone ✅",
+      "must have yerine had to have (çıkarım) kullanmak: He had to have left ❌ (doğal değil) → He must have left ✅",
+      "Permission için may/can farkı: May I…? (resmî), Can I…? (günlük); karışma, ama ikisi de izin."
     ],
     "note": "Modal + V1 temel kural. Geçmiş/olasılık/tahmin için have + V3 kalıplarını ezberle (should/must/might have V3)."
   }

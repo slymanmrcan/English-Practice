@@ -14,20 +14,31 @@
       "Third (farklı modal): If she had left earlier, she might have caught the bus. → Daha erken çıksaydı otobüsü yakalayabilirdi.",
       "Mixed: If I had slept more, I would be energetic now. → Daha çok uyusaydım şimdi enerjik olurdum. (geçmiş şart → şimdiki sonuç)",
       "Unless = if not: Unless you study, you won’t pass. → Çalışmazsan geçemezsin.",
-      "Inversion (resmî): Had I known, I would have called. → Bilseydim arardım."
+      "Inversion (resmî): Had I known, I would have called. → Bilseydim arardım.",
+      "Zero (alışkanlık): If I drink coffee at night, I can’t sleep. → Gece kahve içersem uyuyamam.",
+      "First (uyarı): If you touch that, you’ll get burned. → Dokunursan yanarsın.",
+      "Second (hayal): If I won the lottery, I would travel the world. → Piyango kazansam dünyayı gezerim.",
+      "Third (pişmanlık): If we had left earlier, we wouldn’t have missed the train. → Daha erken çıksaydık treni kaçırmazdık.",
+      "Mixed (geçmiş → şimdi): If you had saved money, you wouldn’t be broke now. → Para biriktirseydin şimdi parasız olmazdın.",
+      "Unless = if not: I won’t go unless you come with me. → Sen gelmezsen gitmem."
     ],
     "tips": [
       "If-clause’da gelecek zaman kullanılmaz; present simple kullanılır: If it rains, **we will** stay (ana cümle).",
       "Second conditional’da **were** her özneyle kullanılabilir: If he were here… (resmî/kibar).",
       "Third conditional’da “had” + V3; ana cümlede would/could/might + have + V3.",
       "Mixed tip: geçmişte olmadı → şimdi sonucu yok: If I had studied, I would have a better job now.",
-      "Unless = if not; though bazen daha kısıtlayıcıdır: Unless you hurry, you’ll miss the bus."
+      "Unless = if not; though bazen daha kısıtlayıcıdır: Unless you hurry, you’ll miss the bus.",
+      "Comma: If başta → virgül; if sonda → virgül yok.",
+      "Real vs unreal: present simple = gerçek/olasılık; past simple = hayal; past perfect = gerçekleşmemiş geçmiş.",
+      "Inversion formel: Should you need help… / Were I in your position… / Had I known…"
     ],
     "mistakes": [
       "If cümlesinde will kullanmak: If you **will come** ❌ → If you come ✅",
       "Second conditional’da gelecek karışıklığı: If I will have time ❌ → If I had time ✅",
       "Third conditional’da geçmiş zaman eksikliği: If I told you, I would have helped ❌ → If I had told you… ✅",
-      "Virgül: If-clause baştaysa virgül kullan; sonda ise gerekmez: If it rains, we’ll stay / We’ll stay if it rains."
+      "Virgül: If-clause baştaysa virgül kullan; sonda ise gerekmez: If it rains, we’ll stay / We’ll stay if it rains.",
+      "Unless’i ters anlamak: Unless = if not; “unless you come” = “if you don’t come”.",
+      "Were yerine was: If I was you ❌ (konuşmada duyulur ama standartta were)."
     ],
     "note": "Zaman uyumları ezber: Zero (present/present), First (present/will), Second (past/would), Third (past perfect/would have), Mixed (past perfect/would). ‘If I were you’ kalıbı kibar tavsiye için klasik bir second conditional örneğidir."
   }

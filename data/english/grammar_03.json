@@ -12,7 +12,11 @@
       "Rica/komut: \"Please send the file,\" she told me. → She told me to send the file. → “Lütfen dosyayı gönder,” dedi → Dosyayı göndermemi söyledi.",
       "Olumsuz rica: \"Don’t be late,\" he asked us. → He asked us not to be late. → “Geç kalmayın,” dedi → Geç kalmamamızı istedi.",
       "Zaman kayması: \"I did it yesterday,\" he said. → He said he had done it the day before. → “Dün yaptım,” dedi → Bir gün önce yaptığını söyledi.",
-      "Şimdiki sürekli → geçmiş sürekli: \"I am reading,\" she said. → She said she was reading. → “Okuyorum,” dedi → Okumakta olduğunu söyledi."
+      "Şimdiki sürekli → geçmiş sürekli: \"I am reading,\" she said. → She said she was reading. → “Okuyorum,” dedi → Okumakta olduğunu söyledi.",
+      "Gelecek → would: \"I will call you,\" he said. → He said he would call me. → Arayacağını söyledi.",
+      "Modal kayması: \"I can help,\" she said. → She said she could help. → Yardım edebileceğini söyledi.",
+      "Soru yardımcı fiili kalkar: \"Did you finish?\" → He asked if I had finished. → Bitirip bitirmediğimi sordu.",
+      "Wh soru: \"What time are you leaving?\" → He asked what time I was leaving. → Saat kaçta çıkacağımı sordu."
     ],
     "tips": [
       "say + cümle; tell + kişi + cümle: He said he was late. / He told me he was late.",
@@ -20,13 +24,18 @@
       "Wh-soruları: ask + wh-word + cümle; soru kelimesi kalır, sıralama düz cümle olur.",
       "Requests/commands: tell/ask + nesne + to + V; olumsuz için not to + V.",
       "Zaman kayması (backshift) sık görülür: present simple → past simple; will → would; can → could; today → that day; tomorrow → the next/following day.",
-      "Eğer aktarılan cümle hâlâ geçerliyse backshift yapmak zorunlu değil: The earth is round → He said the earth is round."
+      "Eğer aktarılan cümle hâlâ geçerliyse backshift yapmak zorunlu değil: The earth is round → He said the earth is round.",
+      "Tell her… / Ask him… gibi emirleri to’lu yapı ile aktar: He told her to wait.",
+      "that çoğu zaman atlanabilir, özellikle konuşmada.",
+      "Soru cümlelerinde soru işareti kalkar, düz cümle noktalaması kullan."
     ],
     "mistakes": [
       "tell’ den sonra nesne unutmak: He told that he was late ❌ → He told me that he was late ✅",
       "Soru sırasını korumak: He asked where do I live ❌ → He asked where I lived ✅",
       "‘to’ eksikliği: He told me send it ❌ → He told me to send it ✅",
-      "Zaman belirteçlerini düz bırakmak: tomorrow ❌ → the next/following day ✅ (raporda)"
+      "Zaman belirteçlerini düz bırakmak: tomorrow ❌ → the next/following day ✅ (raporda)",
+      "Modal kaydırmamak: He said he will come ❌ → He said he would come ✅",
+      "Soru kelimesini düşürmek: He asked I was late ❌ → He asked why I was late ✅"
     ],
     "note": "Yaygın zaman/zarf dönüşümleri: today → that day; yesterday → the day before; tomorrow → the next/following day; now → then; last week → the previous week; next week → the following week; here → there; this → that. Duruma göre anlam hâlâ geçerliyse kaydırma yapmayabilirsin."
   }

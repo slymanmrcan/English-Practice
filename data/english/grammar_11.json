@@ -12,20 +12,30 @@
       "Yer: This is the café **where** we met. → Buluştuğumuz kafe.",
       "Nesne konumu (pronoun düşebilir): The movie (that) I watched was amazing. → İzlediğim film harikaydı.",
       "Non-defining, which ile tüm cümleye referans: She was late, **which** surprised me. → Geç kaldı, bu da beni şaşırttı.",
-      "Resmî olmayan kısaltma: The guy you met yesterday (that/who düşürülmüş) is my cousin."
+      "Resmî olmayan kısaltma: The guy you met yesterday (that/who düşürülmüş) is my cousin.",
+      "Zaman/yer yerine which: Tuesday is the day **when** we meet → the day **which/that** we meet on.",
+      "People/thing karışık: She is the person **who/that** helped me. → Bana yardım eden kişi.",
+      "whose + noun: the company **whose** products we sell → ürünlerini sattığımız şirket.",
+      "where yerine in which: the room **in which** we worked / the room **where** we worked.",
+      "Non-defining şehir/ülke: Paris, **which** is my favorite city, is crowded. → Paris, en sevdiğim şehir, kalabalık."
     ],
     "tips": [
       "Non-defining (virgüllü) yan cümlede **that** kullanılmaz; who/which/whose/where kullan.",
       "Defining’de virgül yok; bilgi cümlenin anlamı için gerekli.",
       "Nesne konumunda relative pronoun düşebilir (defining): The laptop (that) I bought…",
       "whose her zaman bir isimden önce gelir: whose car, whose idea.",
-      "where = in which/on which/at which yerine rahat kullanım."
+      "where = in which/on which/at which yerine rahat kullanım.",
+      "when = on which/at which (zaman ifade eden isimlerle): the day when…, the moment when…",
+      "Non-defining yan cümleler ekstra bilgi, çıkarıldığında ana anlam kalır; konuşma ve yazıda virgül şart.",
+      "that → only defining; which/who → defining + non-defining (non-defining’de that yok)."
     ],
     "mistakes": [
       "Non-defining’de that kullanmak: My car, that is red, ❌ → which is red ✅",
       "Virgül unutmak: My mother who is 60 is here ❌ (defining gibi anlaşılır) → My mother, who is 60, is here ✅",
       "Nesne konumunda özneyi atmak: The man which I saw he was tall ❌ → The man (whom) I saw was tall ✅",
-      "whose ile ’s karışıklığı: the man who’s car ❌ → the man whose car ✅"
+      "whose ile ’s karışıklığı: the man who’s car ❌ → the man whose car ✅",
+      "where/when yerine that: the day that we met on (defining’de ok, ama when daha doğal).",
+      "Double subject: The book which I read it was good ❌ → The book which I read was good ✅"
     ],
     "note": "Virgül kuralı anlamı değiştirir: defining (gerekli bilgi, virgülsüz) vs. non-defining (ek bilgi, virgüllü). That sadece defining’de; which/ who hem defining hem non-defining (non-defining’de that yok)."
   }

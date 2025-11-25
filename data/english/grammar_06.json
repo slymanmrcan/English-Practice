@@ -13,20 +13,29 @@
       "İkna/ayarlama: He **got me to join** the team. → Beni takıma katılmaya ikna etti.",
       "Pasif anlam: We **had the documents signed** by legal. → Belgeleri hukuk birimine imzalattık.",
       "Olumsuz: They **didn’t let me take** photos. → Fotoğraf çekmeme izin vermediler.",
-      "Soru: Where **did you get your shoes repaired**? → Ayakkabılarını nerede tamir ettirdin?"
+      "Soru: Where **did you get your shoes repaired**? → Ayakkabılarını nerede tamir ettirdin?",
+      "Hizmet + by-agent: I **had the roof repaired by** a local company. → Çatıyı yerel bir firmaya tamir ettirdim.",
+      "make vs. get: The film **made** me cry. (duyguya zorladı) / The joke **got** me to laugh. (beni güldürdü/ikna).",
+      "let ile izin: They **let us use** the studio for free. → Stüdyoyu ücretsiz kullanmamıza izin verdiler.",
+      "get someone to V (daha ikna): I **got** the team **to agree** on the deadline. → Takımı son tarihe ikna ettim."
     ],
     "tips": [
       "have/get something done → hizmet başkasına yaptırılır; yapan kişi genelde yazılmaz veya by + agent ile eklenir.",
       "make + obj + V1 (to yok); let + obj + V1 (to yok); have + obj + V1 (to yok); get + obj + to V1 (to var).",
       "“Get something done” biraz daha gayri resmi, “have something done” daha nötr/standart.",
       "Olumsuzlar normal yardımcı fiille: didn’t have/get…, don’t let…, didn’t make…",
-      "Sık kalıplar: have/get hair cut, have/get car serviced, get someone to help, make someone do, let someone go."
+      "Sık kalıplar: have/get hair cut, have/get car serviced, get someone to help, make someone do, let someone go.",
+      "make = zorlamak; let = izin; have = yaptırmak/düzenlemek; get = ikna etmek/ayarlamak (to ile).",
+      "Pasif anlam: have/get something done → özne işi yaptıran, işi yapan belirtilmeyebilir.",
+      "Soru yap: Do you **have** your taxes **done** by an accountant? → Vergini muhasebeciye yaptırıyor musun?"
     ],
     "mistakes": [
       "Yanlış to: get + obj + V1 ❌ → get + obj + **to** V1 ✅",
       "Make/let/have ile to eklemek: make him **to** go ❌ → make him go ✅",
       "Have/get something done’da fiili V2 yapmak: had my car **was washed** ❌ → had my car washed ✅",
-      "Let yerine allow/permit kullanırken prep: allow me **to** go / permit me **to** go (to gerekir)."
+      "Let yerine allow/permit kullanırken prep: allow me **to** go / permit me **to** go (to gerekir).",
+      "get ile -ed karıştırmak: got my phone **fix** ❌ → got my phone **fixed** ✅",
+      "make ile to eklemek: made me **to** stay ❌ → made me stay ✅"
     ],
     "note": "Ettirgenlik anlamı: işi başkası yapar. ‘Have/get something done’ yapısında esas özne işi yaptıran kişidir. make/let/have/get + obj + V1 kalıplarını to kullanımıyla ezberle."
   }

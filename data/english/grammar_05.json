@@ -13,20 +13,30 @@
       "Preposition + wh-clause: I’m interested in **what you said**. → Söylediklerine ilgi duyuyorum.",
       "Belirsizlik: **What** we need is a clear plan. → İhtiyacımız olan şey net bir plan.",
       "Gerund değil, yan cümle: I’m happy **that** you came early. → Erken geldiğin için mutluyum.",
-      "Gelecek ifade, present form: I’m sure **she will call**. / I’m sure **she’ll call**. → Arayacağından eminim."
+      "Gelecek ifade, present form: I’m sure **she will call**. / I’m sure **she’ll call**. → Arayacağından eminim.",
+      "Noun clause as complement: The idea is **that we start early**. → Fikir, erken başlamamız.",
+      "After be unsure/unclear: I’m not sure **why he left**. → Neden gittiğinden emin değilim.",
+      "Reporting thoughts: She wondered **if they would agree**. → Kabul edip etmeyeceklerini merak etti.",
+      "After adjectives: I’m glad **that you’re here**. → Burada olmana sevindim.",
+      "What/where + to V (kısa yapı): I don’t know **what to do**. → Ne yapacağımı bilmiyorum."
     ],
     "tips": [
       "Nesne konumunda ‘that’ genelde atlanabilir; özne konumunda genelde yazılır: That she left early was unexpected.",
       "Wh-clause’larda soru kelimesi kalır ama fiil sırası düz cümle olur: where she is (bitti) → **is she** ❌",
       "If/whether: resmi yazıda often ‘whether’; “or not” gerekiyorsa whether … or not / if … or not.",
       "After be sure / certain / happy / glad / sorry gibi duygular: that-clause.",
-      "Preposition + wh-clause: about what…, in what…, with whom…"
+      "Preposition + wh-clause: about what…, in what…, with whom…",
+      "Kısa wh + to V yapıları konuşmada yaygın: what to do, where to go, how to start.",
+      "that’ı atladığında anlam karışmıyorsa sorun yok; resmî yazıda eklemek daha net.",
+      "Noun clause cümlede isim gibi: test etmek için ‘something’ ile değiştir (I know something)."
     ],
     "mistakes": [
       "Soru sırasını korumak: I don’t know **where does she live** ❌ → where she lives ✅",
       "If/whether yerine direkt “or not” bağlamak: He asked or not I was free ❌ → He asked **if** I was free ✅",
       "Özne konumunda ‘that’ atlamak yazıda karışıklık yaratabilir: That she failed surprised us ✅",
-      "İki kez ‘that’ yazmak: I think that that is wrong → ikinci ‘that’ anlamlı mı kontrol et, gerekirse yaz."
+      "İki kez ‘that’ yazmak: I think that that is wrong → ikinci ‘that’ anlamlı mı kontrol et, gerekirse yaz.",
+      "Wh kelimesini düşürmek: I don’t know **she is coming** ❌ → I don’t know **if/that she is coming** ✅",
+      "wh + to V yerine soru sırası: I don’t know how should I start ❌ → how to start ✅"
     ],
     "note": "Noun clause = isim gibi davranır (özne, nesne, tamamlayıcı). Sıra her zaman düz cümledir; soru kelimesi varsa başta kalır, fiil yer değiştirmez."
   }

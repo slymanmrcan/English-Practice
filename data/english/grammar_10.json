@@ -13,20 +13,30 @@
       "Stop: She stopped **smoking**. (Sigara içmeyi bıraktı.) / She stopped **to smoke**. (İçmek için durdu.)",
       "Try: Try **restarting** your laptop. (Deneme amaçlı eylem) / Try **to restart** your laptop. (Çaba; belki zor).",
       "Regret: I regret **saying** that. (Söylediğime pişmanım.) / I regret **to say** this, but… (Üzülerek söylüyorum ki…).",
-      "Mean: This will mean **working** late. (Geç kalmak anlamına gelir.) / I meant **to call** you. (Aramayı amaçladım.)"
+      "Mean: This will mean **working** late. (Geç kalmak anlamına gelir.) / I meant **to call** you. (Aramayı amaçladım.)",
+      "Fancy/avoid/keep: Do you fancy **going** out? / Keep **working** till 6. → Çıkmak ister misin? / 6’ya kadar çalışmaya devam et.",
+      "Ask/tell + obj + to V: She told me **to wait**. → Beklememi söyledi.",
+      "let/make + V1: Let him **go**, make him **study**. → Gitmesine izin ver, çalışmaya zorla.",
+      "like/love/hate + V-ing or to V: I like **swimming** / to **swim**. (anlam benzer, V-ing daha genel).",
+      "begin/start/continue + V-ing or to V (anlam aynı): It started **to rain** / **raining**."
     ],
     "tips": [
       "Bazı fiiller gerund alır (enjoy, avoid, keep…), bazıları infinitive (want, hope, plan…). Kısa listeyi ezberle.",
       "Cümlede özne olarak gerund sık: **Swimming** is relaxing.",
       "fiil + nesne + to V: want/need/ask **someone to do**; tell/remind/teach **someone to do**.",
       "V-ing / to V farkı anlamı değiştirir: remember/forget/stop/try/mean/regret.",
-      "Phrasal tip: ‘go’ + V-ing aktiviteler için: go shopping, go running."
+      "Phrasal tip: ‘go’ + V-ing aktiviteler için: go shopping, go running.",
+      "Gerund çektiği bilinen fiiller: admit, avoid, consider, deny, enjoy, finish, imagine, mind, practice, suggest.",
+      "Infinitive çektiği fiiller: agree, decide, expect, hope, learn, need, plan, promise, refuse, want, would like.",
+      "Causative ve izin/zorlama fiilleri: let/make + V1; have + obj + V1; get + obj + to V."
     ],
     "mistakes": [
       "Yanlış kalıp: suggest **to go** ❌ → suggest **going** ✅",
       "İki ‘to’: want to to go ❌ → want to go ✅",
       "Stop ile anlam karışıklığı: stopped to smoke vs. stopped smoking.",
-      "Remember/forget geçmiş/gelecek farkını karıştırmak: remember to do (gelecek), remember doing (geçmiş)."
+      "Remember/forget geçmiş/gelecek farkını karıştırmak: remember to do (gelecek), remember doing (geçmiş).",
+      "make/let ile to eklemek: make him **to** study ❌ → make him study ✅ / let him to go ❌ → let him go ✅",
+      "like + V-ing/to V farkını zorlamak: I like to swim = I like swimming (genelde aynı, küçük vurgu farkı)."
     ],
     "note": "En pratik yöntem: fiil listelerini ezberle (gerund seti, infinitive seti) ve anlam değiştiren fiillerin iki kullanımı için birer örnek akılda tut."
   }

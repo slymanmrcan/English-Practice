@@ -14,20 +14,30 @@
       "Mevsim cümlesi: It gets dark early in winter. → Kışın erken kararır.",
       "Özel gün: My birthday is on 3rd May. → Doğum günüm 3 Mayıs’ta.",
       "Ay + gün okunuş: March 15th → March fifteenth (US: March 15th; UK: 15 March).",
-      "Kısaltmalar: Mon, Tue/Tues, Wed, Thu/Thurs, Fri, Sat, Sun; Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep/Sep., Oct, Nov, Dec."
+      "Kısaltmalar: Mon, Tue/Tues, Wed, Thu/Thurs, Fri, Sat, Sun; Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep/Sep., Oct, Nov, Dec.",
+      "Mevsim + etkinlik: We go hiking in **spring**. → İlkbaharda yürüyüşe gideriz.",
+      "Yılbaşı/bayram: on New Year’s Eve, at Christmas, during Ramadan. → Yılbaşı arifesinde, Noel’de, Ramazan boyunca.",
+      "Tatil planı: I’m taking a week off **in July**. → Temmuz’da bir hafta izin alıyorum.",
+      "Hava durumu mevsimi: Summers are **hot and humid** here. → Burada yazlar sıcak ve nemli.",
+      "Haftalık rutin: I work from home **on Fridays**. → Cuma günleri evden çalışırım."
     ],
     "tips": [
       "Gün ve aylar İngilizce’de her zaman büyük harfle başlar; mevsimler küçük harfle yazılır.",
       "US: on the weekend; UK: at the weekend. (Cümlelerine göre seç.)",
       "Autumn = Fall (US); ikisi de ‘sonbahar’.",
       "Haftalık tekrar: every Monday (her Pazartesi), on Mondays (Pazartesileri).",
-      "Preposition kısaları: on + gün/tam tarih; in + ay/yıl/mevsim; at + the weekend."
+      "Preposition kısaları: on + gün/tam tarih; in + ay/yıl/mevsim; at + the weekend.",
+      "Kısaltmalar konuşmada okunur: Mon (Monday), Thurs (Thursday), Dec (December).",
+      "Tarih yazımı US vs UK: US → month/day/year; UK → day/month/year.",
+      "“In the morning/afternoon/evening” / “at night”: gündüz in, gece at."
     ],
     "mistakes": [
       "Baş harfi küçük yazmak: monday ❌ → Monday ✅",
       "Mevsimleri büyük yazmak: Winter ❌ → winter ✅",
       "Tarih edatını karıştırmak: in Monday ❌ → on Monday ✅",
-      "Fall/autumn karışıklığı: sadece biri yaz; fall (US), autumn (UK)."
+      "Fall/autumn karışıklığı: sadece biri yaz; fall (US), autumn (UK).",
+      "Hafta sonu edatı: in the weekend ❌ → on/at the weekend ✅",
+      "Ay + gün karışıklığı: in 3 May ❌ → on 3 May ✅"
     ],
     "note": "Tarihlerde sıra sayıları söylenir: 1st (first), 2nd (second), 3rd (third), 4th (fourth)... ABD’de ay-gün-yıl, İngiltere’de gün-ay-yıl düzeni yaygın."
   }
