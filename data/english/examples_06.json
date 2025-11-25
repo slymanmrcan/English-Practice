@@ -1,0 +1,1402 @@
+[
+  {
+    "topic": "Morning Routine",
+    "level": "B1",
+    "sentence": "Then I checked my phone and saw three new messages.",
+    "tr": "Sonra telefonuma baktım ve üç yeni mesaj gördüm.",
+    "note": "Sequence with then."
+  },
+  {
+    "topic": "Commute",
+    "level": "B1",
+    "sentence": "Suddenly, the lights went out during the meeting.",
+    "tr": "Aniden, toplantı sırasında ışıklar söndü.",
+    "note": "Suddenly for surprise."
+  },
+  {
+    "topic": "Office Arrival",
+    "level": "B1",
+    "sentence": "Because the bus was late, I took a taxi to arrive on time.",
+    "tr": "Otobüs geç geldiği için zamanında varmak için taksiye bindim.",
+    "note": "because for reason."
+  },
+  {
+    "topic": "Team Briefing",
+    "level": "B1",
+    "sentence": "We missed the train, so we waited for the next one.",
+    "tr": "Treni kaçırdık, bu yüzden bir sonrakini bekledik.",
+    "note": "so + result."
+  },
+  {
+    "topic": "Coffee Break",
+    "level": "B1",
+    "sentence": "After I finished the report, I sent it to my manager.",
+    "tr": "Raporu bitirdikten sonra yöneticime gönderdim.",
+    "note": "After + clause."
+  },
+  {
+    "topic": "Unexpected Email",
+    "level": "B1",
+    "sentence": "Before leaving the house, I checked the weather.",
+    "tr": "Evden çıkmadan önce havayı kontrol ettim.",
+    "note": "Before + -ing/ clause."
+  },
+  {
+    "topic": "Urgent Call",
+    "level": "B1",
+    "sentence": "While we were eating, my friend told a funny story.",
+    "tr": "Biz yemek yerken arkadaşım komik bir hikaye anlattı.",
+    "note": "while + past continuous."
+  },
+  {
+    "topic": "Problem Ticket",
+    "level": "B1",
+    "sentence": "If we leave now, we will catch the early train.",
+    "tr": "Şimdi çıkarsak erken treni yakalarız.",
+    "note": "First conditional."
+  },
+  {
+    "topic": "Quick Fix",
+    "level": "B2",
+    "sentence": "We would meet at the same cafe every Friday night.",
+    "tr": "Her Cuma gecesi aynı kafede buluşurduk.",
+    "note": "would for past habit."
+  },
+  {
+    "topic": "Client Visit",
+    "level": "B2",
+    "sentence": "I wish I had brought an umbrella; it started raining hard.",
+    "tr": "Keşke şemsiye getirseydim; şiddetli yağmur başladı.",
+    "note": "wish + had + V3."
+  },
+  {
+    "topic": "Presentation Day",
+    "level": "B1",
+    "sentence": "Then I checked my phone and saw three new messages.",
+    "tr": "Sonra telefonuma baktım ve üç yeni mesaj gördüm.",
+    "note": "Sequence with then."
+  },
+  {
+    "topic": "Feedback Round",
+    "level": "B1",
+    "sentence": "Suddenly, the lights went out during the meeting.",
+    "tr": "Aniden, toplantı sırasında ışıklar söndü.",
+    "note": "Suddenly for surprise."
+  },
+  {
+    "topic": "Lunch Break",
+    "level": "B1",
+    "sentence": "Because the bus was late, I took a taxi to arrive on time.",
+    "tr": "Otobüs geç geldiği için zamanında varmak için taksiye bindim.",
+    "note": "because for reason."
+  },
+  {
+    "topic": "Afternoon Slump",
+    "level": "B1",
+    "sentence": "We missed the train, so we waited for the next one.",
+    "tr": "Treni kaçırdık, bu yüzden bir sonrakini bekledik.",
+    "note": "so + result."
+  },
+  {
+    "topic": "Brainstorming",
+    "level": "B1",
+    "sentence": "After I finished the report, I sent it to my manager.",
+    "tr": "Raporu bitirdikten sonra yöneticime gönderdim.",
+    "note": "After + clause."
+  },
+  {
+    "topic": "Whiteboard Session",
+    "level": "B1",
+    "sentence": "Before leaving the house, I checked the weather.",
+    "tr": "Evden çıkmadan önce havayı kontrol ettim.",
+    "note": "Before + -ing/ clause."
+  },
+  {
+    "topic": "Prototype Demo",
+    "level": "B1",
+    "sentence": "While we were eating, my friend told a funny story.",
+    "tr": "Biz yemek yerken arkadaşım komik bir hikaye anlattı.",
+    "note": "while + past continuous."
+  },
+  {
+    "topic": "Bug Triage",
+    "level": "B1",
+    "sentence": "If we leave now, we will catch the early train.",
+    "tr": "Şimdi çıkarsak erken treni yakalarız.",
+    "note": "First conditional."
+  },
+  {
+    "topic": "Hotfix",
+    "level": "B2",
+    "sentence": "We would meet at the same cafe every Friday night.",
+    "tr": "Her Cuma gecesi aynı kafede buluşurduk.",
+    "note": "would for past habit."
+  },
+  {
+    "topic": "Code Review",
+    "level": "B2",
+    "sentence": "I wish I had brought an umbrella; it started raining hard.",
+    "tr": "Keşke şemsiye getirseydim; şiddetli yağmur başladı.",
+    "note": "wish + had + V3."
+  },
+  {
+    "topic": "Design Review",
+    "level": "B1",
+    "sentence": "Then I checked my phone and saw three new messages.",
+    "tr": "Sonra telefonuma baktım ve üç yeni mesaj gördüm.",
+    "note": "Sequence with then."
+  },
+  {
+    "topic": "Budget Chat",
+    "level": "B1",
+    "sentence": "Suddenly, the lights went out during the meeting.",
+    "tr": "Aniden, toplantı sırasında ışıklar söndü.",
+    "note": "Suddenly for surprise."
+  },
+  {
+    "topic": "Late Meeting",
+    "level": "B1",
+    "sentence": "Because the bus was late, I took a taxi to arrive on time.",
+    "tr": "Otobüs geç geldiği için zamanında varmak için taksiye bindim.",
+    "note": "because for reason."
+  },
+  {
+    "topic": "Deadline Day",
+    "level": "B1",
+    "sentence": "We missed the train, so we waited for the next one.",
+    "tr": "Treni kaçırdık, bu yüzden bir sonrakini bekledik.",
+    "note": "so + result."
+  },
+  {
+    "topic": "Overtime",
+    "level": "B1",
+    "sentence": "After I finished the report, I sent it to my manager.",
+    "tr": "Raporu bitirdikten sonra yöneticime gönderdim.",
+    "note": "After + clause."
+  },
+  {
+    "topic": "Wrap-up",
+    "level": "B1",
+    "sentence": "Before leaving the house, I checked the weather.",
+    "tr": "Evden çıkmadan önce havayı kontrol ettim.",
+    "note": "Before + -ing/ clause."
+  },
+  {
+    "topic": "Daily Summary",
+    "level": "B1",
+    "sentence": "While we were eating, my friend told a funny story.",
+    "tr": "Biz yemek yerken arkadaşım komik bir hikaye anlattı.",
+    "note": "while + past continuous."
+  },
+  {
+    "topic": "Retro Note",
+    "level": "B1",
+    "sentence": "If we leave now, we will catch the early train.",
+    "tr": "Şimdi çıkarsak erken treni yakalarız.",
+    "note": "First conditional."
+  },
+  {
+    "topic": "Weekend Plan",
+    "level": "B2",
+    "sentence": "We would meet at the same cafe every Friday night.",
+    "tr": "Her Cuma gecesi aynı kafede buluşurduk.",
+    "note": "would for past habit."
+  },
+  {
+    "topic": "Grocery Run",
+    "level": "B2",
+    "sentence": "I wish I had brought an umbrella; it started raining hard.",
+    "tr": "Keşke şemsiye getirseydim; şiddetli yağmur başladı.",
+    "note": "wish + had + V3."
+  },
+  {
+    "topic": "Family Dinner",
+    "level": "B1",
+    "sentence": "Then I checked my phone and saw three new messages.",
+    "tr": "Sonra telefonuma baktım ve üç yeni mesaj gördüm.",
+    "note": "Sequence with then."
+  },
+  {
+    "topic": "Movie Night",
+    "level": "B1",
+    "sentence": "Suddenly, the lights went out during the meeting.",
+    "tr": "Aniden, toplantı sırasında ışıklar söndü.",
+    "note": "Suddenly for surprise."
+  },
+  {
+    "topic": "Exercise Plan",
+    "level": "B1",
+    "sentence": "Because the bus was late, I took a taxi to arrive on time.",
+    "tr": "Otobüs geç geldiği için zamanında varmak için taksiye bindim.",
+    "note": "because for reason."
+  },
+  {
+    "topic": "Evening Walk",
+    "level": "B1",
+    "sentence": "We missed the train, so we waited for the next one.",
+    "tr": "Treni kaçırdık, bu yüzden bir sonrakini bekledik.",
+    "note": "so + result."
+  },
+  {
+    "topic": "Book Club",
+    "level": "B1",
+    "sentence": "After I finished the report, I sent it to my manager.",
+    "tr": "Raporu bitirdikten sonra yöneticime gönderdim.",
+    "note": "After + clause."
+  },
+  {
+    "topic": "Language Practice",
+    "level": "B1",
+    "sentence": "Before leaving the house, I checked the weather.",
+    "tr": "Evden çıkmadan önce havayı kontrol ettim.",
+    "note": "Before + -ing/ clause."
+  },
+  {
+    "topic": "Online Course",
+    "level": "B1",
+    "sentence": "While we were eating, my friend told a funny story.",
+    "tr": "Biz yemek yerken arkadaşım komik bir hikaye anlattı.",
+    "note": "while + past continuous."
+  },
+  {
+    "topic": "Podcast Drive",
+    "level": "B1",
+    "sentence": "If we leave now, we will catch the early train.",
+    "tr": "Şimdi çıkarsak erken treni yakalarız.",
+    "note": "First conditional."
+  },
+  {
+    "topic": "Laundry Day",
+    "level": "B2",
+    "sentence": "We would meet at the same cafe every Friday night.",
+    "tr": "Her Cuma gecesi aynı kafede buluşurduk.",
+    "note": "would for past habit."
+  },
+  {
+    "topic": "Cleaning Sprint",
+    "level": "B2",
+    "sentence": "I wish I had brought an umbrella; it started raining hard.",
+    "tr": "Keşke şemsiye getirseydim; şiddetli yağmur başladı.",
+    "note": "wish + had + V3."
+  },
+  {
+    "topic": "Cooking Test",
+    "level": "B1",
+    "sentence": "Then I checked my phone and saw three new messages.",
+    "tr": "Sonra telefonuma baktım ve üç yeni mesaj gördüm.",
+    "note": "Sequence with then."
+  },
+  {
+    "topic": "Recipe Fail",
+    "level": "B1",
+    "sentence": "Suddenly, the lights went out during the meeting.",
+    "tr": "Aniden, toplantı sırasında ışıklar söndü.",
+    "note": "Suddenly for surprise."
+  },
+  {
+    "topic": "Recipe Win",
+    "level": "B1",
+    "sentence": "Because the bus was late, I took a taxi to arrive on time.",
+    "tr": "Otobüs geç geldiği için zamanında varmak için taksiye bindim.",
+    "note": "because for reason."
+  },
+  {
+    "topic": "Unexpected Guest",
+    "level": "B1",
+    "sentence": "We missed the train, so we waited for the next one.",
+    "tr": "Treni kaçırdık, bu yüzden bir sonrakini bekledik.",
+    "note": "so + result."
+  },
+  {
+    "topic": "Gift Shopping",
+    "level": "B1",
+    "sentence": "After I finished the report, I sent it to my manager.",
+    "tr": "Raporu bitirdikten sonra yöneticime gönderdim.",
+    "note": "After + clause."
+  },
+  {
+    "topic": "Delayed Delivery",
+    "level": "B1",
+    "sentence": "Before leaving the house, I checked the weather.",
+    "tr": "Evden çıkmadan önce havayı kontrol ettim.",
+    "note": "Before + -ing/ clause."
+  },
+  {
+    "topic": "Repair Visit",
+    "level": "B1",
+    "sentence": "While we were eating, my friend told a funny story.",
+    "tr": "Biz yemek yerken arkadaşım komik bir hikaye anlattı.",
+    "note": "while + past continuous."
+  },
+  {
+    "topic": "Power Outage",
+    "level": "B1",
+    "sentence": "If we leave now, we will catch the early train.",
+    "tr": "Şimdi çıkarsak erken treni yakalarız.",
+    "note": "First conditional."
+  },
+  {
+    "topic": "Rainy Day",
+    "level": "B2",
+    "sentence": "We would meet at the same cafe every Friday night.",
+    "tr": "Her Cuma gecesi aynı kafede buluşurduk.",
+    "note": "would for past habit."
+  },
+  {
+    "topic": "Sunny Day",
+    "level": "B2",
+    "sentence": "I wish I had brought an umbrella; it started raining hard.",
+    "tr": "Keşke şemsiye getirseydim; şiddetli yağmur başladı.",
+    "note": "wish + had + V3."
+  },
+  {
+    "topic": "Storm Warning",
+    "level": "B1",
+    "sentence": "Then I checked my phone and saw three new messages.",
+    "tr": "Sonra telefonuma baktım ve üç yeni mesaj gördüm.",
+    "note": "Sequence with then."
+  },
+  {
+    "topic": "Train Delay",
+    "level": "B1",
+    "sentence": "Suddenly, the lights went out during the meeting.",
+    "tr": "Aniden, toplantı sırasında ışıklar söndü.",
+    "note": "Suddenly for surprise."
+  },
+  {
+    "topic": "Flight Change",
+    "level": "B1",
+    "sentence": "Because the bus was late, I took a taxi to arrive on time.",
+    "tr": "Otobüs geç geldiği için zamanında varmak için taksiye bindim.",
+    "note": "because for reason."
+  },
+  {
+    "topic": "Hotel Check-in",
+    "level": "B1",
+    "sentence": "We missed the train, so we waited for the next one.",
+    "tr": "Treni kaçırdık, bu yüzden bir sonrakini bekledik.",
+    "note": "so + result."
+  },
+  {
+    "topic": "Lost Luggage",
+    "level": "B1",
+    "sentence": "After I finished the report, I sent it to my manager.",
+    "tr": "Raporu bitirdikten sonra yöneticime gönderdim.",
+    "note": "After + clause."
+  },
+  {
+    "topic": "City Tour",
+    "level": "B1",
+    "sentence": "Before leaving the house, I checked the weather.",
+    "tr": "Evden çıkmadan önce havayı kontrol ettim.",
+    "note": "Before + -ing/ clause."
+  },
+  {
+    "topic": "Museum Visit",
+    "level": "B1",
+    "sentence": "While we were eating, my friend told a funny story.",
+    "tr": "Biz yemek yerken arkadaşım komik bir hikaye anlattı.",
+    "note": "while + past continuous."
+  },
+  {
+    "topic": "Cafe Study",
+    "level": "B1",
+    "sentence": "If we leave now, we will catch the early train.",
+    "tr": "Şimdi çıkarsak erken treni yakalarız.",
+    "note": "First conditional."
+  },
+  {
+    "topic": "Park Run",
+    "level": "B2",
+    "sentence": "We would meet at the same cafe every Friday night.",
+    "tr": "Her Cuma gecesi aynı kafede buluşurduk.",
+    "note": "would for past habit."
+  },
+  {
+    "topic": "Birthday Prep",
+    "level": "B2",
+    "sentence": "I wish I had brought an umbrella; it started raining hard.",
+    "tr": "Keşke şemsiye getirseydim; şiddetli yağmur başladı.",
+    "note": "wish + had + V3."
+  },
+  {
+    "topic": "Surprise Party",
+    "level": "B1",
+    "sentence": "Then I checked my phone and saw three new messages.",
+    "tr": "Sonra telefonuma baktım ve üç yeni mesaj gördüm.",
+    "note": "Sequence with then."
+  },
+  {
+    "topic": "Concert Night",
+    "level": "B1",
+    "sentence": "Suddenly, the lights went out during the meeting.",
+    "tr": "Aniden, toplantı sırasında ışıklar söndü.",
+    "note": "Suddenly for surprise."
+  },
+  {
+    "topic": "Sports Match",
+    "level": "B1",
+    "sentence": "Because the bus was late, I took a taxi to arrive on time.",
+    "tr": "Otobüs geç geldiği için zamanında varmak için taksiye bindim.",
+    "note": "because for reason."
+  },
+  {
+    "topic": "Team Victory",
+    "level": "B1",
+    "sentence": "We missed the train, so we waited for the next one.",
+    "tr": "Treni kaçırdık, bu yüzden bir sonrakini bekledik.",
+    "note": "so + result."
+  },
+  {
+    "topic": "Team Loss",
+    "level": "B1",
+    "sentence": "After I finished the report, I sent it to my manager.",
+    "tr": "Raporu bitirdikten sonra yöneticime gönderdim.",
+    "note": "After + clause."
+  },
+  {
+    "topic": "Photo Shoot",
+    "level": "B1",
+    "sentence": "Before leaving the house, I checked the weather.",
+    "tr": "Evden çıkmadan önce havayı kontrol ettim.",
+    "note": "Before + -ing/ clause."
+  },
+  {
+    "topic": "Social Post",
+    "level": "B1",
+    "sentence": "While we were eating, my friend told a funny story.",
+    "tr": "Biz yemek yerken arkadaşım komik bir hikaye anlattı.",
+    "note": "while + past continuous."
+  },
+  {
+    "topic": "Streaming Night",
+    "level": "B1",
+    "sentence": "If we leave now, we will catch the early train.",
+    "tr": "Şimdi çıkarsak erken treni yakalarız.",
+    "note": "First conditional."
+  },
+  {
+    "topic": "Game Night",
+    "level": "B2",
+    "sentence": "We would meet at the same cafe every Friday night.",
+    "tr": "Her Cuma gecesi aynı kafede buluşurduk.",
+    "note": "would for past habit."
+  },
+  {
+    "topic": "Board Game",
+    "level": "B2",
+    "sentence": "I wish I had brought an umbrella; it started raining hard.",
+    "tr": "Keşke şemsiye getirseydim; şiddetli yağmur başladı.",
+    "note": "wish + had + V3."
+  },
+  {
+    "topic": "Volunteer Shift",
+    "level": "B1",
+    "sentence": "Then I checked my phone and saw three new messages.",
+    "tr": "Sonra telefonuma baktım ve üç yeni mesaj gördüm.",
+    "note": "Sequence with then."
+  },
+  {
+    "topic": "Charity Run",
+    "level": "B1",
+    "sentence": "Suddenly, the lights went out during the meeting.",
+    "tr": "Aniden, toplantı sırasında ışıklar söndü.",
+    "note": "Suddenly for surprise."
+  },
+  {
+    "topic": "Doctor Visit",
+    "level": "B1",
+    "sentence": "Because the bus was late, I took a taxi to arrive on time.",
+    "tr": "Otobüs geç geldiği için zamanında varmak için taksiye bindim.",
+    "note": "because for reason."
+  },
+  {
+    "topic": "Pharmacy Run",
+    "level": "B1",
+    "sentence": "We missed the train, so we waited for the next one.",
+    "tr": "Treni kaçırdık, bu yüzden bir sonrakini bekledik.",
+    "note": "so + result."
+  },
+  {
+    "topic": "Sick Day",
+    "level": "B1",
+    "sentence": "After I finished the report, I sent it to my manager.",
+    "tr": "Raporu bitirdikten sonra yöneticime gönderdim.",
+    "note": "After + clause."
+  },
+  {
+    "topic": "Back to Work",
+    "level": "B1",
+    "sentence": "Before leaving the house, I checked the weather.",
+    "tr": "Evden çıkmadan önce havayı kontrol ettim.",
+    "note": "Before + -ing/ clause."
+  },
+  {
+    "topic": "Mentor Chat",
+    "level": "B1",
+    "sentence": "While we were eating, my friend told a funny story.",
+    "tr": "Biz yemek yerken arkadaşım komik bir hikaye anlattı.",
+    "note": "while + past continuous."
+  },
+  {
+    "topic": "Career Talk",
+    "level": "B1",
+    "sentence": "If we leave now, we will catch the early train.",
+    "tr": "Şimdi çıkarsak erken treni yakalarız.",
+    "note": "First conditional."
+  },
+  {
+    "topic": "Interview Prep",
+    "level": "B2",
+    "sentence": "We would meet at the same cafe every Friday night.",
+    "tr": "Her Cuma gecesi aynı kafede buluşurduk.",
+    "note": "would for past habit."
+  },
+  {
+    "topic": "Interview Day",
+    "level": "B2",
+    "sentence": "I wish I had brought an umbrella; it started raining hard.",
+    "tr": "Keşke şemsiye getirseydim; şiddetli yağmur başladı.",
+    "note": "wish + had + V3."
+  },
+  {
+    "topic": "Offer Letter",
+    "level": "B1",
+    "sentence": "Then I checked my phone and saw three new messages.",
+    "tr": "Sonra telefonuma baktım ve üç yeni mesaj gördüm.",
+    "note": "Sequence with then."
+  },
+  {
+    "topic": "Negotiation",
+    "level": "B1",
+    "sentence": "Suddenly, the lights went out during the meeting.",
+    "tr": "Aniden, toplantı sırasında ışıklar söndü.",
+    "note": "Suddenly for surprise."
+  },
+  {
+    "topic": "First Day",
+    "level": "B1",
+    "sentence": "Because the bus was late, I took a taxi to arrive on time.",
+    "tr": "Otobüs geç geldiği için zamanında varmak için taksiye bindim.",
+    "note": "because for reason."
+  },
+  {
+    "topic": "Onboarding Tour",
+    "level": "B1",
+    "sentence": "We missed the train, so we waited for the next one.",
+    "tr": "Treni kaçırdık, bu yüzden bir sonrakini bekledik.",
+    "note": "so + result."
+  },
+  {
+    "topic": "New Colleague",
+    "level": "B1",
+    "sentence": "After I finished the report, I sent it to my manager.",
+    "tr": "Raporu bitirdikten sonra yöneticime gönderdim.",
+    "note": "After + clause."
+  },
+  {
+    "topic": "Welcome Lunch",
+    "level": "B1",
+    "sentence": "Before leaving the house, I checked the weather.",
+    "tr": "Evden çıkmadan önce havayı kontrol ettim.",
+    "note": "Before + -ing/ clause."
+  },
+  {
+    "topic": "Name Game",
+    "level": "B1",
+    "sentence": "While we were eating, my friend told a funny story.",
+    "tr": "Biz yemek yerken arkadaşım komik bir hikaye anlattı.",
+    "note": "while + past continuous."
+  },
+  {
+    "topic": "Desk Setup",
+    "level": "B1",
+    "sentence": "If we leave now, we will catch the early train.",
+    "tr": "Şimdi çıkarsak erken treni yakalarız.",
+    "note": "First conditional."
+  },
+  {
+    "topic": "IT Setup",
+    "level": "B2",
+    "sentence": "We would meet at the same cafe every Friday night.",
+    "tr": "Her Cuma gecesi aynı kafede buluşurduk.",
+    "note": "would for past habit."
+  },
+  {
+    "topic": "Password Reset",
+    "level": "B2",
+    "sentence": "I wish I had brought an umbrella; it started raining hard.",
+    "tr": "Keşke şemsiye getirseydim; şiddetli yağmur başladı.",
+    "note": "wish + had + V3."
+  },
+  {
+    "topic": "Access Denied",
+    "level": "B1",
+    "sentence": "Then I checked my phone and saw three new messages.",
+    "tr": "Sonra telefonuma baktım ve üç yeni mesaj gördüm.",
+    "note": "Sequence with then."
+  },
+  {
+    "topic": "New Badge",
+    "level": "B1",
+    "sentence": "Suddenly, the lights went out during the meeting.",
+    "tr": "Aniden, toplantı sırasında ışıklar söndü.",
+    "note": "Suddenly for surprise."
+  },
+  {
+    "topic": "Fire Drill",
+    "level": "B1",
+    "sentence": "Because the bus was late, I took a taxi to arrive on time.",
+    "tr": "Otobüs geç geldiği için zamanında varmak için taksiye bindim.",
+    "note": "because for reason."
+  },
+  {
+    "topic": "Security Brief",
+    "level": "B1",
+    "sentence": "We missed the train, so we waited for the next one.",
+    "tr": "Treni kaçırdık, bu yüzden bir sonrakini bekledik.",
+    "note": "so + result."
+  },
+  {
+    "topic": "Team Photo",
+    "level": "B1",
+    "sentence": "After I finished the report, I sent it to my manager.",
+    "tr": "Raporu bitirdikten sonra yöneticime gönderdim.",
+    "note": "After + clause."
+  },
+  {
+    "topic": "All-hands",
+    "level": "B1",
+    "sentence": "Before leaving the house, I checked the weather.",
+    "tr": "Evden çıkmadan önce havayı kontrol ettim.",
+    "note": "Before + -ing/ clause."
+  },
+  {
+    "topic": "Policy Update",
+    "level": "B1",
+    "sentence": "While we were eating, my friend told a funny story.",
+    "tr": "Biz yemek yerken arkadaşım komik bir hikaye anlattı.",
+    "note": "while + past continuous."
+  },
+  {
+    "topic": "Tool Migration",
+    "level": "B1",
+    "sentence": "If we leave now, we will catch the early train.",
+    "tr": "Şimdi çıkarsak erken treni yakalarız.",
+    "note": "First conditional."
+  },
+  {
+    "topic": "Data Backup",
+    "level": "B2",
+    "sentence": "We would meet at the same cafe every Friday night.",
+    "tr": "Her Cuma gecesi aynı kafede buluşurduk.",
+    "note": "would for past habit."
+  },
+  {
+    "topic": "Version Rollback",
+    "level": "B2",
+    "sentence": "I wish I had brought an umbrella; it started raining hard.",
+    "tr": "Keşke şemsiye getirseydim; şiddetli yağmur başladı.",
+    "note": "wish + had + V3."
+  },
+  {
+    "topic": "Feature Freeze",
+    "level": "B1",
+    "sentence": "Then I checked my phone and saw three new messages.",
+    "tr": "Sonra telefonuma baktım ve üç yeni mesaj gördüm.",
+    "note": "Sequence with then."
+  },
+  {
+    "topic": "Launch Party",
+    "level": "B1",
+    "sentence": "Suddenly, the lights went out during the meeting.",
+    "tr": "Aniden, toplantı sırasında ışıklar söndü.",
+    "note": "Suddenly for surprise."
+  },
+  {
+    "topic": "Patch Tuesday",
+    "level": "B1",
+    "sentence": "Because the bus was late, I took a taxi to arrive on time.",
+    "tr": "Otobüs geç geldiği için zamanında varmak için taksiye bindim.",
+    "note": "because for reason."
+  },
+  {
+    "topic": "Holiday Sale",
+    "level": "B1",
+    "sentence": "We missed the train, so we waited for the next one.",
+    "tr": "Treni kaçırdık, bu yüzden bir sonrakini bekledik.",
+    "note": "so + result."
+  },
+  {
+    "topic": "Budget Review",
+    "level": "B1",
+    "sentence": "After I finished the report, I sent it to my manager.",
+    "tr": "Raporu bitirdikten sonra yöneticime gönderdim.",
+    "note": "After + clause."
+  },
+  {
+    "topic": "Year-end Close",
+    "level": "B1",
+    "sentence": "Before leaving the house, I checked the weather.",
+    "tr": "Evden çıkmadan önce havayı kontrol ettim.",
+    "note": "Before + -ing/ clause."
+  },
+  {
+    "topic": "Tax Paper",
+    "level": "B1",
+    "sentence": "While we were eating, my friend told a funny story.",
+    "tr": "Biz yemek yerken arkadaşım komik bir hikaye anlattı.",
+    "note": "while + past continuous."
+  },
+  {
+    "topic": "Visa Renewal",
+    "level": "B1",
+    "sentence": "If we leave now, we will catch the early train.",
+    "tr": "Şimdi çıkarsak erken treni yakalarız.",
+    "note": "First conditional."
+  },
+  {
+    "topic": "Travel Packing",
+    "level": "B2",
+    "sentence": "We would meet at the same cafe every Friday night.",
+    "tr": "Her Cuma gecesi aynı kafede buluşurduk.",
+    "note": "would for past habit."
+  },
+  {
+    "topic": "Gate Change",
+    "level": "B2",
+    "sentence": "I wish I had brought an umbrella; it started raining hard.",
+    "tr": "Keşke şemsiye getirseydim; şiddetli yağmur başladı.",
+    "note": "wish + had + V3."
+  },
+  {
+    "topic": "Boarding Queue",
+    "level": "B1",
+    "sentence": "Then I checked my phone and saw three new messages.",
+    "tr": "Sonra telefonuma baktım ve üç yeni mesaj gördüm.",
+    "note": "Sequence with then."
+  },
+  {
+    "topic": "Seat Change",
+    "level": "B1",
+    "sentence": "Suddenly, the lights went out during the meeting.",
+    "tr": "Aniden, toplantı sırasında ışıklar söndü.",
+    "note": "Suddenly for surprise."
+  },
+  {
+    "topic": "Hotel Upgrade",
+    "level": "B1",
+    "sentence": "Because the bus was late, I took a taxi to arrive on time.",
+    "tr": "Otobüs geç geldiği için zamanında varmak için taksiye bindim.",
+    "note": "because for reason."
+  },
+  {
+    "topic": "Late Checkout",
+    "level": "B1",
+    "sentence": "We missed the train, so we waited for the next one.",
+    "tr": "Treni kaçırdık, bu yüzden bir sonrakini bekledik.",
+    "note": "so + result."
+  },
+  {
+    "topic": "Early Flight",
+    "level": "B1",
+    "sentence": "After I finished the report, I sent it to my manager.",
+    "tr": "Raporu bitirdikten sonra yöneticime gönderdim.",
+    "note": "After + clause."
+  },
+  {
+    "topic": "Jet Lag",
+    "level": "B1",
+    "sentence": "Before leaving the house, I checked the weather.",
+    "tr": "Evden çıkmadan önce havayı kontrol ettim.",
+    "note": "Before + -ing/ clause."
+  },
+  {
+    "topic": "Morning Jog",
+    "level": "B1",
+    "sentence": "While we were eating, my friend told a funny story.",
+    "tr": "Biz yemek yerken arkadaşım komik bir hikaye anlattı.",
+    "note": "while + past continuous."
+  },
+  {
+    "topic": "Neighborhood Walk",
+    "level": "B1",
+    "sentence": "If we leave now, we will catch the early train.",
+    "tr": "Şimdi çıkarsak erken treni yakalarız.",
+    "note": "First conditional."
+  },
+  {
+    "topic": "New Cafe",
+    "level": "B2",
+    "sentence": "We would meet at the same cafe every Friday night.",
+    "tr": "Her Cuma gecesi aynı kafede buluşurduk.",
+    "note": "would for past habit."
+  },
+  {
+    "topic": "Lost Phone",
+    "level": "B2",
+    "sentence": "I wish I had brought an umbrella; it started raining hard.",
+    "tr": "Keşke şemsiye getirseydim; şiddetli yağmur başladı.",
+    "note": "wish + had + V3."
+  },
+  {
+    "topic": "Found Wallet",
+    "level": "B1",
+    "sentence": "Then I checked my phone and saw three new messages.",
+    "tr": "Sonra telefonuma baktım ve üç yeni mesaj gördüm.",
+    "note": "Sequence with then."
+  },
+  {
+    "topic": "Helpful Stranger",
+    "level": "B1",
+    "sentence": "Suddenly, the lights went out during the meeting.",
+    "tr": "Aniden, toplantı sırasında ışıklar söndü.",
+    "note": "Suddenly for surprise."
+  },
+  {
+    "topic": "Street Musician",
+    "level": "B1",
+    "sentence": "Because the bus was late, I took a taxi to arrive on time.",
+    "tr": "Otobüs geç geldiği için zamanında varmak için taksiye bindim.",
+    "note": "because for reason."
+  },
+  {
+    "topic": "Bookstore Find",
+    "level": "B1",
+    "sentence": "We missed the train, so we waited for the next one.",
+    "tr": "Treni kaçırdık, bu yüzden bir sonrakini bekledik.",
+    "note": "so + result."
+  },
+  {
+    "topic": "Library Late Fee",
+    "level": "B1",
+    "sentence": "After I finished the report, I sent it to my manager.",
+    "tr": "Raporu bitirdikten sonra yöneticime gönderdim.",
+    "note": "After + clause."
+  },
+  {
+    "topic": "Study Sprint",
+    "level": "B1",
+    "sentence": "Before leaving the house, I checked the weather.",
+    "tr": "Evden çıkmadan önce havayı kontrol ettim.",
+    "note": "Before + -ing/ clause."
+  },
+  {
+    "topic": "Exam Day",
+    "level": "B1",
+    "sentence": "While we were eating, my friend told a funny story.",
+    "tr": "Biz yemek yerken arkadaşım komik bir hikaye anlattı.",
+    "note": "while + past continuous."
+  },
+  {
+    "topic": "Results Day",
+    "level": "B1",
+    "sentence": "If we leave now, we will catch the early train.",
+    "tr": "Şimdi çıkarsak erken treni yakalarız.",
+    "note": "First conditional."
+  },
+  {
+    "topic": "Celebration Dinner",
+    "level": "B2",
+    "sentence": "We would meet at the same cafe every Friday night.",
+    "tr": "Her Cuma gecesi aynı kafede buluşurduk.",
+    "note": "would for past habit."
+  },
+  {
+    "topic": "Late Night Work",
+    "level": "B2",
+    "sentence": "I wish I had brought an umbrella; it started raining hard.",
+    "tr": "Keşke şemsiye getirseydim; şiddetli yağmur başladı.",
+    "note": "wish + had + V3."
+  },
+  {
+    "topic": "Power Nap",
+    "level": "B1",
+    "sentence": "Then I checked my phone and saw three new messages.",
+    "tr": "Sonra telefonuma baktım ve üç yeni mesaj gördüm.",
+    "note": "Sequence with then."
+  },
+  {
+    "topic": "Morning Alarm",
+    "level": "B1",
+    "sentence": "Suddenly, the lights went out during the meeting.",
+    "tr": "Aniden, toplantı sırasında ışıklar söndü.",
+    "note": "Suddenly for surprise."
+  },
+  {
+    "topic": "Oversleep",
+    "level": "B1",
+    "sentence": "Because the bus was late, I took a taxi to arrive on time.",
+    "tr": "Otobüs geç geldiği için zamanında varmak için taksiye bindim.",
+    "note": "because for reason."
+  },
+  {
+    "topic": "Missed Bus",
+    "level": "B1",
+    "sentence": "We missed the train, so we waited for the next one.",
+    "tr": "Treni kaçırdık, bu yüzden bir sonrakini bekledik.",
+    "note": "so + result."
+  },
+  {
+    "topic": "Bike Flat",
+    "level": "B1",
+    "sentence": "After I finished the report, I sent it to my manager.",
+    "tr": "Raporu bitirdikten sonra yöneticime gönderdim.",
+    "note": "After + clause."
+  },
+  {
+    "topic": "Spare Tire",
+    "level": "B1",
+    "sentence": "Before leaving the house, I checked the weather.",
+    "tr": "Evden çıkmadan önce havayı kontrol ettim.",
+    "note": "Before + -ing/ clause."
+  },
+  {
+    "topic": "Quick Snack",
+    "level": "B1",
+    "sentence": "While we were eating, my friend told a funny story.",
+    "tr": "Biz yemek yerken arkadaşım komik bir hikaye anlattı.",
+    "note": "while + past continuous."
+  },
+  {
+    "topic": "Healthy Choice",
+    "level": "B1",
+    "sentence": "If we leave now, we will catch the early train.",
+    "tr": "Şimdi çıkarsak erken treni yakalarız.",
+    "note": "First conditional."
+  },
+  {
+    "topic": "Water Break",
+    "level": "B2",
+    "sentence": "We would meet at the same cafe every Friday night.",
+    "tr": "Her Cuma gecesi aynı kafede buluşurduk.",
+    "note": "would for past habit."
+  },
+  {
+    "topic": "Friendly Chat",
+    "level": "B2",
+    "sentence": "I wish I had brought an umbrella; it started raining hard.",
+    "tr": "Keşke şemsiye getirseydim; şiddetli yağmur başladı.",
+    "note": "wish + had + V3."
+  },
+  {
+    "topic": "Long Queue",
+    "level": "B1",
+    "sentence": "Then I checked my phone and saw three new messages.",
+    "tr": "Sonra telefonuma baktım ve üç yeni mesaj gördüm.",
+    "note": "Sequence with then."
+  },
+  {
+    "topic": "Shortage",
+    "level": "B1",
+    "sentence": "Suddenly, the lights went out during the meeting.",
+    "tr": "Aniden, toplantı sırasında ışıklar söndü.",
+    "note": "Suddenly for surprise."
+  },
+  {
+    "topic": "Last Item",
+    "level": "B1",
+    "sentence": "Because the bus was late, I took a taxi to arrive on time.",
+    "tr": "Otobüs geç geldiği için zamanında varmak için taksiye bindim.",
+    "note": "because for reason."
+  },
+  {
+    "topic": "Return Desk",
+    "level": "B1",
+    "sentence": "We missed the train, so we waited for the next one.",
+    "tr": "Treni kaçırdık, bu yüzden bir sonrakini bekledik.",
+    "note": "so + result."
+  },
+  {
+    "topic": "Refund",
+    "level": "B1",
+    "sentence": "After I finished the report, I sent it to my manager.",
+    "tr": "Raporu bitirdikten sonra yöneticime gönderdim.",
+    "note": "After + clause."
+  },
+  {
+    "topic": "Store Credit",
+    "level": "B1",
+    "sentence": "Before leaving the house, I checked the weather.",
+    "tr": "Evden çıkmadan önce havayı kontrol ettim.",
+    "note": "Before + -ing/ clause."
+  },
+  {
+    "topic": "Coupon Code",
+    "level": "B1",
+    "sentence": "While we were eating, my friend told a funny story.",
+    "tr": "Biz yemek yerken arkadaşım komik bir hikaye anlattı.",
+    "note": "while + past continuous."
+  },
+  {
+    "topic": "Price Match",
+    "level": "B1",
+    "sentence": "If we leave now, we will catch the early train.",
+    "tr": "Şimdi çıkarsak erken treni yakalarız.",
+    "note": "First conditional."
+  },
+  {
+    "topic": "New Hobby",
+    "level": "B2",
+    "sentence": "We would meet at the same cafe every Friday night.",
+    "tr": "Her Cuma gecesi aynı kafede buluşurduk.",
+    "note": "would for past habit."
+  },
+  {
+    "topic": "Painting Class",
+    "level": "B2",
+    "sentence": "I wish I had brought an umbrella; it started raining hard.",
+    "tr": "Keşke şemsiye getirseydim; şiddetli yağmur başladı.",
+    "note": "wish + had + V3."
+  },
+  {
+    "topic": "Dance Lesson",
+    "level": "B1",
+    "sentence": "Then I checked my phone and saw three new messages.",
+    "tr": "Sonra telefonuma baktım ve üç yeni mesaj gördüm.",
+    "note": "Sequence with then."
+  },
+  {
+    "topic": "Music Practice",
+    "level": "B1",
+    "sentence": "Suddenly, the lights went out during the meeting.",
+    "tr": "Aniden, toplantı sırasında ışıklar söndü.",
+    "note": "Suddenly for surprise."
+  },
+  {
+    "topic": "Choir Rehearsal",
+    "level": "B1",
+    "sentence": "Because the bus was late, I took a taxi to arrive on time.",
+    "tr": "Otobüs geç geldiği için zamanında varmak için taksiye bindim.",
+    "note": "because for reason."
+  },
+  {
+    "topic": "Morning Stretch",
+    "level": "B1",
+    "sentence": "We missed the train, so we waited for the next one.",
+    "tr": "Treni kaçırdık, bu yüzden bir sonrakini bekledik.",
+    "note": "so + result."
+  },
+  {
+    "topic": "Yoga Break",
+    "level": "B1",
+    "sentence": "After I finished the report, I sent it to my manager.",
+    "tr": "Raporu bitirdikten sonra yöneticime gönderdim.",
+    "note": "After + clause."
+  },
+  {
+    "topic": "Meditation",
+    "level": "B1",
+    "sentence": "Before leaving the house, I checked the weather.",
+    "tr": "Evden çıkmadan önce havayı kontrol ettim.",
+    "note": "Before + -ing/ clause."
+  },
+  {
+    "topic": "Digital Detox",
+    "level": "B1",
+    "sentence": "While we were eating, my friend told a funny story.",
+    "tr": "Biz yemek yerken arkadaşım komik bir hikaye anlattı.",
+    "note": "while + past continuous."
+  },
+  {
+    "topic": "Screen Time",
+    "level": "B1",
+    "sentence": "If we leave now, we will catch the early train.",
+    "tr": "Şimdi çıkarsak erken treni yakalarız.",
+    "note": "First conditional."
+  },
+  {
+    "topic": "Battery Low",
+    "level": "B2",
+    "sentence": "We would meet at the same cafe every Friday night.",
+    "tr": "Her Cuma gecesi aynı kafede buluşurduk.",
+    "note": "would for past habit."
+  },
+  {
+    "topic": "Charger Hunt",
+    "level": "B2",
+    "sentence": "I wish I had brought an umbrella; it started raining hard.",
+    "tr": "Keşke şemsiye getirseydim; şiddetli yağmur başladı.",
+    "note": "wish + had + V3."
+  },
+  {
+    "topic": "Wi-Fi Drop",
+    "level": "B1",
+    "sentence": "Then I checked my phone and saw three new messages.",
+    "tr": "Sonra telefonuma baktım ve üç yeni mesaj gördüm.",
+    "note": "Sequence with then."
+  },
+  {
+    "topic": "Router Reset",
+    "level": "B1",
+    "sentence": "Suddenly, the lights went out during the meeting.",
+    "tr": "Aniden, toplantı sırasında ışıklar söndü.",
+    "note": "Suddenly for surprise."
+  },
+  {
+    "topic": "Cloud Sync",
+    "level": "B1",
+    "sentence": "Because the bus was late, I took a taxi to arrive on time.",
+    "tr": "Otobüs geç geldiği için zamanında varmak için taksiye bindim.",
+    "note": "because for reason."
+  },
+  {
+    "topic": "Storage Full",
+    "level": "B1",
+    "sentence": "We missed the train, so we waited for the next one.",
+    "tr": "Treni kaçırdık, bu yüzden bir sonrakini bekledik.",
+    "note": "so + result."
+  },
+  {
+    "topic": "Photo Backup",
+    "level": "B1",
+    "sentence": "After I finished the report, I sent it to my manager.",
+    "tr": "Raporu bitirdikten sonra yöneticime gönderdim.",
+    "note": "After + clause."
+  },
+  {
+    "topic": "Calendar Reminder",
+    "level": "B1",
+    "sentence": "Before leaving the house, I checked the weather.",
+    "tr": "Evden çıkmadan önce havayı kontrol ettim.",
+    "note": "Before + -ing/ clause."
+  },
+  {
+    "topic": "Silent Mode",
+    "level": "B1",
+    "sentence": "While we were eating, my friend told a funny story.",
+    "tr": "Biz yemek yerken arkadaşım komik bir hikaye anlattı.",
+    "note": "while + past continuous."
+  },
+  {
+    "topic": "Morning Routine",
+    "level": "B1",
+    "sentence": "If we leave now, we will catch the early train.",
+    "tr": "Şimdi çıkarsak erken treni yakalarız.",
+    "note": "First conditional."
+  },
+  {
+    "topic": "Commute",
+    "level": "B2",
+    "sentence": "We would meet at the same cafe every Friday night.",
+    "tr": "Her Cuma gecesi aynı kafede buluşurduk.",
+    "note": "would for past habit."
+  },
+  {
+    "topic": "Office Arrival",
+    "level": "B2",
+    "sentence": "I wish I had brought an umbrella; it started raining hard.",
+    "tr": "Keşke şemsiye getirseydim; şiddetli yağmur başladı.",
+    "note": "wish + had + V3."
+  },
+  {
+    "topic": "Team Briefing",
+    "level": "B1",
+    "sentence": "Then I checked my phone and saw three new messages.",
+    "tr": "Sonra telefonuma baktım ve üç yeni mesaj gördüm.",
+    "note": "Sequence with then."
+  },
+  {
+    "topic": "Coffee Break",
+    "level": "B1",
+    "sentence": "Suddenly, the lights went out during the meeting.",
+    "tr": "Aniden, toplantı sırasında ışıklar söndü.",
+    "note": "Suddenly for surprise."
+  },
+  {
+    "topic": "Unexpected Email",
+    "level": "B1",
+    "sentence": "Because the bus was late, I took a taxi to arrive on time.",
+    "tr": "Otobüs geç geldiği için zamanında varmak için taksiye bindim.",
+    "note": "because for reason."
+  },
+  {
+    "topic": "Urgent Call",
+    "level": "B1",
+    "sentence": "We missed the train, so we waited for the next one.",
+    "tr": "Treni kaçırdık, bu yüzden bir sonrakini bekledik.",
+    "note": "so + result."
+  },
+  {
+    "topic": "Problem Ticket",
+    "level": "B1",
+    "sentence": "After I finished the report, I sent it to my manager.",
+    "tr": "Raporu bitirdikten sonra yöneticime gönderdim.",
+    "note": "After + clause."
+  },
+  {
+    "topic": "Quick Fix",
+    "level": "B1",
+    "sentence": "Before leaving the house, I checked the weather.",
+    "tr": "Evden çıkmadan önce havayı kontrol ettim.",
+    "note": "Before + -ing/ clause."
+  },
+  {
+    "topic": "Client Visit",
+    "level": "B1",
+    "sentence": "While we were eating, my friend told a funny story.",
+    "tr": "Biz yemek yerken arkadaşım komik bir hikaye anlattı.",
+    "note": "while + past continuous."
+  },
+  {
+    "topic": "Presentation Day",
+    "level": "B1",
+    "sentence": "If we leave now, we will catch the early train.",
+    "tr": "Şimdi çıkarsak erken treni yakalarız.",
+    "note": "First conditional."
+  },
+  {
+    "topic": "Feedback Round",
+    "level": "B2",
+    "sentence": "We would meet at the same cafe every Friday night.",
+    "tr": "Her Cuma gecesi aynı kafede buluşurduk.",
+    "note": "would for past habit."
+  },
+  {
+    "topic": "Lunch Break",
+    "level": "B2",
+    "sentence": "I wish I had brought an umbrella; it started raining hard.",
+    "tr": "Keşke şemsiye getirseydim; şiddetli yağmur başladı.",
+    "note": "wish + had + V3."
+  },
+  {
+    "topic": "Afternoon Slump",
+    "level": "B1",
+    "sentence": "Then I checked my phone and saw three new messages.",
+    "tr": "Sonra telefonuma baktım ve üç yeni mesaj gördüm.",
+    "note": "Sequence with then."
+  },
+  {
+    "topic": "Brainstorming",
+    "level": "B1",
+    "sentence": "Suddenly, the lights went out during the meeting.",
+    "tr": "Aniden, toplantı sırasında ışıklar söndü.",
+    "note": "Suddenly for surprise."
+  },
+  {
+    "topic": "Whiteboard Session",
+    "level": "B1",
+    "sentence": "Because the bus was late, I took a taxi to arrive on time.",
+    "tr": "Otobüs geç geldiği için zamanında varmak için taksiye bindim.",
+    "note": "because for reason."
+  },
+  {
+    "topic": "Prototype Demo",
+    "level": "B1",
+    "sentence": "We missed the train, so we waited for the next one.",
+    "tr": "Treni kaçırdık, bu yüzden bir sonrakini bekledik.",
+    "note": "so + result."
+  },
+  {
+    "topic": "Bug Triage",
+    "level": "B1",
+    "sentence": "After I finished the report, I sent it to my manager.",
+    "tr": "Raporu bitirdikten sonra yöneticime gönderdim.",
+    "note": "After + clause."
+  },
+  {
+    "topic": "Hotfix",
+    "level": "B1",
+    "sentence": "Before leaving the house, I checked the weather.",
+    "tr": "Evden çıkmadan önce havayı kontrol ettim.",
+    "note": "Before + -ing/ clause."
+  },
+  {
+    "topic": "Code Review",
+    "level": "B1",
+    "sentence": "While we were eating, my friend told a funny story.",
+    "tr": "Biz yemek yerken arkadaşım komik bir hikaye anlattı.",
+    "note": "while + past continuous."
+  },
+  {
+    "topic": "Design Review",
+    "level": "B1",
+    "sentence": "If we leave now, we will catch the early train.",
+    "tr": "Şimdi çıkarsak erken treni yakalarız.",
+    "note": "First conditional."
+  },
+  {
+    "topic": "Budget Chat",
+    "level": "B2",
+    "sentence": "We would meet at the same cafe every Friday night.",
+    "tr": "Her Cuma gecesi aynı kafede buluşurduk.",
+    "note": "would for past habit."
+  },
+  {
+    "topic": "Late Meeting",
+    "level": "B2",
+    "sentence": "I wish I had brought an umbrella; it started raining hard.",
+    "tr": "Keşke şemsiye getirseydim; şiddetli yağmur başladı.",
+    "note": "wish + had + V3."
+  },
+  {
+    "topic": "Deadline Day",
+    "level": "B1",
+    "sentence": "Then I checked my phone and saw three new messages.",
+    "tr": "Sonra telefonuma baktım ve üç yeni mesaj gördüm.",
+    "note": "Sequence with then."
+  },
+  {
+    "topic": "Overtime",
+    "level": "B1",
+    "sentence": "Suddenly, the lights went out during the meeting.",
+    "tr": "Aniden, toplantı sırasında ışıklar söndü.",
+    "note": "Suddenly for surprise."
+  },
+  {
+    "topic": "Wrap-up",
+    "level": "B1",
+    "sentence": "Because the bus was late, I took a taxi to arrive on time.",
+    "tr": "Otobüs geç geldiği için zamanında varmak için taksiye bindim.",
+    "note": "because for reason."
+  },
+  {
+    "topic": "Daily Summary",
+    "level": "B1",
+    "sentence": "We missed the train, so we waited for the next one.",
+    "tr": "Treni kaçırdık, bu yüzden bir sonrakini bekledik.",
+    "note": "so + result."
+  },
+  {
+    "topic": "Retro Note",
+    "level": "B1",
+    "sentence": "After I finished the report, I sent it to my manager.",
+    "tr": "Raporu bitirdikten sonra yöneticime gönderdim.",
+    "note": "After + clause."
+  },
+  {
+    "topic": "Weekend Plan",
+    "level": "B1",
+    "sentence": "Before leaving the house, I checked the weather.",
+    "tr": "Evden çıkmadan önce havayı kontrol ettim.",
+    "note": "Before + -ing/ clause."
+  },
+  {
+    "topic": "Grocery Run",
+    "level": "B1",
+    "sentence": "While we were eating, my friend told a funny story.",
+    "tr": "Biz yemek yerken arkadaşım komik bir hikaye anlattı.",
+    "note": "while + past continuous."
+  },
+  {
+    "topic": "Family Dinner",
+    "level": "B1",
+    "sentence": "If we leave now, we will catch the early train.",
+    "tr": "Şimdi çıkarsak erken treni yakalarız.",
+    "note": "First conditional."
+  },
+  {
+    "topic": "Movie Night",
+    "level": "B2",
+    "sentence": "We would meet at the same cafe every Friday night.",
+    "tr": "Her Cuma gecesi aynı kafede buluşurduk.",
+    "note": "would for past habit."
+  },
+  {
+    "topic": "Exercise Plan",
+    "level": "B2",
+    "sentence": "I wish I had brought an umbrella; it started raining hard.",
+    "tr": "Keşke şemsiye getirseydim; şiddetli yağmur başladı.",
+    "note": "wish + had + V3."
+  }
+]

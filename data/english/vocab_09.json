@@ -1,0 +1,847 @@
+[
+  {
+    "word": "absorb",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to take in liquid or information",
+    "sentences": ["The towel can absorb a lot of water.", "Children absorb new languages quickly."],
+    "collocation": "absorb knowledge",
+    "quiz": {
+      "question": "What does 'absorb' mean?",
+      "options": ["to push away", "to take in", "to cut off"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "accurate",
+    "level": "B1",
+    "pos": "adjective",
+    "definition": "correct and without mistakes",
+    "sentences": ["The map is accurate and easy to read.", "Please give accurate information to the doctor."],
+    "collocation": "accurate data",
+    "quiz": {
+      "question": "What does 'accurate' mean?",
+      "options": ["almost right", "correct", "confusing"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "adjust",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to change something slightly to make it better",
+    "sentences": ["She adjusted the chair to sit comfortably.", "We must adjust our plans because of the weather."],
+    "collocation": "adjust settings",
+    "quiz": {
+      "question": "What does 'adjust' mean?",
+      "options": ["to copy", "to change slightly", "to delete"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "affect",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to influence something",
+    "sentences": ["Lack of sleep can affect your mood.", "The new rule affects all students."],
+    "collocation": "directly affect",
+    "quiz": {
+      "question": "What does 'affect' mean?",
+      "options": ["to copy", "to describe", "to influence"],
+      "answer": 2
+    }
+  },
+  {
+    "word": "agency",
+    "level": "B1",
+    "pos": "noun",
+    "definition": "a business or organization that provides a service",
+    "sentences": ["She works at a travel agency.", "The local agency helps people find jobs."],
+    "collocation": "advertising agency",
+    "quiz": {
+      "question": "What is an 'agency'?",
+      "options": ["a large store", "a service organization", "a private house"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "ahead",
+    "level": "B1",
+    "pos": "adverb",
+    "definition": "in front or in the future",
+    "sentences": ["Look ahead while you drive.", "We have a busy week ahead."],
+    "collocation": "plan ahead",
+    "quiz": {
+      "question": "What does 'ahead' mean?",
+      "options": ["behind", "in front or future", "beside"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "amazing",
+    "level": "B1",
+    "pos": "adjective",
+    "definition": "very surprising or impressive",
+    "sentences": ["The view from the mountain is amazing.", "She did an amazing job on the project."],
+    "collocation": "amazing talent",
+    "quiz": {
+      "question": "What does 'amazing' mean?",
+      "options": ["very boring", "very surprising", "very small"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "annual",
+    "level": "B1",
+    "pos": "adjective",
+    "definition": "happening once every year",
+    "sentences": ["We attend an annual conference in June.", "The company publishes an annual report."],
+    "collocation": "annual meeting",
+    "quiz": {
+      "question": "How often is something 'annual'?",
+      "options": ["every week", "every month", "every year"],
+      "answer": 2
+    }
+  },
+  {
+    "word": "anxiety",
+    "level": "B1",
+    "pos": "noun",
+    "definition": "a feeling of worry and nervousness",
+    "sentences": ["He felt anxiety before the exam.", "Deep breathing can reduce anxiety."],
+    "collocation": "reduce anxiety",
+    "quiz": {
+      "question": "What is 'anxiety'?",
+      "options": ["a joyful event", "a feeling of worry", "a loud noise"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "appeal",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to attract or interest someone",
+    "sentences": ["This book appeals to young readers.", "Bright colors appeal to children."],
+    "collocation": "appeal to",
+    "quiz": {
+      "question": "What does 'appeal' mean?",
+      "options": ["to push away", "to attract", "to cover"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "approve",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to officially accept or agree",
+    "sentences": ["The manager approved my request for leave.", "The design was approved by the client."],
+    "collocation": "approve a plan",
+    "quiz": {
+      "question": "What does 'approve' mean?",
+      "options": ["to reject", "to cancel", "to accept"],
+      "answer": 2
+    }
+  },
+  {
+    "word": "arrange",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to plan or organize",
+    "sentences": ["I will arrange a meeting for Friday.", "She arranged the flowers in a vase."],
+    "collocation": "arrange a trip",
+    "quiz": {
+      "question": "What does 'arrange' mean?",
+      "options": ["to break", "to plan", "to hide"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "assist",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to help someone",
+    "sentences": ["A nurse assists the doctor during surgery.", "Can you assist me with this form?"],
+    "collocation": "assist customers",
+    "quiz": {
+      "question": "What does 'assist' mean?",
+      "options": ["to delay", "to help", "to ignore"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "attract",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to cause interest or bring closer",
+    "sentences": ["The festival attracts many visitors.", "Flowers attract bees."],
+    "collocation": "attract attention",
+    "quiz": {
+      "question": "What does 'attract' mean?",
+      "options": ["to push away", "to cause interest", "to remove"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "balance",
+    "level": "B1",
+    "pos": "noun",
+    "definition": "a state of being steady and not falling",
+    "sentences": ["Yoga helps improve balance.", "He lost his balance on the ice."],
+    "collocation": "keep balance",
+    "quiz": {
+      "question": "What is 'balance'?",
+      "options": ["a small bag", "a steady state", "a quick move"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "barrier",
+    "level": "B1",
+    "pos": "noun",
+    "definition": "something that blocks movement or progress",
+    "sentences": ["Language can be a barrier when traveling.", "The fence is a barrier for animals."],
+    "collocation": "remove a barrier",
+    "quiz": {
+      "question": "What is a 'barrier'?",
+      "options": ["a helper", "a block", "a reward"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "behavior",
+    "level": "B1",
+    "pos": "noun",
+    "definition": "the way a person acts",
+    "sentences": ["His polite behavior impressed everyone.", "Parents guide their children's behavior."],
+    "collocation": "good behavior",
+    "quiz": {
+      "question": "What does 'behavior' mean?",
+      "options": ["appearance", "action style", "voice"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "benefit",
+    "level": "B1",
+    "pos": "noun",
+    "definition": "an advantage or good result",
+    "sentences": ["Exercise has many health benefits.", "One benefit of reading is better vocabulary."],
+    "collocation": "mutual benefit",
+    "quiz": {
+      "question": "What is a 'benefit'?",
+      "options": ["a cost", "a good result", "a danger"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "capture",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to catch or record",
+    "sentences": ["The photographer captured the sunset beautifully.", "Police captured the suspect."],
+    "collocation": "capture attention",
+    "quiz": {
+      "question": "What does 'capture' mean?",
+      "options": ["to free", "to catch", "to forget"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "challenge",
+    "level": "B1",
+    "pos": "noun",
+    "definition": "a difficult task",
+    "sentences": ["Climbing the mountain was a challenge.", "Learning a new language is a challenge for many."],
+    "collocation": "face a challenge",
+    "quiz": {
+      "question": "What is a 'challenge'?",
+      "options": ["a simple habit", "a difficult task", "a quick break"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "combine",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to join together",
+    "sentences": ["Combine flour and sugar in the bowl.", "We combined ideas to create a better plan."],
+    "collocation": "combine efforts",
+    "quiz": {
+      "question": "What does 'combine' mean?",
+      "options": ["to separate", "to join", "to remove"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "comfort",
+    "level": "B1",
+    "pos": "noun",
+    "definition": "a pleasant feeling of ease",
+    "sentences": ["This chair provides great comfort.", "Music brings comfort during hard times."],
+    "collocation": "seek comfort",
+    "quiz": {
+      "question": "What is 'comfort'?",
+      "options": ["noise", "ease", "speed"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "commit",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to promise to do something",
+    "sentences": ["They committed to finish the project on time.", "She committed to daily exercise."],
+    "collocation": "commit to",
+    "quiz": {
+      "question": "What does 'commit' mean?",
+      "options": ["to quit", "to promise", "to delay"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "community",
+    "level": "B1",
+    "pos": "noun",
+    "definition": "a group of people living in the same area",
+    "sentences": ["The community built a new playground.", "Community support is important in emergencies."],
+    "collocation": "local community",
+    "quiz": {
+      "question": "What is a 'community'?",
+      "options": ["a single family", "a group in one area", "a large factory"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "concern",
+    "level": "B1",
+    "pos": "noun",
+    "definition": "a feeling of worry",
+    "sentences": ["Safety is our main concern.", "She expressed concern about the delay."],
+    "collocation": "raise concern",
+    "quiz": {
+      "question": "What does 'concern' mean?",
+      "options": ["a joke", "a worry", "a dream"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "confident",
+    "level": "B1",
+    "pos": "adjective",
+    "definition": "sure about your abilities",
+    "sentences": ["She felt confident before the interview.", "Practice makes you more confident."],
+    "collocation": "confident attitude",
+    "quiz": {
+      "question": "What does 'confident' mean?",
+      "options": ["unsure", "sure", "silent"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "confirm",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to say that something is true or certain",
+    "sentences": ["Please confirm your appointment by email.", "The test results confirm the theory."],
+    "collocation": "confirm details",
+    "quiz": {
+      "question": "What does 'confirm' mean?",
+      "options": ["to guess", "to prove", "to decorate"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "connect",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to join or link",
+    "sentences": ["You can connect the laptop to the TV.", "Stories connect people across cultures."],
+    "collocation": "connect devices",
+    "quiz": {
+      "question": "What does 'connect' mean?",
+      "options": ["to separate", "to join", "to wash"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "contribute",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to give or add something",
+    "sentences": ["Many volunteers contribute their time.", "His ideas contribute to the success of the team."],
+    "collocation": "contribute to",
+    "quiz": {
+      "question": "What does 'contribute' mean?",
+      "options": ["to take away", "to give", "to hide"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "creative",
+    "level": "B1",
+    "pos": "adjective",
+    "definition": "able to produce new and original ideas",
+    "sentences": ["She found a creative solution to the problem.", "The workshop encourages creative thinking."],
+    "collocation": "creative approach",
+    "quiz": {
+      "question": "What does 'creative' mean?",
+      "options": ["boring", "original", "strict"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "crew",
+    "level": "B1",
+    "pos": "noun",
+    "definition": "a group of people working together, especially on a ship or plane",
+    "sentences": ["The cabin crew demonstrated safety instructions.", "A film crew blocked the street."],
+    "collocation": "film crew",
+    "quiz": {
+      "question": "Who are the 'crew'?",
+      "options": ["passengers", "workers together", "customers"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "criticize",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to say what you think is wrong with something",
+    "sentences": ["She rarely criticizes her colleagues.", "The article criticizes the new policy."],
+    "collocation": "publicly criticize",
+    "quiz": {
+      "question": "What does 'criticize' mean?",
+      "options": ["to praise", "to explain", "to point out faults"],
+      "answer": 2
+    }
+  },
+  {
+    "word": "crowd",
+    "level": "B1",
+    "pos": "noun",
+    "definition": "a large number of people together",
+    "sentences": ["A crowd gathered to watch the parade.", "The stadium was filled with a loud crowd."],
+    "collocation": "large crowd",
+    "quiz": {
+      "question": "What is a 'crowd'?",
+      "options": ["a single visitor", "a small table", "a large group of people"],
+      "answer": 2
+    }
+  },
+  {
+    "word": "debate",
+    "level": "B1",
+    "pos": "noun",
+    "definition": "a discussion of different opinions",
+    "sentences": ["Students prepared for a debate about climate change.", "The debate lasted for two hours."],
+    "collocation": "public debate",
+    "quiz": {
+      "question": "What is a 'debate'?",
+      "options": ["a quiet walk", "a formal discussion", "a quick meal"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "decrease",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to become smaller or less",
+    "sentences": ["The temperature decreased overnight.", "They plan to decrease costs next year."],
+    "collocation": "decrease slowly",
+    "quiz": {
+      "question": "What does 'decrease' mean?",
+      "options": ["to become less", "to improve", "to break"],
+      "answer": 0
+    }
+  },
+  {
+    "word": "delight",
+    "level": "B1",
+    "pos": "noun",
+    "definition": "great pleasure",
+    "sentences": ["The children screamed with delight at the fireworks.", "Her smile is a delight to see."],
+    "collocation": "to someone's delight",
+    "quiz": {
+      "question": "What is 'delight'?",
+      "options": ["strong dislike", "great pleasure", "quiet anger"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "demand",
+    "level": "B1",
+    "pos": "noun",
+    "definition": "a strong request for something",
+    "sentences": ["There is high demand for clean energy.", "Parents made a demand for safer playgrounds."],
+    "collocation": "meet demand",
+    "quiz": {
+      "question": "What is 'demand'?",
+      "options": ["a weak wish", "a strong request", "a quiet hope"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "describe",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to say what something or someone is like",
+    "sentences": ["Can you describe the suspect?", "She described the cake as sweet and light."],
+    "collocation": "describe briefly",
+    "quiz": {
+      "question": "What does 'describe' mean?",
+      "options": ["to hide", "to explain appearance", "to create"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "detail",
+    "level": "B1",
+    "pos": "noun",
+    "definition": "a small fact or piece of information",
+    "sentences": ["Please check every detail in the contract.", "She noticed the details in the painting."],
+    "collocation": "fine detail",
+    "quiz": {
+      "question": "What is a 'detail'?",
+      "options": ["a large object", "a small fact", "a loud noise"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "divide",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to separate into parts",
+    "sentences": ["Divide the class into four groups.", "The river divides the city."],
+    "collocation": "divide equally",
+    "quiz": {
+      "question": "What does 'divide' mean?",
+      "options": ["to join", "to separate", "to clean"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "dominate",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to have strong control or influence",
+    "sentences": ["Two companies dominate the market.", "Tall buildings dominate the skyline."],
+    "collocation": "dominate a field",
+    "quiz": {
+      "question": "What does 'dominate' mean?",
+      "options": ["to ignore", "to control", "to reduce"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "eager",
+    "level": "B1",
+    "pos": "adjective",
+    "definition": "wanting very much",
+    "sentences": ["She is eager to start her new job.", "The students were eager to learn."],
+    "collocation": "eager to please",
+    "quiz": {
+      "question": "What does 'eager' mean?",
+      "options": ["very tired", "very willing", "very late"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "efficient",
+    "level": "B1",
+    "pos": "adjective",
+    "definition": "working well without wasting time",
+    "sentences": ["The new machine is more efficient.", "She is efficient at organizing events."],
+    "collocation": "efficient system",
+    "quiz": {
+      "question": "What does 'efficient' mean?",
+      "options": ["slow and heavy", "working well", "hard to use"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "emergency",
+    "level": "B1",
+    "pos": "noun",
+    "definition": "a serious situation that needs quick action",
+    "sentences": ["Call this number in an emergency.", "The hospital prepared for the emergency."],
+    "collocation": "emergency exit",
+    "quiz": {
+      "question": "What is an 'emergency'?",
+      "options": ["a daily routine", "a serious situation", "a casual meeting"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "emotional",
+    "level": "B1",
+    "pos": "adjective",
+    "definition": "related to strong feelings",
+    "sentences": ["It was an emotional speech.", "She felt emotional after watching the film."],
+    "collocation": "emotional support",
+    "quiz": {
+      "question": "What does 'emotional' relate to?",
+      "options": ["weather", "feelings", "money"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "encounter",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to meet or experience something, often unexpectedly",
+    "sentences": ["We encountered heavy traffic.", "She encountered a problem with her laptop."],
+    "collocation": "encounter difficulties",
+    "quiz": {
+      "question": "What does 'encounter' mean?",
+      "options": ["to avoid", "to meet", "to finish"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "encourage",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to give support or confidence",
+    "sentences": ["Teachers encourage students to ask questions.", "My friends encouraged me to apply."],
+    "collocation": "encourage growth",
+    "quiz": {
+      "question": "What does 'encourage' mean?",
+      "options": ["to limit", "to support", "to copy"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "engage",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to interest someone or involve them",
+    "sentences": ["The speaker engaged the audience with stories.", "Games can engage children for hours."],
+    "collocation": "engage students",
+    "quiz": {
+      "question": "What does 'engage' mean?",
+      "options": ["to bore", "to interest", "to lose"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "enterprise",
+    "level": "B1",
+    "pos": "noun",
+    "definition": "a business or project",
+    "sentences": ["She started a small enterprise selling handmade soap.", "The new enterprise needs funding."],
+    "collocation": "social enterprise",
+    "quiz": {
+      "question": "What is an 'enterprise'?",
+      "options": ["a holiday", "a business", "a recipe"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "estimate",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to guess the size or cost based on information",
+    "sentences": ["Can you estimate how long the repair will take?", "They estimate the project will cost $5,000."],
+    "collocation": "estimate cost",
+    "quiz": {
+      "question": "What does 'estimate' mean?",
+      "options": ["to measure exactly", "to guess based on facts", "to hide numbers"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "expand",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to become larger or include more",
+    "sentences": ["The company plans to expand into Asia.", "Heat makes air expand."],
+    "collocation": "expand slowly",
+    "quiz": {
+      "question": "What does 'expand' mean?",
+      "options": ["to shrink", "to grow larger", "to fall"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "explore",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to travel through or study to learn more",
+    "sentences": ["We explored the old town on foot.", "Scientists explore the ocean floor."],
+    "collocation": "explore ideas",
+    "quiz": {
+      "question": "What does 'explore' mean?",
+      "options": ["to ignore", "to study or travel through", "to hide"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "feature",
+    "level": "B1",
+    "pos": "noun",
+    "definition": "an important part of something",
+    "sentences": ["The camera's best feature is its battery life.", "A waterfall is a main feature of the park."],
+    "collocation": "key feature",
+    "quiz": {
+      "question": "What is a 'feature'?",
+      "options": ["a price", "an important part", "a color"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "finance",
+    "level": "B1",
+    "pos": "noun",
+    "definition": "money management",
+    "sentences": ["He works in finance at a bank.", "Good finance habits include saving monthly."],
+    "collocation": "personal finance",
+    "quiz": {
+      "question": "What is 'finance'?",
+      "options": ["money management", "sports training", "travel planning"],
+      "answer": 0
+    }
+  },
+  {
+    "word": "frustrated",
+    "level": "B1",
+    "pos": "adjective",
+    "definition": "feeling upset because you cannot do something",
+    "sentences": ["He felt frustrated when the software crashed.", "Waiting in long lines makes me frustrated."],
+    "collocation": "feel frustrated",
+    "quiz": {
+      "question": "What does 'frustrated' mean?",
+      "options": ["very happy", "stuck and upset", "calm and silent"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "function",
+    "level": "B1",
+    "pos": "noun",
+    "definition": "the purpose or use of something",
+    "sentences": ["The main function of the heart is to pump blood.", "This key has a special function on the keyboard."],
+    "collocation": "basic function",
+    "quiz": {
+      "question": "What is a 'function'?",
+      "options": ["a design", "a purpose", "a color"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "guarantee",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to promise that something will happen",
+    "sentences": ["The company guarantees free repairs for a year.", "I can't guarantee sunshine on your vacation."],
+    "collocation": "guarantee success",
+    "quiz": {
+      "question": "What does 'guarantee' mean?",
+      "options": ["to hope", "to promise", "to avoid"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "harmful",
+    "level": "B1",
+    "pos": "adjective",
+    "definition": "causing damage or hurt",
+    "sentences": ["Smoking is harmful to your health.", "Too much noise can be harmful."],
+    "collocation": "harmful effects",
+    "quiz": {
+      "question": "What does 'harmful' mean?",
+      "options": ["safe", "uncertain", "causing damage"],
+      "answer": 2
+    }
+  },
+  {
+    "word": "ignore",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to pay no attention to",
+    "sentences": ["He ignored the ringing phone.", "Don't ignore your teacher's advice."],
+    "collocation": "ignore warnings",
+    "quiz": {
+      "question": "What does 'ignore' mean?",
+      "options": ["to notice", "to pay no attention", "to record"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "improve",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to make better",
+    "sentences": ["Daily practice improves your skills.", "We need to improve our customer service."],
+    "collocation": "improve steadily",
+    "quiz": {
+      "question": "What does 'improve' mean?",
+      "options": ["to break", "to make better", "to remove"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "influence",
+    "level": "B1",
+    "pos": "noun",
+    "definition": "the power to change how someone thinks or acts",
+    "sentences": ["Parents have a strong influence on children.", "Social media influence is growing."],
+    "collocation": "positive influence",
+    "quiz": {
+      "question": "What is 'influence'?",
+      "options": ["a small tool", "a power to change", "a loud sound"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "injure",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to hurt a person or animal",
+    "sentences": ["He injured his knee while running.", "Be careful not to injure yourself with the knife."],
+    "collocation": "badly injure",
+    "quiz": {
+      "question": "What does 'injure' mean?",
+      "options": ["to heal", "to hurt", "to feed"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "insist",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to say firmly that something is true or must be done",
+    "sentences": ["She insists on paying for dinner.", "He insisted that he was right."],
+    "collocation": "insist on",
+    "quiz": {
+      "question": "What does 'insist' mean?",
+      "options": ["to agree quietly", "to say firmly", "to forget"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "issue",
+    "level": "B1",
+    "pos": "noun",
+    "definition": "an important problem or topic",
+    "sentences": ["Water quality is a major issue.", "They discussed the issue at the meeting."],
+    "collocation": "social issue",
+    "quiz": {
+      "question": "What is an 'issue'?",
+      "options": ["a small box", "an important topic", "a happy event"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "justify",
+    "level": "B1",
+    "pos": "verb",
+    "definition": "to give a good reason for something",
+    "sentences": ["How do you justify the extra cost?", "She tried to justify her decision."],
+    "collocation": "justify actions",
+    "quiz": {
+      "question": "What does 'justify' mean?",
+      "options": ["to hide", "to explain reasons", "to celebrate"],
+      "answer": 1
+    }
+  }
+]

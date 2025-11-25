@@ -1,0 +1,136 @@
+[
+  {
+    "question": "You are leading a cross-functional project with a strict launch date. A critical dependency from another team has slipped by two weeks, and your stakeholders have already announced the original timeline publicly. What is the most responsible first action to take?",
+    "options": [
+      "Stay silent and hope the other team recovers before anyone notices.",
+      "Escalate transparently: inform stakeholders of the slip, propose mitigation options (scope cut, phased launch, overtime agreement), and request a decision by a set time.",
+      "Cancel the launch entirely without consulting anyone involved."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "During a security review, you discover that an older API endpoint still exposes limited customer data without proper authentication. The usage is low, but it is technically a privacy risk. What should you do next?",
+    "options": [
+      "Ignore the issue because few people use it and hope it goes unnoticed.",
+      "Follow incident protocol: contain access, notify the security/privacy owners, document impact, and schedule or execute an immediate fix with communication to affected teams.",
+      "Send a casual note to a friend and do nothing else."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "You are moderating a virtual workshop with 30 participants from different cultures. Two speakers begin debating loudly and interrupt each other, while quieter members stay silent. What is the best way to regain control and keep the session productive?",
+    "options": [
+      "Let the loud debate continue until the meeting time ends.",
+      "Pause the discussion, set a speaking order, timebox responses, and invite quieter participants to share using hand-raise or chat before continuing.",
+      "Remove all participants from the call and cancel future workshops."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A client-facing slide deck contains a data chart that you now realize is based on outdated numbers. The meeting is in two hours, and the updated data changes one key conclusion. What is the most appropriate response?",
+    "options": [
+      "Leave the outdated chart because updating it feels stressful.",
+      "Update the chart if possible; if not, clearly flag the slide as outdated, verbally correct the conclusion in the meeting, and follow up with the accurate version.",
+      "Delete all charts and replace them with stock photos."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "You are asked to deliver a 5-minute briefing to executives about a complex risk: a third-party vendor may not meet new compliance rules, which could halt your product in certain markets. What should your briefing focus on?",
+    "options": [
+      "Long vendor history and personal anecdotes unrelated to the risk.",
+      "Concise statement of the risk, likelihood, impact, current status, options (alternate vendor, waiver, delay), and the decision needed with timing.",
+      "A full technical tutorial on compliance frameworks."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Midway through a sprint, two senior engineers disagree on the approach and progress stalls. You are the PM and need delivery. What is your best immediate move?",
+    "options": [
+      "Let them argue indefinitely and hope they resolve it alone.",
+      "Set a short decision meeting with both engineers, define the decision criteria (impact, risk, time), choose an approach, and document the rationale so the team can proceed.",
+      "Choose randomly without listening and refuse to explain."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A customer success manager reports that several enterprise clients found the onboarding guide confusing. They are at risk of churn if this is not fixed quickly. What should you prioritize first?",
+    "options": [
+      "Rewrite the entire product without validation.",
+      "Collect the specific pain points, improve the guide with clearer steps and visuals, validate with one client, and then publish the update widely.",
+      "Blame the clients for not reading carefully and close the ticket."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "You notice that daily standups have turned into long status meetings, causing engineers to disengage. Leadership wants faster updates, but velocity is dropping. How do you correct this?",
+    "options": [
+      "Extend the standup to one hour to cover every detail.",
+      "Reinforce standup rules: under 15 minutes, blockers/next steps only; move deep dives to separate huddles; share async notes for leadership.",
+      "Cancel standups entirely and stop reporting progress."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "While drafting a public status page update about an outage, you are unsure whether the root cause is fully understood. Users are waiting for information. What is the best communication approach?",
+    "options": [
+      "Wait in silence until the full root cause is known, even if hours pass.",
+      "Publish a brief, honest update: current impact, what is being done, partial findings, and next update time; avoid blame until facts are confirmed.",
+      "State a random cause to sound confident and never update again."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Your team is asked to 'optimize performance' but no baseline exists. You have two weeks and limited metrics. What is the most sensible first step?",
+    "options": [
+      "Guess at optimizations and deploy blindly.",
+      "Define a narrow scope and baseline key metrics (latency, error rate), run a small benchmark, and prioritize the top regression fixes before broader tuning.",
+      "Rename all servers without measurement."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A critical presentation is tomorrow. An important stakeholder just added ten slides of background that dilute the main message. How do you handle this diplomatically while keeping clarity?",
+    "options": [
+      "Keep everything even if the core point is lost.",
+      "Thank them, suggest moving extra slides to an appendix, and keep the main deck focused on the decision and key evidence.",
+      "Delete their slides without telling them."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Your data analyst reports that two dashboards use different definitions for 'active user', causing confusion in weekly reports. What should you do first?",
+    "options": [
+      "Ignore the discrepancy and continue reporting.",
+      "Align on a single definition with stakeholders, document it, update dashboards, and communicate the change and its impact on trends.",
+      "Hide both dashboards until further notice."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "During user research, you learn that participants cannot complete a key flow on mobile because of a hidden button. A release is scheduled in three days. What is the best course of action?",
+    "options": [
+      "Do nothing and hope no one notices after release.",
+      "Escalate the severity, fix the mobile blocker if feasible before release, or delay/patch quickly; update release notes and support teams.",
+      "Disable mobile support permanently."],
+    "answer": 1
+  },
+  {
+    "question": "You are asked to translate a 40-page policy into an executive one-pager by tomorrow. Executives need the implications, not the wording. What should the one-pager contain?",
+    "options": [
+      "Full paragraphs copied verbatim.",
+      "Essential impacts, key decisions required, risks, owners, and timelines summarized plainly.",
+      "Only decorative images without text."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A teammate claims a test suite is flaky but provides no evidence. Releases are slowing. What is your best immediate step?",
+    "options": [
+      "Believe it blindly and stop releasing.",
+      "Collect failure examples, log frequency, identify patterns (timing, environment), and prioritize fixes or quarantine with data.",
+      "Delete the test suite entirely without analysis."
+    ],
+    "answer": 1
+  }
+]

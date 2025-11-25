@@ -1,0 +1,104 @@
+[
+  {
+    "topic": "Reported Speech: Statements",
+    "level": "B1",
+    "description": "Use reported speech to tell what someone said in the past without quoting their exact words.",
+    "pattern": "reporting verb (say/tell) + that + clause with backshift",
+    "examples": [
+      "Direct: She says, 'I am busy.' → Reported: She says that she is busy.",
+      "Direct: He said, 'I like tea.' → Reported: He said that he liked tea.",
+      "Direct: They said, 'We will help.' → Reported: They said that they would help."
+    ],
+    "tips": [
+      "Backshift tenses when the reporting verb is in the past: present → past, will → would, can → could.",
+      "Pronouns and time words often change: this → that, now → then, today → that day."
+    ],
+    "mistakes": [
+      "Forgetting to change pronouns (He said I am tired → He said he was tired).",
+      "Keeping future 'will' after a past reporting verb (He said he will help → He said he would help)."
+    ],
+    "note": "After 'say', use 'to' only with a person: He said to me that...; after 'tell', you must include the person: He told me that..."
+  },
+  {
+    "topic": "Reported Speech: Questions",
+    "level": "B1",
+    "description": "Report yes/no and wh- questions by changing word order and backshifting tenses.",
+    "pattern": "reporting verb (ask/wonder) + if/whether + clause (for yes/no) OR wh-word + clause",
+    "examples": [
+      "Direct: 'Are you ready?' → He asked if I was ready.",
+      "Direct: 'Where do you live?' → She asked where I lived.",
+      "Direct: 'Can you help?' → They wondered if I could help."
+    ],
+    "tips": [
+      "Drop the question word order; use statement order after the connector.",
+      "Use 'if' or 'whether' for yes/no questions; keep the wh-word for wh- questions."
+    ],
+    "mistakes": [
+      "Keeping auxiliary inversion (He asked where did I go → He asked where I went).",
+      "Using 'if' with wh- questions (She asked if where I lived)."
+    ],
+    "note": "Do not use a question mark in reported questions because the sentence is now a statement."
+  },
+  {
+    "topic": "Relative Clauses",
+    "level": "B1",
+    "description": "Relative clauses add extra information about a noun using who/which/that/where/whose.",
+    "pattern": "noun + relative pronoun + clause",
+    "examples": [
+      "The book that I bought is interesting.",
+      "She met a doctor who speaks four languages.",
+      "I remember the cafe where we first met.",
+      "This is the student whose laptop was stolen."
+    ],
+    "tips": [
+      "Use 'who' for people, 'which' for things, 'that' for people or things (often in defining clauses).",
+      "Commas show non-defining clauses (extra info): My brother, who lives abroad, is visiting."
+    ],
+    "mistakes": [
+      "Using 'what' instead of 'that/which' (The book what I bought → that I bought).",
+      "Dropping necessary pronouns in defining clauses (The car I bought it was new → The car I bought was new)."
+    ],
+    "note": "In defining clauses, you can drop the pronoun if it is the object: The movie (that) I watched was great."
+  },
+  {
+    "topic": "Noun Clauses (That-clauses)",
+    "level": "B1",
+    "description": "Noun clauses act like a noun (subject/object) and often start with 'that', 'if/whether', or wh- words.",
+    "pattern": "verb + that/if/wh- + clause",
+    "examples": [
+      "I think that it will rain.",
+      "She didn’t know if the store was open.",
+      "Tell me what you need.",
+      "That you arrived early surprised everyone."
+    ],
+    "tips": [
+      "'That' can be omitted in many cases: I believe (that) you’re right.",
+      "Use noun clauses after reporting or mental verbs (think, know, guess, hope)."
+    ],
+    "mistakes": [
+      "Using question order after wh- in noun clauses (I don’t know where is he → where he is).",
+      "Forgetting 'if/whether' in yes/no noun clauses (I don’t know it will rain → I don’t know if it will rain)."
+    ],
+    "note": "If the noun clause is the subject, keep 'that' to make the sentence clearer: That he passed the exam is great news."
+  },
+  {
+    "topic": "Conditionals (If-Clauses)",
+    "level": "B1",
+    "description": "Use if-clauses to talk about real or unreal situations and their results.",
+    "pattern": "If + present, will/can + base (first conditional); If + past, would/could + base (second conditional); If + past perfect, would have + past participle (third conditional).",
+    "examples": [
+      "If it rains, we will stay home. (real future)",
+      "If I had more time, I would travel. (unreal present)",
+      "If you had called, I would have helped. (unreal past)"
+    ],
+    "tips": [
+      "First conditional: likely future; second: hypothetical now; third: regret about the past.",
+      "Use commas when 'if' comes first: If it rains, we will stay home."
+    ],
+    "mistakes": [
+      "Using 'would' in the if-clause (If it would rain → If it rained / If it rains).",
+      "Mixing time frames (If I knew, I will tell you → If I know, I will tell you)."
+    ],
+    "note": "'Unless' means 'if not': Unless it rains, we will go out."
+  }
+]

@@ -1,0 +1,1402 @@
+[
+  {
+    "topic": "Academic Writing",
+    "level": "B2",
+    "sentence": "However, the team maintained the schedule by reallocating tasks.",
+    "tr": "Ancak ekip görevleri yeniden dağıtarak takvimi korudu.",
+    "note": "Connector + clause; shows contrast/result."
+  },
+  {
+    "topic": "Research Methods",
+    "level": "B2",
+    "sentence": "Having reviewed the data, we adjusted the plan to reduce risk.",
+    "tr": "Verileri incelediğimiz için riski azaltmak adına planı ayarladık.",
+    "note": "Having + V3 to show prior reason."
+  },
+  {
+    "topic": "Data Analysis",
+    "level": "B2",
+    "sentence": "Noticing the delay, she notified stakeholders immediately.",
+    "tr": "Gecikmeyi fark ederek paydaşları hemen bilgilendirdi.",
+    "note": "-ing clause shares subject, shows time."
+  },
+  {
+    "topic": "Project Planning",
+    "level": "B2",
+    "sentence": "Reports submitted before Friday will be prioritized.",
+    "tr": "Cuma'dan önce teslim edilen raporlar önceliklendirilecek.",
+    "note": "Past participle reducing a relative clause."
+  },
+  {
+    "topic": "Risk Assessment",
+    "level": "B2",
+    "sentence": "Rarely have we seen such rapid improvement.",
+    "tr": "Bu kadar hızlı bir gelişme nadiren gördük.",
+    "note": "Negative adverb + inversion for emphasis."
+  },
+  {
+    "topic": "Customer Feedback",
+    "level": "B2",
+    "sentence": "It was clear communication that resolved the issue.",
+    "tr": "Sorunu çözen açık iletişimdi.",
+    "note": "It-cleft to highlight focus."
+  },
+  {
+    "topic": "Market Trends",
+    "level": "B1",
+    "sentence": "If the brief is unclear, we will ask for clarification.",
+    "tr": "Brif net değilse açıklama isteyeceğiz.",
+    "note": "First conditional for process."
+  },
+  {
+    "topic": "Sustainability",
+    "level": "B1",
+    "sentence": "We recorded the session to share it with absent members.",
+    "tr": "Oturumu, katılamayanlarla paylaşmak için kaydettik.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Innovation Strategy",
+    "level": "B1",
+    "sentence": "The test failed twice, so the release was postponed.",
+    "tr": "Test iki kez başarısız oldu, bu yüzden yayın ertelendi.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Digital Transformation",
+    "level": "B1",
+    "sentence": "The plan is ambitious, but the timeline is realistic.",
+    "tr": "Plan iddialı, ancak zaman çizelgesi gerçekçi.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Remote Collaboration",
+    "level": "B2",
+    "sentence": "In fact, the team maintained the schedule by reallocating tasks.",
+    "tr": "Aslında ekip görevleri yeniden dağıtarak takvimi korudu.",
+    "note": "Connector + clause; shows contrast/result."
+  },
+  {
+    "topic": "Conflict Mediation",
+    "level": "B2",
+    "sentence": "Having reviewed the data, we adjusted the plan to reduce risk.",
+    "tr": "Verileri incelediğimiz için riski azaltmak adına planı ayarladık.",
+    "note": "Having + V3 to show prior reason."
+  },
+  {
+    "topic": "Leadership Style",
+    "level": "B2",
+    "sentence": "Noticing the delay, she notified stakeholders immediately.",
+    "tr": "Gecikmeyi fark ederek paydaşları hemen bilgilendirdi.",
+    "note": "-ing clause shares subject, shows time."
+  },
+  {
+    "topic": "Performance Review",
+    "level": "B2",
+    "sentence": "Reports submitted before Friday will be prioritized.",
+    "tr": "Cuma'dan önce teslim edilen raporlar önceliklendirilecek.",
+    "note": "Past participle reducing a relative clause."
+  },
+  {
+    "topic": "Compliance",
+    "level": "B2",
+    "sentence": "Rarely have we seen such rapid improvement.",
+    "tr": "Bu kadar hızlı bir gelişme nadiren gördük.",
+    "note": "Negative adverb + inversion for emphasis."
+  },
+  {
+    "topic": "Ethical Decision",
+    "level": "B2",
+    "sentence": "It was clear communication that resolved the issue.",
+    "tr": "Sorunu çözen açık iletişimdi.",
+    "note": "It-cleft to highlight focus."
+  },
+  {
+    "topic": "Crisis Response",
+    "level": "B1",
+    "sentence": "If the brief is unclear, we will ask for clarification.",
+    "tr": "Brif net değilse açıklama isteyeceğiz.",
+    "note": "First conditional for process."
+  },
+  {
+    "topic": "Cultural Awareness",
+    "level": "B1",
+    "sentence": "We recorded the session to share it with absent members.",
+    "tr": "Oturumu, katılamayanlarla paylaşmak için kaydettik.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Team Alignment",
+    "level": "B1",
+    "sentence": "The test failed twice, so the release was postponed.",
+    "tr": "Test iki kez başarısız oldu, bu yüzden yayın ertelendi.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Stakeholder Update",
+    "level": "B1",
+    "sentence": "The plan is ambitious, but the timeline is realistic.",
+    "tr": "Plan iddialı, ancak zaman çizelgesi gerçekçi.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Resource Allocation",
+    "level": "B2",
+    "sentence": "Consequently, the team maintained the schedule by reallocating tasks.",
+    "tr": "Sonuç olarak ekip görevleri yeniden dağıtarak takvimi korudu.",
+    "note": "Connector + clause; shows contrast/result."
+  },
+  {
+    "topic": "Process Improvement",
+    "level": "B2",
+    "sentence": "Having reviewed the data, we adjusted the plan to reduce risk.",
+    "tr": "Verileri incelediğimiz için riski azaltmak adına planı ayarladık.",
+    "note": "Having + V3 to show prior reason."
+  },
+  {
+    "topic": "Quality Assurance",
+    "level": "B2",
+    "sentence": "Noticing the delay, she notified stakeholders immediately.",
+    "tr": "Gecikmeyi fark ederek paydaşları hemen bilgilendirdi.",
+    "note": "-ing clause shares subject, shows time."
+  },
+  {
+    "topic": "Change Management",
+    "level": "B2",
+    "sentence": "Reports submitted before Friday will be prioritized.",
+    "tr": "Cuma'dan önce teslim edilen raporlar önceliklendirilecek.",
+    "note": "Past participle reducing a relative clause."
+  },
+  {
+    "topic": "Policy Update",
+    "level": "B2",
+    "sentence": "Rarely have we seen such rapid improvement.",
+    "tr": "Bu kadar hızlı bir gelişme nadiren gördük.",
+    "note": "Negative adverb + inversion for emphasis."
+  },
+  {
+    "topic": "Training Session",
+    "level": "B2",
+    "sentence": "It was clear communication that resolved the issue.",
+    "tr": "Sorunu çözen açık iletişimdi.",
+    "note": "It-cleft to highlight focus."
+  },
+  {
+    "topic": "Mentor Session",
+    "level": "B1",
+    "sentence": "If the brief is unclear, we will ask for clarification.",
+    "tr": "Brif net değilse açıklama isteyeceğiz.",
+    "note": "First conditional for process."
+  },
+  {
+    "topic": "Workshop Summary",
+    "level": "B1",
+    "sentence": "We recorded the session to share it with absent members.",
+    "tr": "Oturumu, katılamayanlarla paylaşmak için kaydettik.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Meeting Minutes",
+    "level": "B1",
+    "sentence": "The test failed twice, so the release was postponed.",
+    "tr": "Test iki kez başarısız oldu, bu yüzden yayın ertelendi.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Action Items",
+    "level": "B1",
+    "sentence": "The plan is ambitious, but the timeline is realistic.",
+    "tr": "Plan iddialı, ancak zaman çizelgesi gerçekçi.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Follow-up Email",
+    "level": "B2",
+    "sentence": "Even so, the team maintained the schedule by reallocating tasks.",
+    "tr": "Buna rağmen ekip görevleri yeniden dağıtarak takvimi korudu.",
+    "note": "Connector + clause; shows contrast/result."
+  },
+  {
+    "topic": "Reminder",
+    "level": "B2",
+    "sentence": "Having reviewed the data, we adjusted the plan to reduce risk.",
+    "tr": "Verileri incelediğimiz için riski azaltmak adına planı ayarladık.",
+    "note": "Having + V3 to show prior reason."
+  },
+  {
+    "topic": "Clarification",
+    "level": "B2",
+    "sentence": "Noticing the delay, she notified stakeholders immediately.",
+    "tr": "Gecikmeyi fark ederek paydaşları hemen bilgilendirdi.",
+    "note": "-ing clause shares subject, shows time."
+  },
+  {
+    "topic": "Polite Decline",
+    "level": "B2",
+    "sentence": "Reports submitted before Friday will be prioritized.",
+    "tr": "Cuma'dan önce teslim edilen raporlar önceliklendirilecek.",
+    "note": "Past participle reducing a relative clause."
+  },
+  {
+    "topic": "Negotiation Point",
+    "level": "B2",
+    "sentence": "Rarely have we seen such rapid improvement.",
+    "tr": "Bu kadar hızlı bir gelişme nadiren gördük.",
+    "note": "Negative adverb + inversion for emphasis."
+  },
+  {
+    "topic": "Budget Approval",
+    "level": "B2",
+    "sentence": "It was clear communication that resolved the issue.",
+    "tr": "Sorunu çözen açık iletişimdi.",
+    "note": "It-cleft to highlight focus."
+  },
+  {
+    "topic": "Timeline Adjustment",
+    "level": "B1",
+    "sentence": "If the brief is unclear, we will ask for clarification.",
+    "tr": "Brif net değilse açıklama isteyeceğiz.",
+    "note": "First conditional for process."
+  },
+  {
+    "topic": "Scope Change",
+    "level": "B1",
+    "sentence": "We recorded the session to share it with absent members.",
+    "tr": "Oturumu, katılamayanlarla paylaşmak için kaydettik.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Milestone Check",
+    "level": "B1",
+    "sentence": "The test failed twice, so the release was postponed.",
+    "tr": "Test iki kez başarısız oldu, bu yüzden yayın ertelendi.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "User Testing",
+    "level": "B1",
+    "sentence": "The plan is ambitious, but the timeline is realistic.",
+    "tr": "Plan iddialı, ancak zaman çizelgesi gerçekçi.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Beta Feedback",
+    "level": "B2",
+    "sentence": "In contrast, the team maintained the schedule by reallocating tasks.",
+    "tr": "Buna karşılık ekip görevleri yeniden dağıtarak takvimi korudu.",
+    "note": "Connector + clause; shows contrast/result."
+  },
+  {
+    "topic": "Release Notes",
+    "level": "B2",
+    "sentence": "Having reviewed the data, we adjusted the plan to reduce risk.",
+    "tr": "Verileri incelediğimiz için riski azaltmak adına planı ayarladık.",
+    "note": "Having + V3 to show prior reason."
+  },
+  {
+    "topic": "Support Ticket",
+    "level": "B2",
+    "sentence": "Noticing the delay, she notified stakeholders immediately.",
+    "tr": "Gecikmeyi fark ederek paydaşları hemen bilgilendirdi.",
+    "note": "-ing clause shares subject, shows time."
+  },
+  {
+    "topic": "Bug Report",
+    "level": "B2",
+    "sentence": "Reports submitted before Friday will be prioritized.",
+    "tr": "Cuma'dan önce teslim edilen raporlar önceliklendirilecek.",
+    "note": "Past participle reducing a relative clause."
+  },
+  {
+    "topic": "Feature Request",
+    "level": "B2",
+    "sentence": "Rarely have we seen such rapid improvement.",
+    "tr": "Bu kadar hızlı bir gelişme nadiren gördük.",
+    "note": "Negative adverb + inversion for emphasis."
+  },
+  {
+    "topic": "Design Rationale",
+    "level": "B2",
+    "sentence": "It was clear communication that resolved the issue.",
+    "tr": "Sorunu çözen açık iletişimdi.",
+    "note": "It-cleft to highlight focus."
+  },
+  {
+    "topic": "Security Notice",
+    "level": "B1",
+    "sentence": "If the brief is unclear, we will ask for clarification.",
+    "tr": "Brif net değilse açıklama isteyeceğiz.",
+    "note": "First conditional for process."
+  },
+  {
+    "topic": "Privacy Update",
+    "level": "B1",
+    "sentence": "We recorded the session to share it with absent members.",
+    "tr": "Oturumu, katılamayanlarla paylaşmak için kaydettik.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Access Request",
+    "level": "B1",
+    "sentence": "The test failed twice, so the release was postponed.",
+    "tr": "Test iki kez başarısız oldu, bu yüzden yayın ertelendi.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Onboarding",
+    "level": "B1",
+    "sentence": "The plan is ambitious, but the timeline is realistic.",
+    "tr": "Plan iddialı, ancak zaman çizelgesi gerçekçi.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Offboarding",
+    "level": "B2",
+    "sentence": "In addition, the team maintained the schedule by reallocating tasks.",
+    "tr": "Ek olarak ekip görevleri yeniden dağıtarak takvimi korudu.",
+    "note": "Connector + clause; shows contrast/result."
+  },
+  {
+    "topic": "Performance Metric",
+    "level": "B2",
+    "sentence": "Having reviewed the data, we adjusted the plan to reduce risk.",
+    "tr": "Verileri incelediğimiz için riski azaltmak adına planı ayarladık.",
+    "note": "Having + V3 to show prior reason."
+  },
+  {
+    "topic": "KPI Review",
+    "level": "B2",
+    "sentence": "Noticing the delay, she notified stakeholders immediately.",
+    "tr": "Gecikmeyi fark ederek paydaşları hemen bilgilendirdi.",
+    "note": "-ing clause shares subject, shows time."
+  },
+  {
+    "topic": "Dashboard Insight",
+    "level": "B2",
+    "sentence": "Reports submitted before Friday will be prioritized.",
+    "tr": "Cuma'dan önce teslim edilen raporlar önceliklendirilecek.",
+    "note": "Past participle reducing a relative clause."
+  },
+  {
+    "topic": "Weekly Sync",
+    "level": "B2",
+    "sentence": "Rarely have we seen such rapid improvement.",
+    "tr": "Bu kadar hızlı bir gelişme nadiren gördük.",
+    "note": "Negative adverb + inversion for emphasis."
+  },
+  {
+    "topic": "Sprint Planning",
+    "level": "B2",
+    "sentence": "It was clear communication that resolved the issue.",
+    "tr": "Sorunu çözen açık iletişimdi.",
+    "note": "It-cleft to highlight focus."
+  },
+  {
+    "topic": "Retrospective",
+    "level": "B1",
+    "sentence": "If the brief is unclear, we will ask for clarification.",
+    "tr": "Brif net değilse açıklama isteyeceğiz.",
+    "note": "First conditional for process."
+  },
+  {
+    "topic": "Backlog Grooming",
+    "level": "B1",
+    "sentence": "We recorded the session to share it with absent members.",
+    "tr": "Oturumu, katılamayanlarla paylaşmak için kaydettik.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Dependency",
+    "level": "B1",
+    "sentence": "The test failed twice, so the release was postponed.",
+    "tr": "Test iki kez başarısız oldu, bu yüzden yayın ertelendi.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Blocker Removal",
+    "level": "B1",
+    "sentence": "The plan is ambitious, but the timeline is realistic.",
+    "tr": "Plan iddialı, ancak zaman çizelgesi gerçekçi.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Resource Request",
+    "level": "B2",
+    "sentence": "Moreover, the team maintained the schedule by reallocating tasks.",
+    "tr": "Ayrıca ekip görevleri yeniden dağıtarak takvimi korudu.",
+    "note": "Connector + clause; shows contrast/result."
+  },
+  {
+    "topic": "Escalation",
+    "level": "B2",
+    "sentence": "Having reviewed the data, we adjusted the plan to reduce risk.",
+    "tr": "Verileri incelediğimiz için riski azaltmak adına planı ayarladık.",
+    "note": "Having + V3 to show prior reason."
+  },
+  {
+    "topic": "Travel Policy",
+    "level": "B2",
+    "sentence": "Noticing the delay, she notified stakeholders immediately.",
+    "tr": "Gecikmeyi fark ederek paydaşları hemen bilgilendirdi.",
+    "note": "-ing clause shares subject, shows time."
+  },
+  {
+    "topic": "Expense Report",
+    "level": "B2",
+    "sentence": "Reports submitted before Friday will be prioritized.",
+    "tr": "Cuma'dan önce teslim edilen raporlar önceliklendirilecek.",
+    "note": "Past participle reducing a relative clause."
+  },
+  {
+    "topic": "Invoice Query",
+    "level": "B2",
+    "sentence": "Rarely have we seen such rapid improvement.",
+    "tr": "Bu kadar hızlı bir gelişme nadiren gördük.",
+    "note": "Negative adverb + inversion for emphasis."
+  },
+  {
+    "topic": "Contract Renewal",
+    "level": "B2",
+    "sentence": "It was clear communication that resolved the issue.",
+    "tr": "Sorunu çözen açık iletişimdi.",
+    "note": "It-cleft to highlight focus."
+  },
+  {
+    "topic": "Service Level",
+    "level": "B1",
+    "sentence": "If the brief is unclear, we will ask for clarification.",
+    "tr": "Brif net değilse açıklama isteyeceğiz.",
+    "note": "First conditional for process."
+  },
+  {
+    "topic": "Uptime Report",
+    "level": "B1",
+    "sentence": "We recorded the session to share it with absent members.",
+    "tr": "Oturumu, katılamayanlarla paylaşmak için kaydettik.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Incident Postmortem",
+    "level": "B1",
+    "sentence": "The test failed twice, so the release was postponed.",
+    "tr": "Test iki kez başarısız oldu, bu yüzden yayın ertelendi.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Root Cause",
+    "level": "B1",
+    "sentence": "The plan is ambitious, but the timeline is realistic.",
+    "tr": "Plan iddialı, ancak zaman çizelgesi gerçekçi.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Action Plan",
+    "level": "B2",
+    "sentence": "Furthermore, the team maintained the schedule by reallocating tasks.",
+    "tr": "Ayrıca ekip görevleri yeniden dağıtarak takvimi korudu.",
+    "note": "Connector + clause; shows contrast/result."
+  },
+  {
+    "topic": "Communication Plan",
+    "level": "B2",
+    "sentence": "Having reviewed the data, we adjusted the plan to reduce risk.",
+    "tr": "Verileri incelediğimiz için riski azaltmak adına planı ayarladık.",
+    "note": "Having + V3 to show prior reason."
+  },
+  {
+    "topic": "Audience Analysis",
+    "level": "B2",
+    "sentence": "Noticing the delay, she notified stakeholders immediately.",
+    "tr": "Gecikmeyi fark ederek paydaşları hemen bilgilendirdi.",
+    "note": "-ing clause shares subject, shows time."
+  },
+  {
+    "topic": "Tone and Style",
+    "level": "B2",
+    "sentence": "Reports submitted before Friday will be prioritized.",
+    "tr": "Cuma'dan önce teslim edilen raporlar önceliklendirilecek.",
+    "note": "Past participle reducing a relative clause."
+  },
+  {
+    "topic": "Evidence and Claims",
+    "level": "B2",
+    "sentence": "Rarely have we seen such rapid improvement.",
+    "tr": "Bu kadar hızlı bir gelişme nadiren gördük.",
+    "note": "Negative adverb + inversion for emphasis."
+  },
+  {
+    "topic": "Counterargument",
+    "level": "B2",
+    "sentence": "It was clear communication that resolved the issue.",
+    "tr": "Sorunu çözen açık iletişimdi.",
+    "note": "It-cleft to highlight focus."
+  },
+  {
+    "topic": "Signposting",
+    "level": "B1",
+    "sentence": "If the brief is unclear, we will ask for clarification.",
+    "tr": "Brif net değilse açıklama isteyeceğiz.",
+    "note": "First conditional for process."
+  },
+  {
+    "topic": "Paragraph Unity",
+    "level": "B1",
+    "sentence": "We recorded the session to share it with absent members.",
+    "tr": "Oturumu, katılamayanlarla paylaşmak için kaydettik.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Cohesion",
+    "level": "B1",
+    "sentence": "The test failed twice, so the release was postponed.",
+    "tr": "Test iki kez başarısız oldu, bu yüzden yayın ertelendi.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Coherence",
+    "level": "B1",
+    "sentence": "The plan is ambitious, but the timeline is realistic.",
+    "tr": "Plan iddialı, ancak zaman çizelgesi gerçekçi.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Citation",
+    "level": "B2",
+    "sentence": "However, the team maintained the schedule by reallocating tasks.",
+    "tr": "Ancak ekip görevleri yeniden dağıtarak takvimi korudu.",
+    "note": "Connector + clause; shows contrast/result."
+  },
+  {
+    "topic": "Attribution",
+    "level": "B2",
+    "sentence": "Having reviewed the data, we adjusted the plan to reduce risk.",
+    "tr": "Verileri incelediğimiz için riski azaltmak adına planı ayarladık.",
+    "note": "Having + V3 to show prior reason."
+  },
+  {
+    "topic": "Plagiarism Warning",
+    "level": "B2",
+    "sentence": "Noticing the delay, she notified stakeholders immediately.",
+    "tr": "Gecikmeyi fark ederek paydaşları hemen bilgilendirdi.",
+    "note": "-ing clause shares subject, shows time."
+  },
+  {
+    "topic": "Data Integrity",
+    "level": "B2",
+    "sentence": "Reports submitted before Friday will be prioritized.",
+    "tr": "Cuma'dan önce teslim edilen raporlar önceliklendirilecek.",
+    "note": "Past participle reducing a relative clause."
+  },
+  {
+    "topic": "Version Control",
+    "level": "B2",
+    "sentence": "Rarely have we seen such rapid improvement.",
+    "tr": "Bu kadar hızlı bir gelişme nadiren gördük.",
+    "note": "Negative adverb + inversion for emphasis."
+  },
+  {
+    "topic": "Documentation",
+    "level": "B2",
+    "sentence": "It was clear communication that resolved the issue.",
+    "tr": "Sorunu çözen açık iletişimdi.",
+    "note": "It-cleft to highlight focus."
+  },
+  {
+    "topic": "Annotation",
+    "level": "B1",
+    "sentence": "If the brief is unclear, we will ask for clarification.",
+    "tr": "Brif net değilse açıklama isteyeceğiz.",
+    "note": "First conditional for process."
+  },
+  {
+    "topic": "Summary Note",
+    "level": "B1",
+    "sentence": "We recorded the session to share it with absent members.",
+    "tr": "Oturumu, katılamayanlarla paylaşmak için kaydettik.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Presentation Slide",
+    "level": "B1",
+    "sentence": "The test failed twice, so the release was postponed.",
+    "tr": "Test iki kez başarısız oldu, bu yüzden yayın ertelendi.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Speaker Note",
+    "level": "B1",
+    "sentence": "The plan is ambitious, but the timeline is realistic.",
+    "tr": "Plan iddialı, ancak zaman çizelgesi gerçekçi.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Q&A Prep",
+    "level": "B2",
+    "sentence": "In fact, the team maintained the schedule by reallocating tasks.",
+    "tr": "Aslında ekip görevleri yeniden dağıtarak takvimi korudu.",
+    "note": "Connector + clause; shows contrast/result."
+  },
+  {
+    "topic": "Demo Script",
+    "level": "B2",
+    "sentence": "Having reviewed the data, we adjusted the plan to reduce risk.",
+    "tr": "Verileri incelediğimiz için riski azaltmak adına planı ayarladık.",
+    "note": "Having + V3 to show prior reason."
+  },
+  {
+    "topic": "Training Guide",
+    "level": "B2",
+    "sentence": "Noticing the delay, she notified stakeholders immediately.",
+    "tr": "Gecikmeyi fark ederek paydaşları hemen bilgilendirdi.",
+    "note": "-ing clause shares subject, shows time."
+  },
+  {
+    "topic": "Safety Briefing",
+    "level": "B2",
+    "sentence": "Reports submitted before Friday will be prioritized.",
+    "tr": "Cuma'dan önce teslim edilen raporlar önceliklendirilecek.",
+    "note": "Past participle reducing a relative clause."
+  },
+  {
+    "topic": "Emergency Drill",
+    "level": "B2",
+    "sentence": "Rarely have we seen such rapid improvement.",
+    "tr": "Bu kadar hızlı bir gelişme nadiren gördük.",
+    "note": "Negative adverb + inversion for emphasis."
+  },
+  {
+    "topic": "Evacuation Plan",
+    "level": "B2",
+    "sentence": "It was clear communication that resolved the issue.",
+    "tr": "Sorunu çözen açık iletişimdi.",
+    "note": "It-cleft to highlight focus."
+  },
+  {
+    "topic": "First Aid Reminder",
+    "level": "B1",
+    "sentence": "If the brief is unclear, we will ask for clarification.",
+    "tr": "Brif net değilse açıklama isteyeceğiz.",
+    "note": "First conditional for process."
+  },
+  {
+    "topic": "Health Advisory",
+    "level": "B1",
+    "sentence": "We recorded the session to share it with absent members.",
+    "tr": "Oturumu, katılamayanlarla paylaşmak için kaydettik.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Wellness Tip",
+    "level": "B1",
+    "sentence": "The test failed twice, so the release was postponed.",
+    "tr": "Test iki kez başarısız oldu, bu yüzden yayın ertelendi.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Mindful Break",
+    "level": "B1",
+    "sentence": "The plan is ambitious, but the timeline is realistic.",
+    "tr": "Plan iddialı, ancak zaman çizelgesi gerçekçi.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Focus Session",
+    "level": "B2",
+    "sentence": "Consequently, the team maintained the schedule by reallocating tasks.",
+    "tr": "Sonuç olarak ekip görevleri yeniden dağıtarak takvimi korudu.",
+    "note": "Connector + clause; shows contrast/result."
+  },
+  {
+    "topic": "Deep Work",
+    "level": "B2",
+    "sentence": "Having reviewed the data, we adjusted the plan to reduce risk.",
+    "tr": "Verileri incelediğimiz için riski azaltmak adına planı ayarladık.",
+    "note": "Having + V3 to show prior reason."
+  },
+  {
+    "topic": "Distraction Control",
+    "level": "B2",
+    "sentence": "Noticing the delay, she notified stakeholders immediately.",
+    "tr": "Gecikmeyi fark ederek paydaşları hemen bilgilendirdi.",
+    "note": "-ing clause shares subject, shows time."
+  },
+  {
+    "topic": "Load Testing",
+    "level": "B2",
+    "sentence": "Reports submitted before Friday will be prioritized.",
+    "tr": "Cuma'dan önce teslim edilen raporlar önceliklendirilecek.",
+    "note": "Past participle reducing a relative clause."
+  },
+  {
+    "topic": "Stress Scenario",
+    "level": "B2",
+    "sentence": "Rarely have we seen such rapid improvement.",
+    "tr": "Bu kadar hızlı bir gelişme nadiren gördük.",
+    "note": "Negative adverb + inversion for emphasis."
+  },
+  {
+    "topic": "Recovery Plan",
+    "level": "B2",
+    "sentence": "It was clear communication that resolved the issue.",
+    "tr": "Sorunu çözen açık iletişimdi.",
+    "note": "It-cleft to highlight focus."
+  },
+  {
+    "topic": "Backup Routine",
+    "level": "B1",
+    "sentence": "If the brief is unclear, we will ask for clarification.",
+    "tr": "Brif net değilse açıklama isteyeceğiz.",
+    "note": "First conditional for process."
+  },
+  {
+    "topic": "Maintenance Window",
+    "level": "B1",
+    "sentence": "We recorded the session to share it with absent members.",
+    "tr": "Oturumu, katılamayanlarla paylaşmak için kaydettik.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Optimization",
+    "level": "B1",
+    "sentence": "The test failed twice, so the release was postponed.",
+    "tr": "Test iki kez başarısız oldu, bu yüzden yayın ertelendi.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Performance Tuning",
+    "level": "B1",
+    "sentence": "The plan is ambitious, but the timeline is realistic.",
+    "tr": "Plan iddialı, ancak zaman çizelgesi gerçekçi.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Scalability",
+    "level": "B2",
+    "sentence": "Even so, the team maintained the schedule by reallocating tasks.",
+    "tr": "Buna rağmen ekip görevleri yeniden dağıtarak takvimi korudu.",
+    "note": "Connector + clause; shows contrast/result."
+  },
+  {
+    "topic": "Throughput",
+    "level": "B2",
+    "sentence": "Having reviewed the data, we adjusted the plan to reduce risk.",
+    "tr": "Verileri incelediğimiz için riski azaltmak adına planı ayarladık.",
+    "note": "Having + V3 to show prior reason."
+  },
+  {
+    "topic": "Latency",
+    "level": "B2",
+    "sentence": "Noticing the delay, she notified stakeholders immediately.",
+    "tr": "Gecikmeyi fark ederek paydaşları hemen bilgilendirdi.",
+    "note": "-ing clause shares subject, shows time."
+  },
+  {
+    "topic": "Reliability",
+    "level": "B2",
+    "sentence": "Reports submitted before Friday will be prioritized.",
+    "tr": "Cuma'dan önce teslim edilen raporlar önceliklendirilecek.",
+    "note": "Past participle reducing a relative clause."
+  },
+  {
+    "topic": "Academic Writing",
+    "level": "B2",
+    "sentence": "Rarely have we seen such rapid improvement.",
+    "tr": "Bu kadar hızlı bir gelişme nadiren gördük.",
+    "note": "Negative adverb + inversion for emphasis."
+  },
+  {
+    "topic": "Research Methods",
+    "level": "B2",
+    "sentence": "It was clear communication that resolved the issue.",
+    "tr": "Sorunu çözen açık iletişimdi.",
+    "note": "It-cleft to highlight focus."
+  },
+  {
+    "topic": "Data Analysis",
+    "level": "B1",
+    "sentence": "If the brief is unclear, we will ask for clarification.",
+    "tr": "Brif net değilse açıklama isteyeceğiz.",
+    "note": "First conditional for process."
+  },
+  {
+    "topic": "Project Planning",
+    "level": "B1",
+    "sentence": "We recorded the session to share it with absent members.",
+    "tr": "Oturumu, katılamayanlarla paylaşmak için kaydettik.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Risk Assessment",
+    "level": "B1",
+    "sentence": "The test failed twice, so the release was postponed.",
+    "tr": "Test iki kez başarısız oldu, bu yüzden yayın ertelendi.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Customer Feedback",
+    "level": "B1",
+    "sentence": "The plan is ambitious, but the timeline is realistic.",
+    "tr": "Plan iddialı, ancak zaman çizelgesi gerçekçi.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Market Trends",
+    "level": "B2",
+    "sentence": "In contrast, the team maintained the schedule by reallocating tasks.",
+    "tr": "Buna karşılık ekip görevleri yeniden dağıtarak takvimi korudu.",
+    "note": "Connector + clause; shows contrast/result."
+  },
+  {
+    "topic": "Sustainability",
+    "level": "B2",
+    "sentence": "Having reviewed the data, we adjusted the plan to reduce risk.",
+    "tr": "Verileri incelediğimiz için riski azaltmak adına planı ayarladık.",
+    "note": "Having + V3 to show prior reason."
+  },
+  {
+    "topic": "Innovation Strategy",
+    "level": "B2",
+    "sentence": "Noticing the delay, she notified stakeholders immediately.",
+    "tr": "Gecikmeyi fark ederek paydaşları hemen bilgilendirdi.",
+    "note": "-ing clause shares subject, shows time."
+  },
+  {
+    "topic": "Digital Transformation",
+    "level": "B2",
+    "sentence": "Reports submitted before Friday will be prioritized.",
+    "tr": "Cuma'dan önce teslim edilen raporlar önceliklendirilecek.",
+    "note": "Past participle reducing a relative clause."
+  },
+  {
+    "topic": "Remote Collaboration",
+    "level": "B2",
+    "sentence": "Rarely have we seen such rapid improvement.",
+    "tr": "Bu kadar hızlı bir gelişme nadiren gördük.",
+    "note": "Negative adverb + inversion for emphasis."
+  },
+  {
+    "topic": "Conflict Mediation",
+    "level": "B2",
+    "sentence": "It was clear communication that resolved the issue.",
+    "tr": "Sorunu çözen açık iletişimdi.",
+    "note": "It-cleft to highlight focus."
+  },
+  {
+    "topic": "Leadership Style",
+    "level": "B1",
+    "sentence": "If the brief is unclear, we will ask for clarification.",
+    "tr": "Brif net değilse açıklama isteyeceğiz.",
+    "note": "First conditional for process."
+  },
+  {
+    "topic": "Performance Review",
+    "level": "B1",
+    "sentence": "We recorded the session to share it with absent members.",
+    "tr": "Oturumu, katılamayanlarla paylaşmak için kaydettik.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Compliance",
+    "level": "B1",
+    "sentence": "The test failed twice, so the release was postponed.",
+    "tr": "Test iki kez başarısız oldu, bu yüzden yayın ertelendi.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Ethical Decision",
+    "level": "B1",
+    "sentence": "The plan is ambitious, but the timeline is realistic.",
+    "tr": "Plan iddialı, ancak zaman çizelgesi gerçekçi.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Crisis Response",
+    "level": "B2",
+    "sentence": "In addition, the team maintained the schedule by reallocating tasks.",
+    "tr": "Ek olarak ekip görevleri yeniden dağıtarak takvimi korudu.",
+    "note": "Connector + clause; shows contrast/result."
+  },
+  {
+    "topic": "Cultural Awareness",
+    "level": "B2",
+    "sentence": "Having reviewed the data, we adjusted the plan to reduce risk.",
+    "tr": "Verileri incelediğimiz için riski azaltmak adına planı ayarladık.",
+    "note": "Having + V3 to show prior reason."
+  },
+  {
+    "topic": "Team Alignment",
+    "level": "B2",
+    "sentence": "Noticing the delay, she notified stakeholders immediately.",
+    "tr": "Gecikmeyi fark ederek paydaşları hemen bilgilendirdi.",
+    "note": "-ing clause shares subject, shows time."
+  },
+  {
+    "topic": "Stakeholder Update",
+    "level": "B2",
+    "sentence": "Reports submitted before Friday will be prioritized.",
+    "tr": "Cuma'dan önce teslim edilen raporlar önceliklendirilecek.",
+    "note": "Past participle reducing a relative clause."
+  },
+  {
+    "topic": "Resource Allocation",
+    "level": "B2",
+    "sentence": "Rarely have we seen such rapid improvement.",
+    "tr": "Bu kadar hızlı bir gelişme nadiren gördük.",
+    "note": "Negative adverb + inversion for emphasis."
+  },
+  {
+    "topic": "Process Improvement",
+    "level": "B2",
+    "sentence": "It was clear communication that resolved the issue.",
+    "tr": "Sorunu çözen açık iletişimdi.",
+    "note": "It-cleft to highlight focus."
+  },
+  {
+    "topic": "Quality Assurance",
+    "level": "B1",
+    "sentence": "If the brief is unclear, we will ask for clarification.",
+    "tr": "Brif net değilse açıklama isteyeceğiz.",
+    "note": "First conditional for process."
+  },
+  {
+    "topic": "Change Management",
+    "level": "B1",
+    "sentence": "We recorded the session to share it with absent members.",
+    "tr": "Oturumu, katılamayanlarla paylaşmak için kaydettik.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Policy Update",
+    "level": "B1",
+    "sentence": "The test failed twice, so the release was postponed.",
+    "tr": "Test iki kez başarısız oldu, bu yüzden yayın ertelendi.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Training Session",
+    "level": "B1",
+    "sentence": "The plan is ambitious, but the timeline is realistic.",
+    "tr": "Plan iddialı, ancak zaman çizelgesi gerçekçi.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Mentor Session",
+    "level": "B2",
+    "sentence": "Moreover, the team maintained the schedule by reallocating tasks.",
+    "tr": "Ayrıca ekip görevleri yeniden dağıtarak takvimi korudu.",
+    "note": "Connector + clause; shows contrast/result."
+  },
+  {
+    "topic": "Workshop Summary",
+    "level": "B2",
+    "sentence": "Having reviewed the data, we adjusted the plan to reduce risk.",
+    "tr": "Verileri incelediğimiz için riski azaltmak adına planı ayarladık.",
+    "note": "Having + V3 to show prior reason."
+  },
+  {
+    "topic": "Meeting Minutes",
+    "level": "B2",
+    "sentence": "Noticing the delay, she notified stakeholders immediately.",
+    "tr": "Gecikmeyi fark ederek paydaşları hemen bilgilendirdi.",
+    "note": "-ing clause shares subject, shows time."
+  },
+  {
+    "topic": "Action Items",
+    "level": "B2",
+    "sentence": "Reports submitted before Friday will be prioritized.",
+    "tr": "Cuma'dan önce teslim edilen raporlar önceliklendirilecek.",
+    "note": "Past participle reducing a relative clause."
+  },
+  {
+    "topic": "Follow-up Email",
+    "level": "B2",
+    "sentence": "Rarely have we seen such rapid improvement.",
+    "tr": "Bu kadar hızlı bir gelişme nadiren gördük.",
+    "note": "Negative adverb + inversion for emphasis."
+  },
+  {
+    "topic": "Reminder",
+    "level": "B2",
+    "sentence": "It was clear communication that resolved the issue.",
+    "tr": "Sorunu çözen açık iletişimdi.",
+    "note": "It-cleft to highlight focus."
+  },
+  {
+    "topic": "Clarification",
+    "level": "B1",
+    "sentence": "If the brief is unclear, we will ask for clarification.",
+    "tr": "Brif net değilse açıklama isteyeceğiz.",
+    "note": "First conditional for process."
+  },
+  {
+    "topic": "Polite Decline",
+    "level": "B1",
+    "sentence": "We recorded the session to share it with absent members.",
+    "tr": "Oturumu, katılamayanlarla paylaşmak için kaydettik.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Negotiation Point",
+    "level": "B1",
+    "sentence": "The test failed twice, so the release was postponed.",
+    "tr": "Test iki kez başarısız oldu, bu yüzden yayın ertelendi.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Budget Approval",
+    "level": "B1",
+    "sentence": "The plan is ambitious, but the timeline is realistic.",
+    "tr": "Plan iddialı, ancak zaman çizelgesi gerçekçi.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Timeline Adjustment",
+    "level": "B2",
+    "sentence": "Furthermore, the team maintained the schedule by reallocating tasks.",
+    "tr": "Ayrıca ekip görevleri yeniden dağıtarak takvimi korudu.",
+    "note": "Connector + clause; shows contrast/result."
+  },
+  {
+    "topic": "Scope Change",
+    "level": "B2",
+    "sentence": "Having reviewed the data, we adjusted the plan to reduce risk.",
+    "tr": "Verileri incelediğimiz için riski azaltmak adına planı ayarladık.",
+    "note": "Having + V3 to show prior reason."
+  },
+  {
+    "topic": "Milestone Check",
+    "level": "B2",
+    "sentence": "Noticing the delay, she notified stakeholders immediately.",
+    "tr": "Gecikmeyi fark ederek paydaşları hemen bilgilendirdi.",
+    "note": "-ing clause shares subject, shows time."
+  },
+  {
+    "topic": "User Testing",
+    "level": "B2",
+    "sentence": "Reports submitted before Friday will be prioritized.",
+    "tr": "Cuma'dan önce teslim edilen raporlar önceliklendirilecek.",
+    "note": "Past participle reducing a relative clause."
+  },
+  {
+    "topic": "Beta Feedback",
+    "level": "B2",
+    "sentence": "Rarely have we seen such rapid improvement.",
+    "tr": "Bu kadar hızlı bir gelişme nadiren gördük.",
+    "note": "Negative adverb + inversion for emphasis."
+  },
+  {
+    "topic": "Release Notes",
+    "level": "B2",
+    "sentence": "It was clear communication that resolved the issue.",
+    "tr": "Sorunu çözen açık iletişimdi.",
+    "note": "It-cleft to highlight focus."
+  },
+  {
+    "topic": "Support Ticket",
+    "level": "B1",
+    "sentence": "If the brief is unclear, we will ask for clarification.",
+    "tr": "Brif net değilse açıklama isteyeceğiz.",
+    "note": "First conditional for process."
+  },
+  {
+    "topic": "Bug Report",
+    "level": "B1",
+    "sentence": "We recorded the session to share it with absent members.",
+    "tr": "Oturumu, katılamayanlarla paylaşmak için kaydettik.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Feature Request",
+    "level": "B1",
+    "sentence": "The test failed twice, so the release was postponed.",
+    "tr": "Test iki kez başarısız oldu, bu yüzden yayın ertelendi.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Design Rationale",
+    "level": "B1",
+    "sentence": "The plan is ambitious, but the timeline is realistic.",
+    "tr": "Plan iddialı, ancak zaman çizelgesi gerçekçi.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Security Notice",
+    "level": "B2",
+    "sentence": "However, the team maintained the schedule by reallocating tasks.",
+    "tr": "Ancak ekip görevleri yeniden dağıtarak takvimi korudu.",
+    "note": "Connector + clause; shows contrast/result."
+  },
+  {
+    "topic": "Privacy Update",
+    "level": "B2",
+    "sentence": "Having reviewed the data, we adjusted the plan to reduce risk.",
+    "tr": "Verileri incelediğimiz için riski azaltmak adına planı ayarladık.",
+    "note": "Having + V3 to show prior reason."
+  },
+  {
+    "topic": "Access Request",
+    "level": "B2",
+    "sentence": "Noticing the delay, she notified stakeholders immediately.",
+    "tr": "Gecikmeyi fark ederek paydaşları hemen bilgilendirdi.",
+    "note": "-ing clause shares subject, shows time."
+  },
+  {
+    "topic": "Onboarding",
+    "level": "B2",
+    "sentence": "Reports submitted before Friday will be prioritized.",
+    "tr": "Cuma'dan önce teslim edilen raporlar önceliklendirilecek.",
+    "note": "Past participle reducing a relative clause."
+  },
+  {
+    "topic": "Offboarding",
+    "level": "B2",
+    "sentence": "Rarely have we seen such rapid improvement.",
+    "tr": "Bu kadar hızlı bir gelişme nadiren gördük.",
+    "note": "Negative adverb + inversion for emphasis."
+  },
+  {
+    "topic": "Performance Metric",
+    "level": "B2",
+    "sentence": "It was clear communication that resolved the issue.",
+    "tr": "Sorunu çözen açık iletişimdi.",
+    "note": "It-cleft to highlight focus."
+  },
+  {
+    "topic": "KPI Review",
+    "level": "B1",
+    "sentence": "If the brief is unclear, we will ask for clarification.",
+    "tr": "Brif net değilse açıklama isteyeceğiz.",
+    "note": "First conditional for process."
+  },
+  {
+    "topic": "Dashboard Insight",
+    "level": "B1",
+    "sentence": "We recorded the session to share it with absent members.",
+    "tr": "Oturumu, katılamayanlarla paylaşmak için kaydettik.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Weekly Sync",
+    "level": "B1",
+    "sentence": "The test failed twice, so the release was postponed.",
+    "tr": "Test iki kez başarısız oldu, bu yüzden yayın ertelendi.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Sprint Planning",
+    "level": "B1",
+    "sentence": "The plan is ambitious, but the timeline is realistic.",
+    "tr": "Plan iddialı, ancak zaman çizelgesi gerçekçi.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Retrospective",
+    "level": "B2",
+    "sentence": "In fact, the team maintained the schedule by reallocating tasks.",
+    "tr": "Aslında ekip görevleri yeniden dağıtarak takvimi korudu.",
+    "note": "Connector + clause; shows contrast/result."
+  },
+  {
+    "topic": "Backlog Grooming",
+    "level": "B2",
+    "sentence": "Having reviewed the data, we adjusted the plan to reduce risk.",
+    "tr": "Verileri incelediğimiz için riski azaltmak adına planı ayarladık.",
+    "note": "Having + V3 to show prior reason."
+  },
+  {
+    "topic": "Dependency",
+    "level": "B2",
+    "sentence": "Noticing the delay, she notified stakeholders immediately.",
+    "tr": "Gecikmeyi fark ederek paydaşları hemen bilgilendirdi.",
+    "note": "-ing clause shares subject, shows time."
+  },
+  {
+    "topic": "Blocker Removal",
+    "level": "B2",
+    "sentence": "Reports submitted before Friday will be prioritized.",
+    "tr": "Cuma'dan önce teslim edilen raporlar önceliklendirilecek.",
+    "note": "Past participle reducing a relative clause."
+  },
+  {
+    "topic": "Resource Request",
+    "level": "B2",
+    "sentence": "Rarely have we seen such rapid improvement.",
+    "tr": "Bu kadar hızlı bir gelişme nadiren gördük.",
+    "note": "Negative adverb + inversion for emphasis."
+  },
+  {
+    "topic": "Escalation",
+    "level": "B2",
+    "sentence": "It was clear communication that resolved the issue.",
+    "tr": "Sorunu çözen açık iletişimdi.",
+    "note": "It-cleft to highlight focus."
+  },
+  {
+    "topic": "Travel Policy",
+    "level": "B1",
+    "sentence": "If the brief is unclear, we will ask for clarification.",
+    "tr": "Brif net değilse açıklama isteyeceğiz.",
+    "note": "First conditional for process."
+  },
+  {
+    "topic": "Expense Report",
+    "level": "B1",
+    "sentence": "We recorded the session to share it with absent members.",
+    "tr": "Oturumu, katılamayanlarla paylaşmak için kaydettik.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Invoice Query",
+    "level": "B1",
+    "sentence": "The test failed twice, so the release was postponed.",
+    "tr": "Test iki kez başarısız oldu, bu yüzden yayın ertelendi.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Contract Renewal",
+    "level": "B1",
+    "sentence": "The plan is ambitious, but the timeline is realistic.",
+    "tr": "Plan iddialı, ancak zaman çizelgesi gerçekçi.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Service Level",
+    "level": "B2",
+    "sentence": "Consequently, the team maintained the schedule by reallocating tasks.",
+    "tr": "Sonuç olarak ekip görevleri yeniden dağıtarak takvimi korudu.",
+    "note": "Connector + clause; shows contrast/result."
+  },
+  {
+    "topic": "Uptime Report",
+    "level": "B2",
+    "sentence": "Having reviewed the data, we adjusted the plan to reduce risk.",
+    "tr": "Verileri incelediğimiz için riski azaltmak adına planı ayarladık.",
+    "note": "Having + V3 to show prior reason."
+  },
+  {
+    "topic": "Incident Postmortem",
+    "level": "B2",
+    "sentence": "Noticing the delay, she notified stakeholders immediately.",
+    "tr": "Gecikmeyi fark ederek paydaşları hemen bilgilendirdi.",
+    "note": "-ing clause shares subject, shows time."
+  },
+  {
+    "topic": "Root Cause",
+    "level": "B2",
+    "sentence": "Reports submitted before Friday will be prioritized.",
+    "tr": "Cuma'dan önce teslim edilen raporlar önceliklendirilecek.",
+    "note": "Past participle reducing a relative clause."
+  },
+  {
+    "topic": "Action Plan",
+    "level": "B2",
+    "sentence": "Rarely have we seen such rapid improvement.",
+    "tr": "Bu kadar hızlı bir gelişme nadiren gördük.",
+    "note": "Negative adverb + inversion for emphasis."
+  },
+  {
+    "topic": "Communication Plan",
+    "level": "B2",
+    "sentence": "It was clear communication that resolved the issue.",
+    "tr": "Sorunu çözen açık iletişimdi.",
+    "note": "It-cleft to highlight focus."
+  },
+  {
+    "topic": "Audience Analysis",
+    "level": "B1",
+    "sentence": "If the brief is unclear, we will ask for clarification.",
+    "tr": "Brif net değilse açıklama isteyeceğiz.",
+    "note": "First conditional for process."
+  },
+  {
+    "topic": "Tone and Style",
+    "level": "B1",
+    "sentence": "We recorded the session to share it with absent members.",
+    "tr": "Oturumu, katılamayanlarla paylaşmak için kaydettik.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Evidence and Claims",
+    "level": "B1",
+    "sentence": "The test failed twice, so the release was postponed.",
+    "tr": "Test iki kez başarısız oldu, bu yüzden yayın ertelendi.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Counterargument",
+    "level": "B1",
+    "sentence": "The plan is ambitious, but the timeline is realistic.",
+    "tr": "Plan iddialı, ancak zaman çizelgesi gerçekçi.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Signposting",
+    "level": "B2",
+    "sentence": "Even so, the team maintained the schedule by reallocating tasks.",
+    "tr": "Buna rağmen ekip görevleri yeniden dağıtarak takvimi korudu.",
+    "note": "Connector + clause; shows contrast/result."
+  },
+  {
+    "topic": "Paragraph Unity",
+    "level": "B2",
+    "sentence": "Having reviewed the data, we adjusted the plan to reduce risk.",
+    "tr": "Verileri incelediğimiz için riski azaltmak adına planı ayarladık.",
+    "note": "Having + V3 to show prior reason."
+  },
+  {
+    "topic": "Cohesion",
+    "level": "B2",
+    "sentence": "Noticing the delay, she notified stakeholders immediately.",
+    "tr": "Gecikmeyi fark ederek paydaşları hemen bilgilendirdi.",
+    "note": "-ing clause shares subject, shows time."
+  },
+  {
+    "topic": "Coherence",
+    "level": "B2",
+    "sentence": "Reports submitted before Friday will be prioritized.",
+    "tr": "Cuma'dan önce teslim edilen raporlar önceliklendirilecek.",
+    "note": "Past participle reducing a relative clause."
+  },
+  {
+    "topic": "Citation",
+    "level": "B2",
+    "sentence": "Rarely have we seen such rapid improvement.",
+    "tr": "Bu kadar hızlı bir gelişme nadiren gördük.",
+    "note": "Negative adverb + inversion for emphasis."
+  },
+  {
+    "topic": "Attribution",
+    "level": "B2",
+    "sentence": "It was clear communication that resolved the issue.",
+    "tr": "Sorunu çözen açık iletişimdi.",
+    "note": "It-cleft to highlight focus."
+  },
+  {
+    "topic": "Plagiarism Warning",
+    "level": "B1",
+    "sentence": "If the brief is unclear, we will ask for clarification.",
+    "tr": "Brif net değilse açıklama isteyeceğiz.",
+    "note": "First conditional for process."
+  },
+  {
+    "topic": "Data Integrity",
+    "level": "B1",
+    "sentence": "We recorded the session to share it with absent members.",
+    "tr": "Oturumu, katılamayanlarla paylaşmak için kaydettik.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Version Control",
+    "level": "B1",
+    "sentence": "The test failed twice, so the release was postponed.",
+    "tr": "Test iki kez başarısız oldu, bu yüzden yayın ertelendi.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Documentation",
+    "level": "B1",
+    "sentence": "The plan is ambitious, but the timeline is realistic.",
+    "tr": "Plan iddialı, ancak zaman çizelgesi gerçekçi.",
+    "note": "but for contrast."
+  }
+]

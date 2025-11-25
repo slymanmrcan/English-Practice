@@ -1,0 +1,72 @@
+[
+  {
+    "topic": "Reported Speech",
+    "level": "B1",
+    "sentence": "She said that she would call me later.",
+    "tr": "Daha sonra beni arayacağını söyledi.",
+    "note": "Backshift will → would after a past reporting verb."
+  },
+  {
+    "topic": "Relative Clause",
+    "level": "B1",
+    "sentence": "The man who lives next door is a doctor.",
+    "tr": "Yan dairede yaşayan adam doktor.",
+    "note": "Use 'who' for people in defining clauses."
+  },
+  {
+    "topic": "Conditionals (First)",
+    "level": "B1",
+    "sentence": "If it rains, we will stay at home.",
+    "tr": "Yağmur yağarsa evde kalacağız.",
+    "note": "If + present, will + base for real future results."
+  },
+  {
+    "topic": "Conditionals (Second)",
+    "level": "B1",
+    "sentence": "If I had more time, I would learn another language.",
+    "tr": "Daha fazla zamanım olsaydı başka bir dil öğrenirdim.",
+    "note": "If + past, would + base for unreal present."
+  },
+  {
+    "topic": "Conditionals (Third)",
+    "level": "B2",
+    "sentence": "If you had called me, I would have helped.",
+    "tr": "Beni aramış olsaydın yardım ederdim.",
+    "note": "If + past perfect, would have + V3 for unreal past." 
+  },
+  {
+    "topic": "Passive Voice",
+    "level": "B1",
+    "sentence": "The invitations were sent yesterday.",
+    "tr": "Davetiye dün gönderildi.",
+    "note": "Be + V3 to focus on the action, not the doer." 
+  },
+  {
+    "topic": "Causative (Have/Get)",
+    "level": "B2",
+    "sentence": "I had my laptop repaired last week.",
+    "tr": "Geçen hafta dizüstü bilgisayarımı tamir ettirdim.",
+    "note": "Have/get + object + V3 shows arranging a service." 
+  },
+  {
+    "topic": "Modal Speculation",
+    "level": "B2",
+    "sentence": "He must have missed the train.",
+    "tr": "Muhtemelen treni kaçırmış olmalı.",
+    "note": "Must + have + V3 = strong belief about the past." 
+  },
+  {
+    "topic": "Cleft Sentence",
+    "level": "B2",
+    "sentence": "It was Sarah who solved the problem.",
+    "tr": "Sorunu çözen Sarah'dı.",
+    "note": "It-cleft highlights the focus element." 
+  },
+  {
+    "topic": "Participle Clause",
+    "level": "B2",
+    "sentence": "Feeling tired, he decided to rest.",
+    "tr": "Yorgun hissederek dinlenmeye karar verdi.",
+    "note": "-ing clause shares the subject with the main clause." 
+  }
+]

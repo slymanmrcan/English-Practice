@@ -1,0 +1,22 @@
+[
+  {"question":"You are writing a formal report. Which opening sentence is most appropriate?","options":["Hey team, here’s the stuff.","This report outlines the Q2 results and key recommendations for cost savings.","Check this out, it’s cool!"],"answer":1},
+  {"question":"In a listening test, the speaker says: 'Despite heavy traffic, the project truck arrived on schedule.' What is true?","options":["The truck was late.","The truck arrived as planned.","The truck was canceled."],"answer":1},
+  {"question":"Reading comprehension: 'The policy was implemented gradually to minimize disruption.' What does this imply?","options":["It was applied all at once.","It was rolled out step by step to avoid problems.","It was never applied."],"answer":1},
+  {"question":"You receive feedback: 'The summary lacks actionable items.' What should you add?","options":["Long history of the company.","Clear next steps, owners, and deadlines.","Personal opinions unrelated to the topic."],"answer":1},
+  {"question":"In a test passage, you read: 'Several attempts were made, none successful.' What does 'none' refer to?","options":["All attempts failed.","All attempts succeeded.","No attempts were made."],"answer":0},
+  {"question":"Listening item: 'Please ensure all devices are unplugged before maintenance.' What is the instruction?","options":["Keep devices plugged in.","Remove power from devices before work.","Ignore devices."],"answer":1},
+  {"question":"Vocabulary: What is a 'milestone' in a project?","options":["A small rock.","A significant checkpoint or achievement.","An obstacle."],"answer":1},
+  {"question":"Grammar: Choose the correct sentence.","options":["He don’t has enough time.","He doesn’t have enough time.","He doesn’t has enough time."],"answer":1},
+  {"question":"Comprehension: 'Because the data was incomplete, the team delayed the presentation.' Why was it delayed?","options":["The data was missing parts.","The room was too small.","The team was on vacation."],"answer":0},
+  {"question":"Listening: 'We will proceed once legal approves the contract.' What must happen first?","options":["Legal approval.","Marketing review.","IT setup."],"answer":0},
+  {"question":"Vocabulary: What does 'allocate budget' mean?","options":["To remove all money.","To assign funds for specific purposes.","To hide expenses."],"answer":1},
+  {"question":"Grammar: Pick the correct conditional.","options":["If it will rain, we cancel.","If it rains, we will cancel.","If it rained, we will cancel."],"answer":1},
+  {"question":"Reading: 'The committee requested additional evidence before granting approval.' What did they want?","options":["More proof.","Less proof.","No proof."],"answer":0},
+  {"question":"Listening: 'Please mute your microphone unless you are speaking.' What should you do?","options":["Keep the mic on always.","Mute except when talking.","Never join the call."],"answer":1},
+  {"question":"Vocabulary: Meaning of 'provisional plan'?","options":["Final and fixed.","Temporary and subject to change.","Secret."],"answer":1},
+  {"question":"Grammar: Choose the passive form.","options":["They shipped the package.","The package was shipped.","They are ship the package."],"answer":1},
+  {"question":"Reading: 'Only after testing did the team discover the flaw.' What happened?","options":["They discovered the flaw during testing afterward.","They knew the flaw earlier.","They never found the flaw."],"answer":0},
+  {"question":"Listening: 'We’re running short on time, so please be brief.' What is requested?","options":["Speak in detail.","Keep comments short.","Do not speak at all."],"answer":1},
+  {"question":"Vocabulary: 'Contingency plan' refers to what?","options":["A surprise party.","A backup plan for unexpected events.","A list of vacations."],"answer":1},
+  {"question":"Comprehension: 'The presenter highlighted the need for transparency in reporting.' What does this mean?","options":["Reports should be hidden.","Reports should be clear and open.","Reports should be shorter."],"answer":1}
+]

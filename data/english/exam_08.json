@@ -1,0 +1,154 @@
+[
+  {
+    "question": "A multinational team is preparing a major feature launch. Three days before release, a regional lead reports that the payment API behaves differently in their country, causing a 7% failure rate. Marketing has scheduled region-specific ads, and legal requires consistent behavior across markets. What is the most responsible immediate plan?",
+    "options": [
+      "Proceed with the launch globally and hope the regional failures are ignored by users.",
+      "Elevate the issue as a release blocker for that region: pause or feature-flag the launch there, investigate and fix the API differences, communicate to stakeholders, and keep the global launch if unaffected.",
+      "Cancel all marketing worldwide without talking to anyone involved."],
+    "answer": 1
+  },
+  {
+    "question": "You are drafting a public status update about a security incident. Forensics are ongoing, and you only know that a small subset of user emails might have been exposed for 20 minutes. Regulators require timely notice, and customers want transparency. What should your first public update contain?",
+    "options": [
+      "Assure everyone there was no exposure even though you lack evidence.",
+      "State the known scope and timeframe, mitigation steps taken, what is being investigated, and the time of the next update; avoid speculation and provide a contact for follow-up.",
+      "Remain completely silent until the investigation finishes weeks later."],
+    "answer": 1
+  },
+  {
+    "question": "During a live investor Q&A, an analyst challenges your reported growth metric, citing a public source that shows a lower number. You realize your slide used a preliminary estimate. How do you respond in the moment?",
+    "options": [
+      "Defend the preliminary number aggressively and refuse to discuss.",
+      "Acknowledge the discrepancy, explain it was a preliminary figure, commit to sharing the verified number after the call, and correct the record in the follow-up deck.",
+      "End the Q&A immediately and close the session."],
+    "answer": 1
+  },
+  {
+    "question": "A critical integration partner announces an API deprecation effective in six weeks. Your product depends on that API, and the replacement requires moderate engineering effort. Sales has several deals closing this quarter that rely on the current behavior. What is your best immediate course of action?",
+    "options": [
+      "Ignore the deprecation notice and hope the API keeps working.",
+      "Initiate a migration plan now: assess impact, secure engineering time, communicate to sales and customers about timelines and risks, and negotiate with the partner for a grace period if needed.",
+      "Tell customers nothing and wait until the API fails in production."],
+    "answer": 1
+  },
+  {
+    "question": "You are facilitating a design review where two stakeholders push conflicting accessibility requirements. The meeting is running long, and a decision is needed today to avoid blocking development. How do you resolve this efficiently while respecting accessibility needs?",
+    "options": [
+      "Choose the fastest option without considering accessibility.",
+      "Clarify user impact and standards, pick the compliant solution that meets core criteria, document trade-offs, and schedule a short follow-up to refine non-critical items after development unblocks.",
+      "End the meeting with no decision and postpone indefinitely."],
+    "answer": 1
+  },
+  {
+    "question": "A large customer is piloting your new analytics feature. They report that dashboard load times exceed 10 seconds when filters are applied to big datasets. Launch is two weeks away. What is the most pragmatic immediate step?",
+    "options": [
+      "Launch without changes because the issue only affects big datasets.",
+      "Profile the bottleneck, implement a targeted optimization or caching for filtered queries, and offer a temporary limit/flag for very large datasets while monitoring improvements.",
+      "Remove the filtering feature entirely for all customers."],
+    "answer": 1
+  },
+  {
+    "question": "You receive a media request for comment on a rumored acquisition that you cannot confirm. The journalist wants a response within two hours. Company policy forbids speculation. What should you do?",
+    "options": [
+      "Give an off-the-record confirmation to appear helpful.",
+      "Direct the inquiry to the authorized communications lead, acknowledge receipt, and provide no speculative statements.",
+      "Invent details to satisfy the journalist and hope no one notices."],
+    "answer": 1
+  },
+  {
+    "question": "An internal survey shows employees feel leadership decisions lack transparency. You are preparing the next all-hands. How can you address this concern meaningfully in the session?",
+    "options": [
+      "Ignore the feedback because agendas are fixed.",
+      "Explain how decisions are made, share recent examples with context and constraints, commit to publishing decision logs/FAQs, and open a Q&A channel with follow-up dates.",
+      "Blame employees for not understanding strategy."],
+    "answer": 1
+  },
+  {
+    "question": "A cloud provider reports an elevated error rate in one region. Your monitoring shows minor impact now, but traffic is expected to spike in an hour due to a campaign. What is the best proactive action?",
+    "options": [
+      "Wait and see if things break later.",
+      "Proactively shift or throttle traffic where possible, prepare rollback/scale plans, inform stakeholders of risk, and monitor closely during the spike.",
+      "Shut down the campaign globally without notifying anyone."],
+    "answer": 1
+  },
+  {
+    "question": "You must summarize a 70-page regulatory draft on AI fairness for the product leadership team by tomorrow. They only need to know impacts and required actions. What should your summary focus on?",
+    "options": [
+      "Copy all legal text into the summary.",
+      "Key obligations, high-risk categories, timeline for compliance, potential product changes, documentation/testing required, and immediate actions with owners.",
+      "Only a list of chapter titles with no detail."],
+    "answer": 1
+  },
+  {
+    "question": "During user testing, participants consistently miss a critical onboarding step hidden behind a small icon. Launch is in 10 days. What is the best immediate fix to minimize drop-off?",
+    "options": [
+      "Launch as-is and rely on support to explain the step.",
+      "Surface the step with clearer labeling or an inline prompt, validate quickly with a small test, and be ready to patch post-launch if metrics stay poor.",
+      "Remove onboarding entirely and hope users guess the flow."],
+    "answer": 1
+  },
+  {
+    "question": "A senior leader asks for a 'quick' risk summary on a data migration planned for next week. You know there are two major unknowns: rollback speed and data integrity checks. How do you respond responsibly?",
+    "options": [
+      "Provide no details and promise zero risk.",
+      "Share a concise risk summary: unknowns, potential impact, mitigation (dry run, automated checks, rollback plan), and decision points before the migration.",
+      "Decline to answer because it might cause concern."],
+    "answer": 1
+  },
+  {
+    "question": "In a heated retrospective, engineers and designers argue about ownership of a failed feature. Blame is rising, and time is limited. How do you steer the discussion productively?",
+    "options": [
+      "Let the blame continue so the loudest side wins.",
+      "Shift to facts and timelines, frame issues as system/process gaps, capture actionable fixes, and park interpersonal conflicts for a separate session.",
+      "End the meeting without notes and ignore the issues."],
+    "answer": 1
+  },
+  {
+    "question": "A partner requests a custom report that would take your data team two weeks, but your roadmap is already full. The partner is important for an upcoming co-marketing event. What is the best first step?",
+    "options": [
+      "Agree immediately and reassign all existing work without warning.",
+      "Clarify the exact need, propose a lighter version using existing data/views, estimate effort, and negotiate scope/timing with clear trade-offs.",
+      "Reject the request rudely and cancel the event."],
+    "answer": 1
+  },
+  {
+    "question": "Your SRE team reports that backups have not been verified for the past month due to a broken job, but no data loss is known. What should you do before the next release?",
+    "options": [
+      "Do nothing because there is no known loss.",
+      "Restore and validate backups immediately, fix the job, document the gap, and communicate risk and remediation status to stakeholders before shipping.",
+      "Disable backups entirely to save costs."],
+    "answer": 1
+  },
+  {
+    "question": "You need to notify thousands of users about a breaking API change in 45 days. Many have no clear contact info. What is the most effective communication plan?",
+    "options": [
+      "Post the change once on a hidden page and hope they see it.",
+      "Use multiple channels: email to known contacts, in-product banners, developer portal notices, versioned deprecation headers, and a migration guide; send periodic reminders.",
+      "Silently roll out the breaking change with no notice."],
+    "answer": 1
+  },
+  {
+    "question": "Your sales lead promises a feature to a strategic customer that engineering cannot deliver this quarter. The customer expects a date. What is your responsible next move?",
+    "options": [
+      "Confirm the promise to keep the customer happy.",
+      "Align internally on feasibility, propose alternatives or phased scope, and communicate an honest timeline with clear dependencies to the customer.",
+      "Ignore the promise and avoid the customer until next quarter."],
+    "answer": 1
+  },
+  {
+    "question": "An internal audit finds that access reviews for sensitive systems are three months overdue. No breach is reported, but compliance deadlines are near. What is your immediate action plan?",
+    "options": [
+      "Do nothing since no breach occurred.",
+      "Start access reviews immediately, prioritize high-risk systems, document exceptions, and set a recurring schedule; update compliance owners on progress and deadlines.",
+      "Grant admin access to everyone to simplify reviews."],
+    "answer": 1
+  },
+  {
+    "question": "You are asked to mentor a new manager who struggles with giving actionable feedback. They tend to speak in generalities. What is the most helpful guidance you can offer quickly?",
+    "options": [
+      "Tell them to avoid feedback to keep peace.",
+      "Coach them to give specific, behavior-based, timely feedback tied to impact, and to invite dialogue on next steps.",
+      "Advise them to only give feedback in public meetings."],
+    "answer": 1
+  }
+]

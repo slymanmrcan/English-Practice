@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vocabulary & Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top-bar">
+    <h1>Vocabulary & Quiz</h1>
+    <div class="controls">
+      <label for="vocab-lang" class="label">Vocab Lang:</label>
+      <select id="vocab-lang">
+        <option value="english">English</option>
+        <option value="germany">German</option>
+        <option value="russion">Russian</option>
+        <option value="french">French</option>
+      </select>
+      <button id="load-btn">Load Data</button>
+      <select id="level-filter">
+        <option value="ALL">All Levels</option>
+        <option value="A2">A2</option>
+        <option value="B1">B1</option>
+      </select>
+      <button id="next-btn">Next Word</button>
+      <button id="grammar-btn">Grammar</button>
+      <button id="examples-btn">Sentences</button>
+      <button id="chunks-btn">Chunks</button>
+      <button id="reading-btn">Reading</button>
+      <button id="exam-btn">Exam</button>
+    </div>
+    <div id="status" class="status">Ready.</div>
+    <div class="hint">Tip: Press "Load Data" to fetch vocabulary before starting.</div>
+  </header>
+
+  <main class="layout">
+    <section id="card" class="card hidden">
+      <div class="card-header">
+        <div id="word" class="word"></div>
+        <span id="pos" class="tag"></span>
+        <span id="level" class="tag level"></span>
+        <button id="vocab-speak" class="icon-btn" title="Speak">🔊</button>
+      </div>
+      <p id="definition" class="definition"></p>
+      <div class="block">
+        <h3>Sentences</h3>
+        <ul id="sentences"></ul>
+      </div>
+      <div class="block">
+        <h3>Collocation</h3>
+        <p id="collocation"></p>
+      </div>
+      <div class="block quiz">
+        <h3>Quiz</h3>
+        <p id="quiz-question"></p>
+        <div id="quiz-options" class="options"></div>
+        <div id="quiz-result" class="quiz-result"></div>
+      </div>
+    </section>
+
+    <section id="chunk-card" class="card hidden">
+      <div class="card-header">
+        <div id="chunk-text" class="word"></div>
+        <span id="chunk-level" class="tag level"></span>
+      </div>
+      <div class="block">
+        <h3>Example</h3>
+        <p id="chunk-example" class="definition"></p>
+        <p id="chunk-tr" class="note"></p>
+      </div>
+      <div class="block">
+        <button id="chunk-next" class="fill-btn">Next Chunk</button>
+      </div>
+    </section>
+
+    <section id="example-card" class="card hidden">
+      <div class="card-header">
+        <div id="example-topic" class="word"></div>
+        <span id="example-level" class="tag level"></span>
+        <button id="example-speak" class="icon-btn" title="Speak">🔊</button>
+      </div>
+      <div class="example-controls">
+        <label for="example-level-filter" class="label">Level:</label>
+        <select id="example-level-filter">
+          <option value="ALL">All</option>
+          <option value="A2">A2</option>
+          <option value="B1">B1</option>
+          <option value="B2">B2</option>
+        </select>
+        <label for="example-topic-filter" class="label">Topic:</label>
+        <input id="example-topic-filter" type="text" placeholder="search topic" />
+      </div>
+      <div class="block">
+        <h3>Sentence</h3>
+        <p id="example-sentence" class="definition"></p>
+        <p id="example-tr" class="note"></p>
+      </div>
+      <div class="block">
+        <h3>Note</h3>
+        <p id="example-note"></p>
+      </div>
+      <div class="block">
+        <button id="example-next" class="fill-btn">Next Example</button>
+      </div>
+    </section>
+
+    <section id="grammar-panel" class="grammar-panel card hidden">
+      <div class="grammar-header">
+        <div class="grammar-controls">
+          <label for="grammar-lang">Language:</label>
+          <select id="grammar-lang">
+            <option value="english">English</option>
+            <option value="germany">German</option>
+            <option value="russion">Russian</option>
+            <option value="french">French</option>
+          </select>
+          <label for="grammar-topic" class="label">Topic:</label>
+          <select id="grammar-topic">
+            <option value="">Select a topic</option>
+          </select>
+        </div>
+        <div id="grammar-status" class="status small">Select a language to load grammar.</div>
+      </div>
+      <div id="grammar-detail" class="grammar-detail hidden"></div>
+    </section>
+
+    <section id="reading-panel" class="card hidden">
+      <div class="reading-header">
+        <div class="card-header">
+          <div class="word">Reading</div>
+          <span class="tag level">A2/B1</span>
+        </div>
+        <div class="reading-controls">
+          <label for="reading-lang">Language:</label>
+          <select id="reading-lang">
+            <option value="english">English</option>
+            <option value="germany">German</option>
+            <option value="russion">Russian</option>
+            <option value="french">French</option>
+          </select>
+          <button id="reading-next" class="fill-btn">Next Reading</button>
+        </div>
+        <div id="reading-status" class="status small">Select a language to load readings.</div>
+      </div>
+      <div id="reading-card" class="card reading-card hidden">
+        <div class="card-header">
+          <div id="reading-title" class="word"></div>
+          <span id="reading-level" class="tag level"></span>
+        </div>
+        <p id="reading-text" class="definition"></p>
+        <div class="block">
+          <h3>Glossary (key words)</h3>
+          <ul id="reading-glossary"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="exam-panel" class="card hidden">
+      <div class="card-header">
+        <div class="word">Exam (EFSET style)</div>
+        <span class="tag level">A2/B1/B2 mix</span>
+      </div>
+      <div class="exam-meta status small" id="exam-status">Select Exam to start.</div>
+      <div class="exam-controls">
+        <label for="exam-select">Exam Set:</label>
+        <select id="exam-select">
+          <option value="">Choose…</option>
+          <option value="exam_01">Exam 01</option>
+          <option value="exam_02">Exam 02</option>
+          <option value="exam_03">Exam 03</option>
+          <option value="exam_04">Exam 04</option>
+          <option value="exam_05">Exam 05</option>
+          <option value="exam_06">Exam 06</option>
+          <option value="exam_07">Exam 07</option>
+          <option value="exam_08">Exam 08</option>
+        </select>
+        <button id="exam-start" class="fill-btn">Start</button>
+        <button id="exam-next" class="fill-btn">Next</button>
+      </div>
+      <div id="exam-card" class="exam-card hidden">
+        <p id="exam-question" class="definition"></p>
+        <div id="exam-options" class="options"></div>
+        <div id="exam-feedback" class="quiz-result"></div>
+      </div>
+      <div id="exam-summary" class="hidden">
+        <p class="definition">Score: <span id="exam-score">0</span> / <span id="exam-total">0</span></p>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

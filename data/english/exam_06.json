@@ -1,0 +1,172 @@
+[
+  {
+    "question": "Your company plans a public beta launch in four weeks. Marketing has already announced the date, but yesterday you learned that a critical compliance review for the payment flow will finish only a week before launch. If the review fails, the release must be delayed. What is the most responsible way to handle this situation now?",
+    "options": [
+      "Keep quiet and hope the compliance review passes, informing no one to avoid stress.",
+      "Alert stakeholders immediately, outline the risk and its impact on the announced date, propose mitigations (parallel fixes, staged launch without payments, backup date), and request a decision window.",
+      "Cancel the launch quietly and let marketing find out later."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "You are leading a distributed team across four time zones. Daily standups have become 40-minute status monologues, and several engineers type updates asynchronously instead of joining. Velocity is slowing. How do you redesign the process to respect time zones and regain momentum?",
+    "options": [
+      "Mandate a 60-minute standup so everyone can speak at length.",
+      "Move to a 10–15 minute synchronous standup for blockers only, rotate times weekly, require short async updates in a shared doc, and schedule deep dives separately.",
+      "Cancel all coordination and let everyone work without any updates."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Midway through a client workshop, two senior participants dominate the conversation, rejecting others’ ideas. Quieter members stop contributing, and time is running out. What is the best way to restore balance and still reach outcomes?",
+    "options": [
+      "Let the dominant voices continue so the meeting ends on time.",
+      "Pause the discussion, reset ground rules (timeboxed turns, hand-raise), solicit input from quieter members first, and park off-topic debates for a follow-up.",
+      "End the workshop immediately without capturing decisions."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A critical dashboard shows conflicting metrics because two teams use different definitions of 'active user'. Executives will review performance tomorrow. What should you do first to prevent misinterpretation?",
+    "options": [
+      "Pick the higher number to look better and ignore the mismatch.",
+      "Align on a single definition with stakeholders today, document it on both dashboards, and communicate how historical trends may shift after the correction.",
+      "Hide both dashboards until the meeting ends."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "You must brief the board in five minutes about a severe outage: service was down for 90 minutes, root cause is still under investigation, and two mitigation steps are in progress. What should your briefing include?",
+    "options": [
+      "A detailed history of the company culture.",
+      "Clear impact (duration, users affected), current status, known/unknowns, actions underway, estimated recovery, and timing for the next update.",
+      "Only a joke to lighten the mood."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A regulated customer requests proof that your AI model avoids bias. You have limited documentation and no recent audit. The sales deal depends on a timely answer. What is the most credible response strategy?",
+    "options": [
+      "Claim the model is fair without evidence and hope they trust you.",
+      "Provide what you have (training data summary, evaluation results), outline planned audit steps and timeline, and offer a review session with the ML team.",
+      "Refuse to answer any questions about the model."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Two senior engineers disagree on a migration approach. One wants a fast cut-over; the other insists on a gradual shadow deployment. Deadlines are tight. How do you reach a decision quickly without sacrificing safety?",
+    "options": [
+      "Flip a coin and proceed without documentation.",
+      "Host a 30-minute decision forum with criteria (risk, rollback, effort), compare both plans, pick one with clear rollback, and document the decision and owner.",
+      "Ask neither engineer and choose a third, unrelated idea."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A key slide in your investor deck uses outdated numbers that change the headline growth story. The meeting is tomorrow morning. What is the responsible way to handle the slide now?",
+    "options": [
+      "Leave the wrong numbers because updating is stressful.",
+      "Update the numbers if possible; if time is too short, flag the slide as updated verbally, explain the corrected figures, and follow up with the revised deck.",
+      "Remove all data slides and replace them with blank pages."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Customer support reports an emerging pattern: users from one region cannot complete checkout on mobile due to a payment error. Release is scheduled in three days. What should you prioritize first?",
+    "options": [
+      "Proceed with release and hope the issue is rare.",
+      "Treat it as a release blocker: reproduce, fix or hotfix before launch, or delay/feature-flag the region; inform support and update release notes.",
+      "Disable checkout for all regions without investigation."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A vendor offers an attractive discount if you approve an invoice today, but you have not validated the deliverables. Leadership wants cost savings. What is the appropriate action?",
+    "options": [
+      "Approve immediately to secure the discount.",
+      "Verify deliverables or obtain proof first; if acceptable, approve, otherwise negotiate timing—communicate trade-offs transparently.",
+      "Ignore the invoice and hope it disappears."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "You are asked to translate a 60-page technical policy into a one-page executive summary by tomorrow. Executives care about decisions and risk. What belongs in that one pager?",
+    "options": [
+      "Full legal clauses copied verbatim.",
+      "Essential impacts, required decisions, key risks, owners, and deadlines, written plainly.",
+      "Decorative graphics with no text."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "In a retrospective, tension rises and teammates start blaming each other for missed deadlines. As facilitator, how do you de-escalate and keep the session useful?",
+    "options": [
+      "Let the blame continue to see who wins.",
+      "Refocus on facts and timelines, use blameless language, capture causes and fixes, and park personal conflicts for a separate conversation.",
+      "End the session abruptly without notes."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A government client requires proof of data residency and encryption for all stored files. Your documentation is partial. The deadline to respond is in 48 hours. What is the best approach?",
+    "options": [
+      "Reply with unverified claims to save time.",
+      "Compile existing evidence (architecture, encryption at rest/in transit, regions), identify gaps, state remediation steps and dates, and offer a technical call.",
+      "Ignore the request and hope they forget."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "You are hosting a webinar and lose Wi‑Fi mid-session. Attendees begin leaving. Your phone has hotspot capability. What should you do?",
+    "options": [
+      "End the webinar silently.",
+      "Quickly switch to hotspot, post a short message about the brief delay, resume, and follow up with the recording afterward.",
+      "Pretend the webinar is over and do not contact attendees again."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Two critical bugs are found on release day: one minor UI glitch and one payment failure affecting 5% of users. What is the correct prioritization?",
+    "options": [
+      "Ship everything and handle both later.",
+      "Block release or hotfix the payment failure first; the UI glitch can be scheduled after.",
+      "Fix only the UI glitch because it is visible."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Your COO requests a 'quick' update on international expansion, but the reality is that legal approvals are pending and timelines are uncertain. How do you answer?",
+    "options": [
+      "Provide a fake precise date to sound confident.",
+      "Give a concise status: approvals pending, current blockers, best/worst-case windows, and what is needed to accelerate; avoid false certainty.",
+      "Refuse to respond until everything is certain."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A junior teammate delivers a draft with several mistakes. You have 24 hours to finalize. How do you correct the work while supporting their growth?",
+    "options": [
+      "Rewrite silently and offer no feedback.",
+      "Fix critical errors, leave clear comments on patterns to improve, and schedule a short review to explain corrections.",
+      "Return it unchanged and blame them publicly."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Your incident postmortem draft is five pages of raw chat logs. Executives want key points only. What should you deliver?",
+    "options": [
+      "All chat logs unedited.",
+      "Concise timeline, impact, root cause, fixes, and prevention actions, with links to detailed logs for reference.",
+      "Only a celebratory note that the incident is over."],
+    "answer": 1
+  },
+  {
+    "question": "A major customer asks for a custom feature that would delay your roadmap by a month. Revenue would be good, but other commitments would slip. What is the best first step?",
+    "options": [
+      "Commit immediately without analysis.",
+      "Assess impact and trade-offs, propose alternatives (configuration, phased delivery), and get stakeholder alignment before committing.",
+      "Decline rudely without explanation."
+    ],
+    "answer": 1
+  }
+]

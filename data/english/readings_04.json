@@ -1,0 +1,102 @@
+[
+  {
+    "title": "City Market Morning",
+    "level": "B1",
+    "text": "Every Saturday, the old city market opens before sunrise. Farmers bring fresh vegetables, cheese, and bread, arranging their goods in neat rows. The smell of coffee mixes with the sound of street musicians. Shoppers compare prices, ask about recipes, and taste fruit before buying. By noon, the square is almost empty, but the stalls will return next week with new seasonal flavors.",
+    "glossary": [
+      {"word": "arrange", "meaning": "put in order"},
+      {"word": "stall", "meaning": "small stand for selling"},
+      {"word": "seasonal", "meaning": "related to a particular time of year"}
+    ]
+  },
+  {
+    "title": "Remote Teamwork",
+    "level": "B1",
+    "text": "Our company now has teammates in four countries. To stay connected, we hold short meetings online every morning. Each person shares a quick update and mentions any blockers. Because of time zones, some colleagues speak in the evening, while others speak early in the day. Clear notes after each call help everyone track tasks and avoid repeated work.",
+    "glossary": [
+      {"word": "blocker", "meaning": "problem stopping progress"},
+      {"word": "time zone", "meaning": "region with a specific time"},
+      {"word": "track", "meaning": "follow progress"}
+    ]
+  },
+  {
+    "title": "Library Evening Class",
+    "level": "B1",
+    "text": "The local library offers a free evening class for language learners. The teacher focuses on everyday topics such as shopping, travel, and work. Students practice short dialogues in pairs and record themselves to listen later. At the end of each session, the teacher shares new phrases on a digital board so learners can review at home.",
+    "glossary": [
+      {"word": "dialogue", "meaning": "conversation between two people"},
+      {"word": "record", "meaning": "capture audio or video"},
+      {"word": "phrase", "meaning": "small group of words"}
+    ]
+  },
+  {
+    "title": "Mountain Trail Notice",
+    "level": "B1",
+    "text": "Hikers should follow the marked trail to protect young plants. The path is narrow and rocky near the peak, so good shoes are important. Weather can change quickly; a sunny morning may become a rainy afternoon. If you see wildlife, keep a safe distance and do not feed the animals. Emergency numbers are listed on signs at every rest point.",
+    "glossary": [
+      {"word": "trail", "meaning": "path for walking"},
+      {"word": "peak", "meaning": "top of a mountain"},
+      {"word": "wildlife", "meaning": "animals living in nature"}
+    ]
+  },
+  {
+    "title": "Volunteering Weekend",
+    "level": "B1",
+    "text": "A group of neighbors organizes a monthly volunteering weekend. On Saturday, they clean the riverbank and collect plastic. On Sunday, they visit an elderly home to play board games and chat. The organizer sends a list of needed items, such as gloves, bags, and simple gifts. New volunteers are welcome and can sign up through an online form.",
+    "glossary": [
+      {"word": "elderly", "meaning": "old in age"},
+      {"word": "organizer", "meaning": "person who plans an event"},
+      {"word": "sign up", "meaning": "register to join"}
+    ]
+  },
+  {
+    "title": "Night Train Journey",
+    "level": "B1",
+    "text": "Taking the night train lets travelers save time and money. Instead of paying for a hotel, passengers sleep in small cabins. The train staff offers clean sheets and wake-up calls before arrival. Looking out the window, you can see city lights fade and quiet villages appear. By morning, you reach your destination rested and ready to explore.",
+    "glossary": [
+      {"word": "cabin", "meaning": "small private room"},
+      {"word": "arrival", "meaning": "time of coming to a place"},
+      {"word": "destination", "meaning": "place someone is going"}
+    ]
+  },
+  {
+    "title": "Healthy Workplace Habits",
+    "level": "B1",
+    "text": "Sitting at a desk all day can cause back pain and tired eyes. To reduce these problems, take short breaks every hour. Stand up, stretch your arms, and look out a window to rest your eyes. Drink water instead of sugary drinks to stay focused. Small changes like these improve energy and productivity at work.",
+    "glossary": [
+      {"word": "reduce", "meaning": "make smaller"},
+      {"word": "stretch", "meaning": "extend your muscles"},
+      {"word": "productivity", "meaning": "amount of work done"}
+    ]
+  },
+  {
+    "title": "Food Truck Festival",
+    "level": "B1",
+    "text": "Once a month, the park hosts a food truck festival with dishes from around the world. Visitors can try spicy noodles, fresh tacos, and homemade ice cream. A live band plays near the fountain, and children dance on the grass. To avoid long lines, many people arrive early and share different plates with friends.",
+    "glossary": [
+      {"word": "spicy", "meaning": "hot flavor"},
+      {"word": "homemade", "meaning": "made at home"},
+      {"word": "fountain", "meaning": "decorative water feature"}
+    ]
+  },
+  {
+    "title": "Second-Hand Shopping",
+    "level": "B1",
+    "text": "Buying second-hand clothes is popular again. People enjoy finding unique pieces at low prices. Many stores also sort items by color and size, making it easy to browse. Choosing pre-owned items reduces waste and supports local charities. Before buying, check for small damages and wash everything at home.",
+    "glossary": [
+      {"word": "second-hand", "meaning": "used before"},
+      {"word": "browse", "meaning": "look casually"},
+      {"word": "charity", "meaning": "organization that helps people"}
+    ]
+  },
+  {
+    "title": "Language Exchange Café",
+    "level": "B1",
+    "text": "A new café hosts language exchange nights twice a week. Each table has a small flag showing which language is practiced. Visitors order a drink and sit with partners for fifteen minutes, then switch tables. The café posts weekly themes like travel, food, or work. Regular visitors say the relaxed atmosphere helps them speak without fear.",
+    "glossary": [
+      {"word": "exchange", "meaning": "act of giving and receiving"},
+      {"word": "theme", "meaning": "subject for discussion"},
+      {"word": "atmosphere", "meaning": "feeling or mood of a place"}
+    ]
+  }
+]

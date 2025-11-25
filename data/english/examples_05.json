@@ -1,0 +1,1402 @@
+[
+  {
+    "topic": "Academic Debate",
+    "level": "B2",
+    "sentence": "Although the proposal was expensive, the council approved it for long-term benefits.",
+    "tr": "Teklif pahalı olmasına rağmen, meclis uzun vadeli faydalar için onayladı.",
+    "note": "Although + clause for concession."
+  },
+  {
+    "topic": "Policy Change",
+    "level": "B2",
+    "sentence": "The pilot project succeeded, so policymakers expanded it nationwide.",
+    "tr": "Pilot proje başarılı oldu, bu yüzden politika yapıcılar ülke geneline yaydı.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Urban Planning",
+    "level": "B2",
+    "sentence": "The city reduced car lanes, but public transport frequency increased.",
+    "tr": "Şehir araç şeritlerini azalttı, ancak toplu taşıma sıklığı arttı.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Climate Action",
+    "level": "B2",
+    "sentence": "The campaign used clear visuals to raise awareness among commuters.",
+    "tr": "Kampanya, yolcular arasında farkındalığı artırmak için net görseller kullandı.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Energy Transition",
+    "level": "B2",
+    "sentence": "Because drought persisted, local farms shifted to low-water crops.",
+    "tr": "Kuraklık devam ettiği için yerel çiftlikler az su isteyen ürünlere geçti.",
+    "note": "because clause for cause."
+  },
+  {
+    "topic": "Public Health",
+    "level": "B2",
+    "sentence": "If the budget is approved, construction can begin in spring.",
+    "tr": "Bütçe onaylanırsa inşaat baharda başlayabilir.",
+    "note": "First conditional planning."
+  },
+  {
+    "topic": "Education Reform",
+    "level": "B2",
+    "sentence": "After the consultation period ended, the draft policy was published.",
+    "tr": "Danışma süresi bittikten sonra taslak politika yayımlandı.",
+    "note": "After + clause for time."
+  },
+  {
+    "topic": "Digital Privacy",
+    "level": "B2",
+    "sentence": "Given the rising demand, housing prices are likely to increase further.",
+    "tr": "Artan talep göz önüne alındığında konut fiyatlarının daha da artması muhtemel.",
+    "note": "Given + noun for inference."
+  },
+  {
+    "topic": "AI Ethics",
+    "level": "B2",
+    "sentence": "The policy draft was revised and circulated for feedback.",
+    "tr": "Politika taslağı gözden geçirildi ve geri bildirim için dolaşıma sokuldu.",
+    "note": "Passive past for process."
+  },
+  {
+    "topic": "Job Automation",
+    "level": "B2",
+    "sentence": "The sharp decline must have resulted from the new regulation.",
+    "tr": "Keskin düşüş muhtemelen yeni düzenlemeden kaynaklanmış olmalı.",
+    "note": "must have + V3 for deduction."
+  },
+  {
+    "topic": "Gig Economy",
+    "level": "B2",
+    "sentence": "Although the proposal was expensive, the council approved it for long-term benefits.",
+    "tr": "Teklif pahalı olmasına rağmen, meclis uzun vadeli faydalar için onayladı.",
+    "note": "Although + clause for concession."
+  },
+  {
+    "topic": "Financial Literacy",
+    "level": "B2",
+    "sentence": "The pilot project succeeded, so policymakers expanded it nationwide.",
+    "tr": "Pilot proje başarılı oldu, bu yüzden politika yapıcılar ülke geneline yaydı.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Investment Risk",
+    "level": "B2",
+    "sentence": "The city reduced car lanes, but public transport frequency increased.",
+    "tr": "Şehir araç şeritlerini azalttı, ancak toplu taşıma sıklığı arttı.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Supply Chain",
+    "level": "B2",
+    "sentence": "The campaign used clear visuals to raise awareness among commuters.",
+    "tr": "Kampanya, yolcular arasında farkındalığı artırmak için net görseller kullandı.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Food Security",
+    "level": "B2",
+    "sentence": "Because drought persisted, local farms shifted to low-water crops.",
+    "tr": "Kuraklık devam ettiği için yerel çiftlikler az su isteyen ürünlere geçti.",
+    "note": "because clause for cause."
+  },
+  {
+    "topic": "Water Scarcity",
+    "level": "B2",
+    "sentence": "If the budget is approved, construction can begin in spring.",
+    "tr": "Bütçe onaylanırsa inşaat baharda başlayabilir.",
+    "note": "First conditional planning."
+  },
+  {
+    "topic": "Biodiversity",
+    "level": "B2",
+    "sentence": "After the consultation period ended, the draft policy was published.",
+    "tr": "Danışma süresi bittikten sonra taslak politika yayımlandı.",
+    "note": "After + clause for time."
+  },
+  {
+    "topic": "Circular Economy",
+    "level": "B2",
+    "sentence": "Given the rising demand, housing prices are likely to increase further.",
+    "tr": "Artan talep göz önüne alındığında konut fiyatlarının daha da artması muhtemel.",
+    "note": "Given + noun for inference."
+  },
+  {
+    "topic": "Green Building",
+    "level": "B2",
+    "sentence": "The policy draft was revised and circulated for feedback.",
+    "tr": "Politika taslağı gözden geçirildi ve geri bildirim için dolaşıma sokuldu.",
+    "note": "Passive past for process."
+  },
+  {
+    "topic": "Waste Reduction",
+    "level": "B2",
+    "sentence": "The sharp decline must have resulted from the new regulation.",
+    "tr": "Keskin düşüş muhtemelen yeni düzenlemeden kaynaklanmış olmalı.",
+    "note": "must have + V3 for deduction."
+  },
+  {
+    "topic": "Recycling Policy",
+    "level": "B2",
+    "sentence": "Although the proposal was expensive, the council approved it for long-term benefits.",
+    "tr": "Teklif pahalı olmasına rağmen, meclis uzun vadeli faydalar için onayladı.",
+    "note": "Although + clause for concession."
+  },
+  {
+    "topic": "Carbon Footprint",
+    "level": "B2",
+    "sentence": "The pilot project succeeded, so policymakers expanded it nationwide.",
+    "tr": "Pilot proje başarılı oldu, bu yüzden politika yapıcılar ülke geneline yaydı.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Public Transport",
+    "level": "B2",
+    "sentence": "The city reduced car lanes, but public transport frequency increased.",
+    "tr": "Şehir araç şeritlerini azalttı, ancak toplu taşıma sıklığı arttı.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Infrastructure",
+    "level": "B2",
+    "sentence": "The campaign used clear visuals to raise awareness among commuters.",
+    "tr": "Kampanya, yolcular arasında farkındalığı artırmak için net görseller kullandı.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Telemedicine",
+    "level": "B2",
+    "sentence": "Because drought persisted, local farms shifted to low-water crops.",
+    "tr": "Kuraklık devam ettiği için yerel çiftlikler az su isteyen ürünlere geçti.",
+    "note": "because clause for cause."
+  },
+  {
+    "topic": "Remote Learning",
+    "level": "B2",
+    "sentence": "If the budget is approved, construction can begin in spring.",
+    "tr": "Bütçe onaylanırsa inşaat baharda başlayabilir.",
+    "note": "First conditional planning."
+  },
+  {
+    "topic": "Inclusive Design",
+    "level": "B2",
+    "sentence": "After the consultation period ended, the draft policy was published.",
+    "tr": "Danışma süresi bittikten sonra taslak politika yayımlandı.",
+    "note": "After + clause for time."
+  },
+  {
+    "topic": "Accessibility",
+    "level": "B2",
+    "sentence": "Given the rising demand, housing prices are likely to increase further.",
+    "tr": "Artan talep göz önüne alındığında konut fiyatlarının daha da artması muhtemel.",
+    "note": "Given + noun for inference."
+  },
+  {
+    "topic": "Open Data",
+    "level": "B2",
+    "sentence": "The policy draft was revised and circulated for feedback.",
+    "tr": "Politika taslağı gözden geçirildi ve geri bildirim için dolaşıma sokuldu.",
+    "note": "Passive past for process."
+  },
+  {
+    "topic": "Cybersecurity",
+    "level": "B2",
+    "sentence": "The sharp decline must have resulted from the new regulation.",
+    "tr": "Keskin düşüş muhtemelen yeni düzenlemeden kaynaklanmış olmalı.",
+    "note": "must have + V3 for deduction."
+  },
+  {
+    "topic": "Misinformation",
+    "level": "B2",
+    "sentence": "Although the proposal was expensive, the council approved it for long-term benefits.",
+    "tr": "Teklif pahalı olmasına rağmen, meclis uzun vadeli faydalar için onayladı.",
+    "note": "Although + clause for concession."
+  },
+  {
+    "topic": "Media Literacy",
+    "level": "B2",
+    "sentence": "The pilot project succeeded, so policymakers expanded it nationwide.",
+    "tr": "Pilot proje başarılı oldu, bu yüzden politika yapıcılar ülke geneline yaydı.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Voting Rights",
+    "level": "B2",
+    "sentence": "The city reduced car lanes, but public transport frequency increased.",
+    "tr": "Şehir araç şeritlerini azalttı, ancak toplu taşıma sıklığı arttı.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Civic Engagement",
+    "level": "B2",
+    "sentence": "The campaign used clear visuals to raise awareness among commuters.",
+    "tr": "Kampanya, yolcular arasında farkındalığı artırmak için net görseller kullandı.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Community Outreach",
+    "level": "B2",
+    "sentence": "Because drought persisted, local farms shifted to low-water crops.",
+    "tr": "Kuraklık devam ettiği için yerel çiftlikler az su isteyen ürünlere geçti.",
+    "note": "because clause for cause."
+  },
+  {
+    "topic": "Disaster Preparedness",
+    "level": "B2",
+    "sentence": "If the budget is approved, construction can begin in spring.",
+    "tr": "Bütçe onaylanırsa inşaat baharda başlayabilir.",
+    "note": "First conditional planning."
+  },
+  {
+    "topic": "Humanitarian Aid",
+    "level": "B2",
+    "sentence": "After the consultation period ended, the draft policy was published.",
+    "tr": "Danışma süresi bittikten sonra taslak politika yayımlandı.",
+    "note": "After + clause for time."
+  },
+  {
+    "topic": "Refugee Support",
+    "level": "B2",
+    "sentence": "Given the rising demand, housing prices are likely to increase further.",
+    "tr": "Artan talep göz önüne alındığında konut fiyatlarının daha da artması muhtemel.",
+    "note": "Given + noun for inference."
+  },
+  {
+    "topic": "Cultural Preservation",
+    "level": "B2",
+    "sentence": "The policy draft was revised and circulated for feedback.",
+    "tr": "Politika taslağı gözden geçirildi ve geri bildirim için dolaşıma sokuldu.",
+    "note": "Passive past for process."
+  },
+  {
+    "topic": "Language Policy",
+    "level": "B2",
+    "sentence": "The sharp decline must have resulted from the new regulation.",
+    "tr": "Keskin düşüş muhtemelen yeni düzenlemeden kaynaklanmış olmalı.",
+    "note": "must have + V3 for deduction."
+  },
+  {
+    "topic": "Minority Rights",
+    "level": "B2",
+    "sentence": "Although the proposal was expensive, the council approved it for long-term benefits.",
+    "tr": "Teklif pahalı olmasına rağmen, meclis uzun vadeli faydalar için onayladı.",
+    "note": "Although + clause for concession."
+  },
+  {
+    "topic": "Gender Equality",
+    "level": "B2",
+    "sentence": "The pilot project succeeded, so policymakers expanded it nationwide.",
+    "tr": "Pilot proje başarılı oldu, bu yüzden politika yapıcılar ülke geneline yaydı.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Workplace Inclusion",
+    "level": "B2",
+    "sentence": "The city reduced car lanes, but public transport frequency increased.",
+    "tr": "Şehir araç şeritlerini azalttı, ancak toplu taşıma sıklığı arttı.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Pay Equity",
+    "level": "B2",
+    "sentence": "The campaign used clear visuals to raise awareness among commuters.",
+    "tr": "Kampanya, yolcular arasında farkındalığı artırmak için net görseller kullandı.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Work–Life Balance",
+    "level": "B2",
+    "sentence": "Because drought persisted, local farms shifted to low-water crops.",
+    "tr": "Kuraklık devam ettiği için yerel çiftlikler az su isteyen ürünlere geçti.",
+    "note": "because clause for cause."
+  },
+  {
+    "topic": "Burnout Prevention",
+    "level": "B2",
+    "sentence": "If the budget is approved, construction can begin in spring.",
+    "tr": "Bütçe onaylanırsa inşaat baharda başlayabilir.",
+    "note": "First conditional planning."
+  },
+  {
+    "topic": "Mental Resilience",
+    "level": "B2",
+    "sentence": "After the consultation period ended, the draft policy was published.",
+    "tr": "Danışma süresi bittikten sonra taslak politika yayımlandı.",
+    "note": "After + clause for time."
+  },
+  {
+    "topic": "Stress Management",
+    "level": "B2",
+    "sentence": "Given the rising demand, housing prices are likely to increase further.",
+    "tr": "Artan talep göz önüne alındığında konut fiyatlarının daha da artması muhtemel.",
+    "note": "Given + noun for inference."
+  },
+  {
+    "topic": "Mindful Leadership",
+    "level": "B2",
+    "sentence": "The policy draft was revised and circulated for feedback.",
+    "tr": "Politika taslağı gözden geçirildi ve geri bildirim için dolaşıma sokuldu.",
+    "note": "Passive past for process."
+  },
+  {
+    "topic": "Trust Building",
+    "level": "B2",
+    "sentence": "The sharp decline must have resulted from the new regulation.",
+    "tr": "Keskin düşüş muhtemelen yeni düzenlemeden kaynaklanmış olmalı.",
+    "note": "must have + V3 for deduction."
+  },
+  {
+    "topic": "Negotiation Ethics",
+    "level": "B2",
+    "sentence": "Although the proposal was expensive, the council approved it for long-term benefits.",
+    "tr": "Teklif pahalı olmasına rağmen, meclis uzun vadeli faydalar için onayladı.",
+    "note": "Although + clause for concession."
+  },
+  {
+    "topic": "Conflict De-escalation",
+    "level": "B2",
+    "sentence": "The pilot project succeeded, so policymakers expanded it nationwide.",
+    "tr": "Pilot proje başarılı oldu, bu yüzden politika yapıcılar ülke geneline yaydı.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Transparency",
+    "level": "B2",
+    "sentence": "The city reduced car lanes, but public transport frequency increased.",
+    "tr": "Şehir araç şeritlerini azalttı, ancak toplu taşıma sıklığı arttı.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Accountability",
+    "level": "B2",
+    "sentence": "The campaign used clear visuals to raise awareness among commuters.",
+    "tr": "Kampanya, yolcular arasında farkındalığı artırmak için net görseller kullandı.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Whistleblowing",
+    "level": "B2",
+    "sentence": "Because drought persisted, local farms shifted to low-water crops.",
+    "tr": "Kuraklık devam ettiği için yerel çiftlikler az su isteyen ürünlere geçti.",
+    "note": "because clause for cause."
+  },
+  {
+    "topic": "Anticorruption",
+    "level": "B2",
+    "sentence": "If the budget is approved, construction can begin in spring.",
+    "tr": "Bütçe onaylanırsa inşaat baharda başlayabilir.",
+    "note": "First conditional planning."
+  },
+  {
+    "topic": "Fair Trade",
+    "level": "B2",
+    "sentence": "After the consultation period ended, the draft policy was published.",
+    "tr": "Danışma süresi bittikten sonra taslak politika yayımlandı.",
+    "note": "After + clause for time."
+  },
+  {
+    "topic": "Consumer Protection",
+    "level": "B2",
+    "sentence": "Given the rising demand, housing prices are likely to increase further.",
+    "tr": "Artan talep göz önüne alındığında konut fiyatlarının daha da artması muhtemel.",
+    "note": "Given + noun for inference."
+  },
+  {
+    "topic": "Product Safety",
+    "level": "B2",
+    "sentence": "The policy draft was revised and circulated for feedback.",
+    "tr": "Politika taslağı gözden geçirildi ve geri bildirim için dolaşıma sokuldu.",
+    "note": "Passive past for process."
+  },
+  {
+    "topic": "Quality Labeling",
+    "level": "B2",
+    "sentence": "The sharp decline must have resulted from the new regulation.",
+    "tr": "Keskin düşüş muhtemelen yeni düzenlemeden kaynaklanmış olmalı.",
+    "note": "must have + V3 for deduction."
+  },
+  {
+    "topic": "Data Protection",
+    "level": "B2",
+    "sentence": "Although the proposal was expensive, the council approved it for long-term benefits.",
+    "tr": "Teklif pahalı olmasına rağmen, meclis uzun vadeli faydalar için onayladı.",
+    "note": "Although + clause for concession."
+  },
+  {
+    "topic": "Encryption",
+    "level": "B2",
+    "sentence": "The pilot project succeeded, so policymakers expanded it nationwide.",
+    "tr": "Pilot proje başarılı oldu, bu yüzden politika yapıcılar ülke geneline yaydı.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Biometric Data",
+    "level": "B2",
+    "sentence": "The city reduced car lanes, but public transport frequency increased.",
+    "tr": "Şehir araç şeritlerini azalttı, ancak toplu taşıma sıklığı arttı.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Consent",
+    "level": "B2",
+    "sentence": "The campaign used clear visuals to raise awareness among commuters.",
+    "tr": "Kampanya, yolcular arasında farkındalığı artırmak için net görseller kullandı.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Informed Choice",
+    "level": "B2",
+    "sentence": "Because drought persisted, local farms shifted to low-water crops.",
+    "tr": "Kuraklık devam ettiği için yerel çiftlikler az su isteyen ürünlere geçti.",
+    "note": "because clause for cause."
+  },
+  {
+    "topic": "Clinical Trial",
+    "level": "B2",
+    "sentence": "If the budget is approved, construction can begin in spring.",
+    "tr": "Bütçe onaylanırsa inşaat baharda başlayabilir.",
+    "note": "First conditional planning."
+  },
+  {
+    "topic": "Vaccine Uptake",
+    "level": "B2",
+    "sentence": "After the consultation period ended, the draft policy was published.",
+    "tr": "Danışma süresi bittikten sonra taslak politika yayımlandı.",
+    "note": "After + clause for time."
+  },
+  {
+    "topic": "Health Equity",
+    "level": "B2",
+    "sentence": "Given the rising demand, housing prices are likely to increase further.",
+    "tr": "Artan talep göz önüne alındığında konut fiyatlarının daha da artması muhtemel.",
+    "note": "Given + noun for inference."
+  },
+  {
+    "topic": "Nutrition Policy",
+    "level": "B2",
+    "sentence": "The policy draft was revised and circulated for feedback.",
+    "tr": "Politika taslağı gözden geçirildi ve geri bildirim için dolaşıma sokuldu.",
+    "note": "Passive past for process."
+  },
+  {
+    "topic": "Food Labeling",
+    "level": "B2",
+    "sentence": "The sharp decline must have resulted from the new regulation.",
+    "tr": "Keskin düşüş muhtemelen yeni düzenlemeden kaynaklanmış olmalı.",
+    "note": "must have + V3 for deduction."
+  },
+  {
+    "topic": "Sugar Tax",
+    "level": "B2",
+    "sentence": "Although the proposal was expensive, the council approved it for long-term benefits.",
+    "tr": "Teklif pahalı olmasına rağmen, meclis uzun vadeli faydalar için onayladı.",
+    "note": "Although + clause for concession."
+  },
+  {
+    "topic": "School Lunch",
+    "level": "B2",
+    "sentence": "The pilot project succeeded, so policymakers expanded it nationwide.",
+    "tr": "Pilot proje başarılı oldu, bu yüzden politika yapıcılar ülke geneline yaydı.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Physical Activity",
+    "level": "B2",
+    "sentence": "The city reduced car lanes, but public transport frequency increased.",
+    "tr": "Şehir araç şeritlerini azalttı, ancak toplu taşıma sıklığı arttı.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Urban Green Space",
+    "level": "B2",
+    "sentence": "The campaign used clear visuals to raise awareness among commuters.",
+    "tr": "Kampanya, yolcular arasında farkındalığı artırmak için net görseller kullandı.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Noise Pollution",
+    "level": "B2",
+    "sentence": "Because drought persisted, local farms shifted to low-water crops.",
+    "tr": "Kuraklık devam ettiği için yerel çiftlikler az su isteyen ürünlere geçti.",
+    "note": "because clause for cause."
+  },
+  {
+    "topic": "Air Quality",
+    "level": "B2",
+    "sentence": "If the budget is approved, construction can begin in spring.",
+    "tr": "Bütçe onaylanırsa inşaat baharda başlayabilir.",
+    "note": "First conditional planning."
+  },
+  {
+    "topic": "Heat Wave",
+    "level": "B2",
+    "sentence": "After the consultation period ended, the draft policy was published.",
+    "tr": "Danışma süresi bittikten sonra taslak politika yayımlandı.",
+    "note": "After + clause for time."
+  },
+  {
+    "topic": "Drought Response",
+    "level": "B2",
+    "sentence": "Given the rising demand, housing prices are likely to increase further.",
+    "tr": "Artan talep göz önüne alındığında konut fiyatlarının daha da artması muhtemel.",
+    "note": "Given + noun for inference."
+  },
+  {
+    "topic": "Flood Defense",
+    "level": "B2",
+    "sentence": "The policy draft was revised and circulated for feedback.",
+    "tr": "Politika taslağı gözden geçirildi ve geri bildirim için dolaşıma sokuldu.",
+    "note": "Passive past for process."
+  },
+  {
+    "topic": "Insurance Risk",
+    "level": "B2",
+    "sentence": "The sharp decline must have resulted from the new regulation.",
+    "tr": "Keskin düşüş muhtemelen yeni düzenlemeden kaynaklanmış olmalı.",
+    "note": "must have + V3 for deduction."
+  },
+  {
+    "topic": "Disaster Insurance",
+    "level": "B2",
+    "sentence": "Although the proposal was expensive, the council approved it for long-term benefits.",
+    "tr": "Teklif pahalı olmasına rağmen, meclis uzun vadeli faydalar için onayladı.",
+    "note": "Although + clause for concession."
+  },
+  {
+    "topic": "Resilient Housing",
+    "level": "B2",
+    "sentence": "The pilot project succeeded, so policymakers expanded it nationwide.",
+    "tr": "Pilot proje başarılı oldu, bu yüzden politika yapıcılar ülke geneline yaydı.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Migration Trend",
+    "level": "B2",
+    "sentence": "The city reduced car lanes, but public transport frequency increased.",
+    "tr": "Şehir araç şeritlerini azalttı, ancak toplu taşıma sıklığı arttı.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Aging Population",
+    "level": "B2",
+    "sentence": "The campaign used clear visuals to raise awareness among commuters.",
+    "tr": "Kampanya, yolcular arasında farkındalığı artırmak için net görseller kullandı.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Fertility Rate",
+    "level": "B2",
+    "sentence": "Because drought persisted, local farms shifted to low-water crops.",
+    "tr": "Kuraklık devam ettiği için yerel çiftlikler az su isteyen ürünlere geçti.",
+    "note": "because clause for cause."
+  },
+  {
+    "topic": "Childcare Support",
+    "level": "B2",
+    "sentence": "If the budget is approved, construction can begin in spring.",
+    "tr": "Bütçe onaylanırsa inşaat baharda başlayabilir.",
+    "note": "First conditional planning."
+  },
+  {
+    "topic": "Elder Care",
+    "level": "B2",
+    "sentence": "After the consultation period ended, the draft policy was published.",
+    "tr": "Danışma süresi bittikten sonra taslak politika yayımlandı.",
+    "note": "After + clause for time."
+  },
+  {
+    "topic": "Universal Basic Income",
+    "level": "B2",
+    "sentence": "Given the rising demand, housing prices are likely to increase further.",
+    "tr": "Artan talep göz önüne alındığında konut fiyatlarının daha da artması muhtemel.",
+    "note": "Given + noun for inference."
+  },
+  {
+    "topic": "Tax Reform",
+    "level": "B2",
+    "sentence": "The policy draft was revised and circulated for feedback.",
+    "tr": "Politika taslağı gözden geçirildi ve geri bildirim için dolaşıma sokuldu.",
+    "note": "Passive past for process."
+  },
+  {
+    "topic": "Public Spending",
+    "level": "B2",
+    "sentence": "The sharp decline must have resulted from the new regulation.",
+    "tr": "Keskin düşüş muhtemelen yeni düzenlemeden kaynaklanmış olmalı.",
+    "note": "must have + V3 for deduction."
+  },
+  {
+    "topic": "Innovation Grants",
+    "level": "B2",
+    "sentence": "Although the proposal was expensive, the council approved it for long-term benefits.",
+    "tr": "Teklif pahalı olmasına rağmen, meclis uzun vadeli faydalar için onayladı.",
+    "note": "Although + clause for concession."
+  },
+  {
+    "topic": "Research Funding",
+    "level": "B2",
+    "sentence": "The pilot project succeeded, so policymakers expanded it nationwide.",
+    "tr": "Pilot proje başarılı oldu, bu yüzden politika yapıcılar ülke geneline yaydı.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "University Access",
+    "level": "B2",
+    "sentence": "The city reduced car lanes, but public transport frequency increased.",
+    "tr": "Şehir araç şeritlerini azalttı, ancak toplu taşıma sıklığı arttı.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Scholarship Program",
+    "level": "B2",
+    "sentence": "The campaign used clear visuals to raise awareness among commuters.",
+    "tr": "Kampanya, yolcular arasında farkındalığı artırmak için net görseller kullandı.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Tuition Fee",
+    "level": "B2",
+    "sentence": "Because drought persisted, local farms shifted to low-water crops.",
+    "tr": "Kuraklık devam ettiği için yerel çiftlikler az su isteyen ürünlere geçti.",
+    "note": "because clause for cause."
+  },
+  {
+    "topic": "Student Debt",
+    "level": "B2",
+    "sentence": "If the budget is approved, construction can begin in spring.",
+    "tr": "Bütçe onaylanırsa inşaat baharda başlayabilir.",
+    "note": "First conditional planning."
+  },
+  {
+    "topic": "Apprenticeship",
+    "level": "B2",
+    "sentence": "After the consultation period ended, the draft policy was published.",
+    "tr": "Danışma süresi bittikten sonra taslak politika yayımlandı.",
+    "note": "After + clause for time."
+  },
+  {
+    "topic": "Vocational Training",
+    "level": "B2",
+    "sentence": "Given the rising demand, housing prices are likely to increase further.",
+    "tr": "Artan talep göz önüne alındığında konut fiyatlarının daha da artması muhtemel.",
+    "note": "Given + noun for inference."
+  },
+  {
+    "topic": "STEM Education",
+    "level": "B2",
+    "sentence": "The policy draft was revised and circulated for feedback.",
+    "tr": "Politika taslağı gözden geçirildi ve geri bildirim için dolaşıma sokuldu.",
+    "note": "Passive past for process."
+  },
+  {
+    "topic": "Arts Funding",
+    "level": "B2",
+    "sentence": "The sharp decline must have resulted from the new regulation.",
+    "tr": "Keskin düşüş muhtemelen yeni düzenlemeden kaynaklanmış olmalı.",
+    "note": "must have + V3 for deduction."
+  },
+  {
+    "topic": "Cultural Exchange",
+    "level": "B2",
+    "sentence": "Although the proposal was expensive, the council approved it for long-term benefits.",
+    "tr": "Teklif pahalı olmasına rağmen, meclis uzun vadeli faydalar için onayladı.",
+    "note": "Although + clause for concession."
+  },
+  {
+    "topic": "Tourism Impact",
+    "level": "B2",
+    "sentence": "The pilot project succeeded, so policymakers expanded it nationwide.",
+    "tr": "Pilot proje başarılı oldu, bu yüzden politika yapıcılar ülke geneline yaydı.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Heritage Site",
+    "level": "B2",
+    "sentence": "The city reduced car lanes, but public transport frequency increased.",
+    "tr": "Şehir araç şeritlerini azalttı, ancak toplu taşıma sıklığı arttı.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Remote Tourism",
+    "level": "B2",
+    "sentence": "The campaign used clear visuals to raise awareness among commuters.",
+    "tr": "Kampanya, yolcular arasında farkındalığı artırmak için net görseller kullandı.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Overtourism",
+    "level": "B2",
+    "sentence": "Because drought persisted, local farms shifted to low-water crops.",
+    "tr": "Kuraklık devam ettiği için yerel çiftlikler az su isteyen ürünlere geçti.",
+    "note": "because clause for cause."
+  },
+  {
+    "topic": "Visa Policy",
+    "level": "B2",
+    "sentence": "If the budget is approved, construction can begin in spring.",
+    "tr": "Bütçe onaylanırsa inşaat baharda başlayabilir.",
+    "note": "First conditional planning."
+  },
+  {
+    "topic": "Border Control",
+    "level": "B2",
+    "sentence": "After the consultation period ended, the draft policy was published.",
+    "tr": "Danışma süresi bittikten sonra taslak politika yayımlandı.",
+    "note": "After + clause for time."
+  },
+  {
+    "topic": "Trade Agreement",
+    "level": "B2",
+    "sentence": "Given the rising demand, housing prices are likely to increase further.",
+    "tr": "Artan talep göz önüne alındığında konut fiyatlarının daha da artması muhtemel.",
+    "note": "Given + noun for inference."
+  },
+  {
+    "topic": "Sanctions",
+    "level": "B2",
+    "sentence": "The policy draft was revised and circulated for feedback.",
+    "tr": "Politika taslağı gözden geçirildi ve geri bildirim için dolaşıma sokuldu.",
+    "note": "Passive past for process."
+  },
+  {
+    "topic": "Tariffs",
+    "level": "B2",
+    "sentence": "The sharp decline must have resulted from the new regulation.",
+    "tr": "Keskin düşüş muhtemelen yeni düzenlemeden kaynaklanmış olmalı.",
+    "note": "must have + V3 for deduction."
+  },
+  {
+    "topic": "Export Control",
+    "level": "B2",
+    "sentence": "Although the proposal was expensive, the council approved it for long-term benefits.",
+    "tr": "Teklif pahalı olmasına rağmen, meclis uzun vadeli faydalar için onayladı.",
+    "note": "Although + clause for concession."
+  },
+  {
+    "topic": "Import Regulation",
+    "level": "B2",
+    "sentence": "The pilot project succeeded, so policymakers expanded it nationwide.",
+    "tr": "Pilot proje başarılı oldu, bu yüzden politika yapıcılar ülke geneline yaydı.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Logistics Cost",
+    "level": "B2",
+    "sentence": "The city reduced car lanes, but public transport frequency increased.",
+    "tr": "Şehir araç şeritlerini azalttı, ancak toplu taşıma sıklığı arttı.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Port Congestion",
+    "level": "B2",
+    "sentence": "The campaign used clear visuals to raise awareness among commuters.",
+    "tr": "Kampanya, yolcular arasında farkındalığı artırmak için net görseller kullandı.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Last-mile Delivery",
+    "level": "B2",
+    "sentence": "Because drought persisted, local farms shifted to low-water crops.",
+    "tr": "Kuraklık devam ettiği için yerel çiftlikler az su isteyen ürünlere geçti.",
+    "note": "because clause for cause."
+  },
+  {
+    "topic": "Drone Delivery",
+    "level": "B2",
+    "sentence": "If the budget is approved, construction can begin in spring.",
+    "tr": "Bütçe onaylanırsa inşaat baharda başlayabilir.",
+    "note": "First conditional planning."
+  },
+  {
+    "topic": "Autonomous Vehicle",
+    "level": "B2",
+    "sentence": "After the consultation period ended, the draft policy was published.",
+    "tr": "Danışma süresi bittikten sonra taslak politika yayımlandı.",
+    "note": "After + clause for time."
+  },
+  {
+    "topic": "Ride-sharing",
+    "level": "B2",
+    "sentence": "Given the rising demand, housing prices are likely to increase further.",
+    "tr": "Artan talep göz önüne alındığında konut fiyatlarının daha da artması muhtemel.",
+    "note": "Given + noun for inference."
+  },
+  {
+    "topic": "Micromobility",
+    "level": "B2",
+    "sentence": "The policy draft was revised and circulated for feedback.",
+    "tr": "Politika taslağı gözden geçirildi ve geri bildirim için dolaşıma sokuldu.",
+    "note": "Passive past for process."
+  },
+  {
+    "topic": "Bike Lane",
+    "level": "B2",
+    "sentence": "The sharp decline must have resulted from the new regulation.",
+    "tr": "Keskin düşüş muhtemelen yeni düzenlemeden kaynaklanmış olmalı.",
+    "note": "must have + V3 for deduction."
+  },
+  {
+    "topic": "Academic Debate",
+    "level": "B2",
+    "sentence": "Although the proposal was expensive, the council approved it for long-term benefits.",
+    "tr": "Teklif pahalı olmasına rağmen, meclis uzun vadeli faydalar için onayladı.",
+    "note": "Although + clause for concession."
+  },
+  {
+    "topic": "Policy Change",
+    "level": "B2",
+    "sentence": "The pilot project succeeded, so policymakers expanded it nationwide.",
+    "tr": "Pilot proje başarılı oldu, bu yüzden politika yapıcılar ülke geneline yaydı.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Urban Planning",
+    "level": "B2",
+    "sentence": "The city reduced car lanes, but public transport frequency increased.",
+    "tr": "Şehir araç şeritlerini azalttı, ancak toplu taşıma sıklığı arttı.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Climate Action",
+    "level": "B2",
+    "sentence": "The campaign used clear visuals to raise awareness among commuters.",
+    "tr": "Kampanya, yolcular arasında farkındalığı artırmak için net görseller kullandı.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Energy Transition",
+    "level": "B2",
+    "sentence": "Because drought persisted, local farms shifted to low-water crops.",
+    "tr": "Kuraklık devam ettiği için yerel çiftlikler az su isteyen ürünlere geçti.",
+    "note": "because clause for cause."
+  },
+  {
+    "topic": "Public Health",
+    "level": "B2",
+    "sentence": "If the budget is approved, construction can begin in spring.",
+    "tr": "Bütçe onaylanırsa inşaat baharda başlayabilir.",
+    "note": "First conditional planning."
+  },
+  {
+    "topic": "Education Reform",
+    "level": "B2",
+    "sentence": "After the consultation period ended, the draft policy was published.",
+    "tr": "Danışma süresi bittikten sonra taslak politika yayımlandı.",
+    "note": "After + clause for time."
+  },
+  {
+    "topic": "Digital Privacy",
+    "level": "B2",
+    "sentence": "Given the rising demand, housing prices are likely to increase further.",
+    "tr": "Artan talep göz önüne alındığında konut fiyatlarının daha da artması muhtemel.",
+    "note": "Given + noun for inference."
+  },
+  {
+    "topic": "AI Ethics",
+    "level": "B2",
+    "sentence": "The policy draft was revised and circulated for feedback.",
+    "tr": "Politika taslağı gözden geçirildi ve geri bildirim için dolaşıma sokuldu.",
+    "note": "Passive past for process."
+  },
+  {
+    "topic": "Job Automation",
+    "level": "B2",
+    "sentence": "The sharp decline must have resulted from the new regulation.",
+    "tr": "Keskin düşüş muhtemelen yeni düzenlemeden kaynaklanmış olmalı.",
+    "note": "must have + V3 for deduction."
+  },
+  {
+    "topic": "Gig Economy",
+    "level": "B2",
+    "sentence": "Although the proposal was expensive, the council approved it for long-term benefits.",
+    "tr": "Teklif pahalı olmasına rağmen, meclis uzun vadeli faydalar için onayladı.",
+    "note": "Although + clause for concession."
+  },
+  {
+    "topic": "Financial Literacy",
+    "level": "B2",
+    "sentence": "The pilot project succeeded, so policymakers expanded it nationwide.",
+    "tr": "Pilot proje başarılı oldu, bu yüzden politika yapıcılar ülke geneline yaydı.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Investment Risk",
+    "level": "B2",
+    "sentence": "The city reduced car lanes, but public transport frequency increased.",
+    "tr": "Şehir araç şeritlerini azalttı, ancak toplu taşıma sıklığı arttı.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Supply Chain",
+    "level": "B2",
+    "sentence": "The campaign used clear visuals to raise awareness among commuters.",
+    "tr": "Kampanya, yolcular arasında farkındalığı artırmak için net görseller kullandı.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Food Security",
+    "level": "B2",
+    "sentence": "Because drought persisted, local farms shifted to low-water crops.",
+    "tr": "Kuraklık devam ettiği için yerel çiftlikler az su isteyen ürünlere geçti.",
+    "note": "because clause for cause."
+  },
+  {
+    "topic": "Water Scarcity",
+    "level": "B2",
+    "sentence": "If the budget is approved, construction can begin in spring.",
+    "tr": "Bütçe onaylanırsa inşaat baharda başlayabilir.",
+    "note": "First conditional planning."
+  },
+  {
+    "topic": "Biodiversity",
+    "level": "B2",
+    "sentence": "After the consultation period ended, the draft policy was published.",
+    "tr": "Danışma süresi bittikten sonra taslak politika yayımlandı.",
+    "note": "After + clause for time."
+  },
+  {
+    "topic": "Circular Economy",
+    "level": "B2",
+    "sentence": "Given the rising demand, housing prices are likely to increase further.",
+    "tr": "Artan talep göz önüne alındığında konut fiyatlarının daha da artması muhtemel.",
+    "note": "Given + noun for inference."
+  },
+  {
+    "topic": "Green Building",
+    "level": "B2",
+    "sentence": "The policy draft was revised and circulated for feedback.",
+    "tr": "Politika taslağı gözden geçirildi ve geri bildirim için dolaşıma sokuldu.",
+    "note": "Passive past for process."
+  },
+  {
+    "topic": "Waste Reduction",
+    "level": "B2",
+    "sentence": "The sharp decline must have resulted from the new regulation.",
+    "tr": "Keskin düşüş muhtemelen yeni düzenlemeden kaynaklanmış olmalı.",
+    "note": "must have + V3 for deduction."
+  },
+  {
+    "topic": "Recycling Policy",
+    "level": "B2",
+    "sentence": "Although the proposal was expensive, the council approved it for long-term benefits.",
+    "tr": "Teklif pahalı olmasına rağmen, meclis uzun vadeli faydalar için onayladı.",
+    "note": "Although + clause for concession."
+  },
+  {
+    "topic": "Carbon Footprint",
+    "level": "B2",
+    "sentence": "The pilot project succeeded, so policymakers expanded it nationwide.",
+    "tr": "Pilot proje başarılı oldu, bu yüzden politika yapıcılar ülke geneline yaydı.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Public Transport",
+    "level": "B2",
+    "sentence": "The city reduced car lanes, but public transport frequency increased.",
+    "tr": "Şehir araç şeritlerini azalttı, ancak toplu taşıma sıklığı arttı.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Infrastructure",
+    "level": "B2",
+    "sentence": "The campaign used clear visuals to raise awareness among commuters.",
+    "tr": "Kampanya, yolcular arasında farkındalığı artırmak için net görseller kullandı.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Telemedicine",
+    "level": "B2",
+    "sentence": "Because drought persisted, local farms shifted to low-water crops.",
+    "tr": "Kuraklık devam ettiği için yerel çiftlikler az su isteyen ürünlere geçti.",
+    "note": "because clause for cause."
+  },
+  {
+    "topic": "Remote Learning",
+    "level": "B2",
+    "sentence": "If the budget is approved, construction can begin in spring.",
+    "tr": "Bütçe onaylanırsa inşaat baharda başlayabilir.",
+    "note": "First conditional planning."
+  },
+  {
+    "topic": "Inclusive Design",
+    "level": "B2",
+    "sentence": "After the consultation period ended, the draft policy was published.",
+    "tr": "Danışma süresi bittikten sonra taslak politika yayımlandı.",
+    "note": "After + clause for time."
+  },
+  {
+    "topic": "Accessibility",
+    "level": "B2",
+    "sentence": "Given the rising demand, housing prices are likely to increase further.",
+    "tr": "Artan talep göz önüne alındığında konut fiyatlarının daha da artması muhtemel.",
+    "note": "Given + noun for inference."
+  },
+  {
+    "topic": "Open Data",
+    "level": "B2",
+    "sentence": "The policy draft was revised and circulated for feedback.",
+    "tr": "Politika taslağı gözden geçirildi ve geri bildirim için dolaşıma sokuldu.",
+    "note": "Passive past for process."
+  },
+  {
+    "topic": "Cybersecurity",
+    "level": "B2",
+    "sentence": "The sharp decline must have resulted from the new regulation.",
+    "tr": "Keskin düşüş muhtemelen yeni düzenlemeden kaynaklanmış olmalı.",
+    "note": "must have + V3 for deduction."
+  },
+  {
+    "topic": "Misinformation",
+    "level": "B2",
+    "sentence": "Although the proposal was expensive, the council approved it for long-term benefits.",
+    "tr": "Teklif pahalı olmasına rağmen, meclis uzun vadeli faydalar için onayladı.",
+    "note": "Although + clause for concession."
+  },
+  {
+    "topic": "Media Literacy",
+    "level": "B2",
+    "sentence": "The pilot project succeeded, so policymakers expanded it nationwide.",
+    "tr": "Pilot proje başarılı oldu, bu yüzden politika yapıcılar ülke geneline yaydı.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Voting Rights",
+    "level": "B2",
+    "sentence": "The city reduced car lanes, but public transport frequency increased.",
+    "tr": "Şehir araç şeritlerini azalttı, ancak toplu taşıma sıklığı arttı.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Civic Engagement",
+    "level": "B2",
+    "sentence": "The campaign used clear visuals to raise awareness among commuters.",
+    "tr": "Kampanya, yolcular arasında farkındalığı artırmak için net görseller kullandı.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Community Outreach",
+    "level": "B2",
+    "sentence": "Because drought persisted, local farms shifted to low-water crops.",
+    "tr": "Kuraklık devam ettiği için yerel çiftlikler az su isteyen ürünlere geçti.",
+    "note": "because clause for cause."
+  },
+  {
+    "topic": "Disaster Preparedness",
+    "level": "B2",
+    "sentence": "If the budget is approved, construction can begin in spring.",
+    "tr": "Bütçe onaylanırsa inşaat baharda başlayabilir.",
+    "note": "First conditional planning."
+  },
+  {
+    "topic": "Humanitarian Aid",
+    "level": "B2",
+    "sentence": "After the consultation period ended, the draft policy was published.",
+    "tr": "Danışma süresi bittikten sonra taslak politika yayımlandı.",
+    "note": "After + clause for time."
+  },
+  {
+    "topic": "Refugee Support",
+    "level": "B2",
+    "sentence": "Given the rising demand, housing prices are likely to increase further.",
+    "tr": "Artan talep göz önüne alındığında konut fiyatlarının daha da artması muhtemel.",
+    "note": "Given + noun for inference."
+  },
+  {
+    "topic": "Cultural Preservation",
+    "level": "B2",
+    "sentence": "The policy draft was revised and circulated for feedback.",
+    "tr": "Politika taslağı gözden geçirildi ve geri bildirim için dolaşıma sokuldu.",
+    "note": "Passive past for process."
+  },
+  {
+    "topic": "Language Policy",
+    "level": "B2",
+    "sentence": "The sharp decline must have resulted from the new regulation.",
+    "tr": "Keskin düşüş muhtemelen yeni düzenlemeden kaynaklanmış olmalı.",
+    "note": "must have + V3 for deduction."
+  },
+  {
+    "topic": "Minority Rights",
+    "level": "B2",
+    "sentence": "Although the proposal was expensive, the council approved it for long-term benefits.",
+    "tr": "Teklif pahalı olmasına rağmen, meclis uzun vadeli faydalar için onayladı.",
+    "note": "Although + clause for concession."
+  },
+  {
+    "topic": "Gender Equality",
+    "level": "B2",
+    "sentence": "The pilot project succeeded, so policymakers expanded it nationwide.",
+    "tr": "Pilot proje başarılı oldu, bu yüzden politika yapıcılar ülke geneline yaydı.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Workplace Inclusion",
+    "level": "B2",
+    "sentence": "The city reduced car lanes, but public transport frequency increased.",
+    "tr": "Şehir araç şeritlerini azalttı, ancak toplu taşıma sıklığı arttı.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Pay Equity",
+    "level": "B2",
+    "sentence": "The campaign used clear visuals to raise awareness among commuters.",
+    "tr": "Kampanya, yolcular arasında farkındalığı artırmak için net görseller kullandı.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Work–Life Balance",
+    "level": "B2",
+    "sentence": "Because drought persisted, local farms shifted to low-water crops.",
+    "tr": "Kuraklık devam ettiği için yerel çiftlikler az su isteyen ürünlere geçti.",
+    "note": "because clause for cause."
+  },
+  {
+    "topic": "Burnout Prevention",
+    "level": "B2",
+    "sentence": "If the budget is approved, construction can begin in spring.",
+    "tr": "Bütçe onaylanırsa inşaat baharda başlayabilir.",
+    "note": "First conditional planning."
+  },
+  {
+    "topic": "Mental Resilience",
+    "level": "B2",
+    "sentence": "After the consultation period ended, the draft policy was published.",
+    "tr": "Danışma süresi bittikten sonra taslak politika yayımlandı.",
+    "note": "After + clause for time."
+  },
+  {
+    "topic": "Stress Management",
+    "level": "B2",
+    "sentence": "Given the rising demand, housing prices are likely to increase further.",
+    "tr": "Artan talep göz önüne alındığında konut fiyatlarının daha da artması muhtemel.",
+    "note": "Given + noun for inference."
+  },
+  {
+    "topic": "Mindful Leadership",
+    "level": "B2",
+    "sentence": "The policy draft was revised and circulated for feedback.",
+    "tr": "Politika taslağı gözden geçirildi ve geri bildirim için dolaşıma sokuldu.",
+    "note": "Passive past for process."
+  },
+  {
+    "topic": "Trust Building",
+    "level": "B2",
+    "sentence": "The sharp decline must have resulted from the new regulation.",
+    "tr": "Keskin düşüş muhtemelen yeni düzenlemeden kaynaklanmış olmalı.",
+    "note": "must have + V3 for deduction."
+  },
+  {
+    "topic": "Negotiation Ethics",
+    "level": "B2",
+    "sentence": "Although the proposal was expensive, the council approved it for long-term benefits.",
+    "tr": "Teklif pahalı olmasına rağmen, meclis uzun vadeli faydalar için onayladı.",
+    "note": "Although + clause for concession."
+  },
+  {
+    "topic": "Conflict De-escalation",
+    "level": "B2",
+    "sentence": "The pilot project succeeded, so policymakers expanded it nationwide.",
+    "tr": "Pilot proje başarılı oldu, bu yüzden politika yapıcılar ülke geneline yaydı.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Transparency",
+    "level": "B2",
+    "sentence": "The city reduced car lanes, but public transport frequency increased.",
+    "tr": "Şehir araç şeritlerini azalttı, ancak toplu taşıma sıklığı arttı.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Accountability",
+    "level": "B2",
+    "sentence": "The campaign used clear visuals to raise awareness among commuters.",
+    "tr": "Kampanya, yolcular arasında farkındalığı artırmak için net görseller kullandı.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Whistleblowing",
+    "level": "B2",
+    "sentence": "Because drought persisted, local farms shifted to low-water crops.",
+    "tr": "Kuraklık devam ettiği için yerel çiftlikler az su isteyen ürünlere geçti.",
+    "note": "because clause for cause."
+  },
+  {
+    "topic": "Anticorruption",
+    "level": "B2",
+    "sentence": "If the budget is approved, construction can begin in spring.",
+    "tr": "Bütçe onaylanırsa inşaat baharda başlayabilir.",
+    "note": "First conditional planning."
+  },
+  {
+    "topic": "Fair Trade",
+    "level": "B2",
+    "sentence": "After the consultation period ended, the draft policy was published.",
+    "tr": "Danışma süresi bittikten sonra taslak politika yayımlandı.",
+    "note": "After + clause for time."
+  },
+  {
+    "topic": "Consumer Protection",
+    "level": "B2",
+    "sentence": "Given the rising demand, housing prices are likely to increase further.",
+    "tr": "Artan talep göz önüne alındığında konut fiyatlarının daha da artması muhtemel.",
+    "note": "Given + noun for inference."
+  },
+  {
+    "topic": "Product Safety",
+    "level": "B2",
+    "sentence": "The policy draft was revised and circulated for feedback.",
+    "tr": "Politika taslağı gözden geçirildi ve geri bildirim için dolaşıma sokuldu.",
+    "note": "Passive past for process."
+  },
+  {
+    "topic": "Quality Labeling",
+    "level": "B2",
+    "sentence": "The sharp decline must have resulted from the new regulation.",
+    "tr": "Keskin düşüş muhtemelen yeni düzenlemeden kaynaklanmış olmalı.",
+    "note": "must have + V3 for deduction."
+  },
+  {
+    "topic": "Data Protection",
+    "level": "B2",
+    "sentence": "Although the proposal was expensive, the council approved it for long-term benefits.",
+    "tr": "Teklif pahalı olmasına rağmen, meclis uzun vadeli faydalar için onayladı.",
+    "note": "Although + clause for concession."
+  },
+  {
+    "topic": "Encryption",
+    "level": "B2",
+    "sentence": "The pilot project succeeded, so policymakers expanded it nationwide.",
+    "tr": "Pilot proje başarılı oldu, bu yüzden politika yapıcılar ülke geneline yaydı.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Biometric Data",
+    "level": "B2",
+    "sentence": "The city reduced car lanes, but public transport frequency increased.",
+    "tr": "Şehir araç şeritlerini azalttı, ancak toplu taşıma sıklığı arttı.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Consent",
+    "level": "B2",
+    "sentence": "The campaign used clear visuals to raise awareness among commuters.",
+    "tr": "Kampanya, yolcular arasında farkındalığı artırmak için net görseller kullandı.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Informed Choice",
+    "level": "B2",
+    "sentence": "Because drought persisted, local farms shifted to low-water crops.",
+    "tr": "Kuraklık devam ettiği için yerel çiftlikler az su isteyen ürünlere geçti.",
+    "note": "because clause for cause."
+  },
+  {
+    "topic": "Clinical Trial",
+    "level": "B2",
+    "sentence": "If the budget is approved, construction can begin in spring.",
+    "tr": "Bütçe onaylanırsa inşaat baharda başlayabilir.",
+    "note": "First conditional planning."
+  },
+  {
+    "topic": "Vaccine Uptake",
+    "level": "B2",
+    "sentence": "After the consultation period ended, the draft policy was published.",
+    "tr": "Danışma süresi bittikten sonra taslak politika yayımlandı.",
+    "note": "After + clause for time."
+  },
+  {
+    "topic": "Health Equity",
+    "level": "B2",
+    "sentence": "Given the rising demand, housing prices are likely to increase further.",
+    "tr": "Artan talep göz önüne alındığında konut fiyatlarının daha da artması muhtemel.",
+    "note": "Given + noun for inference."
+  },
+  {
+    "topic": "Nutrition Policy",
+    "level": "B2",
+    "sentence": "The policy draft was revised and circulated for feedback.",
+    "tr": "Politika taslağı gözden geçirildi ve geri bildirim için dolaşıma sokuldu.",
+    "note": "Passive past for process."
+  },
+  {
+    "topic": "Food Labeling",
+    "level": "B2",
+    "sentence": "The sharp decline must have resulted from the new regulation.",
+    "tr": "Keskin düşüş muhtemelen yeni düzenlemeden kaynaklanmış olmalı.",
+    "note": "must have + V3 for deduction."
+  },
+  {
+    "topic": "Sugar Tax",
+    "level": "B2",
+    "sentence": "Although the proposal was expensive, the council approved it for long-term benefits.",
+    "tr": "Teklif pahalı olmasına rağmen, meclis uzun vadeli faydalar için onayladı.",
+    "note": "Although + clause for concession."
+  },
+  {
+    "topic": "School Lunch",
+    "level": "B2",
+    "sentence": "The pilot project succeeded, so policymakers expanded it nationwide.",
+    "tr": "Pilot proje başarılı oldu, bu yüzden politika yapıcılar ülke geneline yaydı.",
+    "note": "so + clause for result."
+  },
+  {
+    "topic": "Physical Activity",
+    "level": "B2",
+    "sentence": "The city reduced car lanes, but public transport frequency increased.",
+    "tr": "Şehir araç şeritlerini azalttı, ancak toplu taşıma sıklığı arttı.",
+    "note": "but for contrast."
+  },
+  {
+    "topic": "Urban Green Space",
+    "level": "B2",
+    "sentence": "The campaign used clear visuals to raise awareness among commuters.",
+    "tr": "Kampanya, yolcular arasında farkındalığı artırmak için net görseller kullandı.",
+    "note": "to + base for purpose."
+  },
+  {
+    "topic": "Noise Pollution",
+    "level": "B2",
+    "sentence": "Because drought persisted, local farms shifted to low-water crops.",
+    "tr": "Kuraklık devam ettiği için yerel çiftlikler az su isteyen ürünlere geçti.",
+    "note": "because clause for cause."
+  },
+  {
+    "topic": "Air Quality",
+    "level": "B2",
+    "sentence": "If the budget is approved, construction can begin in spring.",
+    "tr": "Bütçe onaylanırsa inşaat baharda başlayabilir.",
+    "note": "First conditional planning."
+  },
+  {
+    "topic": "Heat Wave",
+    "level": "B2",
+    "sentence": "After the consultation period ended, the draft policy was published.",
+    "tr": "Danışma süresi bittikten sonra taslak politika yayımlandı.",
+    "note": "After + clause for time."
+  },
+  {
+    "topic": "Drought Response",
+    "level": "B2",
+    "sentence": "Given the rising demand, housing prices are likely to increase further.",
+    "tr": "Artan talep göz önüne alındığında konut fiyatlarının daha da artması muhtemel.",
+    "note": "Given + noun for inference."
+  },
+  {
+    "topic": "Flood Defense",
+    "level": "B2",
+    "sentence": "The policy draft was revised and circulated for feedback.",
+    "tr": "Politika taslağı gözden geçirildi ve geri bildirim için dolaşıma sokuldu.",
+    "note": "Passive past for process."
+  },
+  {
+    "topic": "Insurance Risk",
+    "level": "B2",
+    "sentence": "The sharp decline must have resulted from the new regulation.",
+    "tr": "Keskin düşüş muhtemelen yeni düzenlemeden kaynaklanmış olmalı.",
+    "note": "must have + V3 for deduction."
+  }
+]

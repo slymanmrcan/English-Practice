@@ -1,0 +1,22 @@
+[
+  {"question":"What is the main purpose of a resume?","options":["To list personal hobbies","To present work and education history","To describe a favorite book"],"answer":1},
+  {"question":"Which sentence is correct?","options":["She don’t like coffee.","She doesn’t likes coffee.","She doesn’t like coffee."],"answer":2},
+  {"question":"Choose the best word: The meeting was ___ because the report was not ready.","options":["postponed","delighted","shaped"],"answer":0},
+  {"question":"What does ‘deadline’ mean?","options":["A final date to finish something","A new idea","A place to meet"],"answer":0},
+  {"question":"Which is a polite request?","options":["Give me the file.","Can you please send me the file?","Send the file now."],"answer":1},
+  {"question":"Choose the correct option: If it ___, we will stay inside.","options":["rains","rain","rained"],"answer":0},
+  {"question":"What is a synonym for ‘assist’?","options":["Help","Ignore","Delay"],"answer":0},
+  {"question":"Choose the best completion: He has worked here ___ five years.","options":["since","for","at"],"answer":1},
+  {"question":"Which sentence shows a future plan?","options":["I go to the gym.","I went to the gym.","I am going to the gym tonight."],"answer":2},
+  {"question":"What does ‘remote work’ mean?","options":["Working from an office","Working from another country","Working away from the main office, often from home"],"answer":2},
+  {"question":"Choose the correct question tag: You finished the task, ___?","options":["did you","didn’t you","don’t you"],"answer":1},
+  {"question":"Which is an example of a conditional?","options":["I like tea.","If it rains, we will cancel the picnic.","She is tall."],"answer":1},
+  {"question":"What is ‘budget’?","options":["A list of expenses and income","A kind of food","A travel ticket"],"answer":0},
+  {"question":"Choose the best option: The call dropped, so we had to ___.","options":["hang up","redial","decorate"],"answer":1},
+  {"question":"Which word means ‘not certain’?","options":["Confident","Unsure","Definite"],"answer":1},
+  {"question":"What does ‘schedule a meeting’ mean?","options":["Cancel an event","Plan a time to meet","Write a summary"],"answer":1},
+  {"question":"Choose the correct option: She is interested ___ data science.","options":["on","in","at"],"answer":1},
+  {"question":"What is ‘feedback’?","options":["Music volume","Response or opinion about work","Internet speed"],"answer":1},
+  {"question":"Which sentence uses the passive voice?","options":["The team finished the report.","The report was finished by the team.","The team is finishing."],"answer":1},
+  {"question":"Choose the correct word: Please ___ the file before sending.","options":["revise","drive","rise"],"answer":0}
+]

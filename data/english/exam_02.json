@@ -1,0 +1,181 @@
+[
+  {
+    "question": "You receive an email saying the supplier will deliver the materials next Friday instead of this Wednesday. Your project timeline is tight. What is the most appropriate first response?",
+    "options": [
+      "Ignore the email and hope the delivery arrives earlier.",
+      "Reply to acknowledge the change, ask for an earlier slot or partial shipment, and update your team.",
+      "Cancel the order immediately and find a new supplier without informing anyone."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "During a remote meeting, your audio keeps cutting out, and the team cannot hear your update. What should you do first?",
+    "options": [
+      "Keep talking and hope the connection fixes itself.",
+      "Pause, type in the chat that you are reconnecting, and rejoin the call.",
+      "End the meeting for everyone without explanation."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A colleague shares a document labeled 'Draft v1' with several errors. You need to provide feedback quickly. What is the best approach?",
+    "options": [
+      "Correct everything silently and send a new version without comments.",
+      "Add clear, concise comments on key errors and suggest fixes, keeping the tone neutral.",
+      "Ignore the errors because it is only a draft."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "You are preparing slides for a client demo. The product feature is still in beta and may not work as expected. What should you include in your presentation?",
+    "options": [
+      "Promise full reliability and skip any mention of risks.",
+      "Show the feature, note it is in beta, outline known limits, and offer alternatives if it fails.",
+      "Remove the feature entirely and end the demo early."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A teammate missed two deadlines and has become unresponsive. What is the most constructive first step?",
+    "options": [
+      "Publicly complain in the group chat.",
+      "Message them privately to check in, ask if they need help, and clarify next steps.",
+      "Assign all their tasks to yourself without telling anyone."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "You find conflicting numbers in two official reports. Both are used for an executive summary due tomorrow. What should you do?",
+    "options": [
+      "Pick the larger number so results look better.",
+      "Trace the data sources, flag the conflict to stakeholders, and propose the most reliable figure with notes.",
+      "Delete both numbers and submit a blank section."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A customer writes that they could not reset their password despite following instructions. How do you reply?",
+    "options": [
+      "Blame the customer for not reading carefully.",
+      "Acknowledge the issue, provide step-by-step guidance, and offer to reset it manually if needed.",
+      "Tell them to wait without giving a timeframe."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Your manager asks for a 'quick status' on a complex task. You are halfway done and have found two risks. What is the best response?",
+    "options": [
+      "Say nothing until the task is 100% complete.",
+      "Give a brief progress summary, list the two risks, and state your next actions and ETA.",
+      "Send every raw note you have without context."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "You notice a teammate speaking over others in meetings. It hurts participation. What should you do?",
+    "options": [
+      "Interrupt them back every time.",
+      "Privately share the observation, suggest rotating speaking turns, and ask for their support.",
+      "Complain to everyone except the teammate."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A vendor offers a discount if you approve an invoice today, but you have not verified the deliverables. What is the appropriate action?",
+    "options": [
+      "Approve immediately to get the discount.",
+      "Verify the deliverables or request proof first; then decide on approval.",
+      "Ignore the invoice entirely."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "You need to write an out-of-office message for a one-week holiday. What should it include?",
+    "options": [
+      "Personal travel details and photos.",
+      "Dates away, limited access notice, and an alternative contact for urgent issues.",
+      "A joke with no contact information."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A bug is reported in production during off-hours. You are on-call but at dinner. What is the best move?",
+    "options": [
+      "Ignore it until tomorrow.",
+      "Acknowledge the alert, follow the on-call runbook, and update the incident channel.",
+      "Forward the alert to a random colleague."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Your presentation slides are text-heavy and hard to read. You have one hour to improve them. What is the quickest win?",
+    "options": [
+      "Add more text for clarity.",
+      "Convert dense text into bullet points, highlight key numbers, and increase font size.",
+      "Delete half the slides at random."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A senior leader asks a question you cannot answer during a briefing. What should you do?",
+    "options": [
+      "Guess confidently.",
+      "Say you will confirm and follow up with the correct information after the meeting.",
+      "Change the topic immediately."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Your team plans to roll out a new tool. Some members are skeptical. What should you do first?",
+    "options": [
+      "Force the change without explanation.",
+      "Share the benefits, pilot scope, and training plan; invite questions.",
+      "Cancel the roll-out forever."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A document contains confidential client data. You need to share it with a contractor. What is the safest approach?",
+    "options": [
+      "Send the file over an unsecured personal email.",
+      "Remove sensitive details or use secure access with permissions before sharing.",
+      "Post it in a public chat room for speed."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "You receive unclear requirements: 'Make the interface better.' What is the best next step?",
+    "options": [
+      "Start coding immediately without questions.",
+      "Ask clarifying questions about goals, users, and specific problems before proposing changes.",
+      "Decline the task."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A teammate from another country writes brief emails that seem direct. Some colleagues think they are rude. What should you do?",
+    "options": [
+      "Assume bad intent and ignore them.",
+      "Consider cultural differences, clarify tone in a friendly way if needed, and focus on content.",
+      "Report them immediately for rudeness."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "You are asked to summarize a 20-page report for busy executives. What should your summary contain?",
+    "options": [
+      "Every detail from the report.",
+      "Key findings, critical risks, recommended actions, and essential numbers only.",
+      "Personal stories unrelated to the report."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "The Wi-Fi fails during a live webinar you are hosting. What is the best immediate response?",
+    "options": [
+      "End the webinar without notice.",
+      "Switch to a hotspot if available, inform attendees of the brief delay, and resume.",
+      "Continue speaking even though no one can hear."],
+    "answer": 1
+  }
+]

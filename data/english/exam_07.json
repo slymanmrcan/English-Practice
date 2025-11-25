@@ -1,0 +1,166 @@
+[
+  {
+    "question": "Your team is three weeks from launching a mobile app update. During a penetration test, an external auditor finds that error logs occasionally contain partial user emails, which violates your privacy policy. Marketing has already scheduled a global announcement and paid ads. What is the most responsible way to proceed right now?",
+    "options": [
+      "Ignore the finding because it appears only sometimes, and launch anyway.",
+      "Treat it as a blocker: stop the launch until the leak is fixed or redacted, align security/legal on remediation, and communicate a revised plan and timing to stakeholders.",
+      "Hide the issue from security and hope customers do not notice."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A strategic partner has sent you a contract renewal with new terms that seem to add data-sharing rights you did not discuss. Legal is busy, but the partner is pushing for signature by Friday to 'avoid delays.' What is the best response?",
+    "options": [
+      "Sign immediately to keep the relationship smooth.",
+      "Acknowledge receipt, decline to sign until legal review, ask clarifying questions on the new data-sharing clause, and propose a short extension for proper review.",
+      "Tell the partner you lost the contract and ignore further messages."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "You are presenting quarterly results to executives. Midway, you realize one graph overstates revenue because of a double-counted line item. The mistake changes a headline metric. What should you do during the meeting?",
+    "options": [
+      "Continue presenting the incorrect number to avoid embarrassment.",
+      "Flag the error immediately, provide the corrected number verbally, explain the cause briefly, and commit to sending an updated deck after the meeting.",
+      "Delete the slide in silence and move on without context."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "In a cross-team planning session, two senior leaders debate feature priorities loudly. Junior engineers stop contributing, and the agenda is drifting. As facilitator, how do you ensure decisions are made and the group stays engaged?",
+    "options": [
+      "Let the loudest voices decide everything.",
+      "Timebox the debate, restate decision criteria (impact, risk, effort), record options, invite quieter members to weigh in, and drive to a clear decision with owners.",
+      "End the session immediately without capturing any outcomes."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Your customer success team reports that enterprise clients cannot complete onboarding because the SSO instructions are outdated. A large renewal is due next month. What should you do first?",
+    "options": [
+      "Do nothing because renewals are already scheduled.",
+      "Collect exact pain points, update the SSO guide with current steps and screenshots, validate with one client, and publish the fix while informing all affected accounts.",
+      "Tell clients to figure it out themselves."],
+    "answer": 1
+  },
+  {
+    "question": "A data analyst shows that your 'active user' metric counts users differently across web and mobile, making weekly reports inconsistent. Executives will review performance in two days. What is the best course of action?",
+    "options": [
+      "Use the higher number to look better and ignore the mismatch.",
+      "Align on a single definition immediately, update both tracking pipelines or dashboards, note any restated numbers, and explain the change in the upcoming review.",
+      "Hide the reports and cancel the review."],
+    "answer": 1
+  },
+  {
+    "question": "While preparing an all-hands talk, you receive an anonymous note that some employees feel excluded from decision-making. You have limited time to adjust. What is the most constructive way to address this concern in your talk?",
+    "options": [
+      "Ignore the note entirely to stay on schedule.",
+      "Acknowledge the feedback, outline how decisions will be made more transparently (open docs, Q&A channels, pilot groups), and invite ongoing input with clear follow-up.",
+      "Remove all decision-making content and focus only on financials."],
+    "answer": 1
+  },
+  {
+    "question": "A severe weather event shuts down one of your data centers. Traffic is failing over to another region, but latency has doubled for 20% of users. The incident channel is active. What is the best immediate action to minimize impact?",
+    "options": [
+      "Do nothing and hope the storm passes quickly.",
+      "Implement emergency traffic throttling or caching where possible, communicate status and expected degradation, and work with infra to optimize failover capacity.",
+      "Announce the service is permanently closed."],
+    "answer": 1
+  },
+  {
+    "question": "Your legal team asks for a summary of new AI regulations to brief leadership tomorrow. The full text is 50 pages and you have two hours. What should your summary include?",
+    "options": [
+      "Full legal text copied verbatim.",
+      "Key obligations, timelines, high-risk provisions, impacts on current products, and immediate actions needed (e.g., audits, documentation).",
+      "Only a list of buzzwords with no explanation."],
+    "answer": 1
+  },
+  {
+    "question": "You are running a beta program with 200 users. Feedback shows that a new navigation design is confusing for first-time users, causing drop-off on onboarding. Launch is scheduled in five days. How should you respond?",
+    "options": [
+      "Launch as-is and hope users adapt.",
+      "Prioritize quick fixes to the onboarding flow (tooltips, clearer labels), test with a small subset, and consider a phased rollout or feature flag if confusion remains.",
+      "Cancel onboarding entirely and remove the product."],
+    "answer": 1
+  },
+  {
+    "question": "During a quarterly business review, a key client hints they may not renew unless support response times improve. Your current SLA is often missed. What is the best first step to retain the client?",
+    "options": [
+      "Promise impossible response times without resources.",
+      "Acknowledge the gap, propose concrete changes (staffing, priority queue, clear escalation), and agree on realistic SLA improvements with timelines.",
+      "Tell them to find another vendor."],
+    "answer": 1
+  },
+  {
+    "question": "An external journalist emails you for comment about a rumored data breach at your company. You are not on the security team. What is the appropriate action?",
+    "options": [
+      "Speculate and provide an unofficial quote.",
+      "Route the inquiry to the designated communications/security contact, acknowledge receipt, and do not share unverified information.",
+      "Ignore the email and hope it disappears."],
+    "answer": 1
+  },
+  {
+    "question": "You manage a support queue. A VIP customer has waited 36 hours for a response due to a backlog. What should you do right now?",
+    "options": [
+      "Wait longer until the backlog clears naturally.",
+      "Respond immediately, apologize for the delay, provide a status or workaround, and adjust priority handling to prevent repeats.",
+      "Close the ticket without a reply."],
+    "answer": 1
+  },
+  {
+    "question": "Your team maintains an internal library of APIs. Documentation is outdated, causing repeated integration failures for other teams. Leadership wants fewer escalations. What is your best immediate intervention?",
+    "options": [
+      "Delete the docs and ask teams to guess.",
+      "Identify top-used APIs, update quick-start and error-handling sections first, publish changelogs, and add owners for ongoing maintenance.",
+      "Ignore the issue until the next quarter."],
+    "answer": 1
+  },
+  {
+    "question": "A product manager shares a 20-page PRD the night before a design review. Time is short. How do you ensure a productive session without reading every word?",
+    "options": [
+      "Skim nothing and cancel the review.",
+      "Scan for goals, constraints, user flows, and open questions; ask the PM to highlight critical decisions; focus the review on those points.",
+      "Approve everything blindly."],
+    "answer": 1
+  },
+  {
+    "question": "You are asked to cut 15% from next quarter's budget but keep delivery dates. What is your first responsible step?",
+    "options": [
+      "Randomly cut items with no analysis.",
+      "Map costs to outcomes, find low-impact/deferrable items, and present trade-offs (risks, timeline changes) for stakeholder decisions.",
+      "Refuse to adjust anything and ignore the request."],
+    "answer": 1
+  },
+  {
+    "question": "An incident postmortem draft blames a single engineer for a failure. As the reviewer, what should you do?",
+    "options": [
+      "Publish it as-is to teach a lesson.",
+      "Remove blame, focus on systemic causes and prevention steps, and ensure the tone is constructive and factual.",
+      "Delete the postmortem entirely and move on."],
+    "answer": 1
+  },
+  {
+    "question": "You are preparing a training for new managers on giving feedback. What is the most important principle to include?",
+    "options": [
+      "Keep feedback vague so feelings aren’t hurt.",
+      "Make feedback specific, behavior-based, timely, and linked to impact, with space for dialogue.",
+      "Deliver feedback publicly to increase pressure."],
+    "answer": 1
+  },
+  {
+    "question": "A live customer webinar is scheduled, but your guest speaker cancels two hours before. Over 500 people are registered. What is the best recovery plan?",
+    "options": [
+      "Cancel quietly with no notice.",
+      "Inform registrants promptly, offer a reschedule or alternative speaker/topic, and share a recording or resource to make up for the change.",
+      "Pretend the webinar is still happening and show unrelated slides."],
+    "answer": 1
+  },
+  {
+    "question": "During code review, you find a performance regression likely to slow a popular feature. Release is tonight. What should you do?",
+    "options": [
+      "Approve anyway to stay on schedule.",
+      "Flag the regression, request a fix or rollback that change, and if needed delay the release with a clear rationale.",
+      "Rewrite the entire feature by yourself without telling the team."],
+    "answer": 1
+  }
+]
