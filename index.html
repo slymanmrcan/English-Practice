@@ -146,19 +146,17 @@
     <section id="grammar-panel" class="grammar-panel card hidden">
       <div class="grammar-header">
         <div class="grammar-controls">
-          <label for="grammar-lang">Language:</label>
-          <select id="grammar-lang">
-            <option value="english">English</option>
-            <option value="germany">German</option>
-            <option value="russion">Russian</option>
-            <option value="french">French</option>
-          </select>
+          <div class="grammar-lang-inline">
+            <span class="label">Language:</span>
+            <span id="grammar-lang-display" class="tag">English</span>
+            <span class="note small">Follows the main language selection.</span>
+          </div>
           <label for="grammar-topic" class="label">Topic:</label>
           <select id="grammar-topic">
             <option value="">Select a topic</option>
           </select>
         </div>
-        <div id="grammar-status" class="status small">Select a language to load grammar.</div>
+        <div id="grammar-status" class="status small">Grammar uses the main language. Open to load topics.</div>
       </div>
       <div id="grammar-detail" class="grammar-detail hidden"></div>
     </section>

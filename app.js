@@ -40,6 +40,7 @@ let allData = [];
 let filteredData = [];
 let currentItem = null;
 let grammarTopics = [];
+let grammarLangLoaded = null;
 let chunkItems = [];
 let currentChunk = null;
 let exampleItems = [];
@@ -235,11 +236,11 @@ const els = {
   loadBtn: document.getElementById("load-btn"),
   nextBtn: document.getElementById("next-btn"),
   levelFilter: document.getElementById("level-filter"),
-  grammarLang: document.getElementById("grammar-lang"),
   grammarList: document.getElementById("grammar-list"),
   grammarTopic: document.getElementById("grammar-topic"),
   grammarDetail: document.getElementById("grammar-detail"),
   grammarStatus: document.getElementById("grammar-status"),
+  grammarLangDisplay: document.getElementById("grammar-lang-display"),
   vocabLang: document.getElementById("vocab-lang"),
   grammarPanel: document.getElementById("grammar-panel"),
   grammarBtn: document.getElementById("grammar-btn"),
@@ -293,7 +294,6 @@ els.levelFilter.addEventListener("change", () => {
   filterByLevel(els.levelFilter.value);
   showRandomCard();
 });
-els.grammarLang.addEventListener("change", () => loadGrammar(els.grammarLang.value));
 if (els.grammarTopic) {
   els.grammarTopic.addEventListener("change", (e) => {
     const id = e.target.value;
@@ -303,12 +303,10 @@ if (els.grammarTopic) {
 }
 els.vocabLang.addEventListener("change", (e) => {
   currentLang = e.target.value;
-  // keep grammar in sync with selected vocab language
-  if (els.grammarLang.value !== currentLang) {
-    els.grammarLang.value = currentLang;
-  }
   grammarTopics = [];
-  renderGrammarStatus("Select a language to load grammar.");
+  grammarLangLoaded = null;
+  renderGrammarStatus("Grammar will load when opened for the selected language.");
+  renderGrammarLangDisplay();
   // reset vocab/chunk state on language change
   chunkItems = [];
   renderChunk(null);
@@ -378,9 +376,9 @@ function goNextWord() {
   showRandomCard();
 }
 
-els.grammarLang.value = currentLang;
 els.readingLang.value = currentLang;
 if (els.exampleLevelFilter) els.exampleLevelFilter.value = "ALL";
+renderGrammarLangDisplay();
 if (typeof window !== "undefined" && window.speechSynthesis) {
   window.speechSynthesis.addEventListener("voiceschanged", pickTtsVoice);
   pickTtsVoice();
@@ -505,6 +503,7 @@ async function loadGrammar(lang) {
     files.length === 0 ? "No grammar topics for this language yet." : "Loading grammar..."
   );
   if (!files.length) {
+    grammarLangLoaded = lang;
     renderGrammar();
     return;
   }
@@ -518,6 +517,7 @@ async function loadGrammar(lang) {
       console.warn(`Grammar load failed: ${file} - ${err.message}`);
     }
   }
+  grammarLangLoaded = lang;
   renderGrammarStatus(
     grammarTopics.length === 0 ? "No grammar loaded." : `Loaded ${grammarTopics.length} topics.`
   );
@@ -580,6 +580,21 @@ function renderGrammarStatus(text) {
   els.grammarStatus.textContent = text;
 }
 
+function grammarLangLabel(lang) {
+  const labels = {
+    english: "English",
+    germany: "German",
+    russion: "Russian",
+    french: "French",
+  };
+  return labels[lang] || lang;
+}
+
+function renderGrammarLangDisplay() {
+  if (!els.grammarLangDisplay) return;
+  els.grammarLangDisplay.textContent = grammarLangLabel(currentLang);
+}
+
 function showGrammarPanel() {
   if (els.grammarPanel) els.grammarPanel.classList.remove("hidden");
   els.card.classList.add("hidden");
@@ -587,8 +602,8 @@ function showGrammarPanel() {
   els.exampleCard.classList.add("hidden");
   if (els.examPanel) els.examPanel.classList.add("hidden");
   if (els.readingPanel) els.readingPanel.classList.add("hidden");
-  if (!grammarTopics.length || els.grammarLang.value !== currentLang) {
-    els.grammarLang.value = currentLang;
+  renderGrammarLangDisplay();
+  if (!grammarTopics.length || grammarLangLoaded !== currentLang) {
     loadGrammar(currentLang);
   }
 }

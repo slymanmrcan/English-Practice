@@ -359,6 +359,16 @@ button:active {
   font-size: 14px;
 }
 
+.grammar-lang-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  background: rgba(88, 166, 255, 0.08);
+  border: 1px solid rgba(88, 166, 255, 0.18);
+  border-radius: 12px;
+}
+
 .grammar-detail {
   border: 1px solid rgba(88, 166, 255, 0.18);
   border-radius: 12px;
