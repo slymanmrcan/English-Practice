@@ -359,14 +359,25 @@ button:active {
   font-size: 14px;
 }
 
-.grammar-lang-inline {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 6px 10px;
-  background: rgba(88, 166, 255, 0.08);
-  border: 1px solid rgba(88, 166, 255, 0.18);
-  border-radius: 12px;
+.grammar-filter {
+  flex: 1 1 220px;
+  min-width: 180px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  outline: none;
+}
+
+.grammar-filter::placeholder {
+  color: var(--muted);
+}
+
+.grammar-meta {
+  background: rgba(63, 185, 80, 0.12);
+  border-color: rgba(63, 185, 80, 0.3);
+  color: #c8f4d6;
 }
 
 .grammar-detail {

@@ -146,17 +146,20 @@
     <section id="grammar-panel" class="grammar-panel card hidden">
       <div class="grammar-header">
         <div class="grammar-controls">
-          <div class="grammar-lang-inline">
-            <span class="label">Language:</span>
-            <span id="grammar-lang-display" class="tag">English</span>
-            <span class="note small">Follows the main language selection.</span>
-          </div>
           <label for="grammar-topic" class="label">Topic:</label>
           <select id="grammar-topic">
             <option value="">Select a topic</option>
           </select>
+          <input
+            id="grammar-filter"
+            type="text"
+            class="grammar-filter"
+            placeholder="Search topic or description"
+            aria-label="Search grammar topics"
+          />
+          <span id="grammar-meta" class="tag grammar-meta">0 topics</span>
         </div>
-        <div id="grammar-status" class="status small">Grammar uses the main language. Open to load topics.</div>
+        <div id="grammar-status" class="status small">Open Grammar to load topics for the main language.</div>
       </div>
       <div id="grammar-detail" class="grammar-detail hidden"></div>
     </section>

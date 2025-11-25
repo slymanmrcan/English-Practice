@@ -1,4 +1,3 @@
-const DATA_FILE_COUNT = 20;
 const LANG_PATHS = {
   english: "data/english",
   germany: "data/germany",
@@ -6,6 +5,23 @@ const LANG_PATHS = {
   french: "data/french",
 };
 let currentLang = "english";
+const VOCAB_FILES = {
+  english: [
+    "data/english/vocab_01.json",
+    "data/english/vocab_02.json",
+    "data/english/vocab_03.json",
+    "data/english/vocab_04.json",
+    "data/english/vocab_05.json",
+    "data/english/vocab_06.json",
+    "data/english/vocab_07.json",
+    "data/english/vocab_08.json",
+    "data/english/vocab_09.json",
+    "data/english/vocab_10.json",
+  ],
+  germany: ["data/germany/vocab_01.json"],
+  russion: ["data/russion/vocab_01.json"],
+  french: [],
+};
 
 const GRAMMAR_FILES = {
   english: [
@@ -240,7 +256,8 @@ const els = {
   grammarTopic: document.getElementById("grammar-topic"),
   grammarDetail: document.getElementById("grammar-detail"),
   grammarStatus: document.getElementById("grammar-status"),
-  grammarLangDisplay: document.getElementById("grammar-lang-display"),
+  grammarFilter: document.getElementById("grammar-filter"),
+  grammarMeta: document.getElementById("grammar-meta"),
   vocabLang: document.getElementById("vocab-lang"),
   grammarPanel: document.getElementById("grammar-panel"),
   grammarBtn: document.getElementById("grammar-btn"),
@@ -301,12 +318,12 @@ if (els.grammarTopic) {
     renderGrammarDetail(topic);
   });
 }
+els.grammarFilter?.addEventListener("input", () => renderGrammar());
 els.vocabLang.addEventListener("change", (e) => {
   currentLang = e.target.value;
   grammarTopics = [];
   grammarLangLoaded = null;
   renderGrammarStatus("Grammar will load when opened for the selected language.");
-  renderGrammarLangDisplay();
   // reset vocab/chunk state on language change
   chunkItems = [];
   renderChunk(null);
@@ -378,7 +395,6 @@ function goNextWord() {
 
 els.readingLang.value = currentLang;
 if (els.exampleLevelFilter) els.exampleLevelFilter.value = "ALL";
-renderGrammarLangDisplay();
 if (typeof window !== "undefined" && window.speechSynthesis) {
   window.speechSynthesis.addEventListener("voiceschanged", pickTtsVoice);
   pickTtsVoice();
@@ -391,10 +407,12 @@ async function loadAllData() {
   allData = [];
   const duplicates = new Set();
   const seen = new Set();
-  const basePath = LANG_PATHS[currentLang] || LANG_PATHS.english;
-  const dataFiles = Array.from({ length: DATA_FILE_COUNT }, (_, i) =>
-    `${basePath}/vocab_${String(i + 1).padStart(2, "0")}.json`
-  );
+  const dataFiles = VOCAB_FILES[currentLang] || [];
+
+  if (!dataFiles.length) {
+    els.status.textContent = "No vocabulary files for this language yet.";
+    return;
+  }
 
   for (const file of dataFiles) {
     try {
@@ -527,17 +545,31 @@ async function loadGrammar(lang) {
 function renderGrammar() {
   if (!els.grammarTopic) return;
   els.grammarTopic.innerHTML = '<option value="">Select a topic</option>';
-  if (!grammarTopics.length) {
+  const query = (els.grammarFilter?.value || "").toLowerCase().trim();
+  const filtered = grammarTopics.filter((topic) => {
+    if (!query) return true;
+    const haystack = `${topic.topic || ""} ${topic.description || ""}`.toLowerCase();
+    return haystack.includes(query);
+  });
+  renderGrammarMeta(grammarTopics.length, filtered.length);
+  if (!filtered.length) {
     renderGrammarDetail(null);
+    els.grammarTopic.innerHTML = '<option value="">No topics found</option>';
     return;
   }
-  grammarTopics.forEach((topic, idx) => {
+  filtered.forEach((topic, idx) => {
     const opt = document.createElement("option");
     opt.value = String(idx);
     opt.textContent = topic.topic || "Topic";
     els.grammarTopic.appendChild(opt);
   });
   renderGrammarDetail(null);
+}
+
+function renderGrammarMeta(total, shown) {
+  if (!els.grammarMeta) return;
+  const text = total === shown ? `${total} topics` : `${shown}/${total} topics`;
+  els.grammarMeta.textContent = text;
 }
 
 function renderGrammarDetail(topic) {
@@ -580,21 +612,6 @@ function renderGrammarStatus(text) {
   els.grammarStatus.textContent = text;
 }
 
-function grammarLangLabel(lang) {
-  const labels = {
-    english: "English",
-    germany: "German",
-    russion: "Russian",
-    french: "French",
-  };
-  return labels[lang] || lang;
-}
-
-function renderGrammarLangDisplay() {
-  if (!els.grammarLangDisplay) return;
-  els.grammarLangDisplay.textContent = grammarLangLabel(currentLang);
-}
-
 function showGrammarPanel() {
   if (els.grammarPanel) els.grammarPanel.classList.remove("hidden");
   els.card.classList.add("hidden");
@@ -602,7 +619,6 @@ function showGrammarPanel() {
   els.exampleCard.classList.add("hidden");
   if (els.examPanel) els.examPanel.classList.add("hidden");
   if (els.readingPanel) els.readingPanel.classList.add("hidden");
-  renderGrammarLangDisplay();
   if (!grammarTopics.length || grammarLangLoaded !== currentLang) {
     loadGrammar(currentLang);
   }
