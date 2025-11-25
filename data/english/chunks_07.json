@@ -1,0 +1,17 @@
+[
+  {"chunk":"stay tuned","level":"B1","example":"Stay tuned for the next update.","tr":"Bir sonraki güncelleme için takipte kal."},
+  {"chunk":"take a break","level":"A2","example":"Let’s take a break after this task.","tr":"Bu işten sonra bir mola verelim."},
+  {"chunk":"take care of","level":"A2","example":"Can you take care of the guests?","tr":"Misafirlerle ilgilenebilir misin?"},
+  {"chunk":"take notes on","level":"B1","example":"Take notes on the main points.","tr":"Ana noktaları not al."},
+  {"chunk":"take responsibility","level":"B1","example":"He should take responsibility for his actions.","tr":"Yaptıklarının sorumluluğunu almalı."},
+  {"chunk":"the other day","level":"A2","example":"We met the other day at the cafe.","tr":"Geçen gün kafede buluştuk."},
+  {"chunk":"think ahead","level":"B1","example":"We need to think ahead about risks.","tr":"Riskleri önceden düşünmemiz gerekiyor."},
+  {"chunk":"think of","level":"A2","example":"What do you think of this idea?","tr":"Bu fikir hakkında ne düşünüyorsun?"},
+  {"chunk":"throw away","level":"A2","example":"Don’t throw away the receipt.","tr":"Fişi atma."},
+  {"chunk":"to be honest","level":"B1","example":"To be honest, I didn’t like it much.","tr":"Dürüst olmak gerekirse pek hoşuma gitmedi."},
+  {"chunk":"under control","level":"B1","example":"The situation is under control now.","tr":"Durum şimdi kontrol altında."},
+  {"chunk":"up to you","level":"A2","example":"Dinner choice is up to you.","tr":"Akşam yemeği seçimi sana kalmış."},
+  {"chunk":"work out","level":"B1","example":"Things will work out in the end.","tr":"İşler sonunda yoluna girecek."},
+  {"chunk":"worth it","level":"A2","example":"All the effort was worth it.","tr":"Tüm çaba buna değdi."},
+  {"chunk":"you never know","level":"A2","example":"Take an umbrella; you never know.","tr":"Şemsiye al; ne olur ne olmaz."}
+]

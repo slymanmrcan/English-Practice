@@ -843,5 +843,18 @@
       "options": ["to hide", "to explain reasons", "to celebrate"],
       "answer": 1
     }
+  },
+  {
+    "word": "worl",
+    "level": "A2",
+    "pos": "noun",
+    "definition": "a playful short form people sometimes type instead of 'world'",
+    "sentences": ["Hello worl!", "Coding opens a new worl."],
+    "collocation": "hello worl",
+    "quiz": {
+      "question": "What does 'worl' refer to?",
+      "options": ["a tool", "a short playful form of 'world'", "a country"],
+      "answer": 1
+    }
   }
 ]

@@ -1,5 +1,3 @@
-Preview online at https://slymanmrcan.github.io/English-Practice/
-
 # Multi-language Vocabulary & Exam Platform
 
 Available live at https://slymanmrcan.github.io/English-Practice/

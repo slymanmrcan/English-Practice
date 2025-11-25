@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Cozy Bookshop Cafe",
+    "level": "B1",
+    "text": "A small bookshop on the corner turned half of its space into a cafe. Guests can order a quiet coffee, borrow a magazine, and stay as long as they like. The owner keeps a shelf of used books that customers can swap for free. On rainy days, the place fills with people working on laptops or chatting softly under warm lamps.",
+    "glossary": [
+      {"word": "borrow", "meaning": "take and return later"},
+      {"word": "swap", "meaning": "exchange one thing for another"},
+      {"word": "lamp", "meaning": "device that gives light"}
+    ]
+  },
+  {
+    "title": "Neighborhood Cleanup",
+    "level": "B1",
+    "text": "Once a month, volunteers meet early on Saturday to clean the neighborhood park. They collect plastic, trim bushes, and repaint the benches. The local bakery donates fresh bread and tea for everyone who joins. By noon the park looks brighter, and families arrive to enjoy the clean swings and grass.",
+    "glossary": [
+      {"word": "volunteer", "meaning": "person who works for free to help"},
+      {"word": "trim", "meaning": "cut a small amount to tidy"},
+      {"word": "bench", "meaning": "long outdoor seat"}
+    ]
+  },
+  {
+    "title": "Shared Kitchen Rules",
+    "level": "B1",
+    "text": "A startup office uses one kitchen for forty people. To keep the space tidy, a short list of rules hangs on the wall: label your food, wash your cup, wipe the counter, and empty the dishwasher when it is finished. These small habits help the kitchen stay friendly for everyone, even on busy days.",
+    "glossary": [
+      {"word": "label", "meaning": "put a name tag on something"},
+      {"word": "dishwasher", "meaning": "machine that washes dishes"},
+      {"word": "counter", "meaning": "flat surface for preparing food"}
+    ]
+  },
+  {
+    "title": "Evening Train Delay",
+    "level": "B1",
+    "text": "Passengers waiting for the evening train heard an announcement: a storm damaged power lines, so all trains would be delayed by thirty minutes. The station staff offered free water and helped elderly travelers find seats. Many commuters used the time to answer emails, while others read books or listened to podcasts until the train arrived.",
+    "glossary": [
+      {"word": "announcement", "meaning": "public information shared aloud"},
+      {"word": "commuter", "meaning": "person who travels regularly for work"},
+      {"word": "podcast", "meaning": "digital audio program"}
+    ]
+  }
+]

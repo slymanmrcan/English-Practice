@@ -1,0 +1,74 @@
+[
+  {
+    "question": "You manage a small support team. Over the last two weeks, ticket volume has doubled after a new feature release, and average response time has slipped from 4 hours to 14 hours. A major customer wrote that they will churn if delays continue. What is the most responsible immediate plan to stabilize service while protecting the team?",
+    "options": [
+      "Tell the team to just work faster and hope the backlog disappears on its own.",
+      "Triage and prioritize tickets by severity, pause non-urgent internal work, set clear SLAs, add temporary overtime or short-term help if available, and proactively inform top customers about expected response times.",
+      "Ignore the customer complaints until they cancel, then reduce staffing to save costs."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Your product shows a sudden 6% drop in successful checkouts after a minor UI update. Logs suggest mobile Safari users may be affected, but the data is incomplete. Marketing campaigns are driving traffic today, and finance expects daily revenue to meet forecast. How should you respond within the next few hours?",
+    "options": [
+      "Leave the UI update in place and wait for a weekly data review.",
+      "Rollback or feature-flag the UI change for the affected browsers, investigate the payment path with live telemetry, and keep stakeholders updated with a clear ETA for a full fix.",
+      "Shut down the entire site for all users until next week."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "An engineer asks to skip peer review to merge a last-minute change before a demo. The change touches authentication, and there is no automated test coverage for this code path. The demo is in four hours and will be recorded for prospects. What is the best course of action?",
+    "options": [
+      "Approve the merge immediately because demos are more important than stability.",
+      "Require at least a fast peer review, add a minimal sanity test, and consider scoping or feature-flagging the change; protect production stability while communicating a realistic demo plan.",
+      "Refuse to make any decision and let the engineer merge anyway without review."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Your team is preparing a public FAQ about a recent outage. Root cause is not confirmed yet, but you know the issue affected less than 5% of users for 30 minutes. Legal asks for careful wording, and support wants something to share with angry customers today. What should the FAQ include right now?",
+    "options": [
+      "A claim that no users were ever impacted, even though the data contradicts this.",
+      "A factual summary of what is known so far, the timeframe and scope, steps taken to mitigate, what is being investigated, and when the next update will be provided.",
+      "A long list of unrelated product features to distract readers from the outage."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "You run a remote workshop with 25 participants across five time zones. Halfway through, you see many people are silent, cameras are off, and the Miro board shows little activity. The goal is to co-create three prioritized problems to solve this quarter. How do you regain engagement and reach a decision within the remaining 40 minutes?",
+    "options": [
+      "Lecture the group for the rest of the session without interaction.",
+      "Switch to a focused breakout exercise with clear prompts, timeboxes, and a voting step; summarize results in plenary and lock the top priorities before the session ends.",
+      "End the workshop immediately and cancel the planning for this quarter."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A shipment of hardware devices arrives at your warehouse, but quality checks show 12% are defective. The launch date is in ten days, and marketing has already announced availability. Replacement units would take three weeks to arrive. What is the most responsible short-term plan?",
+    "options": [
+      "Ship all units, including the defective ones, and hope customers do not notice.",
+      "Isolate the defective stock, ship only good units with clear inventory limits, notify sales and support, and negotiate expedited replacements with the supplier.",
+      "Cancel the entire product line permanently without talking to anyone."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Your analytics pipeline shows a spike in data latency from 5 minutes to 45 minutes. Several internal teams rely on near-real-time dashboards to make daily decisions. There is no page yet, but engineers see increased retries in one service. What should you do first?",
+    "options": [
+      "Wait until a customer escalates, then start looking into it.",
+      "Declare a data incident, page the on-call engineer, surface a status update to stakeholders, and start narrowing the bottleneck while considering a temporary read replica or fallback.",
+      "Permanently turn off the analytics system because it is unreliable."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "During a pilot test of a new onboarding flow, users report confusion about required documents. Support calls increase, and abandonment rises by 15%. The flow currently shows three short tooltips and a link to a help center article. What is the most effective next step to reduce confusion quickly?",
+    "options": [
+      "Do nothing and hope users figure it out eventually.",
+      "Add an inline checklist with plain-language examples, reorder steps to show the document requirement earlier, and run a quick A/B test to verify if abandonment drops.",
+      "Remove all instructions to make the page simpler."
+    ],
+    "answer": 1
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "question": "A healthcare app shows lab results. After a deployment, a few patients report seeing mixed-up dates: older results appear newer on their screens. Logs show time zone conversions were recently changed. Regulatory rules require accurate ordering, and support has opened a high-priority ticket. What is the safest immediate step?",
+    "options": [
+      "Tell users to refresh until the order looks correct.",
+      "Rollback or feature-flag the date conversion change, validate ordering with test accounts across time zones, and communicate a short status to affected users and support.",
+      "Wait a week to see if more patients complain before investigating."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "You lead a distributed team. Two engineers disagree strongly about a design approach in a code review, and the thread is getting personal. The feature is blocking a release planned for tomorrow. How do you resolve this quickly and fairly?",
+    "options": [
+      "Force-merge the code without review to save time.",
+      "Move the discussion to a short call, focus on requirements and constraints, pick the simplest compliant approach, and capture next steps; defer non-blocking improvements to a follow-up task.",
+      "Let the argument continue in comments until one person gives up."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Your SaaS dashboard began loading slowly for enterprise customers, jumping from 1.2s to 3.8s median over two days. A new analytics script was added, and server metrics are normal. Sales has demos this week with key prospects. What should you do first?",
+    "options": [
+      "Ignore it because the page still loads eventually.",
+      "Profile the frontend, temporarily disable or lazy-load the new script for affected accounts, measure impact, and communicate a rollback plan if needed.",
+      "Add even more scripts to see if performance improves."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A junior PM drafted an email to users about a privacy policy update. The draft mixes legal terms with casual jokes. Legal signed off on the substance but not on tone. The send date is tomorrow. How do you handle this?",
+    "options": [
+      "Send the draft as-is because legal approved the content.",
+      "Rewrite for a clear, respectful tone, keep the approved facts, re-run by legal quickly, and schedule a proofread before sending.",
+      "Delete the email and skip informing users."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A warehouse ERP integration intermittently fails overnight, leaving 8% of orders unconfirmed by morning. Operations now manually check records for errors, adding two hours of work daily. Logs show timeouts to the partner API. What is the best near-term plan?",
+    "options": [
+      "Accept the manual workload indefinitely.",
+      "Add retries with backoff, create an alert for failure spikes, coordinate a low-traffic window with the partner to test, and keep ops updated on interim steps.",
+      "Turn off all integrations until the partner rewrites their API."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "You are preparing training materials for new support agents. The current draft is a dense 50-page document with no examples. Onboarding is next week, and agents need to handle common issues on day one. What should you do?",
+    "options": [
+      "Leave the document as-is and hope agents memorize it.",
+      "Break content into short modules, add step-by-step examples and quick-reference checklists, and include a short quiz or shadowing session to reinforce learning.",
+      "Cancel the onboarding until a full book is written."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "During a beta test of a new notification system, some users receive duplicate emails. Metrics show duplicates for 3% of events, but you cannot yet reproduce it locally. The marketing team wants to send a campaign tomorrow using the new system. What do you do?",
+    "options": [
+      "Ignore the duplicates and proceed with the campaign.",
+      "Hold the campaign, add deduplication safeguards or idempotent keys, instrument more logging, and rerun tests to ensure duplicates drop before mass sending.",
+      "Turn off all notifications forever."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A senior engineer is on leave. A critical service they own now emits error rates rising slowly for six hours. The runbook is outdated, and no one else has recently touched this code. What is your first move?",
+    "options": [
+      "Wait until the engineer returns from leave.",
+      "Escalate to the on-call rotation, assign a buddy to update the runbook while investigating, and add temporary guards (rate limits/retries) to reduce impact while you narrow the cause.",
+      "Ignore the errors because the service is complex."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "A government client requires weekly status reports. You missed last week’s update due to a conference. The project is on track, but the client is sensitive to communication gaps. What is the best recovery?",
+    "options": [
+      "Pretend the report was sent and ignore the gap.",
+      "Send an apology with the missed report, reaffirm the current status and next milestones, and confirm the schedule to prevent future misses.",
+      "Stop sending reports altogether."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Your mobile app’s onboarding asks users to grant location access immediately. Analytics show a 20% drop in completion on this step. Support calls show users are unsure why it’s needed. You must keep location for a core feature. What is the best next step?",
+    "options": [
+      "Hide the request and hope users accept by accident.",
+      "Add a short, plain-language explanation with an example of how location improves the experience, allow skipping temporarily, and prompt again contextually when the feature is used.",
+      "Remove location from the app entirely."
+    ],
+    "answer": 1
+  }
+]
