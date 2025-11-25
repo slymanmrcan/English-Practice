@@ -9,29 +9,64 @@
 <body>
   <header class="top-bar">
     <h1>Vocabulary & Quiz</h1>
-    <div class="controls">
-      <label for="vocab-lang" class="label">Vocab Lang:</label>
-      <select id="vocab-lang">
-        <option value="english">English</option>
-        <option value="germany">German</option>
-        <option value="russion">Russian</option>
-        <option value="french">French</option>
-      </select>
-      <button id="load-btn">Load Data</button>
-      <select id="level-filter">
-        <option value="ALL">All Levels</option>
-        <option value="A2">A2</option>
-        <option value="B1">B1</option>
-      </select>
-      <button id="next-btn">Next Word</button>
-      <button id="grammar-btn">Grammar</button>
-      <button id="examples-btn">Sentences</button>
-      <button id="chunks-btn">Chunks</button>
-      <button id="reading-btn">Reading</button>
-      <button id="exam-btn">Exam</button>
+    <div class="control-grid">
+      <div class="control-panel data-panel">
+        <div class="panel-title">1) Vocabulary Data</div>
+        <div class="panel-body">
+          <label for="vocab-lang" class="label">Dil:</label>
+          <select id="vocab-lang">
+            <option value="english">English</option>
+            <option value="germany">German</option>
+            <option value="russion">Russian</option>
+            <option value="french">French</option>
+          </select>
+          <label for="level-filter" class="label">Seviye:</label>
+          <select id="level-filter">
+            <option value="ALL">All Levels</option>
+            <option value="A2">A2</option>
+            <option value="B1">B1</option>
+          </select>
+        </div>
+        <div class="panel-hint">Dil ve seviyeyi seç, aşağıdan "Load Data" ile yükle.</div>
+      </div>
+      <div class="control-panel action-panel">
+        <div class="panel-title">2) Çalışma adımları</div>
+        <div class="panel-body actions">
+          <button id="next-btn">Next Word</button>
+          <button id="grammar-btn">Grammar</button>
+          <button id="examples-btn">Sentences</button>
+          <button id="chunks-btn">Chunks</button>
+          <button id="reading-btn">Reading</button>
+          <button id="exam-btn">Exam</button>
+        </div>
+      </div>
     </div>
-    <div id="status" class="status">Ready.</div>
-    <div class="hint">Tip: Press "Load Data" to fetch vocabulary before starting.</div>
+    <div class="load-timer-row">
+      <div class="load-cta">
+        <button id="load-btn" class="primary-btn">Load Data (Kelimeleri Yükle)</button>
+        <div class="panel-hint small">Önce yükle, sonra Next Word ile devam et.</div>
+        <div id="status" class="status">Ready.</div>
+      </div>
+      <div class="timer-bar">
+        <div class="timer-controls">
+          <label for="timer-duration" class="label">Focus Timer:</label>
+          <select id="timer-duration">
+            <option value="5">5 min</option>
+            <option value="10" selected>10 min</option>
+            <option value="15">15 min</option>
+            <option value="20">20 min</option>
+            <option value="25">25 min</option>
+            <option value="30">30 min</option>
+          </select>
+          <button id="timer-start">Start</button>
+          <button id="timer-reset">Reset</button>
+        </div>
+        <div class="timer-display">
+          <span id="timer-remaining">10:00</span>
+          <span id="timer-status" class="status small">Hazırsan başlat.</span>
+        </div>
+      </div>
+    </div>
   </header>
 
   <main class="layout">
@@ -56,6 +91,9 @@
         <p id="quiz-question"></p>
         <div id="quiz-options" class="options"></div>
         <div id="quiz-result" class="quiz-result"></div>
+      </div>
+      <div class="card-actions">
+        <button id="next-btn-card" class="accent-btn">Next Word</button>
       </div>
     </section>
 
