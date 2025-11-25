@@ -14,6 +14,7 @@ const GRAMMAR_FILES = {
     "data/english/grammar_03.json",
     "data/english/grammar_04.json",
     "data/english/grammar_05.json",
+    "data/english/grammar_06.json",
   ],
   germany: [
     "data/germany/grammar_01.json",
@@ -64,6 +65,14 @@ function shuffleArray(arr) {
     const j = Math.floor(Math.random() * (i + 1));
     [arr[i], arr[j]] = [arr[j], arr[i]];
   }
+}
+
+function shuffleExamOptions(options, answerIndex) {
+  const indices = options.map((_, idx) => idx);
+  shuffleArray(indices);
+  const shuffledOptions = indices.map((i) => options[i]);
+  const newAnswerIndex = indices.indexOf(answerIndex);
+  return { options: shuffledOptions, answer: newAnswerIndex };
 }
 
 function pickTtsVoice() {
@@ -624,6 +633,11 @@ const READING_FILES = {
     "data/english/readings_03.json",
     "data/english/readings_04.json",
     "data/english/readings_05.json",
+    "data/english/readings_06.json",
+    "data/english/readings_07.json",
+    "data/english/readings_08.json",
+    "data/english/readings_09.json",
+    "data/english/readings_10.json",
   ],
   germany: [],
   russion: [],
@@ -767,6 +781,7 @@ async function loadReadings(lang) {
       console.warn(`Reading load failed: ${file} - ${err.message}`);
     }
   }
+  shuffleArray(readingItems);
   renderReadingStatus(
     readingItems.length === 0 ? "No readings loaded." : `Loaded ${readingItems.length} readings.`
   );
@@ -852,6 +867,7 @@ async function loadExamSet(lang, key) {
     const res = await fetch(file);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     examItems = await res.json();
+    shuffleArray(examItems);
     examKeyLoaded = key;
     if (els.examStatus)
       els.examStatus.textContent = `Loaded ${examItems.length} questions. Press Start.`;
@@ -898,7 +914,9 @@ function renderExamQuestion() {
   els.examQuestion.textContent = `${examIndex + 1}. ${currentExam.question || ""}`;
   els.examOptions.innerHTML = "";
   els.examFeedback.textContent = "";
-  (currentExam.options || []).forEach((opt, idx) => {
+  const shuffled = shuffleExamOptions(currentExam.options || [], currentExam.answer);
+  currentExam = { ...currentExam, options: shuffled.options, answer: shuffled.answer };
+  currentExam.options.forEach((opt, idx) => {
     const btn = document.createElement("button");
     btn.textContent = opt;
     btn.addEventListener("click", () => handleExamAnswer(idx));
