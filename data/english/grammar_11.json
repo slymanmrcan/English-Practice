@@ -1,0 +1,32 @@
+[
+  {
+    "topic": "Relative Clauses",
+    "level": "B1/B2",
+    "description": "who/which/that/where/whose ile tanımlayan (defining) ve tanımlamayan (non-defining) yan cümleler; virgül kullanımı.",
+    "pattern": "Defining: isim hakkında gerekli bilgi, virgül yok. Non-defining: ekstra bilgi, virgül var, that kullanılmaz. who (kişi), which (şey/hayvan), that (kişi/şey, sadece defining), whose (aitlik), where (yer).",
+    "examples": [
+      "Defining (gerekli bilgi): The book **that/which** you gave me is great. → Bana verdiğin kitap harika.",
+      "Defining (kişi): The girl **who/that** sits here is my sister. → Burada oturan kız kardeşim.",
+      "Non-defining (ek bilgi, virgül): My sister, **who** lives in Izmir, is visiting. → İzmir’de yaşayan kız kardeşim geliyor.",
+      "Aitlik: That’s the friend **whose** car broke down. → Arabası bozulan arkadaşım.",
+      "Yer: This is the café **where** we met. → Buluştuğumuz kafe.",
+      "Nesne konumu (pronoun düşebilir): The movie (that) I watched was amazing. → İzlediğim film harikaydı.",
+      "Non-defining, which ile tüm cümleye referans: She was late, **which** surprised me. → Geç kaldı, bu da beni şaşırttı.",
+      "Resmî olmayan kısaltma: The guy you met yesterday (that/who düşürülmüş) is my cousin."
+    ],
+    "tips": [
+      "Non-defining (virgüllü) yan cümlede **that** kullanılmaz; who/which/whose/where kullan.",
+      "Defining’de virgül yok; bilgi cümlenin anlamı için gerekli.",
+      "Nesne konumunda relative pronoun düşebilir (defining): The laptop (that) I bought…",
+      "whose her zaman bir isimden önce gelir: whose car, whose idea.",
+      "where = in which/on which/at which yerine rahat kullanım."
+    ],
+    "mistakes": [
+      "Non-defining’de that kullanmak: My car, that is red, ❌ → which is red ✅",
+      "Virgül unutmak: My mother who is 60 is here ❌ (defining gibi anlaşılır) → My mother, who is 60, is here ✅",
+      "Nesne konumunda özneyi atmak: The man which I saw he was tall ❌ → The man (whom) I saw was tall ✅",
+      "whose ile ’s karışıklığı: the man who’s car ❌ → the man whose car ✅"
+    ],
+    "note": "Virgül kuralı anlamı değiştirir: defining (gerekli bilgi, virgülsüz) vs. non-defining (ek bilgi, virgüllü). That sadece defining’de; which/ who hem defining hem non-defining (non-defining’de that yok)."
+  }
+]

@@ -1,1 +1,34 @@
-[{"topic":"Simple Present (Regular Verbs)","level":"A1","description":"Base form; add -s/-es for he/she/it.","examples":["I work in an office.","She works in an office.","He goes to school."],"note":"For he/she/it: -s; verbs ending -ch/-sh/-x/-s/-o take -es; 'have'→'has'."},{"topic":"Question Words","level":"A1","description":"Who, what, where, when, why, how + do/does + subject + verb.","examples":["Where do you live?","What does he do?","When do they arrive?"],"note":"Use 'does' for he/she/it; verb stays base."}]
+[
+  {
+    "topic": "Days, Months, and Seasons",
+    "level": "A2",
+    "description": "Haftanın günleri, aylar, mevsimler; yazılış, okunuş ve kullanım notları.",
+    "pattern": "Günler: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday. Aylar: January–December. Mevsimler: spring, summer, autumn/fall, winter.",
+    "examples": [
+      "Günler (baş harf büyük): Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday.",
+      "Aylar (baş harf büyük): January, February, March, April, May, June, July, August, September, October, November, December.",
+      "Mevsimler (küçük harf): spring, summer, autumn/fall, winter.",
+      "Tarih okuma: on Monday (pazartesi günü), in June (haziranda), in 2024 (2024’te), in winter (kışın).",
+      "Hafta içi/sonu: on weekdays (hafta içi), on the weekend / at the weekend (hafta sonu, US/UK).",
+      "Düzenli alışkanlık: I go to the gym on Tuesdays and Thursdays. → Salı ve Perşembe giderim.",
+      "Mevsim cümlesi: It gets dark early in winter. → Kışın erken kararır.",
+      "Özel gün: My birthday is on 3rd May. → Doğum günüm 3 Mayıs’ta.",
+      "Ay + gün okunuş: March 15th → March fifteenth (US: March 15th; UK: 15 March).",
+      "Kısaltmalar: Mon, Tue/Tues, Wed, Thu/Thurs, Fri, Sat, Sun; Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep/Sep., Oct, Nov, Dec."
+    ],
+    "tips": [
+      "Gün ve aylar İngilizce’de her zaman büyük harfle başlar; mevsimler küçük harfle yazılır.",
+      "US: on the weekend; UK: at the weekend. (Cümlelerine göre seç.)",
+      "Autumn = Fall (US); ikisi de ‘sonbahar’.",
+      "Haftalık tekrar: every Monday (her Pazartesi), on Mondays (Pazartesileri).",
+      "Preposition kısaları: on + gün/tam tarih; in + ay/yıl/mevsim; at + the weekend."
+    ],
+    "mistakes": [
+      "Baş harfi küçük yazmak: monday ❌ → Monday ✅",
+      "Mevsimleri büyük yazmak: Winter ❌ → winter ✅",
+      "Tarih edatını karıştırmak: in Monday ❌ → on Monday ✅",
+      "Fall/autumn karışıklığı: sadece biri yaz; fall (US), autumn (UK)."
+    ],
+    "note": "Tarihlerde sıra sayıları söylenir: 1st (first), 2nd (second), 3rd (third), 4th (fourth)... ABD’de ay-gün-yıl, İngiltere’de gün-ay-yıl düzeni yaygın."
+  }
+]

@@ -1,176 +1,33 @@
 [
   {
-    "topic": "Passive Voice (All Tenses)",
-    "level": "B2",
-    "description": "Use the passive to focus on the action or result rather than the doer.",
-    "pattern": "be + past participle (am/is/are/was/were/been/being) or get + past participle",
+    "topic": "Causatives (Ettirgen Yapılar)",
+    "level": "B1/B2",
+    "description": "Başkalarına bir işi yaptırmak: have/get something done, make/let/have + object + verb, get + object + to verb.",
+    "pattern": "have/get + something + done (işi başkasına yaptırmak); make + obj + V1 (zorlamak); have + obj + V1 (düzenli olarak yaptırmak); get + obj + to V1 (ikna etme); let + obj + V1 (izin vermek).",
     "examples": [
-      "Present simple: The report is written every week.",
-      "Past simple: The window was broken yesterday.",
-      "Present perfect: The tickets have been sold.",
-      "Future: The work will be finished tomorrow.",
-      "Get-passive: He got promoted last year."
+      "Hizmet ettirme: I **had my car washed** yesterday. → Dün arabamı yıkattım.",
+      "Hizmet ettirme (get): I **got my laptop fixed**. → Laptopumu tamir ettirdim.",
+      "Zorlamak: The teacher **made us stay** late. → Öğretmen bizi geç kalmaya zorladı.",
+      "İzin vermek: My parents **let me go** to the concert. → Ailem konsere gitmeme izin verdi.",
+      "Düzenli yaptırmak: She **has her hair cut** every month. → Her ay saçını kestirir.",
+      "İkna/ayarlama: He **got me to join** the team. → Beni takıma katılmaya ikna etti.",
+      "Pasif anlam: We **had the documents signed** by legal. → Belgeleri hukuk birimine imzalattık.",
+      "Olumsuz: They **didn’t let me take** photos. → Fotoğraf çekmeme izin vermediler.",
+      "Soru: Where **did you get your shoes repaired**? → Ayakkabılarını nerede tamir ettirdin?"
     ],
     "tips": [
-      "Use 'by + agent' only when the doer is important: The cake was made by Anna.",
-      "Avoid get-passive in very formal writing; use 'be' instead."
+      "have/get something done → hizmet başkasına yaptırılır; yapan kişi genelde yazılmaz veya by + agent ile eklenir.",
+      "make + obj + V1 (to yok); let + obj + V1 (to yok); have + obj + V1 (to yok); get + obj + to V1 (to var).",
+      "“Get something done” biraz daha gayri resmi, “have something done” daha nötr/standart.",
+      "Olumsuzlar normal yardımcı fiille: didn’t have/get…, don’t let…, didn’t make…",
+      "Sık kalıplar: have/get hair cut, have/get car serviced, get someone to help, make someone do, let someone go."
     ],
     "mistakes": [
-      "Forgetting 'be' (The book read by me → The book was read by me).",
-      "Using active order with passive verbs (The report was written John → by John)."
+      "Yanlış to: get + obj + V1 ❌ → get + obj + **to** V1 ✅",
+      "Make/let/have ile to eklemek: make him **to** go ❌ → make him go ✅",
+      "Have/get something done’da fiili V2 yapmak: had my car **was washed** ❌ → had my car washed ✅",
+      "Let yerine allow/permit kullanırken prep: allow me **to** go / permit me **to** go (to gerekir)."
     ],
-    "note": "Continuous passive: be + being + V3 (The work is being done now)."
-  },
-  {
-    "topic": "Reported Speech (Passive Reporting)",
-    "level": "B2",
-    "description": "In formal reports, use passive reporting verbs to avoid naming the source.",
-    "pattern": "It is/was said/reported/claimed that + clause OR Subject + is/was said to + base/infinitive",
-    "examples": [
-      "It is said that the team will win.",
-      "It was reported that prices had risen.",
-      "She is believed to be abroad.",
-      "They were thought to have left early."
-    ],
-    "tips": [
-      "Use 'to be' + base for present/future ideas; use 'to have + V3' for past ideas.",
-      "Common reporting verbs: say, believe, think, report, consider, expect." 
-    ],
-    "mistakes": [
-      "Mixing tenses (is reported prices rose → is reported that prices have risen).",
-      "Leaving out 'to' in the infinitive (is believed be → is believed to be)."
-    ],
-    "note": "Passive reporting keeps the focus on information, not on who said it."
-  },
-  {
-    "topic": "Modal Speculation (Past & Present)",
-    "level": "B2",
-    "description": "Use modals to express degrees of certainty about now or the past.",
-    "pattern": "Present: must / might / may / could / can’t + base; Past: must / might / may / could / can’t + have + V3",
-    "examples": [
-      "She must be at work now.",
-      "He might be tired.",
-      "They can’t be ready yet.",
-      "She must have forgotten her keys.",
-      "They may have missed the bus.",
-      "He can’t have finished so quickly."
-    ],
-    "tips": [
-      "'Must' = strong belief yes; 'can’t' = strong belief no; 'might/may/could' = maybe.",
-      "Use 'have + V3' to talk about past guesses." 
-    ],
-    "mistakes": [
-      "Using present form for past (He must forget → He must have forgotten).",
-      "Using 'couldn’t' instead of 'can’t' in present speculation (He couldn’t be here now → He can’t be here now)."
-    ],
-    "note": "Don’t use 'must not' for negative speculation; use 'can’t'."
-  },
-  {
-    "topic": "Causatives (Have/Get Something Done)",
-    "level": "B2",
-    "description": "Show that someone arranges for another person to do the action.",
-    "pattern": "have/get + object + past participle; make/let/allow + object + base form",
-    "examples": [
-      "I had my hair cut yesterday.",
-      "We got the car repaired.",
-      "They made me wait outside.",
-      "She let him borrow the car.",
-      "The school allows students to use laptops."
-    ],
-    "tips": [
-      "Use 'have/get + object + V3' to talk about services.",
-      "Use 'make + object + base' (no 'to'); 'let + object + base'; 'allow + object + to + base'."
-    ],
-    "mistakes": [
-      "Adding 'to' after make/let (make me to wait → make me wait; let me to go → let me go).",
-      "Using active V1 instead of V3 in have/get (had my car fix → had my car fixed)."
-    ],
-    "note": "'Get' is less formal than 'have'."
-  },
-  {
-    "topic": "Participle Clauses",
-    "level": "B2",
-    "description": "Use -ing or -ed clauses to show time, reason, result, or condition in a compact form.",
-    "pattern": "-ing clause (active meaning) / -ed clause (passive meaning) + main clause",
-    "examples": [
-      "Feeling tired, she went home early.",
-      "Finished with his work, he took a break.",
-      "Built in 1920, the bridge is still strong.",
-      "Not knowing the answer, I stayed quiet."
-    ],
-    "tips": [
-      "Make sure the -ing subject matches the main clause subject (no dangling participles).",
-      "Use commas to show the clause is extra information." 
-    ],
-    "mistakes": [
-      "Dangling participles (Walking down the street, the trees were tall → Walking down the street, I saw tall trees).",
-      "Using -ing when passive is needed (Being stolen, the car… → Stolen, the car…)."
-    ],
-    "note": "'Having + V3' shows earlier action: Having finished, she left."
-  },
-  {
-    "topic": "Inversion for Emphasis",
-    "level": "B2",
-    "description": "Invert auxiliary and subject to add emphasis or a formal tone.",
-    "pattern": "Negative adverbial + auxiliary + subject + verb (Never/Hardly/Not only/No sooner…) or Conditional inversion (Should/Were/Had)",
-    "examples": [
-      "Never have I seen such a view.",
-      "Hardly had we started when it rained.",
-      "Not only is she smart, but she is also kind.",
-      "Should you need help, call me.",
-      "Were I you, I’d wait.",
-      "Had I known, I would have called."
-    ],
-    "tips": [
-      "After hardly/scarcely/no sooner, use past perfect in the first clause and inversion.",
-      "Conditional inversion replaces 'if' in formal style." 
-    ],
-    "mistakes": [
-      "Forgetting inversion (Never I have seen → Never have I seen).",
-      "Using simple past instead of past perfect with hardly/no sooner (Hardly we started → Hardly had we started)."
-    ],
-    "note": "Add a comma after the first inverted clause when needed." 
-  },
-  {
-    "topic": "Cleft Sentences (Emphasis)",
-    "level": "B2",
-    "description": "Split a sentence to emphasize a specific part using 'it' or 'what'.",
-    "pattern": "It is/was + focus + that/who + clause OR What-clause + be + focus",
-    "examples": [
-      "It was John who called you.",
-      "It is patience that you need.",
-      "What I need is a break.",
-      "What matters is honesty."
-    ],
-    "tips": [
-      "Use 'who' for people after the focus, 'that' for things/other cases.",
-      "Clefts highlight new or important information in a sentence." 
-    ],
-    "mistakes": [
-      "Using 'what' with a full clause after it (What I need that is… → What I need is…).",
-      "Dropping 'that/who' in it-clefts (It was John called → It was John who called)."
-    ],
-    "note": "You can move the focus: It was yesterday that she arrived."
-  },
-  {
-    "topic": "Mandative Subjunctive",
-    "level": "B2",
-    "description": "Use the base form after certain verbs/expressions to show necessity or importance.",
-    "pattern": "verb/adj + that + subject + base form",
-    "examples": [
-      "They insisted that he stay longer.",
-      "It is essential that she be on time.",
-      "The doctor recommended that I take a rest.",
-      "The manager demanded that the report be ready."
-    ],
-    "tips": [
-      "Common triggers: suggest, recommend, insist, demand, essential, important, vital, necessary.",
-      "No -s for third person; use base form or 'be'."
-    ],
-    "mistakes": [
-      "Adding -s (He suggested she goes → she go).",
-      "Using past when base form is needed (They insisted that he stayed → he stay)."
-    ],
-    "note": "In British English, 'should' + base is also common: They insisted that he should stay."
+    "note": "Ettirgenlik anlamı: işi başkası yapar. ‘Have/get something done’ yapısında esas özne işi yaptıran kişidir. make/let/have/get + obj + V1 kalıplarını to kullanımıyla ezberle."
   }
 ]

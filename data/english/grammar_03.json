@@ -1,1 +1,33 @@
-[{"topic":"Numbers 0–20","level":"A1","description":"zero, one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty.","examples":["She has two cats.","It's nineteen degrees."],"note":"13–19 with 'teen' endings; watch 'fifteen'/'eighteen' spelling."},{"topic":"Colors (basic)","level":"A1","description":"red, blue, yellow, green, black, white, gray, brown, orange, purple, pink.","examples":["The sky is blue.","She likes purple shoes."],"note":"Adjectives come before nouns: a red car."},{"topic":"Days & Months","level":"A1","description":"Days: Monday–Sunday; Months: January–December.","examples":["The meeting is on Friday.","My birthday is in May."],"note":"Use 'on' + day, 'in' + month."},{"topic":"Jobs (basic)","level":"A1","description":"Common occupations vocabulary.","examples":["doctor, teacher, driver, cook, engineer, seller, student, waiter/waitress"],"note":"No gender change on the noun; add 'female' if needed (female doctor)."}]
+[
+  {
+    "topic": "Reported Speech (Statements, Questions, Requests)",
+    "level": "B1/B2",
+    "description": "Dolaylı anlatım: başkasının sözünü aktarmak (cümle, soru, rica/komut). Zaman, zamir ve zaman belirteçleri sıklıkla geriye kayar.",
+    "pattern": "say (that) + cümle; tell + nesne + (that) + cümle; ask + if/whether + cümle (evet/hayır soruları); ask + wh-word + cümle (wh-soruları); tell/ask + nesne + to + V (rica/komut); tell/ask + nesne + not to + V (olumsuz).",
+    "examples": [
+      "Doğrudan: \"I am tired,\" she said. → Dolaylı: She said (that) she was tired. → “Yorgunum,” dedi → Yorgun olduğunu söyledi.",
+      "Doğrudan: \"We will finish today,\" they told me. → Dolaylı: They told me (that) they would finish that day. → “Bugün bitireceğiz,” dediler → O gün bitireceklerini söylediler.",
+      "Evet/hayır sorusu: \"Are you free?\" he asked. → He asked if/whether I was free. → “Müsait misin?” diye sordu → Müsait olup olmadığımı sordu.",
+      "Wh-sorusu: \"Where do you live?\" she asked. → She asked where I lived. → “Nerede yaşıyorsun?” diye sordu → Nerede yaşadığımı sordu.",
+      "Rica/komut: \"Please send the file,\" she told me. → She told me to send the file. → “Lütfen dosyayı gönder,” dedi → Dosyayı göndermemi söyledi.",
+      "Olumsuz rica: \"Don’t be late,\" he asked us. → He asked us not to be late. → “Geç kalmayın,” dedi → Geç kalmamamızı istedi.",
+      "Zaman kayması: \"I did it yesterday,\" he said. → He said he had done it the day before. → “Dün yaptım,” dedi → Bir gün önce yaptığını söyledi.",
+      "Şimdiki sürekli → geçmiş sürekli: \"I am reading,\" she said. → She said she was reading. → “Okuyorum,” dedi → Okumakta olduğunu söyledi."
+    ],
+    "tips": [
+      "say + cümle; tell + kişi + cümle: He said he was late. / He told me he was late.",
+      "Evet/hayır soruları: ask + if/whether; yardımcı fiil sırası düz cümle olur (was he? → he was).",
+      "Wh-soruları: ask + wh-word + cümle; soru kelimesi kalır, sıralama düz cümle olur.",
+      "Requests/commands: tell/ask + nesne + to + V; olumsuz için not to + V.",
+      "Zaman kayması (backshift) sık görülür: present simple → past simple; will → would; can → could; today → that day; tomorrow → the next/following day.",
+      "Eğer aktarılan cümle hâlâ geçerliyse backshift yapmak zorunlu değil: The earth is round → He said the earth is round."
+    ],
+    "mistakes": [
+      "tell’ den sonra nesne unutmak: He told that he was late ❌ → He told me that he was late ✅",
+      "Soru sırasını korumak: He asked where do I live ❌ → He asked where I lived ✅",
+      "‘to’ eksikliği: He told me send it ❌ → He told me to send it ✅",
+      "Zaman belirteçlerini düz bırakmak: tomorrow ❌ → the next/following day ✅ (raporda)"
+    ],
+    "note": "Yaygın zaman/zarf dönüşümleri: today → that day; yesterday → the day before; tomorrow → the next/following day; now → then; last week → the previous week; next week → the following week; here → there; this → that. Duruma göre anlam hâlâ geçerliyse kaydırma yapmayabilirsin."
+  }
+]

@@ -1,1 +1,33 @@
-[{"topic":"Present Continuous","level":"A2","description":"be (am/is/are) + verb-ing for actions now or near future.","examples":["I am working now.","She is cooking dinner.","They are leaving soon."],"note":"Use for 'right now' or planned near future; don't use with stative verbs (know, like)."},{"topic":"Can / Must / Want to","level":"A2","description":"Modal verbs with base verb.","examples":["I can swim.","You must wear a helmet.","They want to travel."],"note":"'can/must' take base verb; 'want' usually needs 'to' + base."},{"topic":"Prepositions of Place","level":"A2","description":"in, on, at, next to, under, between, in front of.","examples":["The book is on the table.","She is at work.","The cat is under the chair."],"note":"Common pairs: in a room, on a surface, at a point/address."},{"topic":"Telling Time","level":"A2","description":"o'clock, quarter past/to, half past.","examples":["It's half past three.","It's quarter to six.","It's ten past nine."],"note":"'to' counts back from the next hour."},{"topic":"Polite Dialogues","level":"A2","description":"Everyday polite phrases.","examples":["Excuse me, where is the station?","Could you repeat that, please?","I would like a coffee, please."],"note":"'Could you...?' is more polite than 'Can you...?'."}]
+[
+  {
+    "topic": "Everyday Dialogues (Greetings, Directions, Travel, Restaurant)",
+    "level": "A2/B1",
+    "description": "Gündelik senaryolar için örnek diyaloglar; İngilizce replik + Türkçe anlam ve kullanımlara dair kısa notlar.",
+    "examples": [
+      "Selamlaşma / Small talk: \nA: Hi! How’s it going? → Merhaba, nasıl gidiyor?\nB: Pretty good, thanks. How about you? → Fena değil, sağ ol. Sen?\nA: Can’t complain. On my way to class. → Şikayetim yok. Derse gidiyorum.\nNot: “How’s it going?” gayri resmi. Resmî: “How are you?”",
+      "Yol sorma: \nA: Excuse me, could you tell me how to get to the station? → Affedersiniz, istasyona nasıl giderim?\nB: Go straight, take the second left, and you’ll see it on your right. → Dümdüz gidin, ikinci soldan dönün, sağda göreceksiniz.\nNot: “Excuse me” ile başla; “go straight / turn left/right / on your right/left / across from / next to” konum ifadeleri.",
+      "Otobüs/metro kartı: \nA: Do I need a ticket before I get on? → Binmeden önce bilet almam gerekiyor mu?\nB: Yes, you can buy one at the machine over there. → Evet, şuradaki makineden alabilirsiniz.\nNot: “get on/off the bus/train”, “buy a single/return/day pass”.",
+      "Uçakta (check-in + koltuk): \nA: Can I check this bag? → Bu valizi teslim edebilir miyim?\nB: Sure. Please place it on the scale. → Tabii. Lütfen tartıya koyun.\nA: Is the flight on time? → Uçuş zamanında mı?\nB: Yes, we’re on schedule. Your seat is 14A by the window. → Evet, zamanında. Koltuğunuz 14A, cam kenarı.\nNot: “on time / delayed / boarding starts at…”, “aisle/window seat”.",
+      "Restoranda sipariş: \nA: Could we have a table for two, please? → İki kişilik masa alabilir miyiz?\nB: Of course. Would you like to sit inside or outside? → Tabii. İçeride mi dışarıda mı oturmak istersiniz?\n---\nA: Can I see the menu, please? → Menüyü alabilir miyim?\nB: Here you are. Today’s special is grilled salmon. → Buyurun. Bugünün spesiyali ızgara somon.\n---\nA: I’ll have the chicken pasta, and water, please. → Tavuklu makarna ve su alayım.\nB: Anything else? → Başka bir şey?\nA: That’s all for now, thanks. → Şimdilik bu kadar, teşekkürler.\nNot: “I’ll have… / Can I get… / Could we also have…?”, bahşiş: “Could we have the check, please?”",
+      "Şikayet/ricada bulunma (restoran): \nA: Excuse me, this soup is cold. Could you heat it up, please? → Affedersiniz, çorba soğuk. Isıtabilir misiniz?\nB: I’m sorry about that. I’ll bring you a hot one right away. → Özür dilerim, hemen sıcacık bir tane getiriyorum.\nNot: Kibar giriş: “Excuse me”, “I’m sorry but…”, “Would it be possible to…?”",
+      "Otelde check-in: \nA: Hi, I have a reservation under the name Yılmaz. → Merhaba, Yılmaz adına rezervasyonum var.\nB: Welcome. May I see your ID and a credit card? → Hoş geldiniz. Kimlik ve kredi kartınızı alabilir miyim?\n---\nA: Is breakfast included? What time is checkout? → Kahvaltı dahil mi? Çıkış saati kaçta?\nB: Yes, it’s included. Checkout is at 12. → Evet, dahil. Çıkış 12’de.\nNot: “included / extra charge / checkout / key card / Wi‑Fi password”.",
+      "Mağazada beden/soru: \nA: Excuse me, do you have this in a medium? → Affedersiniz, bunun M bedeni var mı?\nB: Let me check. Yes, here you go. → Kontrol edeyim. Evet, buyurun.\nA: Can I try it on? → Deneyebilir miyim?\nB: The fitting rooms are over there. → Kabinler şurada.\nNot: “small/medium/large”, “It fits / It’s too tight/loose/long/short”.",
+      "Rica ederken: \nA: Could you please speak a bit slower? → Biraz yavaş konuşabilir misiniz?\nB: Sure, no problem. → Tabii, sorun değil.\nNot: Kibar kalıplar: “Could you…?”, “Would you mind…?”, “Can you… (informal)”.",
+      "Acil durumda yardım: \nA: I need help. I lost my wallet. → Yardıma ihtiyacım var. Cüzdanımı kaybettim.\nB: Stay here, I’ll call security. → Burada kalın, güvenliği çağıracağım.\nNot: “I need help / emergency / call the police / ambulance / I’m lost / I can’t find…”"
+    ],
+    "tips": [
+      "Nazik girişler: Excuse me…, Could you…, Would you mind…, I’m sorry but…",
+      "Yön tarifinde kısa komutlar: go straight, turn left/right, take the second left, across from, next to, on the corner.",
+      "Restoran/mağaza/otel diyaloglarında içten ton: please, thank you, of course, sure, no problem.",
+      "Seyahatte zaman ifadeleri: on time, delayed, boarding, gate, aisle/window seat.",
+      "Kısa cevapları uzatmak için: That would be great / That’s perfect / I’d appreciate it."
+    ],
+    "mistakes": [
+      "Direkt emir gibi söylemek: Give me water ❌ → Could I have some water, please? ✅",
+      "Yön tarifinde belirsiz olmak: go there ❌ → go straight, then turn left at the light ✅",
+      "Soru yapısını korumamak: Can I see the menu? → I want the menu ❌ (daha kaba)",
+      "Hitapsız giriş: Where is the station? ❌ → Excuse me, where is the station? ✅"
+    ],
+    "note": "Kalıpları ezberlemek yerine blok halinde düşün: nazik giriş + istek + teşekkür. Kısa, net, kibar cümleler her ortamda iş görür."
+  }
+]

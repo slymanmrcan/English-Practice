@@ -1,1 +1,34 @@
-[{"topic":"Subject Pronouns","level":"A1","description":"I, you, he, she, it, we, they as subjects.","examples":["I am happy.","She is a teacher.","They are friends."],"note":"Use 'it' for things/animals; 'they' for plural."},{"topic":"To Be (Present)","level":"A1","description":"am / is / are forms of 'to be'.","examples":["I am tired.","You are late.","He is at home."],"note":"Contractions: I'm, you're, he's, she's, it's, we're, they're."}]
+[
+  {
+    "topic": "Numbers, Years, and Dates",
+    "level": "A2/B1",
+    "description": "How to say/write numbers (cardinal/ordinal), years, decimals, fractions, phone numbers — Türkçe açıklamalarla.",
+    "pattern": "Cardinals: 1,234 → one thousand two hundred (and) thirty-four. Ordinals: 21st → twenty-first. Years: 2024 → twenty twenty-four / two thousand (and) twenty-four. Decimals: 3.14 → three point one four. Dates: May 3rd 2024 → May third, twenty twenty-four.",
+    "examples": [
+      "0–20: zero/oh, one, two, three, four, five, six, seven, eight, nine, ten… → sıfır/oh, bir, iki, üç, dört, beş, altı, yedi, sekiz, dokuz, on…",
+      "Dozens: 30, 40, 50 → thirty, forty, fifty → otuz, kırk, elli",
+      "Hundreds: 500 → five hundred (tek 'hundred', sonuna 's' yok) → beş yüz",
+      "Binler: 1,200 → one thousand two hundred (US: 'and' çoğunlukla yok; UK: two hundred and) → bin iki yüz",
+      "Büyük sayılar: 1,234,567 → one million two hundred thirty-four thousand five hundred sixty-seven → bir milyon iki yüz otuz dört bin beş yüz altmış yedi",
+      "Ordinals: 1st, 2nd, 3rd, 4th → first, second, third, fourth → birinci, ikinci, üçüncü, dördüncü",
+      "Tarihler: May 3rd 2024 → May third, twenty twenty-four (US ay-gün-yıl) / 3 May 2024 → the third of May, twenty twenty-four (UK gün-ay-yıl) → 3 Mayıs 2024",
+      "Yıllar: 1999 → nineteen ninety-nine; 2005 → two thousand (and) five; 2018 → twenty eighteen → 1999 / 2005 / 2018",
+      "Ondalık: 3.14 → three point one four; 0.5 → zero/oh point five → üç nokta on dört / sıfır nokta beş",
+      "Telefon: 555 210 34 89 → five five five, two one zero, three four, eight nine (her rakam ayrı okunur) → 555 210 34 89",
+      "Kesir: 1/2 → one half; 1/4 → one quarter; 3/4 → three quarters; 2/3 → two thirds → bir bölü iki, üç bölü dört…"
+    ],
+    "tips": [
+      "US İngilizcesinde 1,100 → one thousand one hundred; UK İngilizcesinde 'and' eklenir: one thousand one hundred and.",
+      "21–99 arasında (10’luk + 1’lik) araya kısa çizgi gelir: twenty-one, sixty-five.",
+      "Yuvarlama cümleleri: about 1,000 (yaklaşık), over/under 50 (50’nin üstü/altı), almost 100 (neredeyse).",
+      "0 telaffuzu: telefon numaralarında 'oh' sık kullanılır (oh-eight), matematikte 'zero'/'nought'.",
+      "Tarihlerde sıra sayı eki (st/nd/rd/th) yazıda görünür, konuşmada söylenir: 5th → fifth."
+    ],
+    "mistakes": [
+      "“Hundreds” çoğul yapılmaz: five hundreds ❌ → five hundred ✅",
+      "“And” unutulursa UK tarzı kulağa eksik gelir: one hundred twenty ❌ (UK’de) → one hundred and twenty ✅",
+      "21–99 arası kısa çizgi atlama: twenty one ❌ → twenty-one ✅"
+    ],
+    "note": "Büyük sayıları parçalara bölüp oku: [milyon] [bin] [yüzlükler]. Tarihlerde yazım (US/UK) ve okunuş farklarına dikkat."
+  }
+]

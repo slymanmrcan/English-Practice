@@ -1,104 +1,33 @@
 [
   {
-    "topic": "Reported Speech: Statements",
-    "level": "B1",
-    "description": "Use reported speech to tell what someone said in the past without quoting their exact words.",
-    "pattern": "reporting verb (say/tell) + that + clause with backshift",
+    "topic": "Noun Clauses",
+    "level": "B1/B2",
+    "description": "Cümlede isim görevi gören yan cümleler: that-clauses, wh-clauses, if/whether-clauses. Özellikle nesne olarak kullanımı yaygın.",
+    "pattern": "that + cümle; wh-word + cümle; if/whether + cümle (evet/hayır anlamı). Sıra daima düz cümle sırası (özne + fiil), soru sırası değil.",
     "examples": [
-      "Direct: She says, 'I am busy.' → Reported: She says that she is busy.",
-      "Direct: He said, 'I like tea.' → Reported: He said that he liked tea.",
-      "Direct: They said, 'We will help.' → Reported: They said that they would help."
+      "Nesne: I know **that** she is right. → Onun haklı olduğunu biliyorum.",
+      "Nesne (that opsiyonel): I think (that) it will rain. → Yağmur yağacağını düşünüyorum.",
+      "Özne: **That** she passed the exam surprised everyone. → Sınavı geçmesi herkesi şaşırttı.",
+      "Wh-clause (soru kelimesi kalır, sıra düz): I don’t know **where she lives**. → Nerede yaşadığını bilmiyorum.",
+      "If/Whether (evet-hayır): He asked **whether/if** you were free. → Müsait olup olmadığını sordu.",
+      "Preposition + wh-clause: I’m interested in **what you said**. → Söylediklerine ilgi duyuyorum.",
+      "Belirsizlik: **What** we need is a clear plan. → İhtiyacımız olan şey net bir plan.",
+      "Gerund değil, yan cümle: I’m happy **that** you came early. → Erken geldiğin için mutluyum.",
+      "Gelecek ifade, present form: I’m sure **she will call**. / I’m sure **she’ll call**. → Arayacağından eminim."
     ],
     "tips": [
-      "Backshift tenses when the reporting verb is in the past: present → past, will → would, can → could.",
-      "Pronouns and time words often change: this → that, now → then, today → that day."
+      "Nesne konumunda ‘that’ genelde atlanabilir; özne konumunda genelde yazılır: That she left early was unexpected.",
+      "Wh-clause’larda soru kelimesi kalır ama fiil sırası düz cümle olur: where she is (bitti) → **is she** ❌",
+      "If/whether: resmi yazıda often ‘whether’; “or not” gerekiyorsa whether … or not / if … or not.",
+      "After be sure / certain / happy / glad / sorry gibi duygular: that-clause.",
+      "Preposition + wh-clause: about what…, in what…, with whom…"
     ],
     "mistakes": [
-      "Forgetting to change pronouns (He said I am tired → He said he was tired).",
-      "Keeping future 'will' after a past reporting verb (He said he will help → He said he would help)."
+      "Soru sırasını korumak: I don’t know **where does she live** ❌ → where she lives ✅",
+      "If/whether yerine direkt “or not” bağlamak: He asked or not I was free ❌ → He asked **if** I was free ✅",
+      "Özne konumunda ‘that’ atlamak yazıda karışıklık yaratabilir: That she failed surprised us ✅",
+      "İki kez ‘that’ yazmak: I think that that is wrong → ikinci ‘that’ anlamlı mı kontrol et, gerekirse yaz."
     ],
-    "note": "After 'say', use 'to' only with a person: He said to me that...; after 'tell', you must include the person: He told me that..."
-  },
-  {
-    "topic": "Reported Speech: Questions",
-    "level": "B1",
-    "description": "Report yes/no and wh- questions by changing word order and backshifting tenses.",
-    "pattern": "reporting verb (ask/wonder) + if/whether + clause (for yes/no) OR wh-word + clause",
-    "examples": [
-      "Direct: 'Are you ready?' → He asked if I was ready.",
-      "Direct: 'Where do you live?' → She asked where I lived.",
-      "Direct: 'Can you help?' → They wondered if I could help."
-    ],
-    "tips": [
-      "Drop the question word order; use statement order after the connector.",
-      "Use 'if' or 'whether' for yes/no questions; keep the wh-word for wh- questions."
-    ],
-    "mistakes": [
-      "Keeping auxiliary inversion (He asked where did I go → He asked where I went).",
-      "Using 'if' with wh- questions (She asked if where I lived)."
-    ],
-    "note": "Do not use a question mark in reported questions because the sentence is now a statement."
-  },
-  {
-    "topic": "Relative Clauses",
-    "level": "B1",
-    "description": "Relative clauses add extra information about a noun using who/which/that/where/whose.",
-    "pattern": "noun + relative pronoun + clause",
-    "examples": [
-      "The book that I bought is interesting.",
-      "She met a doctor who speaks four languages.",
-      "I remember the cafe where we first met.",
-      "This is the student whose laptop was stolen."
-    ],
-    "tips": [
-      "Use 'who' for people, 'which' for things, 'that' for people or things (often in defining clauses).",
-      "Commas show non-defining clauses (extra info): My brother, who lives abroad, is visiting."
-    ],
-    "mistakes": [
-      "Using 'what' instead of 'that/which' (The book what I bought → that I bought).",
-      "Dropping necessary pronouns in defining clauses (The car I bought it was new → The car I bought was new)."
-    ],
-    "note": "In defining clauses, you can drop the pronoun if it is the object: The movie (that) I watched was great."
-  },
-  {
-    "topic": "Noun Clauses (That-clauses)",
-    "level": "B1",
-    "description": "Noun clauses act like a noun (subject/object) and often start with 'that', 'if/whether', or wh- words.",
-    "pattern": "verb + that/if/wh- + clause",
-    "examples": [
-      "I think that it will rain.",
-      "She didn’t know if the store was open.",
-      "Tell me what you need.",
-      "That you arrived early surprised everyone."
-    ],
-    "tips": [
-      "'That' can be omitted in many cases: I believe (that) you’re right.",
-      "Use noun clauses after reporting or mental verbs (think, know, guess, hope)."
-    ],
-    "mistakes": [
-      "Using question order after wh- in noun clauses (I don’t know where is he → where he is).",
-      "Forgetting 'if/whether' in yes/no noun clauses (I don’t know it will rain → I don’t know if it will rain)."
-    ],
-    "note": "If the noun clause is the subject, keep 'that' to make the sentence clearer: That he passed the exam is great news."
-  },
-  {
-    "topic": "Conditionals (If-Clauses)",
-    "level": "B1",
-    "description": "Use if-clauses to talk about real or unreal situations and their results.",
-    "pattern": "If + present, will/can + base (first conditional); If + past, would/could + base (second conditional); If + past perfect, would have + past participle (third conditional).",
-    "examples": [
-      "If it rains, we will stay home. (real future)",
-      "If I had more time, I would travel. (unreal present)",
-      "If you had called, I would have helped. (unreal past)"
-    ],
-    "tips": [
-      "First conditional: likely future; second: hypothetical now; third: regret about the past.",
-      "Use commas when 'if' comes first: If it rains, we will stay home."
-    ],
-    "mistakes": [
-      "Using 'would' in the if-clause (If it would rain → If it rained / If it rains).",
-      "Mixing time frames (If I knew, I will tell you → If I know, I will tell you)."
-    ],
-    "note": "'Unless' means 'if not': Unless it rains, we will go out."
+    "note": "Noun clause = isim gibi davranır (özne, nesne, tamamlayıcı). Sıra her zaman düz cümledir; soru kelimesi varsa başta kalır, fiil yer değiştirmez."
   }
 ]

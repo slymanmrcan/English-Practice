@@ -1,0 +1,34 @@
+[
+  {
+    "topic": "Articles & Determiners",
+    "level": "A2/B1",
+    "description": "a/an, the, zero article; this/that/these/those; some/any, much/many/few/little; Türkçe karşılığı olmadığı için sık hata çıkıyor.",
+    "pattern": "a/an + tekil, sayılabilir, ilk kez bahsedilen; the + belirli/tek/benzersiz; çoğul/soyut/genel → çoğunlukla articlesız. Near/far: this/that/these/those. Miktar: some/any; much/many; a few/few, a little/little.",
+    "examples": [
+      "İlk bahsedilen: I bought **a** book. → Bir kitap aldım (hangi olduğu belirsiz).",
+      "Belirli/ikinci kez: The book was great. → Kitap (bahsi geçen) harikaydı.",
+      "Ülke/şehir/özel isim: Paris, Ayşe → zero article; dağ/sahil/nehir grupları: the Alps, the Black Sea, the Nile.",
+      "Tek, benzersiz: the sun, the internet, the CEO, the first/only/best time.",
+      "Çoğul genel: **Books** are expensive. → Kitaplar pahalı. (article yok)",
+      "This/that/these/those: This pen (yakın tekil), those pens (uzak çoğul). → Bu kalem / Şu kalemler.",
+      "Some/any: I have **some** questions. / Do you have **any** coffee? → Birkaç sorum var / Kahve var mı?",
+      "Much/many: **Much** water (sayılamaz), **many** books (sayılabilir). A lot of hem sayılabilir hem sayılamaz.",
+      "Few/a few: **Few** options (çok az, yetersiz), **a few** options (birkaç, fena değil).",
+      "Little/a little: **Little** time (yetersiz), **a little** time (biraz, idare eder)."
+    ],
+    "tips": [
+      "a/an → tekil, sayılabilir, belirsiz; an sesli başlangıç: an hour (h sessiz), an umbrella.",
+      "the → daha önce bahsedilen, tek, benzersiz, ‘of’ yapıları: the end of the day, the top of the mountain.",
+      "Genel konuşurken çoğul/sayılamaz isimde article kullanma: I like coffee/tea, Dogs are friendly.",
+      "this/that yakın-uzak; these/those çoğul. Konuşurken nesneye işaret etmekte kullan.",
+      "much negatif/soru, many daha yaygın; a lot of her yerde güvenli."
+    ],
+    "mistakes": [
+      "Her isme the koymak: I love the music ❌ (genel) → I love music ✅",
+      "A/an’ı çoğulda kullanmak: a books ❌ → books / some books ✅",
+      "Belirli şeyi articlesız bırakmak: Pass me pen ❌ → Pass me **the** pen ✅",
+      "Few/a few anlam farkını gözden kaçırmak: few money ❌ → little money ✅ (sayılamaz)."
+    ],
+    "note": "Özel adlar genelde article almaz; ancak gruplar (the US, the Netherlands), nehir/deniz/dağ grupları (the Nile, the Andes) alır. Genel ifadede article düşer; belirli/tek/ikinci bahiste the kullanılır."
+  }
+]

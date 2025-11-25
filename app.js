@@ -31,6 +31,11 @@ const GRAMMAR_FILES = {
     "data/english/grammar_04.json",
     "data/english/grammar_05.json",
     "data/english/grammar_06.json",
+    "data/english/grammar_07.json",
+    "data/english/grammar_08.json",
+    "data/english/grammar_09.json",
+    "data/english/grammar_10.json",
+    "data/english/grammar_11.json",
   ],
   germany: [
     "data/germany/grammar_01.json",

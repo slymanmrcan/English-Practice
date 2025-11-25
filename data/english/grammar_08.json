@@ -1,0 +1,33 @@
+[
+  {
+    "topic": "Modal Verbs (Ability, Permission, Advice, Necessity)",
+    "level": "B1",
+    "description": "can, could, may, might, must, have to, should, need to — izin, olasılık, zorunluluk, tavsiye kullanımları.",
+    "pattern": "Modal + V1 (he/she/it’te s gelmez). Olumsuz: modal + not. Geçmiş: could (ability), had to (zorunluluk), should have/must have/might have + V3 (tahmin/tavsiye).",
+    "examples": [
+      "Yetenek/izin: I **can** swim. / **Can** I leave early? → Yüzebilirim / Erken çıkabilir miyim?",
+      "Geçmiş yetenek: I **could** speak some German when I was a kid. → Çocukken biraz Almanca konuşabiliyordum.",
+      "İzin/olasılık: **May/Might** I open the window? It **might** rain later. → Pencereyi açabilir miyim? / Sonra yağmur yağabilir.",
+      "Güçlü zorunluluk: You **must** wear a seat belt. → Emniyet kemeri takmalısın (kural).",
+      "Dışsal zorunluluk: I **have to** finish this by 6. → Bunu 6’ya kadar bitirmek zorundayım.",
+      "Tavsiye: You **should** see a doctor. → Doktora görünmelisin.",
+      "Gerekmeme: You **don’t have to** come. / You **mustn’t** smoke here. → Gelmen gerekmez / Burada sigara yasak.",
+      "Geçmiş tahmin: She **must have left** early. / He **might have forgotten**. → Muhtemelen erken çıktı / Unutmuş olabilir.",
+      "Geçmiş pişmanlık: You **should have called** me. → Beni aramalıydın (ama aramadın)."
+    ],
+    "tips": [
+      "mustn’t = yasak; don’t have to = gerek yok. Aynı şey değil.",
+      "He/she/it’te modal değişmez: he can, she should, it might.",
+      "Geçmiş zorunluluk: had to (must’un geçmişi yok).",
+      "Tahmin gücü: must (yüksek), might/may/could (orta), can’t (imkânsız).",
+      "should have + V3 → yapılması gereken ama yapılmayan şey; must have + V3 → güçlü geçmiş çıkarım."
+    ],
+    "mistakes": [
+      "Modal + to kullanmak: can to go ❌ → can go ✅",
+      "mustn’t / don’t have to karışıklığı: mustn’t = yasak; don’t have to = gerek değil.",
+      "Geçmişte must kullanmak: I must did ❌ → I had to do ✅",
+      "Modal + V3’yı normal geçmiş sanmak: should have go ❌ → should have gone ✅"
+    ],
+    "note": "Modal + V1 temel kural. Geçmiş/olasılık/tahmin için have + V3 kalıplarını ezberle (should/must/might have V3)."
+  }
+]
