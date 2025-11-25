@@ -1,5 +1,7 @@
 # Multi-language Vocabulary & Exam Platform
 
+Available live at https://slymanmrcan.github.io/English-Practice/
+
 Static, frontend-only web app for vocabulary, chunks, grammar, readings, sentences, and exam simulations. Runs on GitHub Pages—no backend required.
 
 ## Features
