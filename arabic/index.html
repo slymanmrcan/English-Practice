@@ -18,40 +18,39 @@
         <span class="logo-tr">Fasih Arapça</span>
       </div>
       
-      <div class="nav-group">
-        <div class="nav-label" data-toggle="baslik">Başlangıç <span class="toggle-icon">▼</span></div>
-        <div class="nav-items">
-          <button class="nav-btn active" data-panel="intro">Giriş</button>
-          <button class="nav-btn" data-panel="vocab">Kelimeler</button>
-          <button class="nav-btn" data-panel="basics">Temel</button>
-        </div>
+      <div class="nav-section">
+        <button class="nav-btn active" data-panel="intro">📖 Giriş</button>
+        <button class="nav-btn" data-panel="vocab">📝 Kelimeler</button>
       </div>
       
-      <div class="nav-group">
-        <div class="nav-label" data-toggle="sarf">Sarf <span class="toggle-icon">▼</span></div>
-        <div class="nav-items">
-          <button class="nav-btn" data-panel="emsile">Emsile (6 Bab)</button>
-          <button class="nav-btn" data-panel="bina">Bina (Mezid)</button>
-          <button class="nav-btn" data-panel="maksud">Maksud (İlletli)</button>
-          <button class="nav-btn" data-panel="sarf">Sarf Dersleri</button>
-        </div>
+      <div class="nav-section">
+        <div class="nav-title">Temel Konular</div>
+        <button class="nav-btn" data-panel="pronouns">👤 Zamirler</button>
+        <button class="nav-btn" data-panel="demonstratives">👆 İşaret İsimleri</button>
+        <button class="nav-btn" data-panel="colors">🎨 Renkler</button>
+        <button class="nav-btn" data-panel="numbers">🔢 Sayılar</button>
+        <button class="nav-btn" data-panel="questions">❓ Soru Kelimeleri</button>
       </div>
       
-      <div class="nav-group">
-        <div class="nav-label" data-toggle="nahiv">Nahiv <span class="toggle-icon">▼</span></div>
-        <div class="nav-items">
-          <button class="nav-btn" data-panel="nahiv">Nahiv Dersleri</button>
-          <button class="nav-btn" data-panel="grammar">Gramer</button>
-        </div>
+      <div class="nav-section">
+        <div class="nav-title">Sarf (Kelime Bilgisi)</div>
+        <button class="nav-btn" data-panel="emsile">⚖️ Emsile (6 Bab)</button>
+        <button class="nav-btn" data-panel="bina">🏗️ Bina (Mezid)</button>
+        <button class="nav-btn" data-panel="maksud">🎯 Maksud (İlletli)</button>
+        <button class="nav-btn" data-panel="sarf">📚 Sarf Dersleri</button>
       </div>
       
-      <div class="nav-group">
-        <div class="nav-label" data-toggle="arac">Araçlar <span class="toggle-icon">▼</span></div>
-        <div class="nav-items">
-          <button class="nav-btn" data-panel="roots">Kök Ara</button>
-          <button class="nav-btn" data-panel="patterns">Veznler</button>
-          <button class="nav-btn" data-panel="islamic">İslami Terimler</button>
-        </div>
+      <div class="nav-section">
+        <div class="nav-title">Nahiv (Cümle Bilgisi)</div>
+        <button class="nav-btn" data-panel="nahiv">📐 Nahiv Dersleri</button>
+        <button class="nav-btn" data-panel="grammar">✏️ Gramer</button>
+      </div>
+      
+      <div class="nav-section">
+        <div class="nav-title">Araçlar</div>
+        <button class="nav-btn" data-panel="roots">🔍 Kök Ara</button>
+        <button class="nav-btn" data-panel="patterns">📊 Veznler</button>
+        <button class="nav-btn" data-panel="islamic">🕌 İslami Terimler</button>
       </div>
     </nav>
     
@@ -59,10 +58,6 @@
     <main class="main">
       <header class="topbar">
         <h1 id="page-title">Giriş</h1>
-        <div style="display: flex; gap: 8px; align-items: center;">
-          <select id="selector" class="selector hidden"></select>
-          <button id="load-btn" class="search-btn" style="display: none;">Verileri Yükle</button>
-        </div>
       </header>
       
       <div id="content" class="content">

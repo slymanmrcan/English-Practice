@@ -17,8 +17,6 @@ const App = {
     
     await this.loadAllData();
     this.bindNavigation();
-    this.bindSelector();
-    this.bindDropdowns();
     this.showPanel('intro');
   },
   
@@ -52,35 +50,20 @@ const App = {
     });
   },
   
-  bindDropdowns() {
-    document.querySelectorAll('.nav-label[data-toggle]').forEach(label => {
-      label.addEventListener('click', () => {
-        const group = label.closest('.nav-group');
-        group.classList.toggle('collapsed');
-      });
-    });
-  },
-  
-  bindSelector() {
-    const selector = document.getElementById('selector');
-    if (selector) {
-      selector.addEventListener('change', () => {
-        this.showPanel(this.currentPanel);
-      });
-    }
-  },
-  
   showPanel(panel) {
     this.currentPanel = panel;
     const content = document.getElementById('content');
     const pageTitle = document.getElementById('page-title');
-    const selector = document.getElementById('selector');
     
     const panels = {
       intro: { title: 'Giriş', dataKey: 'intro_01', render: this.renderIntro },
-      vocab: { title: 'Kelimeler', dataKey: 'vocab_01', render: this.renderVocab, hasSelector: true, selectorType: 'vocab' },
-      basics: { title: 'Temel Konular', dataKey: 'pronouns_01', render: this.renderBasics, hasSelector: true, selectorType: 'basics' },
-      emsile: { title: 'Emsile', dataKey: 'emsile_01', render: this.renderEmsile, hasSelector: true, selectorType: 'emsile' },
+      vocab: { title: 'Kelimeler', dataKey: 'vocab_01', render: this.renderVocab },
+      pronouns: { title: 'Zamirler', dataKey: 'pronouns_01', render: this.renderBasicTopic },
+      demonstratives: { title: 'İşaret İsimleri', dataKey: 'demonstratives_01', render: this.renderBasicTopic },
+      colors: { title: 'Renkler', dataKey: 'colors_01', render: this.renderBasicTopic },
+      numbers: { title: 'Sayılar', dataKey: 'numbers_01', render: this.renderBasicTopic },
+      questions: { title: 'Soru Kelimeleri', dataKey: 'questions_01', render: this.renderBasicTopic },
+      emsile: { title: 'Emsile (6 Bab)', dataKey: 'emsile_01', render: this.renderEmsile },
       bina: { title: 'Binâ', dataKey: 'bina_01', render: this.renderSarf },
       maksud: { title: 'Maksûd', dataKey: 'maksud_01', render: this.renderMaksud },
       sarf: { title: 'Sarf Dersleri', dataKey: 'sarf_01', render: this.renderSarf },
@@ -96,13 +79,6 @@ const App = {
     
     pageTitle.textContent = config.title;
     
-    if (config.hasSelector) {
-      selector.classList.remove('hidden');
-      this.setupSelector(config.selectorType);
-    } else {
-      selector.classList.add('hidden');
-    }
-    
     const panelData = this.data[config.dataKey];
     if (!panelData) {
       content.innerHTML = '<div class="placeholder"><div class="ar">لا توجد بيانات</div>Veri bulunamadı</div>';
@@ -110,43 +86,6 @@ const App = {
     }
     
     config.render.call(this, panelData, content);
-  },
-  
-  setupSelector(type) {
-    const selector = document.getElementById('selector');
-    selector.innerHTML = '';
-    
-    const options = {
-      vocab: [
-        { value: 'all', text: 'Tüm Kelimeler' },
-        { value: 'noun', text: 'İsimler' },
-        { value: 'verb', text: 'Fiiller' },
-        { value: 'particle', text: 'Harfler' }
-      ],
-      basics: [
-        { value: 'pronouns_01', text: 'Zamirler' },
-        { value: 'demonstratives_01', text: 'İşaret İsimleri' },
-        { value: 'colors_01', text: 'Renkler' },
-        { value: 'numbers_01', text: 'Sayılar' },
-        { value: 'questions_01', text: 'Soru Kelimeleri' }
-      ],
-      emsile: [
-        { value: 'all', text: 'Tüm Bablar' },
-        { value: '1', text: '1. Bab - فَعَلَ يَفْعُلُ' },
-        { value: '2', text: '2. Bab - فَعَلَ يَفْعِلُ' },
-        { value: '3', text: '3. Bab - فَعَلَ يَفْعَلُ' },
-        { value: '4', text: '4. Bab - فَعِلَ يَفْعَلُ' },
-        { value: '5', text: '5. Bab - فَعُلَ يَفْعُلُ' },
-        { value: '6', text: '6. Bab - فَعِلَ يَفْعِلُ' }
-      ]
-    };
-    
-    (options[type] || []).forEach(opt => {
-      const option = document.createElement('option');
-      option.value = opt.value;
-      option.textContent = opt.text;
-      selector.appendChild(option);
-    });
   },
   
   // ========== RENDER FUNCTIONS ==========
@@ -197,12 +136,6 @@ const App = {
   
   renderVocab(data, container) {
     let words = Array.isArray(data) ? data : [];
-    const selector = document.getElementById('selector');
-    const filter = selector.value;
-    
-    if (filter && filter !== 'all') {
-      words = words.filter(w => w.pos === filter);
-    }
     
     if (words.length === 0) {
       container.innerHTML = '<div class="placeholder">Kelime bulunamadı</div>';
@@ -218,20 +151,9 @@ const App = {
     container.innerHTML = html;
   },
   
-  renderBasics(_, container) {
-    const selector = document.getElementById('selector');
-    let dataKey = selector.value;
-    
-    // Eğer value boş veya basics ise default ata
-    if (!dataKey || dataKey === '' || !dataKey.includes('_01')) {
-      dataKey = 'pronouns_01';
-      selector.value = dataKey;
-    }
-    
-    const data = this.data[dataKey];
-    
+  renderBasicTopic(data, container) {
     if (!data || !Array.isArray(data)) {
-      container.innerHTML = `<div class="placeholder">Veri bulunamadı: ${dataKey}</div>`;
+      container.innerHTML = '<div class="placeholder">Veri bulunamadı</div>';
       return;
     }
     
@@ -244,7 +166,6 @@ const App = {
       if (category.items) {
         html += '<div class="list">';
         category.items.forEach(item => {
-          // Renkler için özel format (word_m, word_f)
           const word = item.word || item.word_m || '';
           const wordF = item.word_f ? ` / ${item.word_f}` : '';
           const meaning = item.meaning_tr || '';
@@ -262,11 +183,9 @@ const App = {
   },
   
   renderEmsile(data, container) {
-    const selector = document.getElementById('selector');
-    const filter = selector.value;
     let html = '';
     
-    if (data.introduction && filter === 'all') {
+    if (data.introduction) {
       html += `<div class="section"><div class="section-title">${data.introduction.title}</div><p style="color: var(--text-dim); margin-bottom: 16px;">${data.introduction.content}</p>`;
       html += '<div class="grid">';
       data.introduction.sigalar.slice(0, 6).map(s => {
@@ -276,9 +195,7 @@ const App = {
     }
     
     if (data.bablar) {
-      const bablar = filter === 'all' ? data.bablar : data.bablar.filter(b => b.bab.toString() === filter);
-      
-      bablar.forEach(bab => {
+      data.bablar.forEach(bab => {
         html += `<div class="section" style="margin-top: 24px;"><div class="section-title"><span class="ar">${bab.nameAr}</span> - ${bab.name}</div>`;
         html += `<div class="detail" style="margin-top: 12px;"><div class="detail-header"><div class="detail-title">${bab.pattern}</div><div class="detail-sub">${bab.patternName} - ${bab.description}</div></div></div>`;
         
