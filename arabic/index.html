@@ -51,13 +51,17 @@
     <main class="main">
       <header class="topbar">
         <h1 id="page-title">Giriş</h1>
-        <select id="selector" class="selector hidden"></select>
+        <div style="display: flex; gap: 8px; align-items: center;">
+          <select id="selector" class="selector hidden"></select>
+          <button id="load-btn" class="search-btn" style="display: none;">Verileri Yükle</button>
+        </div>
       </header>
       
       <div id="content" class="content">
         <div class="placeholder" id="loading">
           <p class="ar">جارٍ التحميل</p>
           <p>Veriler yükleniyor...</p>
+          <button id="init-load-btn" class="search-btn" style="margin-top: 16px;">Verileri Yükle</button>
         </div>
       </div>
     </main>
