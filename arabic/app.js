@@ -18,6 +18,7 @@ const App = {
     await this.loadAllData();
     this.bindNavigation();
     this.bindSelector();
+    this.bindDropdowns();
     this.showPanel('intro');
   },
   
@@ -47,6 +48,15 @@ const App = {
         this.showPanel(panel);
         document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
+      });
+    });
+  },
+  
+  bindDropdowns() {
+    document.querySelectorAll('.nav-label[data-toggle]').forEach(label => {
+      label.addEventListener('click', () => {
+        const group = label.closest('.nav-group');
+        group.classList.toggle('collapsed');
       });
     });
   },

@@ -65,12 +65,41 @@ body {
 }
 
 .nav-label {
-  padding: 0 16px;
+  padding: 8px 16px;
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   color: var(--text-dim);
-  margin-bottom: 6px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.15s;
+  user-select: none;
+}
+
+.nav-label:hover {
+  color: var(--accent);
+  background: var(--bg-lighter);
+}
+
+.toggle-icon {
+  font-size: 10px;
+  transition: transform 0.2s;
+}
+
+.nav-group.collapsed .toggle-icon {
+  transform: rotate(-90deg);
+}
+
+.nav-items {
+  overflow: hidden;
+  max-height: 500px;
+  transition: max-height 0.25s ease;
+}
+
+.nav-group.collapsed .nav-items {
+  max-height: 0;
 }
 
 .nav-btn {
