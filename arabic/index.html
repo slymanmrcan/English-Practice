@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تعلم العربية الفصحى | Learn Modern Standard Arabic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top-bar">
+    <div class="header-row">
+      <a href="../index.html" class="back-link">← Ana Sayfa / الصفحة الرئيسية</a>
+      <h1>العربية الفصحى</h1>
+      <span class="subtitle">Modern Standard Arabic</span>
+    </div>
+    <div class="control-grid">
+      <div class="control-panel data-panel">
+        <div class="panel-title">١) بيانات المفردات | Vocabulary Data</div>
+        <div class="panel-body">
+          <label for="level-filter" class="label">المستوى | Seviye:</label>
+          <select id="level-filter">
+            <option value="ALL">الكل | Tümü</option>
+            <option value="A1">A1 - مبتدئ</option>
+            <option value="A2">A2 - أساسي</option>
+            <option value="B1">B1 - متوسط</option>
+            <option value="B2">B2 - فوق المتوسط</option>
+          </select>
+          <label for="category-filter" class="label">الفئة | Kategori:</label>
+          <select id="category-filter">
+            <option value="ALL">الكل | Tümü</option>
+            <option value="noun">اسم | İsim</option>
+            <option value="verb">فعل | Fiil</option>
+            <option value="adjective">صفة | Sıfat</option>
+            <option value="particle">حرف | Edat</option>
+            <option value="phrase">عبارة | Deyim</option>
+          </select>
+        </div>
+        <div class="panel-hint">اختر المستوى ثم اضغط "تحميل البيانات" | Seviyeyi seç, yükle.</div>
+      </div>
+      <div class="control-panel action-panel">
+        <div class="panel-title">٢) خطوات الدراسة | Çalışma Adımları</div>
+        <div class="panel-body actions">
+          <button id="next-btn">الكلمة التالية<br><small>Next Word</small></button>
+          <button id="grammar-btn">القواعد<br><small>Grammar</small></button>
+          <button id="roots-btn">الجذور<br><small>Roots</small></button>
+          <button id="patterns-btn">الأوزان<br><small>Patterns</small></button>
+        </div>
+      </div>
+    </div>
+    <div class="load-timer-row">
+      <div class="load-cta">
+        <button id="load-btn" class="primary-btn">تحميل البيانات | Verileri Yükle</button>
+        <div class="panel-hint small">حمّل أولاً، ثم انتقل للكلمة التالية | Önce yükle.</div>
+        <div id="status" class="status">جاهز | Hazır.</div>
+      </div>
+      <div class="timer-bar">
+        <div class="timer-controls">
+          <label for="timer-duration" class="label">مؤقت التركيز:</label>
+          <select id="timer-duration">
+            <option value="5">٥ دقائق</option>
+            <option value="10" selected>١٠ دقائق</option>
+            <option value="15">١٥ دقيقة</option>
+            <option value="20">٢٠ دقيقة</option>
+            <option value="25">٢٥ دقيقة</option>
+            <option value="30">٣٠ دقيقة</option>
+          </select>
+          <button id="timer-start">ابدأ | Start</button>
+          <button id="timer-reset">إعادة | Reset</button>
+        </div>
+        <div class="timer-display">
+          <span id="timer-remaining">10:00</span>
+          <span id="timer-status" class="status small">جاهز للبدء | Hazırsan başlat.</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <!-- Vocabulary Card -->
+    <section id="card" class="card hidden">
+      <div class="card-header">
+        <div id="word" class="word arabic-text"></div>
+        <div id="transliteration" class="transliteration"></div>
+        <span id="pos" class="tag"></span>
+        <span id="level" class="tag level"></span>
+        <button id="vocab-speak" class="icon-btn" title="استمع | Dinle">🔊</button>
+      </div>
+      <div id="root-info" class="root-badge">
+        <span class="root-label">الجذر:</span>
+        <span id="root" class="root-text"></span>
+        <span id="pattern" class="pattern-text"></span>
+      </div>
+      <p id="definition-ar" class="definition arabic-text"></p>
+      <p id="definition-tr" class="definition-secondary"></p>
+      <p id="definition-en" class="definition-tertiary"></p>
+      <div class="block">
+        <h3>أمثلة | Örnekler</h3>
+        <ul id="sentences" class="arabic-list"></ul>
+      </div>
+      <div class="block">
+        <h3>كلمات مرتبطة | İlişkili Kelimeler</h3>
+        <div id="related-words" class="related-words"></div>
+      </div>
+      <div class="block quiz">
+        <h3>اختبار | Quiz</h3>
+        <p id="quiz-question" class="quiz-question"></p>
+        <div id="quiz-options" class="options"></div>
+        <div id="quiz-result" class="quiz-result"></div>
+      </div>
+      <div class="card-actions">
+        <button id="next-btn-card" class="accent-btn">الكلمة التالية | Next Word</button>
+      </div>
+    </section>
+
+    <!-- Grammar Panel -->
+    <section id="grammar-panel" class="grammar-panel card hidden">
+      <div class="grammar-header">
+        <div class="grammar-controls">
+          <label for="grammar-topic" class="label">الموضوع | Konu:</label>
+          <select id="grammar-topic">
+            <option value="">اختر موضوعاً | Konu seç</option>
+          </select>
+          <input
+            id="grammar-filter"
+            type="text"
+            class="grammar-filter"
+            placeholder="ابحث عن موضوع | Konu ara..."
+            aria-label="Search grammar topics"
+          />
+          <span id="grammar-meta" class="tag grammar-meta">0 مواضيع</span>
+        </div>
+        <div id="grammar-status" class="status small">افتح القواعد لتحميل المواضيع | Grammar yükle.</div>
+      </div>
+      <div id="grammar-detail" class="grammar-detail hidden"></div>
+    </section>
+
+    <!-- Roots Panel (Arabic-specific) -->
+    <section id="roots-panel" class="card hidden">
+      <div class="card-header">
+        <div class="word">الجذور العربية</div>
+        <span class="tag level">Root System</span>
+      </div>
+      <div class="roots-intro">
+        <p class="note">Arapça'da çoğu kelime 3 harfli köklerden (ثلاثي) türer. Kökü bilmek kelimeleri anlamayı kolaylaştırır.</p>
+      </div>
+      <div class="roots-controls">
+        <label for="root-search" class="label">ابحث عن جذر | Kök ara:</label>
+        <input id="root-search" type="text" placeholder="مثال: ك ت ب" class="root-search arabic-input" />
+        <button id="root-search-btn" class="fill-btn">بحث | Ara</button>
+      </div>
+      <div id="root-results" class="root-results"></div>
+    </section>
+
+    <!-- Patterns Panel (Arabic-specific) -->
+    <section id="patterns-panel" class="card hidden">
+      <div class="card-header">
+        <div class="word">الأوزان | Kalıplar</div>
+        <span class="tag level">Verb Forms</span>
+      </div>
+      <div class="patterns-intro">
+        <p class="note">Arapça fiiller 10 kalıba (وزن) göre çekimlenir. Her kalıbın kendine özgü anlamı vardır.</p>
+      </div>
+      <div class="patterns-grid" id="patterns-grid">
+        <!-- Will be populated by JS -->
+      </div>
+      <div id="pattern-detail" class="pattern-detail hidden"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>العربية الفصحى - Modern Standard Arabic | <a href="../index.html">← Ana Sayfa</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
