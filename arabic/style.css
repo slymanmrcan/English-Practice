@@ -28,7 +28,7 @@ body {
   background: var(--bg);
   color: var(--text);
   min-height: 100vh;
-  direction: rtl;
+  direction: ltr;
   background: 
     radial-gradient(circle at 80% 20%, rgba(201, 162, 39, 0.08), transparent 35%),
     radial-gradient(circle at 20% 0%, rgba(63, 185, 80, 0.05), transparent 30%),
@@ -41,17 +41,23 @@ body {
   font-size: 1.4em;
   line-height: 1.8;
   letter-spacing: 0.02em;
+  direction: rtl;
+  text-align: right;
 }
 
 .arabic-input {
   font-family: var(--arabic-font);
   font-size: 1.2em;
+  direction: rtl;
+  text-align: right;
 }
 
 .arabic-list {
   font-family: var(--arabic-font);
   font-size: 1.1em;
   line-height: 2;
+  direction: rtl;
+  text-align: right;
 }
 
 .arabic-list li {
@@ -297,6 +303,7 @@ button small {
   gap: 10px;
   align-items: baseline;
   flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .word {
@@ -304,6 +311,7 @@ button small {
   font-weight: 700;
   color: var(--accent-light);
   font-family: var(--arabic-font);
+  direction: rtl;
 }
 
 .transliteration {
@@ -358,6 +366,7 @@ button small {
   font-size: 20px;
   color: var(--accent-light);
   letter-spacing: 0.15em;
+  direction: rtl;
 }
 
 .pattern-text {
@@ -367,6 +376,7 @@ button small {
   padding: 2px 8px;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 6px;
+  direction: rtl;
 }
 
 /* Definitions */
@@ -375,14 +385,18 @@ button small {
   font-size: 20px;
   line-height: 1.6;
   color: #e2e8f0;
+  direction: rtl;
+  text-align: right;
+  font-family: var(--arabic-font);
 }
 
 .definition-secondary {
   margin: 0;
   font-size: 16px;
   color: var(--muted);
-  border-right: 3px solid var(--accent);
-  padding-right: 12px;
+  border-left: 3px solid var(--accent);
+  padding-left: 12px;
+  text-align: left;
 }
 
 .definition-tertiary {
@@ -406,7 +420,7 @@ button small {
 
 .block ul {
   margin: 0;
-  padding-right: 18px;
+  padding-left: 18px;
   color: var(--text);
 }
 
@@ -576,16 +590,22 @@ button small {
   color: #cbd5e1;
   font-family: var(--arabic-font);
   font-size: 20px;
+  direction: rtl;
+  text-align: right;
 }
 
 .grammar-detail p {
   margin: 6px 0;
   color: var(--text);
+  direction: ltr;
+  text-align: left;
 }
 
 .grammar-detail ul {
   margin: 8px 0;
-  padding-right: 18px;
+  padding-left: 18px;
+  direction: ltr;
+  text-align: left;
 }
 
 .grammar-detail .note {
@@ -649,6 +669,8 @@ button small {
   font-family: var(--arabic-font);
   font-size: 22px;
   color: var(--accent-light);
+  direction: rtl;
+  text-align: right;
 }
 
 .root-words-list {
@@ -828,6 +850,8 @@ button small {
   color: var(--accent-light);
   margin: 0 0 12px;
   font-size: 18px;
+  direction: rtl;
+  text-align: right;
 }
 
 .basics-items {
@@ -842,6 +866,7 @@ button small {
   border-radius: 8px;
   border: 1px solid rgba(201, 162, 39, 0.1);
   transition: all 0.2s;
+  text-align: center;
 }
 
 .basics-item:hover {
@@ -850,27 +875,31 @@ button small {
 }
 
 .basics-word {
-  font-size: 20px;
+  font-size: 22px;
   font-family: var(--arabic-font);
   color: var(--accent-light);
-  margin-bottom: 4px;
+  margin-bottom: 6px;
+  direction: rtl;
 }
 
 .basics-trans {
   font-size: 12px;
   color: var(--muted);
   margin-bottom: 6px;
+  direction: ltr;
 }
 
 .basics-meaning {
   font-size: 14px;
   color: var(--text);
+  direction: ltr;
 }
 
 .basics-meaning-en {
   font-size: 12px;
   color: var(--muted);
   margin-top: 2px;
+  direction: ltr;
 }
 
 .basics-examples {
@@ -880,6 +909,8 @@ button small {
   font-family: var(--arabic-font);
   color: var(--muted);
   font-size: 13px;
+  direction: rtl;
+  text-align: right;
 }
 
 .basics-rules {
@@ -946,6 +977,8 @@ button small {
   font-size: 18px;
   padding-bottom: 8px;
   border-bottom: 1px solid rgba(201, 162, 39, 0.2);
+  direction: rtl;
+  text-align: right;
 }
 
 .islamic-items {
@@ -960,6 +993,7 @@ button small {
   border-radius: 8px;
   border: 1px solid rgba(201, 162, 39, 0.1);
   transition: all 0.2s;
+  text-align: center;
 }
 
 .islamic-item:hover {
@@ -971,18 +1005,21 @@ button small {
   font-family: var(--arabic-font);
   color: var(--accent-light);
   margin-bottom: 4px;
+  direction: rtl;
 }
 
 .islamic-trans {
   font-size: 13px;
   color: var(--muted);
   margin-bottom: 6px;
+  direction: ltr;
 }
 
 .islamic-meaning {
   font-size: 14px;
   color: var(--text);
   font-weight: 500;
+  direction: ltr;
 }
 
 .islamic-def {
@@ -990,6 +1027,7 @@ button small {
   color: var(--muted);
   margin-top: 6px;
   line-height: 1.5;
+  direction: ltr;
 }
 
 .islamic-root {
@@ -997,6 +1035,7 @@ button small {
   color: var(--accent);
   margin-top: 6px;
   font-family: var(--arabic-font);
+  direction: rtl;
 }
 
 /* Responsive */
