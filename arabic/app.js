@@ -61,10 +61,13 @@ const App = {
   },
   
   async showPanel(panel) {
+    console.log('showPanel:', panel);
     this.currentPanel = panel;
     const content = document.getElementById('content');
     const pageTitle = document.getElementById('page-title');
     const selector = document.getElementById('selector');
+    
+    console.log('Content element:', content);
     
     // Panel configurations
     const panels = {
@@ -97,6 +100,8 @@ const App = {
     
     // Get data and render
     const panelData = this.data[config.dataKey];
+    console.log('Panel data:', config.dataKey, panelData);
+    
     if (!panelData) {
       content.innerHTML = `<div class="placeholder"><div class="ar">خطأ</div>Veri bulunamadı: ${config.dataKey}</div>`;
       return;
@@ -143,94 +148,123 @@ const App = {
       return;
     }
     
+    console.log('Intro data:', intro);
+    
     let html = '';
     
-    // Welcome
-    if (intro.welcome) {
+    // Meta başlık
+    if (intro.meta) {
       html += `
         <div class="intro-section">
           <div class="intro-title">
-            <span class="ar">${intro.welcome.arabic || ''}</span>
-            ${intro.welcome.title || 'Hoş Geldiniz'}
+            <span class="ar">مقدمة</span>
+            ${intro.meta.title || 'Giriş'}
           </div>
-          <p style="color: var(--text-dim); margin-bottom: 16px;">${intro.welcome.description || ''}</p>
+          <p style="color: var(--text-dim); margin-bottom: 16px;">${intro.meta.description || ''}</p>
         </div>
       `;
     }
     
-    // Alphabet
-    if (intro.alphabet && intro.alphabet.letters) {
-      html += `
-        <div class="intro-section">
-          <div class="intro-title">
-            <span class="ar">الحروف</span>
-            Arap Alfabesi
-          </div>
-          <div class="alphabet-grid">
-            ${intro.alphabet.letters.map(l => `
-              <div class="letter-box">
-                <div class="letter-ar">${l.arabic}</div>
-                <div class="letter-name">${l.name}</div>
-              </div>
-            `).join('')}
-          </div>
-        </div>
-      `;
-    }
-    
-    // Harekeler
-    if (intro.harekeler && intro.harekeler.items) {
-      html += `
-        <div class="intro-section">
-          <div class="intro-title">
-            <span class="ar">الحركات</span>
-            Harekeler
-          </div>
-          <div class="grid">
-            ${intro.harekeler.items.map(h => `
-              <div class="card">
-                <div class="card-title">${h.arabic || h.symbol}</div>
-                <div class="card-sub">${h.name}</div>
-                <div class="card-row">
-                  <span class="card-label">Okunuş</span>
-                  <span class="card-value tr">${h.okunus || h.pronunciation || ''}</span>
-                </div>
-                <div class="card-row">
-                  <span class="card-label">Örnek</span>
-                  <span class="card-value">${h.ornek || h.example || ''}</span>
-                </div>
-              </div>
-            `).join('')}
-          </div>
-        </div>
-      `;
-    }
-    
-    // Temel Kurallar
-    if (intro.temelKurallar && intro.temelKurallar.items) {
-      html += `
-        <div class="intro-section">
-          <div class="intro-title">
-            <span class="ar">القواعد</span>
-            Temel Kurallar
-          </div>
-          <div class="list">
-            ${intro.temelKurallar.items.map(k => `
-              <div class="list-item">
-                <span class="list-ar">${k.kural || k.arabic || ''}</span>
-                <span class="list-tr">${k.aciklama || k.explanation || ''}</span>
-              </div>
-            `).join('')}
-          </div>
-        </div>
-      `;
+    // Sections'ları işle
+    if (intro.sections && intro.sections.length > 0) {
+      intro.sections.forEach(section => {
+        html += `<div class="section" style="margin-bottom: 32px;">`;
+        html += `<div class="section-title"><span class="ar" style="margin-left: 8px;">${section.titleAr || ''}</span> ${section.title || ''}</div>`;
+        
+        if (section.content) {
+          section.content.forEach(item => {
+            // Heading + text
+            if (item.heading) {
+              html += `<h4 style="margin: 12px 0 8px; color: var(--accent);">${item.heading}</h4>`;
+            }
+            if (item.text) {
+              html += `<p style="color: var(--text-dim); margin-bottom: 8px;">${item.text}</p>`;
+            }
+            if (item.textAr) {
+              html += `<p class="ar" style="color: var(--text); margin-bottom: 12px;">${item.textAr}</p>`;
+            }
+            
+            // List
+            if (item.list) {
+              html += `<ul style="list-style: none; padding: 0; margin: 8px 0;">`;
+              item.list.forEach(li => {
+                html += `<li style="padding: 4px 0; color: var(--text-dim);">${li}</li>`;
+              });
+              html += `</ul>`;
+            }
+            
+            // Alphabet
+            if (item.alphabet) {
+              html += `<div class="alphabet-grid">`;
+              item.alphabet.forEach(l => {
+                html += `
+                  <div class="letter-box">
+                    <div class="letter-ar">${l.letter}</div>
+                    <div class="letter-name">${l.name}</div>
+                  </div>
+                `;
+              });
+              html += `</div>`;
+            }
+            
+            // Vowels (harekeler)
+            if (item.vowels) {
+              html += `<div class="grid" style="margin-top: 12px;">`;
+              item.vowels.forEach(v => {
+                html += `
+                  <div class="card">
+                    <div class="card-title">${v.symbol}</div>
+                    <div class="card-sub">${v.name}</div>
+                    <div class="card-row">
+                      <span class="card-label">Ses</span>
+                      <span class="card-value tr">${v.sound}</span>
+                    </div>
+                    <div class="card-row">
+                      <span class="card-label">Örnek</span>
+                      <span class="card-value">${v.example}</span>
+                    </div>
+                  </div>
+                `;
+              });
+              html += `</div>`;
+            }
+            
+            // Categories
+            if (item.categories) {
+              html += `<div class="grid" style="margin-top: 12px;">`;
+              item.categories.forEach(cat => {
+                html += `
+                  <div class="card">
+                    <div class="card-title">${cat.nameAr || ''}</div>
+                    <div class="card-sub">${cat.name}</div>
+                    <div class="card-row">
+                      <span class="card-value tr">${cat.description}</span>
+                    </div>
+                    ${cat.examples ? `
+                    <div class="card-details" style="display: block; margin-top: 8px;">
+                      ${cat.examples.map(ex => `<span style="display: inline-block; margin: 2px 4px; padding: 2px 6px; background: var(--bg); border-radius: 4px; font-size: 12px;">${ex}</span>`).join('')}
+                    </div>
+                    ` : ''}
+                  </div>
+                `;
+              });
+              html += `</div>`;
+            }
+          });
+        }
+        
+        html += `</div>`;
+      });
     }
     
     container.innerHTML = html || '<div class="placeholder">İçerik hazırlanıyor...</div>';
   },
   
   renderVocab(vocab, container) {
-    if (!vocab || !vocab.kelimeler) {
+    // vocab bir array olabilir veya kelimeler property'si olabilir
+    let words = Array.isArray(vocab) ? vocab : (vocab.kelimeler || vocab.words || []);
+    
+    if (!words || words.length === 0) {
       container.innerHTML = '<div class="placeholder">Kelime verisi bulunamadı</div>';
       return;
     }
@@ -238,39 +272,49 @@ const App = {
     const selector = document.getElementById('selector');
     const filter = selector.value;
     
-    let words = vocab.kelimeler;
     if (filter && filter !== 'all') {
-      const typeMap = { verbs: 'fiil', nouns: 'isim', particles: 'harf' };
-      words = words.filter(w => w.tur === typeMap[filter]);
+      const typeMap = { verbs: 'verb', nouns: 'noun', particles: 'particle' };
+      words = words.filter(w => w.pos === typeMap[filter] || w.tur === typeMap[filter]);
     }
     
     const html = `
       <div class="grid">
         ${words.map(w => `
           <div class="card" onclick="App.toggleCard(this)">
-            <div class="card-title">${w.arapca}</div>
-            <div class="card-sub">${w.tur || 'kelime'}</div>
+            <div class="card-title">${w.word || w.arapca}</div>
+            <div class="card-sub">${w.pos || w.tur || 'kelime'} ${w.level ? `• ${w.level}` : ''}</div>
             <div class="card-row">
               <span class="card-label">Türkçe</span>
-              <span class="card-value tr">${w.turkce}</span>
+              <span class="card-value tr">${w.definition_tr || w.turkce || ''}</span>
             </div>
-            ${w.kok ? `
+            ${w.root || w.kok ? `
             <div class="card-row">
               <span class="card-label">Kök</span>
-              <span class="card-value">${w.kok}</span>
+              <span class="card-value">${w.root || w.kok}</span>
+            </div>
+            ` : ''}
+            ${w.pattern ? `
+            <div class="card-row">
+              <span class="card-label">Vezin</span>
+              <span class="card-value">${w.pattern}</span>
             </div>
             ` : ''}
             <div class="card-details">
-              ${w.ornek ? `
+              ${w.transliteration ? `
               <div class="card-row">
-                <span class="card-label">Örnek</span>
-                <span class="card-value">${w.ornek}</span>
+                <span class="card-label">Okunuş</span>
+                <span class="card-value tr">${w.transliteration}</span>
               </div>
               ` : ''}
-              ${w.ornekTr ? `
-              <div class="card-row">
-                <span class="card-label">Çeviri</span>
-                <span class="card-value tr">${w.ornekTr}</span>
+              ${w.sentences && w.sentences.length > 0 ? `
+              <div style="margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--border);">
+                <div class="card-label" style="margin-bottom: 4px;">Örnek Cümleler:</div>
+                ${w.sentences.slice(0, 2).map(s => `
+                  <div style="margin: 4px 0;">
+                    <div class="ar" style="font-size: 16px;">${s.ar}</div>
+                    <div style="font-size: 12px; color: var(--text-dim);">${s.tr}</div>
+                  </div>
+                `).join('')}
               </div>
               ` : ''}
             </div>
