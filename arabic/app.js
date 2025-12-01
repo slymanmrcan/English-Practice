@@ -1,15 +1,22 @@
 // Arabic Learning App - Minimal Version
 // =====================================
 
+console.log('App.js yüklendi');
+
 const App = {
   currentPanel: null,
   data: {},
   dataLoaded: false,
   
   async init() {
-    await this.loadAllData();
-    this.bindNavigation();
-    this.showPanel('intro'); // Default panel
+    console.log('Init başladı');
+    try {
+      await this.loadAllData();
+      this.bindNavigation();
+      this.showPanel('intro');
+    } catch (e) {
+      console.error('Init hatası:', e);
+    }
   },
   
   async loadAllData() {
