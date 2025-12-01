@@ -25,7 +25,7 @@ const App = {
       'intro_01', 'vocab_01', 'grammar_01', 'quiz_01',
       'pronouns_01', 'demonstratives_01', 'colors_01', 'numbers_01', 'questions_01',
       'emsile_01', 'bina_01', 'maksud_01', 'sarf_01', 'nahiv_01',
-      'islamic_terms_01', 'islamic_basics_01'
+      'islamic_terms_01', 'islamic_basics_01', 'common_50'
     ];
     
     for (const file of files) {
@@ -33,10 +33,16 @@ const App = {
         const response = await fetch(`data/${file}.json`);
         if (response.ok) {
           this.data[file] = await response.json();
+          console.log(`✓ Loaded: ${file}`);
+        } else {
+          console.warn(`✗ Failed to load: ${file} (${response.status})`);
         }
-      } catch (e) {}
+      } catch (e) {
+        console.error(`✗ Error loading ${file}:`, e);
+      }
     }
     this.dataLoaded = true;
+    console.log('All data loaded:', Object.keys(this.data));
   },
   
   bindNavigation() {
@@ -72,7 +78,8 @@ const App = {
       roots: { title: 'Kök Ara', dataKey: 'vocab_01', render: this.renderRoots },
       patterns: { title: 'Veznler', dataKey: 'emsile_01', render: this.renderPatterns },
       islamic: { title: 'İslami Terimler', dataKey: 'islamic_terms_01', render: this.renderIslamic },
-      quiz: { title: 'Quiz', dataKey: 'quiz_01', render: this.renderQuiz }
+      quiz: { title: 'Quiz', dataKey: 'quiz_01', render: this.renderQuiz },
+      roots50: { title: '50 Temel Kök', dataKey: 'common_50', render: this.renderRoots50 }
     };
     
     const config = panels[panel];
@@ -496,9 +503,71 @@ const App = {
   },
   
   renderIslamic(data, container) {
-    let items = Array.isArray(data) ? data : (data.terms || data.items || []);
-    if (items.length === 0) { container.innerHTML = '<div class="placeholder">Veri bulunamadı</div>'; return; }
-    container.innerHTML = `<div class="list">${items.map(t => `<div class="list-item"><div><div class="list-ar">${t.arabic || t.word || ''}</div><div class="list-tr">${t.turkish || t.meaning_tr || ''}</div></div></div>`).join('')}</div>`;
+    // data: array of categories, each with items array
+    if (!data || !Array.isArray(data) || data.length === 0) {
+      container.innerHTML = '<div class="placeholder">Veri bulunamadı</div>';
+      return;
+    }
+    
+    let html = '';
+    data.forEach(category => {
+      const items = category.items || [];
+      if (items.length === 0) return;
+      
+      html += `<div class="section"><div class="section-title">${category.category || ''}</div></div>`;
+      html += '<div class="list">';
+      items.forEach(t => {
+        html += `
+          <div class="list-item">
+            <div>
+              <div class="list-ar">${t.word || ''}</div>
+              <div class="list-tr">${t.meaning_tr || ''}</div>
+              ${t.definition ? `<div style="font-size: 12px; color: var(--text-dim); margin-top: 4px;">${t.definition}</div>` : ''}
+            </div>
+          </div>
+        `;
+      });
+      html += '</div>';
+    });
+    
+    container.innerHTML = html || '<div class="placeholder">Veri bulunamadı</div>';
+  },
+  
+  renderRoots50(data, container) {
+    if (!data || !data.roots) {
+      container.innerHTML = '<div class="placeholder">Veri bulunamadı</div>';
+      return;
+    }
+    
+    let html = `
+      <div class="section">
+        <div class="section-title">🌳 En Sık Kullanılan 50 Arapça Kök</div>
+        <p style="color: var(--text-dim); margin-bottom: 8px;">${data.notes?.toplam_kaplama || ''}</p>
+        <p style="color: var(--text-dim); font-size: 12px; margin-bottom: 20px;">${data.notes?.kullanim || ''}</p>
+      </div>
+    `;
+    
+    html += '<div class="roots-grid">';
+    
+    data.roots.forEach((root, index) => {
+      html += `
+        <div class="root-card">
+          <div class="root-number">${root.id}</div>
+          <div class="root-main">
+            <div class="root-arabic">${root.root}</div>
+            <div class="root-trans">${root.transliteration}</div>
+          </div>
+          <div class="root-meaning">${root.meaning}</div>
+          <div class="root-freq">📊 ${root.frequency}x</div>
+          <div class="root-examples">
+            ${root.examples.map(ex => `<span class="root-ex">${ex}</span>`).join('')}
+          </div>
+        </div>
+      `;
+    });
+    
+    html += '</div>';
+    container.innerHTML = html;
   },
   
   // Quiz State
