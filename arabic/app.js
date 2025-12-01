@@ -17,6 +17,10 @@ const NAHIV_FILES = [
   "data/nahiv_01.json",
 ];
 
+const INTRO_FILES = [
+  "data/intro_01.json",
+];
+
 const BASIC_FILES = {
   pronouns: "data/pronouns_01.json",
   demonstratives: "data/demonstratives_01.json",
@@ -36,11 +40,13 @@ let currentItem = null;
 let grammarTopics = [];
 let sarfTopics = [];
 let nahivTopics = [];
+let introData = null;
 let basicData = {};
 let islamicData = [];
 let grammarLoaded = false;
 let sarfLoaded = false;
 let nahivLoaded = false;
+let introLoaded = false;
 let basicLoaded = false;
 let islamicLoaded = false;
 let ttsVoice = null;
@@ -286,6 +292,10 @@ const els = {
   islamicCategory: document.getElementById("islamic-category"),
   islamicSearch: document.getElementById("islamic-search"),
   islamicContent: document.getElementById("islamic-content"),
+  // Intro elements
+  introBtn: document.getElementById("intro-btn"),
+  introPanel: document.getElementById("intro-panel"),
+  introContent: document.getElementById("intro-content"),
 };
 
 // Status update
@@ -303,6 +313,7 @@ function hideAllPanels() {
   els.nahivPanel?.classList.add("hidden");
   els.basicsPanel?.classList.add("hidden");
   els.islamicPanel?.classList.add("hidden");
+  els.introPanel?.classList.add("hidden");
 }
 
 // Load vocabulary data
@@ -928,6 +939,253 @@ function toggleIslamic() {
   loadIslamic();
 }
 
+// ============ INTRO (Fasih Arabic Introduction) ============
+async function loadIntro() {
+  if (introLoaded) return;
+  
+  for (const file of INTRO_FILES) {
+    try {
+      const res = await fetch(file);
+      if (!res.ok) continue;
+      const json = await res.json();
+      introData = json;
+    } catch (e) {
+      console.warn(`Could not load ${file}:`, e);
+    }
+  }
+  
+  introLoaded = true;
+  renderIntro();
+}
+
+function renderIntro() {
+  if (!introData || !els.introContent) return;
+  
+  let html = "";
+  
+  // Meta info
+  if (introData.meta) {
+    html += `<div class="intro-meta">
+      <h2>${introData.meta.title || ""}</h2>
+      <p>${introData.meta.description || ""}</p>
+    </div>`;
+  }
+  
+  // Sections
+  if (introData.sections) {
+    introData.sections.forEach(section => {
+      html += `<div class="intro-section" id="intro-${section.id}">
+        <h3 class="intro-section-title">${section.title} <span class="arabic-text">${section.titleAr || ""}</span></h3>`;
+      
+      // Content array
+      if (section.content) {
+        section.content.forEach(item => {
+          if (item.heading) {
+            html += `<h4 class="intro-heading">${item.heading}</h4>`;
+          }
+          if (item.text) {
+            html += `<p class="intro-text">${item.text}</p>`;
+          }
+          if (item.textAr) {
+            html += `<p class="intro-text arabic-text">${item.textAr}</p>`;
+          }
+          if (item.list) {
+            html += '<ul class="intro-list">';
+            item.list.forEach(li => {
+              html += `<li>${li}</li>`;
+            });
+            html += '</ul>';
+          }
+          
+          // Alphabet
+          if (item.alphabet) {
+            html += '<div class="intro-alphabet">';
+            item.alphabet.forEach(letter => {
+              html += `<div class="intro-letter">
+                <span class="letter-ar">${letter.letter}</span>
+                <span class="letter-name">${letter.name}</span>
+                <span class="letter-trans">${letter.translit}</span>
+                <span class="letter-sound">${letter.sound}</span>
+              </div>`;
+            });
+            html += '</div>';
+          }
+          
+          // Vowels
+          if (item.vowels) {
+            html += '<div class="intro-vowels">';
+            item.vowels.forEach(v => {
+              html += `<div class="intro-vowel">
+                <span class="vowel-symbol">${v.symbol}</span>
+                <span class="vowel-name">${v.name}</span>
+                <span class="vowel-sound">${v.sound}</span>
+                <span class="vowel-example">${v.example}</span>
+              </div>`;
+            });
+            html += '</div>';
+          }
+          
+          // Categories (word types)
+          if (item.categories) {
+            html += '<div class="intro-categories">';
+            item.categories.forEach(cat => {
+              html += `<div class="intro-cat-item">
+                <div class="intro-cat-name">${cat.name} <span class="arabic-text">${cat.nameAr}</span></div>
+                <div class="intro-cat-desc">${cat.description}</div>
+                <div class="intro-cat-examples">
+                  ${cat.examples.map(e => `<span class="arabic-text">${e}</span>`).join(" ")}
+                </div>
+              </div>`;
+            });
+            html += '</div>';
+          }
+          
+          // Genders
+          if (item.genders) {
+            html += '<div class="intro-genders">';
+            item.genders.forEach(g => {
+              html += `<div class="intro-gender-item">
+                <div class="intro-gender-type">${g.type} <span class="arabic-text">${g.typeAr}</span></div>
+                <div class="intro-gender-rule">${g.rule}</div>
+                <div class="intro-gender-examples">
+                  ${g.examples.map(e => `<span class="arabic-text">${e}</span>`).join(" ")}
+                </div>
+              </div>`;
+            });
+            html += '</div>';
+          }
+          
+          // Numbers (singular, dual, plural)
+          if (item.numbers) {
+            html += '<div class="intro-numbers">';
+            item.numbers.forEach(n => {
+              html += `<div class="intro-number-item">
+                <div class="intro-number-type">${n.type} <span class="arabic-text">${n.typeAr}</span></div>
+                ${n.rule ? `<div class="intro-number-rule">${n.rule}</div>` : ""}
+                <div class="intro-number-example">${n.example || (n.examples ? n.examples.join(" | ") : "")}</div>
+              </div>`;
+            });
+            html += '</div>';
+          }
+          
+          // Dialect example
+          if (item.example && item.example.fusha) {
+            html += `<div class="intro-dialect-box">
+              <div class="intro-dialect-fusha">
+                <span class="label">Fasih:</span>
+                <span class="arabic-text">${item.example.fusha}</span>
+                <span class="meaning">(${item.example.meaning})</span>
+              </div>
+              <div class="intro-dialect-compare">
+                <span>🇪🇬 ${item.example.egyptian}</span>
+                <span>🇸🇾 ${item.example.levantine}</span>
+                <span>🇸🇦 ${item.example.gulf}</span>
+              </div>
+            </div>`;
+          }
+        });
+      }
+      
+      // Sentence examples
+      if (section.content && section.content.some(c => c.examples)) {
+        section.content.forEach(c => {
+          if (c.examples) {
+            html += '<div class="intro-sentence-examples">';
+            c.examples.forEach(ex => {
+              html += `<div class="intro-sentence">
+                <div class="intro-sentence-ar arabic-text">${ex.ar}</div>
+                <div class="intro-sentence-tr">${ex.tr}</div>
+                ${ex.analysis ? `<div class="intro-sentence-analysis">${ex.analysis}</div>` : ""}
+              </div>`;
+            });
+            html += '</div>';
+          }
+        });
+      }
+      
+      // Verb tense examples
+      if (section.content && section.content.some(c => c.examples && c.examples[0]?.ar)) {
+        // Already handled above
+      }
+      
+      // Learning path phases
+      if (section.content && section.content.some(c => c.phase)) {
+        html += '<div class="intro-learning-path">';
+        section.content.forEach(phase => {
+          if (phase.phase) {
+            html += `<div class="intro-phase">
+              <div class="intro-phase-title">${phase.phase}</div>
+              <ul class="intro-phase-tasks">
+                ${phase.tasks.map(t => `<li>${t}</li>`).join("")}
+              </ul>
+            </div>`;
+          }
+        });
+        html += '</div>';
+      }
+      
+      // Tips
+      if (section.content && section.content.some(c => c.tip)) {
+        html += '<div class="intro-tips">';
+        section.content.forEach(t => {
+          if (t.tip) {
+            html += `<div class="intro-tip">
+              <span class="tip-icon">${t.icon}</span>
+              <span class="tip-text">${t.tip}</span>
+            </div>`;
+          }
+        });
+        html += '</div>';
+      }
+      
+      // Essential vocabulary
+      if (section.content && section.content.some(c => c.category && c.words)) {
+        html += '<div class="intro-vocab-section">';
+        section.content.forEach(cat => {
+          if (cat.category && cat.words) {
+            html += `<div class="intro-vocab-cat">
+              <h4>${cat.category}</h4>
+              <div class="intro-vocab-items">`;
+            cat.words.forEach(w => {
+              html += `<div class="intro-vocab-item">
+                <span class="arabic-text">${w.ar}</span>
+                <span class="translit">${w.translit}</span>
+                <span class="meaning">${w.tr}</span>
+              </div>`;
+            });
+            html += '</div></div>';
+          }
+        });
+        html += '</div>';
+      }
+      
+      // Phrases
+      if (section.phrases) {
+        html += '<div class="intro-phrases">';
+        section.phrases.forEach(p => {
+          html += `<div class="intro-phrase">
+            <div class="phrase-ar arabic-text">${p.ar}</div>
+            <div class="phrase-translit">${p.translit}</div>
+            <div class="phrase-tr">${p.tr}</div>
+            ${p.reply && p.reply !== "-" ? `<div class="phrase-reply">↩ ${p.reply}</div>` : ""}
+          </div>`;
+        });
+        html += '</div>';
+      }
+      
+      html += '</div>'; // end intro-section
+    });
+  }
+  
+  els.introContent.innerHTML = html;
+}
+
+function toggleIntro() {
+  hideAllPanels();
+  els.introPanel?.classList.remove("hidden");
+  loadIntro();
+}
+
 // Event listeners
 document.addEventListener("DOMContentLoaded", () => {
   // Timer
@@ -1001,6 +1259,9 @@ document.addEventListener("DOMContentLoaded", () => {
   els.islamicSearch?.addEventListener("input", (e) => {
     renderIslamicContent(els.islamicCategory?.value || "ALL", e.target.value);
   });
+  
+  // Intro
+  els.introBtn?.addEventListener("click", toggleIntro);
   
   // Load TTS voices
   if (window.speechSynthesis) {

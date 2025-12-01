@@ -1038,6 +1038,511 @@ button small {
   direction: rtl;
 }
 
+/* ============ INTRO PANEL ============ */
+.intro-highlight {
+  background: linear-gradient(135deg, var(--accent), var(--accent-light)) !important;
+  color: #000 !important;
+  font-weight: 600;
+}
+
+.intro-panel-card {
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
+.intro-content {
+  padding: 10px 0;
+}
+
+.intro-meta {
+  text-align: center;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(201, 162, 39, 0.2);
+}
+
+.intro-meta h2 {
+  font-family: var(--arabic-font);
+  color: var(--accent-light);
+  margin: 0 0 8px;
+  font-size: 24px;
+}
+
+.intro-meta p {
+  color: var(--muted);
+  margin: 0;
+}
+
+.intro-section {
+  margin-bottom: 28px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.intro-section:last-child {
+  border-bottom: none;
+}
+
+.intro-section-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 18px;
+  color: var(--accent-light);
+  margin: 0 0 16px;
+  font-weight: 600;
+}
+
+.intro-section-title .arabic-text {
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.intro-heading {
+  color: var(--text);
+  font-size: 15px;
+  margin: 16px 0 8px;
+  font-weight: 600;
+}
+
+.intro-text {
+  color: var(--muted);
+  margin: 8px 0;
+  line-height: 1.6;
+}
+
+.intro-list {
+  margin: 8px 0;
+  padding-left: 20px;
+  color: var(--text);
+}
+
+.intro-list li {
+  margin: 6px 0;
+  line-height: 1.5;
+}
+
+/* Alphabet Grid */
+.intro-alphabet {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.intro-letter {
+  background: rgba(201, 162, 39, 0.08);
+  border: 1px solid rgba(201, 162, 39, 0.15);
+  border-radius: 8px;
+  padding: 10px 8px;
+  text-align: center;
+}
+
+.intro-letter .letter-ar {
+  display: block;
+  font-family: var(--arabic-font);
+  font-size: 32px;
+  color: var(--accent-light);
+  line-height: 1.2;
+}
+
+.intro-letter .letter-name {
+  display: block;
+  font-size: 12px;
+  color: var(--text);
+  margin-top: 4px;
+}
+
+.intro-letter .letter-trans {
+  display: block;
+  font-size: 11px;
+  color: var(--accent);
+}
+
+.intro-letter .letter-sound {
+  display: block;
+  font-size: 10px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+/* Vowels Grid */
+.intro-vowels {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 10px;
+  margin: 12px 0;
+}
+
+.intro-vowel {
+  background: rgba(63, 185, 80, 0.08);
+  border: 1px solid rgba(63, 185, 80, 0.2);
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+}
+
+.intro-vowel .vowel-symbol {
+  display: block;
+  font-family: var(--arabic-font);
+  font-size: 36px;
+  color: var(--success);
+  line-height: 1;
+}
+
+.intro-vowel .vowel-name {
+  display: block;
+  font-size: 13px;
+  color: var(--text);
+  margin-top: 6px;
+}
+
+.intro-vowel .vowel-sound {
+  display: block;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.intro-vowel .vowel-example {
+  display: block;
+  font-family: var(--arabic-font);
+  font-size: 14px;
+  color: var(--accent);
+  margin-top: 4px;
+}
+
+/* Categories */
+.intro-categories {
+  display: grid;
+  gap: 12px;
+  margin: 12px 0;
+}
+
+.intro-cat-item {
+  background: rgba(201, 162, 39, 0.06);
+  border: 1px solid rgba(201, 162, 39, 0.12);
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.intro-cat-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--accent-light);
+  margin-bottom: 6px;
+}
+
+.intro-cat-desc {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+.intro-cat-examples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.intro-cat-examples .arabic-text {
+  background: rgba(0,0,0,0.3);
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Genders */
+.intro-genders {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 12px;
+  margin: 12px 0;
+}
+
+.intro-gender-item {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.intro-gender-type {
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+
+.intro-gender-rule {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+.intro-gender-examples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.intro-gender-examples .arabic-text {
+  font-size: 15px;
+  background: rgba(201, 162, 39, 0.1);
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+/* Numbers */
+.intro-numbers {
+  display: grid;
+  gap: 10px;
+  margin: 12px 0;
+}
+
+.intro-number-item {
+  background: rgba(255,255,255,0.02);
+  border-left: 3px solid var(--accent);
+  padding: 10px 14px;
+}
+
+.intro-number-type {
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.intro-number-rule {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.intro-number-example {
+  font-family: var(--arabic-font);
+  color: var(--accent-light);
+  margin-top: 4px;
+}
+
+/* Dialect Comparison */
+.intro-dialect-box {
+  background: rgba(201, 162, 39, 0.08);
+  border: 1px solid rgba(201, 162, 39, 0.2);
+  border-radius: 10px;
+  padding: 16px;
+  margin: 12px 0;
+}
+
+.intro-dialect-fusha {
+  text-align: center;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed rgba(201, 162, 39, 0.3);
+}
+
+.intro-dialect-fusha .label {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.intro-dialect-fusha .arabic-text {
+  font-size: 24px;
+  color: var(--accent-light);
+  margin: 0 8px;
+}
+
+.intro-dialect-fusha .meaning {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.intro-dialect-compare {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.intro-dialect-compare span {
+  font-family: var(--arabic-font);
+  font-size: 14px;
+  color: var(--text);
+}
+
+/* Sentence Examples */
+.intro-sentence-examples {
+  display: grid;
+  gap: 12px;
+  margin: 12px 0;
+}
+
+.intro-sentence {
+  background: rgba(0,0,0,0.2);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.intro-sentence-ar {
+  font-size: 20px;
+  color: var(--accent-light);
+  margin-bottom: 6px;
+}
+
+.intro-sentence-tr {
+  color: var(--text);
+  font-size: 14px;
+}
+
+.intro-sentence-analysis {
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: 4px;
+  font-style: italic;
+}
+
+/* Learning Path */
+.intro-learning-path {
+  display: grid;
+  gap: 16px;
+  margin: 12px 0;
+}
+
+.intro-phase {
+  background: linear-gradient(135deg, rgba(201, 162, 39, 0.08), rgba(201, 162, 39, 0.02));
+  border: 1px solid rgba(201, 162, 39, 0.15);
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.intro-phase-title {
+  font-weight: 600;
+  color: var(--accent-light);
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.intro-phase-tasks {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--text);
+  font-size: 13px;
+}
+
+.intro-phase-tasks li {
+  margin: 4px 0;
+}
+
+/* Tips */
+.intro-tips {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+  margin: 12px 0;
+}
+
+.intro-tip {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(63, 185, 80, 0.08);
+  border: 1px solid rgba(63, 185, 80, 0.15);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.intro-tip .tip-icon {
+  font-size: 20px;
+}
+
+.intro-tip .tip-text {
+  font-size: 13px;
+  color: var(--text);
+}
+
+/* Vocabulary Section */
+.intro-vocab-section {
+  display: grid;
+  gap: 16px;
+  margin: 12px 0;
+}
+
+.intro-vocab-cat h4 {
+  color: var(--accent);
+  font-size: 14px;
+  margin: 0 0 10px;
+}
+
+.intro-vocab-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 8px;
+}
+
+.intro-vocab-item {
+  background: rgba(0,0,0,0.2);
+  border-radius: 6px;
+  padding: 10px;
+  text-align: center;
+}
+
+.intro-vocab-item .arabic-text {
+  display: block;
+  font-size: 18px;
+  color: var(--accent-light);
+}
+
+.intro-vocab-item .translit {
+  display: block;
+  font-size: 11px;
+  color: var(--muted);
+  margin: 2px 0;
+}
+
+.intro-vocab-item .meaning {
+  display: block;
+  font-size: 12px;
+  color: var(--text);
+}
+
+/* Phrases */
+.intro-phrases {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 12px 0;
+}
+
+.intro-phrase {
+  background: rgba(201, 162, 39, 0.06);
+  border: 1px solid rgba(201, 162, 39, 0.12);
+  border-radius: 10px;
+  padding: 14px;
+  text-align: center;
+}
+
+.intro-phrase .phrase-ar {
+  font-size: 20px;
+  color: var(--accent-light);
+  margin-bottom: 6px;
+}
+
+.intro-phrase .phrase-translit {
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+
+.intro-phrase .phrase-tr {
+  font-size: 13px;
+  color: var(--text);
+}
+
+.intro-phrase .phrase-reply {
+  font-family: var(--arabic-font);
+  font-size: 14px;
+  color: var(--accent);
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dashed rgba(201, 162, 39, 0.2);
+}
+
 /* Responsive */
 @media (max-width: 640px) {
   .word { font-size: 28px; }
@@ -1051,4 +1556,6 @@ button small {
   .basics-tabs { flex-wrap: wrap; }
   .basics-items { grid-template-columns: 1fr; }
   .islamic-items { grid-template-columns: 1fr; }
+  .intro-alphabet { grid-template-columns: repeat(4, 1fr); }
+  .intro-phrases { grid-template-columns: 1fr; }
 }

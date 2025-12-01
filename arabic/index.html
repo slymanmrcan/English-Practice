@@ -43,15 +43,18 @@
       <div class="control-panel action-panel">
         <div class="panel-title">٢) خطوات الدراسة | Çalışma Adımları</div>
         <div class="panel-body actions">
+          <button id="intro-btn" class="intro-highlight">المقدمة<br><small>Giriş</small></button>
           <button id="next-btn">الكلمة التالية<br><small>Next Word</small></button>
           <button id="grammar-btn">القواعد<br><small>Grammar</small></button>
           <button id="sarf-btn">الصرف<br><small>Sarf</small></button>
-          <button id="nahiv-btn">النحو<br><small>Nahiv</small></button>
         </div>
         <div class="panel-body actions">
+          <button id="nahiv-btn">النحو<br><small>Nahiv</small></button>
           <button id="basics-btn">الأساسيات<br><small>Temel</small></button>
           <button id="islamic-btn">المصطلحات<br><small>İslami</small></button>
           <button id="roots-btn">الجذور<br><small>Roots</small></button>
+        </div>
+        <div class="panel-body actions">
           <button id="patterns-btn">الأوزان<br><small>Patterns</small></button>
         </div>
       </div>
@@ -191,7 +194,16 @@
       <div id="basics-content" class="basics-content"></div>
     </section>
 
-    <!-- Islamic Terms Panel -->
+    <!-- Intro Panel -->
+    <section id="intro-panel" class="card hidden intro-panel-card">
+      <div class="card-header">
+        <div class="word">المقدمة | Fasih Arapça'ya Giriş</div>
+        <span class="tag level">Başlangıç</span>
+      </div>
+      <div id="intro-content" class="intro-content"></div>
+    </section>
+
+    <!-- Islamic Panel -->
     <section id="islamic-panel" class="card hidden">
       <div class="card-header">
         <div class="word">المصطلحات الإسلامية | İslami Terimler</div>

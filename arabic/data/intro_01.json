@@ -1,0 +1,408 @@
+{
+  "meta": {
+    "title": "Fasih Arapça'ya Giriş | مقدمة في العربية الفصحى",
+    "description": "Sıfırdan başlayanlar için Fasih Arapça rehberi",
+    "version": "1.0"
+  },
+  "sections": [
+    {
+      "id": "what-is-fusha",
+      "title": "Fasih Arapça Nedir?",
+      "titleAr": "ما هي العربية الفصحى؟",
+      "content": [
+        {
+          "heading": "Tanım",
+          "text": "Fasih Arapça (الفُصْحَى - el-Fushâ), 'en açık, en net' anlamına gelir. Kur'an-ı Kerim'in dili olup, tüm Arap dünyasında ortak yazı ve resmi dilidir.",
+          "textAr": "الفصحى تعني الأوضح والأفصح، وهي لغة القرآن الكريم واللغة الرسمية المشتركة في جميع الدول العربية"
+        },
+        {
+          "heading": "Diğer Adları",
+          "text": "Modern Standard Arabic (MSA), Literary Arabic, Classical Arabic (Klasik Arapça için)"
+        },
+        {
+          "heading": "Nerede Kullanılır?",
+          "list": [
+            "📖 Kur'an-ı Kerim ve tüm dini metinler",
+            "📰 Haberler, gazeteler, resmi yayınlar",
+            "🎓 Akademik yazılar, kitaplar, edebiyat",
+            "🏛️ Resmi konuşmalar, diplomatik yazışmalar",
+            "📺 Haber kanalları (Al Jazeera, BBC Arabic vb.)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "why-fusha",
+      "title": "Neden Fasih Arapça?",
+      "titleAr": "لماذا الفصحى؟",
+      "content": [
+        {
+          "heading": "Avantajları",
+          "list": [
+            "🌍 22 Arap ülkesinde anlaşılır (400+ milyon insan)",
+            "📚 1400 yıllık zengin edebiyata erişim",
+            "🕌 Kur'an, Hadis ve İslami ilimleri aslından okuma",
+            "🔗 Lehçeler arasında köprü görevi görür",
+            "💼 İş, diplomasi ve akademide standart dil"
+          ]
+        },
+        {
+          "heading": "Lehçelerle Farkı",
+          "text": "Her Arap ülkesinin kendi lehçesi vardır (Mısır, Şam, Körfez, Mağrip). Bunlar günlük konuşmada kullanılır. Fasih Arapça ise hepsinin üzerinde, herkesin anlayacağı ortak dildir.",
+          "example": {
+            "fusha": "كَيْفَ حَالُكَ؟",
+            "meaning": "Nasılsın?",
+            "egyptian": "إزَّيَّك؟",
+            "levantine": "كِيفَك؟",
+            "gulf": "شْلُونَك؟"
+          }
+        }
+      ]
+    },
+    {
+      "id": "alphabet",
+      "title": "Arap Alfabesi",
+      "titleAr": "الحروف العربية",
+      "content": [
+        {
+          "heading": "Temel Bilgiler",
+          "list": [
+            "✍️ 28 harf (tamamı sessiz harf)",
+            "➡️ Sağdan sola yazılır",
+            "🔗 Harfler birbirine bağlanır (el yazısı gibi)",
+            "📍 Her harfin 4 formu var: başta, ortada, sonda, bağımsız"
+          ]
+        },
+        {
+          "heading": "Harfler",
+          "alphabet": [
+            {"letter": "ا", "name": "Elif", "translit": "ā / -", "sound": "Uzun a veya sessiz"},
+            {"letter": "ب", "name": "Bâ", "translit": "b", "sound": "B sesi"},
+            {"letter": "ت", "name": "Tâ", "translit": "t", "sound": "T sesi"},
+            {"letter": "ث", "name": "Sâ", "translit": "th/s", "sound": "İngilizce 'th' (think)"},
+            {"letter": "ج", "name": "Cîm", "translit": "j/c", "sound": "C sesi"},
+            {"letter": "ح", "name": "Hâ", "translit": "ḥ", "sound": "Gırtlaktan gelen h"},
+            {"letter": "خ", "name": "Hâ", "translit": "kh/h", "sound": "Almanca 'ch' gibi"},
+            {"letter": "د", "name": "Dâl", "translit": "d", "sound": "D sesi"},
+            {"letter": "ذ", "name": "Zâl", "translit": "dh/z", "sound": "İngilizce 'th' (this)"},
+            {"letter": "ر", "name": "Râ", "translit": "r", "sound": "R sesi (titrek)"},
+            {"letter": "ز", "name": "Zây", "translit": "z", "sound": "Z sesi"},
+            {"letter": "س", "name": "Sîn", "translit": "s", "sound": "S sesi"},
+            {"letter": "ش", "name": "Şîn", "translit": "ş/sh", "sound": "Ş sesi"},
+            {"letter": "ص", "name": "Sâd", "translit": "ṣ", "sound": "Kalın S"},
+            {"letter": "ض", "name": "Dâd", "translit": "ḍ", "sound": "Kalın D (Arapça'ya özgü)"},
+            {"letter": "ط", "name": "Tâ", "translit": "ṭ", "sound": "Kalın T"},
+            {"letter": "ظ", "name": "Zâ", "translit": "ẓ", "sound": "Kalın Z"},
+            {"letter": "ع", "name": "Ayn", "translit": "'", "sound": "Gırtlak sesi (Arapça'ya özgü)"},
+            {"letter": "غ", "name": "Ğayn", "translit": "ğ/gh", "sound": "Ğ sesi"},
+            {"letter": "ف", "name": "Fâ", "translit": "f", "sound": "F sesi"},
+            {"letter": "ق", "name": "Kâf", "translit": "q", "sound": "Gırtlaktan gelen K"},
+            {"letter": "ك", "name": "Kâf", "translit": "k", "sound": "K sesi"},
+            {"letter": "ل", "name": "Lâm", "translit": "l", "sound": "L sesi"},
+            {"letter": "م", "name": "Mîm", "translit": "m", "sound": "M sesi"},
+            {"letter": "ن", "name": "Nûn", "translit": "n", "sound": "N sesi"},
+            {"letter": "ه", "name": "Hâ", "translit": "h", "sound": "H sesi"},
+            {"letter": "و", "name": "Vâv", "translit": "w/v/û", "sound": "V veya uzun u"},
+            {"letter": "ي", "name": "Yâ", "translit": "y/î", "sound": "Y veya uzun i"}
+          ]
+        },
+        {
+          "heading": "Harekeler (Sesli Harfler)",
+          "vowels": [
+            {"symbol": "َ", "name": "Fetha", "translit": "a", "sound": "Kısa a", "example": "بَ = ba"},
+            {"symbol": "ِ", "name": "Kesra", "translit": "i", "sound": "Kısa i", "example": "بِ = bi"},
+            {"symbol": "ُ", "name": "Damme", "translit": "u", "sound": "Kısa u", "example": "بُ = bu"},
+            {"symbol": "ْ", "name": "Sükûn", "translit": "-", "sound": "Sessiz", "example": "بْ = b"},
+            {"symbol": "ّ", "name": "Şedde", "translit": "çift", "sound": "Harfi çiftler", "example": "بَّ = bba"},
+            {"symbol": "ً", "name": "Fethatân", "translit": "an", "sound": "Tenvin a", "example": "كِتَابًا = kitâben"},
+            {"symbol": "ٍ", "name": "Kesratân", "translit": "in", "sound": "Tenvin i", "example": "كِتَابٍ = kitâbin"},
+            {"symbol": "ٌ", "name": "Dammetân", "translit": "un", "sound": "Tenvin u", "example": "كِتَابٌ = kitâbun"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-basics",
+      "title": "Temel Gramer Kavramları",
+      "titleAr": "أساسيات النحو",
+      "content": [
+        {
+          "heading": "Kelime Türleri (3 Ana Kategori)",
+          "categories": [
+            {
+              "name": "İsim (اِسْم)",
+              "nameAr": "اِسْمٌ",
+              "description": "İsim, sıfat, zamir, her türlü ad",
+              "examples": ["كِتَابٌ (kitap)", "كَبِيرٌ (büyük)", "هُوَ (o)"]
+            },
+            {
+              "name": "Fiil (فِعْل)",
+              "nameAr": "فِعْلٌ",
+              "description": "Eylem bildiren kelimeler",
+              "examples": ["كَتَبَ (yazdı)", "يَكْتُبُ (yazıyor)", "اُكْتُبْ (yaz!)"]
+            },
+            {
+              "name": "Harf (حَرْف)",
+              "nameAr": "حَرْفٌ",
+              "description": "Edatlar, bağlaçlar, ön ekler",
+              "examples": ["فِي (içinde)", "مِنْ (den)", "وَ (ve)"]
+            }
+          ]
+        },
+        {
+          "heading": "Cinsiyet (Müzekker - Müennes)",
+          "genders": [
+            {
+              "type": "Müzekker (Eril)",
+              "typeAr": "مُذَكَّرٌ",
+              "rule": "Genellikle sonu ة ile bitmez",
+              "examples": ["طَالِبٌ (erkek öğrenci)", "كِتَابٌ (kitap)", "قَلَمٌ (kalem)"]
+            },
+            {
+              "type": "Müennes (Dişil)",
+              "typeAr": "مُؤَنَّثٌ",
+              "rule": "Genellikle sonu ة (te merbuta) ile biter",
+              "examples": ["طَالِبَةٌ (kız öğrenci)", "مَدْرَسَةٌ (okul)", "سَيَّارَةٌ (araba)"]
+            }
+          ]
+        },
+        {
+          "heading": "Sayı (Tekil - İkil - Çoğul)",
+          "numbers": [
+            {
+              "type": "Müfred (Tekil)",
+              "typeAr": "مُفْرَدٌ",
+              "example": "طَالِبٌ (bir öğrenci)"
+            },
+            {
+              "type": "Müsenna (İkil)",
+              "typeAr": "مُثَنَّى",
+              "rule": "Sona انِ / يْنِ eklenir",
+              "example": "طَالِبَانِ (iki öğrenci)"
+            },
+            {
+              "type": "Cem' (Çoğul)",
+              "typeAr": "جَمْعٌ",
+              "rule": "Düzenli: ونَ / ينَ (eril), اتٌ (dişil) veya kırık çoğul",
+              "examples": ["طُلَّابٌ (öğrenciler)", "مُعَلِّمُونَ (erkek öğretmenler)", "مُعَلِّمَاتٌ (kadın öğretmenler)"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sentence-types",
+      "title": "Cümle Yapısı",
+      "titleAr": "أنواع الجمل",
+      "content": [
+        {
+          "heading": "İsim Cümlesi (الجُمْلَة الاِسْمِيَّة)",
+          "structure": "Mübteda + Haber",
+          "explanation": "Özne + Yüklem (fiilsiz cümle, 'olmak' fiili gizli)",
+          "examples": [
+            {"ar": "الكِتَابُ جَدِيدٌ", "tr": "Kitap yeni(dir).", "analysis": "الكتاب (Mübteda) + جديد (Haber)"},
+            {"ar": "الطَّالِبُ مُجْتَهِدٌ", "tr": "Öğrenci çalışkan(dır).", "analysis": "الطالب (Mübteda) + مجتهد (Haber)"},
+            {"ar": "هَذَا بَيْتٌ", "tr": "Bu bir ev(dir).", "analysis": "هذا (Mübteda) + بيت (Haber)"}
+          ]
+        },
+        {
+          "heading": "Fiil Cümlesi (الجُمْلَة الفِعْلِيَّة)",
+          "structure": "Fiil + Fail + (Mef'ul)",
+          "explanation": "Fiil + Özne + (Nesne)",
+          "examples": [
+            {"ar": "كَتَبَ الطَّالِبُ الدَّرْسَ", "tr": "Öğrenci dersi yazdı.", "analysis": "كتب (Fiil) + الطالب (Fail) + الدرس (Mef'ul)"},
+            {"ar": "يَقْرَأُ الوَلَدُ", "tr": "Çocuk okuyor.", "analysis": "يقرأ (Fiil) + الولد (Fail)"},
+            {"ar": "ذَهَبَتْ فَاطِمَةُ", "tr": "Fatma gitti.", "analysis": "ذهبت (Fiil+dişil eki) + فاطمة (Fail)"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verb-tenses",
+      "title": "Fiil Zamanları",
+      "titleAr": "أزمنة الفعل",
+      "content": [
+        {
+          "heading": "Mazi (Geçmiş Zaman)",
+          "nameAr": "الفِعْلُ المَاضِي",
+          "pattern": "فَعَلَ",
+          "examples": [
+            {"ar": "كَتَبَ", "tr": "yazdı (o, eril)"},
+            {"ar": "كَتَبَتْ", "tr": "yazdı (o, dişil)"},
+            {"ar": "كَتَبْتُ", "tr": "yazdım (ben)"},
+            {"ar": "كَتَبْنَا", "tr": "yazdık (biz)"}
+          ]
+        },
+        {
+          "heading": "Muzari (Şimdiki/Geniş Zaman)",
+          "nameAr": "الفِعْلُ المُضَارِعُ",
+          "pattern": "يَفْعَلُ",
+          "prefixes": "أ (ben), ن (biz), ت (sen/o dişil), ي (o eril/onlar)",
+          "examples": [
+            {"ar": "يَكْتُبُ", "tr": "yazıyor/yazar (o, eril)"},
+            {"ar": "تَكْتُبُ", "tr": "yazıyor/yazar (sen/o dişil)"},
+            {"ar": "أَكْتُبُ", "tr": "yazıyorum/yazarım (ben)"},
+            {"ar": "نَكْتُبُ", "tr": "yazıyoruz/yazarız (biz)"}
+          ]
+        },
+        {
+          "heading": "Emir (Emir Kipi)",
+          "nameAr": "فِعْلُ الأَمْرِ",
+          "pattern": "اِفْعَلْ",
+          "examples": [
+            {"ar": "اُكْتُبْ", "tr": "yaz! (sen, eril)"},
+            {"ar": "اُكْتُبِي", "tr": "yaz! (sen, dişil)"},
+            {"ar": "اُكْتُبُوا", "tr": "yazın! (siz, eril)"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "essential-vocab",
+      "title": "İlk 20 Kelime",
+      "titleAr": "أهم عشرين كلمة",
+      "content": [
+        {
+          "category": "Zamirler",
+          "words": [
+            {"ar": "أَنَا", "tr": "ben", "translit": "enâ"},
+            {"ar": "أَنْتَ", "tr": "sen (eril)", "translit": "ente"},
+            {"ar": "أَنْتِ", "tr": "sen (dişil)", "translit": "enti"},
+            {"ar": "هُوَ", "tr": "o (eril)", "translit": "huve"},
+            {"ar": "هِيَ", "tr": "o (dişil)", "translit": "hiye"},
+            {"ar": "نَحْنُ", "tr": "biz", "translit": "nahnu"}
+          ]
+        },
+        {
+          "category": "Soru Kelimeleri",
+          "words": [
+            {"ar": "مَا / مَاذَا", "tr": "ne?", "translit": "mâ / mâzâ"},
+            {"ar": "مَنْ", "tr": "kim?", "translit": "men"},
+            {"ar": "أَيْنَ", "tr": "nerede?", "translit": "eyne"},
+            {"ar": "كَيْفَ", "tr": "nasıl?", "translit": "keyfe"},
+            {"ar": "لِمَاذَا", "tr": "neden?", "translit": "limâzâ"},
+            {"ar": "هَلْ", "tr": "mi/mı? (soru edatı)", "translit": "hel"}
+          ]
+        },
+        {
+          "category": "Temel Fiiller",
+          "words": [
+            {"ar": "كَانَ / يَكُونُ", "tr": "olmak", "translit": "kâne / yekûnu"},
+            {"ar": "ذَهَبَ / يَذْهَبُ", "tr": "gitmek", "translit": "zehebe / yezheb"},
+            {"ar": "جَاءَ / يَجِيءُ", "tr": "gelmek", "translit": "câe / yecîu"},
+            {"ar": "قَالَ / يَقُولُ", "tr": "söylemek", "translit": "kâle / yekûlu"},
+            {"ar": "عَمِلَ / يَعْمَلُ", "tr": "yapmak/çalışmak", "translit": "amile / ya'melu"}
+          ]
+        },
+        {
+          "category": "Edatlar",
+          "words": [
+            {"ar": "فِي", "tr": "içinde, -de/-da", "translit": "fî"},
+            {"ar": "مِنْ", "tr": "-den/-dan", "translit": "min"},
+            {"ar": "إِلَى", "tr": "-e/-a, doğru", "translit": "ilâ"},
+            {"ar": "عَلَى", "tr": "üzerinde", "translit": "alâ"},
+            {"ar": "مَعَ", "tr": "ile, beraber", "translit": "mea"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "learning-path",
+      "title": "Öğrenme Yol Haritası",
+      "titleAr": "خريطة التعلم",
+      "content": [
+        {
+          "phase": "1. Aşama: Alfabe (1-2 hafta)",
+          "tasks": [
+            "28 harfi tanı ve yaz",
+            "Harekelerle (fetha, kesra, damme) hece oku",
+            "Basit kelimeleri hecelere ayırarak oku"
+          ]
+        },
+        {
+          "phase": "2. Aşama: Temel Kelimeler (2-4 hafta)",
+          "tasks": [
+            "Zamirleri ezberle",
+            "Soru kelimelerini öğren",
+            "Günlük 10 yeni kelime",
+            "Basit selamlaşma kalıpları"
+          ]
+        },
+        {
+          "phase": "3. Aşama: Cümle Yapısı (1-2 ay)",
+          "tasks": [
+            "İsim cümlesi kur (X + Y = X, Y'dir)",
+            "Fiil cümlesine giriş",
+            "Basit diyaloglar oku"
+          ]
+        },
+        {
+          "phase": "4. Aşama: Sarf-Nahiv (Sürekli)",
+          "tasks": [
+            "Fiil çekimlerini öğren",
+            "Kök-kalıp sistemini anla",
+            "İ'rab (kelime sonu değişimleri) çalış",
+            "Kur'an veya basit metinler oku"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Başarı İpuçları",
+      "titleAr": "نصائح للنجاح",
+      "content": [
+        {
+          "tip": "Her gün 15-30 dakika düzenli çalış",
+          "icon": "⏰"
+        },
+        {
+          "tip": "Harfleri el yazısıyla pratik yap",
+          "icon": "✍️"
+        },
+        {
+          "tip": "Kur'an dinle, takip et (Tajweed)",
+          "icon": "🎧"
+        },
+        {
+          "tip": "Kelimelerin kökünü araştır, bağlantılar kur",
+          "icon": "🌳"
+        },
+        {
+          "tip": "Sabırlı ol - Arapça zor ama sistematik bir dil",
+          "icon": "🎯"
+        },
+        {
+          "tip": "Al Jazeera veya BBC Arabic'ten kısa haberler izle",
+          "icon": "📺"
+        },
+        {
+          "tip": "Öğrendiklerini günlük hayatta kullanmaya çalış",
+          "icon": "💬"
+        }
+      ]
+    },
+    {
+      "id": "first-phrases",
+      "title": "İlk Cümleler",
+      "titleAr": "الجمل الأولى",
+      "phrases": [
+        {"ar": "السَّلَامُ عَلَيْكُمْ", "tr": "Selam üzerinize olsun", "translit": "es-selâmu aleykum", "reply": "وَعَلَيْكُمُ السَّلَامُ"},
+        {"ar": "صَبَاحُ الخَيْرِ", "tr": "Günaydın", "translit": "sabâhu'l-khayr", "reply": "صَبَاحُ النُّورِ"},
+        {"ar": "مَسَاءُ الخَيْرِ", "tr": "İyi akşamlar", "translit": "mesâu'l-khayr", "reply": "مَسَاءُ النُّورِ"},
+        {"ar": "كَيْفَ حَالُكَ؟", "tr": "Nasılsın? (eril)", "translit": "keyfe hâluk?", "reply": "بِخَيْرٍ، الحَمْدُ لِلَّهِ"},
+        {"ar": "كَيْفَ حَالُكِ؟", "tr": "Nasılsın? (dişil)", "translit": "keyfe hâluki?", "reply": "بِخَيْرٍ، الحَمْدُ لِلَّهِ"},
+        {"ar": "مَا اسْمُكَ؟", "tr": "Adın ne? (eril)", "translit": "me'smuk?", "reply": "اِسْمِي..."},
+        {"ar": "مِنْ أَيْنَ أَنْتَ؟", "tr": "Nerelisin?", "translit": "min eyne ente?", "reply": "أَنَا مِنْ تُرْكِيَا"},
+        {"ar": "شُكْرًا", "tr": "Teşekkürler", "translit": "şukran", "reply": "عَفْوًا"},
+        {"ar": "مِنْ فَضْلِكَ", "tr": "Lütfen", "translit": "min fadlik", "reply": "-"},
+        {"ar": "نَعَمْ", "tr": "Evet", "translit": "neam", "reply": "-"},
+        {"ar": "لَا", "tr": "Hayır", "translit": "lâ", "reply": "-"},
+        {"ar": "أَفْهَمُ", "tr": "Anlıyorum", "translit": "efhemu", "reply": "-"},
+        {"ar": "لَا أَفْهَمُ", "tr": "Anlamıyorum", "translit": "lâ efhemu", "reply": "-"},
+        {"ar": "أُرِيدُ", "tr": "İstiyorum", "translit": "urîdu", "reply": "-"},
+        {"ar": "مَعَ السَّلَامَةِ", "tr": "Güle güle", "translit": "mea's-selâme", "reply": "إِلَى اللِّقَاءِ"}
+      ]
+    }
+  ]
+}
