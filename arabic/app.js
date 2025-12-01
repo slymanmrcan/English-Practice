@@ -4,10 +4,40 @@
 const App = {
   currentPanel: null,
   data: {},
+  dataLoaded: false,
   
-  init() {
+  async init() {
+    await this.loadAllData();
     this.bindNavigation();
     this.showPanel('intro'); // Default panel
+  },
+  
+  async loadAllData() {
+    const files = [
+      'intro_01', 'vocab_01', 'grammar_01',
+      'pronouns_01', 'demonstratives_01', 'colors_01', 'numbers_01', 'questions_01',
+      'emsile_01', 'bina_01', 'maksud_01', 'sarf_01', 'nahiv_01',
+      'islamic_terms_01', 'islamic_basics_01'
+    ];
+    
+    console.log('Veriler yükleniyor...');
+    
+    for (const file of files) {
+      try {
+        const response = await fetch(`data/${file}.json`);
+        if (response.ok) {
+          this.data[file] = await response.json();
+          console.log(`✓ ${file} yüklendi`);
+        } else {
+          console.warn(`✗ ${file} bulunamadı (${response.status})`);
+        }
+      } catch (error) {
+        console.warn(`✗ ${file} yüklenemedi:`, error.message);
+      }
+    }
+    
+    this.dataLoaded = true;
+    console.log('Veri yükleme tamamlandı:', Object.keys(this.data));
   },
   
   bindNavigation() {
@@ -31,25 +61,24 @@ const App = {
     
     // Panel configurations
     const panels = {
-      intro: { title: 'Giriş', files: ['intro_01'], render: this.renderIntro },
-      vocab: { title: 'Kelimeler', files: ['vocab_01'], render: this.renderVocab, hasSelector: true },
-      basics: { title: 'Temel Konular', files: ['pronouns_01', 'demonstratives_01', 'colors_01', 'numbers_01', 'questions_01'], render: this.renderBasics, hasSelector: true },
-      emsile: { title: 'Emsile', files: ['emsile_01'], render: this.renderSarf },
-      bina: { title: 'Binâ', files: ['bina_01'], render: this.renderSarf },
-      maksud: { title: 'Maksûd', files: ['maksud_01'], render: this.renderSarf },
-      sarf: { title: 'Sarf Dersleri', files: ['sarf_01'], render: this.renderSarf },
-      nahiv: { title: 'Nahiv Dersleri', files: ['nahiv_01'], render: this.renderNahiv },
-      grammar: { title: 'Gramer', files: ['grammar_01'], render: this.renderGrammar },
-      roots: { title: 'Kök Ara', files: ['vocab_01'], render: this.renderRoots },
-      patterns: { title: 'Veznler', files: ['emsile_01'], render: this.renderPatterns },
-      islamic: { title: 'İslami Terimler', files: ['islamic_terms_01'], render: this.renderIslamic }
+      intro: { title: 'Giriş', dataKey: 'intro_01', render: this.renderIntro },
+      vocab: { title: 'Kelimeler', dataKey: 'vocab_01', render: this.renderVocab, hasSelector: true },
+      basics: { title: 'Temel Konular', dataKey: 'pronouns_01', render: this.renderBasics, hasSelector: true },
+      emsile: { title: 'Emsile', dataKey: 'emsile_01', render: this.renderSarf },
+      bina: { title: 'Binâ', dataKey: 'bina_01', render: this.renderSarf },
+      maksud: { title: 'Maksûd', dataKey: 'maksud_01', render: this.renderSarf },
+      sarf: { title: 'Sarf Dersleri', dataKey: 'sarf_01', render: this.renderSarf },
+      nahiv: { title: 'Nahiv Dersleri', dataKey: 'nahiv_01', render: this.renderNahiv },
+      grammar: { title: 'Gramer', dataKey: 'grammar_01', render: this.renderGrammar },
+      roots: { title: 'Kök Ara', dataKey: 'vocab_01', render: this.renderRoots },
+      patterns: { title: 'Veznler', dataKey: 'emsile_01', render: this.renderPatterns },
+      islamic: { title: 'İslami Terimler', dataKey: 'islamic_terms_01', render: this.renderIslamic }
     };
     
     const config = panels[panel];
     if (!config) return;
     
     pageTitle.textContent = config.title;
-    content.innerHTML = '<div class="placeholder"><div class="ar">جارٍ التحميل</div>Yükleniyor...</div>';
     
     // Show/hide selector
     if (config.hasSelector) {
@@ -59,21 +88,14 @@ const App = {
       selector.classList.add('hidden');
     }
     
-    // Load data
-    try {
-      const loadedData = {};
-      for (const file of config.files) {
-        if (!this.data[file]) {
-          const response = await fetch(`data/${file}.json`);
-          this.data[file] = await response.json();
-        }
-        loadedData[file] = this.data[file];
-      }
-      config.render.call(this, loadedData, content);
-    } catch (error) {
-      console.error('Data load error:', error);
-      content.innerHTML = `<div class="placeholder"><div class="ar">خطأ</div>Veri yüklenirken hata oluştu</div>`;
+    // Get data and render
+    const panelData = this.data[config.dataKey];
+    if (!panelData) {
+      content.innerHTML = `<div class="placeholder"><div class="ar">خطأ</div>Veri bulunamadı: ${config.dataKey}</div>`;
+      return;
     }
+    
+    config.render.call(this, panelData, content);
   },
   
   setupSelector(panel) {
@@ -108,8 +130,7 @@ const App = {
   
   // ============ RENDER FUNCTIONS ============
   
-  renderIntro(data, container) {
-    const intro = data.intro_01;
+  renderIntro(intro, container) {
     if (!intro) {
       container.innerHTML = '<div class="placeholder">Giriş verisi bulunamadı</div>';
       return;
@@ -201,8 +222,7 @@ const App = {
     container.innerHTML = html || '<div class="placeholder">İçerik hazırlanıyor...</div>';
   },
   
-  renderVocab(data, container) {
-    const vocab = data.vocab_01;
+  renderVocab(vocab, container) {
     if (!vocab || !vocab.kelimeler) {
       container.innerHTML = '<div class="placeholder">Kelime verisi bulunamadı</div>';
       return;
@@ -212,7 +232,7 @@ const App = {
     const filter = selector.value;
     
     let words = vocab.kelimeler;
-    if (filter !== 'all') {
+    if (filter && filter !== 'all') {
       const typeMap = { verbs: 'fiil', nouns: 'isim', particles: 'harf' };
       words = words.filter(w => w.tur === typeMap[filter]);
     }
@@ -255,11 +275,11 @@ const App = {
     container.innerHTML = html;
   },
   
-  renderBasics(data, container) {
+  renderBasics(_, container) {
     const selector = document.getElementById('selector');
     const section = selector.value || 'pronouns';
     
-    const sectionData = data[section + '_01'];
+    const sectionData = this.data[section + '_01'];
     if (!sectionData) {
       container.innerHTML = '<div class="placeholder">Veri bulunamadı</div>';
       return;
@@ -297,9 +317,7 @@ const App = {
     container.innerHTML = html;
   },
   
-  renderSarf(data, container) {
-    // Get first available data
-    const fileData = Object.values(data)[0];
+  renderSarf(fileData, container) {
     if (!fileData) {
       container.innerHTML = '<div class="placeholder">Sarf verisi bulunamadı</div>';
       return;
@@ -419,8 +437,7 @@ const App = {
     container.innerHTML = html || '<div class="placeholder">İçerik hazırlanıyor...</div>';
   },
   
-  renderNahiv(data, container) {
-    const nahiv = data.nahiv_01;
+  renderNahiv(nahiv, container) {
     if (!nahiv) {
       container.innerHTML = '<div class="placeholder">Nahiv verisi bulunamadı</div>';
       return;
@@ -479,8 +496,7 @@ const App = {
     container.innerHTML = html || '<div class="placeholder">İçerik hazırlanıyor...</div>';
   },
   
-  renderGrammar(data, container) {
-    const grammar = data.grammar_01;
+  renderGrammar(grammar, container) {
     if (!grammar) {
       container.innerHTML = '<div class="placeholder">Gramer verisi bulunamadı</div>';
       return;
@@ -529,7 +545,7 @@ const App = {
     container.innerHTML = html || '<div class="placeholder">İçerik hazırlanıyor...</div>';
   },
   
-  renderRoots(data, container) {
+  renderRoots(_, container) {
     const html = `
       <div class="search-box">
         <input type="text" class="search-input" id="root-search" placeholder="Kök harf girin (örn: ك ت ب)">
@@ -590,8 +606,7 @@ const App = {
     `;
   },
   
-  renderPatterns(data, container) {
-    const emsile = data.emsile_01;
+  renderPatterns(emsile, container) {
     if (!emsile) {
       container.innerHTML = '<div class="placeholder">Vezin verisi bulunamadı</div>';
       return;
@@ -641,8 +656,7 @@ const App = {
     container.innerHTML = html || '<div class="placeholder">İçerik hazırlanıyor...</div>';
   },
   
-  renderIslamic(data, container) {
-    const islamic = data.islamic_terms_01;
+  renderIslamic(islamic, container) {
     if (!islamic) {
       container.innerHTML = '<div class="placeholder">İslami terim verisi bulunamadı</div>';
       return;
