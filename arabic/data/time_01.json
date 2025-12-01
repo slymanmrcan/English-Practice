@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "title": "الوَقْت وَالزَّمَان | Zaman",
+    "level": "A1",
+    "totalItems": 55
+  },
+  "categories": [
+    {
+      "name": "Günler",
+      "nameAr": "أَيَّامُ الأُسْبُوع",
+      "items": [
+        { "word": "يَوْم", "plural": "أَيَّام", "trans": "yevm", "meaning": "gün", "example": "اليَوْمُ جَمِيل (Bugün güzel)" },
+        { "word": "الأَحَد", "trans": "el-ehad", "meaning": "Pazar", "example": "يَوْمُ الأَحَدِ عُطْلَة (Pazar tatil)" },
+        { "word": "الاِثْنَيْن", "trans": "el-isneyn", "meaning": "Pazartesi", "example": "صُمْتُ يَوْمَ الاِثْنَيْن (Pazartesi oruç tuttum)" },
+        { "word": "الثُّلَاثَاء", "trans": "es-sulâsâ'", "meaning": "Salı", "example": "سَأُسَافِرُ الثُّلَاثَاء (Salı seyahat edeceğim)" },
+        { "word": "الأَرْبِعَاء", "trans": "el-erbi'â'", "meaning": "Çarşamba", "example": "الاِمْتِحَانُ يَوْمَ الأَرْبِعَاء (Sınav Çarşamba)" },
+        { "word": "الخَمِيس", "trans": "el-hamîs", "meaning": "Perşembe", "example": "يَوْمُ الخَمِيسِ مُبَارَك (Perşembe mübarek)" },
+        { "word": "الجُمُعَة", "trans": "el-cumu'a", "meaning": "Cuma", "example": "صَلَاةُ الجُمُعَة (Cuma namazı)" },
+        { "word": "السَّبْت", "trans": "es-sebt", "meaning": "Cumartesi", "example": "يَوْمُ السَّبْتِ رَاحَة (Cumartesi dinlenme)" }
+      ]
+    },
+    {
+      "name": "Aylar (Hicri)",
+      "nameAr": "الشُّهُورُ الهِجْرِيَّة",
+      "items": [
+        { "word": "شَهْر", "plural": "شُهُور / أَشْهُر", "trans": "şehr", "meaning": "ay", "example": "هَذَا الشَّهْرُ مُبَارَك (Bu ay mübarek)" },
+        { "word": "مُحَرَّم", "trans": "muharrem", "meaning": "Muharrem (1. ay)", "example": "مُحَرَّمٌ شَهْرٌ حَرَام (Muharrem haram aydır)" },
+        { "word": "صَفَر", "trans": "safer", "meaning": "Safer (2. ay)", "example": "نَحْنُ فِي صَفَر (Safer'deyiz)" },
+        { "word": "رَبِيعُ الأَوَّل", "trans": "rabî'u'l-evvel", "meaning": "Rebiülevvel (3. ay)", "example": "مَوْلِدُ النَّبِيِّ فِي رَبِيعِ الأَوَّل (Peygamber'in doğumu Rebiülevvel'de)" },
+        { "word": "رَبِيعُ الآخِر", "trans": "rabî'u'l-âhir", "meaning": "Rebiülahir (4. ay)" },
+        { "word": "جُمَادَى الأُولَى", "trans": "cumâde'l-ûlâ", "meaning": "Cemaziyelevvel (5. ay)" },
+        { "word": "جُمَادَى الآخِرَة", "trans": "cumâde'l-âhire", "meaning": "Cemaziyelahir (6. ay)" },
+        { "word": "رَجَب", "trans": "receb", "meaning": "Recep (7. ay)", "example": "رَجَبٌ شَهْرُ اللهِ (Recep Allah'ın ayıdır)" },
+        { "word": "شَعْبَان", "trans": "şa'bân", "meaning": "Şaban (8. ay)", "example": "شَعْبَانُ شَهْرِي (Şaban benim ayımdır - hadis)" },
+        { "word": "رَمَضَان", "trans": "ramazân", "meaning": "Ramazan (9. ay)", "example": "صِيَامُ رَمَضَان (Ramazan orucu)" },
+        { "word": "شَوَّال", "trans": "şevvâl", "meaning": "Şevval (10. ay)", "example": "عِيدُ الفِطْرِ فِي شَوَّال (Ramazan Bayramı Şevval'de)" },
+        { "word": "ذُو القَعْدَة", "trans": "zu'l-ka'de", "meaning": "Zilkade (11. ay)" },
+        { "word": "ذُو الحِجَّة", "trans": "zu'l-hicce", "meaning": "Zilhicce (12. ay)", "example": "الحَجُّ فِي ذِي الحِجَّة (Hac Zilhicce'dedir)" }
+      ]
+    },
+    {
+      "name": "Günün Vakitleri",
+      "nameAr": "أَوْقَاتُ اليَوْم",
+      "items": [
+        { "word": "صَبَاح", "trans": "sabâh", "meaning": "sabah", "example": "صَبَاحَ الخَيْر (Günaydın)" },
+        { "word": "ضُحًى", "trans": "duhâ", "meaning": "kuşluk vakti", "example": "صَلَاةُ الضُّحَى (Kuşluk namazı)" },
+        { "word": "ظُهْر", "trans": "zuhr", "meaning": "öğle", "example": "صَلَاةُ الظُّهْر (Öğle namazı)" },
+        { "word": "عَصْر", "trans": "asr", "meaning": "ikindi", "example": "صَلَاةُ العَصْر (İkindi namazı)" },
+        { "word": "مَسَاء", "trans": "mesâ'", "meaning": "akşam", "example": "مَسَاءَ الخَيْر (İyi akşamlar)" },
+        { "word": "مَغْرِب", "trans": "mağrib", "meaning": "akşam (güneş batışı)", "example": "صَلَاةُ المَغْرِب (Akşam namazı)" },
+        { "word": "عِشَاء", "trans": "işâ'", "meaning": "yatsı", "example": "صَلَاةُ العِشَاء (Yatsı namazı)" },
+        { "word": "لَيْل", "plural": "لَيَالٍ", "trans": "leyl", "meaning": "gece", "example": "لَيْلَةُ القَدْر (Kadir Gecesi)" },
+        { "word": "فَجْر", "trans": "fecr", "meaning": "şafak, sabah namazı vakti", "example": "صَلَاةُ الفَجْر (Sabah namazı)" },
+        { "word": "سَحَر", "trans": "sehar", "meaning": "seher vakti", "example": "قُمْتُ وَقْتَ السَّحَر (Seher vaktinde kalktım)" }
+      ]
+    },
+    {
+      "name": "Zaman Birimleri",
+      "nameAr": "وَحَدَاتُ الزَّمَان",
+      "items": [
+        { "word": "سَاعَة", "plural": "سَاعَات", "trans": "sâ'a", "meaning": "saat", "example": "كَمِ السَّاعَةُ؟ (Saat kaç?)" },
+        { "word": "دَقِيقَة", "plural": "دَقَائِق", "trans": "dakîka", "meaning": "dakika", "example": "اِنْتَظِرْ دَقِيقَة (Bir dakika bekle)" },
+        { "word": "ثَانِيَة", "plural": "ثَوَانٍ", "trans": "sâniye", "meaning": "saniye", "example": "فِي ثَانِيَة وَاحِدَة (Bir saniyede)" },
+        { "word": "أُسْبُوع", "plural": "أَسَابِيع", "trans": "usbû'", "meaning": "hafta", "example": "الأُسْبُوعُ القَادِم (Gelecek hafta)" },
+        { "word": "سَنَة", "plural": "سَنَوَات / سِنِين", "trans": "sene", "meaning": "yıl", "example": "السَّنَةُ الهِجْرِيَّة (Hicri yıl)" },
+        { "word": "عَام", "plural": "أَعْوَام", "trans": "âm", "meaning": "yıl", "example": "عَامٌ جَدِيد (Yeni yıl)" },
+        { "word": "قَرْن", "plural": "قُرُون", "trans": "karn", "meaning": "asır, yüzyıl", "example": "القَرْنُ الخَامِسَ عَشَر (15. yüzyıl)" }
+      ]
+    },
+    {
+      "name": "Zaman Zarfları",
+      "nameAr": "ظُرُوفُ الزَّمَان",
+      "items": [
+        { "word": "الآنَ", "trans": "el-ân", "meaning": "şimdi", "example": "أَنَا مَشْغُولٌ الآنَ (Şimdi meşgulum)" },
+        { "word": "اليَوْم", "trans": "el-yevm", "meaning": "bugün", "example": "مَاذَا فَعَلْتَ اليَوْمَ؟ (Bugün ne yaptın?)" },
+        { "word": "أَمْسِ", "trans": "emsi", "meaning": "dün", "example": "ذَهَبْتُ أَمْسِ (Dün gittim)" },
+        { "word": "غَدًا", "trans": "gaden", "meaning": "yarın", "example": "سَأَذْهَبُ غَدًا (Yarın gideceğim)" },
+        { "word": "بَعْدَ غَدٍ", "trans": "ba'de gadin", "meaning": "öbür gün", "example": "الاِمْتِحَانُ بَعْدَ غَدٍ (Sınav öbür gün)" },
+        { "word": "قَبْلَ", "trans": "kable", "meaning": "önce", "example": "قَبْلَ الصَّلَاة (Namazdan önce)" },
+        { "word": "بَعْدَ", "trans": "ba'de", "meaning": "sonra", "example": "بَعْدَ الصَّلَاة (Namazdan sonra)" },
+        { "word": "دَائِمًا", "trans": "dâimen", "meaning": "daima, her zaman", "example": "أَذْكُرُ اللهَ دَائِمًا (Allah'ı daima anarım)" },
+        { "word": "أَبَدًا", "trans": "ebeden", "meaning": "asla, hiçbir zaman", "example": "لَنْ أَنْسَاكَ أَبَدًا (Seni asla unutmayacağım)" },
+        { "word": "أَحْيَانًا", "trans": "ahyânen", "meaning": "bazen", "example": "أَقْرَأُ القُرْآنَ أَحْيَانًا (Bazen Kur'an okurum)" },
+        { "word": "كُلَّ يَوْمٍ", "trans": "kulle yevmin", "meaning": "her gün", "example": "أُصَلِّي كُلَّ يَوْمٍ (Her gün namaz kılarım)" }
+      ]
+    }
+  ],
+  "usefulPhrases": [
+    { "phrase": "كَمِ السَّاعَةُ الآنَ؟", "meaning": "Şimdi saat kaç?" },
+    { "phrase": "السَّاعَةُ الثَّالِثَة", "meaning": "Saat üç" },
+    { "phrase": "السَّاعَةُ الخَامِسَةُ وَالنِّصْف", "meaning": "Saat beş buçuk" },
+    { "phrase": "السَّاعَةُ السَّابِعَةُ إِلَّا رُبْعًا", "meaning": "Yediye çeyrek var" },
+    { "phrase": "مَتَى تَذْهَبُ؟", "meaning": "Ne zaman gidiyorsun?" },
+    { "phrase": "فِي أَيِّ سَاعَةٍ؟", "meaning": "Saat kaçta?" },
+    { "phrase": "مُنْذُ مَتَى؟", "meaning": "Ne zamandan beri?" },
+    { "phrase": "إِلَى مَتَى؟", "meaning": "Ne zamana kadar?" },
+    { "phrase": "كَمْ عُمْرُكَ؟", "meaning": "Kaç yaşındasın?" },
+    { "phrase": "عُمْرِي عِشْرُونَ سَنَة", "meaning": "Yirmi yaşındayım" }
+  ]
+}

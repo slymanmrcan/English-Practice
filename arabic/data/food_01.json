@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "title": "الطَّعَام وَالشَّرَاب | Yiyecek ve İçecek",
+    "level": "A1",
+    "totalItems": 60
+  },
+  "categories": [
+    {
+      "name": "İçecekler",
+      "nameAr": "المَشْرُوبَات",
+      "items": [
+        { "word": "مَاء", "plural": "مِيَاه", "trans": "mâ'", "meaning": "su", "example": "أُرِيدُ مَاءً (Su istiyorum)" },
+        { "word": "شَاي", "trans": "şây", "meaning": "çay", "example": "أَشْرَبُ الشَّايَ (Çay içiyorum)" },
+        { "word": "قَهْوَة", "trans": "kahve", "meaning": "kahve", "example": "القَهْوَة سَاخِنَة (Kahve sıcak)" },
+        { "word": "حَلِيب", "trans": "halîb", "meaning": "süt", "example": "الحَلِيب مُفِيد (Süt faydalı)" },
+        { "word": "لَبَن", "trans": "leben", "meaning": "ayran, yoğurt", "example": "أُحِبُّ اللَّبَن (Ayranı severim)" },
+        { "word": "عَصِير", "plural": "عَصَائِر", "trans": "asîr", "meaning": "meyve suyu", "example": "عَصِير البُرْتُقَال (Portakal suyu)" },
+        { "word": "مَشْرُوب", "plural": "مَشْرُوبَات", "trans": "meşrûb", "meaning": "içecek", "example": "مَا مَشْرُوبُكَ؟ (İçeceğin ne?)" }
+      ]
+    },
+    {
+      "name": "Ekmek ve Tahıllar",
+      "nameAr": "الخُبْز وَالحُبُوب",
+      "items": [
+        { "word": "خُبْز", "trans": "hubz", "meaning": "ekmek", "example": "الخُبْز طَازَج (Ekmek taze)" },
+        { "word": "أَرُزّ", "trans": "eruzz", "meaning": "pirinç, pilav", "example": "طَبَخْتُ الأَرُزَّ (Pilav pişirdim)" },
+        { "word": "مَعْكَرُونَة", "trans": "ma'karûne", "meaning": "makarna", "example": "أُحِبُّ المَعْكَرُونَة (Makarnayı severim)" },
+        { "word": "قَمْح", "trans": "kamh", "meaning": "buğday", "example": "القَمْح مُهِمّ (Buğday önemli)" },
+        { "word": "شَعِير", "trans": "şa'îr", "meaning": "arpa", "example": "خُبْز الشَّعِير صَحِّي (Arpa ekmeği sağlıklı)" }
+      ]
+    },
+    {
+      "name": "Et ve Protein",
+      "nameAr": "اللُّحُوم وَالبُرُوتِين",
+      "items": [
+        { "word": "لَحْم", "plural": "لُحُوم", "trans": "lahm", "meaning": "et", "example": "اللَّحْم حَلَال (Et helal)" },
+        { "word": "دَجَاج", "trans": "decâc", "meaning": "tavuk", "example": "أَكَلْتُ دَجَاجًا (Tavuk yedim)" },
+        { "word": "سَمَك", "plural": "أَسْمَاك", "trans": "semek", "meaning": "balık", "example": "السَّمَك طَازَج (Balık taze)" },
+        { "word": "بَيْض", "trans": "beyd", "meaning": "yumurta", "example": "البَيْض مَقْلِيّ (Yumurta kızartma)" },
+        { "word": "لَحْم البَقَر", "trans": "lahmu'l-bakar", "meaning": "sığır eti", "example": "لَحْم البَقَر غَالٍ (Dana eti pahalı)" },
+        { "word": "لَحْم الغَنَم", "trans": "lahmu'l-ganem", "meaning": "kuzu eti", "example": "لَحْم الغَنَم لَذِيذ (Kuzu eti lezzetli)" }
+      ]
+    },
+    {
+      "name": "Sebzeler",
+      "nameAr": "الخُضْرَوَات",
+      "items": [
+        { "word": "خُضَار", "trans": "hudâr", "meaning": "sebze (genel)", "example": "الخُضَار صَحِّي (Sebze sağlıklı)" },
+        { "word": "طَمَاطِم", "trans": "tamâtim", "meaning": "domates", "example": "الطَّمَاطِم حَمْرَاء (Domates kırmızı)" },
+        { "word": "خِيَار", "trans": "hiyâr", "meaning": "salatalık", "example": "الخِيَار طَازَج (Salatalık taze)" },
+        { "word": "بَصَل", "trans": "basal", "meaning": "soğan", "example": "البَصَل حَادّ (Soğan acı)" },
+        { "word": "ثُوم", "trans": "sûm", "meaning": "sarımsak", "example": "الثُّوم مُفِيد (Sarımsak faydalı)" },
+        { "word": "بَطَاطِس", "trans": "batâtis", "meaning": "patates", "example": "البَطَاطِس مَقْلِيَّة (Patates kızartması)" },
+        { "word": "جَزَر", "trans": "cezer", "meaning": "havuç", "example": "الجَزَر بُرْتُقَالِيّ (Havuç turuncu)" },
+        { "word": "فَلْفَل", "trans": "felfel", "meaning": "biber", "example": "الفَلْفَل أَخْضَر (Biber yeşil)" },
+        { "word": "بَاذِنْجَان", "trans": "bâzincân", "meaning": "patlıcan", "example": "البَاذِنْجَان مَشْوِيّ (Patlıcan közlenmiş)" },
+        { "word": "كُوسَا", "trans": "kûsâ", "meaning": "kabak", "example": "الكُوسَا خَضْرَاء (Kabak yeşil)" }
+      ]
+    },
+    {
+      "name": "Meyveler",
+      "nameAr": "الفَوَاكِه",
+      "items": [
+        { "word": "فَاكِهَة", "plural": "فَوَاكِه", "trans": "fâkihe", "meaning": "meyve", "example": "الفَاكِهَة حُلْوَة (Meyve tatlı)" },
+        { "word": "تُفَّاح", "trans": "tuffâh", "meaning": "elma", "example": "التُّفَّاح أَحْمَر (Elma kırmızı)" },
+        { "word": "بُرْتُقَال", "trans": "burtuqâl", "meaning": "portakal", "example": "عَصِير البُرْتُقَال (Portakal suyu)" },
+        { "word": "مَوْز", "trans": "mevz", "meaning": "muz", "example": "المَوْز أَصْفَر (Muz sarı)" },
+        { "word": "عِنَب", "trans": "ineb", "meaning": "üzüm", "example": "العِنَب حُلْو (Üzüm tatlı)" },
+        { "word": "تَمْر", "plural": "تُمُور", "trans": "temr", "meaning": "hurma", "example": "التَّمْر مِنَ المَدِينَة (Hurma Medine'den)" },
+        { "word": "تِين", "trans": "tîn", "meaning": "incir", "example": "التِّين لَذِيذ (İncir lezzetli)" },
+        { "word": "رُمَّان", "trans": "rummân", "meaning": "nar", "example": "الرُّمَّان أَحْمَر (Nar kırmızı)" },
+        { "word": "بِطِّيخ", "trans": "bittîh", "meaning": "karpuz", "example": "البِطِّيخ كَبِير (Karpuz büyük)" },
+        { "word": "لَيْمُون", "trans": "leymûn", "meaning": "limon", "example": "اللَّيْمُون حَامِض (Limon ekşi)" }
+      ]
+    },
+    {
+      "name": "Baharatlar ve Diğer",
+      "nameAr": "التَّوَابِل وَغَيْرُهَا",
+      "items": [
+        { "word": "مِلْح", "trans": "milh", "meaning": "tuz", "example": "أَضِفِ المِلْحَ (Tuz ekle)" },
+        { "word": "سُكَّر", "trans": "sukkar", "meaning": "şeker", "example": "السُّكَّر حُلْو (Şeker tatlı)" },
+        { "word": "فُلْفُل أَسْوَد", "trans": "fulful eswed", "meaning": "karabiber", "example": "الفُلْفُل الأَسْوَد حَارّ (Karabiber acı)" },
+        { "word": "زَيْت", "plural": "زُيُوت", "trans": "zeyt", "meaning": "yağ", "example": "زَيْت الزَّيْتُون صَحِّي (Zeytinyağı sağlıklı)" },
+        { "word": "زَيْتُون", "trans": "zeytûn", "meaning": "zeytin", "example": "الزَّيْتُون أَخْضَر (Zeytin yeşil)" },
+        { "word": "جُبْن", "plural": "أَجْبَان", "trans": "cubn", "meaning": "peynir", "example": "الجُبْن لَذِيذ (Peynir lezzetli)" },
+        { "word": "عَسَل", "trans": "asel", "meaning": "bal", "example": "العَسَل حُلْو (Bal tatlı)" },
+        { "word": "زُبْدَة", "trans": "zubde", "meaning": "tereyağı", "example": "الزُّبْدَة صَفْرَاء (Tereyağı sarı)" }
+      ]
+    },
+    {
+      "name": "Yemek Türleri",
+      "nameAr": "أَنْوَاع الطَّعَام",
+      "items": [
+        { "word": "طَعَام", "trans": "ta'âm", "meaning": "yemek, gıda", "example": "الطَّعَام جَاهِز (Yemek hazır)" },
+        { "word": "وَجْبَة", "plural": "وَجَبَات", "trans": "vecbe", "meaning": "öğün", "example": "ثَلَاث وَجَبَات (Üç öğün)" },
+        { "word": "فُطُور", "trans": "futûr", "meaning": "kahvaltı", "example": "الفُطُور صَبَاحًا (Kahvaltı sabah)" },
+        { "word": "غَدَاء", "trans": "gadâ'", "meaning": "öğle yemeği", "example": "الغَدَاء ظُهْرًا (Öğle yemeği öğlen)" },
+        { "word": "عَشَاء", "trans": "aşâ'", "meaning": "akşam yemeği", "example": "العَشَاء لَيْلًا (Akşam yemeği gece)" },
+        { "word": "حَلْوَى", "trans": "halvâ", "meaning": "tatlı", "example": "الحَلْوَى لَذِيذَة (Tatlı lezzetli)" },
+        { "word": "سَلَطَة", "trans": "salata", "meaning": "salata", "example": "السَّلَطَة صَحِّيَّة (Salata sağlıklı)" },
+        { "word": "شُورْبَة", "trans": "şûrbe", "meaning": "çorba", "example": "الشُّورْبَة سَاخِنَة (Çorba sıcak)" }
+      ]
+    }
+  ],
+  "usefulPhrases": [
+    { "phrase": "أَنَا جَائِع", "meaning": "Açım (erkek)" },
+    { "phrase": "أَنَا جَائِعَة", "meaning": "Açım (kadın)" },
+    { "phrase": "أَنَا عَطْشَان", "meaning": "Susadım (erkek)" },
+    { "phrase": "أُرِيدُ أَنْ آكُلَ", "meaning": "Yemek istiyorum" },
+    { "phrase": "أُرِيدُ أَنْ أَشْرَبَ", "meaning": "İçmek istiyorum" },
+    { "phrase": "هَلْ هَذَا حَلَال؟", "meaning": "Bu helal mi?" },
+    { "phrase": "بِالعَافِيَة!", "meaning": "Afiyet olsun!" },
+    { "phrase": "الحِسَاب مِنْ فَضْلِكَ", "meaning": "Hesap lütfen" },
+    { "phrase": "كَمْ سِعْرُ هَذَا؟", "meaning": "Bunun fiyatı ne kadar?" },
+    { "phrase": "لَذِيذ جِدًّا!", "meaning": "Çok lezzetli!" },
+    { "phrase": "لَا آكُلُ اللَّحْمَ", "meaning": "Et yemiyorum" },
+    { "phrase": "أَنَا نَبَاتِيّ", "meaning": "Ben vejeteryanım" }
+  ],
+  "tastes": [
+    { "word": "لَذِيذ", "meaning": "lezzetli" },
+    { "word": "حُلْو", "meaning": "tatlı" },
+    { "word": "مَالِح", "meaning": "tuzlu" },
+    { "word": "حَامِض", "meaning": "ekşi" },
+    { "word": "حَارّ", "meaning": "acı, baharatlı" },
+    { "word": "مُرّ", "meaning": "acı (tat)" },
+    { "word": "طَازَج", "meaning": "taze" },
+    { "word": "سَاخِن", "meaning": "sıcak" },
+    { "word": "بَارِد", "meaning": "soğuk" }
+  ]
+}

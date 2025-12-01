@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "title": "الأَمَاكِن | Mekanlar",
+    "level": "A1",
+    "totalItems": 50
+  },
+  "categories": [
+    {
+      "name": "Ev ve Odalar",
+      "nameAr": "البَيْتُ وَالغُرَف",
+      "items": [
+        { "word": "بَيْت", "plural": "بُيُوت", "trans": "beyt", "meaning": "ev", "example": "بَيْتِي كَبِير (Evim büyük)" },
+        { "word": "دَار", "plural": "دُور / دِيَار", "trans": "dâr", "meaning": "ev, yurt", "example": "دَارُ السَّلَام (Selamet yurdu)" },
+        { "word": "غُرْفَة", "plural": "غُرَف", "trans": "gurfe", "meaning": "oda", "example": "غُرْفَةُ النَّوْم (Yatak odası)" },
+        { "word": "مَطْبَخ", "plural": "مَطَابِخ", "trans": "matbah", "meaning": "mutfak", "example": "أُمِّي فِي المَطْبَخ (Annem mutfakta)" },
+        { "word": "حَمَّام", "plural": "حَمَّامَات", "trans": "hammâm", "meaning": "banyo, tuvalet", "example": "أَيْنَ الحَمَّام؟ (Tuvalet nerede?)" },
+        { "word": "بَاب", "plural": "أَبْوَاب", "trans": "bâb", "meaning": "kapı", "example": "اِفْتَحِ البَابَ (Kapıyı aç)" },
+        { "word": "نَافِذَة", "plural": "نَوَافِذ", "trans": "nâfize", "meaning": "pencere", "example": "النَّافِذَةُ مَفْتُوحَة (Pencere açık)" },
+        { "word": "سَقْف", "plural": "سُقُوف", "trans": "sakf", "meaning": "tavan", "example": "السَّقْفُ عَالٍ (Tavan yüksek)" },
+        { "word": "أَرْض", "plural": "أَرَضُون", "trans": "ard", "meaning": "yer, zemin", "example": "جَلَسْتُ عَلَى الأَرْض (Yere oturdum)" },
+        { "word": "جِدَار", "plural": "جُدْرَان", "trans": "cidâr", "meaning": "duvar", "example": "الجِدَارُ أَبْيَض (Duvar beyaz)" }
+      ]
+    },
+    {
+      "name": "Dini Mekanlar",
+      "nameAr": "الأَمَاكِنُ الدِّينِيَّة",
+      "items": [
+        { "word": "مَسْجِد", "plural": "مَسَاجِد", "trans": "mescid", "meaning": "mescit, cami", "example": "أُصَلِّي فِي المَسْجِد (Mescitte namaz kılıyorum)" },
+        { "word": "جَامِع", "plural": "جَوَامِع", "trans": "câmi'", "meaning": "cami (büyük)", "example": "الجَامِعُ الكَبِير (Ulu Cami)" },
+        { "word": "مُصَلًّى", "plural": "مُصَلَّيَات", "trans": "musallâ", "meaning": "namazgah", "example": "المُصَلَّى فِي المَطَار (Havaalanındaki mescit)" },
+        { "word": "مِحْرَاب", "plural": "مَحَارِيب", "trans": "mihrâb", "meaning": "mihrap", "example": "الإِمَامُ فِي المِحْرَاب (İmam mihrapta)" },
+        { "word": "مِنْبَر", "plural": "مَنَابِر", "trans": "minber", "meaning": "minber", "example": "الخَطِيبُ عَلَى المِنْبَر (Hatip minberde)" },
+        { "word": "مَقْبَرَة", "plural": "مَقَابِر", "trans": "makbere", "meaning": "mezarlık", "example": "زُرْتُ المَقْبَرَة (Mezarlığı ziyaret ettim)" },
+        { "word": "الكَعْبَة", "trans": "el-Ka'be", "meaning": "Kabe", "example": "الكَعْبَةُ قِبْلَتُنَا (Kabe kıblemizdir)" },
+        { "word": "الحَرَم", "plural": "أَحْرَام", "trans": "el-Harem", "meaning": "Harem (kutsal mekan)", "example": "الحَرَمُ المَكِّيّ (Mekke Haremi)" }
+      ]
+    },
+    {
+      "name": "Eğitim Yerleri",
+      "nameAr": "أَمَاكِنُ التَّعْلِيم",
+      "items": [
+        { "word": "مَدْرَسَة", "plural": "مَدَارِس", "trans": "medrese", "meaning": "okul", "example": "أَذْهَبُ إِلَى المَدْرَسَة (Okula gidiyorum)" },
+        { "word": "جَامِعَة", "plural": "جَامِعَات", "trans": "câmi'a", "meaning": "üniversite", "example": "أَدْرُسُ فِي الجَامِعَة (Üniversitede okuyorum)" },
+        { "word": "فَصْل", "plural": "فُصُول", "trans": "fasl", "meaning": "sınıf, derslik", "example": "الفَصْلُ نَظِيف (Sınıf temiz)" },
+        { "word": "مَكْتَبَة", "plural": "مَكْتَبَات", "trans": "mektebe", "meaning": "kütüphane", "example": "أَقْرَأُ فِي المَكْتَبَة (Kütüphanede okuyorum)" },
+        { "word": "كُتَّاب", "plural": "كَتَاتِيب", "trans": "küttâb", "meaning": "sıbyan mektebi", "example": "تَعَلَّمْتُ القُرْآنَ فِي الكُتَّاب (Kur'an'ı küttabda öğrendim)" }
+      ]
+    },
+    {
+      "name": "Şehir ve Sokak",
+      "nameAr": "المَدِينَةُ وَالشَّارِع",
+      "items": [
+        { "word": "مَدِينَة", "plural": "مُدُن", "trans": "medîne", "meaning": "şehir", "example": "المَدِينَةُ المُنَوَّرَة (Medine-i Münevvere)" },
+        { "word": "قَرْيَة", "plural": "قُرًى", "trans": "karye", "meaning": "köy", "example": "قَرْيَتُنَا صَغِيرَة (Köyümüz küçük)" },
+        { "word": "شَارِع", "plural": "شَوَارِع", "trans": "şâri'", "meaning": "cadde, sokak", "example": "الشَّارِعُ وَاسِع (Cadde geniş)" },
+        { "word": "طَرِيق", "plural": "طُرُق", "trans": "tarîk", "meaning": "yol", "example": "الطَّرِيقُ طَوِيل (Yol uzun)" },
+        { "word": "سُوق", "plural": "أَسْوَاق", "trans": "sûk", "meaning": "çarşı, pazar", "example": "ذَهَبْتُ إِلَى السُّوق (Çarşıya gittim)" },
+        { "word": "دُكَّان", "plural": "دَكَاكِين", "trans": "dükkân", "meaning": "dükkan", "example": "الدُّكَّانُ مُغْلَق (Dükkan kapalı)" },
+        { "word": "مَطْعَم", "plural": "مَطَاعِم", "trans": "mat'am", "meaning": "restoran", "example": "أَكَلْتُ فِي المَطْعَم (Restoranda yedim)" },
+        { "word": "فُنْدُق", "plural": "فَنَادِق", "trans": "funduk", "meaning": "otel", "example": "نَزَلْتُ فِي الفُنْدُق (Otele indim)" },
+        { "word": "مُسْتَشْفَى", "plural": "مُسْتَشْفَيَات", "trans": "mustashfâ", "meaning": "hastane", "example": "الطَّبِيبُ فِي المُسْتَشْفَى (Doktor hastanede)" }
+      ]
+    },
+    {
+      "name": "Coğrafya",
+      "nameAr": "الجُغْرَافِيَا",
+      "items": [
+        { "word": "أَرْض", "plural": "أَرَضُون", "trans": "ard", "meaning": "yer, dünya, toprak", "example": "خَلَقَ اللهُ الأَرْضَ (Allah yeri yarattı)" },
+        { "word": "سَمَاء", "plural": "سَمَاوَات", "trans": "semâ'", "meaning": "gök, sema", "example": "السَّمَاءُ زَرْقَاء (Gökyüzü mavi)" },
+        { "word": "بَحْر", "plural": "بِحَار", "trans": "bahr", "meaning": "deniz", "example": "البَحْرُ وَاسِع (Deniz geniş)" },
+        { "word": "نَهْر", "plural": "أَنْهَار", "trans": "nehr", "meaning": "nehir", "example": "نَهْرُ النِّيل (Nil Nehri)" },
+        { "word": "جَبَل", "plural": "جِبَال", "trans": "cebel", "meaning": "dağ", "example": "الجَبَلُ عَالٍ (Dağ yüksek)" },
+        { "word": "صَحْرَاء", "plural": "صَحَارٍ", "trans": "sahrâ'", "meaning": "çöl", "example": "الصَّحْرَاءُ حَارَّة (Çöl sıcak)" },
+        { "word": "غَابَة", "plural": "غَابَات", "trans": "gâbe", "meaning": "orman", "example": "الغَابَةُ خَضْرَاء (Orman yeşil)" },
+        { "word": "جَزِيرَة", "plural": "جُزُر", "trans": "cezîre", "meaning": "ada", "example": "جَزِيرَةُ العَرَب (Arap Yarımadası)" }
+      ]
+    },
+    {
+      "name": "Yön ve Konum",
+      "nameAr": "الاِتِّجَاهَات",
+      "items": [
+        { "word": "شَرْق", "trans": "şark", "meaning": "doğu", "example": "الشَّمْسُ تَطْلُعُ مِنَ الشَّرْق (Güneş doğudan doğar)" },
+        { "word": "غَرْب", "trans": "garb", "meaning": "batı", "example": "الشَّمْسُ تَغْرُبُ فِي الغَرْب (Güneş batıda batar)" },
+        { "word": "شَمَال", "trans": "şemâl", "meaning": "kuzey", "example": "تُرْكِيَا فِي الشَّمَال (Türkiye kuzeyde)" },
+        { "word": "جَنُوب", "trans": "cenûb", "meaning": "güney", "example": "مِصْرُ فِي الجَنُوب (Mısır güneyde)" },
+        { "word": "يَمِين", "trans": "yemîn", "meaning": "sağ", "example": "اِلْتَفِتْ يَمِينًا (Sağa dön)" },
+        { "word": "يَسَار / شِمَال", "trans": "yesâr / şimâl", "meaning": "sol", "example": "اِلْتَفِتْ يَسَارًا (Sola dön)" }
+      ]
+    }
+  ],
+  "usefulPhrases": [
+    { "phrase": "أَيْنَ المَسْجِد؟", "meaning": "Cami nerede?" },
+    { "phrase": "كَيْفَ أَذْهَبُ إِلَى...؟", "meaning": "...ya nasıl giderim?" },
+    { "phrase": "هَلْ هَذَا بَعِيد؟", "meaning": "Burası uzak mı?" },
+    { "phrase": "لَا، قَرِيبٌ جِدًّا", "meaning": "Hayır, çok yakın" },
+    { "phrase": "عَلَى اليَمِين", "meaning": "Sağda" },
+    { "phrase": "عَلَى اليَسَار", "meaning": "Solda" },
+    { "phrase": "أَمَامَكَ", "meaning": "Önünde" },
+    { "phrase": "خَلْفَكَ", "meaning": "Arkanda" },
+    { "phrase": "بِجَانِبِ", "meaning": "Yanında" },
+    { "phrase": "مِنْ أَيْنَ أَنْتَ؟", "meaning": "Nerelisin?" },
+    { "phrase": "أَنَا مِنْ تُرْكِيَا", "meaning": "Türkiye'denim" }
+  ]
+}

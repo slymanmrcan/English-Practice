@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "الأُسْرَة | Aile",
+    "level": "A1",
+    "totalItems": 35
+  },
+  "categories": [
+    {
+      "name": "Yakın Aile",
+      "nameAr": "الأُسْرَة القَرِيبَة",
+      "items": [
+        { "word": "أَب", "plural": "آبَاء", "trans": "eb", "meaning": "baba", "example": "أَبِي طَبِيب (Babam doktordur)" },
+        { "word": "أُمّ", "plural": "أُمَّهَات", "trans": "umm", "meaning": "anne", "example": "أُمِّي مُعَلِّمَة (Annem öğretmendir)" },
+        { "word": "اِبْن", "plural": "أَبْنَاء", "trans": "ibn", "meaning": "oğul", "example": "هَذَا ابْنِي (Bu benim oğlum)" },
+        { "word": "بِنْت", "plural": "بَنَات", "trans": "bint", "meaning": "kız (çocuk)", "example": "بِنْتِي صَغِيرَة (Kızım küçük)" },
+        { "word": "أَخ", "plural": "إِخْوَة", "trans": "akh", "meaning": "erkek kardeş", "example": "أَخِي طَالِب (Erkek kardeşim öğrenci)" },
+        { "word": "أُخْت", "plural": "أَخَوَات", "trans": "ukht", "meaning": "kız kardeş", "example": "أُخْتِي طَبِيبَة (Kız kardeşim doktor)" },
+        { "word": "زَوْج", "plural": "أَزْوَاج", "trans": "zevc", "meaning": "koca", "example": "زَوْجِي فِي البَيْت (Kocam evde)" },
+        { "word": "زَوْجَة", "plural": "زَوْجَات", "trans": "zevce", "meaning": "eş, karı", "example": "زَوْجَتِي مُهَنْدِسَة (Eşim mühendis)" }
+      ]
+    },
+    {
+      "name": "Büyükler",
+      "nameAr": "الأَجْدَاد",
+      "items": [
+        { "word": "جَدّ", "plural": "أَجْدَاد", "trans": "cedd", "meaning": "dede", "example": "جَدِّي كَبِير (Dedem yaşlı)" },
+        { "word": "جَدَّة", "plural": "جَدَّات", "trans": "cedde", "meaning": "nine, babaanne/anneanne", "example": "جَدَّتِي طَيِّبَة (Ninem iyidir)" },
+        { "word": "وَالِد", "plural": "وَالِدَان", "trans": "vâlid", "meaning": "baba (resmi)", "example": "وَالِدِي مُدِير (Babam müdür)" },
+        { "word": "وَالِدَة", "plural": "وَالِدَات", "trans": "vâlide", "meaning": "anne (resmi)", "example": "وَالِدَتِي فِي المَطْبَخ (Annem mutfakta)" }
+      ]
+    },
+    {
+      "name": "Akrabalar",
+      "nameAr": "الأَقَارِب",
+      "items": [
+        { "word": "عَمّ", "plural": "أَعْمَام", "trans": "amm", "meaning": "amca (baba tarafı)", "example": "عَمِّي تَاجِر (Amcam tüccar)" },
+        { "word": "عَمَّة", "plural": "عَمَّات", "trans": "amme", "meaning": "hala (baba tarafı)", "example": "عَمَّتِي طَبِيبَة (Halam doktor)" },
+        { "word": "خَال", "plural": "أَخْوَال", "trans": "khâl", "meaning": "dayı (anne tarafı)", "example": "خَالِي مُهَنْدِس (Dayım mühendis)" },
+        { "word": "خَالَة", "plural": "خَالَات", "trans": "khâle", "meaning": "teyze (anne tarafı)", "example": "خَالَتِي مُعَلِّمَة (Teyzem öğretmen)" },
+        { "word": "اِبْن العَمّ", "trans": "ibnu'l-amm", "meaning": "amca oğlu, kuzen (erkek)", "example": "ابْن عَمِّي صَدِيقِي (Amca oğlu arkadaşım)" },
+        { "word": "بِنْت العَمّ", "trans": "bintu'l-amm", "meaning": "amca kızı, kuzen (kız)", "example": "بِنْت عَمِّي طَالِبَة (Amca kızım öğrenci)" },
+        { "word": "اِبْن الخَال", "trans": "ibnu'l-khâl", "meaning": "dayı oğlu", "example": "ابْن خَالِي فِي الجَامِعَة (Dayı oğlum üniversitede)" },
+        { "word": "بِنْت الخَالَة", "trans": "bintu'l-khâle", "meaning": "teyze kızı", "example": "بِنْت خَالَتِي جَمِيلَة (Teyze kızım güzel)" }
+      ]
+    },
+    {
+      "name": "Diğer",
+      "nameAr": "آخَرُون",
+      "items": [
+        { "word": "طِفْل", "plural": "أَطْفَال", "trans": "tıfl", "meaning": "çocuk (küçük)", "example": "الطِّفْل نَائِم (Çocuk uyuyor)" },
+        { "word": "رَضِيع", "plural": "رُضَّع", "trans": "radî'", "meaning": "bebek", "example": "الرَّضِيع يَبْكِي (Bebek ağlıyor)" },
+        { "word": "شَابّ", "plural": "شَبَاب", "trans": "şâbb", "meaning": "genç (erkek)", "example": "الشَّابّ قَوِيّ (Genç güçlü)" },
+        { "word": "شَابَّة", "plural": "شَابَّات", "trans": "şâbbe", "meaning": "genç (kız)", "example": "الشَّابَّة جَمِيلَة (Genç kız güzel)" },
+        { "word": "عَجُوز", "plural": "عَجَائِز", "trans": "acûz", "meaning": "yaşlı (kadın)", "example": "العَجُوز حَكِيمَة (Yaşlı kadın bilge)" },
+        { "word": "شَيْخ", "plural": "شُيُوخ", "trans": "şeyh", "meaning": "yaşlı (erkek), alim", "example": "الشَّيْخ عَالِم (Şeyh alimdir)" },
+        { "word": "عَائِلَة", "plural": "عَائِلَات", "trans": "âile", "meaning": "aile", "example": "عَائِلَتِي كَبِيرَة (Ailem büyük)" },
+        { "word": "أُسْرَة", "plural": "أُسَر", "trans": "usre", "meaning": "aile (çekirdek)", "example": "أُسْرَتُنَا سَعِيدَة (Ailemiz mutlu)" },
+        { "word": "قَرِيب", "plural": "أَقَارِب", "trans": "karîb", "meaning": "akraba", "example": "هُوَ قَرِيبِي (O benim akrabam)" },
+        { "word": "صِهْر", "plural": "أَصْهَار", "trans": "sıhr", "meaning": "damat, enişte", "example": "صِهْرِي طَيِّب (Damadım iyi)" },
+        { "word": "حَمَاة", "plural": "حَمَوَات", "trans": "hamât", "meaning": "kaynana", "example": "حَمَاتِي فِي البَيْت (Kaynavam evde)" },
+        { "word": "يَتِيم", "plural": "أَيْتَام", "trans": "yetîm", "meaning": "yetim", "example": "سَاعِدِ اليَتِيم (Yetime yardım et)" }
+      ]
+    }
+  ],
+  "usefulPhrases": [
+    { "phrase": "كَمْ أَخًا لَكَ؟", "meaning": "Kaç erkek kardeşin var?" },
+    { "phrase": "عِنْدِي ثَلَاثَة إِخْوَة", "meaning": "Üç erkek kardeşim var" },
+    { "phrase": "هَلْ أَنْتَ مُتَزَوِّج؟", "meaning": "Evli misin?" },
+    { "phrase": "نَعَمْ، أَنَا مُتَزَوِّج", "meaning": "Evet, evliyim" },
+    { "phrase": "لَا، أَنَا أَعْزَب", "meaning": "Hayır, bekarım" },
+    { "phrase": "كَمْ وَلَدًا عِنْدَكَ؟", "meaning": "Kaç çocuğun var?" },
+    { "phrase": "عِنْدِي وَلَدَانِ وَبِنْت", "meaning": "İki oğlum ve bir kızım var" },
+    { "phrase": "أَيْنَ وَالِدُكَ؟", "meaning": "Baban nerede?" },
+    { "phrase": "وَالِدِي فِي العَمَل", "meaning": "Babam işte" }
+  ]
+}

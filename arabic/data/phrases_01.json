@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "title": "العِبَارَاتُ اليَوْمِيَّة | Günlük Kalıplar",
+    "level": "A1",
+    "totalItems": 80
+  },
+  "categories": [
+    {
+      "name": "Selamlaşma",
+      "nameAr": "التَّحِيَّات",
+      "items": [
+        { "phrase": "السَّلَامُ عَلَيْكُم", "meaning": "Selam sizin üzerinize olsun", "response": "وَعَلَيْكُمُ السَّلَام", "context": "Genel selamlama" },
+        { "phrase": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُه", "meaning": "Allah'ın selamı, rahmeti ve bereketi üzerinize olsun", "response": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ وَبَرَكَاتُه", "context": "Tam selam" },
+        { "phrase": "صَبَاحَ الخَيْر", "meaning": "Günaydın", "response": "صَبَاحَ النُّور", "context": "Sabah selamı" },
+        { "phrase": "مَسَاءَ الخَيْر", "meaning": "İyi akşamlar", "response": "مَسَاءَ النُّور", "context": "Akşam selamı" },
+        { "phrase": "أَهْلًا وَسَهْلًا", "meaning": "Hoş geldiniz", "response": "أَهْلًا بِكَ", "context": "Karşılama" },
+        { "phrase": "مَرْحَبًا", "meaning": "Merhaba", "response": "مَرْحَبًا بِكَ", "context": "Genel" },
+        { "phrase": "كَيْفَ حَالُكَ؟", "meaning": "Nasılsın? (erkek)", "response": "بِخَيْرٍ، الحَمْدُ لِلّه", "context": "Hal hatır" },
+        { "phrase": "كَيْفَ حَالُكِ؟", "meaning": "Nasılsın? (kadın)", "response": "بِخَيْرٍ، الحَمْدُ لِلّه", "context": "Hal hatır" },
+        { "phrase": "مَا اسْمُكَ؟", "meaning": "Adın ne? (erkek)", "response": "اِسْمِي...", "context": "Tanışma" },
+        { "phrase": "مَا اسْمُكِ؟", "meaning": "Adın ne? (kadın)", "response": "اِسْمِي...", "context": "Tanışma" }
+      ]
+    },
+    {
+      "name": "Vedalaşma",
+      "nameAr": "الوَدَاع",
+      "items": [
+        { "phrase": "مَعَ السَّلَامَة", "meaning": "Güle güle (gidenin söylediği)", "response": "فِي أَمَانِ الله", "context": "Vedalaşma" },
+        { "phrase": "فِي أَمَانِ الله", "meaning": "Allah'a emanet ol", "response": "مَعَ السَّلَامَة", "context": "Vedalaşma" },
+        { "phrase": "إِلَى اللِّقَاء", "meaning": "Görüşmek üzere", "response": "إِلَى اللِّقَاء", "context": "Vedalaşma" },
+        { "phrase": "تُصْبِحُ عَلَى خَيْر", "meaning": "İyi geceler (erkek)", "response": "وَأَنْتَ مِنْ أَهْلِهِ", "context": "Gece vedası" },
+        { "phrase": "تُصْبِحِينَ عَلَى خَيْر", "meaning": "İyi geceler (kadın)", "response": "وَأَنْتِ مِنْ أَهْلِهِ", "context": "Gece vedası" }
+      ]
+    },
+    {
+      "name": "Teşekkür ve Özür",
+      "nameAr": "الشُّكْرُ وَالاِعْتِذَار",
+      "items": [
+        { "phrase": "شُكْرًا", "meaning": "Teşekkürler", "response": "عَفْوًا", "context": "Teşekkür" },
+        { "phrase": "جَزَاكَ اللهُ خَيْرًا", "meaning": "Allah sana hayır versin", "response": "وَإِيَّاكَ", "context": "Dini teşekkür" },
+        { "phrase": "بَارَكَ اللهُ فِيكَ", "meaning": "Allah seni mübarek kılsın", "response": "وَفِيكَ", "context": "Dini teşekkür" },
+        { "phrase": "عَفْوًا / لَا شُكْرَ عَلَى وَاجِب", "meaning": "Rica ederim / Bir şey değil", "context": "Teşekküre cevap" },
+        { "phrase": "أَسْتَغْفِرُ الله", "meaning": "Allah'tan bağışlanma dilerim", "context": "Özür / Tövbe" },
+        { "phrase": "عَفْوًا / آسِف", "meaning": "Özür dilerim", "response": "لَا بَأْسَ", "context": "Özür" },
+        { "phrase": "سَامِحْنِي", "meaning": "Beni affet", "response": "سَامَحَكَ الله", "context": "Affetme" }
+      ]
+    },
+    {
+      "name": "Rica ve İstek",
+      "nameAr": "الطَّلَبُ وَالرَّجَاء",
+      "items": [
+        { "phrase": "مِنْ فَضْلِكَ", "meaning": "Lütfen (erkek)", "context": "Rica" },
+        { "phrase": "مِنْ فَضْلِكِ", "meaning": "Lütfen (kadın)", "context": "Rica" },
+        { "phrase": "لَوْ سَمَحْتَ", "meaning": "İzin verirsen, lütfen", "context": "Rica" },
+        { "phrase": "أُرِيدُ...", "meaning": "...istiyorum", "context": "İstek" },
+        { "phrase": "أَحْتَاجُ إِلَى...", "meaning": "...ihtiyacım var", "context": "İhtiyaç" },
+        { "phrase": "هَلْ يُمْكِنُ أَنْ...؟", "meaning": "...mümkün mü?", "context": "İzin" },
+        { "phrase": "هَلْ تَسْمَحُ لِي...؟", "meaning": "...izin verir misin?", "context": "İzin" },
+        { "phrase": "سَاعِدْنِي مِنْ فَضْلِكَ", "meaning": "Lütfen bana yardım et", "context": "Yardım isteme" }
+      ]
+    },
+    {
+      "name": "Dini Kalıplar",
+      "nameAr": "العِبَارَاتُ الدِّينِيَّة",
+      "items": [
+        { "phrase": "بِسْمِ الله", "meaning": "Allah'ın adıyla", "context": "Bir işe başlarken" },
+        { "phrase": "الحَمْدُ لِله", "meaning": "Allah'a hamd olsun", "context": "Şükür, hal sorulunca" },
+        { "phrase": "سُبْحَانَ الله", "meaning": "Allah'ı tenzih ederim", "context": "Hayret, tesbih" },
+        { "phrase": "اللهُ أَكْبَر", "meaning": "Allah en büyüktür", "context": "Tekbir" },
+        { "phrase": "لَا إِلَهَ إِلَّا الله", "meaning": "Allah'tan başka ilah yoktur", "context": "Tevhid" },
+        { "phrase": "إِنْ شَاءَ الله", "meaning": "Allah dilerse", "context": "Gelecek plan" },
+        { "phrase": "مَا شَاءَ الله", "meaning": "Allah'ın dilediği", "context": "Takdir, beğeni" },
+        { "phrase": "تَبَارَكَ الله", "meaning": "Allah mübarek", "context": "Beğeni, takdir" },
+        { "phrase": "يَرْحَمُكَ الله", "meaning": "Allah sana rahmet etsin", "context": "Hapşırınca cevap" },
+        { "phrase": "يَهْدِيكُمُ اللهُ", "meaning": "Allah size hidayet versin", "context": "Hapşırınca cevaba cevap" },
+        { "phrase": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِالله", "meaning": "Güç ve kuvvet ancak Allah'tandır", "context": "Zorluk, sıkıntı" },
+        { "phrase": "حَسْبُنَا اللهُ وَنِعْمَ الوَكِيل", "meaning": "Allah bize yeter, O ne güzel vekildir", "context": "Tevekkül" },
+        { "phrase": "إِنَّا لِلّهِ وَإِنَّا إِلَيْهِ رَاجِعُون", "meaning": "Biz Allah'a aitiz ve O'na döneceğiz", "context": "Musibet, vefat haberi" },
+        { "phrase": "رَحِمَهُ الله", "meaning": "Allah ona rahmet etsin", "context": "Vefat etmiş için" },
+        { "phrase": "غَفَرَ اللهُ لَهُ", "meaning": "Allah onu bağışlasın", "context": "Vefat etmiş için" }
+      ]
+    },
+    {
+      "name": "Tebrik ve Dilekler",
+      "nameAr": "التَّهَانِي وَالدُّعَاء",
+      "items": [
+        { "phrase": "مُبَارَك", "meaning": "Mübarek olsun", "context": "Tebrik" },
+        { "phrase": "عِيدٌ مُبَارَك", "meaning": "Bayramınız mübarek olsun", "response": "وَأَنْتُمْ بِخَيْر", "context": "Bayram" },
+        { "phrase": "رَمَضَانُ كَرِيم", "meaning": "Ramazanınız mübarek olsun", "response": "اللهُ أَكْرَم", "context": "Ramazan" },
+        { "phrase": "تَقَبَّلَ اللهُ مِنَّا وَمِنْكُم", "meaning": "Allah bizden ve sizden kabul etsin", "context": "İbadet sonrası" },
+        { "phrase": "بِالشِّفَاء", "meaning": "Şifa olsun", "context": "Hasta için" },
+        { "phrase": "شَفَاكَ الله", "meaning": "Allah sana şifa versin", "context": "Hasta için" },
+        { "phrase": "بِالرِّفَاء وَالبَنِين", "meaning": "Mutluluk ve evlat nasip olsun", "context": "Evlilik" },
+        { "phrase": "بَارَكَ اللهُ لَكُمَا", "meaning": "Allah ikinizi mübarek kılsın", "context": "Evlilik" },
+        { "phrase": "فِي سَبِيلِ الله", "meaning": "Allah yolunda olsun", "context": "Bağış, hayır" }
+      ]
+    },
+    {
+      "name": "Onay ve Red",
+      "nameAr": "المُوَافَقَةُ وَالرَّفْض",
+      "items": [
+        { "phrase": "نَعَمْ", "meaning": "Evet", "context": "Onay" },
+        { "phrase": "لَا", "meaning": "Hayır", "context": "Red" },
+        { "phrase": "طَيِّب / حَسَنًا", "meaning": "Tamam, iyi", "context": "Kabul" },
+        { "phrase": "بِإِذْنِ الله", "meaning": "Allah'ın izniyle", "context": "Kabul" },
+        { "phrase": "إِنْ شَاءَ الله", "meaning": "İnşallah", "context": "Kabul, plan" },
+        { "phrase": "لَا أَسْتَطِيعُ", "meaning": "Yapamam", "context": "Red" },
+        { "phrase": "لَا أَعْرِف", "meaning": "Bilmiyorum", "context": "Bilmeme" },
+        { "phrase": "لَا أَفْهَم", "meaning": "Anlamıyorum", "context": "Anlamama" },
+        { "phrase": "أَعِدْ مِنْ فَضْلِكَ", "meaning": "Tekrar et lütfen", "context": "Tekrar isteme" },
+        { "phrase": "تَكَلَّمْ بِبُطْءٍ", "meaning": "Yavaş konuş", "context": "Rica" }
+      ]
+    }
+  ],
+  "situationalPhrases": [
+    {
+      "situation": "السُّوق | Alışveriş",
+      "phrases": [
+        { "phrase": "كَمْ سِعْرُ هَذَا؟", "meaning": "Bunun fiyatı ne kadar?" },
+        { "phrase": "غَالٍ جِدًّا", "meaning": "Çok pahalı" },
+        { "phrase": "هَلْ عِنْدَكَ أَرْخَص؟", "meaning": "Daha ucuzu var mı?" },
+        { "phrase": "أُرِيدُ هَذَا", "meaning": "Bunu istiyorum" },
+        { "phrase": "لَا أُرِيدُ", "meaning": "İstemiyorum" }
+      ]
+    },
+    {
+      "situation": "المَطْعَم | Restoran",
+      "phrases": [
+        { "phrase": "قَائِمَة الطَّعَام مِنْ فَضْلِكَ", "meaning": "Menü lütfen" },
+        { "phrase": "أُرِيدُ أَنْ آكُلَ", "meaning": "Yemek istiyorum" },
+        { "phrase": "هَلْ هَذَا حَلَال؟", "meaning": "Bu helal mi?" },
+        { "phrase": "الحِسَاب مِنْ فَضْلِكَ", "meaning": "Hesap lütfen" },
+        { "phrase": "بِالعَافِيَة", "meaning": "Afiyet olsun" }
+      ]
+    },
+    {
+      "situation": "السَّفَر | Seyahat",
+      "phrases": [
+        { "phrase": "أَيْنَ المَطَار؟", "meaning": "Havaalanı nerede?" },
+        { "phrase": "أَيْنَ مَحَطَّةُ القِطَار؟", "meaning": "Tren istasyonu nerede?" },
+        { "phrase": "تَذْكَرَة إِلَى...", "meaning": "...ya bilet" },
+        { "phrase": "ذَهَابًا وَإِيَابًا", "meaning": "Gidiş-dönüş" },
+        { "phrase": "رِحْلَة سَعِيدَة", "meaning": "İyi yolculuklar" }
+      ]
+    }
+  ]
+}
