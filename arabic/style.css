@@ -799,6 +799,75 @@ body {
   color: var(--accent);
 }
 
+/* Phrases Styles */
+.phrases-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.phrase-card {
+  background: var(--bg-lighter);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 18px;
+}
+
+.phrase-card.small {
+  padding: 10px 14px;
+}
+
+.phrase-ar {
+  font-family: var(--font-ar);
+  font-size: 20px;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+
+.phrase-card.small .phrase-ar {
+  font-size: 17px;
+}
+
+.phrase-tr {
+  font-size: 14px;
+  color: var(--text);
+}
+
+.phrase-response {
+  font-family: var(--font-ar);
+  font-size: 16px;
+  color: var(--text);
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--border);
+}
+
+.phrase-context {
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-top: 6px;
+  padding: 4px 8px;
+  background: var(--bg-light);
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.situation-box {
+  background: var(--bg-light);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.situation-title {
+  font-family: var(--font-ar);
+  font-size: 16px;
+  color: var(--accent);
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
 /* Quiz Container & Progress */
 .quiz-container {
   max-width: 600px;

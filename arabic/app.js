@@ -25,7 +25,8 @@ const App = {
       'intro_01', 'vocab_01', 'grammar_01', 'quiz_01',
       'pronouns_01', 'demonstratives_01', 'colors_01', 'numbers_01', 'questions_01',
       'emsile_01', 'bina_01', 'maksud_01', 'sarf_01', 'nahiv_01',
-      'islamic_terms_01', 'islamic_basics_01'
+      'islamic_terms_01', 'islamic_basics_01',
+      'family_01', 'food_01', 'time_01', 'places_01', 'phrases_01'
     ];
     
     for (const file of files) {
@@ -116,7 +117,12 @@ const App = {
       patterns: { title: 'Veznler', dataKey: 'emsile_01', render: this.renderPatterns },
       islamic: { title: 'İslami Terimler', dataKey: 'islamic_terms_01', render: this.renderIslamic },
       quiz: { title: 'Quiz', dataKey: 'quiz_01', render: this.renderQuiz },
-      roots50: { title: '50 Temel Kök', dataKey: 'common_50', render: this.renderRoots50 }
+      roots50: { title: '50 Temel Kök', dataKey: 'common_50', render: this.renderRoots50 },
+      family: { title: 'Aile', dataKey: 'family_01', render: this.renderCategoryList },
+      food: { title: 'Yiyecek/İçecek', dataKey: 'food_01', render: this.renderCategoryList },
+      time: { title: 'Zaman', dataKey: 'time_01', render: this.renderCategoryList },
+      places: { title: 'Mekanlar', dataKey: 'places_01', render: this.renderCategoryList },
+      phrases: { title: 'Günlük Kalıplar', dataKey: 'phrases_01', render: this.renderPhrases }
     };
     
     const config = panels[panel];
@@ -177,6 +183,114 @@ const App = {
     }
     
     container.innerHTML = html || '<div class="placeholder">İçerik hazırlanıyor...</div>';
+  },
+  
+  renderCategoryList(data, container) {
+    if (!data || !data.categories) {
+      container.innerHTML = '<div class="placeholder">Veri bulunamadı</div>';
+      return;
+    }
+    
+    let html = '';
+    
+    // Meta bilgisi
+    if (data.meta) {
+      html += `<div class="section"><div class="section-title">${data.meta.title || ''}</div><p style="color: var(--text-dim);">Toplam: ${data.meta.totalItems || 0} kelime</p></div>`;
+    }
+    
+    // Kategoriler
+    data.categories.forEach(cat => {
+      html += `<div class="section" style="margin-bottom: 24px;"><div class="section-title">${cat.nameAr || ''} | ${cat.name || ''}</div>`;
+      html += '<div class="list">';
+      
+      cat.items.forEach(item => {
+        html += `
+          <div class="list-item">
+            <div style="flex: 1;">
+              <div class="list-ar">${item.word}${item.plural ? ` <span style="font-size: 14px; opacity: 0.6;">(ج: ${item.plural})</span>` : ''}</div>
+              <div class="list-tr">${item.meaning}</div>
+              ${item.example ? `<div style="font-size: 12px; color: var(--text-dim); margin-top: 4px; font-family: var(--font-ar);">${item.example}</div>` : ''}
+            </div>
+            <div style="text-align: right; font-size: 11px; color: var(--text-dim);">${item.trans || ''}</div>
+          </div>
+        `;
+      });
+      
+      html += '</div></div>';
+    });
+    
+    // Faydalı kalıplar
+    if (data.usefulPhrases) {
+      html += `<div class="section" style="margin-top: 32px;"><div class="section-title">💬 Faydalı Kalıplar</div>`;
+      html += '<div class="list">';
+      data.usefulPhrases.forEach(p => {
+        html += `<div class="list-item"><div class="list-ar">${p.phrase}</div><div class="list-tr">${p.meaning}</div></div>`;
+      });
+      html += '</div></div>';
+    }
+    
+    // Tatlar (food için)
+    if (data.tastes) {
+      html += `<div class="section" style="margin-top: 24px;"><div class="section-title">👅 Tatlar</div>`;
+      html += '<div class="grid">';
+      data.tastes.forEach(t => {
+        html += `<div class="card"><div class="card-title">${t.word}</div><div class="card-sub">${t.meaning}</div></div>`;
+      });
+      html += '</div></div>';
+    }
+    
+    container.innerHTML = html;
+  },
+  
+  renderPhrases(data, container) {
+    if (!data || !data.categories) {
+      container.innerHTML = '<div class="placeholder">Veri bulunamadı</div>';
+      return;
+    }
+    
+    let html = '';
+    
+    // Meta
+    if (data.meta) {
+      html += `<div class="section"><div class="section-title">${data.meta.title || ''}</div></div>`;
+    }
+    
+    // Kategoriler
+    data.categories.forEach(cat => {
+      html += `<div class="section" style="margin-bottom: 24px;"><div class="section-title">${cat.nameAr || ''} | ${cat.name || ''}</div>`;
+      html += '<div class="phrases-list">';
+      
+      cat.items.forEach(item => {
+        html += `
+          <div class="phrase-card">
+            <div class="phrase-ar">${item.phrase}</div>
+            <div class="phrase-tr">${item.meaning}</div>
+            ${item.response ? `<div class="phrase-response"><span style="color: var(--text-dim);">↩️ Cevap:</span> ${item.response}</div>` : ''}
+            ${item.context ? `<div class="phrase-context">${item.context}</div>` : ''}
+          </div>
+        `;
+      });
+      
+      html += '</div></div>';
+    });
+    
+    // Durumsal kalıplar
+    if (data.situationalPhrases) {
+      html += `<div class="section" style="margin-top: 32px;"><div class="section-title">🎯 Durumsal Kalıplar</div>`;
+      
+      data.situationalPhrases.forEach(sit => {
+        html += `<div class="situation-box"><div class="situation-title">${sit.situation}</div>`;
+        html += '<div class="phrases-list">';
+        sit.phrases.forEach(p => {
+          html += `<div class="phrase-card small"><div class="phrase-ar">${p.phrase}</div><div class="phrase-tr">${p.meaning}</div></div>`;
+        });
+        html += '</div></div>';
+      });
+      
+      html += '</div>';
+    }
+    
+    container.innerHTML = html;
   },
   
   renderVocab(data, container) {
