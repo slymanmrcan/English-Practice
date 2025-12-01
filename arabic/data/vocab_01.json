@@ -1,0 +1,480 @@
+[
+  {
+    "word": "كِتَاب",
+    "transliteration": "kitāb",
+    "level": "A1",
+    "pos": "noun",
+    "root": "ك ت ب",
+    "pattern": "فِعَال",
+    "definition_ar": "مجموعة من الصفحات المكتوبة أو المطبوعة",
+    "definition_tr": "Yazılı veya basılı sayfalar topluluğu, kitap",
+    "definition_en": "A set of written or printed pages, a book",
+    "sentences": [
+      { "ar": "قَرَأْتُ كِتَابًا مُفِيدًا.", "tr": "Faydalı bir kitap okudum." },
+      { "ar": "هَذَا الكِتَابُ جَدِيدٌ.", "tr": "Bu kitap yeni." }
+    ],
+    "related": [
+      { "word": "كَاتِب", "meaning": "yazar" },
+      { "word": "مَكْتَبَة", "meaning": "kütüphane" },
+      { "word": "كِتَابَة", "meaning": "yazı, yazma" },
+      { "word": "مَكْتُوب", "meaning": "yazılmış, mektup" }
+    ],
+    "quiz": {
+      "question": "ما معنى كلمة 'كِتَاب'؟",
+      "options": ["kitap", "kalem", "masa", "sandalye"],
+      "answer": 0
+    }
+  },
+  {
+    "word": "قَلَم",
+    "transliteration": "qalam",
+    "level": "A1",
+    "pos": "noun",
+    "root": "ق ل م",
+    "pattern": "فَعَل",
+    "definition_ar": "أداة للكتابة",
+    "definition_tr": "Yazı yazmak için kullanılan araç, kalem",
+    "definition_en": "A tool for writing, a pen",
+    "sentences": [
+      { "ar": "أَحْتَاجُ قَلَمًا أَزْرَقَ.", "tr": "Mavi bir kaleme ihtiyacım var." },
+      { "ar": "القَلَمُ عَلَى الطَّاوِلَةِ.", "tr": "Kalem masanın üzerinde." }
+    ],
+    "related": [
+      { "word": "أَقْلَام", "meaning": "kalemler (çoğul)" },
+      { "word": "تَقْلِيم", "meaning": "budama" }
+    ],
+    "quiz": {
+      "question": "ما هي أداة الكتابة؟",
+      "options": ["كِتَاب", "قَلَم", "وَرَقَة", "حَقِيبَة"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "بَيْت",
+    "transliteration": "bayt",
+    "level": "A1",
+    "pos": "noun",
+    "root": "ب ي ت",
+    "pattern": "فَعْل",
+    "definition_ar": "مكان السكن والإقامة",
+    "definition_tr": "Yaşanılan yer, ev",
+    "definition_en": "A place of living, house/home",
+    "sentences": [
+      { "ar": "بَيْتُنَا كَبِيرٌ.", "tr": "Evimiz büyük." },
+      { "ar": "رَجَعْتُ إِلَى البَيْتِ.", "tr": "Eve döndüm." }
+    ],
+    "related": [
+      { "word": "بُيُوت", "meaning": "evler (çoğul)" },
+      { "word": "مَبِيت", "meaning": "geceleme yeri" }
+    ],
+    "quiz": {
+      "question": "'بَيْت' kelimesi ne anlama gelir?",
+      "options": ["okul", "ev", "hastane", "market"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "مَاء",
+    "transliteration": "māʾ",
+    "level": "A1",
+    "pos": "noun",
+    "root": "م و ه",
+    "pattern": "فَعَل",
+    "definition_ar": "سائل شفاف ضروري للحياة",
+    "definition_tr": "Hayat için gerekli şeffaf sıvı, su",
+    "definition_en": "Transparent liquid essential for life, water",
+    "sentences": [
+      { "ar": "أُرِيدُ كَأْسَ مَاءٍ.", "tr": "Bir bardak su istiyorum." },
+      { "ar": "المَاءُ بَارِدٌ.", "tr": "Su soğuk." }
+    ],
+    "related": [
+      { "word": "مِيَاه", "meaning": "sular (çoğul)" },
+      { "word": "مَائِي", "meaning": "sulu, su ile ilgili" }
+    ],
+    "quiz": {
+      "question": "أي كلمة تعني 'su'؟",
+      "options": ["نَار", "هَوَاء", "مَاء", "تُرَاب"],
+      "answer": 2
+    }
+  },
+  {
+    "word": "كَتَبَ",
+    "transliteration": "kataba",
+    "level": "A1",
+    "pos": "verb",
+    "root": "ك ت ب",
+    "pattern": "فَعَلَ (Form I)",
+    "definition_ar": "سَجَّلَ الكلمات على ورق أو شاشة",
+    "definition_tr": "Kağıda veya ekrana kelimeler kaydetmek, yazmak",
+    "definition_en": "To record words on paper or screen, to write",
+    "sentences": [
+      { "ar": "كَتَبَ الطَّالِبُ رِسَالَةً.", "tr": "Öğrenci bir mektup yazdı." },
+      { "ar": "أَكْتُبُ كُلَّ يَوْمٍ.", "tr": "Her gün yazıyorum." }
+    ],
+    "related": [
+      { "word": "يَكْتُبُ", "meaning": "yazıyor (muzari)" },
+      { "word": "كَاتِب", "meaning": "yazar" },
+      { "word": "مَكْتُوب", "meaning": "yazılmış" }
+    ],
+    "quiz": {
+      "question": "'كَتَبَ' fiilinin anlamı nedir?",
+      "options": ["okudu", "yazdı", "konuştu", "dinledi"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "قَرَأَ",
+    "transliteration": "qaraʾa",
+    "level": "A1",
+    "pos": "verb",
+    "root": "ق ر أ",
+    "pattern": "فَعَلَ (Form I)",
+    "definition_ar": "نَظَرَ إلى الكلمات وفَهِمَ معناها",
+    "definition_tr": "Kelimelere bakıp anlamını kavramak, okumak",
+    "definition_en": "To look at words and understand their meaning, to read",
+    "sentences": [
+      { "ar": "قَرَأَ الوَلَدُ قِصَّةً.", "tr": "Çocuk bir hikaye okudu." },
+      { "ar": "أَقْرَأُ الجَرِيدَةَ صَبَاحًا.", "tr": "Sabahları gazete okuyorum." }
+    ],
+    "related": [
+      { "word": "يَقْرَأُ", "meaning": "okuyor (muzari)" },
+      { "word": "قَارِئ", "meaning": "okuyucu" },
+      { "word": "قُرْآن", "meaning": "Kur'an" },
+      { "word": "قِرَاءَة", "meaning": "okuma" }
+    ],
+    "quiz": {
+      "question": "أي فعل يعني 'okumak'؟",
+      "options": ["كَتَبَ", "قَرَأَ", "سَمِعَ", "رَأَى"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "ذَهَبَ",
+    "transliteration": "dhahaba",
+    "level": "A1",
+    "pos": "verb",
+    "root": "ذ ه ب",
+    "pattern": "فَعَلَ (Form I)",
+    "definition_ar": "انتقل من مكان إلى آخر",
+    "definition_tr": "Bir yerden başka bir yere geçmek, gitmek",
+    "definition_en": "To move from one place to another, to go",
+    "sentences": [
+      { "ar": "ذَهَبَ أَحْمَدُ إِلَى المَدْرَسَةِ.", "tr": "Ahmet okula gitti." },
+      { "ar": "سَأَذْهَبُ غَدًا.", "tr": "Yarın gideceğim." }
+    ],
+    "related": [
+      { "word": "يَذْهَبُ", "meaning": "gidiyor (muzari)" },
+      { "word": "ذَهَاب", "meaning": "gidiş" },
+      { "word": "مَذْهَب", "meaning": "mezhep, yol" }
+    ],
+    "quiz": {
+      "question": "'ذَهَبَ' ne demek?",
+      "options": ["geldi", "gitti", "durdu", "oturdu"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "جَاءَ",
+    "transliteration": "jāʾa",
+    "level": "A1",
+    "pos": "verb",
+    "root": "ج ي أ",
+    "pattern": "فَعَلَ (Form I)",
+    "definition_ar": "وَصَلَ إلى مكان ما",
+    "definition_tr": "Bir yere ulaşmak, gelmek",
+    "definition_en": "To arrive at a place, to come",
+    "sentences": [
+      { "ar": "جَاءَ الضَّيْفُ مُبَكِّرًا.", "tr": "Misafir erken geldi." },
+      { "ar": "مَتَى جِئْتَ؟", "tr": "Ne zaman geldin?" }
+    ],
+    "related": [
+      { "word": "يَجِيءُ", "meaning": "geliyor (muzari)" },
+      { "word": "مَجِيء", "meaning": "geliş" }
+    ],
+    "quiz": {
+      "question": "'جَاءَ' fiilinin zıddı hangisi?",
+      "options": ["ذَهَبَ", "قَرَأَ", "كَتَبَ", "أَكَلَ"],
+      "answer": 0
+    }
+  },
+  {
+    "word": "أَكَلَ",
+    "transliteration": "ʾakala",
+    "level": "A1",
+    "pos": "verb",
+    "root": "أ ك ل",
+    "pattern": "فَعَلَ (Form I)",
+    "definition_ar": "تَنَاوَلَ الطعام",
+    "definition_tr": "Yiyecek tüketmek, yemek",
+    "definition_en": "To consume food, to eat",
+    "sentences": [
+      { "ar": "أَكَلْتُ تُفَّاحَةً.", "tr": "Bir elma yedim." },
+      { "ar": "نَأْكُلُ الغَدَاءَ سَوِيًّا.", "tr": "Öğle yemeğini birlikte yiyoruz." }
+    ],
+    "related": [
+      { "word": "يَأْكُلُ", "meaning": "yiyor (muzari)" },
+      { "word": "أَكْل", "meaning": "yeme, yemek" },
+      { "word": "مَأْكُول", "meaning": "yenilen, yiyecek" }
+    ],
+    "quiz": {
+      "question": "'أَكَلَ' hangi anlama gelir?",
+      "options": ["içti", "yedi", "uyudu", "kalktı"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "شَرِبَ",
+    "transliteration": "shariba",
+    "level": "A1",
+    "pos": "verb",
+    "root": "ش ر ب",
+    "pattern": "فَعِلَ (Form I)",
+    "definition_ar": "تَنَاوَلَ السوائل",
+    "definition_tr": "Sıvı tüketmek, içmek",
+    "definition_en": "To consume liquids, to drink",
+    "sentences": [
+      { "ar": "شَرِبْتُ الشَّايَ.", "tr": "Çay içtim." },
+      { "ar": "يَشْرَبُ المَاءَ كَثِيرًا.", "tr": "Çok su içiyor." }
+    ],
+    "related": [
+      { "word": "يَشْرَبُ", "meaning": "içiyor (muzari)" },
+      { "word": "شُرْب", "meaning": "içme" },
+      { "word": "مَشْرُوب", "meaning": "içecek" }
+    ],
+    "quiz": {
+      "question": "'شَرِبَ المَاءَ' ne demek?",
+      "options": ["suyu döktü", "suyu içti", "suyu getirdi", "suyu ısıttı"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "كَبِير",
+    "transliteration": "kabīr",
+    "level": "A1",
+    "pos": "adjective",
+    "root": "ك ب ر",
+    "pattern": "فَعِيل",
+    "definition_ar": "ذو حجم أو عمر أكبر من المعتاد",
+    "definition_tr": "Normalden daha büyük hacim veya yaşa sahip, büyük",
+    "definition_en": "Having larger size or age than usual, big/large",
+    "sentences": [
+      { "ar": "البَيْتُ كَبِيرٌ جِدًّا.", "tr": "Ev çok büyük." },
+      { "ar": "أَخِي الكَبِيرُ طَبِيبٌ.", "tr": "Büyük kardeşim doktor." }
+    ],
+    "related": [
+      { "word": "كُبْر", "meaning": "büyüklük" },
+      { "word": "أَكْبَر", "meaning": "daha büyük" },
+      { "word": "كِبَار", "meaning": "büyükler" }
+    ],
+    "quiz": {
+      "question": "'كَبِير' kelimesinin zıddı?",
+      "options": ["طَوِيل", "صَغِير", "قَصِير", "ثَقِيل"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "صَغِير",
+    "transliteration": "ṣaghīr",
+    "level": "A1",
+    "pos": "adjective",
+    "root": "ص غ ر",
+    "pattern": "فَعِيل",
+    "definition_ar": "ذو حجم أو عمر أقل من المعتاد",
+    "definition_tr": "Normalden daha küçük hacim veya yaşa sahip, küçük",
+    "definition_en": "Having smaller size or age than usual, small/little",
+    "sentences": [
+      { "ar": "الطِّفْلُ صَغِيرٌ.", "tr": "Çocuk küçük." },
+      { "ar": "هَذِهِ الغُرْفَةُ صَغِيرَةٌ.", "tr": "Bu oda küçük." }
+    ],
+    "related": [
+      { "word": "صِغَر", "meaning": "küçüklük" },
+      { "word": "أَصْغَر", "meaning": "daha küçük" },
+      { "word": "صِغَار", "meaning": "küçükler" }
+    ],
+    "quiz": {
+      "question": "'صَغِير' ne demek?",
+      "options": ["büyük", "küçük", "uzun", "kısa"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "جَمِيل",
+    "transliteration": "jamīl",
+    "level": "A1",
+    "pos": "adjective",
+    "root": "ج م ل",
+    "pattern": "فَعِيل",
+    "definition_ar": "حَسَن المظهر، يُسِرُّ الناظر",
+    "definition_tr": "Görünüşü güzel, bakana zevk veren",
+    "definition_en": "Pleasant in appearance, beautiful",
+    "sentences": [
+      { "ar": "الجَوُّ جَمِيلٌ اليَوْمَ.", "tr": "Bugün hava güzel." },
+      { "ar": "رَأَيْتُ مَنْظَرًا جَمِيلًا.", "tr": "Güzel bir manzara gördüm." }
+    ],
+    "related": [
+      { "word": "جَمَال", "meaning": "güzellik" },
+      { "word": "أَجْمَل", "meaning": "daha güzel" },
+      { "word": "جَمِيلَة", "meaning": "güzel (dişil)" }
+    ],
+    "quiz": {
+      "question": "'جَمِيل' kelimesi hangi anlama gelir?",
+      "options": ["çirkin", "güzel", "kötü", "eski"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "جَدِيد",
+    "transliteration": "jadīd",
+    "level": "A1",
+    "pos": "adjective",
+    "root": "ج د د",
+    "pattern": "فَعِيل",
+    "definition_ar": "حَدِيث، لم يُستعمل من قبل",
+    "definition_tr": "Yeni, daha önce kullanılmamış",
+    "definition_en": "New, not used before",
+    "sentences": [
+      { "ar": "اشْتَرَيْتُ هَاتِفًا جَدِيدًا.", "tr": "Yeni bir telefon aldım." },
+      { "ar": "هَذَا الفِيلْمُ جَدِيدٌ.", "tr": "Bu film yeni." }
+    ],
+    "related": [
+      { "word": "جِدَّة", "meaning": "yenilik" },
+      { "word": "تَجْدِيد", "meaning": "yenileme" },
+      { "word": "جُدُد", "meaning": "yeniler (çoğul)" }
+    ],
+    "quiz": {
+      "question": "'جَدِيد' kelimesinin zıddı?",
+      "options": ["حَدِيث", "قَدِيم", "كَبِير", "صَغِير"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "قَدِيم",
+    "transliteration": "qadīm",
+    "level": "A1",
+    "pos": "adjective",
+    "root": "ق د م",
+    "pattern": "فَعِيل",
+    "definition_ar": "مَضَى عليه زمن طويل",
+    "definition_tr": "Üzerinden uzun zaman geçmiş, eski",
+    "definition_en": "Old, from a long time ago",
+    "sentences": [
+      { "ar": "هَذَا المَسْجِدُ قَدِيمٌ.", "tr": "Bu cami eski." },
+      { "ar": "أُحِبُّ المُوسِيقَى القَدِيمَةَ.", "tr": "Eski müziği seviyorum." }
+    ],
+    "related": [
+      { "word": "قِدَم", "meaning": "eskilik" },
+      { "word": "أَقْدَم", "meaning": "daha eski" },
+      { "word": "قُدَمَاء", "meaning": "eskiler, atalar" }
+    ],
+    "quiz": {
+      "question": "'المَدِينَة القَدِيمَة' ne demek?",
+      "options": ["yeni şehir", "eski şehir", "büyük şehir", "küçük şehir"],
+      "answer": 1
+    }
+  },
+  {
+    "word": "فِي",
+    "transliteration": "fī",
+    "level": "A1",
+    "pos": "particle",
+    "root": "-",
+    "pattern": "حرف جر",
+    "definition_ar": "حرف جر يدل على الظرفية المكانية أو الزمانية",
+    "definition_tr": "Yer veya zaman belirten edat, içinde/de",
+    "definition_en": "Preposition indicating location or time, in/at",
+    "sentences": [
+      { "ar": "أَنَا فِي البَيْتِ.", "tr": "Ben evdeyim." },
+      { "ar": "سَأَذْهَبُ فِي الصَّبَاحِ.", "tr": "Sabah gideceğim." }
+    ],
+    "related": [],
+    "quiz": {
+      "question": "'فِي المَدْرَسَةِ' ne demek?",
+      "options": ["okuldan", "okula", "okulda", "okul için"],
+      "answer": 2
+    }
+  },
+  {
+    "word": "إِلَى",
+    "transliteration": "ʾilā",
+    "level": "A1",
+    "pos": "particle",
+    "root": "-",
+    "pattern": "حرف جر",
+    "definition_ar": "حرف جر يدل على انتهاء الغاية",
+    "definition_tr": "Yön veya varış noktası belirten edat, -e/-a",
+    "definition_en": "Preposition indicating direction or destination, to",
+    "sentences": [
+      { "ar": "ذَهَبْتُ إِلَى السُّوقِ.", "tr": "Markete gittim." },
+      { "ar": "أَنْظُرُ إِلَى السَّمَاءِ.", "tr": "Gökyüzüne bakıyorum." }
+    ],
+    "related": [],
+    "quiz": {
+      "question": "'إِلَى' edatı hangi anlama gelir?",
+      "options": ["den/-dan", "de/-da", "e/-a", "için"],
+      "answer": 2
+    }
+  },
+  {
+    "word": "مِن",
+    "transliteration": "min",
+    "level": "A1",
+    "pos": "particle",
+    "root": "-",
+    "pattern": "حرف جر",
+    "definition_ar": "حرف جر يدل على ابتداء الغاية أو التبعيض",
+    "definition_tr": "Başlangıç veya kaynak belirten edat, -den/-dan",
+    "definition_en": "Preposition indicating origin or source, from",
+    "sentences": [
+      { "ar": "أَنَا مِن تُرْكِيَا.", "tr": "Ben Türkiye'denim." },
+      { "ar": "خَرَجْتُ مِن البَيْتِ.", "tr": "Evden çıktım." }
+    ],
+    "related": [],
+    "quiz": {
+      "question": "'مِن أَيْنَ أَنْتَ؟' ne demek?",
+      "options": ["Nereye gidiyorsun?", "Neredesin?", "Nerelisin?", "Ne zaman geldin?"],
+      "answer": 2
+    }
+  },
+  {
+    "word": "عَلَى",
+    "transliteration": "ʿalā",
+    "level": "A1",
+    "pos": "particle",
+    "root": "-",
+    "pattern": "حرف جر",
+    "definition_ar": "حرف جر يدل على الاستعلاء",
+    "definition_tr": "Üstünde olma belirten edat, üzerinde",
+    "definition_en": "Preposition indicating on/upon/over",
+    "sentences": [
+      { "ar": "الكِتَابُ عَلَى الطَّاوِلَةِ.", "tr": "Kitap masanın üzerinde." },
+      { "ar": "سَافَرْتُ عَلَى الطَّائِرَةِ.", "tr": "Uçakla seyahat ettim." }
+    ],
+    "related": [],
+    "quiz": {
+      "question": "'عَلَى' ne anlama gelir?",
+      "options": ["altında", "içinde", "üzerinde", "yanında"],
+      "answer": 2
+    }
+  },
+  {
+    "word": "مَعَ",
+    "transliteration": "maʿa",
+    "level": "A1",
+    "pos": "particle",
+    "root": "-",
+    "pattern": "حرف جر",
+    "definition_ar": "حرف جر يدل على المصاحبة",
+    "definition_tr": "Birliktelik belirten edat, ile/birlikte",
+    "definition_en": "Preposition indicating accompaniment, with",
+    "sentences": [
+      { "ar": "ذَهَبْتُ مَعَ أَصْدِقَائِي.", "tr": "Arkadaşlarımla gittim." },
+      { "ar": "تَعَالَ مَعِي.", "tr": "Benimle gel." }
+    ],
+    "related": [],
+    "quiz": {
+      "question": "'مَعَ السَّلَامَة' ne demek?",
+      "options": ["Merhaba", "Güle güle", "Teşekkürler", "Lütfen"],
+      "answer": 1
+    }
+  }
+]

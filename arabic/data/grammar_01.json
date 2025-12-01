@@ -1,0 +1,257 @@
+[
+  {
+    "topic": "الحروف العربية | Arap Harfleri",
+    "level": "A1",
+    "description": "Arapça 28 harften oluşur. Harfler sağdan sola yazılır ve çoğu harf kelime içindeki konumuna göre farklı biçimler alır.",
+    "pattern": "Her harfin 4 formu vardır: bağımsız (ا), başta (ـا), ortada (ـاـ), sonda (ـا)",
+    "examples": [
+      "أ ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي",
+      "ا (elif) - uzun 'a' sesi veya hemze taşıyıcısı",
+      "ب (be) - 'b' sesi: بَاب (kapı)",
+      "ت (te) - 't' sesi: تُفَّاح (elma)",
+      "ث (se) - 'th' sesi (İngilizce 'think' gibi): ثَلَاثَة (üç)",
+      "ج (cim) - 'c' sesi: جَمِيل (güzel)",
+      "ح (ha) - boğazdan gelen 'h': حُبّ (sevgi)",
+      "خ (hı) - 'h' sesi (Türkçe 'hırka' gibi): خُبْز (ekmek)"
+    ],
+    "tips": [
+      "Harfleri öğrenirken sesli olarak tekrar edin",
+      "Her harfin nokta sayısını ve konumunu ezberleyin",
+      "Güneş harfleri (ش، س، ص vb.) ve ay harfleri (ب، م، ك vb.) ayrımını öğrenin",
+      "Bağlantı yapmayan harfler: ا د ذ ر ز و"
+    ],
+    "mistakes": [
+      "ب (be) ve ت (te) ve ث (se) karıştırılır - nokta sayılarına dikkat",
+      "ح (ha) ve خ (hı) karıştırılır - خ'da nokta var",
+      "ع (ayn) ve غ (gayn) karıştırılır - غ'da nokta var"
+    ],
+    "note": "Hareket işaretleri (fetha, kesra, damme) seslileri belirtir ve öğrenme aşamasında çok önemlidir."
+  },
+  {
+    "topic": "الضمائر المنفصلة | Ayrık Zamirler",
+    "level": "A1",
+    "description": "Arapça'da özneyi belirten bağımsız zamirler. Cümle başında veya vurgulu durumlarda kullanılır.",
+    "pattern": "أَنَا (ben), أَنْتَ (sen-eril), أَنْتِ (sen-dişil), هُوَ (o-eril), هِيَ (o-dişil), نَحْنُ (biz), أَنْتُمْ (siz), هُمْ (onlar)",
+    "examples": [
+      "أَنَا طَالِبٌ. - Ben öğrenciyim.",
+      "أَنْتَ مُعَلِّمٌ. - Sen öğretmensin. (erkek)",
+      "أَنْتِ مُعَلِّمَةٌ. - Sen öğretmensin. (kadın)",
+      "هُوَ طَبِيبٌ. - O doktor. (erkek)",
+      "هِيَ طَبِيبَةٌ. - O doktor. (kadın)",
+      "نَحْنُ أَصْدِقَاءُ. - Biz arkadaşız.",
+      "أَنْتُمْ طُلَّابٌ. - Siz öğrencisiniz.",
+      "هُمْ مُهَنْدِسُونَ. - Onlar mühendis."
+    ],
+    "tips": [
+      "Arapça'da 'sen' ve 'o' için cinsiyet ayrımı var",
+      "Çoğul için de erkek/kadın ayrımı yapılır: هُمْ (onlar-erkek) / هُنَّ (onlar-kadın)",
+      "İkil (dual) form da var: أَنْتُمَا (siz ikiniz), هُمَا (o ikisi)"
+    ],
+    "mistakes": [
+      "أَنْتَ ve أَنْتِ karıştırılır - son harf farklı",
+      "هُوَ ve هِيَ karıştırılır - hareke farkına dikkat"
+    ],
+    "note": "Fiil çekimlerinde zamir genellikle fiil sonekinden anlaşılır, ayrı zamir vurgu için kullanılır."
+  },
+  {
+    "topic": "الجملة الاسمية | İsim Cümlesi",
+    "level": "A1",
+    "description": "İsim ile başlayan cümle yapısı. Arapça'da 'olmak' fiili şimdiki zamanda kullanılmaz.",
+    "pattern": "المبتدأ (özne) + الخبر (yüklem): أَنَا طَالِبٌ (Ben öğrenciyim)",
+    "examples": [
+      "الكِتَابُ جَدِيدٌ. - Kitap yeni(dir).",
+      "البَيْتُ كَبِيرٌ. - Ev büyük(tür).",
+      "الطَّقْسُ جَمِيلٌ. - Hava güzel.",
+      "هَذَا قَلَمٌ. - Bu kalem(dir).",
+      "تِلْكَ سَيَّارَةٌ. - Şu araba(dır).",
+      "الوَلَدُ ذَكِيٌّ. - Çocuk zeki.",
+      "الأُسْتَاذُ فِي الفَصْلِ. - Öğretmen sınıfta."
+    ],
+    "tips": [
+      "Türkçe'deki '-dır/-dir' eki Arapça'da yazılmaz, anlamdan çıkar",
+      "Belirlilik uyumu önemli: الكِتَابُ الجَدِيدُ (yeni kitap-belirli)",
+      "Özne belirli (ال ile), yüklem belirsiz (tenvinli) olur"
+    ],
+    "mistakes": [
+      "İsim cümlelerinde 'هُوَ/هِيَ' gereksiz kullanımı: البَيْتُ هُوَ كَبِيرٌ ❌ → البَيْتُ كَبِيرٌ ✓",
+      "Yüklemde الـ kullanmak: الكِتَابُ الجَدِيدُ ❌ (bu 'yeni kitap' demek, cümle değil)"
+    ],
+    "note": "Geçmiş zaman için كَانَ (idi), gelecek için سَيَكُونُ (olacak) kullanılır."
+  },
+  {
+    "topic": "الجملة الفعلية | Fiil Cümlesi",
+    "level": "A2",
+    "description": "Fiil ile başlayan cümle yapısı. Klasik Arapça'da en yaygın cümle türü.",
+    "pattern": "الفعل (fiil) + الفاعل (özne) + المفعول به (nesne): كَتَبَ الطَّالِبُ الدَّرْسَ",
+    "examples": [
+      "كَتَبَ الوَلَدُ رِسَالَةً. - Çocuk mektup yazdı.",
+      "قَرَأَتِ البِنْتُ كِتَابًا. - Kız kitap okudu.",
+      "يَدْرُسُ الطُّلَّابُ العَرَبِيَّةَ. - Öğrenciler Arapça çalışıyor.",
+      "سَافَرَ أَحْمَدُ إِلَى مِصْرَ. - Ahmet Mısır'a seyahat etti.",
+      "تَأْكُلُ الأُسْرَةُ الغَدَاءَ. - Aile öğle yemeği yiyor.",
+      "سَيَذْهَبُ المُدِيرُ غَدًا. - Müdür yarın gidecek."
+    ],
+    "tips": [
+      "Fiil cümlesinde fiil tekil kalır, özne çoğul olsa bile: جَاءَ الطُّلَّابُ (öğrenciler geldi)",
+      "Nesne mansup (üstün) alır: كَتَبَ رِسَالَةً",
+      "Dişil özne için fiile ت eklenir: كَتَبَتْ، قَرَأَتْ"
+    ],
+    "mistakes": [
+      "Fiili özneye göre çoğul yapmak: جَاؤُوا الطُّلَّابُ ❌ → جَاءَ الطُّلَّابُ ✓",
+      "Nesneyi merfu bırakmak: كَتَبَ رِسَالَةٌ ❌ → كَتَبَ رِسَالَةً ✓"
+    ],
+    "note": "Modern Standart Arapça'da özne+fiil sırası da yaygındır: الطُّلَّابُ يَدْرُسُونَ"
+  },
+  {
+    "topic": "الفعل الماضي | Geçmiş Zaman",
+    "level": "A2",
+    "description": "Geçmişte tamamlanmış eylemleri ifade eden fiil çekimi.",
+    "pattern": "Kök: فَعَلَ | Çekim: فَعَلْتُ (yaptım), فَعَلْتَ (yaptın-e), فَعَلْتِ (yaptın-d), فَعَلَ (yaptı-e), فَعَلَتْ (yaptı-d)",
+    "examples": [
+      "كَتَبْتُ رِسَالَةً. - Mektup yazdım.",
+      "كَتَبْتَ رِسَالَةً. - Mektup yazdın. (erkek)",
+      "كَتَبْتِ رِسَالَةً. - Mektup yazdın. (kadın)",
+      "كَتَبَ رِسَالَةً. - Mektup yazdı. (erkek)",
+      "كَتَبَتْ رِسَالَةً. - Mektup yazdı. (kadın)",
+      "كَتَبْنَا رِسَالَةً. - Mektup yazdık.",
+      "كَتَبْتُمْ رِسَالَةً. - Mektup yazdınız.",
+      "كَتَبُوا رِسَالَةً. - Mektup yazdılar."
+    ],
+    "tips": [
+      "Geçmiş zaman sonekleri: تُ، تَ، تِ، ـَ، تْ، نَا، تُمْ، وا",
+      "Soneklerin çoğu sükun ile biter: كَتَبْتُ",
+      "Dişil tekil 3. şahıs: fiil+ت (sakin): كَتَبَتْ"
+    ],
+    "mistakes": [
+      "كَتَبَتْ ve كَتَبْتَ karıştırılır - biri 'o yazdı (kadın)', diğeri 'sen yazdın (erkek)'",
+      "Çoğul eril: كَتَبُونَ ❌ → كَتَبُوا ✓ (elif gerekli)"
+    ],
+    "note": "Geçmiş zaman 'mebni' (değişmez) bir yapıdadır, i'rab almaz."
+  },
+  {
+    "topic": "الفعل المضارع | Şimdiki/Geniş Zaman",
+    "level": "A2",
+    "description": "Şu anda devam eden veya genel/tekrarlanan eylemleri ifade eden fiil çekimi.",
+    "pattern": "Önekler: أَ (ben), تَ (sen/o-d), يَ (o-e), نَ (biz) + فْعَلُ",
+    "examples": [
+      "أَكْتُبُ رِسَالَةً. - Mektup yazıyorum.",
+      "تَكْتُبُ رِسَالَةً. - Mektup yazıyorsun. (erkek) / O yazıyor. (kadın)",
+      "يَكْتُبُ رِسَالَةً. - Mektup yazıyor. (erkek)",
+      "تَكْتُبُ رِسَالَةً. - Mektup yazıyor. (kadın)",
+      "نَكْتُبُ رِسَالَةً. - Mektup yazıyoruz.",
+      "تَكْتُبُونَ رِسَالَةً. - Mektup yazıyorsunuz.",
+      "يَكْتُبُونَ رِسَالَةً. - Mektup yazıyorlar."
+    ],
+    "tips": [
+      "Muzari önekleri: أَنَا→أَ، أَنْتَ/هِيَ→تَ، هُوَ→يَ، نَحْنُ→نَ",
+      "Muzari fiil 'mu'rab'tır (i'rab alır): يَكْتُبُ (merfu), لَنْ يَكْتُبَ (mansub), لَمْ يَكْتُبْ (meczum)",
+      "Gelecek zaman için سَـ veya سَوْفَ eklenir: سَأَكْتُبُ (yazacağım)"
+    ],
+    "mistakes": [
+      "أَكْتُبُ ve يَكْتُبُ öneklerini karıştırmak",
+      "Dişil çoğul: يَكْتُبْنَ (tüm harfler sakin olmalı)"
+    ],
+    "note": "Muzari hem şimdiki hem geniş zaman için kullanılır, bağlamdan anlaşılır."
+  },
+  {
+    "topic": "أدوات النفي | Olumsuzluk Edatları",
+    "level": "A2",
+    "description": "Cümleyi olumsuz yapan edatlar ve kullanım kuralları.",
+    "pattern": "لَا + muzari (yapmiyor), لَمْ + meczum muzari (yapmadı), لَنْ + mansub muzari (yapmayacak), مَا + mazi (yapmadı), لَيْسَ + isim cümlesi (değil)",
+    "examples": [
+      "لَا أَعْرِفُ. - Bilmiyorum.",
+      "لَمْ أَفْهَمْ. - Anlamadım.",
+      "لَنْ أَذْهَبَ. - Gitmeyeceğim.",
+      "مَا كَتَبْتُ. - Yazmadım.",
+      "لَيْسَ هَذَا صَحِيحًا. - Bu doğru değil.",
+      "لَا يُوجَدُ مُشْكِلَةٌ. - Problem yok.",
+      "لَمْ يَأْتِ أَحَدٌ. - Kimse gelmedi."
+    ],
+    "tips": [
+      "لَمْ geçmiş anlam verir ama muzari fiil alır: لَمْ يَكْتُبْ (yazmadı)",
+      "لَنْ gelecek olumsuz için: لَنْ أَنْسَى (unutmayacağım)",
+      "لَيْسَ özel bir fiildir, isim cümlesini olumsuz yapar"
+    ],
+    "mistakes": [
+      "لَمْ ile mazi kullanmak: لَمْ كَتَبَ ❌ → لَمْ يَكْتُبْ ✓",
+      "لَا ile mazi kullanmak: لَا كَتَبَ ❌ → مَا كَتَبَ ✓"
+    ],
+    "note": "Olumsuzluk edatı seçimi zamanı ve cümle türünü etkiler."
+  },
+  {
+    "topic": "الأسماء الموصولة | İlgi Zamirleri",
+    "level": "B1",
+    "description": "İki cümleyi bağlayan ve bir ismi niteleyen zamirler.",
+    "pattern": "الَّذِي (erkek tekil), الَّتِي (dişil tekil), الَّذِينَ (erkek çoğul), اللَّاتِي/اللَّوَاتِي (dişil çoğul)",
+    "examples": [
+      "الرَّجُلُ الَّذِي جَاءَ أَمْسِ. - Dün gelen adam.",
+      "المَرْأَةُ الَّتِي تَعْمَلُ هُنَا. - Burada çalışan kadın.",
+      "الكِتَابُ الَّذِي قَرَأْتُهُ. - Okuduğum kitap.",
+      "الطُّلَّابُ الَّذِينَ نَجَحُوا. - Başarılı olan öğrenciler.",
+      "الأَفْكَارُ الَّتِي طَرَحْتَهَا. - Öne sürdüğün fikirler.",
+      "هَذَا مَا أُرِيدُهُ. - İstediğim şey bu. (مَا belirsiz için)"
+    ],
+    "tips": [
+      "İlgi zamiri, nitelen isimle cinsiyet ve sayıda uyuşur",
+      "Belirsiz isimler için ilgi zamiri kullanılmaz: رَجُلٌ جَاءَ (gelen bir adam)",
+      "مَا belirsiz şeyler için kullanılır: مَا قُلْتَهُ (söylediğin şey)"
+    ],
+    "mistakes": [
+      "Belirsiz isimle ilgi zamiri: رَجُلٌ الَّذِي ❌ → رَجُلٌ جَاءَ ✓",
+      "Dönüş zamiri unutmak: الكِتَابُ الَّذِي قَرَأْتُ ❌ → الكِتَابُ الَّذِي قَرَأْتُهُ ✓"
+    ],
+    "note": "İkil formlar: اللَّذَانِ (erkek ikil), اللَّتَانِ (dişil ikil)"
+  },
+  {
+    "topic": "المصدر | Mastar (İsim-Fiil)",
+    "level": "B1",
+    "description": "Fiilin isim hali. Eylemi veya durumu soyut olarak ifade eder.",
+    "pattern": "Form I kalıpları: فَعْل (darbe), فِعْل (ilim), فُعْل, فَعَال (seyahat), فِعَالَة (yazma), فُعُول (giriş) vb.",
+    "examples": [
+      "كَتَبَ ← كِتَابَة (yazma) - أُحِبُّ الكِتَابَةَ. (Yazmayı seviyorum.)",
+      "قَرَأَ ← قِرَاءَة (okuma) - القِرَاءَةُ مُفِيدَةٌ. (Okumak faydalıdır.)",
+      "ذَهَبَ ← ذَهَاب (gitme) - قَبْلَ الذَّهَابِ. (Gitmeden önce.)",
+      "عَمِلَ ← عَمَل (iş, çalışma) - العَمَلُ عِبَادَةٌ. (Çalışmak ibadettir.)",
+      "دَرَسَ ← دِرَاسَة (çalışma, öğrenim) - أُكْمِلُ دِرَاسَتِي. (Öğrenimimi tamamlıyorum.)",
+      "سَافَرَ ← سَفَر (seyahat) - السَّفَرُ مُمْتِعٌ. (Seyahat eğlenceli.)"
+    ],
+    "tips": [
+      "Her fiilin belirli bir mastar kalıbı vardır, ezberlenmeli",
+      "Türetilmiş formların mastarları düzenlidir: Form II → تَفْعِيل, Form III → فِعَال/مُفَاعَلَة",
+      "Mastar isim gibi çekime girer: الكِتَابَةُ، الكِتَابَةِ، الكِتَابَةَ"
+    ],
+    "mistakes": [
+      "Form I mastarını tahmin etmeye çalışmak - sözlükten kontrol edilmeli",
+      "Mastarı fiil gibi kullanmak: الكِتَابَةُ الدَّرْسَ ❌ → كِتَابَةُ الدَّرْسِ ✓ (izafet)"
+    ],
+    "note": "Mastar cümlenin öznesi, nesnesi veya muzafun ileyh olabilir."
+  },
+  {
+    "topic": "أوزان الفعل | Fiil Kalıpları (Forms)",
+    "level": "B1",
+    "description": "Arapça fiiller temel kökten 10 farklı kalıba göre türetilir. Her kalıp anlama belirli nüanslar katar.",
+    "pattern": "Form I: فَعَلَ | Form II: فَعَّلَ | Form III: فَاعَلَ | Form IV: أَفْعَلَ | Form V: تَفَعَّلَ | Form VI: تَفَاعَلَ | Form VII: اِنْفَعَلَ | Form VIII: اِفْتَعَلَ | Form IX: اِفْعَلَّ | Form X: اِسْتَفْعَلَ",
+    "examples": [
+      "Form I - فَعَلَ: عَلِمَ (bildi) - temel anlam",
+      "Form II - فَعَّلَ: عَلَّمَ (öğretti) - yoğunlaştırma/geçişli yapma",
+      "Form III - فَاعَلَ: كَاتَبَ (yazıştı) - karşılıklı eylem",
+      "Form IV - أَفْعَلَ: أَعْلَمَ (bildirdi) - geçişli yapma",
+      "Form V - تَفَعَّلَ: تَعَلَّمَ (öğrendi) - Form II'nin dönüşlüsü",
+      "Form VI - تَفَاعَلَ: تَكَاتَبَ (yazışıldı) - karşılıklı dönüşlü",
+      "Form VII - اِنْفَعَلَ: اِنْكَسَرَ (kırıldı) - edilgen/dönüşlü",
+      "Form VIII - اِفْتَعَلَ: اِجْتَمَعَ (toplandı) - dönüşlü",
+      "Form X - اِسْتَفْعَلَ: اِسْتَعْمَلَ (kullandı) - isteme/kabul etme"
+    ],
+    "tips": [
+      "Form II ve IV genellikle geçişli yapar",
+      "Form V ve VI, II ve III'ün dönüşlü/edilgen halleridir",
+      "Form VII ve VIII edilgen veya dönüşlü anlam katar",
+      "Form X 'talep etme' veya 'olarak kabul etme' anlamı katar"
+    ],
+    "mistakes": [
+      "Her kökün 10 formda da kullanıldığını varsaymak - bazı formlar bazı köklerde yoktur",
+      "Form IX yalnızca renk/kusur fiilleri için: اِحْمَرَّ (kızardı), اِسْوَدَّ (siyahlaştı)"
+    ],
+    "note": "Türetilmiş formların mastarları, ism-i fail ve ism-i mef'ulleri düzenli kalıplara sahiptir."
+  }
+]

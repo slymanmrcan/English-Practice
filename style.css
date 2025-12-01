@@ -43,6 +43,42 @@ body {
   font-size: 22px;
 }
 
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.arabic-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background: linear-gradient(120deg, rgba(201, 162, 39, 0.2), rgba(201, 162, 39, 0.1));
+  border: 1px solid rgba(201, 162, 39, 0.5);
+  border-radius: 10px;
+  color: #e8c547;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.arabic-link:hover {
+  background: linear-gradient(120deg, rgba(201, 162, 39, 0.3), rgba(201, 162, 39, 0.15));
+  border-color: rgba(201, 162, 39, 0.8);
+  box-shadow: 0 4px 12px rgba(201, 162, 39, 0.2);
+}
+
+.arabic-link small {
+  font-size: 11px;
+  color: #9ca3af;
+  font-weight: 400;
+}
+
 .control-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
