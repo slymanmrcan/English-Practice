@@ -403,6 +403,51 @@
         {"ar": "أُرِيدُ", "tr": "İstiyorum", "translit": "urîdu", "reply": "-"},
         {"ar": "مَعَ السَّلَامَةِ", "tr": "Güle güle", "translit": "mea's-selâme", "reply": "إِلَى اللِّقَاءِ"}
       ]
+    },
+    {
+      "id": "learning-path",
+      "title": "Öğrenme Yolu",
+      "titleAr": "طريق التعلم",
+      "content": [
+        {
+          "heading": "🎯 Bu Uygulamada Ne Var?",
+          "list": [
+            "📌 TEMEL KONULAR: Zamirler, işaret isimleri, renkler, sayılar, soru kelimeleri",
+            "📌 SARF (Kelime Bilgisi): Fiil çekimleri, vezinler, kök sistemi",
+            "📌 NAHİV (Cümle Bilgisi): İsim cümlesi, fiil cümlesi, irab kuralları",
+            "📌 ARAÇLAR: Kök arama, vezin tabloları, İslami terimler"
+          ]
+        },
+        {
+          "heading": "⚠️ EN ÖNEMLİ KONU: Fiil Sistemi",
+          "text": "Arapça'yı öğrenmenin anahtarı FİİL SİSTEMİ'ni anlamaktır. Fiiller 3 harfli köklerden türer ve 6 farklı bab'a (kalıba) ayrılır. Her bab'da muzari (şimdiki zaman) harekesi farklıdır!"
+        },
+        {
+          "heading": "6 Bab Özeti",
+          "list": [
+            "1️⃣ Bab: فَعَلَ → يَفْعُلُ (dammeli) — نَصَرَ → يَنْصُرُ",
+            "2️⃣ Bab: فَعَلَ → يَفْعِلُ (kesreli) — ضَرَبَ → يَضْرِبُ", 
+            "3️⃣ Bab: فَعَلَ → يَفْعَلُ (fethali) — فَتَحَ → يَفْتَحُ",
+            "4️⃣ Bab: فَعِلَ → يَفْعَلُ — عَلِمَ → يَعْلَمُ",
+            "5️⃣ Bab: فَعُلَ → يَفْعُلُ — كَرُمَ → يَكْرُمُ",
+            "6️⃣ Bab: فَعِلَ → يَفْعِلُ — حَسِبَ → يَحْسِبُ"
+          ]
+        },
+        {
+          "heading": "💡 Neden Önemli?",
+          "text": "Bir fiili sözlükte 'كَتَبَ - يَكْتُبُ' olarak görürsün. Bu 'yazdı - yazıyor' demek. İkisini birlikte ezberlemen gerekir çünkü muzari harekesi mazi'den tahmin edilemez!"
+        },
+        {
+          "heading": "📚 Nereden Başlamalı?",
+          "list": [
+            "1. Temel Konular → Zamirler (أنا، أنت، هو...)",
+            "2. Gramer → Fiil Sistemi Özeti",
+            "3. Emsile → 6 Bab detaylı çekimler",
+            "4. Sarf Dersleri → Türetilmiş fiiller (Mezid)",
+            "5. Nahiv → Cümle yapısı"
+          ]
+        }
+      ]
     }
   ]
 }

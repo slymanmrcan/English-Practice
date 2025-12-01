@@ -1,5 +1,42 @@
 [
   {
+    "topic": "نظام الأفعال | Fiil Sistemi Özeti",
+    "level": "A1-B1",
+    "description": "Arapça'da fiiller kök harflerine ve muzari kalıbına göre sınıflandırılır. Bu sistemi anlamak tüm fiilleri öğrenmenin anahtarıdır.",
+    "pattern": "3 harfli kök (ك-ت-ب) → Mazi (كَتَبَ yazdı) → Muzari (يَكْتُبُ yazıyor) → Emir (اُكْتُبْ yaz!)",
+    "examples": [
+      "📌 FİİLLER HARF SAYISINA GÖRE:",
+      "• Sülasi (3 harfli): كَتَبَ (k-t-b), ذَهَبَ (z-h-b), أَكَلَ (e-k-l)",
+      "• Rubai (4 harfli): تَرْجَمَ (tercüme etti), زَلْزَلَ (sarstı)",
+      "• Humasi (5 harfli): اِسْتَخْرَجَ (çıkardı), اِسْتَغْفَرَ (af diledi)",
+      "",
+      "📌 SÜLASİ FİİLLERİN 6 BABI (Muzari farkı!):",
+      "Bab 1: فَعَلَ → يَفْعُلُ (u) | نَصَرَ → يَنْصُرُ (yardım etti)",
+      "Bab 2: فَعَلَ → يَفْعِلُ (i) | ضَرَبَ → يَضْرِبُ (vurdu)",
+      "Bab 3: فَعَلَ → يَفْعَلُ (a) | فَتَحَ → يَفْتَحُ (açtı)",
+      "Bab 4: فَعِلَ → يَفْعَلُ (a) | عَلِمَ → يَعْلَمُ (bildi)",
+      "Bab 5: فَعُلَ → يَفْعُلُ (u) | كَرُمَ → يَكْرُمُ (cömert oldu)",
+      "Bab 6: فَعِلَ → يَفْعِلُ (i) | حَسِبَ → يَحْسِبُ (sandı)",
+      "",
+      "📌 NEDEN 6 BAB ÖNEMLİ?",
+      "Aynı mazi kalıbı فَعَلَ olsa bile, muzari'de ortadaki harfin harekesi (u/i/a) değişir!",
+      "Bu yüzden sözlükte fiil hem mazi hem muzari olarak verilir: كَتَبَ - يَكْتُبُ"
+    ],
+    "tips": [
+      "Her fiili öğrenirken mutlaka mazi + muzari birlikte ezberle",
+      "Bab 1-3: Mazi'de ayn harfi fethali (فَعَلَ), muzari'de u/i/a",
+      "Bab 4-6: Mazi'de ayn harfi kesreli/dammeli (فَعِلَ/فَعُلَ)",
+      "Sözlüklerde genelde: كَتَبَ (يَكْتُبُ) كِتَابَةً şeklinde yazılır",
+      "Türetilmiş fiiller (mezid bablar): II-X. bablar var → Bina konusu"
+    ],
+    "mistakes": [
+      "كَتَبَ fiilinin muzari'sini يَكْتَبُ sanmak ❌ → يَكْتُبُ ✓ (dammeli)",
+      "شَرِبَ (içti) muzari'sini يَشْرِبُ sanmak ❌ → يَشْرَبُ ✓ (4. bab)",
+      "Bab'ı bilmeden fiil çekmeye çalışmak"
+    ],
+    "note": "Emsile bölümünde her babın detaylı çekimleri var. Maksud bölümünde ise illetli (hasta harfli) fiillerin farklı çekimleri anlatılıyor."
+  },
+  {
     "topic": "الحروف العربية | Arap Harfleri",
     "level": "A1",
     "description": "Arapça 28 harften oluşur. Harfler sağdan sola yazılır ve çoğu harf kelime içindeki konumuna göre farklı biçimler alır.",
