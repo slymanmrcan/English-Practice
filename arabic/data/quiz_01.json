@@ -1,0 +1,468 @@
+{
+  "meta": {
+    "title": "Arapça Quiz | اختبار العربية",
+    "description": "A1-A2 seviye kelime ve gramer testi",
+    "totalQuestions": 50
+  },
+  "categories": [
+    {
+      "id": "vocab",
+      "name": "Kelime Bilgisi",
+      "nameAr": "المفردات",
+      "questions": [
+        {
+          "id": 1,
+          "type": "meaning",
+          "question": "كِتَاب ne demek?",
+          "questionAr": "ما معنى كِتَاب؟",
+          "options": ["Kalem", "Kitap", "Masa", "Sandalye"],
+          "answer": 1,
+          "level": "A1"
+        },
+        {
+          "id": 2,
+          "type": "meaning",
+          "question": "ذَهَبَ ne demek?",
+          "questionAr": "ما معنى ذَهَبَ؟",
+          "options": ["Geldi", "Gitti", "Oturdu", "Kalktı"],
+          "answer": 1,
+          "level": "A1"
+        },
+        {
+          "id": 3,
+          "type": "meaning",
+          "question": "جَمِيل ne demek?",
+          "questionAr": "ما معنى جَمِيل؟",
+          "options": ["Çirkin", "Büyük", "Güzel", "Küçük"],
+          "answer": 2,
+          "level": "A1"
+        },
+        {
+          "id": 4,
+          "type": "translate",
+          "question": "'Su' Arapça'da nasıl denir?",
+          "options": ["طَعَام", "مَاء", "لَبَن", "شَاي"],
+          "answer": 1,
+          "level": "A1"
+        },
+        {
+          "id": 5,
+          "type": "translate",
+          "question": "'Anne' Arapça'da nasıl denir?",
+          "options": ["أَب", "أَخ", "أُمّ", "عَمّ"],
+          "answer": 2,
+          "level": "A1"
+        },
+        {
+          "id": 6,
+          "type": "meaning",
+          "question": "أَكَلَ ne demek?",
+          "options": ["İçti", "Yedi", "Uyudu", "Gördü"],
+          "answer": 1,
+          "level": "A1"
+        },
+        {
+          "id": 7,
+          "type": "meaning",
+          "question": "سَمِعَ ne demek?",
+          "options": ["Gördü", "Duydu", "Söyledi", "Yazdı"],
+          "answer": 1,
+          "level": "A1"
+        },
+        {
+          "id": 8,
+          "type": "translate",
+          "question": "'Ev' Arapça'da nasıl denir?",
+          "options": ["غُرْفَة", "بَيْت", "بَاب", "نَافِذَة"],
+          "answer": 1,
+          "level": "A1"
+        },
+        {
+          "id": 9,
+          "type": "meaning",
+          "question": "كَبِير ne demek?",
+          "options": ["Küçük", "Uzun", "Büyük", "Kısa"],
+          "answer": 2,
+          "level": "A1"
+        },
+        {
+          "id": 10,
+          "type": "meaning",
+          "question": "صَعْب ne demek?",
+          "options": ["Kolay", "Zor", "Hızlı", "Yavaş"],
+          "answer": 1,
+          "level": "A1"
+        }
+      ]
+    },
+    {
+      "id": "pronouns",
+      "name": "Zamirler",
+      "nameAr": "الضمائر",
+      "questions": [
+        {
+          "id": 11,
+          "type": "meaning",
+          "question": "أَنَا ne demek?",
+          "options": ["Sen", "O", "Ben", "Biz"],
+          "answer": 2,
+          "level": "A1"
+        },
+        {
+          "id": 12,
+          "type": "meaning",
+          "question": "هُوَ ne demek?",
+          "options": ["O (erkek)", "O (kadın)", "Onlar", "Biz"],
+          "answer": 0,
+          "level": "A1"
+        },
+        {
+          "id": 13,
+          "type": "meaning",
+          "question": "نَحْنُ ne demek?",
+          "options": ["Ben", "Sen", "Biz", "Siz"],
+          "answer": 2,
+          "level": "A1"
+        },
+        {
+          "id": 14,
+          "type": "translate",
+          "question": "'Sen (erkek)' Arapça'da nasıl denir?",
+          "options": ["أَنَا", "أَنْتَ", "أَنْتِ", "هُوَ"],
+          "answer": 1,
+          "level": "A1"
+        },
+        {
+          "id": 15,
+          "type": "translate",
+          "question": "'O (kadın)' Arapça'da nasıl denir?",
+          "options": ["هُوَ", "هِيَ", "هُمْ", "هُنَّ"],
+          "answer": 1,
+          "level": "A1"
+        }
+      ]
+    },
+    {
+      "id": "verbs",
+      "name": "Fiil Çekimi",
+      "nameAr": "تصريف الأفعال",
+      "questions": [
+        {
+          "id": 16,
+          "type": "conjugation",
+          "question": "كَتَبَ fiilinin muzarisi nedir?",
+          "options": ["يَكْتُبُ", "يَكْتَبُ", "يَكْتِبُ", "كَاتِب"],
+          "answer": 0,
+          "level": "A2"
+        },
+        {
+          "id": 17,
+          "type": "conjugation",
+          "question": "ذَهَبَ fiilinin muzarisi nedir?",
+          "options": ["يَذْهَبُ", "يَذْهُبُ", "يَذْهِبُ", "ذَاهِب"],
+          "answer": 0,
+          "level": "A2"
+        },
+        {
+          "id": 18,
+          "type": "conjugation",
+          "question": "فَتَحَ fiili hangi bab'dan?",
+          "options": ["1. Bab (يَفْعُلُ)", "2. Bab (يَفْعِلُ)", "3. Bab (يَفْعَلُ)", "4. Bab"],
+          "answer": 2,
+          "level": "A2"
+        },
+        {
+          "id": 19,
+          "type": "conjugation",
+          "question": "نَصَرَ fiili hangi bab'dan?",
+          "options": ["1. Bab (يَفْعُلُ)", "2. Bab (يَفْعِلُ)", "3. Bab (يَفْعَلُ)", "4. Bab"],
+          "answer": 0,
+          "level": "A2"
+        },
+        {
+          "id": 20,
+          "type": "conjugation",
+          "question": "ضَرَبَ fiilinin muzarisi nedir?",
+          "options": ["يَضْرُبُ", "يَضْرَبُ", "يَضْرِبُ", "ضَارِب"],
+          "answer": 2,
+          "level": "A2"
+        },
+        {
+          "id": 21,
+          "type": "conjugation",
+          "question": "'Ben yazdım' Arapça'da nasıl denir?",
+          "options": ["كَتَبَ", "كَتَبْتُ", "كَتَبْتَ", "كَتَبْنَا"],
+          "answer": 1,
+          "level": "A2"
+        },
+        {
+          "id": 22,
+          "type": "conjugation",
+          "question": "'O (erkek) gidiyor' Arapça'da nasıl denir?",
+          "options": ["ذَهَبَ", "يَذْهَبُ", "تَذْهَبُ", "أَذْهَبُ"],
+          "answer": 1,
+          "level": "A2"
+        },
+        {
+          "id": 23,
+          "type": "conjugation",
+          "question": "'Yaz!' (emir) Arapça'da nasıl denir?",
+          "options": ["كَتَبَ", "يَكْتُبُ", "اُكْتُبْ", "كَاتِب"],
+          "answer": 2,
+          "level": "A2"
+        }
+      ]
+    },
+    {
+      "id": "grammar",
+      "name": "Gramer",
+      "nameAr": "النحو",
+      "questions": [
+        {
+          "id": 24,
+          "type": "grammar",
+          "question": "Aşağıdakilerden hangisi isim cümlesidir?",
+          "options": ["ذَهَبَ الوَلَدُ", "الوَلَدُ ذَكِيٌّ", "يَذْهَبُ الوَلَدُ", "اِذْهَبْ"],
+          "answer": 1,
+          "level": "A2"
+        },
+        {
+          "id": 25,
+          "type": "grammar",
+          "question": "'الكِتَابُ' kelimesinde ال ne işe yarar?",
+          "options": ["Çoğul yapar", "Belirlilik katar", "Soru yapar", "Olumsuz yapar"],
+          "answer": 1,
+          "level": "A1"
+        },
+        {
+          "id": 26,
+          "type": "grammar",
+          "question": "Harf-i cerden sonra isim hangi halde olur?",
+          "options": ["Merfu", "Mansub", "Mecrur", "Meczum"],
+          "answer": 2,
+          "level": "A2"
+        },
+        {
+          "id": 27,
+          "type": "grammar",
+          "question": "'فِي البَيْتِ' ne demek?",
+          "options": ["Evden", "Eve", "Evde", "Ev ile"],
+          "answer": 2,
+          "level": "A1"
+        },
+        {
+          "id": 28,
+          "type": "grammar",
+          "question": "'مِنَ المَدْرَسَةِ' ne demek?",
+          "options": ["Okulda", "Okula", "Okuldan", "Okul için"],
+          "answer": 2,
+          "level": "A1"
+        },
+        {
+          "id": 29,
+          "type": "grammar",
+          "question": "Olumsuzluk için hangi edat kullanılır (muzari)?",
+          "options": ["مَا", "لَا", "لَمْ", "Hepsi"],
+          "answer": 1,
+          "level": "A2"
+        },
+        {
+          "id": 30,
+          "type": "grammar",
+          "question": "'لَمْ يَذْهَبْ' ne demek?",
+          "options": ["Gitmeyecek", "Gitmedi", "Gitmiyor", "Gitmeyecek mi?"],
+          "answer": 1,
+          "level": "A2"
+        }
+      ]
+    },
+    {
+      "id": "questions",
+      "name": "Soru Kelimeleri",
+      "nameAr": "أدوات الاستفهام",
+      "questions": [
+        {
+          "id": 31,
+          "type": "meaning",
+          "question": "مَا ne demek?",
+          "options": ["Kim", "Ne", "Nerede", "Ne zaman"],
+          "answer": 1,
+          "level": "A1"
+        },
+        {
+          "id": 32,
+          "type": "meaning",
+          "question": "مَنْ ne demek?",
+          "options": ["Ne", "Kim", "Neden", "Nasıl"],
+          "answer": 1,
+          "level": "A1"
+        },
+        {
+          "id": 33,
+          "type": "meaning",
+          "question": "أَيْنَ ne demek?",
+          "options": ["Ne zaman", "Nasıl", "Nerede", "Neden"],
+          "answer": 2,
+          "level": "A1"
+        },
+        {
+          "id": 34,
+          "type": "meaning",
+          "question": "كَيْفَ ne demek?",
+          "options": ["Kaç", "Nasıl", "Ne", "Neden"],
+          "answer": 1,
+          "level": "A1"
+        },
+        {
+          "id": 35,
+          "type": "meaning",
+          "question": "لِمَاذَا ne demek?",
+          "options": ["Nasıl", "Ne zaman", "Neden", "Nerede"],
+          "answer": 2,
+          "level": "A1"
+        }
+      ]
+    },
+    {
+      "id": "sentences",
+      "name": "Cümle Kurma",
+      "nameAr": "تكوين الجمل",
+      "questions": [
+        {
+          "id": 36,
+          "type": "complete",
+          "question": "الطَّالِبُ _____ (öğrenci zeki)",
+          "options": ["ذَكِيٌّ", "ذَكِيًّا", "ذَكِيٍّ", "الذَّكِيّ"],
+          "answer": 0,
+          "level": "A2"
+        },
+        {
+          "id": 37,
+          "type": "complete",
+          "question": "ذَهَبْتُ إِلَى _____ (okula gittim)",
+          "options": ["المَدْرَسَةُ", "المَدْرَسَةِ", "المَدْرَسَةَ", "مَدْرَسَةٌ"],
+          "answer": 1,
+          "level": "A2"
+        },
+        {
+          "id": 38,
+          "type": "complete",
+          "question": "قَرَأْتُ _____ (bir kitap okudum)",
+          "options": ["كِتَابٌ", "الكِتَابُ", "كِتَابًا", "كِتَابٍ"],
+          "answer": 2,
+          "level": "A2"
+        },
+        {
+          "id": 39,
+          "type": "complete",
+          "question": "هَذَا _____ جَدِيدٌ (bu yeni bir kitap)",
+          "options": ["كِتَابٌ", "الكِتَابُ", "كِتَابًا", "كِتَابٍ"],
+          "answer": 0,
+          "level": "A2"
+        },
+        {
+          "id": 40,
+          "type": "complete",
+          "question": "الوَلَدُ _____ المَدْرَسَةِ (çocuk okulda)",
+          "options": ["فِي", "مِنْ", "إِلَى", "عَلَى"],
+          "answer": 0,
+          "level": "A1"
+        }
+      ]
+    },
+    {
+      "id": "numbers",
+      "name": "Sayılar",
+      "nameAr": "الأعداد",
+      "questions": [
+        {
+          "id": 41,
+          "type": "meaning",
+          "question": "وَاحِد ne demek?",
+          "options": ["İki", "Bir", "Üç", "Sıfır"],
+          "answer": 1,
+          "level": "A1"
+        },
+        {
+          "id": 42,
+          "type": "meaning",
+          "question": "خَمْسَة ne demek?",
+          "options": ["Dört", "Altı", "Beş", "Yedi"],
+          "answer": 2,
+          "level": "A1"
+        },
+        {
+          "id": 43,
+          "type": "meaning",
+          "question": "عَشَرَة ne demek?",
+          "options": ["Yedi", "Sekiz", "Dokuz", "On"],
+          "answer": 3,
+          "level": "A1"
+        },
+        {
+          "id": 44,
+          "type": "translate",
+          "question": "'Yirmi' Arapça'da nasıl denir?",
+          "options": ["ثَلَاثُونَ", "عِشْرُونَ", "أَرْبَعُونَ", "خَمْسُونَ"],
+          "answer": 1,
+          "level": "A1"
+        },
+        {
+          "id": 45,
+          "type": "translate",
+          "question": "'Yüz' Arapça'da nasıl denir?",
+          "options": ["أَلْف", "مِئَة", "مِلْيُون", "عَشَرَة"],
+          "answer": 1,
+          "level": "A1"
+        }
+      ]
+    },
+    {
+      "id": "phrases",
+      "name": "Günlük İfadeler",
+      "nameAr": "عبارات يومية",
+      "questions": [
+        {
+          "id": 46,
+          "type": "meaning",
+          "question": "السَّلَامُ عَلَيْكُمْ ne demek?",
+          "options": ["Günaydın", "Selam üzerinize olsun", "İyi geceler", "Güle güle"],
+          "answer": 1,
+          "level": "A1"
+        },
+        {
+          "id": 47,
+          "type": "meaning",
+          "question": "صَبَاحُ الخَيْرِ ne demek?",
+          "options": ["İyi akşamlar", "İyi geceler", "Günaydın", "Merhaba"],
+          "answer": 2,
+          "level": "A1"
+        },
+        {
+          "id": 48,
+          "type": "meaning",
+          "question": "شُكْرًا ne demek?",
+          "options": ["Lütfen", "Özür dilerim", "Teşekkürler", "Rica ederim"],
+          "answer": 2,
+          "level": "A1"
+        },
+        {
+          "id": 49,
+          "type": "meaning",
+          "question": "كَيْفَ حَالُكَ؟ ne demek?",
+          "options": ["Adın ne?", "Nerelisin?", "Nasılsın?", "Ne istiyorsun?"],
+          "answer": 2,
+          "level": "A1"
+        },
+        {
+          "id": 50,
+          "type": "translate",
+          "question": "'Evet' Arapça'da nasıl denir?",
+          "options": ["لَا", "نَعَمْ", "رُبَّمَا", "أَيْضًا"],
+          "answer": 1,
+          "level": "A1"
+        }
+      ]
+    }
+  ]
+}

@@ -401,5 +401,89 @@
       "غَيْر'i mansub yapmamak (müstesna yerine)"
     ],
     "note": "إِلَّا'dan sonraki i'rab cümle türüne göre değişir, kuralları dikkatle çalışılmalı."
+  },
+  {
+    "topic": "حروف الجر | Harf-i Cerler",
+    "level": "A1",
+    "category": "nahiv",
+    "description": "İsimleri mecrur (esreli) yapan edatlar. Türkçe'deki -de, -den, -e, ile gibi eklerin karşılığı.",
+    "pattern": "حَرْف جَرّ + اِسْم مَجْرُور: فِي البَيْتِ (evde), مِنَ المَدْرَسَةِ (okuldan)",
+    "examples": [
+      "فِي (içinde, -de): الكِتَابُ فِي الحَقِيبَةِ. (Kitap çantada.)",
+      "مِنْ (den, -dan): خَرَجْتُ مِنَ البَيْتِ. (Evden çıktım.)",
+      "إِلَى (e, -a, doğru): ذَهَبْتُ إِلَى المَدْرَسَةِ. (Okula gittim.)",
+      "عَلَى (üzerinde, -de): الكِتَابُ عَلَى المَكْتَبِ. (Kitap masanın üstünde.)",
+      "عَنْ (hakkında, -den): سَأَلْتُ عَنِ الدَّرْسِ. (Ders hakkında sordum.)",
+      "بِـ (ile, -da): كَتَبْتُ بِالقَلَمِ. (Kalemle yazdım.)",
+      "لِـ (için, -e): هَذَا لَكَ. (Bu senin için.)",
+      "كَـ (gibi): أَنْتَ كَالأَسَدِ. (Sen aslan gibisin.)",
+      "حَتَّى (kadar, -e dek): مِنَ الصَّبَاحِ حَتَّى المَسَاءِ. (Sabahtan akşama kadar.)"
+    ],
+    "tips": [
+      "Harf-i cerden sonra gelen isim mutlaka mecrur olur (kesra/esre)",
+      "Zamirler harf-i cerlere bitişir: لِي (benim için), بِهِ (onunla), مِنْهَا (ondan)",
+      "مِنْ bazen 'bazı' anlamı verir: مِنَ الطُّلَّابِ (öğrencilerden bazısı)",
+      "بِـ bazen yemin için kullanılır: بِاللهِ (Allah'a yemin ederim)"
+    ],
+    "mistakes": [
+      "Harf-i cerden sonra merfu bırakmak: فِي البَيْتُ ❌ → فِي البَيْتِ ✓",
+      "Zamiri ayrı yazmak: مِنْ هُ ❌ → مِنْهُ ✓"
+    ],
+    "note": "Harf-i cerler mebnidirler, kendileri i'rab almaz ama sonrasını etkilerler."
+  },
+  {
+    "topic": "الاسم الموصول | İsm-i Mevsul",
+    "level": "A2",
+    "category": "nahiv",
+    "description": "İlgi zamiri. 'Ki o, olan, -en' anlamları verir. Sıla cümlesiyle tamamlanır.",
+    "pattern": "اِسْم مَوْصُول + صِلَة (sıla cümlesi içinde عَائِد zamir): الَّذِي كَتَبَهُ (yazdığı şey)",
+    "examples": [
+      "الَّذِي (erkek tekil): جَاءَ الرَّجُلُ الَّذِي رَأَيْتُهُ. (Gördüğüm adam geldi.)",
+      "الَّتِي (dişi tekil): قَرَأْتُ القِصَّةَ الَّتِي كَتَبَتْهَا. (Yazdığı hikayeyi okudum.)",
+      "الَّذِينَ (erkek çoğul): الطُّلَّابُ الَّذِينَ نَجَحُوا (Başaran öğrenciler)",
+      "اللَّاتِي/اللَّوَاتِي (dişi çoğul): النِّسَاءُ اللَّاتِي حَضَرْنَ (Gelen kadınlar)",
+      "اللَّذَانِ (erkek ikil): الوَلَدَانِ اللَّذَانِ سَافَرَا (Seyahat eden iki çocuk)",
+      "مَنْ (akıllı varlıklar): أُحِبُّ مَنْ يُحِبُّنِي. (Beni seveni severim.)",
+      "مَا (akılsız): خُذْ مَا تَشَاءُ. (İstediğini al.)"
+    ],
+    "tips": [
+      "İsm-i mevsul marife'dir, ondan önce gelen isim de marife olmalı",
+      "Sıla cümlesinde mevsul'e dönen zamir (عَائِد) bulunmalı",
+      "مَنْ ve مَا mebnidirler, akıllı/akılsız ayrımı yaparlar",
+      "مَا bazen masdariyye olur: أَعْجَبَنِي مَا كَتَبْتَ (yazdığın hoşuma gitti)"
+    ],
+    "mistakes": [
+      "Sılada zamir koymamak: الكِتَابُ الَّذِي قَرَأْتُ ❌ → الَّذِي قَرَأْتُهُ ✓",
+      "Nekire isimden sonra mevsul getirmek (sıfat cümlesi olur)"
+    ],
+    "note": "Mevsul + sıla = sıfat görevi görür: الطَّالِبُ الَّذِي نَجَحَ = başaran öğrenci"
+  },
+  {
+    "topic": "الإضافة | İzafet (Tamlama)",
+    "level": "A2",
+    "category": "nahiv",
+    "description": "İki ismin birleşmesi. Birinci isim muzaf, ikinci muzafun ileyh olur.",
+    "pattern": "مُضَاف (tenvinsiz) + مُضَاف إِلَيْهِ (mecrur): بَابُ البَيْتِ (evin kapısı)",
+    "examples": [
+      "كِتَابُ الطَّالِبِ (öğrencinin kitabı) - mülkiyet izafeti",
+      "بَابُ خَشَبٍ (tahta kapı) - tür izafeti",
+      "صَلَاةُ الفَجْرِ (sabah namazı) - zaman izafeti",
+      "سَفَرُ الحَجِّ (hac yolculuğu) - amaç izafeti",
+      "قَلَمُ الكِتَابَةِ (yazı kalemi) - işlev izafeti",
+      "كُلُّ طَالِبٍ (her öğrenci) - كُلّ ile izafet",
+      "بَعْضُ الكُتُبِ (kitapların bazısı) - بَعْض ile izafet"
+    ],
+    "tips": [
+      "Muzaf asla tenvin ve ال almaz",
+      "Muzafun ileyh daima mecrur olur",
+      "Muzaf, muzafun ileyh sayesinde marife olur",
+      "كُلّ، بَعْض، غَيْر، مِثْل gibi kelimeler izafete çok girer"
+    ],
+    "mistakes": [
+      "Muzafa tenvin vermek: كِتَابٌ الطَّالِبِ ❌ → كِتَابُ الطَّالِبِ ✓",
+      "Muzafa ال koymak: الكِتَابُ الطَّالِبِ ❌",
+      "Muzafun ileyhi merfu bırakmak"
+    ],
+    "note": "Sıfat muzaftan sonra gelir ve muzafa uyar: كِتَابُ الطَّالِبِ الجَدِيدُ (öğrencinin yeni kitabı)"
   }
 ]

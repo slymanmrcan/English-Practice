@@ -22,7 +22,7 @@ const App = {
   
   async loadAllData() {
     const files = [
-      'intro_01', 'vocab_01', 'grammar_01',
+      'intro_01', 'vocab_01', 'grammar_01', 'quiz_01',
       'pronouns_01', 'demonstratives_01', 'colors_01', 'numbers_01', 'questions_01',
       'emsile_01', 'bina_01', 'maksud_01', 'sarf_01', 'nahiv_01',
       'islamic_terms_01', 'islamic_basics_01'
@@ -71,7 +71,8 @@ const App = {
       grammar: { title: 'Gramer', dataKey: 'grammar_01', render: this.renderGrammar },
       roots: { title: 'Kök Ara', dataKey: 'vocab_01', render: this.renderRoots },
       patterns: { title: 'Veznler', dataKey: 'emsile_01', render: this.renderPatterns },
-      islamic: { title: 'İslami Terimler', dataKey: 'islamic_terms_01', render: this.renderIslamic }
+      islamic: { title: 'İslami Terimler', dataKey: 'islamic_terms_01', render: this.renderIslamic },
+      quiz: { title: 'Quiz', dataKey: 'quiz_01', render: this.renderQuiz }
     };
     
     const config = panels[panel];
@@ -498,6 +499,162 @@ const App = {
     let items = Array.isArray(data) ? data : (data.terms || data.items || []);
     if (items.length === 0) { container.innerHTML = '<div class="placeholder">Veri bulunamadı</div>'; return; }
     container.innerHTML = `<div class="list">${items.map(t => `<div class="list-item"><div><div class="list-ar">${t.arabic || t.word || ''}</div><div class="list-tr">${t.turkish || t.meaning_tr || ''}</div></div></div>`).join('')}</div>`;
+  },
+  
+  // Quiz State
+  quizState: {
+    currentCategory: null,
+    currentQuestion: 0,
+    score: 0,
+    answered: false,
+    questions: []
+  },
+  
+  renderQuiz(data, container) {
+    if (!data || !data.categories) {
+      container.innerHTML = '<div class="placeholder">Quiz verisi bulunamadı</div>';
+      return;
+    }
+    
+    // Kategori seçim ekranı
+    let html = `
+      <div class="section">
+        <div class="section-title">🧪 Arapça Quiz</div>
+        <p style="color: var(--text-dim); margin-bottom: 20px;">Bir kategori seç ve bilgini test et!</p>
+      </div>
+      <div class="grid">
+    `;
+    
+    data.categories.forEach(cat => {
+      html += `
+        <div class="card quiz-category" data-category="${cat.id}" onclick="App.startQuiz('${cat.id}')" style="cursor: pointer;">
+          <div class="card-title">${cat.nameAr}</div>
+          <div class="card-sub">${cat.name}</div>
+          <div style="font-size: 12px; color: var(--text-dim); margin-top: 8px;">${cat.questions.length} soru</div>
+        </div>
+      `;
+    });
+    
+    html += '</div>';
+    container.innerHTML = html;
+  },
+  
+  startQuiz(categoryId) {
+    const data = this.data.quiz_01;
+    const category = data.categories.find(c => c.id === categoryId);
+    if (!category) return;
+    
+    // Soruları karıştır
+    this.quizState = {
+      currentCategory: category,
+      currentQuestion: 0,
+      score: 0,
+      answered: false,
+      questions: [...category.questions].sort(() => Math.random() - 0.5).slice(0, 10)
+    };
+    
+    this.showQuizQuestion();
+  },
+  
+  showQuizQuestion() {
+    const { questions, currentQuestion, score } = this.quizState;
+    const container = document.getElementById('content');
+    
+    if (currentQuestion >= questions.length) {
+      this.showQuizResult();
+      return;
+    }
+    
+    const q = questions[currentQuestion];
+    const progress = ((currentQuestion) / questions.length) * 100;
+    
+    let html = `
+      <div class="quiz-container">
+        <div class="quiz-header">
+          <div class="quiz-progress">
+            <div class="quiz-progress-bar" style="width: ${progress}%"></div>
+          </div>
+          <div class="quiz-info">
+            <span>Soru ${currentQuestion + 1}/${questions.length}</span>
+            <span>Skor: ${score}</span>
+          </div>
+        </div>
+        
+        <div class="quiz-question">
+          <div class="quiz-q-text">${q.question}</div>
+          ${q.questionAr ? `<div class="quiz-q-ar">${q.questionAr}</div>` : ''}
+        </div>
+        
+        <div class="quiz-options">
+    `;
+    
+    q.options.forEach((opt, i) => {
+      html += `
+        <button class="quiz-option" data-index="${i}" onclick="App.checkAnswer(${i})">
+          <span class="quiz-option-letter">${String.fromCharCode(65 + i)}</span>
+          <span class="quiz-option-text">${opt}</span>
+        </button>
+      `;
+    });
+    
+    html += `
+        </div>
+      </div>
+    `;
+    
+    container.innerHTML = html;
+    this.quizState.answered = false;
+  },
+  
+  checkAnswer(selectedIndex) {
+    if (this.quizState.answered) return;
+    this.quizState.answered = true;
+    
+    const q = this.quizState.questions[this.quizState.currentQuestion];
+    const correct = q.answer === selectedIndex;
+    
+    if (correct) this.quizState.score++;
+    
+    const options = document.querySelectorAll('.quiz-option');
+    options.forEach((opt, i) => {
+      opt.style.pointerEvents = 'none';
+      if (i === q.answer) {
+        opt.classList.add('correct');
+      } else if (i === selectedIndex && !correct) {
+        opt.classList.add('wrong');
+      }
+    });
+    
+    setTimeout(() => {
+      this.quizState.currentQuestion++;
+      this.showQuizQuestion();
+    }, 1200);
+  },
+  
+  showQuizResult() {
+    const { score, questions, currentCategory } = this.quizState;
+    const container = document.getElementById('content');
+    const percentage = Math.round((score / questions.length) * 100);
+    
+    let emoji = '😢';
+    let message = 'Daha fazla çalışman gerek!';
+    if (percentage >= 90) { emoji = '🏆'; message = 'Mükemmel! Harikasın!'; }
+    else if (percentage >= 70) { emoji = '😊'; message = 'Çok iyi! Aferin!'; }
+    else if (percentage >= 50) { emoji = '🙂'; message = 'İyi! Biraz daha çalış!'; }
+    
+    container.innerHTML = `
+      <div class="quiz-result">
+        <div class="quiz-result-emoji">${emoji}</div>
+        <div class="quiz-result-score">${score}/${questions.length}</div>
+        <div class="quiz-result-percent">%${percentage}</div>
+        <div class="quiz-result-message">${message}</div>
+        <div class="quiz-result-category">${currentCategory.name}</div>
+        <div class="quiz-buttons">
+          <button class="quiz-btn" onclick="App.startQuiz('${currentCategory.id}')">Tekrar Dene</button>
+          <button class="quiz-btn secondary" onclick="App.showPanel('quiz')">Kategoriler</button>
+        </div>
+      </div>
+    `;
   }
 };
 

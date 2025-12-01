@@ -476,5 +476,667 @@
       "options": ["Merhaba", "Güle güle", "Teşekkürler", "Lütfen"],
       "answer": 1
     }
+  },
+  {
+    "word": "أَكَلَ",
+    "transliteration": "akala",
+    "level": "A1",
+    "pos": "verb",
+    "root": "أ ك ل",
+    "pattern": "فَعَلَ - يَفْعُلُ",
+    "definition_tr": "Yemek yemek",
+    "muzari": "يَأْكُلُ",
+    "masdar": "أَكْل",
+    "sentences": [
+      { "ar": "أَكَلْتُ التُّفَّاحَةَ.", "tr": "Elmayı yedim." },
+      { "ar": "هُوَ يَأْكُلُ الخُبْزَ.", "tr": "O ekmek yiyor." }
+    ],
+    "related": [
+      { "word": "أَكْل", "meaning": "yeme, yemek" },
+      { "word": "مَأْكُول", "meaning": "yenilen" },
+      { "word": "آكِل", "meaning": "yiyen" }
+    ]
+  },
+  {
+    "word": "شَرِبَ",
+    "transliteration": "şariba",
+    "level": "A1",
+    "pos": "verb",
+    "root": "ش ر ب",
+    "pattern": "فَعِلَ - يَفْعَلُ",
+    "definition_tr": "İçmek",
+    "muzari": "يَشْرَبُ",
+    "masdar": "شُرْب",
+    "sentences": [
+      { "ar": "شَرِبْتُ المَاءَ.", "tr": "Su içtim." },
+      { "ar": "هِيَ تَشْرَبُ الشَّايَ.", "tr": "O çay içiyor." }
+    ],
+    "related": [
+      { "word": "شَرَاب", "meaning": "içecek" },
+      { "word": "مَشْرُوب", "meaning": "içilen, içecek" }
+    ]
+  },
+  {
+    "word": "نَامَ",
+    "transliteration": "nâme",
+    "level": "A1",
+    "pos": "verb",
+    "root": "ن و م",
+    "pattern": "فَعَلَ - يَفْعُلُ (ecvef)",
+    "definition_tr": "Uyumak",
+    "muzari": "يَنَامُ",
+    "masdar": "نَوْم",
+    "sentences": [
+      { "ar": "نَامَ الطِّفْلُ بَاكِرًا.", "tr": "Çocuk erken uyudu." },
+      { "ar": "أَنَامُ ثَمَانِيَ سَاعَاتٍ.", "tr": "Sekiz saat uyuyorum." }
+    ],
+    "related": [
+      { "word": "نَوْم", "meaning": "uyku" },
+      { "word": "نَائِم", "meaning": "uyuyan" },
+      { "word": "مَنَام", "meaning": "rüya, uyku yeri" }
+    ]
+  },
+  {
+    "word": "قَالَ",
+    "transliteration": "kâle",
+    "level": "A1",
+    "pos": "verb",
+    "root": "ق و ل",
+    "pattern": "فَعَلَ - يَفْعُلُ (ecvef)",
+    "definition_tr": "Söylemek, demek",
+    "muzari": "يَقُولُ",
+    "masdar": "قَوْل",
+    "sentences": [
+      { "ar": "قَالَ الأُسْتَاذُ: اِقْرَأْ!", "tr": "Öğretmen 'Oku!' dedi." },
+      { "ar": "مَاذَا تَقُولُ؟", "tr": "Ne diyorsun?" }
+    ],
+    "related": [
+      { "word": "قَوْل", "meaning": "söz" },
+      { "word": "قَائِل", "meaning": "söyleyen" },
+      { "word": "مَقَالَة", "meaning": "makale" }
+    ]
+  },
+  {
+    "word": "سَمِعَ",
+    "transliteration": "semi'a",
+    "level": "A1",
+    "pos": "verb",
+    "root": "س م ع",
+    "pattern": "فَعِلَ - يَفْعَلُ",
+    "definition_tr": "Duymak, işitmek",
+    "muzari": "يَسْمَعُ",
+    "masdar": "سَمْع",
+    "sentences": [
+      { "ar": "سَمِعْتُ صَوْتًا غَرِيبًا.", "tr": "Garip bir ses duydum." },
+      { "ar": "هَلْ تَسْمَعُنِي؟", "tr": "Beni duyuyor musun?" }
+    ],
+    "related": [
+      { "word": "سَمْع", "meaning": "işitme" },
+      { "word": "سَامِع", "meaning": "duyan" },
+      { "word": "سَمِيع", "meaning": "çok işiten (Allah'ın ismi)" }
+    ]
+  },
+  {
+    "word": "رَأَى",
+    "transliteration": "raâ",
+    "level": "A1",
+    "pos": "verb",
+    "root": "ر أ ي",
+    "pattern": "فَعَلَ - يَفْعَلُ (nakıs)",
+    "definition_tr": "Görmek",
+    "muzari": "يَرَى",
+    "masdar": "رُؤْيَة",
+    "sentences": [
+      { "ar": "رَأَيْتُ صَدِيقِي.", "tr": "Arkadaşımı gördüm." },
+      { "ar": "هَلْ تَرَى القَمَرَ؟", "tr": "Ayı görüyor musun?" }
+    ],
+    "related": [
+      { "word": "رُؤْيَة", "meaning": "görme, vizyon" },
+      { "word": "رَأْي", "meaning": "görüş, fikir" },
+      { "word": "مَرْئِيّ", "meaning": "görülen, görsel" }
+    ]
+  },
+  {
+    "word": "عَرَفَ",
+    "transliteration": "arafe",
+    "level": "A1",
+    "pos": "verb",
+    "root": "ع ر ف",
+    "pattern": "فَعَلَ - يَفْعِلُ",
+    "definition_tr": "Tanımak, bilmek",
+    "muzari": "يَعْرِفُ",
+    "masdar": "مَعْرِفَة",
+    "sentences": [
+      { "ar": "هَلْ تَعْرِفُ هَذَا الرَّجُلَ؟", "tr": "Bu adamı tanıyor musun?" },
+      { "ar": "أَعْرِفُ الجَوَابَ.", "tr": "Cevabı biliyorum." }
+    ],
+    "related": [
+      { "word": "مَعْرِفَة", "meaning": "bilgi, tanıma" },
+      { "word": "عَارِف", "meaning": "bilen" },
+      { "word": "مَعْرُوف", "meaning": "bilinen, iyilik" }
+    ]
+  },
+  {
+    "word": "أَخَذَ",
+    "transliteration": "ahaze",
+    "level": "A1",
+    "pos": "verb",
+    "root": "أ خ ذ",
+    "pattern": "فَعَلَ - يَفْعُلُ",
+    "definition_tr": "Almak",
+    "muzari": "يَأْخُذُ",
+    "emir": "خُذْ",
+    "masdar": "أَخْذ",
+    "sentences": [
+      { "ar": "أَخَذْتُ الكِتَابَ.", "tr": "Kitabı aldım." },
+      { "ar": "خُذْ هَذَا!", "tr": "Bunu al!" }
+    ],
+    "related": [
+      { "word": "أَخْذ", "meaning": "alma" },
+      { "word": "آخِذ", "meaning": "alan" },
+      { "word": "مَأْخُوذ", "meaning": "alınan" }
+    ]
+  },
+  {
+    "word": "أَعْطَى",
+    "transliteration": "a'tâ",
+    "level": "A1",
+    "pos": "verb",
+    "root": "ع ط و",
+    "pattern": "أَفْعَلَ - يُفْعِلُ (Form IV)",
+    "definition_tr": "Vermek",
+    "muzari": "يُعْطِي",
+    "masdar": "إِعْطَاء",
+    "sentences": [
+      { "ar": "أَعْطَيْتُهُ المَالَ.", "tr": "Ona parayı verdim." },
+      { "ar": "أَعْطِنِي القَلَمَ!", "tr": "Bana kalemi ver!" }
+    ],
+    "related": [
+      { "word": "عَطَاء", "meaning": "verme, bağış" },
+      { "word": "مُعْطٍ", "meaning": "veren" }
+    ]
+  },
+  {
+    "word": "وَجَدَ",
+    "transliteration": "wecede",
+    "level": "A1",
+    "pos": "verb",
+    "root": "و ج د",
+    "pattern": "فَعَلَ - يَفْعِلُ (misal)",
+    "definition_tr": "Bulmak",
+    "muzari": "يَجِدُ",
+    "masdar": "وُجُود",
+    "sentences": [
+      { "ar": "وَجَدْتُ مِفْتَاحِي.", "tr": "Anahtarımı buldum." },
+      { "ar": "أَيْنَ تَجِدُ الكُتُبَ؟", "tr": "Kitapları nerede buluyorsun?" }
+    ],
+    "related": [
+      { "word": "وُجُود", "meaning": "varlık, bulma" },
+      { "word": "مَوْجُود", "meaning": "mevcut, bulunan" }
+    ]
+  },
+  {
+    "word": "وَصَلَ",
+    "transliteration": "wasale",
+    "level": "A1",
+    "pos": "verb",
+    "root": "و ص ل",
+    "pattern": "فَعَلَ - يَفْعِلُ (misal)",
+    "definition_tr": "Ulaşmak, varmak",
+    "muzari": "يَصِلُ",
+    "masdar": "وُصُول",
+    "sentences": [
+      { "ar": "وَصَلْتُ إِلَى البَيْتِ.", "tr": "Eve vardım." },
+      { "ar": "مَتَى تَصِلُ الطَّائِرَةُ؟", "tr": "Uçak ne zaman varıyor?" }
+    ],
+    "related": [
+      { "word": "وُصُول", "meaning": "varış" },
+      { "word": "وَاصِل", "meaning": "ulaşan" },
+      { "word": "اِتِّصَال", "meaning": "iletişim, bağlantı" }
+    ]
+  },
+  {
+    "word": "بَيْت",
+    "transliteration": "beyt",
+    "level": "A1",
+    "pos": "noun",
+    "root": "ب ي ت",
+    "pattern": "فَعْل",
+    "definition_tr": "Ev",
+    "plural": "بُيُوت",
+    "sentences": [
+      { "ar": "بَيْتِي قَرِيبٌ.", "tr": "Evim yakın." },
+      { "ar": "هَذَا بَيْتٌ جَمِيلٌ.", "tr": "Bu güzel bir ev." }
+    ],
+    "related": [
+      { "word": "بُيُوت", "meaning": "evler" },
+      { "word": "مَبِيت", "meaning": "konaklama yeri" }
+    ]
+  },
+  {
+    "word": "مَاء",
+    "transliteration": "mâ'",
+    "level": "A1",
+    "pos": "noun",
+    "root": "م و ه",
+    "pattern": "فَعَل",
+    "definition_tr": "Su",
+    "plural": "مِيَاه",
+    "sentences": [
+      { "ar": "أُرِيدُ مَاءً بَارِدًا.", "tr": "Soğuk su istiyorum." },
+      { "ar": "المَاءُ ضَرُورِيٌّ لِلْحَيَاةِ.", "tr": "Su yaşam için gereklidir." }
+    ],
+    "related": [
+      { "word": "مِيَاه", "meaning": "sular" },
+      { "word": "مَائِيّ", "meaning": "sulu, su ile ilgili" }
+    ]
+  },
+  {
+    "word": "طَعَام",
+    "transliteration": "ta'âm",
+    "level": "A1",
+    "pos": "noun",
+    "root": "ط ع م",
+    "pattern": "فَعَال",
+    "definition_tr": "Yemek, yiyecek",
+    "plural": "أَطْعِمَة",
+    "sentences": [
+      { "ar": "الطَّعَامُ لَذِيذٌ.", "tr": "Yemek lezzetli." },
+      { "ar": "أَيْنَ الطَّعَامُ؟", "tr": "Yemek nerede?" }
+    ],
+    "related": [
+      { "word": "طَعْم", "meaning": "tat" },
+      { "word": "مَطْعَم", "meaning": "restoran" },
+      { "word": "إِطْعَام", "meaning": "yedirme" }
+    ]
+  },
+  {
+    "word": "يَوْم",
+    "transliteration": "yevm",
+    "level": "A1",
+    "pos": "noun",
+    "root": "ي و م",
+    "pattern": "فَعْل",
+    "definition_tr": "Gün",
+    "plural": "أَيَّام",
+    "sentences": [
+      { "ar": "اليَوْمُ يَوْمُ الجُمُعَةِ.", "tr": "Bugün Cuma günü." },
+      { "ar": "كُلَّ يَوْمٍ أَدْرُسُ.", "tr": "Her gün çalışıyorum." }
+    ],
+    "related": [
+      { "word": "أَيَّام", "meaning": "günler" },
+      { "word": "يَوْمِيّ", "meaning": "günlük" }
+    ]
+  },
+  {
+    "word": "لَيْل",
+    "transliteration": "leyl",
+    "level": "A1",
+    "pos": "noun",
+    "root": "ل ي ل",
+    "pattern": "فَعْل",
+    "definition_tr": "Gece",
+    "plural": "لَيَالٍ",
+    "sentences": [
+      { "ar": "اللَّيْلُ طَوِيلٌ.", "tr": "Gece uzun." },
+      { "ar": "فِي اللَّيْلِ أَنَامُ.", "tr": "Geceleyin uyurum." }
+    ],
+    "related": [
+      { "word": "لَيْلَة", "meaning": "bir gece" },
+      { "word": "لَيْلِيّ", "meaning": "geceye ait" }
+    ]
+  },
+  {
+    "word": "صَبَاح",
+    "transliteration": "sabâh",
+    "level": "A1",
+    "pos": "noun",
+    "root": "ص ب ح",
+    "pattern": "فَعَال",
+    "definition_tr": "Sabah",
+    "sentences": [
+      { "ar": "صَبَاحُ الخَيْرِ!", "tr": "Günaydın!" },
+      { "ar": "فِي الصَّبَاحِ أَسْتَيْقِظُ بَاكِرًا.", "tr": "Sabahleyin erken kalkıyorum." }
+    ],
+    "related": [
+      { "word": "صُبْح", "meaning": "sabah vakti" },
+      { "word": "صَبَاحِيّ", "meaning": "sabaha ait" }
+    ]
+  },
+  {
+    "word": "مَسَاء",
+    "transliteration": "mesâ'",
+    "level": "A1",
+    "pos": "noun",
+    "root": "م س و",
+    "pattern": "فَعَال",
+    "definition_tr": "Akşam",
+    "sentences": [
+      { "ar": "مَسَاءُ الخَيْرِ!", "tr": "İyi akşamlar!" },
+      { "ar": "أَرْجِعُ فِي المَسَاءِ.", "tr": "Akşam dönüyorum." }
+    ],
+    "related": [
+      { "word": "مَسَائِيّ", "meaning": "akşama ait" }
+    ]
+  },
+  {
+    "word": "سَاعَة",
+    "transliteration": "sâ'a",
+    "level": "A1",
+    "pos": "noun",
+    "root": "س و ع",
+    "pattern": "فَاعَلة",
+    "definition_tr": "Saat",
+    "plural": "سَاعَات",
+    "sentences": [
+      { "ar": "كَمِ السَّاعَةُ؟", "tr": "Saat kaç?" },
+      { "ar": "اِنْتَظَرْتُ سَاعَةً.", "tr": "Bir saat bekledim." }
+    ],
+    "related": [
+      { "word": "سَاعَات", "meaning": "saatler" }
+    ]
+  },
+  {
+    "word": "أُسْبُوع",
+    "transliteration": "usbû'",
+    "level": "A1",
+    "pos": "noun",
+    "root": "س ب ع",
+    "pattern": "أُفْعُول",
+    "definition_tr": "Hafta",
+    "plural": "أَسَابِيع",
+    "sentences": [
+      { "ar": "فِي الأُسْبُوعِ سَبْعَةُ أَيَّامٍ.", "tr": "Haftada yedi gün var." },
+      { "ar": "سَأُسَافِرُ الأُسْبُوعَ القَادِمَ.", "tr": "Gelecek hafta seyahat edeceğim." }
+    ],
+    "related": [
+      { "word": "أُسْبُوعِيّ", "meaning": "haftalık" }
+    ]
+  },
+  {
+    "word": "شَهْر",
+    "transliteration": "şehr",
+    "level": "A1",
+    "pos": "noun",
+    "root": "ش ه ر",
+    "pattern": "فَعْل",
+    "definition_tr": "Ay (takvim)",
+    "plural": "شُهُور / أَشْهُر",
+    "sentences": [
+      { "ar": "شَهْرُ رَمَضَانَ مُبَارَكٌ.", "tr": "Ramazan ayı mübarektir." },
+      { "ar": "فِي السَّنَةِ اثْنَا عَشَرَ شَهْرًا.", "tr": "Yılda on iki ay var." }
+    ],
+    "related": [
+      { "word": "شَهْرِيّ", "meaning": "aylık" },
+      { "word": "مَشْهُور", "meaning": "ünlü, meşhur" }
+    ]
+  },
+  {
+    "word": "سَنَة",
+    "transliteration": "sene",
+    "level": "A1",
+    "pos": "noun",
+    "root": "س ن و",
+    "pattern": "فَعَلة",
+    "definition_tr": "Yıl, sene",
+    "plural": "سَنَوَات / سِنِين",
+    "sentences": [
+      { "ar": "كَمْ عُمْرُكَ؟ عِشْرُونَ سَنَةً.", "tr": "Kaç yaşındasın? Yirmi yaşındayım." },
+      { "ar": "السَّنَةُ الجَدِيدَةُ.", "tr": "Yeni yıl." }
+    ],
+    "related": [
+      { "word": "سَنَوِيّ", "meaning": "yıllık" }
+    ]
+  },
+  {
+    "word": "أَب",
+    "transliteration": "eb",
+    "level": "A1",
+    "pos": "noun",
+    "root": "أ ب و",
+    "pattern": "فَع",
+    "definition_tr": "Baba",
+    "plural": "آبَاء",
+    "sentences": [
+      { "ar": "أَبِي طَبِيبٌ.", "tr": "Babam doktor." },
+      { "ar": "أَيْنَ أَبُوكَ؟", "tr": "Baban nerede?" }
+    ],
+    "related": [
+      { "word": "أُبُوَّة", "meaning": "babalık" },
+      { "word": "آبَاء", "meaning": "babalar, atalar" }
+    ]
+  },
+  {
+    "word": "أُمّ",
+    "transliteration": "umm",
+    "level": "A1",
+    "pos": "noun",
+    "root": "أ م م",
+    "pattern": "فُعّ",
+    "definition_tr": "Anne",
+    "plural": "أُمَّهَات",
+    "sentences": [
+      { "ar": "أُمِّي طَبَّاخَةٌ مَاهِرَةٌ.", "tr": "Annem usta bir aşçı." },
+      { "ar": "أُحِبُّ أُمِّي كَثِيرًا.", "tr": "Annemi çok seviyorum." }
+    ],
+    "related": [
+      { "word": "أُمُومَة", "meaning": "annelik" }
+    ]
+  },
+  {
+    "word": "اِبْن",
+    "transliteration": "ibn",
+    "level": "A1",
+    "pos": "noun",
+    "root": "ب ن ي",
+    "pattern": "اِفْع",
+    "definition_tr": "Oğul",
+    "plural": "أَبْنَاء",
+    "sentences": [
+      { "ar": "هَذَا اِبْنِي.", "tr": "Bu benim oğlum." },
+      { "ar": "اِبْنُ عَمِّي طَالِبٌ.", "tr": "Amcaoğlum öğrenci." }
+    ],
+    "related": [
+      { "word": "بِنْت", "meaning": "kız (çocuk)" },
+      { "word": "بَنُون", "meaning": "oğullar" }
+    ]
+  },
+  {
+    "word": "بِنْت",
+    "transliteration": "bint",
+    "level": "A1",
+    "pos": "noun",
+    "root": "ب ن ي",
+    "pattern": "فِعْل",
+    "definition_tr": "Kız (çocuk)",
+    "plural": "بَنَات",
+    "sentences": [
+      { "ar": "هَذِهِ بِنْتِي.", "tr": "Bu benim kızım." },
+      { "ar": "البِنْتُ جَمِيلَةٌ.", "tr": "Kız güzel." }
+    ],
+    "related": [
+      { "word": "بَنَات", "meaning": "kızlar" }
+    ]
+  },
+  {
+    "word": "أَخ",
+    "transliteration": "ah",
+    "level": "A1",
+    "pos": "noun",
+    "root": "أ خ و",
+    "pattern": "فَع",
+    "definition_tr": "Erkek kardeş, abi",
+    "plural": "إِخْوَة / إِخْوَان",
+    "sentences": [
+      { "ar": "أَخِي أَكْبَرُ مِنِّي.", "tr": "Ağabeyim benden büyük." },
+      { "ar": "عِنْدِي ثَلَاثَةُ إِخْوَةٍ.", "tr": "Üç erkek kardeşim var." }
+    ],
+    "related": [
+      { "word": "أُخُوَّة", "meaning": "kardeşlik" },
+      { "word": "أُخْت", "meaning": "kız kardeş" }
+    ]
+  },
+  {
+    "word": "أُخْت",
+    "transliteration": "uht",
+    "level": "A1",
+    "pos": "noun",
+    "root": "أ خ و",
+    "pattern": "فُعْل",
+    "definition_tr": "Kız kardeş, abla",
+    "plural": "أَخَوَات",
+    "sentences": [
+      { "ar": "أُخْتِي طَبِيبَةٌ.", "tr": "Kız kardeşim doktor." },
+      { "ar": "هَذِهِ أُخْتِي الكُبْرَى.", "tr": "Bu ablam." }
+    ],
+    "related": [
+      { "word": "أَخَوَات", "meaning": "kız kardeşler" }
+    ]
+  },
+  {
+    "word": "صَدِيق",
+    "transliteration": "sadîk",
+    "level": "A1",
+    "pos": "noun",
+    "root": "ص د ق",
+    "pattern": "فَعِيل",
+    "definition_tr": "Arkadaş (erkek)",
+    "plural": "أَصْدِقَاء",
+    "sentences": [
+      { "ar": "هُوَ صَدِيقِي المُقَرَّبُ.", "tr": "O yakın arkadaşım." },
+      { "ar": "أَصْدِقَائِي كَثِيرُونَ.", "tr": "Arkadaşlarım çok." }
+    ],
+    "related": [
+      { "word": "صَدَاقَة", "meaning": "arkadaşlık" },
+      { "word": "صَدِيقَة", "meaning": "arkadaş (kadın)" }
+    ]
+  },
+  {
+    "word": "جَمِيل",
+    "transliteration": "cemîl",
+    "level": "A1",
+    "pos": "adjective",
+    "root": "ج م ل",
+    "pattern": "فَعِيل",
+    "definition_tr": "Güzel",
+    "feminine": "جَمِيلَة",
+    "sentences": [
+      { "ar": "هَذَا مَنْظَرٌ جَمِيلٌ.", "tr": "Bu güzel bir manzara." },
+      { "ar": "الفَتَاةُ جَمِيلَةٌ.", "tr": "Kız güzel." }
+    ],
+    "related": [
+      { "word": "جَمَال", "meaning": "güzellik" },
+      { "word": "أَجْمَل", "meaning": "daha güzel" }
+    ]
+  },
+  {
+    "word": "كَبِير",
+    "transliteration": "kebîr",
+    "level": "A1",
+    "pos": "adjective",
+    "root": "ك ب ر",
+    "pattern": "فَعِيل",
+    "definition_tr": "Büyük",
+    "feminine": "كَبِيرَة",
+    "sentences": [
+      { "ar": "البَيْتُ كَبِيرٌ.", "tr": "Ev büyük." },
+      { "ar": "هُوَ أَكْبَرُ مِنِّي.", "tr": "O benden büyük." }
+    ],
+    "related": [
+      { "word": "كِبَر", "meaning": "büyüklük" },
+      { "word": "أَكْبَر", "meaning": "daha büyük, en büyük" },
+      { "word": "تَكْبِير", "meaning": "büyütme, tekbir" }
+    ]
+  },
+  {
+    "word": "صَغِير",
+    "transliteration": "sağîr",
+    "level": "A1",
+    "pos": "adjective",
+    "root": "ص غ ر",
+    "pattern": "فَعِيل",
+    "definition_tr": "Küçük",
+    "feminine": "صَغِيرَة",
+    "sentences": [
+      { "ar": "الغُرْفَةُ صَغِيرَةٌ.", "tr": "Oda küçük." },
+      { "ar": "أَخِي الصَّغِيرُ.", "tr": "Küçük kardeşim." }
+    ],
+    "related": [
+      { "word": "صِغَر", "meaning": "küçüklük" },
+      { "word": "أَصْغَر", "meaning": "daha küçük" }
+    ]
+  },
+  {
+    "word": "جَدِيد",
+    "transliteration": "cedîd",
+    "level": "A1",
+    "pos": "adjective",
+    "root": "ج د د",
+    "pattern": "فَعِيل",
+    "definition_tr": "Yeni",
+    "feminine": "جَدِيدَة",
+    "sentences": [
+      { "ar": "اِشْتَرَيْتُ سَيَّارَةً جَدِيدَةً.", "tr": "Yeni bir araba aldım." },
+      { "ar": "هَذَا كِتَابٌ جَدِيدٌ.", "tr": "Bu yeni bir kitap." }
+    ],
+    "related": [
+      { "word": "تَجْدِيد", "meaning": "yenileme" },
+      { "word": "جِدَّة", "meaning": "yenilik" }
+    ]
+  },
+  {
+    "word": "قَدِيم",
+    "transliteration": "kadîm",
+    "level": "A1",
+    "pos": "adjective",
+    "root": "ق د م",
+    "pattern": "فَعِيل",
+    "definition_tr": "Eski (zaman açısından)",
+    "feminine": "قَدِيمَة",
+    "sentences": [
+      { "ar": "هَذَا مَسْجِدٌ قَدِيمٌ.", "tr": "Bu eski bir cami." },
+      { "ar": "القَاهِرَةُ مَدِينَةٌ قَدِيمَةٌ.", "tr": "Kahire eski bir şehir." }
+    ],
+    "related": [
+      { "word": "قِدَم", "meaning": "eskilik" },
+      { "word": "أَقْدَم", "meaning": "daha eski" }
+    ]
+  },
+  {
+    "word": "سَهْل",
+    "transliteration": "sehl",
+    "level": "A1",
+    "pos": "adjective",
+    "root": "س ه ل",
+    "pattern": "فَعْل",
+    "definition_tr": "Kolay",
+    "feminine": "سَهْلَة",
+    "sentences": [
+      { "ar": "الاِمْتِحَانُ سَهْلٌ.", "tr": "Sınav kolay." },
+      { "ar": "هَذِهِ مَسْأَلَةٌ سَهْلَةٌ.", "tr": "Bu kolay bir soru." }
+    ],
+    "related": [
+      { "word": "سُهُولَة", "meaning": "kolaylık" },
+      { "word": "أَسْهَل", "meaning": "daha kolay" },
+      { "word": "تَسْهِيل", "meaning": "kolaylaştırma" }
+    ]
+  },
+  {
+    "word": "صَعْب",
+    "transliteration": "sa'b",
+    "level": "A1",
+    "pos": "adjective",
+    "root": "ص ع ب",
+    "pattern": "فَعْل",
+    "definition_tr": "Zor",
+    "feminine": "صَعْبَة",
+    "sentences": [
+      { "ar": "اللُّغَةُ العَرَبِيَّةُ صَعْبَةٌ.", "tr": "Arapça zor." },
+      { "ar": "هَذَا سُؤَالٌ صَعْبٌ.", "tr": "Bu zor bir soru." }
+    ],
+    "related": [
+      { "word": "صُعُوبَة", "meaning": "zorluk" },
+      { "word": "أَصْعَب", "meaning": "daha zor" }
+    ]
   }
 ]
