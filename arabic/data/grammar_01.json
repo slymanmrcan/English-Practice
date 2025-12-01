@@ -253,5 +253,159 @@
       "Form IX yalnızca renk/kusur fiilleri için: اِحْمَرَّ (kızardı), اِسْوَدَّ (siyahlaştı)"
     ],
     "note": "Türetilmiş formların mastarları, ism-i fail ve ism-i mef'ulleri düzenli kalıplara sahiptir."
+  },
+  {
+    "topic": "الجملة الاستفهامية | Soru Cümlesi",
+    "level": "A1",
+    "description": "Arapça'da soru cümleleri oluşturmak için çeşitli soru edatları kullanılır. Soru edatı cümlenin başına gelir.",
+    "pattern": "Soru Edatı + Cümle → هَلْ أَنْتَ طَالِبٌ؟ (Sen öğrenci misin?)",
+    "examples": [
+      "هَلْ (mi/mı - evet/hayır soruları): هَلْ أَنْتَ مُسْلِمٌ؟ - Sen Müslüman mısın?",
+      "أَ (mi/mı - kısa form): أَتُحِبُّ القَهْوَةَ؟ - Kahve sever misin?",
+      "مَا (ne): مَا هَذَا؟ - Bu nedir?",
+      "مَنْ (kim): مَنْ أَنْتَ؟ - Sen kimsin?",
+      "أَيْنَ (nerede): أَيْنَ المَسْجِدُ؟ - Cami nerede?",
+      "مَتَى (ne zaman): مَتَى تَذْهَبُ؟ - Ne zaman gidiyorsun?",
+      "كَيْفَ (nasıl): كَيْفَ حَالُكَ؟ - Nasılsın?",
+      "لِمَاذَا (neden): لِمَاذَا تَبْكِي؟ - Neden ağlıyorsun?",
+      "كَمْ (kaç/ne kadar): كَمْ عُمْرُكَ؟ - Kaç yaşındasın?",
+      "أَيُّ (hangi): أَيُّ كِتَابٍ؟ - Hangi kitap?"
+    ],
+    "tips": [
+      "هَلْ ve أَ sadece evet/hayır cevabı bekleyen sorularda kullanılır",
+      "مَا cansız varlıklar için, مَنْ canlılar için kullanılır",
+      "Soru edatından sonra cümle yapısı değişmez",
+      "أَيُّ sonraki isimle muzaf terkibi kurar: أَيُّ لَوْنٍ (hangi renk)"
+    ],
+    "mistakes": [
+      "هَلْ ile soru kelimesi birlikte kullanmak: هَلْ مَاذَا؟ ❌",
+      "مَا ile مَاذَا farkı: مَا isimden önce, مَاذَا fiilden önce tercih edilir"
+    ],
+    "note": "Soru cümlelerinde cevap verirken 'نَعَمْ' (evet) veya 'لَا' (hayır) kullanılır."
+  },
+  {
+    "topic": "الفعل الماضي | Mazi (Geçmiş Zaman)",
+    "level": "A1",
+    "description": "Geçmişte tamamlanmış eylemleri anlatır. Temel çekim kalıbı فَعَلَ (fe'ale)'dir. Fiil sona özne ekleri alarak çekilir.",
+    "pattern": "Kök: ك ت ب → كَتَبَ (yazdı) | Çekim: كَتَبَ، كَتَبَتْ، كَتَبْتَ، كَتَبْتُ، كَتَبْنَا",
+    "examples": [
+      "هُوَ كَتَبَ - O yazdı (erkek)",
+      "هِيَ كَتَبَتْ - O yazdı (kadın)",
+      "هُمْ كَتَبُوا - Onlar yazdılar (erkek)",
+      "هُنَّ كَتَبْنَ - Onlar yazdılar (kadın)",
+      "أَنْتَ كَتَبْتَ - Sen yazdın (erkek)",
+      "أَنْتِ كَتَبْتِ - Sen yazdın (kadın)",
+      "أَنْتُمْ كَتَبْتُمْ - Siz yazdınız (erkek)",
+      "أَنَا كَتَبْتُ - Ben yazdım",
+      "نَحْنُ كَتَبْنَا - Biz yazdık",
+      "ذَهَبَ إِلَى المَدْرَسَةِ. - Okula gitti.",
+      "أَكَلْتُ الطَّعَامَ. - Yemeği yedim.",
+      "سَمِعْنَا الخَبَرَ. - Haberi duyduk."
+    ],
+    "tips": [
+      "3. tekil eril (هُوَ) fiilin temel halidir, sözlüklerde bu form bulunur",
+      "ـتْ (dişil 3. tekil), ـوا (eril çoğul), ـنَ (dişil çoğul) önemli ekler",
+      "Mazi'de özne eki fiilin sonuna gelir: كَتَبَ + تُ = كَتَبْتُ",
+      "Olumsuzluk için مَا kullanılır: مَا كَتَبَ (yazmadı)"
+    ],
+    "mistakes": [
+      "كَتَبُوا ile كَتَبُونَ karıştırılır - mazi'de و'dan sonra ن olmaz",
+      "3. çoğul dişil (هُنَّ) fiil formunu unutmak: كَتَبْنَ",
+      "Elif-lam'ı unutmak: ذَهَبَ البَيْتَ ❌ → ذَهَبَ إِلَى البَيْتِ ✓"
+    ],
+    "note": "Mazi fiil + قَدْ → vurgu (kesinlikle): قَدْ فَعَلَ (kesinlikle yaptı). Mazi + كَانَ → uzak geçmiş: كَانَ قَدْ فَعَلَ (yapmıştı)."
+  },
+  {
+    "topic": "الفعل المضارع | Muzari (Şimdiki/Geniş Zaman)",
+    "level": "A1",
+    "description": "Şu anda olan veya süregelen eylemleri anlatır. Başına harf ön ekleri (أ ن ي ت) alır. Gelecek zaman için سَـ veya سَوْفَ eklenir.",
+    "pattern": "Kök: ك ت ب → يَكْتُبُ (yazıyor/yazar) | Başına: أَ (ben), نَـ (biz), يَـ (o/onlar-erkek), تَـ (sen/o-kadın/siz/onlar-kadın)",
+    "examples": [
+      "أَنَا أَكْتُبُ - Ben yazıyorum",
+      "نَحْنُ نَكْتُبُ - Biz yazıyoruz",
+      "هُوَ يَكْتُبُ - O yazıyor (erkek)",
+      "هِيَ تَكْتُبُ - O yazıyor (kadın)",
+      "هُمْ يَكْتُبُونَ - Onlar yazıyorlar (erkek)",
+      "هُنَّ يَكْتُبْنَ - Onlar yazıyorlar (kadın)",
+      "أَنْتَ تَكْتُبُ - Sen yazıyorsun (erkek)",
+      "أَنْتِ تَكْتُبِينَ - Sen yazıyorsun (kadın)",
+      "أَنْتُمْ تَكْتُبُونَ - Siz yazıyorsunuz",
+      "يَذْهَبُ كُلَّ يَوْمٍ. - Her gün gidiyor.",
+      "نَأْكُلُ الآنَ. - Şimdi yiyoruz."
+    ],
+    "tips": [
+      "Muzari önekleri: أَ (أَنَا), نَـ (نَحْنُ), يَـ (هُوَ/هُمْ), تَـ (أَنْتَ/هِيَ/أَنْتُمْ)",
+      "Olumsuzluk için لَا kullanılır: لَا يَكْتُبُ (yazmıyor)",
+      "Gelecek zaman: سَـ + muzari = yakın gelecek, سَوْفَ + muzari = uzak gelecek",
+      "سَيَكْتُبُ (yazacak-yakın), سَوْفَ يَكْتُبُ (yazacak-uzak)"
+    ],
+    "mistakes": [
+      "يَكْتُبُ (şimdiki) ile كَتَبَ (geçmiş) karıştırılır - önek var mı kontrol et",
+      "تَكْتُبِينَ (sen-kadın) ile تَكْتُبُونَ (siz) karıştırılır",
+      "Gelecek zamanda لَنْ kullanmak: لَنْ يَذْهَبَ (gitmeyecek - olumsuz gelecek)"
+    ],
+    "note": "Muzari 3 hâle sahip: مَرْفُوع (normal), مَنْصُوب (أَنْ/لَنْ'dan sonra), مَجْزُوم (لَمْ/لَا الناهية'den sonra)."
+  },
+  {
+    "topic": "فعل الأمر | Emir Kipi",
+    "level": "A2",
+    "description": "Birinden bir eylem yapmasını istemek için kullanılır. Muzari fiilden türetilir: ön ek atılır, gerekirse hemze eklenir.",
+    "pattern": "Muzari: يَكْتُبُ → Emir: اُكْتُبْ (yaz!) | يَجْلِسُ → اِجْلِسْ (otur!)",
+    "examples": [
+      "اُكْتُبْ! - Yaz! (erkek)",
+      "اُكْتُبِي! - Yaz! (kadın)",
+      "اُكْتُبُوا! - Yazın! (siz/onlar erkek)",
+      "اِجْلِسْ! - Otur!",
+      "اِفْتَحْ! - Aç!",
+      "اِقْرَأْ! - Oku!",
+      "اُدْخُلْ! - Gir!",
+      "اِذْهَبْ إِلَى البَيْتِ! - Eve git!",
+      "كُلْ! - Ye! (أَكَلَ fiilinden)",
+      "قُلْ! - Söyle! (قَالَ fiilinden)",
+      "خُذْ! - Al! (أَخَذَ fiilinden)"
+    ],
+    "tips": [
+      "Emir sadece 2. şahıs için var (sen, siz)",
+      "Başta ساكن (harekesiz harf) varsa hemze eklenir: اُكْتُبْ",
+      "Hemzenin harekesi, fiilin ayn harfinin harekesine göre değişir",
+      "Olumsuz emir için لَا + Muzari مَجْزُوم: لَا تَكْتُبْ! (yazma!)"
+    ],
+    "mistakes": [
+      "أُكْتُبْ yerine اِكْتُبْ yazmak - hemze damme olmalı (fiilin aynı dammeli)",
+      "Olumsuz emirde muzari'yi değiştirmemek: لَا تَكْتُبُ ❌ → لَا تَكْتُبْ ✓"
+    ],
+    "note": "Bazı fiillerin emirleri düzensizdir: قَالَ→قُلْ, أَكَلَ→كُلْ, أَخَذَ→خُذْ"
+  },
+  {
+    "topic": "نفي الجملة | Olumsuzluk",
+    "level": "A2",
+    "description": "Cümleyi olumsuz yapmak için farklı edatlar kullanılır. Her edatın kullanım alanı farklıdır.",
+    "pattern": "لَا + Muzari (yapmıyor) | مَا + Mazi (yapmadı) | لَمْ + Muzari مَجْزُوم (yapmadı) | لَنْ + Muzari مَنْصُوب (yapmayacak) | لَيْسَ + İsim (değil)",
+    "examples": [
+      "لَا أَفْهَمُ. - Anlamıyorum.",
+      "لَا يَأْكُلُ اللَّحْمَ. - Et yemiyor.",
+      "مَا كَتَبَ الرِّسَالَةَ. - Mektubu yazmadı.",
+      "لَمْ يَذْهَبْ. - Gitmedi. (güçlü olumsuz)",
+      "لَمْ أَفْهَمْ. - Anlamadım.",
+      "لَنْ أَنْسَى. - Unutmayacağım.",
+      "لَنْ يَنْجَحَ. - Başaramayacak.",
+      "لَيْسَ هَذَا صَحِيحًا. - Bu doğru değil.",
+      "لَسْتُ طَالِبًا. - Ben öğrenci değilim.",
+      "لَيْسَ عِنْدِي وَقْتٌ. - Vaktim yok.",
+      "غَيْرُ مُمْكِنٍ. - Mümkün değil."
+    ],
+    "tips": [
+      "لَا + Muzari = şimdiki zamanda olumsuz",
+      "مَا + Mazi = geçmiş zamanda olumsuz (daha az kullanılır)",
+      "لَمْ + Muzari مَجْزُوم = geçmiş zamanda güçlü olumsuz (en yaygın)",
+      "لَنْ + Muzari مَنْصُوب = gelecekte kesin olumsuz",
+      "لَيْسَ = isim cümlelerinde olumsuzluk ('değil')"
+    ],
+    "mistakes": [
+      "لَمْ ile mazi kullanmak: لَمْ كَتَبَ ❌ → لَمْ يَكْتُبْ ✓",
+      "لَمْ'dan sonra muzari'yi değiştirmemek: لَمْ يَذْهَبُ ❌ → لَمْ يَذْهَبْ ✓",
+      "لَنْ'dan sonra muzari'yi değiştirmemek: لَنْ يَذْهَبُ ❌ → لَنْ يَذْهَبَ ✓"
+    ],
+    "note": "لَمَّا (henüz ...medi) ve مَا زَالَ (hâlâ) de olumsuzluk ifade eder."
   }
 ]

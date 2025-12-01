@@ -72,7 +72,7 @@ const App = {
       basics: { title: 'Temel Konular', dataKey: 'pronouns_01', render: this.renderBasics, hasSelector: true, selectorType: 'basics' },
       emsile: { title: 'Emsile', dataKey: 'emsile_01', render: this.renderEmsile, hasSelector: true, selectorType: 'emsile' },
       bina: { title: 'Binâ', dataKey: 'bina_01', render: this.renderSarf },
-      maksud: { title: 'Maksûd', dataKey: 'maksud_01', render: this.renderSarf },
+      maksud: { title: 'Maksûd', dataKey: 'maksud_01', render: this.renderMaksud },
       sarf: { title: 'Sarf Dersleri', dataKey: 'sarf_01', render: this.renderSarf },
       nahiv: { title: 'Nahiv Dersleri', dataKey: 'nahiv_01', render: this.renderNahiv },
       grammar: { title: 'Gramer', dataKey: 'grammar_01', render: this.renderGrammar },
@@ -210,21 +210,38 @@ const App = {
   
   renderBasics(_, container) {
     const selector = document.getElementById('selector');
-    const dataKey = selector.value || 'pronouns_01';
+    let dataKey = selector.value;
+    
+    // Eğer value boş veya basics ise default ata
+    if (!dataKey || dataKey === '' || !dataKey.includes('_01')) {
+      dataKey = 'pronouns_01';
+      selector.value = dataKey;
+    }
+    
     const data = this.data[dataKey];
     
     if (!data || !Array.isArray(data)) {
-      container.innerHTML = '<div class="placeholder">Veri bulunamadı</div>';
+      container.innerHTML = `<div class="placeholder">Veri bulunamadı: ${dataKey}</div>`;
       return;
     }
     
     let html = '';
     data.forEach(category => {
       html += `<div class="section" style="margin-bottom: 24px;"><div class="section-title">${category.category || ''}</div>`;
+      if (category.note) {
+        html += `<p style="color: var(--text-dim); font-size: 13px; margin-bottom: 12px;">${category.note}</p>`;
+      }
       if (category.items) {
         html += '<div class="list">';
         category.items.forEach(item => {
-          html += `<div class="list-item"><div><div class="list-ar">${item.word}</div><div class="list-tr">${item.meaning_tr}</div></div><div style="text-align: right; font-size: 12px;"><div style="color: var(--text-dim);">${item.transliteration || ''}</div><div class="ar" style="font-size: 14px; color: var(--text-dim);">${item.example_ar || ''}</div></div></div>`;
+          // Renkler için özel format (word_m, word_f)
+          const word = item.word || item.word_m || '';
+          const wordF = item.word_f ? ` / ${item.word_f}` : '';
+          const meaning = item.meaning_tr || '';
+          const translit = item.transliteration || '';
+          const example = item.example_ar || (item.examples ? item.examples[0] : '') || '';
+          
+          html += `<div class="list-item"><div><div class="list-ar">${word}${wordF}</div><div class="list-tr">${meaning}</div></div><div style="text-align: right; font-size: 12px;"><div style="color: var(--text-dim);">${translit}</div><div class="ar" style="font-size: 14px; color: var(--text-dim);">${example}</div></div></div>`;
         });
         html += '</div>';
       }
@@ -280,41 +297,252 @@ const App = {
   
   renderSarf(data, container) {
     let html = '';
-    if (data.meta) {
-      html += `<div class="detail"><div class="detail-header"><div class="detail-title">${data.meta.title || ''}</div><div class="detail-sub">${data.meta.description || ''}</div></div></div>`;
-    }
-    if (data.bablar) {
-      html += '<div class="section" style="margin-top: 24px;"><div class="section-title">Bablar</div><div class="grid">';
-      data.bablar.forEach(bab => {
-        html += `<div class="card"><div class="card-title">${bab.pattern || bab.vezin || ''}</div><div class="card-sub">${bab.name || bab.isim || ''}</div></div>`;
+    
+    // Array yapısı (sarf_01.json gibi)
+    if (Array.isArray(data)) {
+      html += '<div class="section"><div class="section-title">Sarf Konuları</div></div>';
+      data.forEach(topic => {
+        html += `
+          <div class="section" style="margin-top: 20px; padding: 16px; background: var(--card-bg); border-radius: 12px;">
+            <div class="section-title" style="font-size: 16px;">${topic.topic || ''}</div>
+            <p style="color: var(--text-dim); font-size: 13px; margin: 8px 0;">${topic.description || ''}</p>
+            ${topic.pattern ? `<div style="background: var(--bg); padding: 8px 12px; border-radius: 8px; margin: 8px 0; font-family: 'Amiri'; font-size: 15px;">${topic.pattern}</div>` : ''}
+            ${topic.examples ? `
+              <div style="margin-top: 12px;">
+                <div style="font-size: 12px; color: var(--accent); margin-bottom: 6px;">Örnekler:</div>
+                ${topic.examples.map(ex => `<div style="padding: 4px 0; font-size: 14px;">${ex}</div>`).join('')}
+              </div>
+            ` : ''}
+            ${topic.tips ? `
+              <div style="margin-top: 12px;">
+                <div style="font-size: 12px; color: var(--accent); margin-bottom: 6px;">İpuçları:</div>
+                ${topic.tips.map(tip => `<div style="padding: 2px 0; font-size: 13px; color: var(--text-dim);">• ${tip}</div>`).join('')}
+              </div>
+            ` : ''}
+          </div>
+        `;
       });
-      html += '</div></div>';
     }
+    // Object yapısı (meta, bablar gibi - maksud)
+    else if (data.meta) {
+      html += `<div class="detail"><div class="detail-header"><div class="detail-title">${data.meta.title || ''}</div><div class="detail-sub">${data.meta.description || ''}</div></div></div>`;
+      
+      if (data.introduction) {
+        html += `<div class="section" style="margin-top: 16px;"><p style="color: var(--text-dim);">${data.introduction.content || ''}</p></div>`;
+        
+        if (data.introduction.illet_types) {
+          html += '<div class="grid" style="margin-top: 16px;">';
+          data.introduction.illet_types.forEach(t => {
+            html += `<div class="card"><div class="card-title">${t.nameAr || ''}</div><div class="card-sub">${t.name}</div><p style="font-size: 12px; color: var(--text-dim);">${t.meaning}</p><div style="font-size: 14px; color: var(--accent);">${t.example || ''}</div></div>`;
+          });
+          html += '</div>';
+        }
+      }
+      
+      if (data.bablar) {
+        html += '<div class="section" style="margin-top: 24px;"><div class="section-title">Bablar</div><div class="grid">';
+        data.bablar.forEach(bab => {
+          html += `<div class="card"><div class="card-title">${bab.pattern || bab.vezin || ''}</div><div class="card-sub">${bab.name || bab.isim || ''}</div></div>`;
+        });
+        html += '</div></div>';
+      }
+    }
+    
     container.innerHTML = html || '<div class="placeholder">Sarf verisi hazırlanıyor...</div>';
   },
   
   renderNahiv(data, container) {
     let html = '';
-    if (data.meta) html += `<div class="detail"><div class="detail-header"><div class="detail-title">${data.meta.title || 'Nahiv'}</div></div></div>`;
-    if (data.topics || data.konular) {
-      const topics = data.topics || data.konular || [];
-      html += '<div class="list" style="margin-top: 16px;">';
-      topics.forEach(t => html += `<div class="list-item"><span class="list-ar">${t.titleAr || ''}</span><span class="list-tr">${t.title || ''}</span></div>`);
-      html += '</div>';
+    
+    // Array yapısı (nahiv_01.json)
+    if (Array.isArray(data)) {
+      html += '<div class="section"><div class="section-title">Nahiv Konuları</div></div>';
+      data.forEach(topic => {
+        html += `
+          <div class="section" style="margin-top: 20px; padding: 16px; background: var(--card-bg); border-radius: 12px;">
+            <div class="section-title" style="font-size: 16px;">${topic.topic || ''}</div>
+            <p style="color: var(--text-dim); font-size: 13px; margin: 8px 0;">${topic.description || ''}</p>
+            ${topic.pattern ? `<div style="background: var(--bg); padding: 8px 12px; border-radius: 8px; margin: 8px 0; font-size: 14px;">${topic.pattern}</div>` : ''}
+            ${topic.examples ? `
+              <div style="margin-top: 12px;">
+                <div style="font-size: 12px; color: var(--accent); margin-bottom: 6px;">Örnekler:</div>
+                ${topic.examples.map(ex => `<div style="padding: 4px 0; font-size: 14px;">${ex}</div>`).join('')}
+              </div>
+            ` : ''}
+            ${topic.tips ? `
+              <div style="margin-top: 12px;">
+                <div style="font-size: 12px; color: var(--accent); margin-bottom: 6px;">Kurallar:</div>
+                ${topic.tips.map(tip => `<div style="padding: 2px 0; font-size: 13px; color: var(--text-dim);">• ${tip}</div>`).join('')}
+              </div>
+            ` : ''}
+          </div>
+        `;
+      });
     }
+    // Object yapısı
+    else if (data.meta) {
+      html += `<div class="detail"><div class="detail-header"><div class="detail-title">${data.meta.title || 'Nahiv'}</div></div></div>`;
+      if (data.topics || data.konular) {
+        const topics = data.topics || data.konular || [];
+        html += '<div class="list" style="margin-top: 16px;">';
+        topics.forEach(t => html += `<div class="list-item"><span class="list-ar">${t.titleAr || ''}</span><span class="list-tr">${t.title || ''}</span></div>`);
+        html += '</div>';
+      }
+    }
+    
     container.innerHTML = html || '<div class="placeholder">Nahiv verisi hazırlanıyor...</div>';
   },
   
   renderGrammar(data, container) {
-    let html = '<div class="detail"><div class="detail-header"><div class="detail-title">Gramer</div></div></div>';
-    if (data.topics) {
+    let html = '<div class="section"><div class="section-title">Arapça Gramer</div></div>';
+    
+    // Array yapısı (grammar_01.json)
+    if (Array.isArray(data)) {
+      data.forEach(topic => {
+        html += `
+          <div class="section" style="margin-top: 20px; padding: 16px; background: var(--card-bg); border-radius: 12px;">
+            <div class="section-title" style="font-size: 16px;">${topic.topic || ''}</div>
+            <span style="font-size: 11px; background: var(--accent); color: var(--bg); padding: 2px 8px; border-radius: 4px;">${topic.level || ''}</span>
+            <p style="color: var(--text-dim); font-size: 13px; margin: 12px 0;">${topic.description || ''}</p>
+            ${topic.pattern ? `<div style="background: var(--bg); padding: 8px 12px; border-radius: 8px; margin: 8px 0; font-size: 14px;">${topic.pattern}</div>` : ''}
+            ${topic.examples ? `
+              <div style="margin-top: 12px;">
+                <div style="font-size: 12px; color: var(--accent); margin-bottom: 6px;">Örnekler:</div>
+                ${topic.examples.map(ex => `<div style="padding: 4px 0; font-size: 14px;">${ex}</div>`).join('')}
+              </div>
+            ` : ''}
+            ${topic.tips ? `
+              <div style="margin-top: 12px;">
+                <div style="font-size: 12px; color: var(--accent); margin-bottom: 6px;">İpuçları:</div>
+                ${topic.tips.map(tip => `<div style="padding: 2px 0; font-size: 13px; color: var(--text-dim);">• ${tip}</div>`).join('')}
+              </div>
+            ` : ''}
+            ${topic.mistakes ? `
+              <div style="margin-top: 12px;">
+                <div style="font-size: 12px; color: #e57373; margin-bottom: 6px;">⚠️ Sık Yapılan Hatalar:</div>
+                ${topic.mistakes.map(m => `<div style="padding: 2px 0; font-size: 13px; color: #e57373;">• ${m}</div>`).join('')}
+              </div>
+            ` : ''}
+          </div>
+        `;
+      });
+    }
+    // Object yapısı
+    else if (data.topics) {
       html += '<div class="grid" style="margin-top: 16px;">';
       data.topics.forEach(t => html += `<div class="card"><div class="card-title">${t.titleAr || ''}</div><div class="card-sub">${t.title || ''}</div></div>`);
       html += '</div>';
     }
+    
     container.innerHTML = html;
   },
   
+  renderMaksud(data, container) {
+    let html = '';
+    
+    if (data.meta) {
+      html += `
+        <div class="detail">
+          <div class="detail-header">
+            <div class="detail-title">${data.meta.title || 'Maksud'}</div>
+            <div class="detail-sub">${data.meta.description || ''}</div>
+          </div>
+        </div>
+      `;
+    }
+    
+    if (data.introduction) {
+      html += `
+        <div class="section" style="margin-top: 16px; padding: 16px; background: var(--card-bg); border-radius: 12px;">
+          <div class="section-title">${data.introduction.title || ''}</div>
+          <p style="color: var(--text-dim); font-size: 14px; margin: 12px 0;">${data.introduction.content || ''}</p>
+      `;
+      
+      if (data.introduction.illet_harfleri) {
+        html += `
+          <div style="margin-top: 12px; padding: 12px; background: var(--bg); border-radius: 8px;">
+            <div style="font-size: 13px; color: var(--accent); margin-bottom: 8px;">${data.introduction.illet_harfleri.title}</div>
+            <div style="font-family: 'Amiri'; font-size: 20px; direction: rtl;">${data.introduction.illet_harfleri.letters.join(' - ')}</div>
+            <div style="font-size: 12px; color: var(--text-dim); margin-top: 6px;">${data.introduction.illet_harfleri.note || ''}</div>
+          </div>
+        `;
+      }
+      
+      if (data.introduction.illet_types) {
+        html += '<div class="grid" style="margin-top: 16px;">';
+        data.introduction.illet_types.forEach(t => {
+          html += `
+            <div class="card">
+              <div class="card-title">${t.nameAr || ''}</div>
+              <div class="card-sub">${t.name}</div>
+              <p style="font-size: 12px; color: var(--text-dim); margin: 8px 0;">${t.meaning}</p>
+              <div style="font-family: 'Amiri'; font-size: 16px; color: var(--accent);">${t.example || ''}</div>
+              ${t.subtypes ? t.subtypes.map(st => `<div style="font-size: 11px; color: var(--text-dim); margin-top: 4px;">• ${st.name}: ${st.example}</div>`).join('') : ''}
+            </div>
+          `;
+        });
+        html += '</div>';
+      }
+      html += '</div>';
+    }
+    
+    // Misal, Ecvef, Nakıs, Lefif, Muzaaf bölümleri
+    const sections = ['misal', 'ecvef', 'nakis', 'lefif', 'muzaaf'];
+    sections.forEach(section => {
+      if (data[section]) {
+        const sectionData = data[section];
+        html += `
+          <div class="section" style="margin-top: 24px;">
+            <div class="section-title">${sectionData.title || section}</div>
+            <p style="color: var(--text-dim); font-size: 13px; margin-bottom: 16px;">${sectionData.description || ''}</p>
+        `;
+        
+        if (sectionData.types) {
+          sectionData.types.forEach(type => {
+            html += `
+              <div style="margin-bottom: 20px; padding: 16px; background: var(--card-bg); border-radius: 12px;">
+                <div style="font-size: 15px; font-weight: 600; color: var(--text);">${type.type || ''}</div>
+                <div style="font-family: 'Amiri'; font-size: 18px; color: var(--accent); margin: 4px 0;">${type.typeAr || ''}</div>
+                <p style="font-size: 12px; color: var(--text-dim);">${type.description || ''}</p>
+            `;
+            
+            if (type.examples) {
+              type.examples.forEach(ex => {
+                html += `
+                  <div style="margin-top: 12px; padding: 12px; background: var(--bg); border-radius: 8px;">
+                    <div style="font-size: 11px; color: var(--text-dim);">Kök: ${ex.root || ''}</div>
+                    <div style="font-size: 13px; margin: 4px 0;">${ex.meaning || ''}</div>
+                `;
+                
+                if (ex.tasrif) {
+                  const t = ex.tasrif;
+                  html += '<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; margin-top: 8px;">';
+                  
+                  if (t.mazi) html += `<div style="padding: 8px; background: var(--card-bg); border-radius: 6px;"><div style="font-size: 10px; color: var(--text-dim);">Mazi</div><div style="font-family: 'Amiri'; font-size: 16px;">${t.mazi.word || ''}</div><div style="font-size: 11px;">${t.mazi.meaning || ''}</div></div>`;
+                  if (t.muzari) html += `<div style="padding: 8px; background: var(--card-bg); border-radius: 6px;"><div style="font-size: 10px; color: var(--text-dim);">Muzari</div><div style="font-family: 'Amiri'; font-size: 16px;">${t.muzari.word || ''}</div><div style="font-size: 11px;">${t.muzari.meaning || ''}</div>${t.muzari.note ? `<div style="font-size: 10px; color: var(--accent);">${t.muzari.note}</div>` : ''}</div>`;
+                  if (t.emir) html += `<div style="padding: 8px; background: var(--card-bg); border-radius: 6px;"><div style="font-size: 10px; color: var(--text-dim);">Emir</div><div style="font-family: 'Amiri'; font-size: 16px;">${t.emir.word || ''}</div><div style="font-size: 11px;">${t.emir.meaning || ''}</div></div>`;
+                  if (t.masdar) html += `<div style="padding: 8px; background: var(--card-bg); border-radius: 6px;"><div style="font-size: 10px; color: var(--text-dim);">Masdar</div><div style="font-family: 'Amiri'; font-size: 16px;">${t.masdar.word || ''}</div><div style="font-size: 11px;">${t.masdar.meaning || ''}</div></div>`;
+                  if (t.ism_fail) html += `<div style="padding: 8px; background: var(--card-bg); border-radius: 6px;"><div style="font-size: 10px; color: var(--text-dim);">İsm-i Fail</div><div style="font-family: 'Amiri'; font-size: 16px;">${t.ism_fail.word || ''}</div><div style="font-size: 11px;">${t.ism_fail.meaning || ''}</div></div>`;
+                  if (t.ism_meful) html += `<div style="padding: 8px; background: var(--card-bg); border-radius: 6px;"><div style="font-size: 10px; color: var(--text-dim);">İsm-i Mef'ul</div><div style="font-family: 'Amiri'; font-size: 16px;">${t.ism_meful.word || ''}</div><div style="font-size: 11px;">${t.ism_meful.meaning || ''}</div></div>`;
+                  
+                  html += '</div>';
+                }
+                
+                html += '</div>';
+              });
+            }
+            
+            html += '</div>';
+          });
+        }
+        
+        html += '</div>';
+      }
+    });
+    
+    container.innerHTML = html || '<div class="placeholder">Maksud verisi hazırlanıyor...</div>';
+  },
+
   renderRoots(data, container) {
     container.innerHTML = `<div class="search-box"><input type="text" class="search-input" id="root-search" placeholder="Kök girin (ك ت ب)"><button class="search-btn" onclick="App.searchRoot()">Ara</button></div><div id="root-results"><div class="placeholder"><div class="ar">الجذر</div>Kök harfleri girin</div></div>`;
   },
