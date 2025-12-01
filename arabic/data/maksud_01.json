@@ -1,0 +1,581 @@
+{
+  "meta": {
+    "title": "Maksud | المقصود",
+    "description": "İlletli ve Muzaaf Fiiller - İleri Sarf",
+    "level": "İleri",
+    "source": "Klasik Maksud Kitabı"
+  },
+  "introduction": {
+    "title": "Maksud Nedir?",
+    "content": "Maksud (المقصود), 'hedeflenen, amaçlanan' anlamına gelir. İlletli (hasta harfli: و ي ا) ve muzaaf (şeddeli) fiillerin çekimlerini öğretir. Bu fiiller kurallı fiillerden farklı çekilir.",
+    "illet_harfleri": {
+      "title": "İllet Harfleri (حروف العلة)",
+      "letters": ["ا (elif)", "و (vav)", "ي (ya)"],
+      "note": "Bu harfler kelimede bulunduğunda özel kurallar uygulanır, harfler düşebilir veya değişebilir."
+    },
+    "illet_types": [
+      {"name": "Misal", "nameAr": "المثال", "meaning": "Fa harfi illetli (و veya ي)", "example": "وَعَدَ، يَسَرَ"},
+      {"name": "Ecvef", "nameAr": "الأجوف", "meaning": "Ayn harfi illetli (و veya ي)", "example": "قَالَ، بَاعَ"},
+      {"name": "Nakıs", "nameAr": "الناقص", "meaning": "Lam harfi illetli (و veya ي)", "example": "دَعَا، رَمَى"},
+      {"name": "Lefif", "nameAr": "اللفيف", "meaning": "İki harf illetli", "subtypes": [
+        {"name": "Lefif Makrun", "meaning": "Ayn ve Lam illetli", "example": "رَوَى، طَوَى"},
+        {"name": "Lefif Mefruk", "meaning": "Fa ve Lam illetli", "example": "وَفَى، وَقَى"}
+      ]},
+      {"name": "Muzaaf", "nameAr": "المضاعف", "meaning": "Ayn ve Lam aynı harf (şeddeli)", "example": "مَدَّ، رَدَّ"}
+    ]
+  },
+  "misal": {
+    "title": "Misal Fiiller | الفعل المثال",
+    "description": "İlk harfi (Fa) و veya ي olan fiiller",
+    "types": [
+      {
+        "type": "Misal Vavi",
+        "typeAr": "المثال الواوي",
+        "description": "Fa harfi و olan fiiller. Muzari'de و düşer.",
+        "examples": [
+          {
+            "root": "و ع د",
+            "meaning": "söz vermek, vaat etmek",
+            "tasrif": {
+              "mazi": {
+                "word": "وَعَدَ",
+                "translit": "wa'ada",
+                "meaning": "söz verdi",
+                "conjugation": [
+                  {"person": "هُوَ", "form": "وَعَدَ", "translit": "wa'ada"},
+                  {"person": "هُمَا", "form": "وَعَدَا", "translit": "wa'adā"},
+                  {"person": "هُمْ", "form": "وَعَدُوا", "translit": "wa'adū"},
+                  {"person": "هِيَ", "form": "وَعَدَتْ", "translit": "wa'adat"},
+                  {"person": "أَنْتَ", "form": "وَعَدْتَ", "translit": "wa'adta"},
+                  {"person": "أَنَا", "form": "وَعَدْتُ", "translit": "wa'adtu"},
+                  {"person": "نَحْنُ", "form": "وَعَدْنَا", "translit": "wa'adnā"}
+                ]
+              },
+              "muzari": {
+                "word": "يَعِدُ",
+                "translit": "ya'idu",
+                "meaning": "söz veriyor",
+                "note": "و düştü!",
+                "conjugation": [
+                  {"person": "هُوَ", "form": "يَعِدُ", "translit": "ya'idu"},
+                  {"person": "هُمَا", "form": "يَعِدَانِ", "translit": "ya'idāni"},
+                  {"person": "هُمْ", "form": "يَعِدُونَ", "translit": "ya'idūna"},
+                  {"person": "هِيَ", "form": "تَعِدُ", "translit": "ta'idu"},
+                  {"person": "أَنْتَ", "form": "تَعِدُ", "translit": "ta'idu"},
+                  {"person": "أَنَا", "form": "أَعِدُ", "translit": "a'idu"},
+                  {"person": "نَحْنُ", "form": "نَعِدُ", "translit": "na'idu"}
+                ]
+              },
+              "emir": {"word": "عِدْ", "translit": "'id", "meaning": "söz ver!", "note": "و düştü!"},
+              "masdar": {"word": "وَعْدٌ / عِدَةٌ", "translit": "wa'd / 'ida", "meaning": "vaat, söz"},
+              "ism_fail": {"word": "وَاعِدٌ", "translit": "wā'id", "meaning": "söz veren"},
+              "ism_meful": {"word": "مَوْعُودٌ", "translit": "maw'ūd", "meaning": "vadedilen"},
+              "ism_zaman": {"word": "مَوْعِدٌ", "translit": "maw'id", "meaning": "randevu, buluşma zamanı"},
+              "meçhul_mazi": {"word": "وُعِدَ", "translit": "wu'ida", "meaning": "kendisine söz verildi"},
+              "meçhul_muzari": {"word": "يُوعَدُ", "translit": "yū'adu", "meaning": "kendisine söz veriliyor"}
+            }
+          },
+          {
+            "root": "و ص ل",
+            "meaning": "ulaşmak, varmak",
+            "tasrif": {
+              "mazi": {"word": "وَصَلَ", "translit": "wasala", "meaning": "ulaştı, vardı"},
+              "muzari": {"word": "يَصِلُ", "translit": "yasilu", "meaning": "ulaşıyor"},
+              "emir": {"word": "صِلْ", "translit": "sil", "meaning": "ulaş!"},
+              "masdar": {"word": "وُصُولٌ", "translit": "wusūl", "meaning": "ulaşma, varış"},
+              "ism_fail": {"word": "وَاصِلٌ", "translit": "wāsil", "meaning": "ulaşan"},
+              "ism_mekan": {"word": "مَوْصِلٌ", "translit": "mawsil", "meaning": "ulaşılan yer"}
+            }
+          },
+          {
+            "root": "و ج د",
+            "meaning": "bulmak",
+            "tasrif": {
+              "mazi": {"word": "وَجَدَ", "translit": "wacada", "meaning": "buldu"},
+              "muzari": {"word": "يَجِدُ", "translit": "yacidu", "meaning": "buluyor"},
+              "emir": {"word": "جِدْ", "translit": "cid", "meaning": "bul!"},
+              "masdar": {"word": "وُجُودٌ / وِجْدَانٌ", "translit": "wucūd / wicdān", "meaning": "varlık, bulma"},
+              "ism_fail": {"word": "وَاجِدٌ", "translit": "wācid", "meaning": "bulan"},
+              "ism_meful": {"word": "مَوْجُودٌ", "translit": "mawcūd", "meaning": "bulunan, mevcut"}
+            }
+          },
+          {
+            "root": "و ل د",
+            "meaning": "doğurmak",
+            "tasrif": {
+              "mazi": {"word": "وَلَدَ", "translit": "walada", "meaning": "doğurdu"},
+              "muzari": {"word": "يَلِدُ", "translit": "yalidu", "meaning": "doğuruyor"},
+              "masdar": {"word": "وِلَادَةٌ", "translit": "wilāda", "meaning": "doğum"},
+              "ism_fail": {"word": "وَالِدٌ / وَالِدَةٌ", "translit": "wālid / wālida", "meaning": "baba / anne"},
+              "ism_meful": {"word": "مَوْلُودٌ", "translit": "mawlūd", "meaning": "doğan, mevlud"}
+            }
+          }
+        ]
+      },
+      {
+        "type": "Misal Yai",
+        "typeAr": "المثال اليائي",
+        "description": "Fa harfi ي olan fiiller. Genellikle و gibi düşmez.",
+        "examples": [
+          {
+            "root": "ي س ر",
+            "meaning": "kolay olmak",
+            "tasrif": {
+              "mazi": {"word": "يَسَرَ", "translit": "yasara", "meaning": "kolay oldu"},
+              "muzari": {"word": "يَيْسِرُ", "translit": "yaysiru", "meaning": "kolay oluyor"},
+              "masdar": {"word": "يُسْرٌ", "translit": "yusr", "meaning": "kolaylık"},
+              "ism_fail": {"word": "يَاسِرٌ", "translit": "yāsir", "meaning": "kolay olan"},
+              "ism_tafdil": {"word": "أَيْسَرُ", "translit": "aysar", "meaning": "daha kolay"}
+            }
+          },
+          {
+            "root": "ي ب س",
+            "meaning": "kurumak",
+            "tasrif": {
+              "mazi": {"word": "يَبِسَ", "translit": "yabisa", "meaning": "kurudu"},
+              "muzari": {"word": "يَيْبَسُ", "translit": "yaybasu", "meaning": "kuruyor"},
+              "masdar": {"word": "يُبْسٌ", "translit": "yubs", "meaning": "kuruluk"},
+              "ism_fail": {"word": "يَابِسٌ", "translit": "yābis", "meaning": "kuru"}
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "ecvef": {
+    "title": "Ecvef Fiiller | الفعل الأجوف",
+    "description": "Orta harfi (Ayn) و veya ي olan fiiller. Bu harf bazen elif'e dönüşür, bazen düşer.",
+    "types": [
+      {
+        "type": "Ecvef Vavi",
+        "typeAr": "الأجوف الواوي",
+        "description": "Ayn harfi و olan fiiller",
+        "examples": [
+          {
+            "root": "ق و ل",
+            "meaning": "söylemek, demek",
+            "tasrif": {
+              "mazi": {
+                "word": "قَالَ",
+                "translit": "qāla",
+                "meaning": "dedi",
+                "note": "Aslı قَوَلَ, و elif'e dönüştü",
+                "conjugation": [
+                  {"person": "هُوَ", "form": "قَالَ", "translit": "qāla"},
+                  {"person": "هُمَا", "form": "قَالَا", "translit": "qālā"},
+                  {"person": "هُمْ", "form": "قَالُوا", "translit": "qālū"},
+                  {"person": "هِيَ", "form": "قَالَتْ", "translit": "qālat"},
+                  {"person": "أَنْتَ", "form": "قُلْتَ", "translit": "qulta", "note": "و düştü!"},
+                  {"person": "أَنْتُمْ", "form": "قُلْتُمْ", "translit": "qultum"},
+                  {"person": "أَنَا", "form": "قُلْتُ", "translit": "qultu"},
+                  {"person": "نَحْنُ", "form": "قُلْنَا", "translit": "qulnā"}
+                ]
+              },
+              "muzari": {
+                "word": "يَقُولُ",
+                "translit": "yaqūlu",
+                "meaning": "diyor, söylüyor",
+                "conjugation": [
+                  {"person": "هُوَ", "form": "يَقُولُ", "translit": "yaqūlu"},
+                  {"person": "هُمَا", "form": "يَقُولَانِ", "translit": "yaqūlāni"},
+                  {"person": "هُمْ", "form": "يَقُولُونَ", "translit": "yaqūlūna"},
+                  {"person": "هِيَ", "form": "تَقُولُ", "translit": "taqūlu"},
+                  {"person": "أَنْتَ", "form": "تَقُولُ", "translit": "taqūlu"},
+                  {"person": "أَنَا", "form": "أَقُولُ", "translit": "aqūlu"},
+                  {"person": "نَحْنُ", "form": "نَقُولُ", "translit": "naqūlu"}
+                ]
+              },
+              "emir": {"word": "قُلْ", "translit": "qul", "meaning": "de!, söyle!", "note": "و düştü!"},
+              "nehiy": {"word": "لَا تَقُلْ", "translit": "lā taqul", "meaning": "deme!"},
+              "masdar": {"word": "قَوْلٌ", "translit": "qawl", "meaning": "söz, söyleme"},
+              "ism_fail": {"word": "قَائِلٌ", "translit": "qā'il", "meaning": "söyleyen"},
+              "ism_meful": {"word": "مَقُولٌ", "translit": "maqūl", "meaning": "söylenen"},
+              "meçhul_mazi": {"word": "قِيلَ", "translit": "qīla", "meaning": "denildi"},
+              "meçhul_muzari": {"word": "يُقَالُ", "translit": "yuqālu", "meaning": "deniyor"}
+            }
+          },
+          {
+            "root": "ك و ن",
+            "meaning": "olmak",
+            "tasrif": {
+              "mazi": {
+                "word": "كَانَ",
+                "translit": "kāna",
+                "meaning": "oldu, idi",
+                "conjugation": [
+                  {"person": "هُوَ", "form": "كَانَ", "translit": "kāna"},
+                  {"person": "هِيَ", "form": "كَانَتْ", "translit": "kānat"},
+                  {"person": "هُمْ", "form": "كَانُوا", "translit": "kānū"},
+                  {"person": "أَنْتَ", "form": "كُنْتَ", "translit": "kunta"},
+                  {"person": "أَنَا", "form": "كُنْتُ", "translit": "kuntu"},
+                  {"person": "نَحْنُ", "form": "كُنَّا", "translit": "kunnā"}
+                ]
+              },
+              "muzari": {
+                "word": "يَكُونُ",
+                "translit": "yakūnu",
+                "meaning": "oluyor, olur",
+                "conjugation": [
+                  {"person": "هُوَ", "form": "يَكُونُ", "translit": "yakūnu"},
+                  {"person": "هِيَ", "form": "تَكُونُ", "translit": "takūnu"},
+                  {"person": "أَنْتَ", "form": "تَكُونُ", "translit": "takūnu"},
+                  {"person": "أَنَا", "form": "أَكُونُ", "translit": "akūnu"}
+                ]
+              },
+              "emir": {"word": "كُنْ", "translit": "kun", "meaning": "ol!"},
+              "masdar": {"word": "كَوْنٌ", "translit": "kawn", "meaning": "olma, evren"},
+              "ism_fail": {"word": "كَائِنٌ", "translit": "kā'in", "meaning": "olan, var olan"}
+            },
+            "note": "كُنْ فَيَكُونُ = Ol! dedi, oluverdi (Yasin)"
+          },
+          {
+            "root": "ن و م",
+            "meaning": "uyumak",
+            "tasrif": {
+              "mazi": {"word": "نَامَ", "translit": "nāma", "meaning": "uyudu"},
+              "muzari": {"word": "يَنَامُ", "translit": "yanāmu", "meaning": "uyuyor"},
+              "emir": {"word": "نَمْ", "translit": "nam", "meaning": "uyu!"},
+              "masdar": {"word": "نَوْمٌ", "translit": "nawm", "meaning": "uyku"},
+              "ism_fail": {"word": "نَائِمٌ", "translit": "nā'im", "meaning": "uyuyan"}
+            }
+          },
+          {
+            "root": "ز و ر",
+            "meaning": "ziyaret etmek",
+            "tasrif": {
+              "mazi": {"word": "زَارَ", "translit": "zāra", "meaning": "ziyaret etti"},
+              "muzari": {"word": "يَزُورُ", "translit": "yazūru", "meaning": "ziyaret ediyor"},
+              "emir": {"word": "زُرْ", "translit": "zur", "meaning": "ziyaret et!"},
+              "masdar": {"word": "زِيَارَةٌ", "translit": "ziyāra", "meaning": "ziyaret"},
+              "ism_fail": {"word": "زَائِرٌ", "translit": "zā'ir", "meaning": "ziyaretçi"}
+            }
+          }
+        ]
+      },
+      {
+        "type": "Ecvef Yai",
+        "typeAr": "الأجوف اليائي",
+        "description": "Ayn harfi ي olan fiiller",
+        "examples": [
+          {
+            "root": "ب ي ع",
+            "meaning": "satmak",
+            "tasrif": {
+              "mazi": {
+                "word": "بَاعَ",
+                "translit": "bā'a",
+                "meaning": "sattı",
+                "conjugation": [
+                  {"person": "هُوَ", "form": "بَاعَ", "translit": "bā'a"},
+                  {"person": "هِيَ", "form": "بَاعَتْ", "translit": "bā'at"},
+                  {"person": "هُمْ", "form": "بَاعُوا", "translit": "bā'ū"},
+                  {"person": "أَنْتَ", "form": "بِعْتَ", "translit": "bi'ta"},
+                  {"person": "أَنَا", "form": "بِعْتُ", "translit": "bi'tu"}
+                ]
+              },
+              "muzari": {
+                "word": "يَبِيعُ",
+                "translit": "yabī'u",
+                "meaning": "satıyor",
+                "conjugation": [
+                  {"person": "هُوَ", "form": "يَبِيعُ", "translit": "yabī'u"},
+                  {"person": "هِيَ", "form": "تَبِيعُ", "translit": "tabī'u"},
+                  {"person": "أَنْتَ", "form": "تَبِيعُ", "translit": "tabī'u"},
+                  {"person": "أَنَا", "form": "أَبِيعُ", "translit": "abī'u"}
+                ]
+              },
+              "emir": {"word": "بِعْ", "translit": "bi'", "meaning": "sat!"},
+              "masdar": {"word": "بَيْعٌ", "translit": "bay'", "meaning": "satış"},
+              "ism_fail": {"word": "بَائِعٌ", "translit": "bā'i'", "meaning": "satıcı"},
+              "ism_meful": {"word": "مَبِيعٌ", "translit": "mabī'", "meaning": "satılan"}
+            }
+          },
+          {
+            "root": "س ي ر",
+            "meaning": "yürümek, gitmek",
+            "tasrif": {
+              "mazi": {"word": "سَارَ", "translit": "sāra", "meaning": "yürüdü"},
+              "muzari": {"word": "يَسِيرُ", "translit": "yasīru", "meaning": "yürüyor"},
+              "emir": {"word": "سِرْ", "translit": "sir", "meaning": "yürü!"},
+              "masdar": {"word": "سَيْرٌ / سِيرَةٌ", "translit": "sayr / sīra", "meaning": "yürüme, hayat hikayesi"},
+              "ism_fail": {"word": "سَائِرٌ", "translit": "sā'ir", "meaning": "yürüyen"}
+            }
+          },
+          {
+            "root": "ع ي ش",
+            "meaning": "yaşamak",
+            "tasrif": {
+              "mazi": {"word": "عَاشَ", "translit": "'āşa", "meaning": "yaşadı"},
+              "muzari": {"word": "يَعِيشُ", "translit": "ya'īşu", "meaning": "yaşıyor"},
+              "masdar": {"word": "عَيْشٌ", "translit": "'ayş", "meaning": "yaşam, hayat"},
+              "ism_fail": {"word": "عَائِشٌ", "translit": "'ā'iş", "meaning": "yaşayan"}
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "nakis": {
+    "title": "Nakıs Fiiller | الفعل الناقص",
+    "description": "Son harfi (Lam) و veya ي olan fiiller. En zor illetli fiil türü.",
+    "types": [
+      {
+        "type": "Nakıs Vavi",
+        "typeAr": "الناقص الواوي",
+        "description": "Lam harfi و olan fiiller",
+        "examples": [
+          {
+            "root": "د ع و",
+            "meaning": "çağırmak, davet etmek, dua etmek",
+            "tasrif": {
+              "mazi": {
+                "word": "دَعَا",
+                "translit": "da'ā",
+                "meaning": "çağırdı, dua etti",
+                "note": "Aslı دَعَوَ, و elif'e dönüştü",
+                "conjugation": [
+                  {"person": "هُوَ", "form": "دَعَا", "translit": "da'ā"},
+                  {"person": "هُمَا", "form": "دَعَوَا", "translit": "da'awā"},
+                  {"person": "هُمْ", "form": "دَعَوْا", "translit": "da'aw"},
+                  {"person": "هِيَ", "form": "دَعَتْ", "translit": "da'at", "note": "و düştü!"},
+                  {"person": "هُنَّ", "form": "دَعَوْنَ", "translit": "da'awna"},
+                  {"person": "أَنْتَ", "form": "دَعَوْتَ", "translit": "da'awta"},
+                  {"person": "أَنَا", "form": "دَعَوْتُ", "translit": "da'awtu"},
+                  {"person": "نَحْنُ", "form": "دَعَوْنَا", "translit": "da'awnā"}
+                ]
+              },
+              "muzari": {
+                "word": "يَدْعُو",
+                "translit": "yad'ū",
+                "meaning": "çağırıyor, dua ediyor",
+                "conjugation": [
+                  {"person": "هُوَ", "form": "يَدْعُو", "translit": "yad'ū"},
+                  {"person": "هُمَا", "form": "يَدْعُوَانِ", "translit": "yad'uwāni"},
+                  {"person": "هُمْ", "form": "يَدْعُونَ", "translit": "yad'ūna"},
+                  {"person": "هِيَ", "form": "تَدْعُو", "translit": "tad'ū"},
+                  {"person": "أَنْتَ", "form": "تَدْعُو", "translit": "tad'ū"},
+                  {"person": "أَنَا", "form": "أَدْعُو", "translit": "ad'ū"},
+                  {"person": "نَحْنُ", "form": "نَدْعُو", "translit": "nad'ū"}
+                ]
+              },
+              "emir": {"word": "اُدْعُ", "translit": "ud'u", "meaning": "çağır!, dua et!"},
+              "masdar": {"word": "دُعَاءٌ / دَعْوَةٌ", "translit": "du'ā' / da'wa", "meaning": "dua, çağrı, davet"},
+              "ism_fail": {"word": "دَاعٍ", "translit": "dā'in", "meaning": "çağıran, davetçi"},
+              "ism_meful": {"word": "مَدْعُوٌّ", "translit": "mad'uww", "meaning": "çağrılan, davetli"},
+              "meçhul_mazi": {"word": "دُعِيَ", "translit": "du'iya", "meaning": "çağrıldı"},
+              "meçhul_muzari": {"word": "يُدْعَى", "translit": "yud'ā", "meaning": "çağrılıyor"}
+            }
+          },
+          {
+            "root": "ت ل و",
+            "meaning": "okumak (Kur'an)",
+            "tasrif": {
+              "mazi": {"word": "تَلَا", "translit": "talā", "meaning": "okudu (Kur'an)"},
+              "muzari": {"word": "يَتْلُو", "translit": "yatlū", "meaning": "okuyor"},
+              "emir": {"word": "اُتْلُ", "translit": "utlu", "meaning": "oku!"},
+              "masdar": {"word": "تِلَاوَةٌ", "translit": "tilāwa", "meaning": "tilavet, okuma"},
+              "ism_fail": {"word": "تَالٍ", "translit": "tālin", "meaning": "okuyan"}
+            }
+          },
+          {
+            "root": "ع ف و",
+            "meaning": "affetmek",
+            "tasrif": {
+              "mazi": {"word": "عَفَا", "translit": "'afā", "meaning": "affetti"},
+              "muzari": {"word": "يَعْفُو", "translit": "ya'fū", "meaning": "affediyor"},
+              "emir": {"word": "اُعْفُ", "translit": "u'fu", "meaning": "affet!"},
+              "masdar": {"word": "عَفْوٌ", "translit": "'afw", "meaning": "af"},
+              "ism_fail": {"word": "عَافٍ", "translit": "'āfin", "meaning": "affeden"}
+            }
+          }
+        ]
+      },
+      {
+        "type": "Nakıs Yai",
+        "typeAr": "الناقص اليائي",
+        "description": "Lam harfi ي olan fiiller",
+        "examples": [
+          {
+            "root": "ر م ي",
+            "meaning": "atmak",
+            "tasrif": {
+              "mazi": {
+                "word": "رَمَى",
+                "translit": "ramā",
+                "meaning": "attı",
+                "conjugation": [
+                  {"person": "هُوَ", "form": "رَمَى", "translit": "ramā"},
+                  {"person": "هُمَا", "form": "رَمَيَا", "translit": "ramayā"},
+                  {"person": "هُمْ", "form": "رَمَوْا", "translit": "ramaw"},
+                  {"person": "هِيَ", "form": "رَمَتْ", "translit": "ramat"},
+                  {"person": "أَنْتَ", "form": "رَمَيْتَ", "translit": "ramayta"},
+                  {"person": "أَنَا", "form": "رَمَيْتُ", "translit": "ramaytu"}
+                ]
+              },
+              "muzari": {
+                "word": "يَرْمِي",
+                "translit": "yarmī",
+                "meaning": "atıyor",
+                "conjugation": [
+                  {"person": "هُوَ", "form": "يَرْمِي", "translit": "yarmī"},
+                  {"person": "هُمَا", "form": "يَرْمِيَانِ", "translit": "yarmiyāni"},
+                  {"person": "هُمْ", "form": "يَرْمُونَ", "translit": "yarmūna"},
+                  {"person": "هِيَ", "form": "تَرْمِي", "translit": "tarmī"},
+                  {"person": "أَنْتَ", "form": "تَرْمِي", "translit": "tarmī"},
+                  {"person": "أَنَا", "form": "أَرْمِي", "translit": "armī"}
+                ]
+              },
+              "emir": {"word": "اِرْمِ", "translit": "irmi", "meaning": "at!"},
+              "masdar": {"word": "رَمْيٌ", "translit": "ramy", "meaning": "atma"},
+              "ism_fail": {"word": "رَامٍ", "translit": "rāmin", "meaning": "atan"},
+              "ism_meful": {"word": "مَرْمِيٌّ", "translit": "marmiyy", "meaning": "atılan"}
+            }
+          },
+          {
+            "root": "م ش ي",
+            "meaning": "yürümek",
+            "tasrif": {
+              "mazi": {"word": "مَشَى", "translit": "maşā", "meaning": "yürüdü"},
+              "muzari": {"word": "يَمْشِي", "translit": "yamşī", "meaning": "yürüyor"},
+              "emir": {"word": "اِمْشِ", "translit": "imşi", "meaning": "yürü!"},
+              "masdar": {"word": "مَشْيٌ", "translit": "maşy", "meaning": "yürüme"},
+              "ism_fail": {"word": "مَاشٍ", "translit": "māşin", "meaning": "yürüyen"}
+            }
+          },
+          {
+            "root": "ه د ي",
+            "meaning": "hidayet etmek, yol göstermek",
+            "tasrif": {
+              "mazi": {"word": "هَدَى", "translit": "hadā", "meaning": "hidayet etti"},
+              "muzari": {"word": "يَهْدِي", "translit": "yahdī", "meaning": "hidayet ediyor"},
+              "emir": {"word": "اِهْدِ", "translit": "ihdi", "meaning": "hidayet et!"},
+              "masdar": {"word": "هِدَايَةٌ / هُدًى", "translit": "hidāya / hudā", "meaning": "hidayet"},
+              "ism_fail": {"word": "هَادٍ", "translit": "hādin", "meaning": "hidayet eden"},
+              "ism_meful": {"word": "مَهْدِيٌّ", "translit": "mahdiyy", "meaning": "hidayet edilen, Mehdi"}
+            },
+            "note": "اِهْدِنَا الصِّرَاطَ المُسْتَقِيمَ = Bizi doğru yola ilet (Fatiha)"
+          },
+          {
+            "root": "ب ن ي",
+            "meaning": "inşa etmek",
+            "tasrif": {
+              "mazi": {"word": "بَنَى", "translit": "banā", "meaning": "inşa etti"},
+              "muzari": {"word": "يَبْنِي", "translit": "yabnī", "meaning": "inşa ediyor"},
+              "emir": {"word": "اِبْنِ", "translit": "ibni", "meaning": "inşa et!"},
+              "masdar": {"word": "بِنَاءٌ", "translit": "binā'", "meaning": "bina, inşa"},
+              "ism_fail": {"word": "بَانٍ", "translit": "bānin", "meaning": "inşa eden"},
+              "ism_meful": {"word": "مَبْنِيٌّ", "translit": "mabniyy", "meaning": "inşa edilen"}
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "muzaaf": {
+    "title": "Muzaaf Fiiller | الفعل المضاعف",
+    "description": "Ayn ve Lam harfi aynı olan (şeddeli) fiiller",
+    "examples": [
+      {
+        "root": "م د د",
+        "meaning": "uzatmak",
+        "tasrif": {
+          "mazi": {
+            "word": "مَدَّ",
+            "translit": "madda",
+            "meaning": "uzattı",
+            "note": "Aslı مَدَدَ, iki د birleşti",
+            "conjugation": [
+              {"person": "هُوَ", "form": "مَدَّ", "translit": "madda"},
+              {"person": "هُمَا", "form": "مَدَّا", "translit": "maddā"},
+              {"person": "هُمْ", "form": "مَدُّوا", "translit": "maddū"},
+              {"person": "هِيَ", "form": "مَدَّتْ", "translit": "maddat"},
+              {"person": "أَنْتَ", "form": "مَدَدْتَ", "translit": "madadta", "note": "Şedde açıldı!"},
+              {"person": "أَنَا", "form": "مَدَدْتُ", "translit": "madadtu"},
+              {"person": "نَحْنُ", "form": "مَدَدْنَا", "translit": "madadnā"}
+            ]
+          },
+          "muzari": {
+            "word": "يَمُدُّ",
+            "translit": "yamuddu",
+            "meaning": "uzatıyor",
+            "conjugation": [
+              {"person": "هُوَ", "form": "يَمُدُّ", "translit": "yamuddu"},
+              {"person": "هِيَ", "form": "تَمُدُّ", "translit": "tamuddu"},
+              {"person": "أَنْتَ", "form": "تَمُدُّ", "translit": "tamuddu"},
+              {"person": "أَنَا", "form": "أَمُدُّ", "translit": "amuddu"}
+            ]
+          },
+          "emir": {"word": "مُدَّ", "translit": "mudda", "meaning": "uzat!"},
+          "masdar": {"word": "مَدٌّ", "translit": "madd", "meaning": "uzatma"},
+          "ism_fail": {"word": "مَادٌّ", "translit": "mādd", "meaning": "uzatan"},
+          "ism_meful": {"word": "مَمْدُودٌ", "translit": "mamdūd", "meaning": "uzatılan"}
+        }
+      },
+      {
+        "root": "ر د د",
+        "meaning": "geri vermek, reddetmek",
+        "tasrif": {
+          "mazi": {"word": "رَدَّ", "translit": "radda", "meaning": "geri verdi, reddetti"},
+          "muzari": {"word": "يَرُدُّ", "translit": "yaruddu", "meaning": "geri veriyor"},
+          "emir": {"word": "رُدَّ", "translit": "rudda", "meaning": "geri ver!"},
+          "masdar": {"word": "رَدٌّ", "translit": "radd", "meaning": "geri verme, ret"},
+          "ism_fail": {"word": "رَادٌّ", "translit": "rādd", "meaning": "reddeden"},
+          "ism_meful": {"word": "مَرْدُودٌ", "translit": "mardūd", "meaning": "reddedilen"}
+        }
+      },
+      {
+        "root": "ح ب ب",
+        "meaning": "sevmek",
+        "tasrif": {
+          "mazi": {"word": "أَحَبَّ", "translit": "ahabba", "meaning": "sevdi (IV. bab)"},
+          "muzari": {"word": "يُحِبُّ", "translit": "yuhibbu", "meaning": "seviyor"},
+          "masdar": {"word": "حُبٌّ", "translit": "hubb", "meaning": "sevgi"},
+          "ism_fail": {"word": "مُحِبٌّ", "translit": "muhibb", "meaning": "seven"},
+          "ism_meful": {"word": "مَحْبُوبٌ", "translit": "mahbūb", "meaning": "sevilen, sevgili"}
+        }
+      },
+      {
+        "root": "ض ر ر",
+        "meaning": "zarar vermek",
+        "tasrif": {
+          "mazi": {"word": "ضَرَّ", "translit": "darra", "meaning": "zarar verdi"},
+          "muzari": {"word": "يَضُرُّ", "translit": "yadurru", "meaning": "zarar veriyor"},
+          "masdar": {"word": "ضَرَرٌ / ضُرٌّ", "translit": "darar / durr", "meaning": "zarar"},
+          "ism_fail": {"word": "ضَارٌّ", "translit": "dārr", "meaning": "zararlı"}
+        }
+      },
+      {
+        "root": "ظ ن ن",
+        "meaning": "zannetmek",
+        "tasrif": {
+          "mazi": {"word": "ظَنَّ", "translit": "zanna", "meaning": "zannetti"},
+          "muzari": {"word": "يَظُنُّ", "translit": "yazunnu", "meaning": "zannediyor"},
+          "masdar": {"word": "ظَنٌّ", "translit": "zann", "meaning": "zan"},
+          "ism_fail": {"word": "ظَانٌّ", "translit": "zānn", "meaning": "zanneden"},
+          "ism_meful": {"word": "مَظْنُونٌ", "translit": "maznūn", "meaning": "zannedilen"}
+        }
+      },
+      {
+        "root": "ش ك ك",
+        "meaning": "şüphe etmek",
+        "tasrif": {
+          "mazi": {"word": "شَكَّ", "translit": "şakka", "meaning": "şüphe etti"},
+          "muzari": {"word": "يَشُكُّ", "translit": "yaşukku", "meaning": "şüphe ediyor"},
+          "masdar": {"word": "شَكٌّ", "translit": "şakk", "meaning": "şüphe"},
+          "ism_fail": {"word": "شَاكٌّ", "translit": "şākk", "meaning": "şüphe eden"}
+        }
+      }
+    ]
+  },
+  "summary": {
+    "title": "İlletli Fiil Türleri Özeti",
+    "table": [
+      {"type": "Misal", "position": "Fa (1. harf)", "letters": "و / ي", "example": "وَعَدَ → يَعِدُ", "note": "و Muzari'de düşer"},
+      {"type": "Ecvef", "position": "Ayn (2. harf)", "letters": "و / ي", "example": "قَالَ → يَقُولُ", "note": "Elif'e dönüşür/düşer"},
+      {"type": "Nakıs", "position": "Lam (3. harf)", "letters": "و / ي", "example": "دَعَا → يَدْعُو", "note": "En karmaşık"},
+      {"type": "Lefif Makrun", "position": "Ayn + Lam", "letters": "و ي", "example": "رَوَى → يَرْوِي", "note": "İki illet bitişik"},
+      {"type": "Lefif Mefruk", "position": "Fa + Lam", "letters": "و...ي", "example": "وَفَى → يَفِي", "note": "İki illet ayrı"},
+      {"type": "Muzaaf", "position": "Ayn = Lam", "letters": "Aynı harf", "example": "مَدَّ → يَمُدُّ", "note": "Şeddeli fiiller"}
+    ]
+  }
+}

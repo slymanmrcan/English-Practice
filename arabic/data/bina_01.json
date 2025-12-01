@@ -1,0 +1,564 @@
+{
+  "meta": {
+    "title": "Bina | البناء",
+    "description": "Mezid Fiiller - Sülasi Mezid (Eklentili 3 Harfli Fiiller)",
+    "level": "Orta",
+    "source": "Klasik Bina Kitabı"
+  },
+  "introduction": {
+    "title": "Bina Nedir?",
+    "content": "Bina (البناء), 'yapı' anlamına gelir. Üç harfli köklere harf eklenerek (mezid) oluşan fiil kalıplarını öğretir. Bu kalıplar anlama çeşitli nüanslar katar: yoğunlaştırma, karşılıklılık, edilgenlik, istek vb.",
+    "mezid_types": [
+      {"name": "Sülasi Mezid bi-Harf", "meaning": "1 harf eklenmiş (If'al, Tef'il, Müfa'ale)", "count": 3},
+      {"name": "Sülasi Mezid bi-Harfeyn", "meaning": "2 harf eklenmiş (Tefâ'ul, Tefe''ul, Ifti'al, Infi'al)", "count": 4},
+      {"name": "Sülasi Mezid bi-Selase", "meaning": "3 harf eklenmiş (Istif'al, If'ilal, vb.)", "count": 2}
+    ]
+  },
+  "bablar": [
+    {
+      "bab": "II",
+      "name": "Tef'il Babı",
+      "nameAr": "باب التَّفْعِيل",
+      "pattern": "فَعَّلَ - يُفَعِّلُ",
+      "patternName": "Fe''ale - Yufe''ilu",
+      "addition": "Ayn harfi şeddelenir (ikizleşir)",
+      "meanings": [
+        "Yoğunlaştırma/Tekrarlama (تكثير)",
+        "Geçişli yapma (تعدية)", 
+        "Bir sıfatla niteleme (نسبة)",
+        "Bir şeyden uzaklaştırma (سلب)"
+      ],
+      "examples": [
+        {
+          "root": "ع ل م",
+          "base": {"word": "عَلِمَ", "meaning": "bildi"},
+          "mezid": {
+            "mazi": {"word": "عَلَّمَ", "translit": "'allama", "meaning": "öğretti"},
+            "muzari": {"word": "يُعَلِّمُ", "translit": "yu'allimu", "meaning": "öğretiyor"},
+            "emir": {"word": "عَلِّمْ", "translit": "'allim", "meaning": "öğret!"},
+            "masdar": {"word": "تَعْلِيمٌ", "translit": "ta'līm", "meaning": "öğretme, eğitim"},
+            "ism_fail": {"word": "مُعَلِّمٌ", "translit": "mu'allim", "meaning": "öğretmen"},
+            "ism_meful": {"word": "مُعَلَّمٌ", "translit": "mu'allam", "meaning": "öğretilen"},
+            "meçhul_mazi": {"word": "عُلِّمَ", "translit": "'ullima", "meaning": "öğretildi"},
+            "meçhul_muzari": {"word": "يُعَلَّمُ", "translit": "yu'allamu", "meaning": "öğretiliyor"}
+          },
+          "note": "عَلِمَ (bildi) → عَلَّمَ (bildirdi = öğretti)"
+        },
+        {
+          "root": "ك ب ر",
+          "base": {"word": "كَبُرَ", "meaning": "büyük oldu"},
+          "mezid": {
+            "mazi": {"word": "كَبَّرَ", "translit": "kabbara", "meaning": "büyüttü, tekbir getirdi"},
+            "muzari": {"word": "يُكَبِّرُ", "translit": "yukabbiru", "meaning": "büyütüyor, tekbir getiriyor"},
+            "masdar": {"word": "تَكْبِيرٌ", "translit": "takbīr", "meaning": "büyütme, tekbir"},
+            "ism_fail": {"word": "مُكَبِّرٌ", "translit": "mukabbir", "meaning": "büyüten"}
+          },
+          "note": "Allahu Ekber demek = tekbir getirmek"
+        },
+        {
+          "root": "ق د س",
+          "base": {"word": "قَدُسَ", "meaning": "kutsal oldu"},
+          "mezid": {
+            "mazi": {"word": "قَدَّسَ", "translit": "qaddasa", "meaning": "kutsadı, takdis etti"},
+            "muzari": {"word": "يُقَدِّسُ", "translit": "yuqaddisu", "meaning": "kutsıyor"},
+            "masdar": {"word": "تَقْدِيسٌ", "translit": "taqdīs", "meaning": "kutsama, takdis"},
+            "ism_fail": {"word": "مُقَدِّسٌ", "translit": "muqaddis", "meaning": "kutsayan"},
+            "ism_meful": {"word": "مُقَدَّسٌ", "translit": "muqaddas", "meaning": "kutsal, mukaddes"}
+          }
+        },
+        {
+          "root": "ك ذ ب",
+          "base": {"word": "كَذَبَ", "meaning": "yalan söyledi"},
+          "mezid": {
+            "mazi": {"word": "كَذَّبَ", "translit": "kazzaba", "meaning": "yalanladı"},
+            "muzari": {"word": "يُكَذِّبُ", "translit": "yukazzzibu", "meaning": "yalanlıyor"},
+            "masdar": {"word": "تَكْذِيبٌ", "translit": "takzīb", "meaning": "yalanlama, tekzip"},
+            "ism_fail": {"word": "مُكَذِّبٌ", "translit": "mukazzib", "meaning": "yalanlayan"}
+          }
+        },
+        {
+          "root": "ن ز ل",
+          "base": {"word": "نَزَلَ", "meaning": "indi"},
+          "mezid": {
+            "mazi": {"word": "نَزَّلَ", "translit": "nazzala", "meaning": "indirdi"},
+            "muzari": {"word": "يُنَزِّلُ", "translit": "yunazzilu", "meaning": "indiriyor"},
+            "masdar": {"word": "تَنْزِيلٌ", "translit": "tanzīl", "meaning": "indirme, tenzil"},
+            "ism_meful": {"word": "مُنَزَّلٌ", "translit": "munazzal", "meaning": "indirilen"}
+          },
+          "note": "Kur'an için: التنزيل (indirilen kitap)"
+        }
+      ]
+    },
+    {
+      "bab": "III",
+      "name": "Müfa'ale Babı",
+      "nameAr": "باب المُفَاعَلَة",
+      "pattern": "فَاعَلَ - يُفَاعِلُ",
+      "patternName": "Fâ'ale - Yufâ'ilu",
+      "addition": "Fa harfinden sonra elif eklenir",
+      "meanings": [
+        "Karşılıklı eylem (مشاركة)",
+        "Başkasıyla birlikte yapma",
+        "Yarışma/Rekabet"
+      ],
+      "examples": [
+        {
+          "root": "ك ت ب",
+          "base": {"word": "كَتَبَ", "meaning": "yazdı"},
+          "mezid": {
+            "mazi": {"word": "كَاتَبَ", "translit": "kātaba", "meaning": "yazıştı, mektuplaştı"},
+            "muzari": {"word": "يُكَاتِبُ", "translit": "yukātibu", "meaning": "yazışıyor"},
+            "masdar": {"word": "مُكَاتَبَةٌ", "translit": "mukātaba", "meaning": "yazışma"},
+            "ism_fail": {"word": "مُكَاتِبٌ", "translit": "mukātib", "meaning": "yazışan"}
+          }
+        },
+        {
+          "root": "ق ت ل",
+          "base": {"word": "قَتَلَ", "meaning": "öldürdü"},
+          "mezid": {
+            "mazi": {"word": "قَاتَلَ", "translit": "qātala", "meaning": "savaştı, dövüştü"},
+            "muzari": {"word": "يُقَاتِلُ", "translit": "yuqātilu", "meaning": "savaşıyor"},
+            "masdar": {"word": "مُقَاتَلَةٌ / قِتَالٌ", "translit": "muqātala / qitāl", "meaning": "savaş, mücadele"},
+            "ism_fail": {"word": "مُقَاتِلٌ", "translit": "muqātil", "meaning": "savaşan, mukatil"}
+          }
+        },
+        {
+          "root": "ج ه د",
+          "base": {"word": "جَهَدَ", "meaning": "çabaladı"},
+          "mezid": {
+            "mazi": {"word": "جَاهَدَ", "translit": "cāhada", "meaning": "cihad etti, mücadele etti"},
+            "muzari": {"word": "يُجَاهِدُ", "translit": "yucāhidu", "meaning": "cihad ediyor"},
+            "masdar": {"word": "مُجَاهَدَةٌ / جِهَادٌ", "translit": "mucāhada / cihād", "meaning": "cihad, mücadele"},
+            "ism_fail": {"word": "مُجَاهِدٌ", "translit": "mucāhid", "meaning": "mücahid"}
+          }
+        },
+        {
+          "root": "س ب ق",
+          "base": {"word": "سَبَقَ", "meaning": "geçti, önce oldu"},
+          "mezid": {
+            "mazi": {"word": "سَابَقَ", "translit": "sābaqa", "meaning": "yarıştı"},
+            "muzari": {"word": "يُسَابِقُ", "translit": "yusābiqu", "meaning": "yarışıyor"},
+            "masdar": {"word": "مُسَابَقَةٌ", "translit": "musābaqa", "meaning": "yarışma, müsabaka"},
+            "ism_fail": {"word": "مُسَابِقٌ", "translit": "musābiq", "meaning": "yarışmacı"}
+          }
+        },
+        {
+          "root": "ع م ل",
+          "base": {"word": "عَمِلَ", "meaning": "yaptı, çalıştı"},
+          "mezid": {
+            "mazi": {"word": "عَامَلَ", "translit": "'āmala", "meaning": "muamele etti"},
+            "muzari": {"word": "يُعَامِلُ", "translit": "yu'āmilu", "meaning": "muamele ediyor"},
+            "masdar": {"word": "مُعَامَلَةٌ", "translit": "mu'āmala", "meaning": "muamele, davranış"},
+            "ism_fail": {"word": "مُعَامِلٌ", "translit": "mu'āmil", "meaning": "muamele eden"}
+          }
+        }
+      ]
+    },
+    {
+      "bab": "IV",
+      "name": "İf'al Babı",
+      "nameAr": "باب الإِفْعَال",
+      "pattern": "أَفْعَلَ - يُفْعِلُ",
+      "patternName": "Ef'ale - Yuf'ilu",
+      "addition": "Başa hemzeli elif eklenir",
+      "meanings": [
+        "Geçişli yapma (تعدية)",
+        "Bir yere/zamana girme",
+        "Bir sıfata sahip bulma"
+      ],
+      "examples": [
+        {
+          "root": "خ ر ج",
+          "base": {"word": "خَرَجَ", "meaning": "çıktı"},
+          "mezid": {
+            "mazi": {"word": "أَخْرَجَ", "translit": "ahraca", "meaning": "çıkardı"},
+            "muzari": {"word": "يُخْرِجُ", "translit": "yuhricu", "meaning": "çıkarıyor"},
+            "emir": {"word": "أَخْرِجْ", "translit": "ahric", "meaning": "çıkar!"},
+            "masdar": {"word": "إِخْرَاجٌ", "translit": "ihrāc", "meaning": "çıkarma, ihraç"},
+            "ism_fail": {"word": "مُخْرِجٌ", "translit": "muhric", "meaning": "çıkaran, yönetmen"},
+            "ism_meful": {"word": "مُخْرَجٌ", "translit": "muhrac", "meaning": "çıkarılan"},
+            "meçhul_mazi": {"word": "أُخْرِجَ", "translit": "uhrica", "meaning": "çıkarıldı"}
+          },
+          "note": "خَرَجَ (çıktı) → أَخْرَجَ (çıkardı)"
+        },
+        {
+          "root": "د خ ل",
+          "base": {"word": "دَخَلَ", "meaning": "girdi"},
+          "mezid": {
+            "mazi": {"word": "أَدْخَلَ", "translit": "adhala", "meaning": "soktu, girdirdi"},
+            "muzari": {"word": "يُدْخِلُ", "translit": "yudhilu", "meaning": "sokuyor"},
+            "masdar": {"word": "إِدْخَالٌ", "translit": "idhāl", "meaning": "sokma, idhal"},
+            "ism_fail": {"word": "مُدْخِلٌ", "translit": "mudhil", "meaning": "sokan"}
+          }
+        },
+        {
+          "root": "ن ز ل",
+          "base": {"word": "نَزَلَ", "meaning": "indi"},
+          "mezid": {
+            "mazi": {"word": "أَنْزَلَ", "translit": "anzala", "meaning": "indirdi"},
+            "muzari": {"word": "يُنْزِلُ", "translit": "yunzilu", "meaning": "indiriyor"},
+            "masdar": {"word": "إِنْزَالٌ", "translit": "inzāl", "meaning": "indirme, inzal"},
+            "ism_meful": {"word": "مُنْزَلٌ", "translit": "munzal", "meaning": "indirilen"}
+          },
+          "note": "Kur'an: أَنْزَلْنَا (indirdik)"
+        },
+        {
+          "root": "س ل م",
+          "base": {"word": "سَلِمَ", "meaning": "selamette oldu"},
+          "mezid": {
+            "mazi": {"word": "أَسْلَمَ", "translit": "aslama", "meaning": "teslim oldu, Müslüman oldu"},
+            "muzari": {"word": "يُسْلِمُ", "translit": "yuslimu", "meaning": "teslim oluyor"},
+            "masdar": {"word": "إِسْلَامٌ", "translit": "islām", "meaning": "teslim olma, İslam"},
+            "ism_fail": {"word": "مُسْلِمٌ", "translit": "muslim", "meaning": "Müslüman, teslim olan"}
+          }
+        },
+        {
+          "root": "ح س ن",
+          "base": {"word": "حَسُنَ", "meaning": "güzel oldu"},
+          "mezid": {
+            "mazi": {"word": "أَحْسَنَ", "translit": "ahsana", "meaning": "güzel yaptı, ihsan etti"},
+            "muzari": {"word": "يُحْسِنُ", "translit": "yuhsinu", "meaning": "güzel yapıyor"},
+            "masdar": {"word": "إِحْسَانٌ", "translit": "ihsān", "meaning": "güzel yapma, ihsan"},
+            "ism_fail": {"word": "مُحْسِنٌ", "translit": "muhsin", "meaning": "ihsan eden, muhsin"}
+          }
+        }
+      ]
+    },
+    {
+      "bab": "V",
+      "name": "Tefe''ul Babı",
+      "nameAr": "باب التَّفَعُّل",
+      "pattern": "تَفَعَّلَ - يَتَفَعَّلُ",
+      "patternName": "Tefe''ale - Yetefe''alu",
+      "addition": "Başa ت eklenir + Ayn şeddelenir (II. babın dönüşlüsü)",
+      "meanings": [
+        "Kendi kendine yapma (dönüşlü)",
+        "Yavaş yavaş yapma",
+        "Bir sıfatı gösterme/taklit etme"
+      ],
+      "examples": [
+        {
+          "root": "ع ل م",
+          "base": {"word": "عَلَّمَ", "meaning": "öğretti (II. bab)"},
+          "mezid": {
+            "mazi": {"word": "تَعَلَّمَ", "translit": "ta'allama", "meaning": "öğrendi"},
+            "muzari": {"word": "يَتَعَلَّمُ", "translit": "yata'allamu", "meaning": "öğreniyor"},
+            "emir": {"word": "تَعَلَّمْ", "translit": "ta'allam", "meaning": "öğren!"},
+            "masdar": {"word": "تَعَلُّمٌ", "translit": "ta'allum", "meaning": "öğrenme"},
+            "ism_fail": {"word": "مُتَعَلِّمٌ", "translit": "muta'allim", "meaning": "öğrenen, öğrenci"}
+          },
+          "note": "عَلَّمَ (öğretti) → تَعَلَّمَ (kendisi öğrendi)"
+        },
+        {
+          "root": "ك ل م",
+          "base": {"word": "كَلَّمَ", "meaning": "konuştu (II. bab)"},
+          "mezid": {
+            "mazi": {"word": "تَكَلَّمَ", "translit": "takallama", "meaning": "konuştu"},
+            "muzari": {"word": "يَتَكَلَّمُ", "translit": "yatakallamu", "meaning": "konuşuyor"},
+            "masdar": {"word": "تَكَلُّمٌ", "translit": "takallum", "meaning": "konuşma"},
+            "ism_fail": {"word": "مُتَكَلِّمٌ", "translit": "mutakallim", "meaning": "konuşan, mütekellim"}
+          }
+        },
+        {
+          "root": "و ض أ",
+          "base": {"word": "وَضَّأَ", "meaning": "abdest aldırdı"},
+          "mezid": {
+            "mazi": {"word": "تَوَضَّأَ", "translit": "tawadda'a", "meaning": "abdest aldı"},
+            "muzari": {"word": "يَتَوَضَّأُ", "translit": "yatawadda'u", "meaning": "abdest alıyor"},
+            "masdar": {"word": "تَوَضُّؤٌ", "translit": "tawaddu'", "meaning": "abdest alma"},
+            "ism_fail": {"word": "مُتَوَضِّئٌ", "translit": "mutawaddi'", "meaning": "abdestli"}
+          }
+        },
+        {
+          "root": "ذ ك ر",
+          "base": {"word": "ذَكَّرَ", "meaning": "hatırlattı"},
+          "mezid": {
+            "mazi": {"word": "تَذَكَّرَ", "translit": "tazakkara", "meaning": "hatırladı"},
+            "muzari": {"word": "يَتَذَكَّرُ", "translit": "yatazakkaru", "meaning": "hatırlıyor"},
+            "masdar": {"word": "تَذَكُّرٌ", "translit": "tazakkur", "meaning": "hatırlama"},
+            "ism_fail": {"word": "مُتَذَكِّرٌ", "translit": "mutazakkir", "meaning": "hatırlayan"}
+          }
+        },
+        {
+          "root": "ك ب ر",
+          "base": {"word": "كَبَّرَ", "meaning": "büyüttü"},
+          "mezid": {
+            "mazi": {"word": "تَكَبَّرَ", "translit": "takabbara", "meaning": "büyüklendi, kibirlendi"},
+            "muzari": {"word": "يَتَكَبَّرُ", "translit": "yatakabbaru", "meaning": "kibirleniyor"},
+            "masdar": {"word": "تَكَبُّرٌ", "translit": "takabbur", "meaning": "kibir, tekebbür"},
+            "ism_fail": {"word": "مُتَكَبِّرٌ", "translit": "mutakabbir", "meaning": "kibirli, mütekebbir"}
+          }
+        }
+      ]
+    },
+    {
+      "bab": "VI",
+      "name": "Tefâ'ul Babı",
+      "nameAr": "باب التَّفَاعُل",
+      "pattern": "تَفَاعَلَ - يَتَفَاعَلُ",
+      "patternName": "Tefâ'ale - Yetefâ'alu",
+      "addition": "Başa ت + Fa'dan sonra elif eklenir (III. babın dönüşlüsü)",
+      "meanings": [
+        "Karşılıklı yapma",
+        "Bir şey gibi görünme (yapma)",
+        "Yavaş yavaş artma"
+      ],
+      "examples": [
+        {
+          "root": "ع و ن",
+          "base": {"word": "عَاوَنَ", "meaning": "yardım etti (III. bab)"},
+          "mezid": {
+            "mazi": {"word": "تَعَاوَنَ", "translit": "ta'āwana", "meaning": "yardımlaştı"},
+            "muzari": {"word": "يَتَعَاوَنُ", "translit": "yata'āwanu", "meaning": "yardımlaşıyor"},
+            "masdar": {"word": "تَعَاوُنٌ", "translit": "ta'āwun", "meaning": "yardımlaşma, işbirliği"},
+            "ism_fail": {"word": "مُتَعَاوِنٌ", "translit": "muta'āwin", "meaning": "yardımlaşan"}
+          }
+        },
+        {
+          "root": "س أ ل",
+          "base": {"word": "سَاءَلَ", "meaning": "sorguladı"},
+          "mezid": {
+            "mazi": {"word": "تَسَاءَلَ", "translit": "tasā'ala", "meaning": "birbirine sordu, merak etti"},
+            "muzari": {"word": "يَتَسَاءَلُ", "translit": "yatasā'alu", "meaning": "merak ediyor"},
+            "masdar": {"word": "تَسَاؤُلٌ", "translit": "tasā'ul", "meaning": "soru sorma, merak"},
+            "ism_fail": {"word": "مُتَسَائِلٌ", "translit": "mutasā'il", "meaning": "merak eden"}
+          }
+        },
+        {
+          "root": "ك ت ب",
+          "base": {"word": "كَاتَبَ", "meaning": "yazıştı"},
+          "mezid": {
+            "mazi": {"word": "تَكَاتَبَ", "translit": "takātaba", "meaning": "birbirleriyle yazıştı"},
+            "muzari": {"word": "يَتَكَاتَبُ", "translit": "yatakātabu", "meaning": "birbirleriyle yazışıyor"},
+            "masdar": {"word": "تَكَاتُبٌ", "translit": "takātub", "meaning": "karşılıklı yazışma"}
+          }
+        },
+        {
+          "root": "ن ص ر",
+          "base": {"word": "نَاصَرَ", "meaning": "yardım etti"},
+          "mezid": {
+            "mazi": {"word": "تَنَاصَرَ", "translit": "tanāsara", "meaning": "birbirine yardım etti"},
+            "muzari": {"word": "يَتَنَاصَرُ", "translit": "yatanāsaru", "meaning": "birbirine yardım ediyor"},
+            "masdar": {"word": "تَنَاصُرٌ", "translit": "tanāsur", "meaning": "karşılıklı yardımlaşma"}
+          }
+        },
+        {
+          "root": "ج ه ل",
+          "base": {"word": "جَهِلَ", "meaning": "bilmedi"},
+          "mezid": {
+            "mazi": {"word": "تَجَاهَلَ", "translit": "tacāhala", "meaning": "bilmezden geldi"},
+            "muzari": {"word": "يَتَجَاهَلُ", "translit": "yatacāhalu", "meaning": "bilmezden geliyor"},
+            "masdar": {"word": "تَجَاهُلٌ", "translit": "tacāhul", "meaning": "bilmezden gelme"},
+            "ism_fail": {"word": "مُتَجَاهِلٌ", "translit": "mutacāhil", "meaning": "bilmezden gelen"}
+          },
+          "note": "Aslında biliyor ama bilmiyormuş gibi yapıyor"
+        }
+      ]
+    },
+    {
+      "bab": "VII",
+      "name": "İnfi'al Babı",
+      "nameAr": "باب الاِنْفِعَال",
+      "pattern": "اِنْفَعَلَ - يَنْفَعِلُ",
+      "patternName": "İnfe'ale - Yenfe'ilu",
+      "addition": "Başa ان eklenir",
+      "meanings": [
+        "Edilgenlik (مطاوعة)",
+        "Kendiliğinden olma"
+      ],
+      "examples": [
+        {
+          "root": "ك س ر",
+          "base": {"word": "كَسَرَ", "meaning": "kırdı"},
+          "mezid": {
+            "mazi": {"word": "اِنْكَسَرَ", "translit": "inkasara", "meaning": "kırıldı"},
+            "muzari": {"word": "يَنْكَسِرُ", "translit": "yankasiru", "meaning": "kırılıyor"},
+            "masdar": {"word": "اِنْكِسَارٌ", "translit": "inkisār", "meaning": "kırılma"},
+            "ism_fail": {"word": "مُنْكَسِرٌ", "translit": "munkasir", "meaning": "kırılmış"}
+          },
+          "note": "كَسَرَ (kırdı) → اِنْكَسَرَ (kırıldı, kendiliğinden)"
+        },
+        {
+          "root": "ف ت ح",
+          "base": {"word": "فَتَحَ", "meaning": "açtı"},
+          "mezid": {
+            "mazi": {"word": "اِنْفَتَحَ", "translit": "infataha", "meaning": "açıldı"},
+            "muzari": {"word": "يَنْفَتِحُ", "translit": "yanfatihu", "meaning": "açılıyor"},
+            "masdar": {"word": "اِنْفِتَاحٌ", "translit": "infitāh", "meaning": "açılma, açıklık"},
+            "ism_fail": {"word": "مُنْفَتِحٌ", "translit": "munfatih", "meaning": "açık"}
+          }
+        },
+        {
+          "root": "ق ل ب",
+          "base": {"word": "قَلَبَ", "meaning": "çevirdi"},
+          "mezid": {
+            "mazi": {"word": "اِنْقَلَبَ", "translit": "inqalaba", "meaning": "döndü, devrildi"},
+            "muzari": {"word": "يَنْقَلِبُ", "translit": "yanqalibu", "meaning": "dönüyor"},
+            "masdar": {"word": "اِنْقِلَابٌ", "translit": "inqilāb", "meaning": "dönme, inkılap"},
+            "ism_fail": {"word": "مُنْقَلِبٌ", "translit": "munqalib", "meaning": "dönmüş, dönen"}
+          }
+        },
+        {
+          "root": "ط ل ق",
+          "base": {"word": "طَلَقَ", "meaning": "serbest bıraktı"},
+          "mezid": {
+            "mazi": {"word": "اِنْطَلَقَ", "translit": "intalaqa", "meaning": "yola çıktı, hareket etti"},
+            "muzari": {"word": "يَنْطَلِقُ", "translit": "yantaliqu", "meaning": "hareket ediyor"},
+            "masdar": {"word": "اِنْطِلَاقٌ", "translit": "intilāq", "meaning": "hareket, intilaak"},
+            "ism_fail": {"word": "مُنْطَلِقٌ", "translit": "muntaliq", "meaning": "hareket eden"}
+          }
+        }
+      ]
+    },
+    {
+      "bab": "VIII",
+      "name": "İfti'al Babı",
+      "nameAr": "باب الاِفْتِعَال",
+      "pattern": "اِفْتَعَلَ - يَفْتَعِلُ",
+      "patternName": "İfte'ale - Yefte'ilu",
+      "addition": "Başa ا + Fa'dan sonra ت eklenir",
+      "meanings": [
+        "Dönüşlülük",
+        "Kendisi için yapma",
+        "Karşılıklılık (bazen)"
+      ],
+      "examples": [
+        {
+          "root": "ج م ع",
+          "base": {"word": "جَمَعَ", "meaning": "topladı"},
+          "mezid": {
+            "mazi": {"word": "اِجْتَمَعَ", "translit": "ictama'a", "meaning": "toplandı"},
+            "muzari": {"word": "يَجْتَمِعُ", "translit": "yactami'u", "meaning": "toplanıyor"},
+            "masdar": {"word": "اِجْتِمَاعٌ", "translit": "ictimā'", "meaning": "toplantı, içtima"},
+            "ism_fail": {"word": "مُجْتَمِعٌ", "translit": "muctami'", "meaning": "toplanan"},
+            "ism_mekan": {"word": "مُجْتَمَعٌ", "translit": "muctama'", "meaning": "toplum"}
+          }
+        },
+        {
+          "root": "ك س ب",
+          "base": {"word": "كَسَبَ", "meaning": "kazandı"},
+          "mezid": {
+            "mazi": {"word": "اِكْتَسَبَ", "translit": "iktasaba", "meaning": "elde etti, kazandı"},
+            "muzari": {"word": "يَكْتَسِبُ", "translit": "yaktasibu", "meaning": "elde ediyor"},
+            "masdar": {"word": "اِكْتِسَابٌ", "translit": "iktisāb", "meaning": "elde etme, iktisap"},
+            "ism_fail": {"word": "مُكْتَسِبٌ", "translit": "muktasib", "meaning": "elde eden"}
+          }
+        },
+        {
+          "root": "ق ر ب",
+          "base": {"word": "قَرُبَ", "meaning": "yakın oldu"},
+          "mezid": {
+            "mazi": {"word": "اِقْتَرَبَ", "translit": "iqtaraba", "meaning": "yaklaştı"},
+            "muzari": {"word": "يَقْتَرِبُ", "translit": "yaqtaribu", "meaning": "yaklaşıyor"},
+            "masdar": {"word": "اِقْتِرَابٌ", "translit": "iqtirāb", "meaning": "yaklaşma"},
+            "ism_fail": {"word": "مُقْتَرِبٌ", "translit": "muqtarib", "meaning": "yaklaşan"}
+          }
+        },
+        {
+          "root": "ح ت ج",
+          "base": {"word": "حَاجَ", "meaning": "ihtiyaç duydu"},
+          "mezid": {
+            "mazi": {"word": "اِحْتَاجَ", "translit": "ihtāca", "meaning": "ihtiyaç duydu"},
+            "muzari": {"word": "يَحْتَاجُ", "translit": "yahtācu", "meaning": "ihtiyaç duyuyor"},
+            "masdar": {"word": "اِحْتِيَاجٌ", "translit": "ihtiyāc", "meaning": "ihtiyaç"},
+            "ism_fail": {"word": "مُحْتَاجٌ", "translit": "muhtāc", "meaning": "muhtaç"}
+          }
+        },
+        {
+          "root": "خ ت ر",
+          "base": {"word": "خَارَ", "meaning": "seçti"},
+          "mezid": {
+            "mazi": {"word": "اِخْتَارَ", "translit": "ihtāra", "meaning": "seçti"},
+            "muzari": {"word": "يَخْتَارُ", "translit": "yahtāru", "meaning": "seçiyor"},
+            "masdar": {"word": "اِخْتِيَارٌ", "translit": "ihtiyār", "meaning": "seçme, ihtiyar"},
+            "ism_fail": {"word": "مُخْتَارٌ", "translit": "muhtār", "meaning": "seçen, seçilmiş, muhtar"}
+          }
+        }
+      ]
+    },
+    {
+      "bab": "X",
+      "name": "İstif'al Babı",
+      "nameAr": "باب الاِسْتِفْعَال",
+      "pattern": "اِسْتَفْعَلَ - يَسْتَفْعِلُ",
+      "patternName": "İstef'ale - Yestef'ilu",
+      "addition": "Başa است eklenir",
+      "meanings": [
+        "İsteme, talep etme (طلب)",
+        "Bir şeyi öyle bulma/görme",
+        "Dönüşlülük (bazen)"
+      ],
+      "examples": [
+        {
+          "root": "غ ف ر",
+          "base": {"word": "غَفَرَ", "meaning": "bağışladı"},
+          "mezid": {
+            "mazi": {"word": "اِسْتَغْفَرَ", "translit": "istağfara", "meaning": "bağışlanma diledi"},
+            "muzari": {"word": "يَسْتَغْفِرُ", "translit": "yestağfiru", "meaning": "bağışlanma diliyor"},
+            "emir": {"word": "اِسْتَغْفِرْ", "translit": "istağfir", "meaning": "bağışlanma dile!"},
+            "masdar": {"word": "اِسْتِغْفَارٌ", "translit": "istığfār", "meaning": "istiğfar, bağışlanma dileme"},
+            "ism_fail": {"word": "مُسْتَغْفِرٌ", "translit": "mustağfir", "meaning": "istiğfar eden"}
+          },
+          "note": "Estağfirullah = Allah'tan bağışlanma dilerim"
+        },
+        {
+          "root": "ع ي ن",
+          "base": {"word": "عَانَ", "meaning": "yardım etti"},
+          "mezid": {
+            "mazi": {"word": "اِسْتَعَانَ", "translit": "ista'āna", "meaning": "yardım istedi"},
+            "muzari": {"word": "يَسْتَعِينُ", "translit": "yesta'īnu", "meaning": "yardım istiyor"},
+            "masdar": {"word": "اِسْتِعَانَةٌ", "translit": "isti'āna", "meaning": "yardım isteme"},
+            "ism_fail": {"word": "مُسْتَعِينٌ", "translit": "musta'īn", "meaning": "yardım isteyen"}
+          },
+          "note": "إِيَّاكَ نَسْتَعِينُ = Yalnız senden yardım dileriz (Fatiha)"
+        },
+        {
+          "root": "ح س ن",
+          "base": {"word": "حَسُنَ", "meaning": "güzel oldu"},
+          "mezid": {
+            "mazi": {"word": "اِسْتَحْسَنَ", "translit": "istahsana", "meaning": "güzel buldu, beğendi"},
+            "muzari": {"word": "يَسْتَحْسِنُ", "translit": "yastahsinu", "meaning": "beğeniyor"},
+            "masdar": {"word": "اِسْتِحْسَانٌ", "translit": "istihsān", "meaning": "beğenme, istihsan"},
+            "ism_fail": {"word": "مُسْتَحْسِنٌ", "translit": "mustahsin", "meaning": "beğenen"},
+            "ism_meful": {"word": "مُسْتَحْسَنٌ", "translit": "mustahsan", "meaning": "beğenilen"}
+          }
+        },
+        {
+          "root": "خ د م",
+          "base": {"word": "خَدَمَ", "meaning": "hizmet etti"},
+          "mezid": {
+            "mazi": {"word": "اِسْتَخْدَمَ", "translit": "istahdama", "meaning": "kullandı, istihdam etti"},
+            "muzari": {"word": "يَسْتَخْدِمُ", "translit": "yastahdımu", "meaning": "kullanıyor"},
+            "masdar": {"word": "اِسْتِخْدَامٌ", "translit": "istihdām", "meaning": "kullanma, istihdam"},
+            "ism_fail": {"word": "مُسْتَخْدِمٌ", "translit": "mustahdim", "meaning": "kullanan, kullanıcı"},
+            "ism_meful": {"word": "مُسْتَخْدَمٌ", "translit": "mustahdam", "meaning": "kullanılan"}
+          }
+        },
+        {
+          "root": "ق ب ل",
+          "base": {"word": "قَبِلَ", "meaning": "kabul etti"},
+          "mezid": {
+            "mazi": {"word": "اِسْتَقْبَلَ", "translit": "istaqbala", "meaning": "karşıladı"},
+            "muzari": {"word": "يَسْتَقْبِلُ", "translit": "yastaqbilu", "meaning": "karşılıyor"},
+            "masdar": {"word": "اِسْتِقْبَالٌ", "translit": "istiqbāl", "meaning": "karşılama, istikbal"},
+            "ism_fail": {"word": "مُسْتَقْبِلٌ", "translit": "mustaqbil", "meaning": "karşılayan"},
+            "ism_zaman": {"word": "مُسْتَقْبَلٌ", "translit": "mustaqbal", "meaning": "gelecek (zaman)"}
+          }
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "title": "Mezid Babların Özeti",
+    "table": [
+      {"bab": "II", "pattern": "فَعَّلَ", "masdar": "تَفْعِيل", "meaning": "Yoğunlaştırma/Geçişli", "example": "عَلَّمَ (öğretti)"},
+      {"bab": "III", "pattern": "فَاعَلَ", "masdar": "مُفَاعَلَة", "meaning": "Karşılıklı", "example": "قَاتَلَ (savaştı)"},
+      {"bab": "IV", "pattern": "أَفْعَلَ", "masdar": "إِفْعَال", "meaning": "Geçişli yapma", "example": "أَخْرَجَ (çıkardı)"},
+      {"bab": "V", "pattern": "تَفَعَّلَ", "masdar": "تَفَعُّل", "meaning": "Dönüşlü (II'nin)", "example": "تَعَلَّمَ (öğrendi)"},
+      {"bab": "VI", "pattern": "تَفَاعَلَ", "masdar": "تَفَاعُل", "meaning": "Karşılıklı dönüşlü", "example": "تَعَاوَنَ (yardımlaştı)"},
+      {"bab": "VII", "pattern": "اِنْفَعَلَ", "masdar": "اِنْفِعَال", "meaning": "Edilgen", "example": "اِنْكَسَرَ (kırıldı)"},
+      {"bab": "VIII", "pattern": "اِفْتَعَلَ", "masdar": "اِفْتِعَال", "meaning": "Dönüşlü/Karşılıklı", "example": "اِجْتَمَعَ (toplandı)"},
+      {"bab": "X", "pattern": "اِسْتَفْعَلَ", "masdar": "اِسْتِفْعَال", "meaning": "İsteme/Talep", "example": "اِسْتَغْفَرَ (istiğfar etti)"}
+    ]
+  }
+}

@@ -56,6 +56,9 @@
         </div>
         <div class="panel-body actions">
           <button id="patterns-btn">الأوزان<br><small>Patterns</small></button>
+          <button id="emsile-btn" class="sarf-book-btn">الأمثلة<br><small>Emsile</small></button>
+          <button id="bina-btn" class="sarf-book-btn">البناء<br><small>Bina</small></button>
+          <button id="maksud-btn" class="sarf-book-btn">المقصود<br><small>Maksud</small></button>
         </div>
       </div>
     </div>
@@ -201,6 +204,54 @@
         <span class="tag level">Başlangıç</span>
       </div>
       <div id="intro-content" class="intro-content"></div>
+    </section>
+
+    <!-- Emsile Panel - الأمثلة -->
+    <section id="emsile-panel" class="card hidden sarf-book-panel">
+      <div class="card-header">
+        <div class="word">الأمثلة | Emsile</div>
+        <span class="tag level">Sülasi Mücerred (6 Bab)</span>
+      </div>
+      <div class="sarf-book-intro">
+        <p class="note">Klasik Sarf: Üç harfli mücerred fiillerin 6 babı. Her bab için tam çekim tabloları.</p>
+      </div>
+      <div class="sarf-book-controls">
+        <label for="emsile-select" class="label">الباب | Bab:</label>
+        <select id="emsile-select"></select>
+      </div>
+      <div id="emsile-content" class="sarf-book-content"></div>
+    </section>
+
+    <!-- Bina Panel - البناء -->
+    <section id="bina-panel" class="card hidden sarf-book-panel">
+      <div class="card-header">
+        <div class="word">البناء | Bina</div>
+        <span class="tag level">Mezid Fiiller (II-X)</span>
+      </div>
+      <div class="sarf-book-intro">
+        <p class="note">Mezid (Ziyadeli) Fiiller: Temel köke harf eklenerek oluşan fiil kalıpları.</p>
+      </div>
+      <div class="sarf-book-controls">
+        <label for="bina-select" class="label">الباب | Form:</label>
+        <select id="bina-select"></select>
+      </div>
+      <div id="bina-content" class="sarf-book-content"></div>
+    </section>
+
+    <!-- Maksud Panel - المقصود -->
+    <section id="maksud-panel" class="card hidden sarf-book-panel">
+      <div class="card-header">
+        <div class="word">المقصود | Maksud</div>
+        <span class="tag level">İlletli Fiiller</span>
+      </div>
+      <div class="sarf-book-intro">
+        <p class="note">İlletli ve Muzaaf Fiiller: و، ي harfli ve şeddeli fiillerin özel kuralları.</p>
+      </div>
+      <div class="sarf-book-controls">
+        <label for="maksud-select" class="label">النوع | Kategori:</label>
+        <select id="maksud-select"></select>
+      </div>
+      <div id="maksud-content" class="sarf-book-content"></div>
     </section>
 
     <!-- Islamic Panel -->

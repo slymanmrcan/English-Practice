@@ -1543,6 +1543,489 @@ button small {
   border-top: 1px dashed rgba(201, 162, 39, 0.2);
 }
 
+/* ============ SARF BOOKS (EMSILE, BINA, MAKSUD) ============ */
+.sarf-book-btn {
+  background: linear-gradient(135deg, #1a3d5c, #2d5a3d) !important;
+  border: 1px solid rgba(201, 162, 39, 0.3) !important;
+}
+
+.sarf-book-btn:hover {
+  background: linear-gradient(135deg, #234a6b, #3d7050) !important;
+  border-color: var(--accent) !important;
+}
+
+.sarf-book-panel {
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
+.sarf-book-intro {
+  padding: 12px 16px;
+  background: rgba(201, 162, 39, 0.08);
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.sarf-book-intro .note {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.sarf-book-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding: 12px;
+  background: rgba(0,0,0,0.2);
+  border-radius: 8px;
+}
+
+.sarf-book-controls select {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--card);
+  color: var(--text);
+  font-family: var(--arabic-font);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.sarf-book-content {
+  padding: 10px 0;
+}
+
+/* EMSILE Styles */
+.emsile-bab {
+  background: rgba(0,0,0,0.15);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.emsile-header {
+  text-align: center;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(201, 162, 39, 0.2);
+  margin-bottom: 20px;
+}
+
+.emsile-header h3 {
+  font-family: var(--arabic-font);
+  font-size: 28px;
+  color: var(--accent-light);
+  margin: 0 0 12px;
+}
+
+.emsile-pattern {
+  font-size: 18px;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.emsile-pattern .arabic-text {
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+.emsile-feature {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.emsile-feature .label {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.emsile-examples {
+  margin-bottom: 24px;
+}
+
+.emsile-examples h4 {
+  color: var(--accent-light);
+  margin: 0 0 12px;
+  font-size: 16px;
+}
+
+.emsile-examples-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 10px;
+}
+
+.emsile-example-card {
+  background: rgba(201, 162, 39, 0.1);
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.emsile-example-card .ex-word {
+  font-family: var(--arabic-font);
+  font-size: 22px;
+  color: var(--accent-light);
+  margin-bottom: 6px;
+}
+
+.emsile-example-card .ex-meaning {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+/* Sigalar (Conjugation Tables) */
+.emsile-sigalar {
+  margin-top: 20px;
+}
+
+.emsile-sigalar h4 {
+  color: var(--accent-light);
+  margin: 0 0 16px;
+  font-size: 18px;
+  font-family: var(--arabic-font);
+  text-align: center;
+}
+
+.emsile-siga-block {
+  background: rgba(0,0,0,0.2);
+  border-radius: 10px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.siga-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: rgba(201, 162, 39, 0.15);
+  border-bottom: 1px solid rgba(201, 162, 39, 0.2);
+}
+
+.siga-header .siga-name {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.siga-header .siga-name-ar {
+  font-family: var(--arabic-font);
+  font-size: 18px;
+  color: var(--accent-light);
+}
+
+.siga-conjugations {
+  padding: 12px 16px;
+}
+
+.siga-row {
+  display: grid;
+  grid-template-columns: 120px 1fr auto;
+  gap: 12px;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.siga-row:last-child {
+  border-bottom: none;
+}
+
+.siga-row .siga-person {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.siga-row .siga-form {
+  font-family: var(--arabic-font);
+  font-size: 20px;
+  color: var(--text);
+  direction: rtl;
+  text-align: right;
+}
+
+.siga-row .siga-meaning {
+  font-size: 13px;
+  color: var(--accent);
+  text-align: left;
+}
+
+/* BINA Styles */
+.bina-form {
+  background: rgba(0,0,0,0.15);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.bina-header {
+  text-align: center;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(201, 162, 39, 0.2);
+  margin-bottom: 20px;
+}
+
+.bina-header h3 {
+  font-size: 22px;
+  color: var(--accent-light);
+  margin: 0 0 12px;
+}
+
+.bina-header .form-number {
+  background: var(--accent);
+  color: #000;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 8px;
+}
+
+.bina-pattern {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.bina-pattern .arabic-text {
+  font-family: var(--arabic-font);
+  font-size: 26px;
+  color: var(--accent-light);
+}
+
+.bina-pattern .translit {
+  font-size: 14px;
+  color: var(--muted);
+  margin-left: 12px;
+}
+
+.bina-meaning-change {
+  font-size: 14px;
+  color: var(--text);
+}
+
+.bina-meaning-change .label {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.bina-examples h4 {
+  color: var(--accent-light);
+  margin: 0 0 12px;
+  font-size: 16px;
+}
+
+.bina-examples-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.bina-example-card {
+  background: rgba(201, 162, 39, 0.08);
+  padding: 16px;
+  border-radius: 10px;
+  border-left: 3px solid var(--accent);
+}
+
+.bina-ex-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.bina-ex-header .bina-root {
+  font-family: var(--arabic-font);
+  font-size: 22px;
+  color: var(--accent-light);
+}
+
+.bina-ex-header .bina-root-meaning {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.bina-ex-mazi,
+.bina-ex-muzari,
+.bina-ex-masdar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.bina-example-card .label {
+  color: var(--accent);
+  font-weight: 600;
+  min-width: 55px;
+}
+
+.bina-example-card .arabic-text {
+  font-family: var(--arabic-font);
+  font-size: 18px;
+  color: var(--text);
+}
+
+.bina-example-card .translit {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.bina-ex-meaning {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed rgba(201, 162, 39, 0.2);
+  font-size: 13px;
+  color: var(--text);
+}
+
+/* MAKSUD Styles */
+.maksud-category {
+  background: rgba(0,0,0,0.15);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.maksud-header {
+  text-align: center;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(201, 162, 39, 0.2);
+  margin-bottom: 20px;
+}
+
+.maksud-header h3 {
+  font-size: 22px;
+  color: var(--accent-light);
+  margin: 0 0 8px;
+}
+
+.maksud-header h3 .arabic-text {
+  font-family: var(--arabic-font);
+  font-size: 26px;
+  margin-left: 10px;
+}
+
+.maksud-desc {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.maksud-subcategories {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.maksud-subcat {
+  background: rgba(0,0,0,0.2);
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.maksud-subcat-header {
+  margin-bottom: 16px;
+}
+
+.maksud-subcat-header h4 {
+  font-size: 16px;
+  color: var(--accent-light);
+  margin: 0 0 6px;
+}
+
+.maksud-subcat-header h4 .arabic-text {
+  font-family: var(--arabic-font);
+  font-size: 20px;
+  margin-left: 8px;
+}
+
+.maksud-subcat-desc {
+  margin: 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.maksud-examples {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.maksud-example-card {
+  background: rgba(201, 162, 39, 0.08);
+  padding: 14px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.maksud-ex-word {
+  font-family: var(--arabic-font);
+  font-size: 24px;
+  color: var(--accent-light);
+  margin-bottom: 8px;
+}
+
+.maksud-ex-forms {
+  font-size: 13px;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.maksud-ex-forms .label {
+  color: var(--accent);
+  font-weight: 600;
+  margin-right: 4px;
+}
+
+.maksud-ex-forms .arabic-text {
+  font-family: var(--arabic-font);
+  font-size: 16px;
+  color: var(--text);
+}
+
+.maksud-ex-meaning {
+  font-size: 12px;
+  color: var(--muted);
+  padding-top: 8px;
+  border-top: 1px dashed rgba(255,255,255,0.1);
+}
+
+.maksud-ex-note {
+  margin-top: 8px;
+  padding: 8px;
+  background: rgba(201, 162, 39, 0.1);
+  border-radius: 6px;
+  font-size: 11px;
+  color: var(--accent);
+}
+
+.maksud-rules {
+  background: rgba(201, 162, 39, 0.05);
+  padding: 14px;
+  border-radius: 8px;
+  margin-top: 12px;
+}
+
+.maksud-rules h5 {
+  color: var(--accent-light);
+  margin: 0 0 10px;
+  font-size: 14px;
+}
+
+.maksud-rules ul {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--text);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
 /* Responsive */
 @media (max-width: 640px) {
   .word { font-size: 28px; }
@@ -1558,4 +2041,7 @@ button small {
   .islamic-items { grid-template-columns: 1fr; }
   .intro-alphabet { grid-template-columns: repeat(4, 1fr); }
   .intro-phrases { grid-template-columns: 1fr; }
+  .siga-row { grid-template-columns: 1fr; gap: 4px; }
+  .bina-examples-grid { grid-template-columns: 1fr; }
+  .maksud-examples { grid-template-columns: 1fr; }
 }
