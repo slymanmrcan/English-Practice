@@ -1,1537 +1,700 @@
-// Arabic Learning App - Fasih Arabic (الفصحى)
-// Modern Standard Arabic vocabulary and grammar study tool
+// Arabic Learning App - Minimal Version
+// =====================================
 
-const VOCAB_FILES = [
-  "data/vocab_01.json",
-];
-
-const GRAMMAR_FILES = [
-  "data/grammar_01.json",
-];
-
-const SARF_FILES = [
-  "data/sarf_01.json",
-];
-
-const NAHIV_FILES = [
-  "data/nahiv_01.json",
-];
-
-const EMSILE_FILES = [
-  "data/emsile_01.json",
-];
-
-const BINA_FILES = [
-  "data/bina_01.json",
-];
-
-const MAKSUD_FILES = [
-  "data/maksud_01.json",
-];
-
-const INTRO_FILES = [
-  "data/intro_01.json",
-];
-
-const BASIC_FILES = {
-  pronouns: "data/pronouns_01.json",
-  demonstratives: "data/demonstratives_01.json",
-  colors: "data/colors_01.json",
-  numbers: "data/numbers_01.json",
-  questions: "data/questions_01.json",
-};
-
-const ISLAMIC_FILES = [
-  "data/islamic_terms_01.json",
-  "data/islamic_basics_01.json",
-];
-
-let allData = [];
-let filteredData = [];
-let currentItem = null;
-let grammarTopics = [];
-let sarfTopics = [];
-let nahivTopics = [];
-let emsileBabs = [];
-let binaForms = [];
-let maksudCategories = [];
-let introData = null;
-let basicData = {};
-let islamicData = [];
-let grammarLoaded = false;
-let sarfLoaded = false;
-let nahivLoaded = false;
-let emsileLoaded = false;
-let binaLoaded = false;
-let maksudLoaded = false;
-let introLoaded = false;
-let basicLoaded = false;
-let islamicLoaded = false;
-let ttsVoice = null;
-let timerInterval = null;
-let timerEndAt = null;
-let timerRemainingMs = 0;
-let timerRunning = false;
-let audioCtx = null;
-
-// Arabic verb patterns (الأوزان)
-const VERB_PATTERNS = [
-  { form: "I", arabic: "فَعَلَ", meaning: "Temel anlam", example: "كَتَبَ", exampleMeaning: "yazdı" },
-  { form: "II", arabic: "فَعَّلَ", meaning: "Yoğunlaştırma/Geçişli yapma", example: "كَتَّبَ", exampleMeaning: "yazdırdı" },
-  { form: "III", arabic: "فَاعَلَ", meaning: "Karşılıklı eylem", example: "كَاتَبَ", exampleMeaning: "yazıştı" },
-  { form: "IV", arabic: "أَفْعَلَ", meaning: "Geçişli yapma", example: "أَكْتَبَ", exampleMeaning: "yazdırdı" },
-  { form: "V", arabic: "تَفَعَّلَ", meaning: "Dönüşlü (II'nin)", example: "تَكَتَّبَ", exampleMeaning: "yazılmış oldu" },
-  { form: "VI", arabic: "تَفَاعَلَ", meaning: "Karşılıklı dönüşlü", example: "تَكَاتَبَ", exampleMeaning: "birbirleriyle yazıştı" },
-  { form: "VII", arabic: "اِنْفَعَلَ", meaning: "Edilgen/Dönüşlü", example: "اِنْكَتَبَ", exampleMeaning: "yazıldı" },
-  { form: "VIII", arabic: "اِفْتَعَلَ", meaning: "Dönüşlü/Karşılıklı", example: "اِكْتَتَبَ", exampleMeaning: "abone oldu" },
-  { form: "IX", arabic: "اِفْعَلَّ", meaning: "Renk/Kusur", example: "اِحْمَرَّ", exampleMeaning: "kızardı" },
-  { form: "X", arabic: "اِسْتَفْعَلَ", meaning: "İsteme/Talep etme", example: "اِسْتَكْتَبَ", exampleMeaning: "yazmasını istedi" },
-];
-
-// Helper functions
-function shuffleArray(arr) {
-  for (let i = arr.length - 1; i > 0; i -= 1) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [arr[i], arr[j]] = [arr[j], arr[i]];
-  }
-}
-
-function shuffleOptions(options, answerIndex) {
-  const indices = options.map((_, idx) => idx);
-  shuffleArray(indices);
-  const shuffledOptions = indices.map((i) => options[i]);
-  const newAnswerIndex = indices.indexOf(answerIndex);
-  return { options: shuffledOptions, answer: newAnswerIndex };
-}
-
-// TTS for Arabic
-function pickTtsVoice() {
-  if (typeof window === "undefined" || !window.speechSynthesis) return null;
-  const voices = window.speechSynthesis.getVoices();
-  const arabic = voices.filter((v) => v.lang && v.lang.toLowerCase().startsWith("ar"));
-  const preferred =
-    arabic.find((v) => /natural|premium/i.test(v.name)) ||
-    arabic.find((v) => /arabic/i.test(v.name)) ||
-    arabic[0] ||
-    null;
-  ttsVoice = preferred;
-  return ttsVoice;
-}
-
-function speakText(text) {
-  if (!text || typeof window === "undefined" || !window.speechSynthesis) return;
-  const utter = new SpeechSynthesisUtterance(text);
-  const voice = ttsVoice || pickTtsVoice();
-  if (voice) {
-    utter.voice = voice;
-    utter.lang = voice.lang || "ar-SA";
-  } else {
-    utter.lang = "ar-SA";
-  }
-  utter.rate = 0.85;
-  utter.pitch = 1;
-  utter.volume = 0.9;
-  window.speechSynthesis.cancel();
-  window.speechSynthesis.speak(utter);
-}
-
-// Timer functions
-function updateTimerDisplay(ms) {
-  if (!els.timerRemaining) return;
-  const totalSeconds = Math.max(0, Math.ceil(ms / 1000));
-  const minutes = String(Math.floor(totalSeconds / 60)).padStart(2, "0");
-  const seconds = String(totalSeconds % 60).padStart(2, "0");
-  els.timerRemaining.textContent = `${minutes}:${seconds}`;
-}
-
-function setTimerStatus(text) {
-  if (els.timerStatus) els.timerStatus.textContent = text;
-}
-
-function syncTimerToSelection() {
-  const minutes = Number(els.timerDuration?.value || 0);
-  const ms = Math.max(0, minutes * 60 * 1000);
-  timerRemainingMs = ms;
-  timerEndAt = null;
-  timerRunning = false;
-  updateTimerDisplay(ms);
-  if (els.timerStart) els.timerStart.textContent = "ابدأ | Start";
-}
-
-function toggleTimer() {
-  if (timerRunning) {
-    pauseTimer();
-    return;
-  }
-  if (timerRemainingMs <= 0) {
-    syncTimerToSelection();
-  }
-  if (timerRemainingMs <= 0) return;
-  resumeTimer();
-}
-
-function resumeTimer() {
-  timerEndAt = Date.now() + timerRemainingMs;
-  timerRunning = true;
-  if (els.timerStart) els.timerStart.textContent = "إيقاف | Pause";
-  setTimerStatus("الوقت بدأ! | Süre başladı!");
-  tickTimer();
-  timerInterval = setInterval(tickTimer, 500);
-}
-
-function pauseTimer() {
-  if (timerInterval) {
-    clearInterval(timerInterval);
-    timerInterval = null;
-  }
-  timerRemainingMs = Math.max(0, timerEndAt ? timerEndAt - Date.now() : timerRemainingMs);
-  timerRunning = false;
-  updateTimerDisplay(timerRemainingMs);
-  if (els.timerStart) els.timerStart.textContent = "استمر | Resume";
-  setTimerStatus("متوقف | Durduruldu.");
-}
-
-function resetTimer() {
-  if (timerInterval) {
-    clearInterval(timerInterval);
-    timerInterval = null;
-  }
-  timerRunning = false;
-  timerEndAt = null;
-  syncTimerToSelection();
-  setTimerStatus("جاهز للبدء | Hazırsan başlat.");
-}
-
-function tickTimer() {
-  if (!timerRunning || !timerEndAt) return;
-  const remaining = Math.max(0, timerEndAt - Date.now());
-  timerRemainingMs = remaining;
-  updateTimerDisplay(remaining);
-  if (remaining <= 0) {
-    clearInterval(timerInterval);
-    timerInterval = null;
-    timerRunning = false;
-    timerEndAt = null;
-    if (els.timerStart) els.timerStart.textContent = "ابدأ | Start";
-    setTimerStatus("انتهى الوقت! أحسنت! | Süre tamamlandı!");
-    playTimerChime();
-  }
-}
-
-function getAudioContext() {
-  if (audioCtx) return audioCtx;
-  if (typeof window === "undefined") return null;
-  const Ctx = window.AudioContext || window.webkitAudioContext;
-  if (!Ctx) return null;
-  audioCtx = new Ctx();
-  return audioCtx;
-}
-
-function playTimerChime() {
-  const ctx = getAudioContext();
-  if (!ctx) return;
-  const now = ctx.currentTime;
-  const osc = ctx.createOscillator();
-  const gain = ctx.createGain();
-  osc.type = "sine";
-  osc.frequency.setValueAtTime(880, now);
-  gain.gain.setValueAtTime(0.0001, now);
-  gain.gain.exponentialRampToValueAtTime(0.14, now + 0.02);
-  gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.7);
-  osc.connect(gain).connect(ctx.destination);
-  osc.start(now);
-  osc.stop(now + 0.8);
-}
-
-// DOM Elements
-const els = {
-  status: document.getElementById("status"),
-  timerDuration: document.getElementById("timer-duration"),
-  timerStart: document.getElementById("timer-start"),
-  timerReset: document.getElementById("timer-reset"),
-  timerRemaining: document.getElementById("timer-remaining"),
-  timerStatus: document.getElementById("timer-status"),
-  card: document.getElementById("card"),
-  nextBtnCard: document.getElementById("next-btn-card"),
-  word: document.getElementById("word"),
-  transliteration: document.getElementById("transliteration"),
-  pos: document.getElementById("pos"),
-  level: document.getElementById("level"),
-  root: document.getElementById("root"),
-  pattern: document.getElementById("pattern"),
-  definitionAr: document.getElementById("definition-ar"),
-  definitionTr: document.getElementById("definition-tr"),
-  definitionEn: document.getElementById("definition-en"),
-  sentences: document.getElementById("sentences"),
-  relatedWords: document.getElementById("related-words"),
-  quizQuestion: document.getElementById("quiz-question"),
-  quizOptions: document.getElementById("quiz-options"),
-  quizResult: document.getElementById("quiz-result"),
-  vocabSpeak: document.getElementById("vocab-speak"),
-  loadBtn: document.getElementById("load-btn"),
-  nextBtn: document.getElementById("next-btn"),
-  levelFilter: document.getElementById("level-filter"),
-  categoryFilter: document.getElementById("category-filter"),
-  grammarBtn: document.getElementById("grammar-btn"),
-  grammarPanel: document.getElementById("grammar-panel"),
-  grammarTopic: document.getElementById("grammar-topic"),
-  grammarDetail: document.getElementById("grammar-detail"),
-  grammarStatus: document.getElementById("grammar-status"),
-  grammarFilter: document.getElementById("grammar-filter"),
-  grammarMeta: document.getElementById("grammar-meta"),
-  rootsBtn: document.getElementById("roots-btn"),
-  rootsPanel: document.getElementById("roots-panel"),
-  rootSearch: document.getElementById("root-search"),
-  rootSearchBtn: document.getElementById("root-search-btn"),
-  rootResults: document.getElementById("root-results"),
-  patternsBtn: document.getElementById("patterns-btn"),
-  patternsPanel: document.getElementById("patterns-panel"),
-  patternsGrid: document.getElementById("patterns-grid"),
-  patternDetail: document.getElementById("pattern-detail"),
-  // Sarf elements
-  sarfBtn: document.getElementById("sarf-btn"),
-  sarfPanel: document.getElementById("sarf-panel"),
-  sarfTopic: document.getElementById("sarf-topic"),
-  sarfDetail: document.getElementById("sarf-detail"),
-  sarfMeta: document.getElementById("sarf-meta"),
-  // Nahiv elements
-  nahivBtn: document.getElementById("nahiv-btn"),
-  nahivPanel: document.getElementById("nahiv-panel"),
-  nahivTopic: document.getElementById("nahiv-topic"),
-  nahivDetail: document.getElementById("nahiv-detail"),
-  nahivMeta: document.getElementById("nahiv-meta"),
-  // Basics elements
-  basicsBtn: document.getElementById("basics-btn"),
-  basicsPanel: document.getElementById("basics-panel"),
-  basicsContent: document.getElementById("basics-content"),
-  // Islamic elements
-  islamicBtn: document.getElementById("islamic-btn"),
-  islamicPanel: document.getElementById("islamic-panel"),
-  islamicCategory: document.getElementById("islamic-category"),
-  islamicSearch: document.getElementById("islamic-search"),
-  islamicContent: document.getElementById("islamic-content"),
-  // Intro elements
-  introBtn: document.getElementById("intro-btn"),
-  introPanel: document.getElementById("intro-panel"),
-  introContent: document.getElementById("intro-content"),
-  // Unified Sarf Books elements
-  sarfBooksBtn: document.getElementById("sarf-books-btn"),
-  sarfBooksPanel: document.getElementById("sarf-books-panel"),
-  sarfBookSelect: document.getElementById("sarf-book-select"),
-  sarfBooksContent: document.getElementById("sarf-books-content"),
-};
-
-// Status update
-function setStatus(msg) {
-  if (els.status) els.status.textContent = msg;
-}
-
-// Hide all panels
-function hideAllPanels() {
-  els.card?.classList.add("hidden");
-  els.grammarPanel?.classList.add("hidden");
-  els.rootsPanel?.classList.add("hidden");
-  els.patternsPanel?.classList.add("hidden");
-  els.sarfPanel?.classList.add("hidden");
-  els.nahivPanel?.classList.add("hidden");
-  els.basicsPanel?.classList.add("hidden");
-  els.islamicPanel?.classList.add("hidden");
-  els.introPanel?.classList.add("hidden");
-  els.sarfBooksPanel?.classList.add("hidden");
-}
-
-// Load vocabulary data
-async function loadData() {
-  setStatus("جاري التحميل... | Yükleniyor...");
-  allData = [];
+const App = {
+  currentPanel: null,
+  data: {},
   
-  for (const file of VOCAB_FILES) {
-    try {
-      const res = await fetch(file);
-      if (!res.ok) continue;
-      const json = await res.json();
-      if (Array.isArray(json)) {
-        allData.push(...json);
-      }
-    } catch (e) {
-      console.warn(`Could not load ${file}:`, e);
-    }
-  }
+  init() {
+    this.bindNavigation();
+    this.showPanel('intro'); // Default panel
+  },
   
-  if (allData.length === 0) {
-    setStatus("لا توجد بيانات | Veri bulunamadı.");
-    return;
-  }
-  
-  applyFilters();
-  setStatus(`تم تحميل ${allData.length} كلمة | ${allData.length} kelime yüklendi.`);
-}
-
-// Apply filters
-function applyFilters() {
-  const levelVal = els.levelFilter?.value || "ALL";
-  const categoryVal = els.categoryFilter?.value || "ALL";
-  
-  filteredData = allData.filter((item) => {
-    const levelMatch = levelVal === "ALL" || item.level === levelVal;
-    const categoryMatch = categoryVal === "ALL" || item.pos === categoryVal;
-    return levelMatch && categoryMatch;
-  });
-  
-  shuffleArray(filteredData);
-}
-
-// Show next word
-function showNextWord() {
-  if (filteredData.length === 0) {
-    setStatus("لا توجد كلمات | Kelime yok. Önce yükle.");
-    return;
-  }
-  
-  hideAllPanels();
-  els.card?.classList.remove("hidden");
-  
-  currentItem = filteredData[Math.floor(Math.random() * filteredData.length)];
-  renderWord(currentItem);
-}
-
-// Render word card
-function renderWord(item) {
-  if (!item) return;
-  
-  els.word.textContent = item.word || "";
-  els.transliteration.textContent = item.transliteration || "";
-  els.pos.textContent = item.pos || "";
-  els.level.textContent = item.level || "";
-  els.root.textContent = item.root || "";
-  els.pattern.textContent = item.pattern || "";
-  els.definitionAr.textContent = item.definition_ar || "";
-  els.definitionTr.textContent = item.definition_tr || "";
-  els.definitionEn.textContent = item.definition_en || "";
-  
-  // Sentences
-  els.sentences.innerHTML = "";
-  if (item.sentences && item.sentences.length > 0) {
-    item.sentences.forEach((s) => {
-      const li = document.createElement("li");
-      if (typeof s === "object") {
-        li.innerHTML = `<span class="arabic-text">${s.ar || ""}</span><br><small>${s.tr || ""}</small>`;
-      } else {
-        li.textContent = s;
-      }
-      els.sentences.appendChild(li);
-    });
-  }
-  
-  // Related words
-  els.relatedWords.innerHTML = "";
-  if (item.related && item.related.length > 0) {
-    item.related.forEach((r) => {
-      const div = document.createElement("div");
-      div.className = "related-word";
-      if (typeof r === "object") {
-        div.innerHTML = `${r.word || ""}<small>${r.meaning || ""}</small>`;
-      } else {
-        div.textContent = r;
-      }
-      els.relatedWords.appendChild(div);
-    });
-  }
-  
-  // Quiz
-  els.quizResult.textContent = "";
-  els.quizOptions.innerHTML = "";
-  
-  if (item.quiz) {
-    els.quizQuestion.textContent = item.quiz.question || "";
-    const { options, answer } = shuffleOptions(item.quiz.options || [], item.quiz.answer || 0);
-    
-    options.forEach((opt, idx) => {
-      const btn = document.createElement("button");
-      btn.textContent = opt;
-      btn.addEventListener("click", () => handleQuizAnswer(btn, idx, answer));
-      els.quizOptions.appendChild(btn);
-    });
-  }
-}
-
-// Handle quiz answer
-function handleQuizAnswer(btn, selected, correct) {
-  const buttons = els.quizOptions.querySelectorAll("button");
-  buttons.forEach((b, i) => {
-    b.disabled = true;
-    if (i === correct) b.classList.add("correct");
-    if (i === selected && selected !== correct) b.classList.add("wrong");
-  });
-  
-  els.quizResult.textContent = selected === correct 
-    ? "✓ صحيح! | Doğru!" 
-    : "✗ خطأ | Yanlış";
-  els.quizResult.style.color = selected === correct ? "var(--success)" : "var(--error)";
-}
-
-// Load grammar
-async function loadGrammar() {
-  if (grammarLoaded) return;
-  
-  grammarTopics = [];
-  for (const file of GRAMMAR_FILES) {
-    try {
-      const res = await fetch(file);
-      if (!res.ok) continue;
-      const json = await res.json();
-      if (Array.isArray(json)) {
-        grammarTopics.push(...json);
-      }
-    } catch (e) {
-      console.warn(`Could not load ${file}:`, e);
-    }
-  }
-  
-  grammarLoaded = true;
-  populateGrammarTopics();
-}
-
-// Populate grammar dropdown
-function populateGrammarTopics() {
-  if (!els.grammarTopic) return;
-  
-  els.grammarTopic.innerHTML = '<option value="">اختر موضوعاً | Konu seç</option>';
-  grammarTopics.forEach((topic, idx) => {
-    const opt = document.createElement("option");
-    opt.value = idx;
-    opt.textContent = topic.topic || `Topic ${idx + 1}`;
-    els.grammarTopic.appendChild(opt);
-  });
-  
-  els.grammarMeta.textContent = `${grammarTopics.length} مواضيع`;
-  els.grammarStatus.textContent = grammarTopics.length > 0 
-    ? "اختر موضوعاً | Bir konu seç." 
-    : "لا توجد مواضيع | Konu yok.";
-}
-
-// Show grammar detail
-function showGrammarDetail(idx) {
-  const topic = grammarTopics[idx];
-  if (!topic) return;
-  
-  els.grammarDetail.classList.remove("hidden");
-  els.grammarDetail.innerHTML = `
-    <h4>${topic.topic || ""} <span class="tag level">${topic.level || ""}</span></h4>
-    <p>${topic.description || ""}</p>
-    ${topic.pattern ? `<p><strong>القاعدة | Kalıp:</strong><br><span class="arabic-text">${topic.pattern}</span></p>` : ""}
-    ${topic.examples && topic.examples.length > 0 ? `
-      <h4>أمثلة | Örnekler</h4>
-      <ul class="arabic-list">
-        ${topic.examples.map(e => `<li>${e}</li>`).join("")}
-      </ul>
-    ` : ""}
-    ${topic.tips && topic.tips.length > 0 ? `
-      <h4>نصائح | İpuçları</h4>
-      <ul>
-        ${topic.tips.map(t => `<li>${t}</li>`).join("")}
-      </ul>
-    ` : ""}
-    ${topic.mistakes && topic.mistakes.length > 0 ? `
-      <h4>أخطاء شائعة | Yaygın Hatalar</h4>
-      <ul>
-        ${topic.mistakes.map(m => `<li style="color: var(--error)">${m}</li>`).join("")}
-      </ul>
-    ` : ""}
-    ${topic.note ? `<p class="note">${topic.note}</p>` : ""}
-  `;
-}
-
-// Toggle grammar panel
-function toggleGrammar() {
-  hideAllPanels();
-  els.grammarPanel?.classList.remove("hidden");
-  loadGrammar();
-}
-
-// Toggle roots panel
-function toggleRoots() {
-  hideAllPanels();
-  els.rootsPanel?.classList.remove("hidden");
-}
-
-// Search roots
-function searchRoots() {
-  const query = els.rootSearch?.value.trim() || "";
-  if (!query) return;
-  
-  const results = allData.filter(item => item.root && item.root.includes(query));
-  
-  els.rootResults.innerHTML = "";
-  if (results.length === 0) {
-    els.rootResults.innerHTML = '<p class="note">لم يتم العثور على نتائج | Sonuç bulunamadı.</p>';
-    return;
-  }
-  
-  const grouped = {};
-  results.forEach(item => {
-    if (!grouped[item.root]) grouped[item.root] = [];
-    grouped[item.root].push(item);
-  });
-  
-  Object.entries(grouped).forEach(([root, words]) => {
-    const div = document.createElement("div");
-    div.className = "root-result-item";
-    div.innerHTML = `
-      <h4>${root}</h4>
-      <div class="root-words-list">
-        ${words.map(w => `<span class="related-word">${w.word}<small>${w.definition_tr || w.definition_en || ""}</small></span>`).join("")}
-      </div>
-    `;
-    els.rootResults.appendChild(div);
-  });
-}
-
-// Toggle patterns panel
-function togglePatterns() {
-  hideAllPanels();
-  els.patternsPanel?.classList.remove("hidden");
-  renderPatterns();
-}
-
-// Render verb patterns
-function renderPatterns() {
-  if (!els.patternsGrid) return;
-  
-  els.patternsGrid.innerHTML = "";
-  VERB_PATTERNS.forEach((p, idx) => {
-    const div = document.createElement("div");
-    div.className = "pattern-card";
-    div.innerHTML = `
-      <div class="form-number">Form ${p.form}</div>
-      <div class="form-arabic">${p.arabic}</div>
-      <div class="form-meaning">${p.meaning}</div>
-    `;
-    div.addEventListener("click", () => showPatternDetail(idx));
-    els.patternsGrid.appendChild(div);
-  });
-}
-
-// Show pattern detail
-function showPatternDetail(idx) {
-  const p = VERB_PATTERNS[idx];
-  if (!p) return;
-  
-  // Update active state
-  document.querySelectorAll(".pattern-card").forEach((card, i) => {
-    card.classList.toggle("active", i === idx);
-  });
-  
-  els.patternDetail.classList.remove("hidden");
-  els.patternDetail.innerHTML = `
-    <h4>الوزن ${p.form}: ${p.arabic}</h4>
-    <p><strong>Anlam:</strong> ${p.meaning}</p>
-    <p><strong>Örnek:</strong> <span class="arabic-text">${p.example}</span> - ${p.exampleMeaning}</p>
-    <p class="note">Bu kalıptaki kelimeler benzer anlam nüansları taşır.</p>
-  `;
-}
-
-// Filter grammar topics
-function filterGrammarTopics() {
-  const query = els.grammarFilter?.value.toLowerCase() || "";
-  const options = els.grammarTopic?.querySelectorAll("option") || [];
-  
-  options.forEach((opt, idx) => {
-    if (idx === 0) return; // Skip placeholder
-    const topic = grammarTopics[opt.value];
-    if (!topic) return;
-    
-    const match = 
-      (topic.topic && topic.topic.toLowerCase().includes(query)) ||
-      (topic.description && topic.description.toLowerCase().includes(query));
-    
-    opt.style.display = match || !query ? "" : "none";
-  });
-}
-
-// ============ SARF (Morphology) ============
-async function loadSarf() {
-  if (sarfLoaded) return;
-  
-  sarfTopics = [];
-  for (const file of SARF_FILES) {
-    try {
-      const res = await fetch(file);
-      if (!res.ok) continue;
-      const json = await res.json();
-      if (Array.isArray(json)) {
-        sarfTopics.push(...json);
-      }
-    } catch (e) {
-      console.warn(`Could not load ${file}:`, e);
-    }
-  }
-  
-  sarfLoaded = true;
-  populateSarfTopics();
-}
-
-function populateSarfTopics() {
-  if (!els.sarfTopic) return;
-  
-  els.sarfTopic.innerHTML = '<option value="">اختر موضوعاً | Konu seç</option>';
-  sarfTopics.forEach((topic, idx) => {
-    const opt = document.createElement("option");
-    opt.value = idx;
-    opt.textContent = topic.topic || `Sarf ${idx + 1}`;
-    els.sarfTopic.appendChild(opt);
-  });
-  
-  if (els.sarfMeta) els.sarfMeta.textContent = `${sarfTopics.length} مواضيع`;
-}
-
-function showSarfDetail(idx) {
-  const topic = sarfTopics[idx];
-  if (!topic) return;
-  
-  els.sarfDetail.classList.remove("hidden");
-  els.sarfDetail.innerHTML = `
-    <h4>${topic.topic || ""} <span class="tag level">${topic.level || ""}</span></h4>
-    <p>${topic.description || ""}</p>
-    ${topic.pattern ? `<p><strong>الوزن | Kalıp:</strong><br><span class="arabic-text">${topic.pattern}</span></p>` : ""}
-    ${topic.conjugation ? `
-      <h4>التصريف | Çekim</h4>
-      <div class="conjugation-table">
-        ${Object.entries(topic.conjugation).map(([k,v]) => `<div class="conj-row"><span class="conj-label">${k}:</span> <span class="arabic-text">${v}</span></div>`).join("")}
-      </div>
-    ` : ""}
-    ${topic.examples && topic.examples.length > 0 ? `
-      <h4>أمثلة | Örnekler</h4>
-      <ul class="arabic-list">
-        ${topic.examples.map(e => `<li>${e}</li>`).join("")}
-      </ul>
-    ` : ""}
-    ${topic.tips && topic.tips.length > 0 ? `
-      <h4>نصائح | İpuçları</h4>
-      <ul>
-        ${topic.tips.map(t => `<li>${t}</li>`).join("")}
-      </ul>
-    ` : ""}
-    ${topic.mistakes && topic.mistakes.length > 0 ? `
-      <h4>أخطاء شائعة | Yaygın Hatalar</h4>
-      <ul>
-        ${topic.mistakes.map(m => `<li style="color: var(--error)">${m}</li>`).join("")}
-      </ul>
-    ` : ""}
-    ${topic.note ? `<p class="note">${topic.note}</p>` : ""}
-  `;
-}
-
-function toggleSarf() {
-  hideAllPanels();
-  els.sarfPanel?.classList.remove("hidden");
-  loadSarf();
-}
-
-// ============ NAHIV (Syntax) ============
-async function loadNahiv() {
-  if (nahivLoaded) return;
-  
-  nahivTopics = [];
-  for (const file of NAHIV_FILES) {
-    try {
-      const res = await fetch(file);
-      if (!res.ok) continue;
-      const json = await res.json();
-      if (Array.isArray(json)) {
-        nahivTopics.push(...json);
-      }
-    } catch (e) {
-      console.warn(`Could not load ${file}:`, e);
-    }
-  }
-  
-  nahivLoaded = true;
-  populateNahivTopics();
-}
-
-function populateNahivTopics() {
-  if (!els.nahivTopic) return;
-  
-  els.nahivTopic.innerHTML = '<option value="">اختر موضوعاً | Konu seç</option>';
-  nahivTopics.forEach((topic, idx) => {
-    const opt = document.createElement("option");
-    opt.value = idx;
-    opt.textContent = topic.topic || `Nahiv ${idx + 1}`;
-    els.nahivTopic.appendChild(opt);
-  });
-  
-  if (els.nahivMeta) els.nahivMeta.textContent = `${nahivTopics.length} مواضيع`;
-}
-
-function showNahivDetail(idx) {
-  const topic = nahivTopics[idx];
-  if (!topic) return;
-  
-  els.nahivDetail.classList.remove("hidden");
-  els.nahivDetail.innerHTML = `
-    <h4>${topic.topic || ""} <span class="tag level">${topic.level || ""}</span></h4>
-    <p>${topic.description || ""}</p>
-    ${topic.pattern ? `<p><strong>القاعدة | Kural:</strong><br><span class="arabic-text">${topic.pattern}</span></p>` : ""}
-    ${topic.examples && topic.examples.length > 0 ? `
-      <h4>أمثلة | Örnekler</h4>
-      <ul class="arabic-list">
-        ${topic.examples.map(e => `<li>${e}</li>`).join("")}
-      </ul>
-    ` : ""}
-    ${topic.tips && topic.tips.length > 0 ? `
-      <h4>نصائح | İpuçları</h4>
-      <ul>
-        ${topic.tips.map(t => `<li>${t}</li>`).join("")}
-      </ul>
-    ` : ""}
-    ${topic.mistakes && topic.mistakes.length > 0 ? `
-      <h4>أخطاء شائعة | Yaygın Hatalar</h4>
-      <ul>
-        ${topic.mistakes.map(m => `<li style="color: var(--error)">${m}</li>`).join("")}
-      </ul>
-    ` : ""}
-    ${topic.note ? `<p class="note">${topic.note}</p>` : ""}
-  `;
-}
-
-function toggleNahiv() {
-  hideAllPanels();
-  els.nahivPanel?.classList.remove("hidden");
-  loadNahiv();
-}
-
-// ============ BASICS (Pronouns, Colors, Numbers, etc.) ============
-async function loadBasics() {
-  if (basicLoaded) return;
-  
-  for (const [key, file] of Object.entries(BASIC_FILES)) {
-    try {
-      const res = await fetch(file);
-      if (!res.ok) continue;
-      const json = await res.json();
-      basicData[key] = json;
-    } catch (e) {
-      console.warn(`Could not load ${file}:`, e);
-    }
-  }
-  
-  basicLoaded = true;
-}
-
-function renderBasicsTab(tab) {
-  const data = basicData[tab];
-  if (!data || !els.basicsContent) return;
-  
-  let html = "";
-  data.forEach(category => {
-    html += `<div class="basics-category">
-      <h4>${category.category || ""}</h4>
-      ${category.note ? `<p class="note">${category.note}</p>` : ""}
-    `;
-    
-    if (category.items) {
-      html += '<div class="basics-items">';
-      category.items.forEach(item => {
-        // Handle different item structures
-        const word = item.word || item.word_m || "";
-        const wordF = item.word_f || "";
-        const trans = item.transliteration || "";
-        const meaningTr = item.meaning_tr || "";
-        const meaningEn = item.meaning_en || "";
-        const examples = item.examples || item.example_ar ? [item.example_ar] : [];
+  bindNavigation() {
+    document.querySelectorAll('.nav-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const panel = btn.dataset.panel;
+        this.showPanel(panel);
         
-        html += `<div class="basics-item">
-          <div class="basics-word arabic-text">${word}${wordF ? ` / ${wordF}` : ""}</div>
-          <div class="basics-trans">${trans}</div>
-          <div class="basics-meaning">${meaningTr}</div>
-          ${meaningEn ? `<div class="basics-meaning-en">${meaningEn}</div>` : ""}
-          ${examples && examples.length > 0 ? `
-            <div class="basics-examples">
-              ${(Array.isArray(examples) ? examples : [examples]).slice(0, 2).map(e => `<small>${e}</small>`).join("<br>")}
-            </div>
-          ` : ""}
-        </div>`;
+        // Update active state
+        document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
       });
-      html += '</div>';
+    });
+  },
+  
+  async showPanel(panel) {
+    this.currentPanel = panel;
+    const content = document.getElementById('content');
+    const pageTitle = document.getElementById('page-title');
+    const selector = document.getElementById('selector');
+    
+    // Panel configurations
+    const panels = {
+      intro: { title: 'Giriş', files: ['intro_01'], render: this.renderIntro },
+      vocab: { title: 'Kelimeler', files: ['vocab_01'], render: this.renderVocab, hasSelector: true },
+      basics: { title: 'Temel Konular', files: ['pronouns_01', 'demonstratives_01', 'colors_01', 'numbers_01', 'questions_01'], render: this.renderBasics, hasSelector: true },
+      emsile: { title: 'Emsile', files: ['emsile_01'], render: this.renderSarf },
+      bina: { title: 'Binâ', files: ['bina_01'], render: this.renderSarf },
+      maksud: { title: 'Maksûd', files: ['maksud_01'], render: this.renderSarf },
+      sarf: { title: 'Sarf Dersleri', files: ['sarf_01'], render: this.renderSarf },
+      nahiv: { title: 'Nahiv Dersleri', files: ['nahiv_01'], render: this.renderNahiv },
+      grammar: { title: 'Gramer', files: ['grammar_01'], render: this.renderGrammar },
+      roots: { title: 'Kök Ara', files: ['vocab_01'], render: this.renderRoots },
+      patterns: { title: 'Veznler', files: ['emsile_01'], render: this.renderPatterns },
+      islamic: { title: 'İslami Terimler', files: ['islamic_terms_01'], render: this.renderIslamic }
+    };
+    
+    const config = panels[panel];
+    if (!config) return;
+    
+    pageTitle.textContent = config.title;
+    content.innerHTML = '<div class="placeholder"><div class="ar">جارٍ التحميل</div>Yükleniyor...</div>';
+    
+    // Show/hide selector
+    if (config.hasSelector) {
+      selector.classList.remove('hidden');
+      this.setupSelector(panel);
+    } else {
+      selector.classList.add('hidden');
     }
     
-    if (category.rules) {
-      html += '<div class="basics-rules">';
-      category.rules.forEach(rule => {
-        html += `<div class="rule-item">
-          <strong>${rule.title || rule.range || ""}:</strong> ${rule.rule || ""}
-          ${rule.example ? `<br><span class="arabic-text">${rule.example}</span>` : ""}
-        </div>`;
-      });
-      html += '</div>';
-    }
-    
-    html += '</div>';
-  });
-  
-  els.basicsContent.innerHTML = html;
-}
-
-function toggleBasics() {
-  hideAllPanels();
-  els.basicsPanel?.classList.remove("hidden");
-  loadBasics().then(() => {
-    renderBasicsTab("pronouns");
-  });
-}
-
-// ============ ISLAMIC TERMS ============
-async function loadIslamic() {
-  if (islamicLoaded) return;
-  
-  islamicData = [];
-  for (const file of ISLAMIC_FILES) {
+    // Load data
     try {
-      const res = await fetch(file);
-      if (!res.ok) continue;
-      const json = await res.json();
-      if (Array.isArray(json)) {
-        islamicData.push(...json);
+      const loadedData = {};
+      for (const file of config.files) {
+        if (!this.data[file]) {
+          const response = await fetch(`data/${file}.json`);
+          this.data[file] = await response.json();
+        }
+        loadedData[file] = this.data[file];
       }
-    } catch (e) {
-      console.warn(`Could not load ${file}:`, e);
+      config.render.call(this, loadedData, content);
+    } catch (error) {
+      console.error('Data load error:', error);
+      content.innerHTML = `<div class="placeholder"><div class="ar">خطأ</div>Veri yüklenirken hata oluştu</div>`;
     }
-  }
+  },
   
-  islamicLoaded = true;
-  populateIslamicCategories();
-  renderIslamicContent();
-}
-
-function populateIslamicCategories() {
-  if (!els.islamicCategory) return;
-  
-  els.islamicCategory.innerHTML = '<option value="ALL">الكل | Tümü</option>';
-  islamicData.forEach((cat, idx) => {
-    const opt = document.createElement("option");
-    opt.value = idx;
-    opt.textContent = cat.category || `Category ${idx + 1}`;
-    els.islamicCategory.appendChild(opt);
-  });
-}
-
-function renderIslamicContent(filterIdx = "ALL", searchQuery = "") {
-  if (!els.islamicContent) return;
-  
-  const query = searchQuery.toLowerCase();
-  let html = "";
-  
-  islamicData.forEach((cat, idx) => {
-    if (filterIdx !== "ALL" && parseInt(filterIdx) !== idx) return;
+  setupSelector(panel) {
+    const selector = document.getElementById('selector');
+    selector.innerHTML = '';
     
-    const filteredItems = (cat.items || []).filter(item => {
-      if (!query) return true;
-      return (
-        (item.word && item.word.includes(query)) ||
-        (item.meaning_tr && item.meaning_tr.toLowerCase().includes(query)) ||
-        (item.meaning_en && item.meaning_en.toLowerCase().includes(query)) ||
-        (item.transliteration && item.transliteration.toLowerCase().includes(query))
-      );
+    const options = {
+      vocab: [
+        { value: 'all', text: 'Tüm Kelimeler' },
+        { value: 'verbs', text: 'Fiiller' },
+        { value: 'nouns', text: 'İsimler' },
+        { value: 'particles', text: 'Harfler' }
+      ],
+      basics: [
+        { value: 'pronouns', text: 'Zamirler' },
+        { value: 'demonstratives', text: 'İşaret İsimleri' },
+        { value: 'colors', text: 'Renkler' },
+        { value: 'numbers', text: 'Sayılar' },
+        { value: 'questions', text: 'Soru Kelimeleri' }
+      ]
+    };
+    
+    (options[panel] || []).forEach(opt => {
+      const option = document.createElement('option');
+      option.value = opt.value;
+      option.textContent = opt.text;
+      selector.appendChild(option);
     });
     
-    if (filteredItems.length === 0 && filterIdx === "ALL") return;
-    
-    html += `<div class="islamic-category">
-      <h4>${cat.category || ""}</h4>
-      <div class="islamic-items">`;
-    
-    filteredItems.forEach(item => {
-      html += `<div class="islamic-item">
-        <div class="islamic-word arabic-text">${item.word || ""}</div>
-        <div class="islamic-trans">${item.transliteration || ""}</div>
-        <div class="islamic-meaning">${item.meaning_tr || ""}</div>
-        ${item.definition ? `<div class="islamic-def">${item.definition}</div>` : ""}
-        ${item.root ? `<div class="islamic-root">الجذر: ${item.root}</div>` : ""}
-      </div>`;
-    });
-    
-    html += '</div></div>';
-  });
+    selector.onchange = () => this.showPanel(panel);
+  },
   
-  els.islamicContent.innerHTML = html || '<p class="note">لا توجد نتائج | Sonuç bulunamadı.</p>';
-}
-
-function toggleIslamic() {
-  hideAllPanels();
-  els.islamicPanel?.classList.remove("hidden");
-  loadIslamic();
-}
-
-// ============ INTRO (Fasih Arabic Introduction) ============
-async function loadIntro() {
-  if (introLoaded) return;
+  // ============ RENDER FUNCTIONS ============
   
-  for (const file of INTRO_FILES) {
-    try {
-      const res = await fetch(file);
-      if (!res.ok) continue;
-      const json = await res.json();
-      introData = json;
-    } catch (e) {
-      console.warn(`Could not load ${file}:`, e);
+  renderIntro(data, container) {
+    const intro = data.intro_01;
+    if (!intro) {
+      container.innerHTML = '<div class="placeholder">Giriş verisi bulunamadı</div>';
+      return;
     }
-  }
-  
-  introLoaded = true;
-  renderIntro();
-}
-
-function renderIntro() {
-  if (!introData || !els.introContent) return;
-  
-  let html = "";
-  
-  // Meta info
-  if (introData.meta) {
-    html += `<div class="intro-meta">
-      <h2>${introData.meta.title || ""}</h2>
-      <p>${introData.meta.description || ""}</p>
-    </div>`;
-  }
-  
-  // Sections
-  if (introData.sections) {
-    introData.sections.forEach(section => {
-      html += `<div class="intro-section" id="intro-${section.id}">
-        <h3 class="intro-section-title">${section.title} <span class="arabic-text">${section.titleAr || ""}</span></h3>`;
-      
-      // Content array
-      if (section.content) {
-        section.content.forEach(item => {
-          if (item.heading) {
-            html += `<h4 class="intro-heading">${item.heading}</h4>`;
-          }
-          if (item.text) {
-            html += `<p class="intro-text">${item.text}</p>`;
-          }
-          if (item.textAr) {
-            html += `<p class="intro-text arabic-text">${item.textAr}</p>`;
-          }
-          if (item.list) {
-            html += '<ul class="intro-list">';
-            item.list.forEach(li => {
-              html += `<li>${li}</li>`;
-            });
-            html += '</ul>';
-          }
-          
-          // Alphabet
-          if (item.alphabet) {
-            html += '<div class="intro-alphabet">';
-            item.alphabet.forEach(letter => {
-              html += `<div class="intro-letter">
-                <span class="letter-ar">${letter.letter}</span>
-                <span class="letter-name">${letter.name}</span>
-                <span class="letter-trans">${letter.translit}</span>
-                <span class="letter-sound">${letter.sound}</span>
-              </div>`;
-            });
-            html += '</div>';
-          }
-          
-          // Vowels
-          if (item.vowels) {
-            html += '<div class="intro-vowels">';
-            item.vowels.forEach(v => {
-              html += `<div class="intro-vowel">
-                <span class="vowel-symbol">${v.symbol}</span>
-                <span class="vowel-name">${v.name}</span>
-                <span class="vowel-sound">${v.sound}</span>
-                <span class="vowel-example">${v.example}</span>
-              </div>`;
-            });
-            html += '</div>';
-          }
-          
-          // Categories (word types)
-          if (item.categories) {
-            html += '<div class="intro-categories">';
-            item.categories.forEach(cat => {
-              html += `<div class="intro-cat-item">
-                <div class="intro-cat-name">${cat.name} <span class="arabic-text">${cat.nameAr}</span></div>
-                <div class="intro-cat-desc">${cat.description}</div>
-                <div class="intro-cat-examples">
-                  ${cat.examples.map(e => `<span class="arabic-text">${e}</span>`).join(" ")}
-                </div>
-              </div>`;
-            });
-            html += '</div>';
-          }
-          
-          // Genders
-          if (item.genders) {
-            html += '<div class="intro-genders">';
-            item.genders.forEach(g => {
-              html += `<div class="intro-gender-item">
-                <div class="intro-gender-type">${g.type} <span class="arabic-text">${g.typeAr}</span></div>
-                <div class="intro-gender-rule">${g.rule}</div>
-                <div class="intro-gender-examples">
-                  ${g.examples.map(e => `<span class="arabic-text">${e}</span>`).join(" ")}
-                </div>
-              </div>`;
-            });
-            html += '</div>';
-          }
-          
-          // Numbers (singular, dual, plural)
-          if (item.numbers) {
-            html += '<div class="intro-numbers">';
-            item.numbers.forEach(n => {
-              html += `<div class="intro-number-item">
-                <div class="intro-number-type">${n.type} <span class="arabic-text">${n.typeAr}</span></div>
-                ${n.rule ? `<div class="intro-number-rule">${n.rule}</div>` : ""}
-                <div class="intro-number-example">${n.example || (n.examples ? n.examples.join(" | ") : "")}</div>
-              </div>`;
-            });
-            html += '</div>';
-          }
-          
-          // Dialect example
-          if (item.example && item.example.fusha) {
-            html += `<div class="intro-dialect-box">
-              <div class="intro-dialect-fusha">
-                <span class="label">Fasih:</span>
-                <span class="arabic-text">${item.example.fusha}</span>
-                <span class="meaning">(${item.example.meaning})</span>
-              </div>
-              <div class="intro-dialect-compare">
-                <span>🇪🇬 ${item.example.egyptian}</span>
-                <span>🇸🇾 ${item.example.levantine}</span>
-                <span>🇸🇦 ${item.example.gulf}</span>
-              </div>
-            </div>`;
-          }
-        });
-      }
-      
-      // Sentence examples
-      if (section.content && section.content.some(c => c.examples)) {
-        section.content.forEach(c => {
-          if (c.examples) {
-            html += '<div class="intro-sentence-examples">';
-            c.examples.forEach(ex => {
-              html += `<div class="intro-sentence">
-                <div class="intro-sentence-ar arabic-text">${ex.ar}</div>
-                <div class="intro-sentence-tr">${ex.tr}</div>
-                ${ex.analysis ? `<div class="intro-sentence-analysis">${ex.analysis}</div>` : ""}
-              </div>`;
-            });
-            html += '</div>';
-          }
-        });
-      }
-      
-      // Verb tense examples
-      if (section.content && section.content.some(c => c.examples && c.examples[0]?.ar)) {
-        // Already handled above
-      }
-      
-      // Learning path phases
-      if (section.content && section.content.some(c => c.phase)) {
-        html += '<div class="intro-learning-path">';
-        section.content.forEach(phase => {
-          if (phase.phase) {
-            html += `<div class="intro-phase">
-              <div class="intro-phase-title">${phase.phase}</div>
-              <ul class="intro-phase-tasks">
-                ${phase.tasks.map(t => `<li>${t}</li>`).join("")}
-              </ul>
-            </div>`;
-          }
-        });
-        html += '</div>';
-      }
-      
-      // Tips
-      if (section.content && section.content.some(c => c.tip)) {
-        html += '<div class="intro-tips">';
-        section.content.forEach(t => {
-          if (t.tip) {
-            html += `<div class="intro-tip">
-              <span class="tip-icon">${t.icon}</span>
-              <span class="tip-text">${t.tip}</span>
-            </div>`;
-          }
-        });
-        html += '</div>';
-      }
-      
-      // Essential vocabulary
-      if (section.content && section.content.some(c => c.category && c.words)) {
-        html += '<div class="intro-vocab-section">';
-        section.content.forEach(cat => {
-          if (cat.category && cat.words) {
-            html += `<div class="intro-vocab-cat">
-              <h4>${cat.category}</h4>
-              <div class="intro-vocab-items">`;
-            cat.words.forEach(w => {
-              html += `<div class="intro-vocab-item">
-                <span class="arabic-text">${w.ar}</span>
-                <span class="translit">${w.translit}</span>
-                <span class="meaning">${w.tr}</span>
-              </div>`;
-            });
-            html += '</div></div>';
-          }
-        });
-        html += '</div>';
-      }
-      
-      // Phrases
-      if (section.phrases) {
-        html += '<div class="intro-phrases">';
-        section.phrases.forEach(p => {
-          html += `<div class="intro-phrase">
-            <div class="phrase-ar arabic-text">${p.ar}</div>
-            <div class="phrase-translit">${p.translit}</div>
-            <div class="phrase-tr">${p.tr}</div>
-            ${p.reply && p.reply !== "-" ? `<div class="phrase-reply">↩ ${p.reply}</div>` : ""}
-          </div>`;
-        });
-        html += '</div>';
-      }
-      
-      html += '</div>'; // end intro-section
-    });
-  }
-  
-  els.introContent.innerHTML = html;
-}
-
-function toggleIntro() {
-  hideAllPanels();
-  els.introPanel?.classList.remove("hidden");
-  loadIntro();
-}
-
-// =====================================
-// SARF KİTAPLARI - Birleşik Panel
-// =====================================
-let currentSarfBook = 'emsile';
-let sarfBooksLoaded = false;
-
-async function loadSarfBooks() {
-  if (sarfBooksLoaded) return;
-  
-  // Load Emsile
-  for (const file of EMSILE_FILES) {
-    try {
-      const res = await fetch(file);
-      if (!res.ok) continue;
-      const json = await res.json();
-      if (json.bablar) emsileBabs.push(...json.bablar);
-    } catch (e) { console.warn(`Could not load ${file}:`, e); }
-  }
-  
-  // Load Bina
-  for (const file of BINA_FILES) {
-    try {
-      const res = await fetch(file);
-      if (!res.ok) continue;
-      const json = await res.json();
-      if (json.bablar) binaForms.push(...json.bablar);
-    } catch (e) { console.warn(`Could not load ${file}:`, e); }
-  }
-  
-  // Load Maksud
-  for (const file of MAKSUD_FILES) {
-    try {
-      const res = await fetch(file);
-      if (!res.ok) continue;
-      const json = await res.json();
-      ['misal', 'ecvef', 'nakis', 'muzaaf'].forEach(key => {
-        if (json[key]) maksudCategories.push({ key, ...json[key] });
-      });
-    } catch (e) { console.warn(`Could not load ${file}:`, e); }
-  }
-  
-  sarfBooksLoaded = true;
-  updateSarfBookSelect();
-  renderSarfBook(0);
-}
-
-function updateSarfBookSelect() {
-  if (!els.sarfBookSelect) return;
-  
-  let options = [];
-  if (currentSarfBook === 'emsile') {
-    options = emsileBabs.map((b, i) => ({ value: i, label: `${b.name} (${b.pattern})` }));
-  } else if (currentSarfBook === 'bina') {
-    options = binaForms.map((b, i) => ({ value: i, label: `Bab ${b.bab} - ${b.name}` }));
-  } else if (currentSarfBook === 'maksud') {
-    options = maksudCategories.map((c, i) => ({ value: i, label: c.title }));
-  }
-  
-  els.sarfBookSelect.innerHTML = options.map(o => 
-    `<option value="${o.value}">${o.label}</option>`
-  ).join("");
-}
-
-function renderSarfBook(index) {
-  if (!els.sarfBooksContent) return;
-  
-  if (currentSarfBook === 'emsile') {
-    renderEmsileCard(index);
-  } else if (currentSarfBook === 'bina') {
-    renderBinaCard(index);
-  } else if (currentSarfBook === 'maksud') {
-    renderMaksudCard(index);
-  }
-}
-
-function renderEmsileCard(idx) {
-  const bab = emsileBabs[idx];
-  if (!bab) return;
-  
-  let html = `
-    <div class="sarf-card">
-      <div class="sarf-card-header">
-        <div class="sarf-card-title">
-          <span class="title-ar">${bab.nameAr}</span>
-          <span class="title-tr">${bab.name}</span>
-        </div>
-        <div class="sarf-card-pattern">${bab.pattern}</div>
-      </div>
-      
-      <div class="sarf-card-desc">${bab.description || ""}</div>
-      
-      <div class="sarf-verb-grid">`;
-  
-  (bab.examples || []).forEach(ex => {
-    const t = ex.tasrif || {};
-    html += `
-      <div class="sarf-verb-card" onclick="this.classList.toggle('expanded')">
-        <div class="verb-main">
-          <span class="verb-ar">${t.mazi?.word || ""}</span>
-          <span class="verb-meaning">${ex.meaning}</span>
-        </div>
-        <div class="verb-details">
-          <div class="verb-row"><span class="lbl">Kök:</span><span>${ex.root}</span></div>
-          <div class="verb-row"><span class="lbl">Muzari:</span><span class="ar">${t.muzari?.word || ""}</span></div>
-          <div class="verb-row"><span class="lbl">Emir:</span><span class="ar">${t.emir?.word || ""}</span></div>
-          <div class="verb-row"><span class="lbl">Masdar:</span><span class="ar">${t.masdar?.word || ""}</span></div>
-          <div class="verb-row"><span class="lbl">İsm-i Fail:</span><span class="ar">${t.ism_fail?.word || ""}</span></div>
-          <div class="verb-row"><span class="lbl">İsm-i Mef'ul:</span><span class="ar">${t.ism_meful?.word || ""}</span></div>
-        </div>
-      </div>`;
-  });
-  
-  html += `</div></div>`;
-  els.sarfBooksContent.innerHTML = html;
-}
-
-function renderBinaCard(idx) {
-  const form = binaForms[idx];
-  if (!form) return;
-  
-  let html = `
-    <div class="sarf-card">
-      <div class="sarf-card-header">
-        <div class="sarf-card-title">
-          <span class="title-ar">${form.nameAr}</span>
-          <span class="title-tr">${form.name}</span>
-          <span class="bab-num">Bab ${form.bab}</span>
-        </div>
-        <div class="sarf-card-pattern">${form.pattern}</div>
-      </div>
-      
-      <div class="sarf-card-desc">${form.addition || ""}</div>
-      
-      <div class="sarf-meanings">
-        ${(form.meanings || []).map(m => `<span class="meaning-chip">${m}</span>`).join("")}
-      </div>
-      
-      <div class="sarf-verb-grid">`;
-  
-  (form.examples || []).forEach(ex => {
-    const m = ex.mezid || {};
-    html += `
-      <div class="sarf-verb-card" onclick="this.classList.toggle('expanded')">
-        <div class="verb-main">
-          <span class="verb-ar">${m.mazi?.word || ""}</span>
-          <span class="verb-meaning">${m.mazi?.meaning || ""}</span>
-        </div>
-        <div class="verb-base">
-          <span class="base-label">Temel:</span>
-          <span class="base-ar">${ex.base?.word || ""}</span>
-          <span class="base-meaning">${ex.base?.meaning || ""}</span>
-        </div>
-        <div class="verb-details">
-          <div class="verb-row"><span class="lbl">Muzari:</span><span class="ar">${m.muzari?.word || ""}</span><span class="meaning">${m.muzari?.meaning || ""}</span></div>
-          <div class="verb-row"><span class="lbl">Masdar:</span><span class="ar">${m.masdar?.word || ""}</span><span class="meaning">${m.masdar?.meaning || ""}</span></div>
-          ${m.ism_fail ? `<div class="verb-row"><span class="lbl">Fail:</span><span class="ar">${m.ism_fail.word}</span><span class="meaning">${m.ism_fail.meaning || ""}</span></div>` : ""}
-          ${m.ism_meful ? `<div class="verb-row"><span class="lbl">Mef'ul:</span><span class="ar">${m.ism_meful.word}</span><span class="meaning">${m.ism_meful.meaning || ""}</span></div>` : ""}
-        </div>
-        ${ex.note ? `<div class="verb-note">${ex.note}</div>` : ""}
-      </div>`;
-  });
-  
-  html += `</div></div>`;
-  els.sarfBooksContent.innerHTML = html;
-}
-
-function renderMaksudCard(idx) {
-  const cat = maksudCategories[idx];
-  if (!cat) return;
-  
-  let html = `
-    <div class="sarf-card">
-      <div class="sarf-card-header">
-        <div class="sarf-card-title">
-          <span class="title-tr">${cat.title}</span>
-        </div>
-      </div>
-      
-      <div class="sarf-card-desc">${cat.description || ""}</div>`;
-  
-  (cat.types || []).forEach(type => {
-    html += `
-      <div class="maksud-type">
-        <div class="type-header">
-          <span class="type-ar">${type.typeAr}</span>
-          <span class="type-tr">${type.type}</span>
-        </div>
-        <div class="type-desc">${type.description}</div>
-        <div class="sarf-verb-grid">`;
     
-    (type.examples || []).forEach(ex => {
-      const t = ex.tasrif || {};
+    let html = '';
+    
+    // Welcome
+    if (intro.welcome) {
       html += `
-        <div class="sarf-verb-card" onclick="this.classList.toggle('expanded')">
-          <div class="verb-main">
-            <span class="verb-ar">${t.mazi?.word || ""}</span>
-            <span class="verb-meaning">${ex.meaning}</span>
+        <div class="intro-section">
+          <div class="intro-title">
+            <span class="ar">${intro.welcome.arabic || ''}</span>
+            ${intro.welcome.title || 'Hoş Geldiniz'}
           </div>
-          <div class="verb-details">
-            <div class="verb-row"><span class="lbl">Kök:</span><span>${ex.root}</span></div>
-            <div class="verb-row"><span class="lbl">Muzari:</span><span class="ar">${t.muzari?.word || ""}</span></div>
-            ${t.muzari?.note ? `<div class="verb-note">${t.muzari.note}</div>` : ""}
-            <div class="verb-row"><span class="lbl">Emir:</span><span class="ar">${t.emir?.word || ""}</span></div>
-            <div class="verb-row"><span class="lbl">Masdar:</span><span class="ar">${t.masdar?.word || ""}</span></div>
-          </div>
-        </div>`;
-    });
+          <p style="color: var(--text-dim); margin-bottom: 16px;">${intro.welcome.description || ''}</p>
+        </div>
+      `;
+    }
     
-    html += `</div></div>`;
-  });
+    // Alphabet
+    if (intro.alphabet && intro.alphabet.letters) {
+      html += `
+        <div class="intro-section">
+          <div class="intro-title">
+            <span class="ar">الحروف</span>
+            Arap Alfabesi
+          </div>
+          <div class="alphabet-grid">
+            ${intro.alphabet.letters.map(l => `
+              <div class="letter-box">
+                <div class="letter-ar">${l.arabic}</div>
+                <div class="letter-name">${l.name}</div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }
+    
+    // Harekeler
+    if (intro.harekeler && intro.harekeler.items) {
+      html += `
+        <div class="intro-section">
+          <div class="intro-title">
+            <span class="ar">الحركات</span>
+            Harekeler
+          </div>
+          <div class="grid">
+            ${intro.harekeler.items.map(h => `
+              <div class="card">
+                <div class="card-title">${h.arabic || h.symbol}</div>
+                <div class="card-sub">${h.name}</div>
+                <div class="card-row">
+                  <span class="card-label">Okunuş</span>
+                  <span class="card-value tr">${h.okunus || h.pronunciation || ''}</span>
+                </div>
+                <div class="card-row">
+                  <span class="card-label">Örnek</span>
+                  <span class="card-value">${h.ornek || h.example || ''}</span>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }
+    
+    // Temel Kurallar
+    if (intro.temelKurallar && intro.temelKurallar.items) {
+      html += `
+        <div class="intro-section">
+          <div class="intro-title">
+            <span class="ar">القواعد</span>
+            Temel Kurallar
+          </div>
+          <div class="list">
+            ${intro.temelKurallar.items.map(k => `
+              <div class="list-item">
+                <span class="list-ar">${k.kural || k.arabic || ''}</span>
+                <span class="list-tr">${k.aciklama || k.explanation || ''}</span>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }
+    
+    container.innerHTML = html || '<div class="placeholder">İçerik hazırlanıyor...</div>';
+  },
   
-  html += `</div>`;
-  els.sarfBooksContent.innerHTML = html;
-}
-
-function switchSarfBook(book) {
-  currentSarfBook = book;
-  document.querySelectorAll('.sarf-tab').forEach(t => t.classList.remove('active'));
-  document.querySelector(`.sarf-tab[data-book="${book}"]`)?.classList.add('active');
-  updateSarfBookSelect();
-  renderSarfBook(0);
-}
-
-function toggleSarfBooks() {
-  hideAllPanels();
-  els.sarfBooksPanel?.classList.remove("hidden");
-  loadSarfBooks();
-}
-
-// Event listeners
-document.addEventListener("DOMContentLoaded", () => {
-  // Timer
-  syncTimerToSelection();
-  els.timerStart?.addEventListener("click", toggleTimer);
-  els.timerReset?.addEventListener("click", resetTimer);
-  els.timerDuration?.addEventListener("change", syncTimerToSelection);
+  renderVocab(data, container) {
+    const vocab = data.vocab_01;
+    if (!vocab || !vocab.kelimeler) {
+      container.innerHTML = '<div class="placeholder">Kelime verisi bulunamadı</div>';
+      return;
+    }
+    
+    const selector = document.getElementById('selector');
+    const filter = selector.value;
+    
+    let words = vocab.kelimeler;
+    if (filter !== 'all') {
+      const typeMap = { verbs: 'fiil', nouns: 'isim', particles: 'harf' };
+      words = words.filter(w => w.tur === typeMap[filter]);
+    }
+    
+    const html = `
+      <div class="grid">
+        ${words.map(w => `
+          <div class="card" onclick="App.toggleCard(this)">
+            <div class="card-title">${w.arapca}</div>
+            <div class="card-sub">${w.tur || 'kelime'}</div>
+            <div class="card-row">
+              <span class="card-label">Türkçe</span>
+              <span class="card-value tr">${w.turkce}</span>
+            </div>
+            ${w.kok ? `
+            <div class="card-row">
+              <span class="card-label">Kök</span>
+              <span class="card-value">${w.kok}</span>
+            </div>
+            ` : ''}
+            <div class="card-details">
+              ${w.ornek ? `
+              <div class="card-row">
+                <span class="card-label">Örnek</span>
+                <span class="card-value">${w.ornek}</span>
+              </div>
+              ` : ''}
+              ${w.ornekTr ? `
+              <div class="card-row">
+                <span class="card-label">Çeviri</span>
+                <span class="card-value tr">${w.ornekTr}</span>
+              </div>
+              ` : ''}
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    `;
+    
+    container.innerHTML = html;
+  },
   
-  // Load & navigate
-  els.loadBtn?.addEventListener("click", loadData);
-  els.nextBtn?.addEventListener("click", showNextWord);
-  els.nextBtnCard?.addEventListener("click", showNextWord);
+  renderBasics(data, container) {
+    const selector = document.getElementById('selector');
+    const section = selector.value || 'pronouns';
+    
+    const sectionData = data[section + '_01'];
+    if (!sectionData) {
+      container.innerHTML = '<div class="placeholder">Veri bulunamadı</div>';
+      return;
+    }
+    
+    let items = sectionData.items || sectionData.zamirler || sectionData.isimler || sectionData.renkler || sectionData.sayilar || sectionData.sorular || [];
+    
+    const html = `
+      <div class="detail">
+        <div class="detail-header">
+          <div class="detail-title">${sectionData.titleAr || ''}</div>
+          <div class="detail-sub">${sectionData.title || ''}</div>
+        </div>
+        ${sectionData.description ? `<p style="margin-bottom: 16px; color: var(--text-dim);">${sectionData.description}</p>` : ''}
+        <div class="grid">
+          ${items.map(item => `
+            <div class="card">
+              <div class="card-title">${item.arapca || item.arabic || ''}</div>
+              <div class="card-row">
+                <span class="card-label">Türkçe</span>
+                <span class="card-value tr">${item.turkce || item.turkish || ''}</span>
+              </div>
+              ${item.okunuş || item.okunush ? `
+              <div class="card-row">
+                <span class="card-label">Okunuş</span>
+                <span class="card-value tr">${item.okunuş || item.okunush}</span>
+              </div>
+              ` : ''}
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `;
+    
+    container.innerHTML = html;
+  },
   
-  // Filters
-  els.levelFilter?.addEventListener("change", applyFilters);
-  els.categoryFilter?.addEventListener("change", applyFilters);
+  renderSarf(data, container) {
+    // Get first available data
+    const fileData = Object.values(data)[0];
+    if (!fileData) {
+      container.innerHTML = '<div class="placeholder">Sarf verisi bulunamadı</div>';
+      return;
+    }
+    
+    let html = '';
+    
+    // Title section
+    if (fileData.title || fileData.kitapAdi) {
+      html += `
+        <div class="detail">
+          <div class="detail-header">
+            <div class="detail-title">${fileData.titleAr || fileData.arapca || ''}</div>
+            <div class="detail-sub">${fileData.title || fileData.kitapAdi || ''}</div>
+          </div>
+          ${fileData.description || fileData.aciklama ? `<p style="margin-bottom: 16px; color: var(--text-dim);">${fileData.description || fileData.aciklama}</p>` : ''}
+        </div>
+      `;
+    }
+    
+    // Bablar (chapters)
+    const bablar = fileData.bablar || fileData.babs || fileData.chapters || [];
+    if (bablar.length > 0) {
+      html += `
+        <div class="section" style="margin-top: 24px;">
+          <div class="section-title">Bablar</div>
+          <div class="grid">
+            ${bablar.map((bab, i) => `
+              <div class="card" onclick="App.showBabDetail(${i})">
+                <div class="card-title">${bab.vezin || bab.arabic || bab.pattern || ''}</div>
+                <div class="card-sub">${bab.isim || bab.name || `Bab ${i + 1}`}</div>
+                ${bab.ornek || bab.example ? `
+                <div class="card-row">
+                  <span class="card-label">Örnek</span>
+                  <span class="card-value">${bab.ornek || bab.example}</span>
+                </div>
+                ` : ''}
+                ${bab.anlam || bab.meaning ? `
+                <div class="card-row">
+                  <span class="card-label">Anlam</span>
+                  <span class="card-value tr">${bab.anlam || bab.meaning}</span>
+                </div>
+                ` : ''}
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }
+    
+    // Veznler (patterns)
+    const veznler = fileData.veznler || fileData.patterns || [];
+    if (veznler.length > 0) {
+      html += `
+        <div class="section" style="margin-top: 24px;">
+          <div class="section-title">Veznler</div>
+          <div class="list">
+            ${veznler.map(v => `
+              <div class="list-item">
+                <span class="list-ar">${v.vezin || v.arabic || v.pattern || ''}</span>
+                <span class="list-tr">${v.anlam || v.meaning || v.turkce || ''}</span>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }
+    
+    // Fiiller (verbs)
+    const fiiller = fileData.fiiller || fileData.verbs || [];
+    if (fiiller.length > 0) {
+      html += `
+        <div class="section" style="margin-top: 24px;">
+          <div class="section-title">Örnek Fiiller</div>
+          <div class="grid">
+            ${fiiller.map(f => `
+              <div class="card">
+                <div class="card-title">${f.mazi || f.arabic || ''}</div>
+                <div class="card-sub">${f.anlam || f.meaning || ''}</div>
+                ${f.muzari ? `
+                <div class="card-row">
+                  <span class="card-label">Muzari</span>
+                  <span class="card-value">${f.muzari}</span>
+                </div>
+                ` : ''}
+                ${f.masdar ? `
+                <div class="card-row">
+                  <span class="card-label">Masdar</span>
+                  <span class="card-value">${f.masdar}</span>
+                </div>
+                ` : ''}
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }
+    
+    // Dersler (lessons)
+    const dersler = fileData.dersler || fileData.lessons || [];
+    if (dersler.length > 0) {
+      html += `
+        <div class="section" style="margin-top: 24px;">
+          <div class="section-title">Dersler</div>
+          <div class="list">
+            ${dersler.map((d, i) => `
+              <div class="list-item" onclick="App.showLesson('sarf', ${i})">
+                <span class="list-ar">${d.titleAr || d.arabic || ''}</span>
+                <span class="list-tr">${d.title || `Ders ${i + 1}`}</span>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }
+    
+    container.innerHTML = html || '<div class="placeholder">İçerik hazırlanıyor...</div>';
+  },
   
-  // TTS
-  els.vocabSpeak?.addEventListener("click", () => {
-    if (currentItem?.word) speakText(currentItem.word);
-  });
+  renderNahiv(data, container) {
+    const nahiv = data.nahiv_01;
+    if (!nahiv) {
+      container.innerHTML = '<div class="placeholder">Nahiv verisi bulunamadı</div>';
+      return;
+    }
+    
+    let html = `
+      <div class="detail">
+        <div class="detail-header">
+          <div class="detail-title">${nahiv.titleAr || 'النحو'}</div>
+          <div class="detail-sub">${nahiv.title || 'Nahiv Dersleri'}</div>
+        </div>
+        ${nahiv.description ? `<p style="margin-bottom: 16px; color: var(--text-dim);">${nahiv.description}</p>` : ''}
+      </div>
+    `;
+    
+    // Konular
+    const konular = nahiv.konular || nahiv.topics || nahiv.dersler || [];
+    if (konular.length > 0) {
+      html += `
+        <div class="section" style="margin-top: 24px;">
+          <div class="section-title">Konular</div>
+          <div class="list">
+            ${konular.map((k, i) => `
+              <div class="list-item" onclick="App.showLesson('nahiv', ${i})">
+                <span class="list-ar">${k.titleAr || k.arabic || ''}</span>
+                <span class="list-tr">${k.title || k.konu || `Konu ${i + 1}`}</span>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }
+    
+    // İrab Kuralları
+    const irab = nahiv.irab || nahiv.irabiKurallar || [];
+    if (irab.length > 0) {
+      html += `
+        <div class="section" style="margin-top: 24px;">
+          <div class="section-title">İrab Kuralları</div>
+          <div class="grid">
+            ${irab.map(rule => `
+              <div class="card">
+                <div class="card-title">${rule.arabic || rule.kural || ''}</div>
+                <div class="card-sub">${rule.isim || rule.name || ''}</div>
+                <div class="card-row">
+                  <span class="card-label">Açıklama</span>
+                  <span class="card-value tr">${rule.aciklama || rule.explanation || ''}</span>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }
+    
+    container.innerHTML = html || '<div class="placeholder">İçerik hazırlanıyor...</div>';
+  },
   
-  // Grammar
-  els.grammarBtn?.addEventListener("click", toggleGrammar);
-  els.grammarTopic?.addEventListener("change", (e) => {
-    const idx = parseInt(e.target.value, 10);
-    if (!isNaN(idx)) showGrammarDetail(idx);
-  });
-  els.grammarFilter?.addEventListener("input", filterGrammarTopics);
+  renderGrammar(data, container) {
+    const grammar = data.grammar_01;
+    if (!grammar) {
+      container.innerHTML = '<div class="placeholder">Gramer verisi bulunamadı</div>';
+      return;
+    }
+    
+    let html = `
+      <div class="detail">
+        <div class="detail-header">
+          <div class="detail-title">${grammar.titleAr || 'القواعد'}</div>
+          <div class="detail-sub">${grammar.title || 'Arapça Gramer'}</div>
+        </div>
+      </div>
+    `;
+    
+    // Topics
+    const topics = grammar.topics || grammar.konular || [];
+    if (topics.length > 0) {
+      html += `
+        <div class="section" style="margin-top: 24px;">
+          <div class="section-title">Gramer Konuları</div>
+          <div class="grid">
+            ${topics.map(t => `
+              <div class="card" onclick="App.toggleCard(this)">
+                <div class="card-title">${t.titleAr || t.arabic || ''}</div>
+                <div class="card-sub">${t.title || t.konu || ''}</div>
+                <div class="card-details">
+                  <p style="color: var(--text-dim);">${t.explanation || t.aciklama || ''}</p>
+                  ${t.examples ? `
+                  <div style="margin-top: 12px;">
+                    ${t.examples.map(ex => `
+                      <div class="card-row">
+                        <span class="card-value">${ex.arabic || ex.arapca || ''}</span>
+                        <span class="card-value tr">${ex.turkish || ex.turkce || ''}</span>
+                      </div>
+                    `).join('')}
+                  </div>
+                  ` : ''}
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }
+    
+    container.innerHTML = html || '<div class="placeholder">İçerik hazırlanıyor...</div>';
+  },
   
-  // Roots
-  els.rootsBtn?.addEventListener("click", toggleRoots);
-  els.rootSearchBtn?.addEventListener("click", searchRoots);
-  els.rootSearch?.addEventListener("keypress", (e) => {
-    if (e.key === "Enter") searchRoots();
-  });
+  renderRoots(data, container) {
+    const html = `
+      <div class="search-box">
+        <input type="text" class="search-input" id="root-search" placeholder="Kök harf girin (örn: ك ت ب)">
+        <button class="search-btn" onclick="App.searchRoot()">Ara</button>
+      </div>
+      <div id="root-results">
+        <div class="placeholder">
+          <div class="ar">الجذر</div>
+          Aramak için yukarıya kök harfleri girin
+        </div>
+      </div>
+    `;
+    container.innerHTML = html;
+  },
   
-  // Patterns
-  els.patternsBtn?.addEventListener("click", togglePatterns);
+  searchRoot() {
+    const input = document.getElementById('root-search').value.trim();
+    const results = document.getElementById('root-results');
+    
+    if (!input) {
+      results.innerHTML = '<div class="placeholder">Lütfen kök harfleri girin</div>';
+      return;
+    }
+    
+    // Search in vocab data
+    const vocab = this.data.vocab_01;
+    if (!vocab || !vocab.kelimeler) {
+      results.innerHTML = '<div class="placeholder">Kelime verisi yüklenemedi</div>';
+      return;
+    }
+    
+    const found = vocab.kelimeler.filter(w => w.kok && w.kok.includes(input));
+    
+    if (found.length === 0) {
+      results.innerHTML = `<div class="placeholder">
+        <div class="ar">${input}</div>
+        Bu kökten türemiş kelime bulunamadı
+      </div>`;
+      return;
+    }
+    
+    results.innerHTML = `
+      <div class="note">
+        <strong>${input}</strong> kökünden ${found.length} kelime bulundu
+      </div>
+      <div class="grid">
+        ${found.map(w => `
+          <div class="card">
+            <div class="card-title">${w.arapca}</div>
+            <div class="card-sub">${w.tur || 'kelime'}</div>
+            <div class="card-row">
+              <span class="card-label">Türkçe</span>
+              <span class="card-value tr">${w.turkce}</span>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    `;
+  },
   
-  // Sarf
-  els.sarfBtn?.addEventListener("click", toggleSarf);
-  els.sarfTopic?.addEventListener("change", (e) => {
-    const idx = parseInt(e.target.value, 10);
-    if (!isNaN(idx)) showSarfDetail(idx);
-  });
+  renderPatterns(data, container) {
+    const emsile = data.emsile_01;
+    if (!emsile) {
+      container.innerHTML = '<div class="placeholder">Vezin verisi bulunamadı</div>';
+      return;
+    }
+    
+    const bablar = emsile.bablar || emsile.babs || [];
+    
+    let html = `
+      <div class="detail">
+        <div class="detail-header">
+          <div class="detail-title">الأوزان</div>
+          <div class="detail-sub">Fiil Veznleri</div>
+        </div>
+        <p style="margin-bottom: 16px; color: var(--text-dim);">Arapça fiillerin kalıpları ve çekimleri</p>
+      </div>
+      <div class="section" style="margin-top: 24px;">
+        <div class="section-title">Mücerred Bablar</div>
+        <div class="grid">
+          ${bablar.map(bab => `
+            <div class="card" onclick="App.toggleCard(this)">
+              <div class="card-title">${bab.vezin || bab.pattern || ''}</div>
+              <div class="card-sub">${bab.isim || bab.name || ''}</div>
+              <div class="card-row">
+                <span class="card-label">Örnek</span>
+                <span class="card-value">${bab.ornek || bab.example || ''}</span>
+              </div>
+              <div class="card-details">
+                ${bab.anlam ? `
+                <div class="card-row">
+                  <span class="card-label">Anlam</span>
+                  <span class="card-value tr">${bab.anlam}</span>
+                </div>
+                ` : ''}
+                ${bab.muzari ? `
+                <div class="card-row">
+                  <span class="card-label">Muzari</span>
+                  <span class="card-value">${bab.muzari}</span>
+                </div>
+                ` : ''}
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `;
+    
+    container.innerHTML = html || '<div class="placeholder">İçerik hazırlanıyor...</div>';
+  },
   
-  // Nahiv
-  els.nahivBtn?.addEventListener("click", toggleNahiv);
-  els.nahivTopic?.addEventListener("change", (e) => {
-    const idx = parseInt(e.target.value, 10);
-    if (!isNaN(idx)) showNahivDetail(idx);
-  });
+  renderIslamic(data, container) {
+    const islamic = data.islamic_terms_01;
+    if (!islamic) {
+      container.innerHTML = '<div class="placeholder">İslami terim verisi bulunamadı</div>';
+      return;
+    }
+    
+    const terms = islamic.terms || islamic.terimler || islamic.items || [];
+    
+    let html = `
+      <div class="detail">
+        <div class="detail-header">
+          <div class="detail-title">${islamic.titleAr || 'المصطلحات الإسلامية'}</div>
+          <div class="detail-sub">${islamic.title || 'İslami Terimler'}</div>
+        </div>
+      </div>
+      <div class="grid" style="margin-top: 24px;">
+        ${terms.map(t => `
+          <div class="card" onclick="App.toggleCard(this)">
+            <div class="card-title">${t.arabic || t.arapca || ''}</div>
+            <div class="card-sub">${t.category || t.kategori || ''}</div>
+            <div class="card-row">
+              <span class="card-label">Türkçe</span>
+              <span class="card-value tr">${t.turkish || t.turkce || ''}</span>
+            </div>
+            <div class="card-details">
+              ${t.explanation || t.aciklama ? `
+              <p style="color: var(--text-dim);">${t.explanation || t.aciklama}</p>
+              ` : ''}
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    `;
+    
+    container.innerHTML = html || '<div class="placeholder">İçerik hazırlanıyor...</div>';
+  },
   
-  // Basics
-  els.basicsBtn?.addEventListener("click", toggleBasics);
-  document.querySelectorAll(".basics-tab").forEach(tab => {
-    tab.addEventListener("click", (e) => {
-      document.querySelectorAll(".basics-tab").forEach(t => t.classList.remove("active"));
-      e.target.classList.add("active");
-      const tabName = e.target.dataset.tab;
-      if (tabName) renderBasicsTab(tabName);
-    });
-  });
+  // ============ HELPER FUNCTIONS ============
   
-  // Islamic
-  els.islamicBtn?.addEventListener("click", toggleIslamic);
-  els.islamicCategory?.addEventListener("change", (e) => {
-    renderIslamicContent(e.target.value, els.islamicSearch?.value || "");
-  });
-  els.islamicSearch?.addEventListener("input", (e) => {
-    renderIslamicContent(els.islamicCategory?.value || "ALL", e.target.value);
-  });
+  toggleCard(element) {
+    element.classList.toggle('expanded');
+  },
   
-  // Intro
-  els.introBtn?.addEventListener("click", toggleIntro);
+  showBabDetail(index) {
+    // Could be expanded to show full bab details
+    console.log('Show bab:', index);
+  },
   
-  // Sarf Books (Unified)
-  els.sarfBooksBtn?.addEventListener("click", toggleSarfBooks);
-  els.sarfBookSelect?.addEventListener("change", (e) => {
-    const idx = parseInt(e.target.value, 10);
-    renderSarfBook(idx);
-  });
-  document.querySelectorAll(".sarf-tab").forEach(tab => {
-    tab.addEventListener("click", (e) => {
-      const book = e.currentTarget.dataset.book;
-      if (book) switchSarfBook(book);
-    });
-  });
-  
-  // Load TTS voices
-  if (window.speechSynthesis) {
-    window.speechSynthesis.onvoiceschanged = pickTtsVoice;
-    pickTtsVoice();
+  showLesson(type, index) {
+    // Could be expanded to show full lesson content
+    console.log('Show lesson:', type, index);
   }
-});
+};
+
+// Initialize when DOM is ready
+document.addEventListener('DOMContentLoaded', () => App.init());
