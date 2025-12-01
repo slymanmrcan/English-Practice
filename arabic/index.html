@@ -45,6 +45,12 @@
         <div class="panel-body actions">
           <button id="next-btn">الكلمة التالية<br><small>Next Word</small></button>
           <button id="grammar-btn">القواعد<br><small>Grammar</small></button>
+          <button id="sarf-btn">الصرف<br><small>Sarf</small></button>
+          <button id="nahiv-btn">النحو<br><small>Nahiv</small></button>
+        </div>
+        <div class="panel-body actions">
+          <button id="basics-btn">الأساسيات<br><small>Temel</small></button>
+          <button id="islamic-btn">المصطلحات<br><small>İslami</small></button>
           <button id="roots-btn">الجذور<br><small>Roots</small></button>
           <button id="patterns-btn">الأوزان<br><small>Patterns</small></button>
         </div>
@@ -135,6 +141,73 @@
         <div id="grammar-status" class="status small">افتح القواعد لتحميل المواضيع | Grammar yükle.</div>
       </div>
       <div id="grammar-detail" class="grammar-detail hidden"></div>
+    </section>
+
+    <!-- Sarf Panel (Morphology) -->
+    <section id="sarf-panel" class="grammar-panel card hidden">
+      <div class="grammar-header">
+        <h3 class="panel-head">علم الصرف | Sarf (Morfoloji)</h3>
+        <p class="note">Kelimelerin yapısı, kalıpları ve türetilmesi.</p>
+        <div class="grammar-controls">
+          <label for="sarf-topic" class="label">الموضوع | Konu:</label>
+          <select id="sarf-topic">
+            <option value="">اختر موضوعاً | Konu seç</option>
+          </select>
+          <span id="sarf-meta" class="tag grammar-meta">0 مواضيع</span>
+        </div>
+      </div>
+      <div id="sarf-detail" class="grammar-detail hidden"></div>
+    </section>
+
+    <!-- Nahiv Panel (Syntax) -->
+    <section id="nahiv-panel" class="grammar-panel card hidden">
+      <div class="grammar-header">
+        <h3 class="panel-head">علم النحو | Nahiv (Sentaks)</h3>
+        <p class="note">Cümle yapısı, i'rab ve sözdizimi kuralları.</p>
+        <div class="grammar-controls">
+          <label for="nahiv-topic" class="label">الموضوع | Konu:</label>
+          <select id="nahiv-topic">
+            <option value="">اختر موضوعاً | Konu seç</option>
+          </select>
+          <span id="nahiv-meta" class="tag grammar-meta">0 مواضيع</span>
+        </div>
+      </div>
+      <div id="nahiv-detail" class="grammar-detail hidden"></div>
+    </section>
+
+    <!-- Basics Panel (Pronouns, Colors, Numbers, etc.) -->
+    <section id="basics-panel" class="card hidden">
+      <div class="card-header">
+        <div class="word">الأساسيات | Temel Kelimeler</div>
+        <span class="tag level">Basics</span>
+      </div>
+      <div class="basics-tabs">
+        <button class="basics-tab active" data-tab="pronouns">الضمائر<br><small>Zamirler</small></button>
+        <button class="basics-tab" data-tab="demonstratives">الإشارة<br><small>İşaretler</small></button>
+        <button class="basics-tab" data-tab="colors">الألوان<br><small>Renkler</small></button>
+        <button class="basics-tab" data-tab="numbers">الأعداد<br><small>Sayılar</small></button>
+        <button class="basics-tab" data-tab="questions">الاستفهام<br><small>Sorular</small></button>
+      </div>
+      <div id="basics-content" class="basics-content"></div>
+    </section>
+
+    <!-- Islamic Terms Panel -->
+    <section id="islamic-panel" class="card hidden">
+      <div class="card-header">
+        <div class="word">المصطلحات الإسلامية | İslami Terimler</div>
+        <span class="tag level">Islamic</span>
+      </div>
+      <div class="islamic-intro">
+        <p class="note">Kur'an, Hadis, Fıkıh, Akaid ve Tasavvuf terimleri.</p>
+      </div>
+      <div class="islamic-controls">
+        <label for="islamic-category" class="label">الفئة | Kategori:</label>
+        <select id="islamic-category">
+          <option value="ALL">الكل | Tümü</option>
+        </select>
+        <input id="islamic-search" type="text" placeholder="بحث | Ara..." class="islamic-search" />
+      </div>
+      <div id="islamic-content" class="islamic-content"></div>
     </section>
 
     <!-- Roots Panel (Arabic-specific) -->

@@ -1,0 +1,409 @@
+[
+  {
+    "category": "الأَعْدَاد المُفْرَدَة ١-١٠ | Tekil Sayılar 1-10",
+    "type": "numbers",
+    "note": "1-2 sıfat gibi davranır (mevsuftan sonra gelir). 3-10 mevsuftan ÖNCE gelir ve ZIT cinsiyette olur.",
+    "items": [
+      {
+        "number": 1,
+        "word_m": "وَاحِد",
+        "word_f": "وَاحِدَة",
+        "transliteration": "vâhid / vâhide",
+        "meaning_tr": "bir",
+        "meaning_en": "one",
+        "rule": "Sıfat gibi, mevsuftan sonra gelir ve uyum gösterir",
+        "examples": [
+          "رَجُلٌ وَاحِدٌ - Bir adam",
+          "امْرَأَةٌ وَاحِدَةٌ - Bir kadın",
+          "اللهُ أَحَدٌ - Allah birdir (أَحَد = tek, eşsiz)"
+        ],
+        "quran": "قُلْ هُوَ اللَّهُ أَحَدٌ (İhlas: 1)"
+      },
+      {
+        "number": 2,
+        "word_m": "اِثْنَانِ",
+        "word_f": "اِثْنَتَانِ",
+        "transliteration": "isnâni / isnetâni",
+        "meaning_tr": "iki",
+        "meaning_en": "two",
+        "rule": "Sıfat gibi, mevsuftan sonra gelir. Tesniye i'rabı alır (-âni/-eyni)",
+        "examples": [
+          "رَجُلَانِ اثْنَانِ - İki adam",
+          "امْرَأَتَانِ اثْنَتَانِ - İki kadın",
+          "يَوْمَانِ اثْنَانِ - İki gün"
+        ],
+        "quran": "شَهِيدَيْنِ مِنْ رِجَالِكُمْ (Bakara: 282)"
+      },
+      {
+        "number": 3,
+        "word_m": "ثَلَاثَة",
+        "word_f": "ثَلَاث",
+        "transliteration": "selâse / selâs",
+        "meaning_tr": "üç",
+        "meaning_en": "three",
+        "rule": "Mevsuftan ÖNCE, ZIT cinsiyette. Ma'dud (sayılan) mecrur çoğul.",
+        "examples": [
+          "ثَلَاثَةُ رِجَالٍ - Üç adam (erkek için ة'li)",
+          "ثَلَاثُ نِسَاءٍ - Üç kadın (dişil için ة'siz)"
+        ],
+        "quran": "ثَلَاثَةَ أَيَّامٍ - Üç gün (Bakara: 196)"
+      },
+      {
+        "number": 4,
+        "word_m": "أَرْبَعَة",
+        "word_f": "أَرْبَع",
+        "transliteration": "erbe'a / erba'",
+        "meaning_tr": "dört",
+        "meaning_en": "four",
+        "examples": [
+          "أَرْبَعَةُ أَشْهُرٍ - Dört ay",
+          "أَرْبَعُ سَنَوَاتٍ - Dört sene"
+        ],
+        "quran": "فَأَرْبَعَةُ أَشْهُرٍ (Bakara: 226)"
+      },
+      {
+        "number": 5,
+        "word_m": "خَمْسَة",
+        "word_f": "خَمْس",
+        "transliteration": "hamse / hams",
+        "meaning_tr": "beş",
+        "meaning_en": "five",
+        "examples": [
+          "خَمْسَةُ كُتُبٍ - Beş kitap",
+          "خَمْسُ صَلَوَاتٍ - Beş namaz (vakit)"
+        ]
+      },
+      {
+        "number": 6,
+        "word_m": "سِتَّة",
+        "word_f": "سِتّ",
+        "transliteration": "sitte / sitt",
+        "meaning_tr": "altı",
+        "meaning_en": "six",
+        "examples": [
+          "سِتَّةُ أَيَّامٍ - Altı gün"
+        ],
+        "quran": "خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ فِي سِتَّةِ أَيَّامٍ (A'raf: 54)"
+      },
+      {
+        "number": 7,
+        "word_m": "سَبْعَة",
+        "word_f": "سَبْع",
+        "transliteration": "seb'a / seb'",
+        "meaning_tr": "yedi",
+        "meaning_en": "seven",
+        "examples": [
+          "سَبْعَةُ أَبْحُرٍ - Yedi deniz",
+          "سَبْعُ سَمَاوَاتٍ - Yedi gök"
+        ],
+        "quran": "سَبْعَ سَمَاوَاتٍ طِبَاقًا (Mülk: 3)"
+      },
+      {
+        "number": 8,
+        "word_m": "ثَمَانِيَة",
+        "word_f": "ثَمَانٍ",
+        "transliteration": "semâniye / semânin",
+        "meaning_tr": "sekiz",
+        "meaning_en": "eight",
+        "examples": [
+          "ثَمَانِيَةُ أَيَّامٍ - Sekiz gün",
+          "ثَمَانِي سَنَوَاتٍ - Sekiz sene"
+        ]
+      },
+      {
+        "number": 9,
+        "word_m": "تِسْعَة",
+        "word_f": "تِسْع",
+        "transliteration": "tis'a / tis'",
+        "meaning_tr": "dokuz",
+        "meaning_en": "nine",
+        "examples": [
+          "تِسْعَةُ رَهْطٍ - Dokuz kişi"
+        ],
+        "quran": "تِسْعَةُ رَهْطٍ (Neml: 48)"
+      },
+      {
+        "number": 10,
+        "word_m": "عَشَرَة",
+        "word_f": "عَشْر",
+        "transliteration": "'aşera / 'aşr",
+        "meaning_tr": "on",
+        "meaning_en": "ten",
+        "examples": [
+          "عَشَرَةُ رِجَالٍ - On adam",
+          "عَشْرُ لَيَالٍ - On gece"
+        ],
+        "quran": "وَالْفَجْرِ وَلَيَالٍ عَشْرٍ (Fecr: 1-2)"
+      }
+    ]
+  },
+  {
+    "category": "الأَعْدَاد المُرَكَّبَة ١١-١٩ | Bileşik Sayılar 11-19",
+    "type": "numbers",
+    "note": "11-12 her iki parça da uyum gösterir. 13-19'da birler zıt, عَشَر aynı cinsiyette.",
+    "items": [
+      {
+        "number": 11,
+        "word_m": "أَحَدَ عَشَرَ",
+        "word_f": "إِحْدَى عَشْرَةَ",
+        "transliteration": "ehade 'aşera / ihdâ 'aşrete",
+        "meaning_tr": "on bir",
+        "meaning_en": "eleven",
+        "examples": ["أَحَدَ عَشَرَ كَوْكَبًا - On bir yıldız"],
+        "quran": "إِنِّي رَأَيْتُ أَحَدَ عَشَرَ كَوْكَبًا (Yusuf: 4)"
+      },
+      {
+        "number": 12,
+        "word_m": "اِثْنَا عَشَرَ",
+        "word_f": "اِثْنَتَا عَشْرَةَ",
+        "transliteration": "isnâ 'aşera / isnetâ 'aşrete",
+        "meaning_tr": "on iki",
+        "meaning_en": "twelve",
+        "examples": ["اثْنَتَا عَشْرَةَ عَيْنًا - On iki pınar"],
+        "quran": "اثْنَتَا عَشْرَةَ عَيْنًا (Bakara: 60)"
+      },
+      {
+        "number": 13,
+        "word_m": "ثَلَاثَةَ عَشَرَ",
+        "word_f": "ثَلَاثَ عَشْرَةَ",
+        "transliteration": "selâsete 'aşera",
+        "meaning_tr": "on üç",
+        "meaning_en": "thirteen"
+      },
+      {
+        "number": 14,
+        "word_m": "أَرْبَعَةَ عَشَرَ",
+        "word_f": "أَرْبَعَ عَشْرَةَ",
+        "transliteration": "erbe'ate 'aşera",
+        "meaning_tr": "on dört",
+        "meaning_en": "fourteen"
+      },
+      {
+        "number": 15,
+        "word_m": "خَمْسَةَ عَشَرَ",
+        "word_f": "خَمْسَ عَشْرَةَ",
+        "transliteration": "hamsete 'aşera",
+        "meaning_tr": "on beş",
+        "meaning_en": "fifteen"
+      },
+      {
+        "number": 19,
+        "word_m": "تِسْعَةَ عَشَرَ",
+        "word_f": "تِسْعَ عَشْرَةَ",
+        "transliteration": "tis'ate 'aşera",
+        "meaning_tr": "on dokuz",
+        "meaning_en": "nineteen",
+        "quran": "عَلَيْهَا تِسْعَةَ عَشَرَ - Üzerinde on dokuz (melek) var (Müddessir: 30)"
+      }
+    ]
+  },
+  {
+    "category": "عُقُودُ الأَعْدَاد | Onluk Sayılar",
+    "type": "numbers",
+    "note": "20-90 arası cinsiyete göre değişmez, cem-i müzekker salim gibi i'rab alır (-ûn/-în).",
+    "items": [
+      {
+        "number": 20,
+        "word": "عِشْرُونَ",
+        "transliteration": "'işrûn",
+        "meaning_tr": "yirmi",
+        "meaning_en": "twenty",
+        "examples": ["عِشْرُونَ دِينَارًا - Yirmi dinar"]
+      },
+      {
+        "number": 30,
+        "word": "ثَلَاثُونَ",
+        "transliteration": "selâsûn",
+        "meaning_tr": "otuz",
+        "meaning_en": "thirty"
+      },
+      {
+        "number": 40,
+        "word": "أَرْبَعُونَ",
+        "transliteration": "erbe'ûn",
+        "meaning_tr": "kırk",
+        "meaning_en": "forty",
+        "quran": "أَرْبَعِينَ لَيْلَةً - Kırk gece (Bakara: 51)"
+      },
+      {
+        "number": 50,
+        "word": "خَمْسُونَ",
+        "transliteration": "hamsûn",
+        "meaning_tr": "elli",
+        "meaning_en": "fifty"
+      },
+      {
+        "number": 60,
+        "word": "سِتُّونَ",
+        "transliteration": "sittûn",
+        "meaning_tr": "altmış",
+        "meaning_en": "sixty"
+      },
+      {
+        "number": 70,
+        "word": "سَبْعُونَ",
+        "transliteration": "seb'ûn",
+        "meaning_tr": "yetmiş",
+        "meaning_en": "seventy"
+      },
+      {
+        "number": 80,
+        "word": "ثَمَانُونَ",
+        "transliteration": "semânûn",
+        "meaning_tr": "seksen",
+        "meaning_en": "eighty"
+      },
+      {
+        "number": 90,
+        "word": "تِسْعُونَ",
+        "transliteration": "tis'ûn",
+        "meaning_tr": "doksan",
+        "meaning_en": "ninety"
+      },
+      {
+        "number": 100,
+        "word": "مِئَة / مِائَة",
+        "transliteration": "mie / miete",
+        "meaning_tr": "yüz",
+        "meaning_en": "hundred",
+        "note": "Ma'dud muzafun ileyh olur (mecrur tekil): مِئَةُ رَجُلٍ",
+        "quran": "فَأَمَاتَهُ اللَّهُ مِائَةَ عَامٍ (Bakara: 259)"
+      },
+      {
+        "number": 1000,
+        "word": "أَلْف",
+        "plural": "آلَاف",
+        "transliteration": "elf / âlâf",
+        "meaning_tr": "bin",
+        "meaning_en": "thousand",
+        "note": "Ma'dud muzafun ileyh (mecrur tekil): أَلْفُ سَنَةٍ",
+        "quran": "أَلْفَ سَنَةٍ - Bin yıl (Bakara: 96)"
+      }
+    ]
+  },
+  {
+    "category": "الأَعْدَاد التَّرْتِيبِيَّة | Sıra Sayıları",
+    "type": "numbers",
+    "note": "Sıra sayıları فَاعِل kalıbındadır, sıfat gibi davranır.",
+    "items": [
+      {
+        "number": 1,
+        "word_m": "أَوَّل",
+        "word_f": "أُولَى",
+        "transliteration": "evvel / ûlâ",
+        "meaning_tr": "birinci, ilk",
+        "meaning_en": "first",
+        "examples": ["الْيَوْمُ الأَوَّلُ - Birinci gün", "المَرَّةُ الأُولَى - İlk kez"]
+      },
+      {
+        "number": 2,
+        "word_m": "ثَانٍ",
+        "word_f": "ثَانِيَة",
+        "transliteration": "sânin / sâniye",
+        "meaning_tr": "ikinci",
+        "meaning_en": "second",
+        "examples": ["الْبَابُ الثَّانِي - İkinci kapı"]
+      },
+      {
+        "number": 3,
+        "word_m": "ثَالِث",
+        "word_f": "ثَالِثَة",
+        "transliteration": "sâlis / sâlise",
+        "meaning_tr": "üçüncü",
+        "meaning_en": "third"
+      },
+      {
+        "number": 4,
+        "word_m": "رَابِع",
+        "word_f": "رَابِعَة",
+        "transliteration": "râbi' / râbi'a",
+        "meaning_tr": "dördüncü",
+        "meaning_en": "fourth"
+      },
+      {
+        "number": 5,
+        "word_m": "خَامِس",
+        "word_f": "خَامِسَة",
+        "transliteration": "hâmis / hâmise",
+        "meaning_tr": "beşinci",
+        "meaning_en": "fifth"
+      },
+      {
+        "number": 6,
+        "word_m": "سَادِس",
+        "word_f": "سَادِسَة",
+        "transliteration": "sâdis / sâdise",
+        "meaning_tr": "altıncı",
+        "meaning_en": "sixth"
+      },
+      {
+        "number": 7,
+        "word_m": "سَابِع",
+        "word_f": "سَابِعَة",
+        "transliteration": "sâbi' / sâbi'a",
+        "meaning_tr": "yedinci",
+        "meaning_en": "seventh"
+      },
+      {
+        "number": 8,
+        "word_m": "ثَامِن",
+        "word_f": "ثَامِنَة",
+        "transliteration": "sâmin / sâmine",
+        "meaning_tr": "sekizinci",
+        "meaning_en": "eighth"
+      },
+      {
+        "number": 9,
+        "word_m": "تَاسِع",
+        "word_f": "تَاسِعَة",
+        "transliteration": "tâsi' / tâsi'a",
+        "meaning_tr": "dokuzuncu",
+        "meaning_en": "ninth"
+      },
+      {
+        "number": 10,
+        "word_m": "عَاشِر",
+        "word_f": "عَاشِرَة",
+        "transliteration": "'âşir / 'âşira",
+        "meaning_tr": "onuncu",
+        "meaning_en": "tenth"
+      }
+    ]
+  },
+  {
+    "category": "قَوَاعِدُ الأَعْدَاد | Sayı Kuralları Özeti",
+    "type": "numbers",
+    "rules": [
+      {
+        "range": "1-2",
+        "rule": "Sıfat gibi davranır, mevsuftan SONRA gelir ve cinsiyette UYUM gösterir",
+        "example": "رَجُلٌ وَاحِدٌ، امْرَأَةٌ وَاحِدَةٌ"
+      },
+      {
+        "range": "3-10",
+        "rule": "Mevsuftan ÖNCE gelir, ZIT cinsiyette olur. Ma'dud mecrur çoğul.",
+        "example": "ثَلَاثَةُ رِجَالٍ (erkek ama ة'li), ثَلَاثُ نِسَاءٍ (dişil ama ة'siz)"
+      },
+      {
+        "range": "11-12",
+        "rule": "Her iki parça da AYNI cinsiyette uyum gösterir",
+        "example": "أَحَدَ عَشَرَ رَجُلًا، إِحْدَى عَشْرَةَ امْرَأَةً"
+      },
+      {
+        "range": "13-19",
+        "rule": "Birler ZIT, عَشَر AYNI cinsiyette",
+        "example": "ثَلَاثَةَ عَشَرَ رَجُلًا، ثَلَاثَ عَشْرَةَ امْرَأَةً"
+      },
+      {
+        "range": "11-99",
+        "rule": "Ma'dud (sayılan) mansub MÜFREDdır (temyiz)",
+        "example": "خَمْسَةَ عَشَرَ كِتَابًا، عِشْرُونَ طَالِبًا"
+      },
+      {
+        "range": "100, 1000+",
+        "rule": "Ma'dud mecrur MÜFREDdir (muzafun ileyh)",
+        "example": "مِئَةُ كِتَابٍ، أَلْفُ سَنَةٍ"
+      }
+    ]
+  }
+]

@@ -9,11 +9,40 @@ const GRAMMAR_FILES = [
   "data/grammar_01.json",
 ];
 
+const SARF_FILES = [
+  "data/sarf_01.json",
+];
+
+const NAHIV_FILES = [
+  "data/nahiv_01.json",
+];
+
+const BASIC_FILES = {
+  pronouns: "data/pronouns_01.json",
+  demonstratives: "data/demonstratives_01.json",
+  colors: "data/colors_01.json",
+  numbers: "data/numbers_01.json",
+  questions: "data/questions_01.json",
+};
+
+const ISLAMIC_FILES = [
+  "data/islamic_terms_01.json",
+  "data/islamic_basics_01.json",
+];
+
 let allData = [];
 let filteredData = [];
 let currentItem = null;
 let grammarTopics = [];
+let sarfTopics = [];
+let nahivTopics = [];
+let basicData = {};
+let islamicData = [];
 let grammarLoaded = false;
+let sarfLoaded = false;
+let nahivLoaded = false;
+let basicLoaded = false;
+let islamicLoaded = false;
 let ttsVoice = null;
 let timerInterval = null;
 let timerEndAt = null;
@@ -235,6 +264,28 @@ const els = {
   patternsPanel: document.getElementById("patterns-panel"),
   patternsGrid: document.getElementById("patterns-grid"),
   patternDetail: document.getElementById("pattern-detail"),
+  // Sarf elements
+  sarfBtn: document.getElementById("sarf-btn"),
+  sarfPanel: document.getElementById("sarf-panel"),
+  sarfTopic: document.getElementById("sarf-topic"),
+  sarfDetail: document.getElementById("sarf-detail"),
+  sarfMeta: document.getElementById("sarf-meta"),
+  // Nahiv elements
+  nahivBtn: document.getElementById("nahiv-btn"),
+  nahivPanel: document.getElementById("nahiv-panel"),
+  nahivTopic: document.getElementById("nahiv-topic"),
+  nahivDetail: document.getElementById("nahiv-detail"),
+  nahivMeta: document.getElementById("nahiv-meta"),
+  // Basics elements
+  basicsBtn: document.getElementById("basics-btn"),
+  basicsPanel: document.getElementById("basics-panel"),
+  basicsContent: document.getElementById("basics-content"),
+  // Islamic elements
+  islamicBtn: document.getElementById("islamic-btn"),
+  islamicPanel: document.getElementById("islamic-panel"),
+  islamicCategory: document.getElementById("islamic-category"),
+  islamicSearch: document.getElementById("islamic-search"),
+  islamicContent: document.getElementById("islamic-content"),
 };
 
 // Status update
@@ -248,6 +299,10 @@ function hideAllPanels() {
   els.grammarPanel?.classList.add("hidden");
   els.rootsPanel?.classList.add("hidden");
   els.patternsPanel?.classList.add("hidden");
+  els.sarfPanel?.classList.add("hidden");
+  els.nahivPanel?.classList.add("hidden");
+  els.basicsPanel?.classList.add("hidden");
+  els.islamicPanel?.classList.add("hidden");
 }
 
 // Load vocabulary data
@@ -559,6 +614,320 @@ function filterGrammarTopics() {
   });
 }
 
+// ============ SARF (Morphology) ============
+async function loadSarf() {
+  if (sarfLoaded) return;
+  
+  sarfTopics = [];
+  for (const file of SARF_FILES) {
+    try {
+      const res = await fetch(file);
+      if (!res.ok) continue;
+      const json = await res.json();
+      if (Array.isArray(json)) {
+        sarfTopics.push(...json);
+      }
+    } catch (e) {
+      console.warn(`Could not load ${file}:`, e);
+    }
+  }
+  
+  sarfLoaded = true;
+  populateSarfTopics();
+}
+
+function populateSarfTopics() {
+  if (!els.sarfTopic) return;
+  
+  els.sarfTopic.innerHTML = '<option value="">اختر موضوعاً | Konu seç</option>';
+  sarfTopics.forEach((topic, idx) => {
+    const opt = document.createElement("option");
+    opt.value = idx;
+    opt.textContent = topic.topic || `Sarf ${idx + 1}`;
+    els.sarfTopic.appendChild(opt);
+  });
+  
+  if (els.sarfMeta) els.sarfMeta.textContent = `${sarfTopics.length} مواضيع`;
+}
+
+function showSarfDetail(idx) {
+  const topic = sarfTopics[idx];
+  if (!topic) return;
+  
+  els.sarfDetail.classList.remove("hidden");
+  els.sarfDetail.innerHTML = `
+    <h4>${topic.topic || ""} <span class="tag level">${topic.level || ""}</span></h4>
+    <p>${topic.description || ""}</p>
+    ${topic.pattern ? `<p><strong>الوزن | Kalıp:</strong><br><span class="arabic-text">${topic.pattern}</span></p>` : ""}
+    ${topic.conjugation ? `
+      <h4>التصريف | Çekim</h4>
+      <div class="conjugation-table">
+        ${Object.entries(topic.conjugation).map(([k,v]) => `<div class="conj-row"><span class="conj-label">${k}:</span> <span class="arabic-text">${v}</span></div>`).join("")}
+      </div>
+    ` : ""}
+    ${topic.examples && topic.examples.length > 0 ? `
+      <h4>أمثلة | Örnekler</h4>
+      <ul class="arabic-list">
+        ${topic.examples.map(e => `<li>${e}</li>`).join("")}
+      </ul>
+    ` : ""}
+    ${topic.tips && topic.tips.length > 0 ? `
+      <h4>نصائح | İpuçları</h4>
+      <ul>
+        ${topic.tips.map(t => `<li>${t}</li>`).join("")}
+      </ul>
+    ` : ""}
+    ${topic.mistakes && topic.mistakes.length > 0 ? `
+      <h4>أخطاء شائعة | Yaygın Hatalar</h4>
+      <ul>
+        ${topic.mistakes.map(m => `<li style="color: var(--error)">${m}</li>`).join("")}
+      </ul>
+    ` : ""}
+    ${topic.note ? `<p class="note">${topic.note}</p>` : ""}
+  `;
+}
+
+function toggleSarf() {
+  hideAllPanels();
+  els.sarfPanel?.classList.remove("hidden");
+  loadSarf();
+}
+
+// ============ NAHIV (Syntax) ============
+async function loadNahiv() {
+  if (nahivLoaded) return;
+  
+  nahivTopics = [];
+  for (const file of NAHIV_FILES) {
+    try {
+      const res = await fetch(file);
+      if (!res.ok) continue;
+      const json = await res.json();
+      if (Array.isArray(json)) {
+        nahivTopics.push(...json);
+      }
+    } catch (e) {
+      console.warn(`Could not load ${file}:`, e);
+    }
+  }
+  
+  nahivLoaded = true;
+  populateNahivTopics();
+}
+
+function populateNahivTopics() {
+  if (!els.nahivTopic) return;
+  
+  els.nahivTopic.innerHTML = '<option value="">اختر موضوعاً | Konu seç</option>';
+  nahivTopics.forEach((topic, idx) => {
+    const opt = document.createElement("option");
+    opt.value = idx;
+    opt.textContent = topic.topic || `Nahiv ${idx + 1}`;
+    els.nahivTopic.appendChild(opt);
+  });
+  
+  if (els.nahivMeta) els.nahivMeta.textContent = `${nahivTopics.length} مواضيع`;
+}
+
+function showNahivDetail(idx) {
+  const topic = nahivTopics[idx];
+  if (!topic) return;
+  
+  els.nahivDetail.classList.remove("hidden");
+  els.nahivDetail.innerHTML = `
+    <h4>${topic.topic || ""} <span class="tag level">${topic.level || ""}</span></h4>
+    <p>${topic.description || ""}</p>
+    ${topic.pattern ? `<p><strong>القاعدة | Kural:</strong><br><span class="arabic-text">${topic.pattern}</span></p>` : ""}
+    ${topic.examples && topic.examples.length > 0 ? `
+      <h4>أمثلة | Örnekler</h4>
+      <ul class="arabic-list">
+        ${topic.examples.map(e => `<li>${e}</li>`).join("")}
+      </ul>
+    ` : ""}
+    ${topic.tips && topic.tips.length > 0 ? `
+      <h4>نصائح | İpuçları</h4>
+      <ul>
+        ${topic.tips.map(t => `<li>${t}</li>`).join("")}
+      </ul>
+    ` : ""}
+    ${topic.mistakes && topic.mistakes.length > 0 ? `
+      <h4>أخطاء شائعة | Yaygın Hatalar</h4>
+      <ul>
+        ${topic.mistakes.map(m => `<li style="color: var(--error)">${m}</li>`).join("")}
+      </ul>
+    ` : ""}
+    ${topic.note ? `<p class="note">${topic.note}</p>` : ""}
+  `;
+}
+
+function toggleNahiv() {
+  hideAllPanels();
+  els.nahivPanel?.classList.remove("hidden");
+  loadNahiv();
+}
+
+// ============ BASICS (Pronouns, Colors, Numbers, etc.) ============
+async function loadBasics() {
+  if (basicLoaded) return;
+  
+  for (const [key, file] of Object.entries(BASIC_FILES)) {
+    try {
+      const res = await fetch(file);
+      if (!res.ok) continue;
+      const json = await res.json();
+      basicData[key] = json;
+    } catch (e) {
+      console.warn(`Could not load ${file}:`, e);
+    }
+  }
+  
+  basicLoaded = true;
+}
+
+function renderBasicsTab(tab) {
+  const data = basicData[tab];
+  if (!data || !els.basicsContent) return;
+  
+  let html = "";
+  data.forEach(category => {
+    html += `<div class="basics-category">
+      <h4>${category.category || ""}</h4>
+      ${category.note ? `<p class="note">${category.note}</p>` : ""}
+    `;
+    
+    if (category.items) {
+      html += '<div class="basics-items">';
+      category.items.forEach(item => {
+        // Handle different item structures
+        const word = item.word || item.word_m || "";
+        const wordF = item.word_f || "";
+        const trans = item.transliteration || "";
+        const meaningTr = item.meaning_tr || "";
+        const meaningEn = item.meaning_en || "";
+        const examples = item.examples || item.example_ar ? [item.example_ar] : [];
+        
+        html += `<div class="basics-item">
+          <div class="basics-word arabic-text">${word}${wordF ? ` / ${wordF}` : ""}</div>
+          <div class="basics-trans">${trans}</div>
+          <div class="basics-meaning">${meaningTr}</div>
+          ${meaningEn ? `<div class="basics-meaning-en">${meaningEn}</div>` : ""}
+          ${examples && examples.length > 0 ? `
+            <div class="basics-examples">
+              ${(Array.isArray(examples) ? examples : [examples]).slice(0, 2).map(e => `<small>${e}</small>`).join("<br>")}
+            </div>
+          ` : ""}
+        </div>`;
+      });
+      html += '</div>';
+    }
+    
+    if (category.rules) {
+      html += '<div class="basics-rules">';
+      category.rules.forEach(rule => {
+        html += `<div class="rule-item">
+          <strong>${rule.title || rule.range || ""}:</strong> ${rule.rule || ""}
+          ${rule.example ? `<br><span class="arabic-text">${rule.example}</span>` : ""}
+        </div>`;
+      });
+      html += '</div>';
+    }
+    
+    html += '</div>';
+  });
+  
+  els.basicsContent.innerHTML = html;
+}
+
+function toggleBasics() {
+  hideAllPanels();
+  els.basicsPanel?.classList.remove("hidden");
+  loadBasics().then(() => {
+    renderBasicsTab("pronouns");
+  });
+}
+
+// ============ ISLAMIC TERMS ============
+async function loadIslamic() {
+  if (islamicLoaded) return;
+  
+  islamicData = [];
+  for (const file of ISLAMIC_FILES) {
+    try {
+      const res = await fetch(file);
+      if (!res.ok) continue;
+      const json = await res.json();
+      if (Array.isArray(json)) {
+        islamicData.push(...json);
+      }
+    } catch (e) {
+      console.warn(`Could not load ${file}:`, e);
+    }
+  }
+  
+  islamicLoaded = true;
+  populateIslamicCategories();
+  renderIslamicContent();
+}
+
+function populateIslamicCategories() {
+  if (!els.islamicCategory) return;
+  
+  els.islamicCategory.innerHTML = '<option value="ALL">الكل | Tümü</option>';
+  islamicData.forEach((cat, idx) => {
+    const opt = document.createElement("option");
+    opt.value = idx;
+    opt.textContent = cat.category || `Category ${idx + 1}`;
+    els.islamicCategory.appendChild(opt);
+  });
+}
+
+function renderIslamicContent(filterIdx = "ALL", searchQuery = "") {
+  if (!els.islamicContent) return;
+  
+  const query = searchQuery.toLowerCase();
+  let html = "";
+  
+  islamicData.forEach((cat, idx) => {
+    if (filterIdx !== "ALL" && parseInt(filterIdx) !== idx) return;
+    
+    const filteredItems = (cat.items || []).filter(item => {
+      if (!query) return true;
+      return (
+        (item.word && item.word.includes(query)) ||
+        (item.meaning_tr && item.meaning_tr.toLowerCase().includes(query)) ||
+        (item.meaning_en && item.meaning_en.toLowerCase().includes(query)) ||
+        (item.transliteration && item.transliteration.toLowerCase().includes(query))
+      );
+    });
+    
+    if (filteredItems.length === 0 && filterIdx === "ALL") return;
+    
+    html += `<div class="islamic-category">
+      <h4>${cat.category || ""}</h4>
+      <div class="islamic-items">`;
+    
+    filteredItems.forEach(item => {
+      html += `<div class="islamic-item">
+        <div class="islamic-word arabic-text">${item.word || ""}</div>
+        <div class="islamic-trans">${item.transliteration || ""}</div>
+        <div class="islamic-meaning">${item.meaning_tr || ""}</div>
+        ${item.definition ? `<div class="islamic-def">${item.definition}</div>` : ""}
+        ${item.root ? `<div class="islamic-root">الجذر: ${item.root}</div>` : ""}
+      </div>`;
+    });
+    
+    html += '</div></div>';
+  });
+  
+  els.islamicContent.innerHTML = html || '<p class="note">لا توجد نتائج | Sonuç bulunamadı.</p>';
+}
+
+function toggleIslamic() {
+  hideAllPanels();
+  els.islamicPanel?.classList.remove("hidden");
+  loadIslamic();
+}
+
 // Event listeners
 document.addEventListener("DOMContentLoaded", () => {
   // Timer
@@ -598,6 +967,40 @@ document.addEventListener("DOMContentLoaded", () => {
   
   // Patterns
   els.patternsBtn?.addEventListener("click", togglePatterns);
+  
+  // Sarf
+  els.sarfBtn?.addEventListener("click", toggleSarf);
+  els.sarfTopic?.addEventListener("change", (e) => {
+    const idx = parseInt(e.target.value, 10);
+    if (!isNaN(idx)) showSarfDetail(idx);
+  });
+  
+  // Nahiv
+  els.nahivBtn?.addEventListener("click", toggleNahiv);
+  els.nahivTopic?.addEventListener("change", (e) => {
+    const idx = parseInt(e.target.value, 10);
+    if (!isNaN(idx)) showNahivDetail(idx);
+  });
+  
+  // Basics
+  els.basicsBtn?.addEventListener("click", toggleBasics);
+  document.querySelectorAll(".basics-tab").forEach(tab => {
+    tab.addEventListener("click", (e) => {
+      document.querySelectorAll(".basics-tab").forEach(t => t.classList.remove("active"));
+      e.target.classList.add("active");
+      const tabName = e.target.dataset.tab;
+      if (tabName) renderBasicsTab(tabName);
+    });
+  });
+  
+  // Islamic
+  els.islamicBtn?.addEventListener("click", toggleIslamic);
+  els.islamicCategory?.addEventListener("change", (e) => {
+    renderIslamicContent(e.target.value, els.islamicSearch?.value || "");
+  });
+  els.islamicSearch?.addEventListener("input", (e) => {
+    renderIslamicContent(els.islamicCategory?.value || "ALL", e.target.value);
+  });
   
   // Load TTS voices
   if (window.speechSynthesis) {

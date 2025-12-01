@@ -1,0 +1,405 @@
+[
+  {
+    "topic": "الإعراب | İ'rab Sistemi",
+    "level": "A2",
+    "category": "nahiv",
+    "description": "Kelimelerin cümledeki görevine göre aldığı son hareke sistemi. Arapça'nın en temel nahiv konusu.",
+    "pattern": "مرفوع (ötre/damme) | منصوب (üstün/fetha) | مجرور (esre/kesra) | مجزوم (cezm/sükun - sadece fiil)",
+    "examples": [
+      "جَاءَ الطَّالِبُ (öğrenci geldi) - الطَّالِبُ merfu (fail)",
+      "رَأَيْتُ الطَّالِبَ (öğrenciyi gördüm) - الطَّالِبَ mansub (mef'ul bih)",
+      "مَرَرْتُ بِالطَّالِبِ (öğrenciye uğradım) - الطَّالِبِ mecrur (harf-i cer)",
+      "لَمْ يَذْهَبْ (gitmedi) - يَذْهَبْ meczum (cezm edatı)",
+      "الكِتَابُ جَدِيدٌ (kitap yeni) - الكِتَابُ merfu (mübteda)",
+      "إِنَّ الكِتَابَ جَدِيدٌ (kitap yenidir) - الكِتَابَ mansub (inne'nin ismi)"
+    ],
+    "tips": [
+      "Merfu: fail, mübteda, haber (isim cümlesi), muzari fiil (başında edat yoksa)",
+      "Mansub: mef'ul bih, inne'nin ismi, hal, temyiz, münada",
+      "Mecrur: harf-i cerden sonra, izafette muzafun ileyh",
+      "Meczum: cezm edatlarından sonraki muzari fiil",
+      "Gayr-ı munsarif (diptot) isimler kesra yerine fetha alır"
+    ],
+    "mistakes": [
+      "Tenvini (ً ٍ ٌ) her zaman i'rab sanmak - bazısı nekire alameti",
+      "İzafette muzafın tenvin alacağını sanmak",
+      "Mebni kelimelerde i'rab aramak"
+    ],
+    "note": "İ'rab, Arapça'nın anlam üretim sisteminin temelidir. Hareke değişince anlam değişir."
+  },
+  {
+    "topic": "المعرب والمبني | Mu'rab ve Mebni",
+    "level": "A2",
+    "category": "nahiv",
+    "description": "Mu'rab: i'rab değişen kelimeler. Mebni: sonu değişmeyen kelimeler.",
+    "pattern": "Mu'rab: İsimler (çoğu), Muzari fiil | Mebni: Mazi fiil, Emir, Harfler, Zamirler, İşaret isimleri",
+    "examples": [
+      "Mu'rab isim: الكِتَابُ، الكِتَابَ، الكِتَابِ",
+      "Mu'rab fiil: يَكْتُبُ (merfu), لَنْ يَكْتُبَ (mansub), لَمْ يَكْتُبْ (meczum)",
+      "Mebni fiil: كَتَبَ، كَتَبْتُ، اُكْتُبْ (hep aynı)",
+      "Mebni isim: هَذَا، هَذِهِ، أَنَا، أَنْتَ، مَنْ، مَا",
+      "Mebni harf: فِي، مِنْ، إِلَى، عَلَى، إِنَّ، لَمْ"
+    ],
+    "tips": [
+      "Mebni kelimelerin sonu hiç değişmez, mahallen (hükmen) i'rabı vardır",
+      "Mebni isimlerin çoğu sükun veya fetha üzerinedir",
+      "Mazi fiil mebnidir: كَتَبَ hep fetha, كَتَبُوا hep damme",
+      "Emir fiil mebnidir: اُكْتُبْ, اُكْتُبِي, اُكْتُبُوا"
+    ],
+    "mistakes": [
+      "هَذَا'nın i'rab aldığını sanmak (hep aynıdır)",
+      "كَتَبَ'nin merfu olduğunu söylemek (mebnidir, i'rabı yok)"
+    ],
+    "note": "Mebni kelimeler için 'mahallen merfu/mansub/mecrur' denir: جَاءَ هَذَا (هَذَا mahallen merfu)"
+  },
+  {
+    "topic": "المبتدأ والخبر | Mübteda ve Haber",
+    "level": "A2",
+    "category": "nahiv",
+    "description": "İsim cümlesinin iki temel öğesi. Mübteda (özne) ve Haber (yüklem) ikisi de merfu.",
+    "pattern": "المبتدأ (marife) + الخبر (nekire/cümle/şibh cümle): الطَّالِبُ مُجْتَهِدٌ",
+    "examples": [
+      "الكِتَابُ مُفِيدٌ. - mübteda: الكِتَابُ, haber: مُفِيدٌ (müfred)",
+      "الطَّالِبُ فِي الفَصْلِ. - haber şibh cümle (car mecrur)",
+      "الشَّمْسُ سَاطِعَةٌ. - haber sıfat-ı müşebbehe",
+      "العِلْمُ نُورٌ. - haber müfred isim",
+      "الصِّدْقُ يَنْفَعُ. - haber fiil cümlesi",
+      "أَنَا طَالِبٌ. - mübteda zamir (mebni)",
+      "هَذِهِ سَيَّارَةٌ. - mübteda işaret ismi"
+    ],
+    "tips": [
+      "Mübteda genelde marife (belirli) olur: الـ, zamir, işaret, izafet",
+      "Haber genelde nekire olur, marife olursa zamir-i fasl gerekir",
+      "Mübteda tehir edilebilir: فِي الدَّارِ رَجُلٌ (evde bir adam var)",
+      "Haber birden fazla olabilir: الطَّالِبُ ذَكِيٌّ مُجْتَهِدٌ"
+    ],
+    "mistakes": [
+      "Mübtedayı nekire yapmak: طَالِبٌ مُجْتَهِدٌ ❌ → الطَّالِبُ مُجْتَهِدٌ ✓",
+      "Habere الـ koymak (sıfat olur): الطَّالِبُ المُجْتَهِدُ = 'çalışkan öğrenci' (cümle değil)"
+    ],
+    "note": "Mübteda ile haber arasında cinsiyet ve sayı uyumu olmalıdır."
+  },
+  {
+    "topic": "إنّ وأخواتها | İnne ve Kardeşleri",
+    "level": "B1",
+    "category": "nahiv",
+    "description": "İsim cümlesinin başına gelen ve mübtedayı mansub yapan harfler.",
+    "pattern": "إِنَّ + isim (mansub) + haber (merfu)",
+    "examples": [
+      "إِنَّ (kesinlikle): إِنَّ اللهَ غَفُورٌ (Allah bağışlayıcıdır)",
+      "أَنَّ (ki, -dığı): عَلِمْتُ أَنَّ الامْتِحَانَ سَهْلٌ (sınavın kolay olduğunu bildim)",
+      "كَأَنَّ (sanki): كَأَنَّ الوَلَدَ أَسَدٌ (çocuk sanki aslan)",
+      "لَكِنَّ (ama, fakat): لَكِنَّ الجَوَّ بَارِدٌ (ama hava soğuk)",
+      "لَيْتَ (keşke): لَيْتَ الشَّبَابَ يَعُودُ (keşke gençlik geri gelse)",
+      "لَعَلَّ (belki, umarım): لَعَلَّ المَطَرَ يَنْزِلُ (umarım yağmur yağar)"
+    ],
+    "tips": [
+      "İnne'nin ismi mansub, haberi merfu olur (mübteda-haber tersine)",
+      "أَنَّ genelde cümle başında değil, fiilden sonra gelir",
+      "إِنَّ cümle başında, أَنَّ cümle içinde kullanılır",
+      "مَا nâfiye inneden sonra gelirse عَمَل'i iptal eder: إِنْ + مَا = إِنَّمَا (ancak)"
+    ],
+    "mistakes": [
+      "إِنَّ'den sonra ismi merfu bırakmak: إِنَّ اللهُ ❌ → إِنَّ اللهَ ✓",
+      "إِنَّ ve أَنَّ'yi karıştırmak"
+    ],
+    "note": "Kur'an'da إِنَّ çok sık kullanılır, dikkatle çalışılmalıdır."
+  },
+  {
+    "topic": "كان وأخواتها | Kâne ve Kardeşleri",
+    "level": "B1",
+    "category": "nahiv",
+    "description": "İsim cümlesinin başına gelen ve haberi mansub yapan nâkıs (eksik) fiiller.",
+    "pattern": "كَانَ + isim (merfu) + haber (mansub)",
+    "examples": [
+      "كَانَ (idi): كَانَ الجَوُّ جَمِيلًا (hava güzeldi)",
+      "صَارَ (oldu): صَارَ الوَلَدُ رَجُلًا (çocuk adam oldu)",
+      "أَصْبَحَ (sabahleyin oldu): أَصْبَحَ الطَّالِبُ مُجْتَهِدًا",
+      "أَمْسَى (akşamleyin oldu): أَمْسَى المَرِيضُ صَحِيحًا",
+      "ظَلَّ (sürekli oldu): ظَلَّ وَاقِفًا (ayakta kaldı)",
+      "بَاتَ (geceledi): بَاتَ قَلِقًا (endişeli geceledi)",
+      "لَيْسَ (değil): لَيْسَ الامْتِحَانُ صَعْبًا (sınav zor değil)",
+      "مَا زَالَ (hâlâ): مَا زَالَ الطَّالِبُ نَائِمًا (öğrenci hâlâ uyuyor)",
+      "مَا دَامَ (-dıkça): مَا دُمْتَ حَيًّا (yaşadıkça)"
+    ],
+    "tips": [
+      "Kâne'nin ismi merfu (fail gibi), haberi mansub olur",
+      "لَيْسَ olumsuzluk için, diğerleri zaman/hal için",
+      "مَا زَالَ, مَا فَتِئَ, مَا بَرِحَ, مَا اِنْفَكَّ hep مَا ile kullanılır",
+      "Bu fiiller tam fiil olarak da kullanılabilir: كَانَ اللهُ (Allah vardı)"
+    ],
+    "mistakes": [
+      "كَانَ'nin haberini merfu bırakmak: كَانَ جَمِيلٌ ❌ → كَانَ جَمِيلًا ✓",
+      "لَيْسَ'i normal fiil gibi çekmek"
+    ],
+    "note": "Kâne grubu fiiller 'nâkıs' yani eksiktir, habere ihtiyaç duyar."
+  },
+  {
+    "topic": "الفاعل | Fail (Özne)",
+    "level": "A2",
+    "category": "nahiv",
+    "description": "Fiil cümlesinde eylemi yapan isim. Daima merfu olur ve fiilden sonra gelir.",
+    "pattern": "فعل + فاعل (merfu) + ...: كَتَبَ الطَّالِبُ",
+    "examples": [
+      "جَاءَ المُعَلِّمُ. - fail: المُعَلِّمُ (merfu)",
+      "نَجَحَ الطُّلَّابُ. - fail çoğul ama fiil tekil",
+      "قَرَأَتِ الطَّالِبَةُ. - dişil failde fiile ت eklenir",
+      "يَكْتُبُ أَحْمَدُ. - muzari fiilde fail",
+      "ذَهَبْتُ. - müstetir (gizli) fail: أَنَا",
+      "يَدْرُسُونَ. - fail fiilde mündemiç: وَاوُ الجَمَاعَة"
+    ],
+    "tips": [
+      "Fail zahir (açık) veya müstetir (gizli) olabilir",
+      "Fiil daima tekil kalır, fail çoğul olsa bile: جَاءَ الرِّجَالُ",
+      "Dişil fail için fiile ت eklenir: ذَهَبَتْ فَاطِمَةُ",
+      "Cem-i mükesser (kırık çoğul) için fiil müennes de olabilir: جَاءَتِ الرِّجَالُ"
+    ],
+    "mistakes": [
+      "Faili mansub yapmak: جَاءَ الطَّالِبَ ❌ → جَاءَ الطَّالِبُ ✓",
+      "Çoğul fail için fiili çoğul yapmak: جَاؤُوا الطُّلَّابُ ❌"
+    ],
+    "note": "Nâib-i fail (edilgen özne) de aynı kurallara tabidir: كُتِبَ الدَّرْسُ"
+  },
+  {
+    "topic": "المفعول به | Mef'ul Bih (Nesne)",
+    "level": "A2",
+    "category": "nahiv",
+    "description": "Eylemin kendisine yapıldığı isim. Daima mansub olur.",
+    "pattern": "فعل + فاعل + مفعول به (mansub): كَتَبَ الطَّالِبُ الدَّرْسَ",
+    "examples": [
+      "قَرَأْتُ الكِتَابَ. - mef'ul bih: الكِتَابَ",
+      "شَرِبَ الوَلَدُ المَاءَ. - mef'ul bih: المَاءَ",
+      "أَكَلَ التُّفَّاحَةَ. - gizli fail + açık mef'ul",
+      "رَأَيْتُكَ. - mef'ul bih zamir: كَ (seni)",
+      "أَعْطَيْتُهُ كِتَابًا. - iki mef'ul: هُ (ona) + كِتَابًا (kitap)",
+      "ظَنَنْتُهُ صَادِقًا. - iki mef'ul: هُ + صَادِقًا (onu dürüst sandım)"
+    ],
+    "tips": [
+      "Mef'ul bih daima mansub olur",
+      "Bazı fiiller iki mef'ul alır: أَعْطَى، سَأَلَ، عَلَّمَ، ظَنَّ، حَسِبَ",
+      "Mef'ul bih zamir olursa fiile bitişik yazılır: رَأَيْتُهُ",
+      "Mef'ul bih cümle başına geçebilir (takdim): الكِتَابَ قَرَأْتُ"
+    ],
+    "mistakes": [
+      "Mef'ulu merfu bırakmak: قَرَأْتُ الكِتَابُ ❌",
+      "Lazım fiilden mef'ul bih aramak: ذَهَبْتُ المَدْرَسَةَ ❌ → ذَهَبْتُ إِلَى المَدْرَسَةِ ✓"
+    ],
+    "note": "Müteaddi fiiller mef'ul alır, lazım fiiller almaz (harf-i cer ile bağlanır)."
+  },
+  {
+    "topic": "حروف الجر | Harf-i Cerler",
+    "level": "A2",
+    "category": "nahiv",
+    "description": "İsimleri mecrur yapan edatlar. Fiil ile isim arasında anlam bağı kurar.",
+    "pattern": "حرف جر + اسم مجرور: فِي البَيْتِ، مِنَ المَدْرَسَةِ",
+    "examples": [
+      "مِن (den): خَرَجَ مِنَ البَيْتِ (evden çıktı)",
+      "إِلَى (e): ذَهَبَ إِلَى المَدْرَسَةِ (okula gitti)",
+      "عَن (hakkında, den): سَأَلَ عَنِ الامْتِحَانِ (sınav hakkında sordu)",
+      "عَلَى (üzerinde): الكِتَابُ عَلَى الطَّاوِلَةِ (kitap masada)",
+      "فِي (içinde): الطَّالِبُ فِي الفَصْلِ (öğrenci sınıfta)",
+      "بِـ (ile): كَتَبَ بِالقَلَمِ (kalemle yazdı)",
+      "لِـ (için, e): هَذَا لَكَ (bu senin için)",
+      "كَـ (gibi): أَنْتَ كَالأَسَدِ (aslan gibisin)",
+      "حَتَّى (e kadar): مِنَ الصَّبَاحِ حَتَّى المَسَاءِ"
+    ],
+    "tips": [
+      "Harf-i cerden sonraki isim mutlaka mecrur olur",
+      "Bazı fiiller belirli harf-i cerlerle kullanılır: ذَهَبَ إِلَى، بَحَثَ عَن",
+      "Zamir harf-i cere bitişir: لَهُ (onun için), بِهِ (onunla), فِيهِ (içinde)",
+      "Car-mecrur (harf+isim) haber olabilir: الكِتَابُ فِي الحَقِيبَةِ"
+    ],
+    "mistakes": [
+      "Harf-i cerden sonra merfu bırakmak: فِي البَيْتُ ❌ → فِي البَيْتِ ✓",
+      "Harf-i cerlerle fiillerin uyumunu bilmemek"
+    ],
+    "note": "Her harf-i cerin birden fazla anlamı olabilir, bağlamdan anlaşılır."
+  },
+  {
+    "topic": "الإضافة | İzafet (Tamlama)",
+    "level": "B1",
+    "category": "nahiv",
+    "description": "İki ismin birleşimi. Birinci isim (muzaf), ikinci ismi (muzafun ileyh) ile anlam kazanır.",
+    "pattern": "مُضَاف (tenvinsiz) + مُضَاف إِلَيْهِ (mecrur): كِتَابُ الطَّالِبِ",
+    "examples": [
+      "كِتَابُ الطَّالِبِ (öğrencinin kitabı)",
+      "بَابُ البَيْتِ (evin kapısı)",
+      "مُعَلِّمُ اللُّغَةِ (dil öğretmeni)",
+      "طَالِبَةُ العِلْمِ (ilim öğrencisi)",
+      "يَوْمُ الجُمُعَةِ (Cuma günü)",
+      "غُرْفَةُ النَّوْمِ (yatak odası)",
+      "كُلُّ شَيْءٍ (her şey)",
+      "بَعْضُ النَّاسِ (bazı insanlar)"
+    ],
+    "tips": [
+      "Muzaf asla tenvin ve ال almaz",
+      "Muzafun ileyh daima mecrur olur",
+      "Muzaf, cümledeki konumuna göre i'rab alır: جَاءَ كِتَابُ الطَّالِبِ (merfu)",
+      "İzafet lafzi (sözel) veya manevî (anlamsal) olabilir",
+      "كُلّ، بَعْض، غَيْر، كِلَا، كِلْتَا، أَيّ، إِحْدَى gibi kelimeler hep muzaf olur"
+    ],
+    "mistakes": [
+      "Muzafa tenvin koymak: كِتَابٌ الطَّالِبِ ❌",
+      "Muzafa الـ koymak: الكِتَابُ الطَّالِبِ ❌",
+      "Muzafun ileyhi mansub yapmak: كِتَابُ الطَّالِبَ ❌"
+    ],
+    "note": "Sıfat-mevsuf'tan farklı olarak izafette iki isim ayrı kavramları temsil eder."
+  },
+  {
+    "topic": "النعت والمنعوت | Sıfat Tamlaması",
+    "level": "B1",
+    "category": "nahiv",
+    "description": "İsmi niteleyen sıfat yapısı. Sıfat, mevsufuna (nitelenen) dört yönden uyar.",
+    "pattern": "منعوت + نعت (i'rab, cinsiyet, sayı, belirlilik uyumu)",
+    "examples": [
+      "الكِتَابُ الجَدِيدُ (yeni kitap) - ikisi de merfu, müzekker, müfred, marife",
+      "رَأَيْتُ طَالِبًا مُجْتَهِدًا (çalışkan bir öğrenci gördüm) - ikisi de mansub, nekire",
+      "مَرَرْتُ بِطَالِبَةٍ ذَكِيَّةٍ (zeki bir kız öğrenciye uğradım) - ikisi de mecrur, müennes",
+      "جَاءَ الطُّلَّابُ المُجْتَهِدُونَ (çalışkan öğrenciler geldi) - cem-i müzekker salim",
+      "الطَّالِبَاتُ المُجْتَهِدَاتُ (çalışkan kız öğrenciler) - cem-i müennes salim"
+    ],
+    "tips": [
+      "Sıfat mevsufuna 4 yönden uyar: i'rab, cinsiyet, sayı, belirlilik (الـ veya nekire)",
+      "Marife isme marife sıfat, nekire isme nekire sıfat gelir",
+      "Cem-i mükesser (kırık çoğul) için sıfat müfred müennes olabilir: كُتُبٌ كَثِيرَةٌ",
+      "Sıfat cümlesi de olabilir: الرَّجُلُ الَّذِي جَاءَ (gelen adam)"
+    ],
+    "mistakes": [
+      "Belirlilik uyumu unutmak: الكِتَابُ جَدِيدٌ = cümle, الكِتَابُ الجَدِيدُ = tamlama",
+      "Cem-i mükesser için sıfatı da kırık çoğul sanmak"
+    ],
+    "note": "İzafetten sonra gelen sıfat muzafun ileyhe değil muzafa döner: كِتَابُ الطَّالِبِ الجَدِيدُ"
+  },
+  {
+    "topic": "أدوات الاستفهام | Soru Edatları",
+    "level": "A2",
+    "category": "nahiv",
+    "description": "Soru cümlesi kurmak için kullanılan edatlar ve isimler.",
+    "pattern": "هَلْ (mı), أَ (mı), مَا/مَاذَا (ne), مَنْ (kim), أَيْنَ (nerede), مَتَى (ne zaman), كَيْفَ (nasıl), لِمَاذَا (neden), كَمْ (kaç)",
+    "examples": [
+      "هَلْ أَنْتَ طَالِبٌ؟ (Sen öğrenci misin?)",
+      "أَذَهَبْتَ؟ (Gittin mi?)",
+      "مَا هَذَا؟ / مَاذَا تُرِيدُ؟ (Bu ne? / Ne istiyorsun?)",
+      "مَنْ جَاءَ؟ (Kim geldi?)",
+      "أَيْنَ المَكْتَبَةُ؟ (Kütüphane nerede?)",
+      "مَتَى السَّفَرُ؟ (Seyahat ne zaman?)",
+      "كَيْفَ حَالُكَ؟ (Nasılsın?)",
+      "لِمَاذَا تَأَخَّرْتَ؟ (Neden geciktin?)",
+      "كَمْ كِتَابًا عِنْدَكَ؟ (Kaç kitabın var?)"
+    ],
+    "tips": [
+      "هَلْ ve أَ evet/hayır cevabı bekler, diğerleri açık cevap",
+      "مَنْ sadece akıllı varlıklar için, مَا cansızlar ve kavramlar için",
+      "كَمْ'den sonra gelen tekil isim mansub olur: كَمْ كِتَابًا",
+      "أَيّ hangi anlamında, izafete girer: أَيُّ كِتَابٍ (hangi kitap)"
+    ],
+    "mistakes": [
+      "هَلْ ve مَا'yı karıştırmak",
+      "كَمْ'den sonra çoğul kullanmak: كَمْ كُتُبٍ ❌ → كَمْ كِتَابًا ✓"
+    ],
+    "note": "Soru edatları mebni (değişmez) isimlerdir, mahallen i'rabları vardır."
+  },
+  {
+    "topic": "أدوات الشرط | Şart Edatları",
+    "level": "B1",
+    "category": "nahiv",
+    "description": "Şart cümlesi kuran edatlar. Şart ve cevap cümlelerini bağlar.",
+    "pattern": "أَدَاة شَرْط + فِعْل الشَّرْط + جَوَاب الشَّرْط",
+    "examples": [
+      "إِنْ تَدْرُسْ تَنْجَحْ. (Çalışırsan başarırsın.) - cezm",
+      "مَنْ يَدْرُسْ يَنْجَحْ. (Kim çalışırsa başarır.) - cezm",
+      "مَا تَفْعَلْ أَفْعَلْ. (Ne yaparsan yapayım.) - cezm",
+      "أَيْنَمَا تَذْهَبْ أَذْهَبْ. (Nereye gidersen gideyim.) - cezm",
+      "إِذَا جَاءَ فَأَخْبِرْهُ. (Gelirse ona haber ver.) - إِذَا cezm yapmaz",
+      "لَوْ دَرَسْتَ لَنَجَحْتَ. (Çalışsaydın başarırdın.) - imkansız şart"
+    ],
+    "tips": [
+      "Cezm eden şart edatları: إِنْ، مَنْ، مَا، مَهْمَا، أَيّ، أَيْنَمَا، حَيْثُمَا، مَتَى...",
+      "إِذَا mazi ile kullanılır, cezm yapmaz",
+      "لَوْ imkansız/geçmiş şart için, لَوْلَا 'olmasaydı' anlamında",
+      "Cevap cümlesi fiil değilse فَـ ile başlar: إِنْ تَدْرُسْ فَأَنْتَ نَاجِحٌ"
+    ],
+    "mistakes": [
+      "إِنْ'den sonra muzariyi merfu bırakmak: إِنْ تَدْرُسُ ❌ → إِنْ تَدْرُسْ ✓",
+      "إِذَا'dan sonra muzari kullanmak: إِذَا تَذْهَبُ ❌ → إِذَا ذَهَبْتَ ✓"
+    ],
+    "note": "Kur'an'da şart cümleleri çok yaygındır, dikkatle çalışılmalıdır."
+  },
+  {
+    "topic": "الحال | Hal",
+    "level": "B1",
+    "category": "nahiv",
+    "description": "Fail veya mef'ulün eylem anındaki durumunu açıklayan mansub isim/cümle.",
+    "pattern": "فعل + فاعل/مفعول + حال (mansub nekire): جَاءَ الطَّالِبُ مُسْرِعًا",
+    "examples": [
+      "جَاءَ رَاكِبًا. (Binerek geldi.) - müfred hal",
+      "رَأَيْتُهُ جَالِسًا. (Onu otururken gördüm.)",
+      "خَرَجَ الطُّلَّابُ مُسْرِعِينَ. (Öğrenciler koşarak çıktı.) - cem",
+      "جَاءَتْ وَهِيَ تَبْكِي. (Ağlayarak geldi.) - cümle hal",
+      "شَرِبْتُ المَاءَ بَارِدًا. (Suyu soğuk içtim.)",
+      "قَابَلْتُهُ وَحْدَهُ. (Onunla yalnız karşılaştım.)"
+    ],
+    "tips": [
+      "Hal daima mansub ve nekire olur",
+      "Hal, sahib-i hal'in (fail/mef'ul) eylem anındaki durumunu bildirir",
+      "Cümle hal olursa واو الحالية ile başlar: جَاءَ وَهُوَ يَضْحَكُ",
+      "قَدْ + mazi cümle hal olabilir: جَاءَ وَقَدْ طَلَعَتِ الشَّمْسُ"
+    ],
+    "mistakes": [
+      "Hali marife yapmak: جَاءَ المُسْرِعَ ❌ → جَاءَ مُسْرِعًا ✓",
+      "Hali merfu bırakmak: جَاءَ مُسْرِعٌ ❌"
+    ],
+    "note": "Hal, Türkçe'deki zarf-fiil (-arak, -ince, -ken) karşılığıdır."
+  },
+  {
+    "topic": "التمييز | Temyiz",
+    "level": "B1",
+    "category": "nahiv",
+    "description": "Belirsiz bir ifadeyi açıklayan mansub isim. Neyin kastedildiğini belirtir.",
+    "pattern": "مُمَيَّز + تَمييز (mansub nekire): عِشْرُونَ كِتَابًا، طَابَ نَفْسًا",
+    "examples": [
+      "عِنْدِي عِشْرُونَ كِتَابًا. (Yirmi kitabım var.) - adet temyizi",
+      "اِشْتَرَيْتُ كِيلُو عَسَلًا. (Bir kilo bal aldım.) - ölçü temyizi",
+      "طَابَ مُحَمَّدٌ نَفْسًا. (Muhammed nefis olarak hoşlandı.) - nisbet temyizi",
+      "هُوَ أَكْبَرُ مِنِّي سِنًّا. (Yaşça benden büyük.) - tefdul temyizi",
+      "كَفَى بِاللهِ شَهِيدًا. (Şahit olarak Allah yeter.)",
+      "ازْدَادَ عِلْمًا. (İlim olarak arttı.)"
+    ],
+    "tips": [
+      "Temyiz daima mansub ve nekire tekil olur",
+      "11-99 arası sayılardan sonra temyiz gelir: خَمْسَةَ عَشَرَ طَالِبًا",
+      "100, 1000 vb. den sonra muzafun ileyh gelir, temyiz değil: مِئَةُ كِتَابٍ",
+      "Nisbet temyizi, önceki cümledeki belirsizliği giderir"
+    ],
+    "mistakes": [
+      "Temyizi çoğul yapmak: عِشْرُونَ كُتُبًا ❌ → عِشْرُونَ كِتَابًا ✓",
+      "Temyizi marife yapmak"
+    ],
+    "note": "Hal durumu, temyiz türü açıklar. İkisi de mansub ama farklı işlevdedir."
+  },
+  {
+    "topic": "المستثنى | İstisna",
+    "level": "B2",
+    "category": "nahiv",
+    "description": "Genel hükümden çıkarılan isim. 'Hariç, dışında' anlamı taşır.",
+    "pattern": "مُسْتَثْنَى مِنْهُ + أَدَاة استثناء + مُسْتَثْنَى: جَاءَ الطُّلَّابُ إِلَّا عَلِيًّا",
+    "examples": [
+      "جَاءَ الطُّلَّابُ إِلَّا عَلِيًّا. (Ali hariç öğrenciler geldi.) - tam müspet → mansub",
+      "مَا جَاءَ أَحَدٌ إِلَّا عَلِيٌّ. (Ali'den başka kimse gelmedi.) - tam menfi → bedel (merfu)",
+      "مَا جَاءَ إِلَّا عَلِيٌّ. (Sadece Ali geldi.) - müferrağ → bedel",
+      "نَجَحَ الطُّلَّابُ غَيْرَ وَاحِدٍ. (Biri hariç öğrenciler başardı.) - غَيْر ile",
+      "جَاءُوا سِوَى زَيْدٍ. (Zeyd dışında geldiler.) - سِوَى ile"
+    ],
+    "tips": [
+      "Tam müspet cümlede müstesna mansub olur",
+      "Tam menfi cümlede bedel (öncekilе göre i'rab) veya mansub olabilir",
+      "Müferrağ'da إِلَّا = sadece, müstesna cümleye göre i'rab alır",
+      "غَيْر ve سِوَى isim olup izafete girer: غَيْرَ عَلِيٍّ"
+    ],
+    "mistakes": [
+      "Müspet cümlede müstesnayı merfu yapmak",
+      "غَيْر'i mansub yapmamak (müstesna yerine)"
+    ],
+    "note": "إِلَّا'dan sonraki i'rab cümle türüne göre değişir, kuralları dikkatle çalışılmalı."
+  }
+]

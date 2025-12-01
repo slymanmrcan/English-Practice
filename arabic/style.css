@@ -740,6 +740,265 @@ button small {
   font-size: 12px;
 }
 
+/* Panel Head */
+.panel-head {
+  margin: 0 0 8px;
+  font-family: var(--arabic-font);
+  color: var(--accent-light);
+  font-size: 22px;
+}
+
+/* Conjugation Table */
+.conjugation-table {
+  background: rgba(0,0,0,0.2);
+  padding: 12px;
+  border-radius: 8px;
+  margin: 12px 0;
+}
+
+.conj-row {
+  display: flex;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(201, 162, 39, 0.1);
+}
+
+.conj-row:last-child {
+  border-bottom: none;
+}
+
+.conj-label {
+  color: var(--muted);
+  min-width: 100px;
+}
+
+/* ============ BASICS PANEL ============ */
+.basics-tabs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(201, 162, 39, 0.15);
+}
+
+.basics-tab {
+  padding: 10px 16px;
+  background: rgba(201, 162, 39, 0.1);
+  border: 1px solid rgba(201, 162, 39, 0.2);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font-family: var(--arabic-font);
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.basics-tab:hover {
+  background: rgba(201, 162, 39, 0.2);
+  border-color: var(--accent);
+}
+
+.basics-tab.active {
+  background: var(--accent);
+  color: var(--bg);
+  border-color: var(--accent);
+}
+
+.basics-tab small {
+  display: block;
+  font-family: var(--ui-font);
+  font-size: 10px;
+  opacity: 0.7;
+}
+
+.basics-content {
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.basics-category {
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(201, 162, 39, 0.1);
+}
+
+.basics-category h4 {
+  font-family: var(--arabic-font);
+  color: var(--accent-light);
+  margin: 0 0 12px;
+  font-size: 18px;
+}
+
+.basics-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.basics-item {
+  background: rgba(0,0,0,0.2);
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(201, 162, 39, 0.1);
+  transition: all 0.2s;
+}
+
+.basics-item:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.basics-word {
+  font-size: 20px;
+  font-family: var(--arabic-font);
+  color: var(--accent-light);
+  margin-bottom: 4px;
+}
+
+.basics-trans {
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+.basics-meaning {
+  font-size: 14px;
+  color: var(--text);
+}
+
+.basics-meaning-en {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+.basics-examples {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(201, 162, 39, 0.1);
+  font-family: var(--arabic-font);
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.basics-rules {
+  background: rgba(201, 162, 39, 0.05);
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 12px;
+}
+
+.rule-item {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(201, 162, 39, 0.1);
+}
+
+.rule-item:last-child {
+  border-bottom: none;
+}
+
+/* ============ ISLAMIC PANEL ============ */
+.islamic-intro {
+  margin-bottom: 16px;
+}
+
+.islamic-controls {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(201, 162, 39, 0.15);
+}
+
+.islamic-search {
+  flex: 1;
+  min-width: 150px;
+  padding: 10px 14px;
+  font-size: 14px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(201, 162, 39, 0.25);
+  border-radius: 8px;
+  color: var(--text);
+  font-family: var(--arabic-font);
+}
+
+.islamic-search:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.islamic-content {
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.islamic-category {
+  margin-bottom: 24px;
+}
+
+.islamic-category h4 {
+  font-family: var(--arabic-font);
+  color: var(--accent-light);
+  margin: 0 0 12px;
+  font-size: 18px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(201, 162, 39, 0.2);
+}
+
+.islamic-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.islamic-item {
+  background: rgba(0,0,0,0.2);
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid rgba(201, 162, 39, 0.1);
+  transition: all 0.2s;
+}
+
+.islamic-item:hover {
+  border-color: var(--accent);
+}
+
+.islamic-word {
+  font-size: 22px;
+  font-family: var(--arabic-font);
+  color: var(--accent-light);
+  margin-bottom: 4px;
+}
+
+.islamic-trans {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+.islamic-meaning {
+  font-size: 14px;
+  color: var(--text);
+  font-weight: 500;
+}
+
+.islamic-def {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 6px;
+  line-height: 1.5;
+}
+
+.islamic-root {
+  font-size: 11px;
+  color: var(--accent);
+  margin-top: 6px;
+  font-family: var(--arabic-font);
+}
+
 /* Responsive */
 @media (max-width: 640px) {
   .word { font-size: 28px; }
@@ -750,4 +1009,7 @@ button small {
   #timer-remaining { font-size: 34px; }
   .header-row { flex-direction: column; gap: 8px; }
   .root-badge { flex-direction: column; align-items: flex-start; }
+  .basics-tabs { flex-wrap: wrap; }
+  .basics-items { grid-template-columns: 1fr; }
+  .islamic-items { grid-template-columns: 1fr; }
 }

@@ -1,0 +1,227 @@
+[
+  {
+    "category": "الأَلْوَانُ الأَسَاسِيَّة | Temel Renkler",
+    "type": "colors",
+    "note": "Renkler Arapça'da özel sarf kalıbı kullanır: أَفْعَل (erkek) / فَعْلَاء (kadın). Diptot (gayr-ı munsarif) olup tenvin ve kesra almazlar.",
+    "items": [
+      {
+        "word_m": "أَبْيَض",
+        "word_f": "بَيْضَاء",
+        "plural": "بِيض",
+        "transliteration": "ebyad / beydâ",
+        "meaning_tr": "beyaz",
+        "meaning_en": "white",
+        "root": "ب ي ض",
+        "pattern": "أَفْعَل / فَعْلَاء",
+        "examples": [
+          "قَمِيصٌ أَبْيَضُ - Beyaz gömlek",
+          "سَيَّارَةٌ بَيْضَاءُ - Beyaz araba",
+          "ثِيَابٌ بِيضٌ - Beyaz elbiseler"
+        ],
+        "quran": "وَجُوهٌ يَوْمَئِذٍ بِيضٌ - O gün yüzler bembeyaz (Âl-i İmrân: 106)"
+      },
+      {
+        "word_m": "أَسْوَد",
+        "word_f": "سَوْدَاء",
+        "plural": "سُود",
+        "transliteration": "esved / sevdâ",
+        "meaning_tr": "siyah",
+        "meaning_en": "black",
+        "root": "س و د",
+        "pattern": "أَفْعَل / فَعْلَاء",
+        "examples": [
+          "قَلَمٌ أَسْوَدُ - Siyah kalem",
+          "سَيَّارَةٌ سَوْدَاءُ - Siyah araba"
+        ],
+        "quran": "وَجُوهٌ يَوْمَئِذٍ سُودٌ - O gün yüzler kapkara (Âl-i İmrân: 106)"
+      },
+      {
+        "word_m": "أَحْمَر",
+        "word_f": "حَمْرَاء",
+        "plural": "حُمْر",
+        "transliteration": "ahmer / hamrâ",
+        "meaning_tr": "kırmızı",
+        "meaning_en": "red",
+        "root": "ح م ر",
+        "pattern": "أَفْعَل / فَعْلَاء",
+        "examples": [
+          "وَرْدٌ أَحْمَرُ - Kırmızı gül",
+          "تُفَّاحَةٌ حَمْرَاءُ - Kırmızı elma"
+        ],
+        "quran": "وَمِنَ الْجِبَالِ جُدَدٌ بِيضٌ وَحُمْرٌ - Dağlarda beyaz ve kırmızı yollar (Fatır: 27)"
+      },
+      {
+        "word_m": "أَخْضَر",
+        "word_f": "خَضْرَاء",
+        "plural": "خُضْر",
+        "transliteration": "ahdar / hadrâ",
+        "meaning_tr": "yeşil",
+        "meaning_en": "green",
+        "root": "خ ض ر",
+        "pattern": "أَفْعَل / فَعْلَاء",
+        "examples": [
+          "عُشْبٌ أَخْضَرُ - Yeşil çimen",
+          "شَجَرَةٌ خَضْرَاءُ - Yeşil ağaç"
+        ],
+        "quran": "مُتَّكِئِينَ عَلَى رَفْرَفٍ خُضْرٍ - Yeşil yastıklara yaslanmış (Rahman: 76)"
+      },
+      {
+        "word_m": "أَزْرَق",
+        "word_f": "زَرْقَاء",
+        "plural": "زُرْق",
+        "transliteration": "ezraq / zarqâ",
+        "meaning_tr": "mavi",
+        "meaning_en": "blue",
+        "root": "ز ر ق",
+        "pattern": "أَفْعَل / فَعْلَاء",
+        "examples": [
+          "سَمَاءٌ زَرْقَاءُ - Mavi gökyüzü",
+          "بَحْرٌ أَزْرَقُ - Mavi deniz"
+        ],
+        "quran": "وَنَحْشُرُ الْمُجْرِمِينَ يَوْمَئِذٍ زُرْقًا - Suçluları o gün gözleri göğermiş olarak (Taha: 102)"
+      },
+      {
+        "word_m": "أَصْفَر",
+        "word_f": "صَفْرَاء",
+        "plural": "صُفْر",
+        "transliteration": "asfar / safrâ",
+        "meaning_tr": "sarı",
+        "meaning_en": "yellow",
+        "root": "ص ف ر",
+        "pattern": "أَفْعَل / فَعْلَاء",
+        "examples": [
+          "زَهْرٌ أَصْفَرُ - Sarı çiçek",
+          "مَوْزَةٌ صَفْرَاءُ - Sarı muz"
+        ],
+        "quran": "بَقَرَةٌ صَفْرَاءُ فَاقِعٌ لَوْنُهَا - Rengi parlak sarı bir inek (Bakara: 69)"
+      },
+      {
+        "word_m": "أَخْضَر دَاكِن",
+        "word_f": "خَضْرَاء دَاكِنَة",
+        "transliteration": "ahdar dâkin",
+        "meaning_tr": "koyu yeşil",
+        "meaning_en": "dark green",
+        "examples": [
+          "وَرَقٌ أَخْضَرُ دَاكِنٌ - Koyu yeşil yaprak"
+        ]
+      },
+      {
+        "word_m": "بُرْتُقَالِيّ",
+        "word_f": "بُرْتُقَالِيَّة",
+        "transliteration": "burtuqâlî",
+        "meaning_tr": "turuncu",
+        "meaning_en": "orange",
+        "note": "Portakaldan türetilmiş nisbet sıfatı, klasik kalıp değil",
+        "examples": [
+          "لَوْنٌ بُرْتُقَالِيٌّ - Turuncu renk"
+        ]
+      },
+      {
+        "word_m": "بُنِّيّ",
+        "word_f": "بُنِّيَّة",
+        "transliteration": "bunnî",
+        "meaning_tr": "kahverengi",
+        "meaning_en": "brown",
+        "note": "Kahveden (بُنّ) türetilmiş nisbet sıfatı",
+        "examples": [
+          "حِذَاءٌ بُنِّيٌّ - Kahverengi ayakkabı"
+        ]
+      },
+      {
+        "word_m": "وَرْدِيّ",
+        "word_f": "وَرْدِيَّة",
+        "transliteration": "verdî",
+        "meaning_tr": "pembe",
+        "meaning_en": "pink",
+        "note": "Gülden (وَرْد) türetilmiş nisbet sıfatı",
+        "examples": [
+          "فُسْتَانٌ وَرْدِيٌّ - Pembe elbise"
+        ]
+      },
+      {
+        "word_m": "بَنَفْسَجِيّ",
+        "word_f": "بَنَفْسَجِيَّة",
+        "transliteration": "benefsecî",
+        "meaning_tr": "mor",
+        "meaning_en": "purple/violet",
+        "note": "Menekşeden (بَنَفْسَج) türetilmiş nisbet sıfatı",
+        "examples": [
+          "زَهْرٌ بَنَفْسَجِيٌّ - Mor çiçek"
+        ]
+      },
+      {
+        "word_m": "رَمَادِيّ",
+        "word_f": "رَمَادِيَّة",
+        "transliteration": "ramâdî",
+        "meaning_tr": "gri",
+        "meaning_en": "gray",
+        "note": "Külden (رَمَاد) türetilmiş nisbet sıfatı",
+        "examples": [
+          "غُرْفَةٌ رَمَادِيَّةٌ - Gri oda"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "الأَلْوَان فِي القُرْآن | Kur'an'da Renkler",
+    "type": "colors",
+    "items": [
+      {
+        "word": "مُدْهَامَّتَانِ",
+        "transliteration": "mudhâmmetân",
+        "meaning_tr": "yemyeşil (koyu yeşil - tesniye)",
+        "meaning_en": "dark green (dual)",
+        "quran": "مُدْهَامَّتَانِ - İki yemyeşil bahçe (Rahman: 64)",
+        "root": "د هـ م",
+        "note": "اِدْهَامَّ fiilinden, çok koyu yeşil"
+      },
+      {
+        "word": "غَرَابِيب سُود",
+        "transliteration": "garâbîb sûd",
+        "meaning_tr": "simsiyah",
+        "meaning_en": "pitch black",
+        "quran": "وَغَرَابِيبُ سُودٌ - Simsiyah kayalar (Fatır: 27)",
+        "note": "غُرَاب (karga) kelimesinden, en koyu siyah"
+      },
+      {
+        "word": "فَاقِع",
+        "transliteration": "fâqi'",
+        "meaning_tr": "parlak (renk)",
+        "meaning_en": "bright, vivid (color)",
+        "quran": "صَفْرَاءُ فَاقِعٌ لَوْنُهَا - Rengi parlak sarı (Bakara: 69)",
+        "root": "ف ق ع"
+      }
+    ]
+  },
+  {
+    "category": "قَوَاعِدُ الأَلْوَان | Renk Kuralları",
+    "type": "colors",
+    "rules": [
+      {
+        "title": "Sarf Kalıbı",
+        "rule": "Temel renkler أَفْعَل (eril) / فَعْلَاء (dişil) kalıbındadır",
+        "examples": ["أَحْمَر / حَمْرَاء", "أَسْوَد / سَوْدَاء"]
+      },
+      {
+        "title": "Çoğul Kalıbı",
+        "rule": "Çoğul için فُعْل kalıbı kullanılır",
+        "examples": ["بِيض (beyazlar)", "سُود (siyahlar)", "حُمْر (kırmızılar)"]
+      },
+      {
+        "title": "Gayr-ı Munsarif",
+        "rule": "أَفْعَل ve فَعْلَاء kalıbındaki renkler diptottur (tenvin ve kesra almazlar)",
+        "examples": ["كِتَابٌ أَبْيَضُ (أَبْيَضٌ değil)", "مَرَرْتُ بِأَحْمَرَ (بِأَحْمَرِ değil)"]
+      },
+      {
+        "title": "Sıfat Uyumu",
+        "rule": "Renk sıfatları mevsufun cinsiyetine uyar",
+        "examples": ["قَلَمٌ أَحْمَرُ (erkek)", "سَيَّارَةٌ حَمْرَاءُ (dişil)"]
+      },
+      {
+        "title": "Modern Renkler",
+        "rule": "Yeni renkler nisbet ya (-ِيّ) ile türetilir",
+        "examples": ["بُرْتُقَالِيّ (turuncu)", "بُنِّيّ (kahverengi)"]
+      }
+    ]
+  }
+]

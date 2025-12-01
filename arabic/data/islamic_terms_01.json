@@ -1,0 +1,649 @@
+[
+  {
+    "category": "عُلُومُ القُرْآن | Kur'an İlimleri",
+    "type": "islamic_terms",
+    "items": [
+      {
+        "word": "القُرْآن الكَرِيم",
+        "transliteration": "el-Qur'ânu'l-Kerîm",
+        "meaning_tr": "Kur'an-ı Kerim",
+        "meaning_en": "The Noble Quran",
+        "definition": "Allah'ın Hz. Muhammed'e (s.a.v.) Cebrail aracılığıyla indirdiği son ilahi kitap",
+        "root": "ق ر أ"
+      },
+      {
+        "word": "السُّورَة",
+        "plural": "السُّوَر",
+        "transliteration": "es-sûra / es-suver",
+        "meaning_tr": "sure",
+        "meaning_en": "chapter (of Quran)",
+        "definition": "Kur'an'ın 114 bölümünden her biri"
+      },
+      {
+        "word": "الآيَة",
+        "plural": "الآيَات",
+        "transliteration": "el-âye / el-âyât",
+        "meaning_tr": "ayet",
+        "meaning_en": "verse",
+        "definition": "Sureleri oluşturan cümleler, delil ve işaret anlamı da vardır",
+        "root": "أ ي ي"
+      },
+      {
+        "word": "الجُزْء",
+        "plural": "الأَجْزَاء",
+        "transliteration": "el-cuz' / el-eczâ",
+        "meaning_tr": "cüz",
+        "meaning_en": "part (1/30 of Quran)",
+        "definition": "Kur'an'ın 30 eşit parçasından biri"
+      },
+      {
+        "word": "الحِزْب",
+        "plural": "الأَحْزَاب",
+        "transliteration": "el-hizb / el-ahzâb",
+        "meaning_tr": "hizb",
+        "meaning_en": "section (1/60 of Quran)",
+        "definition": "Cüzün yarısı, Kur'an'ın 60 parçasından biri"
+      },
+      {
+        "word": "التَّفْسِير",
+        "transliteration": "et-tefsîr",
+        "meaning_tr": "tefsir",
+        "meaning_en": "Quranic exegesis/interpretation",
+        "definition": "Kur'an ayetlerinin açıklanması ve yorumlanması ilmi",
+        "root": "ف س ر"
+      },
+      {
+        "word": "التَّأْوِيل",
+        "transliteration": "et-te'vîl",
+        "meaning_tr": "te'vil",
+        "meaning_en": "allegorical interpretation",
+        "definition": "Ayetin zahiri anlamından başka manaya yorumlanması",
+        "root": "أ و ل"
+      },
+      {
+        "word": "أَسْبَابُ النُّزُول",
+        "transliteration": "esbâbu'n-nuzûl",
+        "meaning_tr": "nüzul sebepleri",
+        "meaning_en": "occasions of revelation",
+        "definition": "Ayetlerin hangi olay üzerine indiğini inceleyen ilim"
+      },
+      {
+        "word": "النَّاسِخ وَالمَنْسُوخ",
+        "transliteration": "en-nâsih ve'l-mensûh",
+        "meaning_tr": "nâsih ve mensuh",
+        "meaning_en": "abrogating and abrogated",
+        "definition": "Hükmü kaldıran ve kaldırılan ayetler ilmi",
+        "root": "ن س خ"
+      },
+      {
+        "word": "المُحْكَم وَالمُتَشَابِه",
+        "transliteration": "el-muhkem ve'l-müteşâbih",
+        "meaning_tr": "muhkem ve müteşabih",
+        "meaning_en": "clear and ambiguous verses",
+        "definition": "Manası açık olan ve birden fazla anlama gelebilen ayetler"
+      },
+      {
+        "word": "المَكِّيّ وَالمَدَنِيّ",
+        "transliteration": "el-mekkî ve'l-medenî",
+        "meaning_tr": "Mekki ve Medeni",
+        "meaning_en": "Meccan and Medinan (suras)",
+        "definition": "Hicretten önce ve sonra inen sureler ayrımı"
+      },
+      {
+        "word": "إِعْجَازُ القُرْآن",
+        "transliteration": "i'câzu'l-Qur'ân",
+        "meaning_tr": "Kur'an'ın i'cazı",
+        "meaning_en": "inimitability of Quran",
+        "definition": "Kur'an'ın eşsizliği ve benzerinin yapılamaması"
+      }
+    ]
+  },
+  {
+    "category": "عِلْمُ التَّجْوِيد | Tecvid İlmi",
+    "type": "islamic_terms",
+    "items": [
+      {
+        "word": "التَّجْوِيد",
+        "transliteration": "et-tecvîd",
+        "meaning_tr": "tecvid",
+        "meaning_en": "Quranic recitation rules",
+        "definition": "Kur'an'ı harflerin hakkını vererek okuma ilmi",
+        "root": "ج و د"
+      },
+      {
+        "word": "المَخَارِج",
+        "transliteration": "el-mehâric",
+        "meaning_tr": "mahreçler",
+        "meaning_en": "articulation points",
+        "definition": "Harflerin çıkış yerleri",
+        "root": "خ ر ج"
+      },
+      {
+        "word": "الصِّفَات",
+        "transliteration": "es-sıfât",
+        "meaning_tr": "sıfatlar",
+        "meaning_en": "characteristics of letters",
+        "definition": "Harflerin özellikleri (cehr, hems, şiddet, rihvet...)"
+      },
+      {
+        "word": "الإِدْغَام",
+        "transliteration": "el-idğâm",
+        "meaning_tr": "idgam",
+        "meaning_en": "assimilation",
+        "definition": "İki harfi birleştirerek okuma, şeddeli okuma",
+        "root": "د غ م"
+      },
+      {
+        "word": "الإِظْهَار",
+        "transliteration": "el-izhâr",
+        "meaning_tr": "izhar",
+        "meaning_en": "clear pronunciation",
+        "definition": "Harfi açıkça, gizlemeden okuma",
+        "root": "ظ هـ ر"
+      },
+      {
+        "word": "الإِخْفَاء",
+        "transliteration": "el-ihfâ",
+        "meaning_tr": "ihfa",
+        "meaning_en": "concealment",
+        "definition": "Harfi izhar ve idgam arası gizleyerek okuma",
+        "root": "خ ف ي"
+      },
+      {
+        "word": "الإِقْلَاب",
+        "transliteration": "el-iklâb",
+        "meaning_tr": "iklab",
+        "meaning_en": "conversion",
+        "definition": "Nun sakin veya tenvini mim'e çevirme (ب'den önce)",
+        "root": "ق ل ب"
+      },
+      {
+        "word": "المَدّ",
+        "plural": "المُدُود",
+        "transliteration": "el-medd / el-mudûd",
+        "meaning_tr": "med (uzatma)",
+        "meaning_en": "prolongation",
+        "definition": "Harfleri uzatarak okuma, çeşitleri: tabii, muttasıl, munfasıl, lazım...",
+        "root": "م د د"
+      },
+      {
+        "word": "الغُنَّة",
+        "transliteration": "el-ğunne",
+        "meaning_tr": "gunne",
+        "meaning_en": "nasalization",
+        "definition": "Nun ve mim'in genizden çıkan sesi",
+        "root": "غ ن ن"
+      },
+      {
+        "word": "الوَقْف",
+        "transliteration": "el-vakf",
+        "meaning_tr": "vakıf (durma)",
+        "meaning_en": "stopping",
+        "definition": "Okurken durak yerleri",
+        "root": "و ق ف"
+      },
+      {
+        "word": "القَلْقَلَة",
+        "transliteration": "el-kalkale",
+        "meaning_tr": "kalkale",
+        "meaning_en": "echoing sound",
+        "definition": "ق ط ب ج د harflerini titretircesine okuma",
+        "root": "ق ل ق ل"
+      }
+    ]
+  },
+  {
+    "category": "عِلْمُ الحَدِيث | Hadis İlmi",
+    "type": "islamic_terms",
+    "items": [
+      {
+        "word": "الحَدِيث",
+        "plural": "الأَحَادِيث",
+        "transliteration": "el-hadîs / el-ehâdîs",
+        "meaning_tr": "hadis",
+        "meaning_en": "prophetic tradition",
+        "definition": "Hz. Peygamber'in (s.a.v.) söz, fiil ve takrirleri",
+        "root": "ح د ث"
+      },
+      {
+        "word": "السُّنَّة",
+        "transliteration": "es-sünne",
+        "meaning_tr": "sünnet",
+        "meaning_en": "prophetic practice",
+        "definition": "Hz. Peygamber'in yolu, uygulaması",
+        "root": "س ن ن"
+      },
+      {
+        "word": "الإِسْنَاد",
+        "transliteration": "el-isnâd",
+        "meaning_tr": "isnad, sened",
+        "meaning_en": "chain of narration",
+        "definition": "Hadisin raviler zinciri",
+        "root": "س ن د"
+      },
+      {
+        "word": "المَتْن",
+        "transliteration": "el-metn",
+        "meaning_tr": "metin",
+        "meaning_en": "text of hadith",
+        "definition": "Hadisin içeriği, söz kısmı"
+      },
+      {
+        "word": "الرَّاوِي",
+        "plural": "الرُّوَاة",
+        "transliteration": "er-râvî / er-ruvât",
+        "meaning_tr": "ravi",
+        "meaning_en": "narrator",
+        "definition": "Hadisi nakleden kişi",
+        "root": "ر و ي"
+      },
+      {
+        "word": "صَحِيح",
+        "transliteration": "sahîh",
+        "meaning_tr": "sahih (sağlam)",
+        "meaning_en": "authentic",
+        "definition": "İsnad ve metin şartlarını tam taşıyan hadis",
+        "root": "ص ح ح"
+      },
+      {
+        "word": "حَسَن",
+        "transliteration": "hasen",
+        "meaning_tr": "hasen (güzel)",
+        "meaning_en": "good/fair",
+        "definition": "Sahihten biraz düşük dereceli hadis",
+        "root": "ح س ن"
+      },
+      {
+        "word": "ضَعِيف",
+        "transliteration": "da'îf",
+        "meaning_tr": "zayıf",
+        "meaning_en": "weak",
+        "definition": "Sahih veya hasen şartlarını taşımayan hadis",
+        "root": "ض ع ف"
+      },
+      {
+        "word": "مَوْضُوع",
+        "transliteration": "mevdû'",
+        "meaning_tr": "uydurma",
+        "meaning_en": "fabricated",
+        "definition": "Hz. Peygamber'e yalan isnad edilen söz",
+        "root": "و ض ع"
+      },
+      {
+        "word": "مُتَوَاتِر",
+        "transliteration": "mütevâtir",
+        "meaning_tr": "mütevatir",
+        "meaning_en": "mass-transmitted",
+        "definition": "Yalan üzere birleşmesi imkansız çoklukla nakledilen hadis"
+      },
+      {
+        "word": "آحَاد",
+        "transliteration": "âhâd",
+        "meaning_tr": "ahad (haber-i vahid)",
+        "meaning_en": "solitary narration",
+        "definition": "Mütevatir derecesine ulaşmayan hadis"
+      },
+      {
+        "word": "مُرْسَل",
+        "transliteration": "mürsel",
+        "meaning_tr": "mürsel",
+        "meaning_en": "incomplete chain",
+        "definition": "Sahabiyi atlayarak rivayet edilen hadis"
+      }
+    ]
+  },
+  {
+    "category": "عِلْمُ الفِقْه | Fıkıh İlmi",
+    "type": "islamic_terms",
+    "items": [
+      {
+        "word": "الفِقْه",
+        "transliteration": "el-fıkh",
+        "meaning_tr": "fıkıh",
+        "meaning_en": "Islamic jurisprudence",
+        "definition": "Şer'i ameli hükümleri delillerinden çıkarma ilmi",
+        "root": "ف ق هـ"
+      },
+      {
+        "word": "أُصُولُ الفِقْه",
+        "transliteration": "usûlu'l-fıkh",
+        "meaning_tr": "fıkıh usulü",
+        "meaning_en": "principles of jurisprudence",
+        "definition": "Hüküm çıkarma metodolojisi"
+      },
+      {
+        "word": "الحُكْم",
+        "plural": "الأَحْكَام",
+        "transliteration": "el-hukm / el-ahkâm",
+        "meaning_tr": "hüküm",
+        "meaning_en": "ruling, judgment",
+        "definition": "Şer'i karar ve değerlendirme",
+        "root": "ح ك م"
+      },
+      {
+        "word": "فَرْض / وَاجِب",
+        "transliteration": "fard / vâcib",
+        "meaning_tr": "farz / vacip",
+        "meaning_en": "obligatory",
+        "definition": "Yapılması zorunlu olan eylem"
+      },
+      {
+        "word": "سُنَّة / مُسْتَحَبّ",
+        "transliteration": "sünne / müstehabb",
+        "meaning_tr": "sünnet / müstehap",
+        "meaning_en": "recommended",
+        "definition": "Yapılması tavsiye edilen eylem"
+      },
+      {
+        "word": "مُبَاح",
+        "transliteration": "mubâh",
+        "meaning_tr": "mubah",
+        "meaning_en": "permissible",
+        "definition": "Yapılması veya yapılmaması serbest olan eylem"
+      },
+      {
+        "word": "مَكْرُوه",
+        "transliteration": "mekrûh",
+        "meaning_tr": "mekruh",
+        "meaning_en": "disliked",
+        "definition": "Yapılmaması tercih edilen eylem"
+      },
+      {
+        "word": "حَرَام",
+        "transliteration": "harâm",
+        "meaning_tr": "haram",
+        "meaning_en": "forbidden",
+        "definition": "Yapılması yasak olan eylem",
+        "root": "ح ر م"
+      },
+      {
+        "word": "حَلَال",
+        "transliteration": "halâl",
+        "meaning_tr": "helal",
+        "meaning_en": "lawful",
+        "definition": "Yapılması veya yenilmesi caiz olan şey",
+        "root": "ح ل ل"
+      },
+      {
+        "word": "الطَّهَارَة",
+        "transliteration": "et-tahâra",
+        "meaning_tr": "taharet (temizlik)",
+        "meaning_en": "ritual purity",
+        "definition": "İbadet için gerekli temizlik",
+        "root": "ط هـ ر"
+      },
+      {
+        "word": "الوُضُوء",
+        "transliteration": "el-vudû'",
+        "meaning_tr": "abdest",
+        "meaning_en": "ablution",
+        "definition": "Namaz için yapılan temizlik",
+        "root": "و ض أ"
+      },
+      {
+        "word": "الغُسْل",
+        "transliteration": "el-ğusl",
+        "meaning_tr": "gusül",
+        "meaning_en": "full ritual bath",
+        "definition": "Cünüplük vb. için yapılan boy abdesti",
+        "root": "غ س ل"
+      },
+      {
+        "word": "التَّيَمُّم",
+        "transliteration": "et-teyemmüm",
+        "meaning_tr": "teyemmüm",
+        "meaning_en": "dry ablution",
+        "definition": "Su olmadığında toprakla yapılan temizlik",
+        "root": "ي م م"
+      },
+      {
+        "word": "الصَّلَاة",
+        "transliteration": "es-salât",
+        "meaning_tr": "namaz",
+        "meaning_en": "prayer",
+        "definition": "Günde beş vakit yapılan ibadet",
+        "root": "ص ل و"
+      },
+      {
+        "word": "الزَّكَاة",
+        "transliteration": "ez-zekât",
+        "meaning_tr": "zekat",
+        "meaning_en": "obligatory charity",
+        "definition": "Malın belli oranının fakirlere verilmesi",
+        "root": "ز ك و"
+      },
+      {
+        "word": "الصَّوْم / الصِّيَام",
+        "transliteration": "es-savm / es-sıyâm",
+        "meaning_tr": "oruç",
+        "meaning_en": "fasting",
+        "definition": "Ramazan'da imsak ile iftar arası yeme içmeden kesilme",
+        "root": "ص و م"
+      },
+      {
+        "word": "الحَجّ",
+        "transliteration": "el-hacc",
+        "meaning_tr": "hac",
+        "meaning_en": "pilgrimage",
+        "definition": "Mekke'ye yapılan farz ziyaret",
+        "root": "ح ج ج"
+      },
+      {
+        "word": "العُمْرَة",
+        "transliteration": "el-'umra",
+        "meaning_tr": "umre",
+        "meaning_en": "minor pilgrimage",
+        "definition": "Hac dışında yapılan Mekke ziyareti",
+        "root": "ع م ر"
+      }
+    ]
+  },
+  {
+    "category": "عِلْمُ العَقِيدَة | Akaid İlmi",
+    "type": "islamic_terms",
+    "items": [
+      {
+        "word": "العَقِيدَة",
+        "transliteration": "el-'akîde",
+        "meaning_tr": "akaid, inanç esasları",
+        "meaning_en": "creed, belief",
+        "definition": "İslam'ın iman esaslarını inceleyen ilim",
+        "root": "ع ق د"
+      },
+      {
+        "word": "التَّوْحِيد",
+        "transliteration": "et-tevhîd",
+        "meaning_tr": "tevhid",
+        "meaning_en": "monotheism, oneness of God",
+        "definition": "Allah'ın birliğine iman",
+        "root": "و ح د"
+      },
+      {
+        "word": "الإِيمَان",
+        "transliteration": "el-îmân",
+        "meaning_tr": "iman",
+        "meaning_en": "faith",
+        "definition": "Kalp ile tasdik, dil ile ikrar",
+        "root": "أ م ن"
+      },
+      {
+        "word": "الكُفْر",
+        "transliteration": "el-küfr",
+        "meaning_tr": "küfür",
+        "meaning_en": "disbelief",
+        "definition": "İman esaslarını inkar etme",
+        "root": "ك ف ر"
+      },
+      {
+        "word": "الشِّرْك",
+        "transliteration": "eş-şirk",
+        "meaning_tr": "şirk",
+        "meaning_en": "polytheism",
+        "definition": "Allah'a ortak koşma",
+        "root": "ش ر ك"
+      },
+      {
+        "word": "النُّبُوَّة",
+        "transliteration": "en-nübüvve",
+        "meaning_tr": "nübüvvet",
+        "meaning_en": "prophethood",
+        "definition": "Peygamberlik müessesesi",
+        "root": "ن ب أ"
+      },
+      {
+        "word": "الرِّسَالَة",
+        "transliteration": "er-risâle",
+        "meaning_tr": "risalet",
+        "meaning_en": "messengership",
+        "definition": "Elçilik, peygamberlik görevi",
+        "root": "ر س ل"
+      },
+      {
+        "word": "المَلَائِكَة",
+        "transliteration": "el-melâike",
+        "meaning_tr": "melekler",
+        "meaning_en": "angels",
+        "definition": "Nurdan yaratılmış varlıklar",
+        "root": "م ل ك"
+      },
+      {
+        "word": "الكُتُب السَّمَاوِيَّة",
+        "transliteration": "el-kütubu's-semâviyye",
+        "meaning_tr": "semavi kitaplar",
+        "meaning_en": "divine books",
+        "definition": "Allah'ın indirdiği kitaplar"
+      },
+      {
+        "word": "اليَوْمُ الآخِر",
+        "transliteration": "el-yevmu'l-âhir",
+        "meaning_tr": "ahiret günü",
+        "meaning_en": "the Last Day",
+        "definition": "Kıyamet ve sonrası"
+      },
+      {
+        "word": "القَضَاء وَالقَدَر",
+        "transliteration": "el-kadâ ve'l-kader",
+        "meaning_tr": "kaza ve kader",
+        "meaning_en": "divine decree and predestination",
+        "definition": "Allah'ın takdiri ve hükmü"
+      },
+      {
+        "word": "البَعْث",
+        "transliteration": "el-ba's",
+        "meaning_tr": "ba's (diriliş)",
+        "meaning_en": "resurrection",
+        "definition": "Öldükten sonra dirilme",
+        "root": "ب ع ث"
+      },
+      {
+        "word": "الحِسَاب",
+        "transliteration": "el-hisâb",
+        "meaning_tr": "hesap",
+        "meaning_en": "reckoning",
+        "definition": "Ahirette amellerin hesaba çekilmesi",
+        "root": "ح س ب"
+      },
+      {
+        "word": "الجَنَّة",
+        "transliteration": "el-cenne",
+        "meaning_tr": "cennet",
+        "meaning_en": "paradise",
+        "definition": "Müminlerin ebedi mükafat yeri",
+        "root": "ج ن ن"
+      },
+      {
+        "word": "النَّار / جَهَنَّم",
+        "transliteration": "en-nâr / cehennem",
+        "meaning_tr": "cehennem",
+        "meaning_en": "hellfire",
+        "definition": "Kafirlerin ceza yeri"
+      }
+    ]
+  },
+  {
+    "category": "مُصْطَلَحَاتُ التَّصَوُّف | Tasavvuf Terimleri",
+    "type": "islamic_terms",
+    "items": [
+      {
+        "word": "التَّصَوُّف",
+        "transliteration": "et-tasavvuf",
+        "meaning_tr": "tasavvuf",
+        "meaning_en": "Islamic mysticism/Sufism",
+        "definition": "Kalp ve nefis terbiyesi ilmi",
+        "root": "ص و ف"
+      },
+      {
+        "word": "التَّزْكِيَة",
+        "transliteration": "et-tezkiye",
+        "meaning_tr": "tezkiye",
+        "meaning_en": "purification of soul",
+        "definition": "Nefsi kötü ahlaktan arındırma",
+        "root": "ز ك و"
+      },
+      {
+        "word": "الإِخْلَاص",
+        "transliteration": "el-ihlâs",
+        "meaning_tr": "ihlas",
+        "meaning_en": "sincerity",
+        "definition": "Ameli sadece Allah için yapma",
+        "root": "خ ل ص"
+      },
+      {
+        "word": "التَّقْوَى",
+        "transliteration": "et-takvâ",
+        "meaning_tr": "takva",
+        "meaning_en": "God-consciousness, piety",
+        "definition": "Allah'tan sakınma, günah ve haramdan korunma",
+        "root": "و ق ي"
+      },
+      {
+        "word": "التَّوْبَة",
+        "transliteration": "et-tevbe",
+        "meaning_tr": "tövbe",
+        "meaning_en": "repentance",
+        "definition": "Günahtan dönüp Allah'a yönelme",
+        "root": "ت و ب"
+      },
+      {
+        "word": "الصَّبْر",
+        "transliteration": "es-sabr",
+        "meaning_tr": "sabır",
+        "meaning_en": "patience",
+        "definition": "Zorluklara dayanma, nefsi tutma",
+        "root": "ص ب ر"
+      },
+      {
+        "word": "الشُّكْر",
+        "transliteration": "eş-şükr",
+        "meaning_tr": "şükür",
+        "meaning_en": "gratitude",
+        "definition": "Nimete karşı minnet duyma",
+        "root": "ش ك ر"
+      },
+      {
+        "word": "الذِّكْر",
+        "transliteration": "ez-zikr",
+        "meaning_tr": "zikir",
+        "meaning_en": "remembrance of God",
+        "definition": "Allah'ı anma",
+        "root": "ذ ك ر"
+      },
+      {
+        "word": "المُرَاقَبَة",
+        "transliteration": "el-murâkabe",
+        "meaning_tr": "murakabe",
+        "meaning_en": "self-vigilance",
+        "definition": "Nefsi Allah için gözetleme",
+        "root": "ر ق ب"
+      },
+      {
+        "word": "المَحَبَّة",
+        "transliteration": "el-mahabbe",
+        "meaning_tr": "muhabbet",
+        "meaning_en": "divine love",
+        "definition": "Allah ve Rasul sevgisi",
+        "root": "ح ب ب"
+      }
+    ]
+  }
+]

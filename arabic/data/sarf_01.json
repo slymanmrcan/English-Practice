@@ -1,0 +1,334 @@
+[
+  {
+    "topic": "الميزان الصرفي | Sarf Terazisi",
+    "level": "A2",
+    "category": "sarf",
+    "description": "Arapça kelimelerin yapısını analiz etmek için kullanılan ölçü sistemi. Kök harfler ف-ع-ل ile temsil edilir.",
+    "pattern": "فَعَلَ terazisi: ف=1. kök harf, ع=2. kök harf, ل=3. kök harf",
+    "examples": [
+      "كَتَبَ → فَعَلَ (ك=ف، ت=ع، ب=ل)",
+      "ضَرَبَ → فَعَلَ (ض=ف، ر=ع، ب=ل)",
+      "كَاتِب → فَاعِل (ism-i fail vezni)",
+      "مَكْتُوب → مَفْعُول (ism-i mef'ul vezni)",
+      "كِتَاب → فِعَال (mastar vezni)",
+      "مَكْتَب → مَفْعَل (ism-i mekan vezni)",
+      "تَكَاتُب → تَفَاعُل (Form VI mastar)",
+      "اِسْتِخْرَاج → اِسْتِفْعَال (Form X mastar)"
+    ],
+    "tips": [
+      "Asıl harfler (ف ع ل) kök harfleri temsil eder",
+      "Ek harfler (سألتمونيها) zaid (eklenen) harflerdir",
+      "Terazi, kelimenin hangi kalıptan geldiğini gösterir",
+      "Rubai (4 harfli) kökler için: فَعْلَلَ"
+    ],
+    "mistakes": [
+      "Zaid harfleri kök harfi sanmak: مَكْتُوب'daki م zaid'dir, kök değil",
+      "Her kelimenin 3 harfli olduğunu sanmak - bazı kökler 4 harflidir"
+    ],
+    "note": "Mizan'ı bilmek sözlük kullanmayı ve kelime türetmeyi kolaylaştırır."
+  },
+  {
+    "topic": "الفعل الثلاثي المجرد | Sülasi Mücerred (Form I)",
+    "level": "A2",
+    "category": "sarf",
+    "description": "Üç harfli kökten oluşan, ek almamış temel fiil. Arapça'nın en yaygın fiil türü.",
+    "pattern": "6 temel vezin: فَعَلَ-يَفْعُلُ، فَعَلَ-يَفْعِلُ، فَعَلَ-يَفْعَلُ، فَعِلَ-يَفْعَلُ، فَعُلَ-يَفْعُلُ، فَعِلَ-يَفْعِلُ",
+    "examples": [
+      "نَصَرَ-يَنْصُرُ (فَعَلَ-يَفْعُلُ) - yardım etti/ediyor",
+      "ضَرَبَ-يَضْرِبُ (فَعَلَ-يَفْعِلُ) - vurdu/vuruyor",
+      "فَتَحَ-يَفْتَحُ (فَعَلَ-يَفْعَلُ) - açtı/açıyor (boğaz harfi varsa)",
+      "عَلِمَ-يَعْلَمُ (فَعِلَ-يَفْعَلُ) - bildi/biliyor",
+      "كَرُمَ-يَكْرُمُ (فَعُلَ-يَفْعُلُ) - cömert oldu (sıfat fiilleri)",
+      "حَسِبَ-يَحْسِبُ (فَعِلَ-يَفْعِلُ) - sandı/sanıyor"
+    ],
+    "tips": [
+      "Mazi'deki hareke muzari'yi tahmin ettirir ama her zaman değil",
+      "فَعُلَ vezni genellikle sıfat bildiren fiiller içindir (lazım fiil)",
+      "Boğaz harfi (ح خ ع غ ه أ) olan fiiller genelde فَعَلَ-يَفْعَلُ veznindedir",
+      "Muzari veznini sözlükten öğrenmek gerekir"
+    ],
+    "mistakes": [
+      "Her فَعَلَ'in muzarisini يَفْعُلُ sanmak",
+      "Lazım-müteaddi ayrımını görmezden gelmek"
+    ],
+    "note": "Sülasi mücerred fiillerin 6 babı vardır. Her fiilin hangi babdan olduğu ezberlenir."
+  },
+  {
+    "topic": "الأفعال المزيدة | Mezid Fiiller (Form II-X)",
+    "level": "B1",
+    "category": "sarf",
+    "description": "Sülasi köke harf eklenerek türetilen fiiller. Her formun kendine özgü anlam kalıpları vardır.",
+    "pattern": "Form II: فَعَّلَ | Form III: فَاعَلَ | Form IV: أَفْعَلَ | Form V: تَفَعَّلَ | Form VI: تَفَاعَلَ | Form VII: اِنْفَعَلَ | Form VIII: اِفْتَعَلَ | Form X: اِسْتَفْعَلَ",
+    "examples": [
+      "II فَعَّلَ: عَلَّمَ (öğretti) ← عَلِمَ | كَسَّرَ (parçaladı) ← كَسَرَ [yoğunlaştırma/geçişli]",
+      "III فَاعَلَ: كَاتَبَ (yazıştı) ← كَتَبَ | قَاتَلَ (savaştı) ← قَتَلَ [karşılıklı]",
+      "IV أَفْعَلَ: أَخْرَجَ (çıkardı) ← خَرَجَ | أَسْلَمَ (teslim oldu) ← سَلِمَ [geçişli]",
+      "V تَفَعَّلَ: تَعَلَّمَ (öğrendi) ← عَلَّمَ | تَكَسَّرَ (parçalandı) ← كَسَّرَ [dönüşlü-II]",
+      "VI تَفَاعَلَ: تَقَاتَلُوا (birbirleriyle savaştı) | تَصَالَحُوا (barıştılar) [karşılıklı dönüşlü]",
+      "VII اِنْفَعَلَ: اِنْكَسَرَ (kırıldı) | اِنْفَتَحَ (açıldı) [edilgen/mutavaat]",
+      "VIII اِفْتَعَلَ: اِجْتَمَعَ (toplandı) | اِكْتَسَبَ (kazandı) [dönüşlü/müşareket]",
+      "X اِسْتَفْعَلَ: اِسْتَغْفَرَ (af diledi) | اِسْتَخْرَجَ (çıkardı) [talep/kabul]"
+    ],
+    "tips": [
+      "Form II ve IV lazım fiili müteaddi yapar",
+      "Form V = Form II'nin dönüşlüsü, Form VI = Form III'ün dönüşlüsü",
+      "Form VII boğaz harfiyle başlayan köklerden yapılmaz",
+      "Form IX sadece renk/kusur için: اِحْمَرَّ (kızardı), اِعْوَرَّ (tek gözlü oldu)"
+    ],
+    "mistakes": [
+      "Her kökün tüm formlarda kullanıldığını sanmak",
+      "Form anlamlarını mutlak kabul etmek - istisnalar var"
+    ],
+    "note": "Her formun düzenli mastarı, ism-i faili ve ism-i mef'ulü vardır."
+  },
+  {
+    "topic": "المصادر | Mastarlar",
+    "level": "B1",
+    "category": "sarf",
+    "description": "Fiilin isim hali. Eylemi zaman belirtmeden soyut olarak ifade eder.",
+    "pattern": "Sülasi mastarlar düzensiz (سماعي), mezid mastarlar düzenli (قياسي)",
+    "examples": [
+      "فَعْل: ضَرْب (vurma), فَتْح (açma)",
+      "فِعْل: عِلْم (ilim), ذِكْر (zikir)",
+      "فُعْل: شُكْر (şükür), حُكْم (hüküm)",
+      "فَعَل: طَلَب (talep), عَمَل (amel)",
+      "فِعَال: كِتَاب (yazı), جِهَاد (cihad)",
+      "فِعَالَة: كِتَابَة (yazma), قِرَاءَة (okuma)",
+      "فُعُول: دُخُول (giriş), خُرُوج (çıkış)",
+      "تَفْعِيل: تَعْلِيم (Form II mastarı)",
+      "مُفَاعَلَة/فِعَال: مُكَاتَبَة (Form III mastarı)",
+      "إِفْعَال: إِخْرَاج (Form IV mastarı)",
+      "تَفَعُّل: تَعَلُّم (Form V mastarı)",
+      "تَفَاعُل: تَقَاتُل (Form VI mastarı)",
+      "اِنْفِعَال: اِنْكِسَار (Form VII mastarı)",
+      "اِفْتِعَال: اِجْتِمَاع (Form VIII mastarı)",
+      "اِسْتِفْعَال: اِسْتِغْفَار (Form X mastarı)"
+    ],
+    "tips": [
+      "Sülasi mastarlar ezberlenir - kuralsızdır",
+      "Mezid mastarlar kurallıdır - formdan türetilir",
+      "Bazı fiillerin birden fazla mastarı olabilir: عَمِلَ → عَمَل، عَمَالَة",
+      "Mastar isim gibi i'rab alır, izafete girer"
+    ],
+    "mistakes": [
+      "Sülasi mastarları kalıptan türetmeye çalışmak",
+      "Mastarı fiil gibi çekmeye çalışmak"
+    ],
+    "note": "Mastar, isim tamlamasında muzafun ileyh veya muzaf olabilir: كِتَابَةُ الرِّسَالَةِ (mektup yazma)"
+  },
+  {
+    "topic": "اسم الفاعل | İsm-i Fail",
+    "level": "B1",
+    "category": "sarf",
+    "description": "Eylemi yapan kişi/şeyi gösteren isim. Türkçe'deki '-an/-en' eki gibi.",
+    "pattern": "Sülasi: فَاعِل | Mezid: مُـ ile başlar, ayn harfi kesralı",
+    "examples": [
+      "كَتَبَ → كَاتِب (yazan, yazar)",
+      "عَلِمَ → عَالِم (bilen, alim)",
+      "قَرَأَ → قَارِئ (okuyan, okuyucu)",
+      "سَافَرَ → مُسَافِر (seyahat eden, yolcu)",
+      "عَلَّمَ → مُعَلِّم (öğreten, öğretmen) [Form II]",
+      "أَسْلَمَ → مُسْلِم (teslim olan, Müslüman) [Form IV]",
+      "اِجْتَهَدَ → مُجْتَهِد (çabalayan, müçtehit) [Form VIII]",
+      "اِسْتَغْفَرَ → مُسْتَغْفِر (af dileyen) [Form X]"
+    ],
+    "tips": [
+      "Sülasi ism-i fail: فَاعِل vezninde",
+      "Mezid ism-i fail: Muzari'nin başına مُ, ayn harfine kesra",
+      "İsm-i fail sıfat olarak kullanılır: رَجُلٌ عَالِمٌ (bilgin adam)",
+      "İsm-i fail isim olarak kullanılır: جَاءَ الكَاتِبُ (yazar geldi)"
+    ],
+    "mistakes": [
+      "Mezid ism-i failde ayn harfini fetha ile okumak (o mef'ul olur)",
+      "İsm-i faili sadece sıfat sanmak"
+    ],
+    "note": "İsm-i fail bazen fiil gibi amel eder: أَنَا قَارِئٌ كِتَابًا (kitap okuyorum)"
+  },
+  {
+    "topic": "اسم المفعول | İsm-i Mef'ul",
+    "level": "B1",
+    "category": "sarf",
+    "description": "Eylemin kendisine yapıldığı kişi/şeyi gösteren isim. Türkçe'deki '-ılmış/-ilmiş' eki gibi.",
+    "pattern": "Sülasi: مَفْعُول | Mezid: مُـ ile başlar, ayn harfi fetha'lı",
+    "examples": [
+      "كَتَبَ → مَكْتُوب (yazılmış)",
+      "عَلِمَ → مَعْلُوم (bilinen, malum)",
+      "فَتَحَ → مَفْتُوح (açılmış)",
+      "أَكَلَ → مَأْكُول (yenilmiş, yenilen)",
+      "عَلَّمَ → مُعَلَّم (öğretilmiş) [Form II]",
+      "أَرْسَلَ → مُرْسَل (gönderilmiş) [Form IV]",
+      "اِسْتَخْرَجَ → مُسْتَخْرَج (çıkarılmış) [Form X]"
+    ],
+    "tips": [
+      "Sülasi ism-i mef'ul: مَفْعُول vezninde",
+      "Mezid ism-i mef'ul: Muzari'nin başına مُ, ayn harfine fetha",
+      "Lazım fiillerin ism-i mef'ulü olmaz (genellikle)",
+      "Bazı ism-i mef'uller kalıplaşmış isim olmuştur: مَكْتُوب (mektup)"
+    ],
+    "mistakes": [
+      "Mezid ism-i mef'ulde ayn harfini kesra ile okumak (o fail olur)",
+      "Lazım fiilden ism-i mef'ul türetmeye çalışmak"
+    ],
+    "note": "مُعَلِّم (öğretmen) vs مُعَلَّم (öğretilen) - kesra/fetha farkı anlam değiştirir."
+  },
+  {
+    "topic": "اسم المكان والزمان | İsm-i Mekan ve Zaman",
+    "level": "B1",
+    "category": "sarf",
+    "description": "Eylemin yapıldığı yer veya zamanı gösteren isimler.",
+    "pattern": "مَفْعَل veya مَفْعِل | Muzarisi يَفْعِلُ olanlar مَفْعِل, diğerleri مَفْعَل",
+    "examples": [
+      "كَتَبَ-يَكْتُبُ → مَكْتَب (yazı yazılan yer, ofis)",
+      "سَجَدَ-يَسْجُدُ → مَسْجِد (secde edilen yer, mescit)",
+      "طَبَخَ-يَطْبُخُ → مَطْبَخ (pişirilen yer, mutfak)",
+      "دَخَلَ-يَدْخُلُ → مَدْخَل (giriş yeri)",
+      "خَرَجَ-يَخْرُجُ → مَخْرَج (çıkış yeri)",
+      "وَلَدَ-يَلِدُ → مَوْلِد (doğum yeri/zamanı)",
+      "وَعَدَ-يَعِدُ → مَوْعِد (vaat yeri/zamanı, randevu)"
+    ],
+    "tips": [
+      "Muzarisi يَفْعِلُ olanlar مَفْعِل alır: جَلَسَ-يَجْلِسُ → مَجْلِس",
+      "Muzarisi يَفْعُلُ veya يَفْعَلُ olanlar مَفْعَل alır",
+      "Aynı kelime hem mekan hem zaman ifade edebilir: مَوْعِد (randevu yeri/zamanı)",
+      "Bazı ism-i mekanlar مَفْعَلَة veznindedir: مَكْتَبَة (kütüphane)"
+    ],
+    "mistakes": [
+      "مَسْجِد'i مَسْجَد okumak",
+      "Her ism-i mekanın مَفْعَل olduğunu sanmak"
+    ],
+    "note": "Ecvef ve nakıs fiillerde özel değişiklikler olur: قَالَ → مَقَال، رَمَى → مَرْمَى"
+  },
+  {
+    "topic": "اسم الآلة | İsm-i Alet",
+    "level": "B1",
+    "category": "sarf",
+    "description": "Eylemin kendisiyle yapıldığı alet/aracı gösteren isimler.",
+    "pattern": "مِفْعَل، مِفْعَال، مِفْعَلَة",
+    "examples": [
+      "فَتَحَ → مِفْتَاح (açan şey, anahtar)",
+      "قَصَّ → مِقَصّ (kesen şey, makas)",
+      "نَشَرَ → مِنْشَار (testere)",
+      "كَنَسَ → مِكْنَسَة (süpürge)",
+      "طَرَقَ → مِطْرَقَة (çekiç)",
+      "غَسَلَ → مِغْسَلَة (lavabo)",
+      "صَعِدَ → مِصْعَد (asansör)",
+      "كَوَى → مِكْوَاة (ütü)"
+    ],
+    "tips": [
+      "En yaygın vezinler: مِفْعَل، مِفْعَال، مِفْعَلَة",
+      "Modern araçlar genellikle farklı kalıplara girer",
+      "Bazı alet isimleri فَعَّالَة veznindedir: غَسَّالَة (çamaşır makinesi), ثَلَّاجَة (buzdolabı)"
+    ],
+    "mistakes": [
+      "مِفْتَاح'ı مَفْتَاح okumak (mim kesralı olmalı)",
+      "Modern aletlerin hepsinin bu kalıpta olduğunu sanmak"
+    ],
+    "note": "Modern dilde فَعَّالَة kalıbı makine ve cihazlar için yaygınlaşmıştır."
+  },
+  {
+    "topic": "الفعل المعتل | İlletli Fiiller",
+    "level": "B1",
+    "category": "sarf",
+    "description": "Kökünde illet harfi (و، ي، ا) bulunan fiiller. Çekimde özel değişiklikler gösterir.",
+    "pattern": "Misal: وَعَدَ (و başta) | Ecvef: قَالَ (و/ي ortada) | Nakıs: دَعَا (و/ي sonda) | Lefif: وَفَى (iki illet)",
+    "examples": [
+      "مثال واوي - وَعَدَ-يَعِدُ (vaat etti): و düşer → لَمْ يَعِدْ",
+      "مثال يائي - يَسَّرَ-يُيَسِّرُ (kolaylaştırdı)",
+      "أجوف واوي - قَالَ-يَقُولُ (dedi): قُلْتُ، قَالُوا، قُلْ",
+      "أجوف يائي - بَاعَ-يَبِيعُ (sattı): بِعْتُ، بَاعُوا، بِعْ",
+      "ناقص واوي - دَعَا-يَدْعُو (çağırdı): دَعَوْتُ، اُدْعُ",
+      "ناقص يائي - رَمَى-يَرْمِي (attı): رَمَيْتُ، اِرْمِ",
+      "لفيف مقرون - رَوَى-يَرْوِي (rivayet etti)",
+      "لفيف مفروق - وَفَى-يَفِي (vefa etti)"
+    ],
+    "tips": [
+      "İlletli fiillerde illet harfi harekesine göre değişir veya düşer",
+      "Ecvef fiillerde elif aslında و veya ي'dir: قَالَ aslı قَوَلَ",
+      "Nakıs fiillerde muzari sonundaki و/ي bazı durumlarda düşer",
+      "Emir siygasında değişiklikler olur: قَالَ → قُلْ، رَمَى → اِرْمِ"
+    ],
+    "mistakes": [
+      "قُلْتُ'u قَالْتُ okumak",
+      "يَدْعُونَ'u nakıs sanmak (sahih çoğul)"
+    ],
+    "note": "İlletli fiillerin sarf kuralları ayrı ve detaylı çalışılmalıdır."
+  },
+  {
+    "topic": "الفعل المهموز | Hemzeli Fiiller",
+    "level": "B1",
+    "category": "sarf",
+    "description": "Kökünde hemze (ء) bulunan fiiller. Hemze konum ve harekesine göre yazımı değişir.",
+    "pattern": "Hemze fa'da: أَخَذَ | Hemze ayn'da: سَأَلَ | Hemze lam'da: قَرَأَ",
+    "examples": [
+      "أَكَلَ-يَأْكُلُ (yedi): آكُلُ (أَأْكُلُ → آكُلُ)",
+      "أَخَذَ-يَأْخُذُ (aldı): خُذْ (emir - hemze düştü)",
+      "أَمَرَ-يَأْمُرُ (emretti): مُرْ (emir)",
+      "سَأَلَ-يَسْأَلُ (sordu): سَلْ veya اِسْأَلْ (emir)",
+      "قَرَأَ-يَقْرَأُ (okudu): اِقْرَأْ (emir)",
+      "بَدَأَ-يَبْدَأُ (başladı): اِبْدَأْ (emir)",
+      "مَلَأَ-يَمْلَأُ (doldurdu): اِمْلَأْ (emir)"
+    ],
+    "tips": [
+      "İki hemze yan yana gelince: أَأْ → آ (medli elif)",
+      "Hemze fa'da olup muzarisi يَفْعُلُ ise emir tek harfle olur: خُذْ، كُلْ، مُرْ",
+      "Hemze harekesine ve önceki harfin harekesine göre كرسي belirlenir",
+      "Hemze lam'da ise genellikle değişmez: قَرَأَ → اِقْرَأْ"
+    ],
+    "mistakes": [
+      "أَأْكُلُ yazmak (آكُلُ olmalı)",
+      "Her hemzeli fiilin emirinin tek harf olduğunu sanmak"
+    ],
+    "note": "Hemze kuralları karışık görünür ama mantıklı ses kurallarına dayanır."
+  },
+  {
+    "topic": "الفعل المضعف | Mudaaf Fiiller",
+    "level": "B1",
+    "category": "sarf",
+    "description": "Ayn ve lam harfi aynı olan fiiller (ك ت ت gibi köklerde). Çekimde idğam (birleştirme) olur.",
+    "pattern": "فَعَّ - مَدَّ (uzattı), شَدَّ (sıktı), رَدَّ (geri verdi)",
+    "examples": [
+      "مَدَّ-يَمُدُّ (uzattı): مَدَدْتُ، مُدَّ، لَمْ يَمُدَّ",
+      "رَدَّ-يَرُدُّ (geri verdi): رَدَدْتُ، رُدَّ",
+      "شَدَّ-يَشُدُّ (sıktı): شَدَدْتُ، شُدَّ",
+      "حَبَّ-يُحِبُّ → أَحَبَّ-يُحِبُّ (sevdi) [Form IV]",
+      "اِهْتَمَّ-يَهْتَمُّ (ilgilendi) [Form VIII]",
+      "اِسْتَمَرَّ-يَسْتَمِرُّ (devam etti) [Form X]"
+    ],
+    "tips": [
+      "Mazi 1. şahısta idğam çözülür: مَدَّ → مَدَدْتُ",
+      "Muzari meczumda idğam çözülebilir: لَمْ يَمُدَّ veya لَمْ يَمْدُدْ",
+      "Emir: شُدَّ (sık), مُدَّ (uzat) - şeddeli",
+      "Mezid kalıplarda da aynı kural geçerli"
+    ],
+    "mistakes": [
+      "مَدَّ'yi مَدَدَ gibi okumak",
+      "Her zaman idğamı çözmek"
+    ],
+    "note": "İdğam, aynı iki harfin birleşip şeddeli okunmasıdır."
+  },
+  {
+    "topic": "صيغ المبالغة | Mübalağa Sıygaları",
+    "level": "B2",
+    "category": "sarf",
+    "description": "Eylemi çok yapan veya sürekli yapan kişiyi ifade eden kalıplar.",
+    "pattern": "فَعَّال، فَعُول، فَعِيل، مِفْعَال، فَعِل",
+    "examples": [
+      "فَعَّال: كَذَّاب (çok yalancı), أَكَّال (çok yiyen), قَتَّال (çok öldüren)",
+      "فَعُول: صَبُور (çok sabreden), شَكُور (çok şükreden), غَفُور (çok bağışlayan)",
+      "فَعِيل: عَلِيم (çok bilen), رَحِيم (çok merhametli), سَمِيع (çok işiten)",
+      "مِفْعَال: مِقْدَام (çok cesur), مِعْطَاء (çok veren), مِهْذَار (çok konuşan)",
+      "فَعِل: حَذِر (çok dikkatli), فَطِن (çok zeki)"
+    ],
+    "tips": [
+      "فَعَّال ve فَعُول en yaygın mübalağa kalıplarıdır",
+      "Allah'ın isimlerinde (Esma-ül Hüsna) sık kullanılır: الغَفَّار، الغَفُور، الرَّحِيم",
+      "İsm-i failden daha güçlü anlam taşır: عَالِم (bilen) vs عَلِيم (çok bilen)",
+      "Bazıları sıfat olarak kalıplaşmıştır"
+    ],
+    "mistakes": [
+      "Her mübalağa sıygasını normal sıfat gibi kullanmak",
+      "Mübalağa kalıplarını ism-i fail sanmak"
+    ],
+    "note": "Kur'an'da Allah'ın sıfatları için mübalağa sıygaları tercih edilir."
+  }
+]

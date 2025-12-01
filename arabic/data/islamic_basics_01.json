@@ -1,0 +1,530 @@
+[
+  {
+    "category": "أَرْكَانُ الإِسْلَام | İslam'ın Şartları",
+    "type": "islamic_basics",
+    "items": [
+      {
+        "word": "الشَّهَادَة",
+        "transliteration": "eş-şehâde",
+        "meaning_tr": "şehadet (kelime-i şehadet)",
+        "meaning_en": "testimony of faith",
+        "text": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ",
+        "translation": "Şehadet ederim ki Allah'tan başka ilah yoktur ve şehadet ederim ki Muhammed Allah'ın elçisidir",
+        "root": "ش هـ د"
+      },
+      {
+        "word": "الصَّلَاة",
+        "transliteration": "es-salât",
+        "meaning_tr": "namaz",
+        "meaning_en": "prayer",
+        "times": ["الفَجْر (sabah)", "الظُّهْر (öğle)", "العَصْر (ikindi)", "المَغْرِب (akşam)", "العِشَاء (yatsı)"],
+        "root": "ص ل و"
+      },
+      {
+        "word": "الزَّكَاة",
+        "transliteration": "ez-zekât",
+        "meaning_tr": "zekat",
+        "meaning_en": "obligatory alms",
+        "definition": "Nisab miktarı mala sahip olanların yılda bir kez %2.5 vermesi",
+        "root": "ز ك و"
+      },
+      {
+        "word": "الصَّوْم",
+        "transliteration": "es-savm",
+        "meaning_tr": "oruç",
+        "meaning_en": "fasting",
+        "month": "رَمَضَان (Ramazan)",
+        "root": "ص و م"
+      },
+      {
+        "word": "الحَجّ",
+        "transliteration": "el-hacc",
+        "meaning_tr": "hac",
+        "meaning_en": "pilgrimage",
+        "condition": "Gücü yeten her Müslümana ömründe bir kez farz",
+        "root": "ح ج ج"
+      }
+    ]
+  },
+  {
+    "category": "أَرْكَانُ الإِيمَان | İmanın Şartları",
+    "type": "islamic_basics",
+    "items": [
+      {
+        "word": "الإِيمَانُ بِاللهِ",
+        "transliteration": "el-îmânu billâh",
+        "meaning_tr": "Allah'a iman",
+        "meaning_en": "belief in Allah",
+        "content": "Allah'ın varlığına, birliğine ve sıfatlarına iman"
+      },
+      {
+        "word": "الإِيمَانُ بِالمَلَائِكَةِ",
+        "transliteration": "el-îmânu bi'l-melâike",
+        "meaning_tr": "meleklere iman",
+        "meaning_en": "belief in angels",
+        "examples": ["جِبْرِيل (Cebrail)", "مِيكَائِيل (Mikail)", "إِسْرَافِيل (İsrafil)", "عِزْرَائِيل (Azrail)"]
+      },
+      {
+        "word": "الإِيمَانُ بِالكُتُبِ",
+        "transliteration": "el-îmânu bi'l-kutub",
+        "meaning_tr": "kitaplara iman",
+        "meaning_en": "belief in scriptures",
+        "examples": ["القُرْآن (Kur'an)", "التَّوْرَاة (Tevrat)", "الإِنْجِيل (İncil)", "الزَّبُور (Zebur)", "الصُّحُف (Suhuf)"]
+      },
+      {
+        "word": "الإِيمَانُ بِالرُّسُلِ",
+        "transliteration": "el-îmânu bi'r-rusul",
+        "meaning_tr": "peygamberlere iman",
+        "meaning_en": "belief in messengers",
+        "note": "Tüm peygamberlere iman, Hz. Muhammed (s.a.v.) son peygamberdir"
+      },
+      {
+        "word": "الإِيمَانُ بِاليَوْمِ الآخِرِ",
+        "transliteration": "el-îmânu bi'l-yevmi'l-âhir",
+        "meaning_tr": "ahiret gününe iman",
+        "meaning_en": "belief in the Last Day",
+        "content": "Kıyamet, haşr, hesap, cennet ve cehenneme iman"
+      },
+      {
+        "word": "الإِيمَانُ بِالقَدَرِ",
+        "transliteration": "el-îmânu bi'l-kader",
+        "meaning_tr": "kadere iman",
+        "meaning_en": "belief in divine decree",
+        "content": "Hayır ve şerrin Allah'tan olduğuna iman"
+      }
+    ]
+  },
+  {
+    "category": "أَسْمَاءُ اللهِ الحُسْنَى | Allah'ın Güzel İsimleri",
+    "type": "islamic_basics",
+    "items": [
+      {
+        "word": "الله",
+        "transliteration": "Allah",
+        "meaning_tr": "Allah (öz isim)",
+        "meaning_en": "God (proper name)"
+      },
+      {
+        "word": "الرَّحْمَن",
+        "transliteration": "er-Rahmân",
+        "meaning_tr": "çok merhametli",
+        "meaning_en": "The Most Gracious",
+        "root": "ر ح م"
+      },
+      {
+        "word": "الرَّحِيم",
+        "transliteration": "er-Rahîm",
+        "meaning_tr": "çok bağışlayan",
+        "meaning_en": "The Most Merciful",
+        "root": "ر ح م"
+      },
+      {
+        "word": "المَلِك",
+        "transliteration": "el-Melik",
+        "meaning_tr": "hükümdar, sahip",
+        "meaning_en": "The King",
+        "root": "م ل ك"
+      },
+      {
+        "word": "القُدُّوس",
+        "transliteration": "el-Kuddûs",
+        "meaning_tr": "mukaddes, pak",
+        "meaning_en": "The Holy",
+        "root": "ق د س"
+      },
+      {
+        "word": "السَّلَام",
+        "transliteration": "es-Selâm",
+        "meaning_tr": "selamet veren",
+        "meaning_en": "The Source of Peace",
+        "root": "س ل م"
+      },
+      {
+        "word": "المُؤْمِن",
+        "transliteration": "el-Mü'min",
+        "meaning_tr": "güven veren",
+        "meaning_en": "The Granter of Security",
+        "root": "أ م ن"
+      },
+      {
+        "word": "المُهَيْمِن",
+        "transliteration": "el-Müheymin",
+        "meaning_tr": "koruyucu, gözetleyici",
+        "meaning_en": "The Protector",
+        "root": "هـ ي م ن"
+      },
+      {
+        "word": "العَزِيز",
+        "transliteration": "el-'Azîz",
+        "meaning_tr": "güçlü, yenilmez",
+        "meaning_en": "The Mighty",
+        "root": "ع ز ز"
+      },
+      {
+        "word": "الجَبَّار",
+        "transliteration": "el-Cebbâr",
+        "meaning_tr": "zorlayıcı, düzeltici",
+        "meaning_en": "The Compeller",
+        "root": "ج ب ر"
+      },
+      {
+        "word": "المُتَكَبِّر",
+        "transliteration": "el-Mütekebbir",
+        "meaning_tr": "büyüklük sahibi",
+        "meaning_en": "The Supreme",
+        "root": "ك ب ر"
+      },
+      {
+        "word": "الخَالِق",
+        "transliteration": "el-Hâliq",
+        "meaning_tr": "yaratıcı",
+        "meaning_en": "The Creator",
+        "root": "خ ل ق"
+      },
+      {
+        "word": "البَارِئ",
+        "transliteration": "el-Bâri'",
+        "meaning_tr": "yaratan, var eden",
+        "meaning_en": "The Evolver",
+        "root": "ب ر أ"
+      },
+      {
+        "word": "المُصَوِّر",
+        "transliteration": "el-Musavvir",
+        "meaning_tr": "şekil veren",
+        "meaning_en": "The Fashioner",
+        "root": "ص و ر"
+      },
+      {
+        "word": "الغَفَّار",
+        "transliteration": "el-Ğaffâr",
+        "meaning_tr": "çok bağışlayan",
+        "meaning_en": "The Forgiving",
+        "root": "غ ف ر"
+      },
+      {
+        "word": "القَهَّار",
+        "transliteration": "el-Kahhâr",
+        "meaning_tr": "kahredici",
+        "meaning_en": "The Subduer",
+        "root": "ق هـ ر"
+      },
+      {
+        "word": "الوَهَّاب",
+        "transliteration": "el-Vehhâb",
+        "meaning_tr": "çok hibe eden",
+        "meaning_en": "The Bestower",
+        "root": "و هـ ب"
+      },
+      {
+        "word": "الرَّزَّاق",
+        "transliteration": "er-Razzâq",
+        "meaning_tr": "rızık veren",
+        "meaning_en": "The Provider",
+        "root": "ر ز ق"
+      },
+      {
+        "word": "الفَتَّاح",
+        "transliteration": "el-Fettâh",
+        "meaning_tr": "açan, fetih veren",
+        "meaning_en": "The Opener",
+        "root": "ف ت ح"
+      },
+      {
+        "word": "العَلِيم",
+        "transliteration": "el-'Alîm",
+        "meaning_tr": "her şeyi bilen",
+        "meaning_en": "The All-Knowing",
+        "root": "ع ل م"
+      },
+      {
+        "word": "السَّمِيع",
+        "transliteration": "es-Semî'",
+        "meaning_tr": "her şeyi işiten",
+        "meaning_en": "The All-Hearing",
+        "root": "س م ع"
+      },
+      {
+        "word": "البَصِير",
+        "transliteration": "el-Basîr",
+        "meaning_tr": "her şeyi gören",
+        "meaning_en": "The All-Seeing",
+        "root": "ب ص ر"
+      },
+      {
+        "word": "الحَكِيم",
+        "transliteration": "el-Hakîm",
+        "meaning_tr": "hikmet sahibi",
+        "meaning_en": "The Wise",
+        "root": "ح ك م"
+      },
+      {
+        "word": "الوَدُود",
+        "transliteration": "el-Vedûd",
+        "meaning_tr": "çok seven",
+        "meaning_en": "The Loving",
+        "root": "و د د"
+      },
+      {
+        "word": "الحَيّ",
+        "transliteration": "el-Hayy",
+        "meaning_tr": "diri, canlı",
+        "meaning_en": "The Ever-Living",
+        "root": "ح ي ي"
+      },
+      {
+        "word": "القَيُّوم",
+        "transliteration": "el-Kayyûm",
+        "meaning_tr": "kendi kendine kaim",
+        "meaning_en": "The Self-Subsisting",
+        "root": "ق و م"
+      },
+      {
+        "word": "الأَوَّل",
+        "transliteration": "el-Evvel",
+        "meaning_tr": "ilk (başlangıcı olmayan)",
+        "meaning_en": "The First",
+        "root": "أ و ل"
+      },
+      {
+        "word": "الآخِر",
+        "transliteration": "el-Âhir",
+        "meaning_tr": "son (sonu olmayan)",
+        "meaning_en": "The Last",
+        "root": "أ خ ر"
+      },
+      {
+        "word": "الظَّاهِر",
+        "transliteration": "ez-Zâhir",
+        "meaning_tr": "açık, zahir",
+        "meaning_en": "The Manifest",
+        "root": "ظ هـ ر"
+      },
+      {
+        "word": "البَاطِن",
+        "transliteration": "el-Bâtın",
+        "meaning_tr": "gizli, batın",
+        "meaning_en": "The Hidden",
+        "root": "ب ط ن"
+      },
+      {
+        "word": "الصَّمَد",
+        "transliteration": "es-Samed",
+        "meaning_tr": "hiçbir şeye muhtaç olmayan",
+        "meaning_en": "The Eternal Refuge",
+        "root": "ص م د"
+      }
+    ]
+  },
+  {
+    "category": "الصَّلَاة - أَجْزَاء | Namaz Terimleri",
+    "type": "islamic_basics",
+    "items": [
+      {
+        "word": "النِّيَّة",
+        "transliteration": "en-niyye",
+        "meaning_tr": "niyet",
+        "meaning_en": "intention"
+      },
+      {
+        "word": "تَكْبِيرَةُ الإِحْرَام",
+        "transliteration": "tekbîretu'l-ihrâm",
+        "meaning_tr": "iftitah tekbiri",
+        "meaning_en": "opening takbir"
+      },
+      {
+        "word": "القِيَام",
+        "transliteration": "el-kıyâm",
+        "meaning_tr": "kıyam (ayakta durma)",
+        "meaning_en": "standing"
+      },
+      {
+        "word": "القِرَاءَة",
+        "transliteration": "el-kırâ'e",
+        "meaning_tr": "kıraat (okuma)",
+        "meaning_en": "recitation"
+      },
+      {
+        "word": "الرُّكُوع",
+        "transliteration": "er-rukû'",
+        "meaning_tr": "rüku (eğilme)",
+        "meaning_en": "bowing",
+        "root": "ر ك ع"
+      },
+      {
+        "word": "السُّجُود",
+        "transliteration": "es-sücûd",
+        "meaning_tr": "secde",
+        "meaning_en": "prostration",
+        "root": "س ج د"
+      },
+      {
+        "word": "القُعُود",
+        "transliteration": "el-ku'ûd",
+        "meaning_tr": "oturuş (teşehhüd)",
+        "meaning_en": "sitting"
+      },
+      {
+        "word": "التَّشَهُّد",
+        "transliteration": "et-teşehhüd",
+        "meaning_tr": "teşehhüd (ettehiyyatü)",
+        "meaning_en": "testimony",
+        "root": "ش هـ د"
+      },
+      {
+        "word": "التَّسْلِيم",
+        "transliteration": "et-teslîm",
+        "meaning_tr": "selam verme",
+        "meaning_en": "salutation",
+        "root": "س ل م"
+      },
+      {
+        "word": "الرَّكْعَة",
+        "plural": "الرَّكَعَات",
+        "transliteration": "er-rek'a / er-reka'ât",
+        "meaning_tr": "rekat",
+        "meaning_en": "unit of prayer",
+        "root": "ر ك ع"
+      },
+      {
+        "word": "الفَاتِحَة",
+        "transliteration": "el-Fâtiha",
+        "meaning_tr": "Fatiha suresi",
+        "meaning_en": "Opening chapter",
+        "note": "Her rekatta okunması vacip"
+      },
+      {
+        "word": "سُبْحَانَ رَبِّيَ العَظِيم",
+        "transliteration": "subhâne rabbiye'l-'azîm",
+        "meaning_tr": "Yüce Rabbimi tesbih ederim",
+        "meaning_en": "Glory be to my Lord, the Almighty",
+        "usage": "Rükuda söylenir"
+      },
+      {
+        "word": "سُبْحَانَ رَبِّيَ الأَعْلَى",
+        "transliteration": "subhâne rabbiye'l-a'lâ",
+        "meaning_tr": "En yüce Rabbimi tesbih ederim",
+        "meaning_en": "Glory be to my Lord, the Most High",
+        "usage": "Secdede söylenir"
+      },
+      {
+        "word": "سَمِعَ اللهُ لِمَنْ حَمِدَهُ",
+        "transliteration": "semi'allâhu limen hamideh",
+        "meaning_tr": "Allah kendine hamd edeni işitir",
+        "meaning_en": "Allah hears those who praise Him",
+        "usage": "Rükudan kalkarken söylenir"
+      },
+      {
+        "word": "رَبَّنَا لَكَ الحَمْد",
+        "transliteration": "rabbenâ leke'l-hamd",
+        "meaning_tr": "Rabbimiz! Hamd sanadır",
+        "meaning_en": "Our Lord! Praise be to You",
+        "usage": "Rükudan kalktıktan sonra"
+      }
+    ]
+  },
+  {
+    "category": "الدُّعَاء | Dualar",
+    "type": "islamic_basics",
+    "items": [
+      {
+        "word": "بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ",
+        "transliteration": "bismillâhi'r-rahmâni'r-rahîm",
+        "meaning_tr": "Rahman ve Rahim olan Allah'ın adıyla",
+        "meaning_en": "In the name of Allah, the Most Gracious, the Most Merciful",
+        "usage": "Her işin başında"
+      },
+      {
+        "word": "الحَمْدُ للهِ",
+        "transliteration": "el-hamdulillâh",
+        "meaning_tr": "Allah'a hamd olsun",
+        "meaning_en": "Praise be to Allah",
+        "usage": "Nimet karşısında, hapşırdıktan sonra"
+      },
+      {
+        "word": "سُبْحَانَ الله",
+        "transliteration": "subhânallâh",
+        "meaning_tr": "Allah'ı tesbih ederim",
+        "meaning_en": "Glory be to Allah",
+        "usage": "Hayret, şaşkınlık, zikir"
+      },
+      {
+        "word": "اللهُ أَكْبَر",
+        "transliteration": "Allâhu ekber",
+        "meaning_tr": "Allah en büyüktür",
+        "meaning_en": "Allah is the Greatest",
+        "usage": "Tekbir, namazda"
+      },
+      {
+        "word": "لَا إِلَهَ إِلَّا الله",
+        "transliteration": "lâ ilâhe illallâh",
+        "meaning_tr": "Allah'tan başka ilah yoktur",
+        "meaning_en": "There is no god but Allah",
+        "usage": "Tehlil, zikir"
+      },
+      {
+        "word": "أَسْتَغْفِرُ الله",
+        "transliteration": "estağfirullâh",
+        "meaning_tr": "Allah'tan bağışlanma dilerim",
+        "meaning_en": "I seek forgiveness from Allah",
+        "usage": "Hata sonrası, zikir"
+      },
+      {
+        "word": "إِنْ شَاءَ الله",
+        "transliteration": "inşâallâh",
+        "meaning_tr": "Allah dilerse",
+        "meaning_en": "If Allah wills",
+        "usage": "Gelecekle ilgili konuşurken"
+      },
+      {
+        "word": "مَا شَاءَ الله",
+        "transliteration": "mâşâallâh",
+        "meaning_tr": "Allah ne dilerse o olur",
+        "meaning_en": "What Allah has willed",
+        "usage": "Beğeni, nazar duası"
+      },
+      {
+        "word": "جَزَاكَ اللهُ خَيْرًا",
+        "transliteration": "cezâkallâhu hayran",
+        "meaning_tr": "Allah seni hayırla mükafatlandırsın",
+        "meaning_en": "May Allah reward you with good",
+        "usage": "Teşekkür"
+      },
+      {
+        "word": "بَارَكَ اللهُ فِيكَ",
+        "transliteration": "bârakallâhu fîk",
+        "meaning_tr": "Allah seni mübarek kılsın",
+        "meaning_en": "May Allah bless you",
+        "usage": "Hayır dua"
+      },
+      {
+        "word": "رَحِمَكَ الله",
+        "transliteration": "rahimekallâh",
+        "meaning_tr": "Allah sana rahmet etsin",
+        "meaning_en": "May Allah have mercy on you",
+        "usage": "Hapşırana cevap"
+      },
+      {
+        "word": "يَهْدِيكُمُ اللهُ",
+        "transliteration": "yehdîkumullâh",
+        "meaning_tr": "Allah size hidayet versin",
+        "meaning_en": "May Allah guide you",
+        "usage": "Rahimekallah'a cevap"
+      },
+      {
+        "word": "السَّلَامُ عَلَيْكُمْ",
+        "transliteration": "es-selâmu aleykum",
+        "meaning_tr": "Selam sizin üzerinize olsun",
+        "meaning_en": "Peace be upon you",
+        "usage": "Karşılaşmada selam"
+      },
+      {
+        "word": "وَعَلَيْكُمُ السَّلَام",
+        "transliteration": "ve aleykumu's-selâm",
+        "meaning_tr": "Sizin üzerinize de selam olsun",
+        "meaning_en": "And upon you be peace",
+        "usage": "Selam cevabı"
+      }
+    ]
+  }
+]

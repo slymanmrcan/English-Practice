@@ -1,0 +1,245 @@
+[
+  {
+    "category": "أَدَوَاتُ الاسْتِفْهَام | Soru Edatları",
+    "type": "questions",
+    "items": [
+      {
+        "word": "مَنْ",
+        "transliteration": "men",
+        "meaning_ar": "اسم استفهام عن العاقل",
+        "meaning_tr": "kim",
+        "meaning_en": "who",
+        "usage": "Akıllı varlıklar (insanlar) için",
+        "examples": [
+          "مَنْ أَنْتَ؟ - Sen kimsin?",
+          "مَنْ جَاءَ؟ - Kim geldi?",
+          "مَنْ هَذَا؟ - Bu kim?",
+          "مَنْ عَلَّمَكَ؟ - Sana kim öğretti?",
+          "مِمَّنْ (مِنْ + مَنْ) - Kimden?"
+        ],
+        "quran": "مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ - O'nun katında kim şefaat edebilir? (Bakara: 255)",
+        "grammar": "Mebni isimdir, mahallen i'rab alır. Mübteda, haber, fail, mef'ul olabilir."
+      },
+      {
+        "word": "مَا",
+        "transliteration": "mâ",
+        "meaning_ar": "اسم استفهام عن غير العاقل",
+        "meaning_tr": "ne",
+        "meaning_en": "what",
+        "usage": "Akılsız varlıklar ve kavramlar için",
+        "examples": [
+          "مَا هَذَا؟ - Bu ne?",
+          "مَا اسْمُكَ؟ - Adın ne?",
+          "مَا لَوْنُهُ؟ - Rengi ne?",
+          "لِمَ / لِمَا (لِ + مَا) - Neden?",
+          "عَمَّ (عَنْ + مَا) - Ne hakkında?",
+          "بِمَ (بِ + مَا) - Neyle?",
+          "فِيمَ (فِي + مَا) - Nede?"
+        ],
+        "quran": "وَمَا تِلْكَ بِيَمِينِكَ يَا مُوسَى - Sağ elindeki ne, ey Musa? (Taha: 17)",
+        "grammar": "Mebni, harf-i cer ile bitişince elif düşer: عَمَّا، فِيمَ"
+      },
+      {
+        "word": "مَاذَا",
+        "transliteration": "mâzâ",
+        "meaning_ar": "اسم استفهام مركب",
+        "meaning_tr": "ne",
+        "meaning_en": "what",
+        "usage": "مَا ile aynı anlam, fiillerle daha çok kullanılır",
+        "examples": [
+          "مَاذَا تُرِيدُ؟ - Ne istiyorsun?",
+          "مَاذَا تَفْعَلُ؟ - Ne yapıyorsun?",
+          "مَاذَا قَالَ؟ - Ne dedi?",
+          "مَاذَا حَدَثَ؟ - Ne oldu?"
+        ],
+        "quran": "مَاذَا أَنْزَلَ رَبُّكُمْ - Rabbiniz ne indirdi? (Nahl: 24)"
+      },
+      {
+        "word": "أَيْنَ",
+        "transliteration": "eyne",
+        "meaning_ar": "اسم استفهام عن المكان",
+        "meaning_tr": "nerede",
+        "meaning_en": "where",
+        "usage": "Mekan sormak için",
+        "examples": [
+          "أَيْنَ أَنْتَ؟ - Neredesin?",
+          "أَيْنَ المَسْجِدُ؟ - Cami nerede?",
+          "أَيْنَ ذَهَبْتَ؟ - Nereye gittin?",
+          "مِنْ أَيْنَ؟ - Nereden?",
+          "إِلَى أَيْنَ؟ - Nereye?"
+        ],
+        "quran": "أَيْنَمَا تَكُونُوا يُدْرِكْكُمُ الْمَوْتُ - Nerede olursanız olun ölüm size ulaşır (Nisa: 78)"
+      },
+      {
+        "word": "مَتَى",
+        "transliteration": "metâ",
+        "meaning_ar": "اسم استفهام عن الزمان",
+        "meaning_tr": "ne zaman",
+        "meaning_en": "when",
+        "usage": "Zaman sormak için",
+        "examples": [
+          "مَتَى السَّفَرُ؟ - Yolculuk ne zaman?",
+          "مَتَى جِئْتَ؟ - Ne zaman geldin?",
+          "مَتَى يَبْدَأُ الدَّرْسُ؟ - Ders ne zaman başlıyor?",
+          "إِلَى مَتَى؟ - Ne zamana kadar?"
+        ],
+        "quran": "مَتَى نَصْرُ اللَّهِ - Allah'ın yardımı ne zaman? (Bakara: 214)"
+      },
+      {
+        "word": "كَيْفَ",
+        "transliteration": "keyfe",
+        "meaning_ar": "اسم استفهام عن الحال",
+        "meaning_tr": "nasıl",
+        "meaning_en": "how",
+        "usage": "Durum ve şekil sormak için",
+        "examples": [
+          "كَيْفَ حَالُكَ؟ - Nasılsın?",
+          "كَيْفَ أَنْتَ؟ - Nasılsın?",
+          "كَيْفَ تَفْعَلُ ذَلِكَ؟ - Bunu nasıl yapıyorsun?",
+          "كَيْفَ وَصَلْتَ؟ - Nasıl ulaştın?"
+        ],
+        "quran": "كَيْفَ تَكْفُرُونَ بِاللَّهِ - Allah'ı nasıl inkar edersiniz? (Bakara: 28)"
+      },
+      {
+        "word": "لِمَاذَا / لِمَ",
+        "transliteration": "limâzâ / lime",
+        "meaning_ar": "أداة استفهام عن السبب",
+        "meaning_tr": "neden, niçin",
+        "meaning_en": "why",
+        "usage": "Sebep sormak için",
+        "examples": [
+          "لِمَاذَا تَأَخَّرْتَ؟ - Neden geciktin?",
+          "لِمَ تَبْكِي؟ - Neden ağlıyorsun?",
+          "لِمَاذَا فَعَلْتَ هَذَا؟ - Bunu neden yaptın?"
+        ],
+        "note": "لِمَ kısa form, لِمَاذَا tam form"
+      },
+      {
+        "word": "كَمْ",
+        "transliteration": "kem",
+        "meaning_ar": "اسم استفهام عن العدد",
+        "meaning_tr": "kaç, ne kadar",
+        "meaning_en": "how many/much",
+        "usage": "Sayı ve miktar sormak için",
+        "examples": [
+          "كَمْ سَاعَةً؟ - Kaç saat?",
+          "كَمْ عُمْرُكَ؟ - Kaç yaşındasın?",
+          "بِكَمْ هَذَا؟ - Bu kaça? (fiyat)",
+          "كَمْ كِتَابًا عِنْدَكَ؟ - Kaç kitabın var?"
+        ],
+        "quran": "كَمْ لَبِثْتَ - Ne kadar kaldın? (Bakara: 259)",
+        "grammar": "كَمْ'den sonra gelen isim mansub müfred olur (temyiz)"
+      },
+      {
+        "word": "أَيّ",
+        "transliteration": "eyy",
+        "meaning_ar": "اسم استفهام عن التعيين",
+        "meaning_tr": "hangi",
+        "meaning_en": "which",
+        "usage": "Seçenek arasından sormak için, izafete girer",
+        "examples": [
+          "أَيُّ كِتَابٍ تُرِيدُ؟ - Hangi kitabı istiyorsun?",
+          "أَيُّهُمْ أَكْبَرُ؟ - Hangisi daha büyük?",
+          "فِي أَيِّ بَلَدٍ؟ - Hangi ülkede?",
+          "مِنْ أَيِّ مَدِينَةٍ؟ - Hangi şehirden?"
+        ],
+        "quran": "أَيُّكُمْ أَحْسَنُ عَمَلًا - Hanginiz daha güzel amel ediyor? (Mülk: 2)",
+        "grammar": "Mu'rab isimdir (i'rab değişir), izafet veya zamirle kullanılır"
+      },
+      {
+        "word": "هَلْ",
+        "transliteration": "hel",
+        "meaning_ar": "حرف استفهام للتصديق",
+        "meaning_tr": "mı, mi (evet/hayır sorusu)",
+        "meaning_en": "is/are/do (yes/no question)",
+        "usage": "Evet/hayır cevabı bekleyen sorular için",
+        "examples": [
+          "هَلْ أَنْتَ طَالِبٌ؟ - Sen öğrenci misin?",
+          "هَلْ تَفْهَمُ؟ - Anlıyor musun?",
+          "هَلْ جَاءَ أَحْمَدُ؟ - Ahmed geldi mi?",
+          "هَلْ هَذَا صَحِيحٌ؟ - Bu doğru mu?"
+        ],
+        "quran": "هَلْ أَتَى عَلَى الْإِنْسَانِ - İnsan üzerine (bir zaman) geldi mi? (İnsan: 1)"
+      },
+      {
+        "word": "أَ",
+        "transliteration": "e-",
+        "meaning_ar": "همزة الاستفهام",
+        "meaning_tr": "mı, mi (soru hemzesi)",
+        "meaning_en": "question particle",
+        "usage": "هَلْ ile aynı, cümle başında kullanılır",
+        "examples": [
+          "أَذَهَبْتَ؟ - Gittin mi?",
+          "أَأَنْتَ فَعَلْتَ هَذَا؟ - Bunu sen mi yaptın?",
+          "أَتَعْلَمُ؟ - Biliyor musun?"
+        ],
+        "quran": "أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ - Senin göğsünü açmadık mı? (İnşirah: 1)",
+        "note": "Olumsuz fiille birlikte inkâri/takriri soru yapar"
+      }
+    ]
+  },
+  {
+    "category": "أَدَوَاتُ الرَّبْطِ وَالإِشَارَة | Bağlama ve İşaret Edatları",
+    "type": "questions",
+    "items": [
+      {
+        "word": "الَّذِي",
+        "transliteration": "ellezî",
+        "meaning_ar": "اسم موصول للمفرد المذكر",
+        "meaning_tr": "ki o (erkek tekil)",
+        "meaning_en": "who, which, that (m.sg.)",
+        "examples": [
+          "الرَّجُلُ الَّذِي جَاءَ - Gelen adam",
+          "الكِتَابُ الَّذِي قَرَأْتُهُ - Okuduğum kitap"
+        ],
+        "quran": "الْحَمْدُ لِلَّهِ الَّذِي خَلَقَ السَّمَاوَاتِ - Gökleri yaratan Allah'a hamd olsun"
+      },
+      {
+        "word": "الَّتِي",
+        "transliteration": "elletî",
+        "meaning_ar": "اسم موصول للمفرد المؤنث",
+        "meaning_tr": "ki o (dişil tekil)",
+        "meaning_en": "who, which, that (f.sg.)",
+        "examples": [
+          "المَرْأَةُ الَّتِي رَأَيْتُهَا - Gördüğüm kadın",
+          "السَّيَّارَةُ الَّتِي اشْتَرَيْتُهَا - Aldığım araba"
+        ]
+      },
+      {
+        "word": "اللَّذَانِ",
+        "transliteration": "ellezâni",
+        "meaning_ar": "اسم موصول للمثنى المذكر (مرفوع)",
+        "meaning_tr": "ki onlar (eril ikili - merfu)",
+        "meaning_en": "who, which (m.dual nom.)",
+        "examples": ["الرَّجُلَانِ اللَّذَانِ جَاءَا - Gelen iki adam"]
+      },
+      {
+        "word": "اللَّذَيْنِ",
+        "transliteration": "ellezeyni",
+        "meaning_ar": "اسم موصول للمثنى المذكر (منصوب/مجرور)",
+        "meaning_tr": "ki onlar (eril ikili - mansub/mecrur)",
+        "meaning_en": "who, which (m.dual acc./gen.)",
+        "examples": ["رَأَيْتُ الرَّجُلَيْنِ اللَّذَيْنِ - İki adamı gördüm ki onlar..."]
+      },
+      {
+        "word": "الَّذِينَ",
+        "transliteration": "ellezîne",
+        "meaning_ar": "اسم موصول للجمع المذكر",
+        "meaning_tr": "ki onlar (erkek çoğul)",
+        "meaning_en": "who, which (m.pl.)",
+        "examples": [
+          "الطُّلَّابُ الَّذِينَ نَجَحُوا - Başaran öğrenciler"
+        ],
+        "quran": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ - Nimet verdiklerinin yolu (Fatiha: 7)"
+      },
+      {
+        "word": "اللَّوَاتِي / اللَّائِي",
+        "transliteration": "ellevâtî / ellâî",
+        "meaning_ar": "اسم موصول للجمع المؤنث",
+        "meaning_tr": "ki onlar (kadın çoğul)",
+        "meaning_en": "who, which (f.pl.)",
+        "examples": ["النِّسَاءُ اللَّوَاتِي حَضَرْنَ - Gelen kadınlar"]
+      }
+    ]
+  }
+]

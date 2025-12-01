@@ -1,0 +1,401 @@
+[
+  {
+    "category": "الضَّمَائِر المُنْفَصِلَة | Ayrık Zamirler - Merfu",
+    "type": "pronouns",
+    "items": [
+      {
+        "word": "أَنَا",
+        "transliteration": "enâ",
+        "meaning_ar": "ضمير المتكلم المفرد",
+        "meaning_tr": "ben",
+        "meaning_en": "I",
+        "person": "1st",
+        "number": "singular",
+        "gender": "both",
+        "example_ar": "أَنَا طَالِبٌ",
+        "example_tr": "Ben öğrenciyim"
+      },
+      {
+        "word": "نَحْنُ",
+        "transliteration": "naḥnu",
+        "meaning_ar": "ضمير المتكلم الجمع",
+        "meaning_tr": "biz",
+        "meaning_en": "we",
+        "person": "1st",
+        "number": "plural",
+        "gender": "both",
+        "example_ar": "نَحْنُ مُسْلِمُونَ",
+        "example_tr": "Biz Müslümanlarız"
+      },
+      {
+        "word": "أَنْتَ",
+        "transliteration": "ente",
+        "meaning_ar": "ضمير المخاطب المفرد المذكر",
+        "meaning_tr": "sen (erkek)",
+        "meaning_en": "you (m.sg.)",
+        "person": "2nd",
+        "number": "singular",
+        "gender": "masculine",
+        "example_ar": "أَنْتَ كَرِيمٌ",
+        "example_tr": "Sen cömertsin"
+      },
+      {
+        "word": "أَنْتِ",
+        "transliteration": "enti",
+        "meaning_ar": "ضمير المخاطب المفرد المؤنث",
+        "meaning_tr": "sen (kadın)",
+        "meaning_en": "you (f.sg.)",
+        "person": "2nd",
+        "number": "singular",
+        "gender": "feminine",
+        "example_ar": "أَنْتِ جَمِيلَةٌ",
+        "example_tr": "Sen güzelsin"
+      },
+      {
+        "word": "أَنْتُمَا",
+        "transliteration": "entumâ",
+        "meaning_ar": "ضمير المخاطب المثنى",
+        "meaning_tr": "ikiniz",
+        "meaning_en": "you two (dual)",
+        "person": "2nd",
+        "number": "dual",
+        "gender": "both",
+        "example_ar": "أَنْتُمَا أَخَوَانِ",
+        "example_tr": "İkiniz kardeşsiniz"
+      },
+      {
+        "word": "أَنْتُمْ",
+        "transliteration": "entum",
+        "meaning_ar": "ضمير المخاطب الجمع المذكر",
+        "meaning_tr": "siz (erkekler)",
+        "meaning_en": "you (m.pl.)",
+        "person": "2nd",
+        "number": "plural",
+        "gender": "masculine",
+        "example_ar": "أَنْتُمْ مُعَلِّمُونَ",
+        "example_tr": "Siz öğretmenlersiniz"
+      },
+      {
+        "word": "أَنْتُنَّ",
+        "transliteration": "entunne",
+        "meaning_ar": "ضمير المخاطب الجمع المؤنث",
+        "meaning_tr": "siz (kadınlar)",
+        "meaning_en": "you (f.pl.)",
+        "person": "2nd",
+        "number": "plural",
+        "gender": "feminine",
+        "example_ar": "أَنْتُنَّ طَالِبَاتٌ",
+        "example_tr": "Siz kız öğrencilersiniz"
+      },
+      {
+        "word": "هُوَ",
+        "transliteration": "huve",
+        "meaning_ar": "ضمير الغائب المفرد المذكر",
+        "meaning_tr": "o (erkek)",
+        "meaning_en": "he",
+        "person": "3rd",
+        "number": "singular",
+        "gender": "masculine",
+        "example_ar": "هُوَ عَالِمٌ",
+        "example_tr": "O alimdir"
+      },
+      {
+        "word": "هِيَ",
+        "transliteration": "hiye",
+        "meaning_ar": "ضمير الغائب المفرد المؤنث",
+        "meaning_tr": "o (kadın)",
+        "meaning_en": "she",
+        "person": "3rd",
+        "number": "singular",
+        "gender": "feminine",
+        "example_ar": "هِيَ أُمِّي",
+        "example_tr": "O annemdir"
+      },
+      {
+        "word": "هُمَا",
+        "transliteration": "humâ",
+        "meaning_ar": "ضمير الغائب المثنى",
+        "meaning_tr": "onlar (ikisi)",
+        "meaning_en": "they two (dual)",
+        "person": "3rd",
+        "number": "dual",
+        "gender": "both",
+        "example_ar": "هُمَا صَدِيقَانِ",
+        "example_tr": "Onlar (ikisi) arkadaştır"
+      },
+      {
+        "word": "هُمْ",
+        "transliteration": "hum",
+        "meaning_ar": "ضمير الغائب الجمع المذكر",
+        "meaning_tr": "onlar (erkekler)",
+        "meaning_en": "they (m.)",
+        "person": "3rd",
+        "number": "plural",
+        "gender": "masculine",
+        "example_ar": "هُمْ أَصْدِقَائِي",
+        "example_tr": "Onlar arkadaşlarımdır"
+      },
+      {
+        "word": "هُنَّ",
+        "transliteration": "hunne",
+        "meaning_ar": "ضمير الغائب الجمع المؤنث",
+        "meaning_tr": "onlar (kadınlar)",
+        "meaning_en": "they (f.)",
+        "person": "3rd",
+        "number": "plural",
+        "gender": "feminine",
+        "example_ar": "هُنَّ مُؤْمِنَاتٌ",
+        "example_tr": "Onlar (kadınlar) müminlerdir"
+      }
+    ]
+  },
+  {
+    "category": "الضَّمَائِر المُتَّصِلَة | Bitişik Zamirler - Mef'ul/Mecrur",
+    "type": "pronouns",
+    "items": [
+      {
+        "word": "ـِي / ـنِي",
+        "transliteration": "-î / -nî",
+        "meaning_ar": "ضمير المتكلم المتصل",
+        "meaning_tr": "beni, bana, benim",
+        "meaning_en": "me, my",
+        "person": "1st",
+        "number": "singular",
+        "usage": "كِتَابِي (kitabım), رَآنِي (beni gördü), لِي (bana)",
+        "examples": [
+          "هَذَا كِتَابِي - Bu benim kitabımdır",
+          "أَعْطِنِي - Bana ver",
+          "عَلَّمَنِي - Bana öğretti"
+        ]
+      },
+      {
+        "word": "ـنَا",
+        "transliteration": "-nâ",
+        "meaning_ar": "ضمير المتكلم الجمع المتصل",
+        "meaning_tr": "bizi, bize, bizim",
+        "meaning_en": "us, our",
+        "person": "1st",
+        "number": "plural",
+        "usage": "كِتَابُنَا (kitabımız), رَآنَا (bizi gördü), لَنَا (bize)",
+        "examples": [
+          "رَبَّنَا - Rabbimiz",
+          "اهْدِنَا - Bizi hidayet et",
+          "بَيْتُنَا - Evimiz"
+        ]
+      },
+      {
+        "word": "ـكَ",
+        "transliteration": "-ke",
+        "meaning_ar": "ضمير المخاطب المذكر المتصل",
+        "meaning_tr": "seni, sana, senin (erkek)",
+        "meaning_en": "you, your (m.sg.)",
+        "person": "2nd",
+        "number": "singular",
+        "gender": "masculine",
+        "usage": "كِتَابُكَ (kitabın), رَآكَ (seni gördü), لَكَ (sana)",
+        "examples": [
+          "إِيَّاكَ نَعْبُدُ - Yalnız sana ibadet ederiz",
+          "مَا اسْمُكَ - Adın nedir?",
+          "أُحِبُّكَ - Seni seviyorum"
+        ]
+      },
+      {
+        "word": "ـكِ",
+        "transliteration": "-ki",
+        "meaning_ar": "ضمير المخاطب المؤنث المتصل",
+        "meaning_tr": "seni, sana, senin (kadın)",
+        "meaning_en": "you, your (f.sg.)",
+        "person": "2nd",
+        "number": "singular",
+        "gender": "feminine",
+        "usage": "كِتَابُكِ (kitabın), رَآكِ (seni gördü), لَكِ (sana)",
+        "examples": [
+          "مَا اسْمُكِ - Adın nedir? (kadına)",
+          "هَذَا لَكِ - Bu senin için"
+        ]
+      },
+      {
+        "word": "ـكُمَا",
+        "transliteration": "-kumâ",
+        "meaning_ar": "ضمير المخاطب المثنى المتصل",
+        "meaning_tr": "ikinizi, ikinize, ikinizin",
+        "meaning_en": "you two, your (dual)",
+        "person": "2nd",
+        "number": "dual",
+        "gender": "both",
+        "examples": [
+          "بَيْتُكُمَا - İkinizin evi",
+          "لَكُمَا - İkinize"
+        ]
+      },
+      {
+        "word": "ـكُمْ",
+        "transliteration": "-kum",
+        "meaning_ar": "ضمير المخاطب الجمع المذكر المتصل",
+        "meaning_tr": "sizi, size, sizin (erkekler)",
+        "meaning_en": "you, your (m.pl.)",
+        "person": "2nd",
+        "number": "plural",
+        "gender": "masculine",
+        "examples": [
+          "عَلَيْكُمْ - Sizin üzerinize",
+          "السَّلَامُ عَلَيْكُمْ - Selam sizin üzerinize olsun",
+          "رَبُّكُمْ - Rabbiniz"
+        ]
+      },
+      {
+        "word": "ـكُنَّ",
+        "transliteration": "-kunne",
+        "meaning_ar": "ضمير المخاطب الجمع المؤنث المتصل",
+        "meaning_tr": "sizi, size, sizin (kadınlar)",
+        "meaning_en": "you, your (f.pl.)",
+        "person": "2nd",
+        "number": "plural",
+        "gender": "feminine",
+        "examples": [
+          "بُيُوتُكُنَّ - Evleriniz (kadınlar)",
+          "لَكُنَّ - Size (kadınlara)"
+        ]
+      },
+      {
+        "word": "ـهُ",
+        "transliteration": "-hu",
+        "meaning_ar": "ضمير الغائب المذكر المتصل",
+        "meaning_tr": "onu, ona, onun (erkek)",
+        "meaning_en": "him, his",
+        "person": "3rd",
+        "number": "singular",
+        "gender": "masculine",
+        "usage": "كِتَابُهُ (kitabı), رَآهُ (onu gördü), لَهُ (ona)",
+        "examples": [
+          "بِسْمِ اللهِ - Allah'ın adıyla",
+          "لَهُ الْمُلْكُ - Mülk O'nundur",
+          "إِنَّهُ هُوَ - Şüphesiz O"
+        ]
+      },
+      {
+        "word": "ـهَا",
+        "transliteration": "-hâ",
+        "meaning_ar": "ضمير الغائب المؤنث المتصل",
+        "meaning_tr": "onu, ona, onun (kadın/şey)",
+        "meaning_en": "her, its",
+        "person": "3rd",
+        "number": "singular",
+        "gender": "feminine",
+        "usage": "كِتَابُهَا (kitabı), رَآهَا (onu gördü), لَهَا (ona)",
+        "examples": [
+          "اسْمُهَا فَاطِمَة - Adı Fatıma'dır",
+          "فِيهَا - İçinde",
+          "إِنَّهَا - Şüphesiz o (dişil)"
+        ]
+      },
+      {
+        "word": "ـهُمَا",
+        "transliteration": "-humâ",
+        "meaning_ar": "ضمير الغائب المثنى المتصل",
+        "meaning_tr": "onları, onlara, onların (ikisi)",
+        "meaning_en": "them, their (dual)",
+        "person": "3rd",
+        "number": "dual",
+        "gender": "both",
+        "examples": [
+          "كِتَابُهُمَا - İkisinin kitabı",
+          "لَهُمَا - İkisine",
+          "بَيْنَهُمَا - İkisinin arasında"
+        ]
+      },
+      {
+        "word": "ـهُمْ",
+        "transliteration": "-hum",
+        "meaning_ar": "ضمير الغائب الجمع المذكر المتصل",
+        "meaning_tr": "onları, onlara, onların (erkekler)",
+        "meaning_en": "them, their (m.)",
+        "person": "3rd",
+        "number": "plural",
+        "gender": "masculine",
+        "usage": "كِتَابُهُمْ (kitapları), رَآهُمْ (onları gördü), لَهُمْ (onlara)",
+        "examples": [
+          "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ - Nimet verdiklerinin yolu",
+          "لَهُمْ أَجْرٌ - Onlara ecir vardır",
+          "رَبُّهُمْ - Rableri"
+        ]
+      },
+      {
+        "word": "ـهُنَّ",
+        "transliteration": "-hunne",
+        "meaning_ar": "ضمير الغائب الجمع المؤنث المتصل",
+        "meaning_tr": "onları, onlara, onların (kadınlar)",
+        "meaning_en": "them, their (f.)",
+        "person": "3rd",
+        "number": "plural",
+        "gender": "feminine",
+        "examples": [
+          "بُيُوتُهُنَّ - Evleri (kadınların)",
+          "لَهُنَّ - Onlara (kadınlara)"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "الضَّمَائِر المُنْفَصِلَة المَنْصُوبَة | Ayrık Zamirler - Mansub (إِيَّا)",
+    "type": "pronouns",
+    "items": [
+      {
+        "word": "إِيَّايَ",
+        "transliteration": "iyyâye",
+        "meaning_tr": "yalnız beni",
+        "meaning_en": "only me",
+        "example": "إِيَّايَ فَارْهَبُونِ - Yalnız benden korkun"
+      },
+      {
+        "word": "إِيَّانَا",
+        "transliteration": "iyyânâ",
+        "meaning_tr": "yalnız bizi",
+        "meaning_en": "only us",
+        "example": "مَا أَرَادَ إِيَّانَا - Yalnız bizi istemedi"
+      },
+      {
+        "word": "إِيَّاكَ",
+        "transliteration": "iyyâke",
+        "meaning_tr": "yalnız seni (erkek)",
+        "meaning_en": "only you (m.)",
+        "example": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ - Yalnız sana ibadet eder, yalnız senden yardım dileriz"
+      },
+      {
+        "word": "إِيَّاكِ",
+        "transliteration": "iyyâki",
+        "meaning_tr": "yalnız seni (kadın)",
+        "meaning_en": "only you (f.)",
+        "example": "إِيَّاكِ قَصَدْتُ - Yalnız seni kastettim"
+      },
+      {
+        "word": "إِيَّاكُمْ",
+        "transliteration": "iyyâkum",
+        "meaning_tr": "yalnız sizi",
+        "meaning_en": "only you (pl.)",
+        "example": "إِيَّاكُمْ أَنْ تُشْرِكُوا - Sakın şirk koşmayın"
+      },
+      {
+        "word": "إِيَّاهُ",
+        "transliteration": "iyyâhu",
+        "meaning_tr": "yalnız onu (erkek)",
+        "meaning_en": "only him",
+        "example": "أَلَّا تَعْبُدُوا إِلَّا إِيَّاهُ - Yalnız O'na ibadet edin"
+      },
+      {
+        "word": "إِيَّاهَا",
+        "transliteration": "iyyâhâ",
+        "meaning_tr": "yalnız onu (kadın)",
+        "meaning_en": "only her",
+        "example": "قَصَدْتُ إِيَّاهَا - Yalnız onu kastettim"
+      },
+      {
+        "word": "إِيَّاهُمْ",
+        "transliteration": "iyyâhum",
+        "meaning_tr": "yalnız onları",
+        "meaning_en": "only them",
+        "example": "مَا أَرَدْتُ إِلَّا إِيَّاهُمْ - Yalnız onları istedim"
+      }
+    ]
+  }
+]

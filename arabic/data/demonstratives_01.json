@@ -1,0 +1,317 @@
+[
+  {
+    "category": "أَسْمَاءُ الإِشَارَةِ لِلْقَرِيبِ | Yakın İşaret İsimleri",
+    "type": "demonstratives",
+    "items": [
+      {
+        "word": "هَذَا",
+        "transliteration": "hâzâ",
+        "meaning_ar": "اسم إشارة للمفرد المذكر القريب",
+        "meaning_tr": "bu (erkek/eril tekil)",
+        "meaning_en": "this (m.sg.)",
+        "gender": "masculine",
+        "number": "singular",
+        "distance": "near",
+        "examples": [
+          "هَذَا كِتَابٌ - Bu bir kitaptır",
+          "هَذَا رَجُلٌ كَرِيمٌ - Bu cömert bir adamdır",
+          "هَذَا هُوَ الحَقُّ - İşte bu haktır"
+        ],
+        "quran": "ذَلِكَ الْكِتَابُ - هَذَا بَيَانٌ لِلنَّاسِ (Âl-i İmrân: 138)"
+      },
+      {
+        "word": "هَذِهِ",
+        "transliteration": "hâzihi",
+        "meaning_ar": "اسم إشارة للمفرد المؤنث القريب",
+        "meaning_tr": "bu (kadın/dişil tekil)",
+        "meaning_en": "this (f.sg.)",
+        "gender": "feminine",
+        "number": "singular",
+        "distance": "near",
+        "examples": [
+          "هَذِهِ سَيَّارَةٌ - Bu bir arabadır",
+          "هَذِهِ أُمِّي - Bu annemdir",
+          "هَذِهِ الدَّارُ كَبِيرَةٌ - Bu ev büyüktür"
+        ],
+        "quran": "وَهَذِهِ الْأَنْهَارُ تَجْرِي (Zuhruf: 51)"
+      },
+      {
+        "word": "هَذَانِ",
+        "transliteration": "hâzâni",
+        "meaning_ar": "اسم إشارة للمثنى المذكر القريب (مرفوع)",
+        "meaning_tr": "bu ikisi (eril tesniye - merfu)",
+        "meaning_en": "these two (m.dual - nom.)",
+        "gender": "masculine",
+        "number": "dual",
+        "distance": "near",
+        "case": "nominative",
+        "examples": [
+          "هَذَانِ طَالِبَانِ - Bu ikisi öğrencidir",
+          "هَذَانِ أَخَوَانِ - Bu ikisi kardeştir"
+        ],
+        "quran": "هَذَانِ خَصْمَانِ اخْتَصَمُوا فِي رَبِّهِمْ (Hac: 19)"
+      },
+      {
+        "word": "هَذَيْنِ",
+        "transliteration": "hâzeyni",
+        "meaning_ar": "اسم إشارة للمثنى المذكر القريب (منصوب/مجرور)",
+        "meaning_tr": "bu ikisi (eril tesniye - mansub/mecrur)",
+        "meaning_en": "these two (m.dual - acc./gen.)",
+        "gender": "masculine",
+        "number": "dual",
+        "distance": "near",
+        "case": "accusative/genitive",
+        "examples": [
+          "رَأَيْتُ هَذَيْنِ الرَّجُلَيْنِ - Bu iki adamı gördüm",
+          "مَرَرْتُ بِهَذَيْنِ - Bu ikisine uğradım"
+        ]
+      },
+      {
+        "word": "هَاتَانِ",
+        "transliteration": "hâtâni",
+        "meaning_ar": "اسم إشارة للمثنى المؤنث القريب (مرفوع)",
+        "meaning_tr": "bu ikisi (dişil tesniye - merfu)",
+        "meaning_en": "these two (f.dual - nom.)",
+        "gender": "feminine",
+        "number": "dual",
+        "distance": "near",
+        "case": "nominative",
+        "examples": [
+          "هَاتَانِ طَالِبَتَانِ - Bu ikisi kız öğrencidir",
+          "هَاتَانِ أُخْتَانِ - Bu ikisi kız kardeştir"
+        ]
+      },
+      {
+        "word": "هَاتَيْنِ",
+        "transliteration": "hâteyni",
+        "meaning_ar": "اسم إشارة للمثنى المؤنث القريب (منصوب/مجرور)",
+        "meaning_tr": "bu ikisi (dişil tesniye - mansub/mecrur)",
+        "meaning_en": "these two (f.dual - acc./gen.)",
+        "gender": "feminine",
+        "number": "dual",
+        "distance": "near",
+        "case": "accusative/genitive",
+        "examples": [
+          "رَأَيْتُ هَاتَيْنِ البِنْتَيْنِ - Bu iki kızı gördüm"
+        ],
+        "quran": "إِحْدَى ابْنَتَيَّ هَاتَيْنِ (Kasas: 27)"
+      },
+      {
+        "word": "هَؤُلَاءِ",
+        "transliteration": "hâulâi",
+        "meaning_ar": "اسم إشارة للجمع القريب",
+        "meaning_tr": "bunlar (çoğul)",
+        "meaning_en": "these (plural)",
+        "gender": "both",
+        "number": "plural",
+        "distance": "near",
+        "examples": [
+          "هَؤُلَاءِ طُلَّابٌ - Bunlar öğrencilerdir",
+          "هَؤُلَاءِ أَصْدِقَائِي - Bunlar arkadaşlarımdır"
+        ],
+        "quran": "هَا أَنْتُمْ هَؤُلَاءِ (Âl-i İmrân: 66)"
+      }
+    ]
+  },
+  {
+    "category": "أَسْمَاءُ الإِشَارَةِ لِلْبَعِيدِ | Uzak İşaret İsimleri",
+    "type": "demonstratives",
+    "items": [
+      {
+        "word": "ذَلِكَ",
+        "transliteration": "zâlike",
+        "meaning_ar": "اسم إشارة للمفرد المذكر البعيد",
+        "meaning_tr": "şu, o (erkek/eril tekil - uzak)",
+        "meaning_en": "that (m.sg.)",
+        "gender": "masculine",
+        "number": "singular",
+        "distance": "far",
+        "examples": [
+          "ذَلِكَ الرَّجُلُ عَالِمٌ - Şu adam alimdir",
+          "ذَلِكَ بَيْتُهُ - Şu onun evidir"
+        ],
+        "quran": "ذَلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ (Bakara: 2)",
+        "note": "Kur'an'da çok sık kullanılır. 'İşte o' anlamında vurgu için de kullanılır."
+      },
+      {
+        "word": "تِلْكَ",
+        "transliteration": "tilke",
+        "meaning_ar": "اسم إشارة للمفرد المؤنث البعيد",
+        "meaning_tr": "şu, o (kadın/dişil tekil - uzak)",
+        "meaning_en": "that (f.sg.)",
+        "gender": "feminine",
+        "number": "singular",
+        "distance": "far",
+        "examples": [
+          "تِلْكَ المَرْأَةُ أُمُّهُ - Şu kadın onun annesidir",
+          "تِلْكَ السَّيَّارَةُ جَمِيلَةٌ - Şu araba güzeldir"
+        ],
+        "quran": "تِلْكَ آيَاتُ اللَّهِ (Bakara: 252)",
+        "note": "Dişil tekil ve kırık çoğul için kullanılır."
+      },
+      {
+        "word": "ذَانِكَ",
+        "transliteration": "zânike",
+        "meaning_ar": "اسم إشارة للمثنى المذكر البعيد (مرفوع)",
+        "meaning_tr": "şu ikisi (eril tesniye - uzak - merfu)",
+        "meaning_en": "those two (m.dual - nom.)",
+        "gender": "masculine",
+        "number": "dual",
+        "distance": "far",
+        "case": "nominative",
+        "examples": [
+          "ذَانِكَ رَجُلَانِ كَرِيمَانِ - Şu ikisi cömert adamlardır"
+        ]
+      },
+      {
+        "word": "ذَيْنِكَ",
+        "transliteration": "zeynike",
+        "meaning_ar": "اسم إشارة للمثنى المذكر البعيد (منصوب/مجرور)",
+        "meaning_tr": "şu ikisi (eril tesniye - uzak - mansub/mecrur)",
+        "meaning_en": "those two (m.dual - acc./gen.)",
+        "gender": "masculine",
+        "number": "dual",
+        "distance": "far",
+        "case": "accusative/genitive",
+        "examples": [
+          "رَأَيْتُ ذَيْنِكَ الرَّجُلَيْنِ - Şu iki adamı gördüm"
+        ]
+      },
+      {
+        "word": "تَانِكَ",
+        "transliteration": "tânike",
+        "meaning_ar": "اسم إشارة للمثنى المؤنث البعيد (مرفوع)",
+        "meaning_tr": "şu ikisi (dişil tesniye - uzak - merfu)",
+        "meaning_en": "those two (f.dual - nom.)",
+        "gender": "feminine",
+        "number": "dual",
+        "distance": "far",
+        "case": "nominative",
+        "examples": [
+          "تَانِكَ امْرَأَتَانِ - Şu ikisi kadınlardır"
+        ]
+      },
+      {
+        "word": "تَيْنِكَ",
+        "transliteration": "teynike",
+        "meaning_ar": "اسم إشارة للمثنى المؤنث البعيد (منصوب/مجرور)",
+        "meaning_tr": "şu ikisi (dişil tesniye - uzak - mansub/mecrur)",
+        "meaning_en": "those two (f.dual - acc./gen.)",
+        "gender": "feminine",
+        "number": "dual",
+        "distance": "far",
+        "case": "accusative/genitive",
+        "examples": [
+          "مَرَرْتُ بِتَيْنِكَ المَرْأَتَيْنِ - Şu iki kadına uğradım"
+        ]
+      },
+      {
+        "word": "أُولَئِكَ",
+        "transliteration": "ulâike",
+        "meaning_ar": "اسم إشارة للجمع البعيد",
+        "meaning_tr": "şunlar, onlar (çoğul - uzak)",
+        "meaning_en": "those (plural)",
+        "gender": "both",
+        "number": "plural",
+        "distance": "far",
+        "examples": [
+          "أُولَئِكَ أَصْدِقَائِي - Onlar arkadaşlarımdır",
+          "أُولَئِكَ هُمُ الكَاذِبُونَ - İşte onlar yalancılardır"
+        ],
+        "quran": "أُولَئِكَ عَلَى هُدًى مِنْ رَبِّهِمْ (Bakara: 5)"
+      }
+    ]
+  },
+  {
+    "category": "هَا التَّنْبِيهِ وَ كَافُ الخِطَابِ | Dikkat Çekme ve Muhatap Edatları",
+    "type": "demonstratives",
+    "items": [
+      {
+        "word": "هَا",
+        "transliteration": "hâ",
+        "meaning_ar": "حرف تنبيه يدخل على أسماء الإشارة",
+        "meaning_tr": "dikkat çekme edatı (işte, bak)",
+        "meaning_en": "attention particle (lo, behold)",
+        "usage": "İşaret isimlerinin başına eklenir: هَا + ذَا = هَذَا",
+        "examples": [
+          "هَا أَنَا ذَا - İşte ben buradayım",
+          "هَا هُوَ ذَا - İşte o (burada)"
+        ],
+        "quran": "هَا أَنْتُمْ هَؤُلَاءِ - İşte siz bunlarsınız"
+      },
+      {
+        "word": "ـكَ / ـكِ / ـكُمْ",
+        "transliteration": "-ke / -ki / -kum",
+        "meaning_ar": "كاف الخطاب تلحق بأسماء الإشارة",
+        "meaning_tr": "muhatap kâfı (sana gösteriyorum anlamı katar)",
+        "meaning_en": "addressee particle",
+        "usage": "Uzak işaret isimlerine eklenir: ذَا + لِ + كَ = ذَلِكَ",
+        "examples": [
+          "ذَلِكَ - Sana gösterilen şu",
+          "ذَلِكُمْ - Size gösterilen şu",
+          "تِلْكُمْ - Size gösterilen şu (dişil)"
+        ],
+        "note": "Muhataba göre değişir: ذَلِكَ (erkek), ذَلِكِ (kadın), ذَلِكُمَا (ikili), ذَلِكُمْ (çoğul erkek)"
+      }
+    ]
+  },
+  {
+    "category": "هُنَا وَ هُنَاكَ | Yer İşaret Zarfları",
+    "type": "demonstratives",
+    "items": [
+      {
+        "word": "هُنَا",
+        "transliteration": "hunâ",
+        "meaning_ar": "اسم إشارة للمكان القريب",
+        "meaning_tr": "burada, burası",
+        "meaning_en": "here",
+        "distance": "near",
+        "examples": [
+          "أَنَا هُنَا - Ben buradayım",
+          "تَعَالَ هُنَا - Buraya gel",
+          "هُنَا بَيْتِي - Burası benim evimdir"
+        ]
+      },
+      {
+        "word": "هُنَاكَ",
+        "transliteration": "hunâke",
+        "meaning_ar": "اسم إشارة للمكان البعيد",
+        "meaning_tr": "orada, orası, şurada",
+        "meaning_en": "there",
+        "distance": "far",
+        "examples": [
+          "هُوَ هُنَاكَ - O oradadır",
+          "اذْهَبْ هُنَاكَ - Oraya git",
+          "هُنَاكَ مَسْجِدٌ - Orada bir cami var"
+        ],
+        "quran": "هُنَالِكَ ابْتُلِيَ الْمُؤْمِنُونَ (Ahzab: 11)"
+      },
+      {
+        "word": "هُنَالِكَ",
+        "transliteration": "hunâlike",
+        "meaning_ar": "اسم إشارة للمكان البعيد (أبعد)",
+        "meaning_tr": "orada (daha uzak/edebi)",
+        "meaning_en": "there (more distant/literary)",
+        "distance": "far",
+        "examples": [
+          "هُنَالِكَ دَعَا زَكَرِيَّا رَبَّهُ - Orada Zekeriya Rabbine dua etti"
+        ],
+        "quran": "هُنَالِكَ الْوَلَايَةُ لِلَّهِ الْحَقِّ (Kehf: 44)"
+      },
+      {
+        "word": "ثَمَّ / ثَمَّةَ",
+        "transliteration": "semme / semmete",
+        "meaning_ar": "اسم إشارة للمكان البعيد",
+        "meaning_tr": "orada (işaret zarfı)",
+        "meaning_en": "there (demonstrative adverb)",
+        "distance": "far",
+        "examples": [
+          "ثَمَّ رَجُلٌ - Orada bir adam var",
+          "أَيْنَمَا تُوَلُّوا فَثَمَّ وَجْهُ اللهِ - Nereye dönerseniz orada Allah'ın yüzü vardır"
+        ],
+        "quran": "فَأَيْنَمَا تُوَلُّوا فَثَمَّ وَجْهُ اللَّهِ (Bakara: 115)",
+        "note": "ثَمَّ (zarf) ile ثُمَّ (sonra edatı) karıştırılmamalı!"
+      }
+    ]
+  }
+]
