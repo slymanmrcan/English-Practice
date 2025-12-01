@@ -1543,7 +1543,7 @@ button small {
   border-top: 1px dashed rgba(201, 162, 39, 0.2);
 }
 
-/* ============ SARF BOOKS (EMSILE, BINA, MAKSUD) ============ */
+/* ============ SARF BOOKS - Clean Design ============ */
 .sarf-book-btn {
   background: linear-gradient(135deg, #1a3d5c, #2d5a3d) !important;
   border: 1px solid rgba(201, 162, 39, 0.3) !important;
@@ -1554,476 +1554,298 @@ button small {
   border-color: var(--accent) !important;
 }
 
-.sarf-book-panel {
+.sarf-books-panel {
   max-height: 85vh;
   overflow-y: auto;
 }
 
-.sarf-book-intro {
-  padding: 12px 16px;
-  background: rgba(201, 162, 39, 0.08);
-  border-radius: 8px;
+/* Tabs */
+.sarf-tabs {
+  display: flex;
+  gap: 8px;
+  padding: 4px;
+  background: rgba(0,0,0,0.3);
+  border-radius: 12px;
   margin-bottom: 16px;
 }
 
-.sarf-book-intro .note {
-  margin: 0;
-  color: var(--muted);
-  font-size: 14px;
-}
-
-.sarf-book-controls {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 20px;
-  padding: 12px;
-  background: rgba(0,0,0,0.2);
-  border-radius: 8px;
-}
-
-.sarf-book-controls select {
+.sarf-tab {
   flex: 1;
-  padding: 10px 14px;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  background: var(--card);
-  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 16px;
+  background: transparent;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.sarf-tab:hover {
+  background: rgba(201, 162, 39, 0.1);
+}
+
+.sarf-tab.active {
+  background: linear-gradient(135deg, rgba(201, 162, 39, 0.2), rgba(201, 162, 39, 0.1));
+  box-shadow: 0 2px 8px rgba(201, 162, 39, 0.15);
+}
+
+.sarf-tab .tab-ar {
   font-family: var(--arabic-font);
+  font-size: 20px;
+  color: var(--accent-light);
+  margin-bottom: 2px;
+}
+
+.sarf-tab .tab-tr {
+  font-size: 13px;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.sarf-tab .tab-desc {
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+/* Selector */
+.sarf-selector {
+  margin-bottom: 16px;
+}
+
+.sarf-selector select {
+  width: 100%;
+  padding: 12px 16px;
   font-size: 15px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: rgba(0,0,0,0.2);
+  color: var(--text);
   cursor: pointer;
 }
 
-.sarf-book-content {
-  padding: 10px 0;
-}
-
-/* EMSILE Styles */
-.emsile-bab {
+/* Cards */
+.sarf-card {
   background: rgba(0,0,0,0.15);
-  border-radius: 12px;
+  border-radius: 16px;
   padding: 20px;
 }
 
-.emsile-header {
+.sarf-card-header {
   text-align: center;
   padding-bottom: 16px;
-  border-bottom: 1px solid rgba(201, 162, 39, 0.2);
-  margin-bottom: 20px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid rgba(201, 162, 39, 0.15);
 }
 
-.emsile-header h3 {
+.sarf-card-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.sarf-card-title .title-ar {
   font-family: var(--arabic-font);
   font-size: 28px;
   color: var(--accent-light);
-  margin: 0 0 12px;
 }
 
-.emsile-pattern {
-  font-size: 18px;
-  color: var(--text);
-  margin-bottom: 8px;
-}
-
-.emsile-pattern .arabic-text {
-  font-size: 22px;
-  margin-left: 10px;
-}
-
-.emsile-feature {
-  font-size: 14px;
-  color: var(--muted);
-}
-
-.emsile-feature .label {
-  color: var(--accent);
-  font-weight: 600;
-}
-
-.emsile-examples {
-  margin-bottom: 24px;
-}
-
-.emsile-examples h4 {
-  color: var(--accent-light);
-  margin: 0 0 12px;
+.sarf-card-title .title-tr {
   font-size: 16px;
-}
-
-.emsile-examples-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-  gap: 10px;
-}
-
-.emsile-example-card {
-  background: rgba(201, 162, 39, 0.1);
-  padding: 12px;
-  border-radius: 8px;
-  text-align: center;
-}
-
-.emsile-example-card .ex-word {
-  font-family: var(--arabic-font);
-  font-size: 22px;
-  color: var(--accent-light);
-  margin-bottom: 6px;
-}
-
-.emsile-example-card .ex-meaning {
-  font-size: 12px;
-  color: var(--muted);
-}
-
-/* Sigalar (Conjugation Tables) */
-.emsile-sigalar {
-  margin-top: 20px;
-}
-
-.emsile-sigalar h4 {
-  color: var(--accent-light);
-  margin: 0 0 16px;
-  font-size: 18px;
-  font-family: var(--arabic-font);
-  text-align: center;
-}
-
-.emsile-siga-block {
-  background: rgba(0,0,0,0.2);
-  border-radius: 10px;
-  margin-bottom: 16px;
-  overflow: hidden;
-}
-
-.siga-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 12px 16px;
-  background: rgba(201, 162, 39, 0.15);
-  border-bottom: 1px solid rgba(201, 162, 39, 0.2);
-}
-
-.siga-header .siga-name {
-  font-weight: 600;
   color: var(--text);
 }
 
-.siga-header .siga-name-ar {
-  font-family: var(--arabic-font);
-  font-size: 18px;
-  color: var(--accent-light);
-}
-
-.siga-conjugations {
-  padding: 12px 16px;
-}
-
-.siga-row {
-  display: grid;
-  grid-template-columns: 120px 1fr auto;
-  gap: 12px;
-  align-items: center;
-  padding: 8px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.05);
-}
-
-.siga-row:last-child {
-  border-bottom: none;
-}
-
-.siga-row .siga-person {
-  font-size: 13px;
-  color: var(--muted);
-}
-
-.siga-row .siga-form {
-  font-family: var(--arabic-font);
-  font-size: 20px;
-  color: var(--text);
-  direction: rtl;
-  text-align: right;
-}
-
-.siga-row .siga-meaning {
-  font-size: 13px;
-  color: var(--accent);
-  text-align: left;
-}
-
-/* BINA Styles */
-.bina-form {
-  background: rgba(0,0,0,0.15);
-  border-radius: 12px;
-  padding: 20px;
-}
-
-.bina-header {
-  text-align: center;
-  padding-bottom: 16px;
-  border-bottom: 1px solid rgba(201, 162, 39, 0.2);
-  margin-bottom: 20px;
-}
-
-.bina-header h3 {
-  font-size: 22px;
-  color: var(--accent-light);
-  margin: 0 0 12px;
-}
-
-.bina-header .form-number {
+.sarf-card-title .bab-num {
   background: var(--accent);
   color: #000;
-  padding: 2px 10px;
-  border-radius: 12px;
-  font-size: 14px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
   font-weight: 700;
-  margin-left: 8px;
 }
 
-.bina-pattern {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.bina-pattern .arabic-text {
-  font-family: var(--arabic-font);
-  font-size: 26px;
-  color: var(--accent-light);
-}
-
-.bina-pattern .translit {
-  font-size: 14px;
-  color: var(--muted);
-  margin-left: 12px;
-}
-
-.bina-meaning-change {
-  font-size: 14px;
-  color: var(--text);
-}
-
-.bina-meaning-change .label {
-  color: var(--accent);
-  font-weight: 600;
-}
-
-.bina-examples h4 {
-  color: var(--accent-light);
-  margin: 0 0 12px;
-  font-size: 16px;
-}
-
-.bina-examples-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 16px;
-}
-
-.bina-example-card {
-  background: rgba(201, 162, 39, 0.08);
-  padding: 16px;
-  border-radius: 10px;
-  border-left: 3px solid var(--accent);
-}
-
-.bina-ex-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 12px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
-}
-
-.bina-ex-header .bina-root {
+.sarf-card-pattern {
   font-family: var(--arabic-font);
   font-size: 22px;
-  color: var(--accent-light);
-}
-
-.bina-ex-header .bina-root-meaning {
-  font-size: 12px;
   color: var(--muted);
+  margin-top: 8px;
 }
 
-.bina-ex-mazi,
-.bina-ex-muzari,
-.bina-ex-masdar {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 6px;
-  font-size: 14px;
-}
-
-.bina-example-card .label {
-  color: var(--accent);
-  font-weight: 600;
-  min-width: 55px;
-}
-
-.bina-example-card .arabic-text {
-  font-family: var(--arabic-font);
-  font-size: 18px;
-  color: var(--text);
-}
-
-.bina-example-card .translit {
-  font-size: 12px;
-  color: var(--muted);
-}
-
-.bina-ex-meaning {
-  margin-top: 10px;
-  padding-top: 10px;
-  border-top: 1px dashed rgba(201, 162, 39, 0.2);
-  font-size: 13px;
-  color: var(--text);
-}
-
-/* MAKSUD Styles */
-.maksud-category {
-  background: rgba(0,0,0,0.15);
-  border-radius: 12px;
-  padding: 20px;
-}
-
-.maksud-header {
+.sarf-card-desc {
   text-align: center;
-  padding-bottom: 16px;
-  border-bottom: 1px solid rgba(201, 162, 39, 0.2);
+  color: var(--muted);
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.sarf-meanings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
   margin-bottom: 20px;
 }
 
-.maksud-header h3 {
-  font-size: 22px;
-  color: var(--accent-light);
-  margin: 0 0 8px;
-}
-
-.maksud-header h3 .arabic-text {
-  font-family: var(--arabic-font);
-  font-size: 26px;
-  margin-left: 10px;
-}
-
-.maksud-desc {
-  margin: 0;
-  color: var(--muted);
-  font-size: 14px;
-}
-
-.maksud-subcategories {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.maksud-subcat {
-  background: rgba(0,0,0,0.2);
-  border-radius: 10px;
-  padding: 16px;
-}
-
-.maksud-subcat-header {
-  margin-bottom: 16px;
-}
-
-.maksud-subcat-header h4 {
-  font-size: 16px;
-  color: var(--accent-light);
-  margin: 0 0 6px;
-}
-
-.maksud-subcat-header h4 .arabic-text {
-  font-family: var(--arabic-font);
-  font-size: 20px;
-  margin-left: 8px;
-}
-
-.maksud-subcat-desc {
-  margin: 0;
-  font-size: 13px;
-  color: var(--muted);
-}
-
-.maksud-examples {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 12px;
-  margin-bottom: 16px;
-}
-
-.maksud-example-card {
-  background: rgba(201, 162, 39, 0.08);
-  padding: 14px;
-  border-radius: 8px;
-  text-align: center;
-}
-
-.maksud-ex-word {
-  font-family: var(--arabic-font);
-  font-size: 24px;
-  color: var(--accent-light);
-  margin-bottom: 8px;
-}
-
-.maksud-ex-forms {
-  font-size: 13px;
-  margin-bottom: 8px;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.maksud-ex-forms .label {
-  color: var(--accent);
-  font-weight: 600;
-  margin-right: 4px;
-}
-
-.maksud-ex-forms .arabic-text {
-  font-family: var(--arabic-font);
-  font-size: 16px;
+.meaning-chip {
+  background: rgba(201, 162, 39, 0.12);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
   color: var(--text);
 }
 
-.maksud-ex-meaning {
-  font-size: 12px;
+/* Verb Grid */
+.sarf-verb-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.sarf-verb-card {
+  background: rgba(201, 162, 39, 0.06);
+  border: 1px solid rgba(201, 162, 39, 0.1);
+  border-radius: 12px;
+  padding: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.sarf-verb-card:hover {
+  background: rgba(201, 162, 39, 0.1);
+  border-color: rgba(201, 162, 39, 0.25);
+}
+
+.sarf-verb-card.expanded {
+  background: rgba(201, 162, 39, 0.12);
+  border-color: var(--accent);
+}
+
+.verb-main {
+  text-align: center;
+}
+
+.verb-main .verb-ar {
+  display: block;
+  font-family: var(--arabic-font);
+  font-size: 28px;
+  color: var(--accent-light);
+  margin-bottom: 4px;
+}
+
+.verb-main .verb-meaning {
+  font-size: 13px;
   color: var(--muted);
-  padding-top: 8px;
+}
+
+.verb-base {
+  display: none;
+  text-align: center;
+  margin-top: 12px;
+  padding-top: 12px;
   border-top: 1px dashed rgba(255,255,255,0.1);
 }
 
-.maksud-ex-note {
-  margin-top: 8px;
-  padding: 8px;
+.sarf-verb-card.expanded .verb-base {
+  display: block;
+}
+
+.verb-base .base-label {
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.verb-base .base-ar {
+  font-family: var(--arabic-font);
+  font-size: 18px;
+  color: var(--text);
+  margin: 0 8px;
+}
+
+.verb-base .base-meaning {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.verb-details {
+  display: none;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px dashed rgba(255,255,255,0.1);
+}
+
+.sarf-verb-card.expanded .verb-details {
+  display: block;
+}
+
+.verb-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  font-size: 13px;
+}
+
+.verb-row .lbl {
+  color: var(--accent);
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.verb-row .ar {
+  font-family: var(--arabic-font);
+  font-size: 18px;
+  color: var(--text);
+  direction: rtl;
+}
+
+.verb-row .meaning {
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.verb-note {
+  margin-top: 10px;
+  padding: 8px 10px;
   background: rgba(201, 162, 39, 0.1);
-  border-radius: 6px;
+  border-radius: 8px;
   font-size: 11px;
   color: var(--accent);
 }
 
-.maksud-rules {
-  background: rgba(201, 162, 39, 0.05);
-  padding: 14px;
-  border-radius: 8px;
-  margin-top: 12px;
+/* Maksud Type */
+.maksud-type {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255,255,255,0.08);
 }
 
-.maksud-rules h5 {
+.type-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.type-header .type-ar {
+  font-family: var(--arabic-font);
+  font-size: 22px;
   color: var(--accent-light);
-  margin: 0 0 10px;
-  font-size: 14px;
 }
 
-.maksud-rules ul {
-  margin: 0;
-  padding-left: 20px;
+.type-header .type-tr {
+  font-size: 14px;
   color: var(--text);
+  font-weight: 600;
+}
+
+.type-desc {
+  color: var(--muted);
   font-size: 13px;
-  line-height: 1.8;
+  margin-bottom: 16px;
 }
 
 /* Responsive */
@@ -2041,7 +1863,6 @@ button small {
   .islamic-items { grid-template-columns: 1fr; }
   .intro-alphabet { grid-template-columns: repeat(4, 1fr); }
   .intro-phrases { grid-template-columns: 1fr; }
-  .siga-row { grid-template-columns: 1fr; gap: 4px; }
-  .bina-examples-grid { grid-template-columns: 1fr; }
-  .maksud-examples { grid-template-columns: 1fr; }
+  .sarf-tabs { flex-direction: column; }
+  .sarf-verb-grid { grid-template-columns: 1fr; }
 }

@@ -314,21 +314,11 @@ const els = {
   introBtn: document.getElementById("intro-btn"),
   introPanel: document.getElementById("intro-panel"),
   introContent: document.getElementById("intro-content"),
-  // Emsile elements
-  emsileBtn: document.getElementById("emsile-btn"),
-  emsilePanel: document.getElementById("emsile-panel"),
-  emsileSelect: document.getElementById("emsile-select"),
-  emsileContent: document.getElementById("emsile-content"),
-  // Bina elements
-  binaBtn: document.getElementById("bina-btn"),
-  binaPanel: document.getElementById("bina-panel"),
-  binaSelect: document.getElementById("bina-select"),
-  binaContent: document.getElementById("bina-content"),
-  // Maksud elements
-  maksudBtn: document.getElementById("maksud-btn"),
-  maksudPanel: document.getElementById("maksud-panel"),
-  maksudSelect: document.getElementById("maksud-select"),
-  maksudContent: document.getElementById("maksud-content"),
+  // Unified Sarf Books elements
+  sarfBooksBtn: document.getElementById("sarf-books-btn"),
+  sarfBooksPanel: document.getElementById("sarf-books-panel"),
+  sarfBookSelect: document.getElementById("sarf-book-select"),
+  sarfBooksContent: document.getElementById("sarf-books-content"),
 };
 
 // Status update
@@ -347,9 +337,7 @@ function hideAllPanels() {
   els.basicsPanel?.classList.add("hidden");
   els.islamicPanel?.classList.add("hidden");
   els.introPanel?.classList.add("hidden");
-  els.emsilePanel?.classList.add("hidden");
-  els.binaPanel?.classList.add("hidden");
-  els.maksudPanel?.classList.add("hidden");
+  els.sarfBooksPanel?.classList.add("hidden");
 }
 
 // Load vocabulary data
@@ -1223,296 +1211,232 @@ function toggleIntro() {
 }
 
 // =====================================
-// EMSILE - الأمثلة (6 Bab Sülasi Mücerred)
+// SARF KİTAPLARI - Birleşik Panel
 // =====================================
-async function loadEmsile() {
-  if (emsileLoaded) return;
+let currentSarfBook = 'emsile';
+let sarfBooksLoaded = false;
+
+async function loadSarfBooks() {
+  if (sarfBooksLoaded) return;
   
+  // Load Emsile
   for (const file of EMSILE_FILES) {
     try {
       const res = await fetch(file);
       if (!res.ok) continue;
       const json = await res.json();
-      if (json.babs && Array.isArray(json.babs)) {
-        emsileBabs.push(...json.babs);
-      }
-    } catch (e) {
-      console.warn(`Could not load ${file}:`, e);
-    }
+      if (json.bablar) emsileBabs.push(...json.bablar);
+    } catch (e) { console.warn(`Could not load ${file}:`, e); }
   }
   
-  emsileLoaded = true;
-  populateEmsileSelect();
-  if (emsileBabs.length > 0) {
-    renderEmsileContent(0);
-  }
-}
-
-function populateEmsileSelect() {
-  if (!els.emsileSelect) return;
-  els.emsileSelect.innerHTML = emsileBabs.map((bab, i) => 
-    `<option value="${i}">${bab.babName} - ${bab.babNameAr} (${bab.pattern})</option>`
-  ).join("");
-}
-
-function renderEmsileContent(babIndex) {
-  if (!els.emsileContent || !emsileBabs[babIndex]) return;
-  
-  const bab = emsileBabs[babIndex];
-  let html = `
-    <div class="emsile-bab">
-      <div class="emsile-header">
-        <h3 class="arabic-text">${bab.babNameAr}</h3>
-        <div class="emsile-pattern">${bab.pattern} <span class="arabic-text">${bab.patternAr}</span></div>
-        <div class="emsile-feature"><span class="label">Özellik:</span> ${bab.feature}</div>
-      </div>
-      
-      <div class="emsile-examples">
-        <h4>Örnek Fiiller</h4>
-        <div class="emsile-examples-grid">`;
-  
-  bab.examples.forEach(ex => {
-    html += `
-      <div class="emsile-example-card">
-        <div class="ex-word arabic-text">${ex.root}</div>
-        <div class="ex-meaning">${ex.meaning}</div>
-      </div>`;
-  });
-  
-  html += `</div></div>`;
-  
-  // Sigalar (Conjugation Forms)
-  if (bab.sigalar) {
-    html += `<div class="emsile-sigalar">
-      <h4>صِيَغ الفعل | Sığa Tablosu</h4>`;
-    
-    bab.sigalar.forEach(siga => {
-      html += `
-        <div class="emsile-siga-block">
-          <div class="siga-header">
-            <span class="siga-name">${siga.name}</span>
-            <span class="siga-name-ar arabic-text">${siga.nameAr}</span>
-          </div>`;
-      
-      if (siga.tasrifler) {
-        html += `<div class="siga-conjugations">`;
-        siga.tasrifler.forEach(t => {
-          html += `
-            <div class="siga-row">
-              <span class="siga-person">${t.person}</span>
-              <span class="siga-form arabic-text">${t.form}</span>
-              <span class="siga-meaning">${t.meaning}</span>
-            </div>`;
-        });
-        html += `</div>`;
-      }
-      
-      html += `</div>`;
-    });
-    
-    html += `</div>`;
-  }
-  
-  html += `</div>`;
-  
-  els.emsileContent.innerHTML = html;
-}
-
-function toggleEmsile() {
-  hideAllPanels();
-  els.emsilePanel?.classList.remove("hidden");
-  loadEmsile();
-}
-
-// =====================================
-// BİNA - البناء (Mezid Fiiller II-X)
-// =====================================
-async function loadBina() {
-  if (binaLoaded) return;
-  
+  // Load Bina
   for (const file of BINA_FILES) {
     try {
       const res = await fetch(file);
       if (!res.ok) continue;
       const json = await res.json();
-      if (json.forms && Array.isArray(json.forms)) {
-        binaForms.push(...json.forms);
-      }
-    } catch (e) {
-      console.warn(`Could not load ${file}:`, e);
-    }
+      if (json.bablar) binaForms.push(...json.bablar);
+    } catch (e) { console.warn(`Could not load ${file}:`, e); }
   }
   
-  binaLoaded = true;
-  populateBinaSelect();
-  if (binaForms.length > 0) {
-    renderBinaContent(0);
-  }
-}
-
-function populateBinaSelect() {
-  if (!els.binaSelect) return;
-  els.binaSelect.innerHTML = binaForms.map((form, i) => 
-    `<option value="${i}">${form.formName} (${form.formNumber}) - ${form.patternAr}</option>`
-  ).join("");
-}
-
-function renderBinaContent(formIndex) {
-  if (!els.binaContent || !binaForms[formIndex]) return;
-  
-  const form = binaForms[formIndex];
-  let html = `
-    <div class="bina-form">
-      <div class="bina-header">
-        <h3>${form.formName} <span class="form-number">${form.formNumber}</span></h3>
-        <div class="bina-pattern">
-          <span class="arabic-text">${form.patternAr}</span>
-          <span class="translit">${form.pattern}</span>
-        </div>
-        <div class="bina-meaning-change">
-          <span class="label">Anlam Değişimi:</span> ${form.meaningChange}
-        </div>
-      </div>
-      
-      <div class="bina-examples">
-        <h4>Örnekler</h4>
-        <div class="bina-examples-grid">`;
-  
-  form.examples.forEach(ex => {
-    html += `
-      <div class="bina-example-card">
-        <div class="bina-ex-header">
-          <span class="bina-root arabic-text">${ex.root}</span>
-          <span class="bina-root-meaning">${ex.rootMeaning}</span>
-        </div>
-        <div class="bina-ex-mazi">
-          <span class="label">Mazi:</span>
-          <span class="arabic-text">${ex.mazi}</span>
-          <span class="translit">(${ex.maziTranslit})</span>
-        </div>
-        <div class="bina-ex-muzari">
-          <span class="label">Muzari:</span>
-          <span class="arabic-text">${ex.muzari}</span>
-          <span class="translit">(${ex.muzariTranslit})</span>
-        </div>
-        <div class="bina-ex-masdar">
-          <span class="label">Masdar:</span>
-          <span class="arabic-text">${ex.masdar}</span>
-          <span class="translit">(${ex.masdarTranslit})</span>
-        </div>
-        <div class="bina-ex-meaning">${ex.meaning}</div>
-      </div>`;
-  });
-  
-  html += `</div></div></div>`;
-  
-  els.binaContent.innerHTML = html;
-}
-
-function toggleBina() {
-  hideAllPanels();
-  els.binaPanel?.classList.remove("hidden");
-  loadBina();
-}
-
-// =====================================
-// MAKSUD - المقصود (İlletli ve Muzaaf Fiiller)
-// =====================================
-async function loadMaksud() {
-  if (maksudLoaded) return;
-  
+  // Load Maksud
   for (const file of MAKSUD_FILES) {
     try {
       const res = await fetch(file);
       if (!res.ok) continue;
       const json = await res.json();
-      if (json.categories && Array.isArray(json.categories)) {
-        maksudCategories.push(...json.categories);
-      }
-    } catch (e) {
-      console.warn(`Could not load ${file}:`, e);
-    }
+      ['misal', 'ecvef', 'nakis', 'muzaaf'].forEach(key => {
+        if (json[key]) maksudCategories.push({ key, ...json[key] });
+      });
+    } catch (e) { console.warn(`Could not load ${file}:`, e); }
   }
   
-  maksudLoaded = true;
-  populateMaksudSelect();
-  if (maksudCategories.length > 0) {
-    renderMaksudContent(0);
-  }
+  sarfBooksLoaded = true;
+  updateSarfBookSelect();
+  renderSarfBook(0);
 }
 
-function populateMaksudSelect() {
-  if (!els.maksudSelect) return;
-  els.maksudSelect.innerHTML = maksudCategories.map((cat, i) => 
-    `<option value="${i}">${cat.name} - ${cat.nameAr}</option>`
+function updateSarfBookSelect() {
+  if (!els.sarfBookSelect) return;
+  
+  let options = [];
+  if (currentSarfBook === 'emsile') {
+    options = emsileBabs.map((b, i) => ({ value: i, label: `${b.name} (${b.pattern})` }));
+  } else if (currentSarfBook === 'bina') {
+    options = binaForms.map((b, i) => ({ value: i, label: `Bab ${b.bab} - ${b.name}` }));
+  } else if (currentSarfBook === 'maksud') {
+    options = maksudCategories.map((c, i) => ({ value: i, label: c.title }));
+  }
+  
+  els.sarfBookSelect.innerHTML = options.map(o => 
+    `<option value="${o.value}">${o.label}</option>`
   ).join("");
 }
 
-function renderMaksudContent(catIndex) {
-  if (!els.maksudContent || !maksudCategories[catIndex]) return;
+function renderSarfBook(index) {
+  if (!els.sarfBooksContent) return;
   
-  const cat = maksudCategories[catIndex];
-  let html = `
-    <div class="maksud-category">
-      <div class="maksud-header">
-        <h3>${cat.name} <span class="arabic-text">${cat.nameAr}</span></h3>
-        <p class="maksud-desc">${cat.description}</p>
-      </div>`;
-  
-  if (cat.subcategories) {
-    html += `<div class="maksud-subcategories">`;
-    
-    cat.subcategories.forEach(sub => {
-      html += `
-        <div class="maksud-subcat">
-          <div class="maksud-subcat-header">
-            <h4>${sub.name} <span class="arabic-text">${sub.nameAr}</span></h4>
-            <p class="maksud-subcat-desc">${sub.description}</p>
-          </div>
-          
-          <div class="maksud-examples">`;
-      
-      sub.examples.forEach(ex => {
-        html += `
-          <div class="maksud-example-card">
-            <div class="maksud-ex-word arabic-text">${ex.verb}</div>
-            <div class="maksud-ex-forms">
-              <span class="label">Mazi:</span> <span class="arabic-text">${ex.mazi}</span>
-              <span class="label">Muzari:</span> <span class="arabic-text">${ex.muzari}</span>
-            </div>
-            <div class="maksud-ex-meaning">${ex.meaning}</div>
-            ${ex.note ? `<div class="maksud-ex-note">📝 ${ex.note}</div>` : ""}
-          </div>`;
-      });
-      
-      html += `</div>`;
-      
-      // Rules
-      if (sub.rules) {
-        html += `
-          <div class="maksud-rules">
-            <h5>Kurallar</h5>
-            <ul>
-              ${sub.rules.map(r => `<li>${r}</li>`).join("")}
-            </ul>
-          </div>`;
-      }
-      
-      html += `</div>`;
-    });
-    
-    html += `</div>`;
+  if (currentSarfBook === 'emsile') {
+    renderEmsileCard(index);
+  } else if (currentSarfBook === 'bina') {
+    renderBinaCard(index);
+  } else if (currentSarfBook === 'maksud') {
+    renderMaksudCard(index);
   }
-  
-  html += `</div>`;
-  
-  els.maksudContent.innerHTML = html;
 }
 
-function toggleMaksud() {
+function renderEmsileCard(idx) {
+  const bab = emsileBabs[idx];
+  if (!bab) return;
+  
+  let html = `
+    <div class="sarf-card">
+      <div class="sarf-card-header">
+        <div class="sarf-card-title">
+          <span class="title-ar">${bab.nameAr}</span>
+          <span class="title-tr">${bab.name}</span>
+        </div>
+        <div class="sarf-card-pattern">${bab.pattern}</div>
+      </div>
+      
+      <div class="sarf-card-desc">${bab.description || ""}</div>
+      
+      <div class="sarf-verb-grid">`;
+  
+  (bab.examples || []).forEach(ex => {
+    const t = ex.tasrif || {};
+    html += `
+      <div class="sarf-verb-card" onclick="this.classList.toggle('expanded')">
+        <div class="verb-main">
+          <span class="verb-ar">${t.mazi?.word || ""}</span>
+          <span class="verb-meaning">${ex.meaning}</span>
+        </div>
+        <div class="verb-details">
+          <div class="verb-row"><span class="lbl">Kök:</span><span>${ex.root}</span></div>
+          <div class="verb-row"><span class="lbl">Muzari:</span><span class="ar">${t.muzari?.word || ""}</span></div>
+          <div class="verb-row"><span class="lbl">Emir:</span><span class="ar">${t.emir?.word || ""}</span></div>
+          <div class="verb-row"><span class="lbl">Masdar:</span><span class="ar">${t.masdar?.word || ""}</span></div>
+          <div class="verb-row"><span class="lbl">İsm-i Fail:</span><span class="ar">${t.ism_fail?.word || ""}</span></div>
+          <div class="verb-row"><span class="lbl">İsm-i Mef'ul:</span><span class="ar">${t.ism_meful?.word || ""}</span></div>
+        </div>
+      </div>`;
+  });
+  
+  html += `</div></div>`;
+  els.sarfBooksContent.innerHTML = html;
+}
+
+function renderBinaCard(idx) {
+  const form = binaForms[idx];
+  if (!form) return;
+  
+  let html = `
+    <div class="sarf-card">
+      <div class="sarf-card-header">
+        <div class="sarf-card-title">
+          <span class="title-ar">${form.nameAr}</span>
+          <span class="title-tr">${form.name}</span>
+          <span class="bab-num">Bab ${form.bab}</span>
+        </div>
+        <div class="sarf-card-pattern">${form.pattern}</div>
+      </div>
+      
+      <div class="sarf-card-desc">${form.addition || ""}</div>
+      
+      <div class="sarf-meanings">
+        ${(form.meanings || []).map(m => `<span class="meaning-chip">${m}</span>`).join("")}
+      </div>
+      
+      <div class="sarf-verb-grid">`;
+  
+  (form.examples || []).forEach(ex => {
+    const m = ex.mezid || {};
+    html += `
+      <div class="sarf-verb-card" onclick="this.classList.toggle('expanded')">
+        <div class="verb-main">
+          <span class="verb-ar">${m.mazi?.word || ""}</span>
+          <span class="verb-meaning">${m.mazi?.meaning || ""}</span>
+        </div>
+        <div class="verb-base">
+          <span class="base-label">Temel:</span>
+          <span class="base-ar">${ex.base?.word || ""}</span>
+          <span class="base-meaning">${ex.base?.meaning || ""}</span>
+        </div>
+        <div class="verb-details">
+          <div class="verb-row"><span class="lbl">Muzari:</span><span class="ar">${m.muzari?.word || ""}</span><span class="meaning">${m.muzari?.meaning || ""}</span></div>
+          <div class="verb-row"><span class="lbl">Masdar:</span><span class="ar">${m.masdar?.word || ""}</span><span class="meaning">${m.masdar?.meaning || ""}</span></div>
+          ${m.ism_fail ? `<div class="verb-row"><span class="lbl">Fail:</span><span class="ar">${m.ism_fail.word}</span><span class="meaning">${m.ism_fail.meaning || ""}</span></div>` : ""}
+          ${m.ism_meful ? `<div class="verb-row"><span class="lbl">Mef'ul:</span><span class="ar">${m.ism_meful.word}</span><span class="meaning">${m.ism_meful.meaning || ""}</span></div>` : ""}
+        </div>
+        ${ex.note ? `<div class="verb-note">${ex.note}</div>` : ""}
+      </div>`;
+  });
+  
+  html += `</div></div>`;
+  els.sarfBooksContent.innerHTML = html;
+}
+
+function renderMaksudCard(idx) {
+  const cat = maksudCategories[idx];
+  if (!cat) return;
+  
+  let html = `
+    <div class="sarf-card">
+      <div class="sarf-card-header">
+        <div class="sarf-card-title">
+          <span class="title-tr">${cat.title}</span>
+        </div>
+      </div>
+      
+      <div class="sarf-card-desc">${cat.description || ""}</div>`;
+  
+  (cat.types || []).forEach(type => {
+    html += `
+      <div class="maksud-type">
+        <div class="type-header">
+          <span class="type-ar">${type.typeAr}</span>
+          <span class="type-tr">${type.type}</span>
+        </div>
+        <div class="type-desc">${type.description}</div>
+        <div class="sarf-verb-grid">`;
+    
+    (type.examples || []).forEach(ex => {
+      const t = ex.tasrif || {};
+      html += `
+        <div class="sarf-verb-card" onclick="this.classList.toggle('expanded')">
+          <div class="verb-main">
+            <span class="verb-ar">${t.mazi?.word || ""}</span>
+            <span class="verb-meaning">${ex.meaning}</span>
+          </div>
+          <div class="verb-details">
+            <div class="verb-row"><span class="lbl">Kök:</span><span>${ex.root}</span></div>
+            <div class="verb-row"><span class="lbl">Muzari:</span><span class="ar">${t.muzari?.word || ""}</span></div>
+            ${t.muzari?.note ? `<div class="verb-note">${t.muzari.note}</div>` : ""}
+            <div class="verb-row"><span class="lbl">Emir:</span><span class="ar">${t.emir?.word || ""}</span></div>
+            <div class="verb-row"><span class="lbl">Masdar:</span><span class="ar">${t.masdar?.word || ""}</span></div>
+          </div>
+        </div>`;
+    });
+    
+    html += `</div></div>`;
+  });
+  
+  html += `</div>`;
+  els.sarfBooksContent.innerHTML = html;
+}
+
+function switchSarfBook(book) {
+  currentSarfBook = book;
+  document.querySelectorAll('.sarf-tab').forEach(t => t.classList.remove('active'));
+  document.querySelector(`.sarf-tab[data-book="${book}"]`)?.classList.add('active');
+  updateSarfBookSelect();
+  renderSarfBook(0);
+}
+
+function toggleSarfBooks() {
   hideAllPanels();
-  els.maksudPanel?.classList.remove("hidden");
-  loadMaksud();
+  els.sarfBooksPanel?.classList.remove("hidden");
+  loadSarfBooks();
 }
 
 // Event listeners
@@ -1592,25 +1516,17 @@ document.addEventListener("DOMContentLoaded", () => {
   // Intro
   els.introBtn?.addEventListener("click", toggleIntro);
   
-  // Emsile
-  els.emsileBtn?.addEventListener("click", toggleEmsile);
-  els.emsileSelect?.addEventListener("change", (e) => {
-    const babIndex = parseInt(e.target.value, 10);
-    renderEmsileContent(babIndex);
+  // Sarf Books (Unified)
+  els.sarfBooksBtn?.addEventListener("click", toggleSarfBooks);
+  els.sarfBookSelect?.addEventListener("change", (e) => {
+    const idx = parseInt(e.target.value, 10);
+    renderSarfBook(idx);
   });
-  
-  // Bina
-  els.binaBtn?.addEventListener("click", toggleBina);
-  els.binaSelect?.addEventListener("change", (e) => {
-    const formIndex = parseInt(e.target.value, 10);
-    renderBinaContent(formIndex);
-  });
-  
-  // Maksud
-  els.maksudBtn?.addEventListener("click", toggleMaksud);
-  els.maksudSelect?.addEventListener("change", (e) => {
-    const catIndex = parseInt(e.target.value, 10);
-    renderMaksudContent(catIndex);
+  document.querySelectorAll(".sarf-tab").forEach(tab => {
+    tab.addEventListener("click", (e) => {
+      const book = e.currentTarget.dataset.book;
+      if (book) switchSarfBook(book);
+    });
   });
   
   // Load TTS voices
