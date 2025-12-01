@@ -25,7 +25,7 @@ const App = {
       'intro_01', 'vocab_01', 'grammar_01', 'quiz_01',
       'pronouns_01', 'demonstratives_01', 'colors_01', 'numbers_01', 'questions_01',
       'emsile_01', 'bina_01', 'maksud_01', 'sarf_01', 'nahiv_01',
-      'islamic_terms_01', 'islamic_basics_01', 'common_50'
+      'islamic_terms_01', 'islamic_basics_01'
     ];
     
     for (const file of files) {
@@ -41,8 +41,45 @@ const App = {
         console.error(`✗ Error loading ${file}:`, e);
       }
     }
+    
+    // Kök dosyalarını dinamik yükle
+    await this.loadRootsIndex();
+    
     this.dataLoaded = true;
     console.log('All data loaded:', Object.keys(this.data));
+  },
+  
+  async loadRootsIndex() {
+    try {
+      const response = await fetch('data/roots_index.json');
+      if (!response.ok) return;
+      
+      const index = await response.json();
+      this.data.roots_index = index;
+      this.data.all_roots = [];
+      
+      // Her kök dosyasını yükle
+      for (const rootFile of index.files) {
+        try {
+          const res = await fetch(`data/${rootFile.file}`);
+          if (res.ok) {
+            const data = await res.json();
+            this.data[rootFile.id] = data;
+            // Tüm kökleri birleştir
+            if (data.roots) {
+              this.data.all_roots.push(...data.roots);
+            }
+            console.log(`✓ Loaded roots: ${rootFile.id} (${data.roots?.length || 0} kök)`);
+          }
+        } catch (e) {
+          console.error(`✗ Error loading ${rootFile.file}:`, e);
+        }
+      }
+      
+      console.log(`📚 Toplam ${this.data.all_roots.length} kök yüklendi`);
+    } catch (e) {
+      console.error('Roots index yüklenemedi:', e);
+    }
   },
   
   bindNavigation() {
@@ -534,24 +571,47 @@ const App = {
   },
   
   renderRoots50(data, container) {
-    if (!data || !data.roots) {
-      container.innerHTML = '<div class="placeholder">Veri bulunamadı</div>';
+    // Tüm kökleri all_roots'tan al (birleştirilmiş)
+    const allRoots = this.data.all_roots || [];
+    const index = this.data.roots_index;
+    
+    if (allRoots.length === 0) {
+      container.innerHTML = '<div class="placeholder">Kök verisi bulunamadı</div>';
       return;
     }
     
     let html = `
       <div class="section">
-        <div class="section-title">🌳 En Sık Kullanılan 50 Arapça Kök</div>
-        <p style="color: var(--text-dim); margin-bottom: 8px;">${data.notes?.toplam_kaplama || ''}</p>
-        <p style="color: var(--text-dim); font-size: 12px; margin-bottom: 20px;">${data.notes?.kullanim || ''}</p>
+        <div class="section-title">🌳 Arapça Kök Koleksiyonu</div>
+        <p style="color: var(--text-dim); margin-bottom: 8px;">Toplam ${allRoots.length} kök yüklendi</p>
+        <p style="color: var(--text-dim); font-size: 12px; margin-bottom: 12px;">Bu kökler Kur'an'daki kelimelerin büyük çoğunluğunu kapsar</p>
+    `;
+    
+    // Dosya listesi
+    if (index?.files) {
+      html += '<div class="roots-files">';
+      index.files.forEach(f => {
+        html += `<span class="roots-file-tag">📁 ${f.name} (${f.count})</span>`;
+      });
+      html += '</div>';
+    }
+    
+    html += '</div>';
+    
+    // Arama kutusu
+    html += `
+      <div class="search-box" style="margin-bottom: 20px;">
+        <input type="text" id="roots-search" placeholder="Kök ara... (örn: ك ت ب veya yazmak)" 
+               style="width: 100%; padding: 12px 16px; background: var(--bg-lighter); border: 1px solid var(--border); 
+                      border-radius: 8px; color: var(--text); font-size: 14px;">
       </div>
     `;
     
-    html += '<div class="roots-grid">';
+    html += '<div class="roots-grid" id="roots-container">';
     
-    data.roots.forEach((root, index) => {
+    allRoots.forEach((root) => {
       html += `
-        <div class="root-card">
+        <div class="root-card" data-root="${root.root}" data-meaning="${root.meaning}">
           <div class="root-number">${root.id}</div>
           <div class="root-main">
             <div class="root-arabic">${root.root}</div>
@@ -568,6 +628,27 @@ const App = {
     
     html += '</div>';
     container.innerHTML = html;
+    
+    // Arama fonksiyonu
+    const searchInput = document.getElementById('roots-search');
+    const rootsContainer = document.getElementById('roots-container');
+    
+    searchInput?.addEventListener('input', (e) => {
+      const query = e.target.value.toLowerCase().trim();
+      const cards = rootsContainer.querySelectorAll('.root-card');
+      
+      cards.forEach(card => {
+        const root = card.dataset.root?.toLowerCase() || '';
+        const meaning = card.dataset.meaning?.toLowerCase() || '';
+        const text = card.textContent.toLowerCase();
+        
+        if (!query || root.includes(query) || meaning.includes(query) || text.includes(query)) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
   },
   
   // Quiz State

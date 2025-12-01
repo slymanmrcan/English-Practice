@@ -1,0 +1,409 @@
+{
+  "roots": [
+    {
+      "id": 51,
+      "root": "ء ب ي",
+      "transliteration": "ʾ-b-y",
+      "meaning": "reddetmek, kabul etmemek",
+      "frequency": 47,
+      "examples": ["أَبَى (eba - reddetti)", "إِبَاء (iba - ret)"]
+    },
+    {
+      "id": 52,
+      "root": "ض ل ل",
+      "transliteration": "ḍ-l-l",
+      "meaning": "sapıtmak, kaybolmak",
+      "frequency": 191,
+      "examples": ["ضَلَّ (dalle - saptı)", "ضَلَالَة (dalalete)", "ضَالّ (dall - sapık)"]
+    },
+    {
+      "id": 53,
+      "root": "ت و ب",
+      "transliteration": "t-w-b",
+      "meaning": "tevbe etmek",
+      "frequency": 87,
+      "examples": ["تَابَ (tabe - tevbe etti)", "تَوْبَة (tevbe)", "تَوَّاب (tevvab)"]
+    },
+    {
+      "id": 54,
+      "root": "خ و ف",
+      "transliteration": "kh-w-f",
+      "meaning": "korkmak",
+      "frequency": 124,
+      "examples": ["خَافَ (hafe - korktu)", "خَوْف (havf - korku)", "خَائِف (haif)"]
+    },
+    {
+      "id": 55,
+      "root": "ء م ر",
+      "transliteration": "ʾ-m-r",
+      "meaning": "emretmek, iş",
+      "frequency": 247,
+      "examples": ["أَمَرَ (emere - emretti)", "أَمْر (emr - emir)", "مَأْمُور (me'mur)"]
+    },
+    {
+      "id": 56,
+      "root": "ن ه ي",
+      "transliteration": "n-h-y",
+      "meaning": "yasaklamak, nehiy",
+      "frequency": 44,
+      "examples": ["نَهَى (neha - yasakladı)", "نَهْي (nehy - yasak)"]
+    },
+    {
+      "id": 57,
+      "root": "ط و ع",
+      "transliteration": "ṭ-w-ʿ",
+      "meaning": "itaat etmek",
+      "frequency": 132,
+      "examples": ["أَطَاعَ (eta'a - itaat etti)", "طَاعَة (taat)", "مُطِيع (muti')"]
+    },
+    {
+      "id": 58,
+      "root": "ع ص ي",
+      "transliteration": "ʿ-ṣ-y",
+      "meaning": "isyan etmek",
+      "frequency": 63,
+      "examples": ["عَصَى (asa - isyan etti)", "عَاصِي (asi)", "مَعْصِيَة (masiyet)"]
+    },
+    {
+      "id": 59,
+      "root": "ج ز ي",
+      "transliteration": "j-z-y",
+      "meaning": "karşılık vermek, ceza",
+      "frequency": 117,
+      "examples": ["جَزَى (ceza - karşılık verdi)", "جَزَاء (ceza)", "جَزِيَّة (cizye)"]
+    },
+    {
+      "id": 60,
+      "root": "ح س ب",
+      "transliteration": "ḥ-s-b",
+      "meaning": "hesap etmek, zannetmek",
+      "frequency": 109,
+      "examples": ["حَسِبَ (hasibe - zannetti)", "حِسَاب (hesap)", "حَاسِب (hasib)"]
+    },
+    {
+      "id": 61,
+      "root": "ك ن ز",
+      "transliteration": "k-n-z",
+      "meaning": "hazine, biriktirmek",
+      "frequency": 4,
+      "examples": ["كَنْز (kenz - hazine)", "كُنُوز (künuz - hazineler)"]
+    },
+    {
+      "id": 62,
+      "root": "ن ف ق",
+      "transliteration": "n-f-q",
+      "meaning": "infak etmek, harcamak",
+      "frequency": 73,
+      "examples": ["أَنْفَقَ (enfeka - infak etti)", "نَفَقَة (nafaka)", "مُنْفِق (munfik)"]
+    },
+    {
+      "id": 63,
+      "root": "ق ت ل",
+      "transliteration": "q-t-l",
+      "meaning": "öldürmek",
+      "frequency": 187,
+      "examples": ["قَتَلَ (katele - öldürdü)", "قَتْل (katl)", "قَاتِل (katil)"]
+    },
+    {
+      "id": 64,
+      "root": "ح ر م",
+      "transliteration": "ḥ-r-m",
+      "meaning": "haram, kutsal",
+      "frequency": 84,
+      "examples": ["حَرَّمَ (harreme - haram kıldı)", "حَرَام (haram)", "مَحْرَم (mahrem)"]
+    },
+    {
+      "id": 65,
+      "root": "ح ل ل",
+      "transliteration": "ḥ-l-l",
+      "meaning": "helal, çözmek",
+      "frequency": 57,
+      "examples": ["أَحَلَّ (ehalle - helal kıldı)", "حَلَال (helal)", "حِلّ (hill)"]
+    },
+    {
+      "id": 66,
+      "root": "س ج د",
+      "transliteration": "s-j-d",
+      "meaning": "secde etmek",
+      "frequency": 92,
+      "examples": ["سَجَدَ (secede - secde etti)", "سُجُود (sucud)", "مَسْجِد (mescid)"]
+    },
+    {
+      "id": 67,
+      "root": "ع ب د",
+      "transliteration": "ʿ-b-d",
+      "meaning": "ibadet etmek, kul",
+      "frequency": 275,
+      "examples": ["عَبَدَ (abede - ibadet etti)", "عَبْد (abd - kul)", "عِبَادَة (ibadet)"]
+    },
+    {
+      "id": 68,
+      "root": "د ع و",
+      "transliteration": "d-ʿ-w",
+      "meaning": "çağırmak, dua etmek",
+      "frequency": 212,
+      "examples": ["دَعَا (dea - çağırdı)", "دُعَاء (dua)", "دَاعِي (dai)"]
+    },
+    {
+      "id": 69,
+      "root": "ر ج و",
+      "transliteration": "r-j-w",
+      "meaning": "ummak, ümit etmek",
+      "frequency": 46,
+      "examples": ["رَجَا (reca - umdu)", "رَجَاء (reca - ümit)"]
+    },
+    {
+      "id": 70,
+      "root": "ن س ي",
+      "transliteration": "n-s-y",
+      "meaning": "unutmak",
+      "frequency": 45,
+      "examples": ["نَسِيَ (nesiye - unuttu)", "نِسْيَان (nisyan)"]
+    },
+    {
+      "id": 71,
+      "root": "ذ ه ب",
+      "transliteration": "dh-h-b",
+      "meaning": "gitmek",
+      "frequency": 57,
+      "examples": ["ذَهَبَ (zehebe - gitti)", "ذَهَاب (zehab - gidiş)", "مَذْهَب (mezheb)"]
+    },
+    {
+      "id": 72,
+      "root": "ج ء ء",
+      "transliteration": "j-ʾ-ʾ",
+      "meaning": "gelmek",
+      "frequency": 282,
+      "examples": ["جَاءَ (cae - geldi)", "مَجِيء (meci' - geliş)"]
+    },
+    {
+      "id": 73,
+      "root": "ب ع ث",
+      "transliteration": "b-ʿ-th",
+      "meaning": "göndermek, diriltmek",
+      "frequency": 66,
+      "examples": ["بَعَثَ (beasa - gönderdi)", "بَعْث (ba's - diriliş)", "مَبْعُوث (meb'us)"]
+    },
+    {
+      "id": 74,
+      "root": "ش ه د",
+      "transliteration": "sh-h-d",
+      "meaning": "şahitlik etmek",
+      "frequency": 160,
+      "examples": ["شَهِدَ (şehide - şahitlik etti)", "شَهَادَة (şehadet)", "شَاهِد (şahid)"]
+    },
+    {
+      "id": 75,
+      "root": "ف ر ق",
+      "transliteration": "f-r-q",
+      "meaning": "ayırmak, furkan",
+      "frequency": 43,
+      "examples": ["فَرَقَ (feraka - ayırdı)", "فُرْقَان (furkan)", "فَرِيق (ferik)"]
+    },
+    {
+      "id": 76,
+      "root": "ج م ع",
+      "transliteration": "j-m-ʿ",
+      "meaning": "toplamak",
+      "frequency": 129,
+      "examples": ["جَمَعَ (cemea - topladı)", "جَمْع (cem')", "جَمِيع (cemi')"]
+    },
+    {
+      "id": 77,
+      "root": "و ع د",
+      "transliteration": "w-ʿ-d",
+      "meaning": "vaad etmek",
+      "frequency": 147,
+      "examples": ["وَعَدَ (veade - vaad etti)", "وَعْد (va'd)", "مَوْعِد (mev'id)"]
+    },
+    {
+      "id": 78,
+      "root": "ك ل ف",
+      "transliteration": "k-l-f",
+      "meaning": "yükümlü kılmak",
+      "frequency": 9,
+      "examples": ["كَلَّفَ (kellefe - yükümlü kıldı)", "تَكْلِيف (teklif)"]
+    },
+    {
+      "id": 79,
+      "root": "و س ع",
+      "transliteration": "w-s-ʿ",
+      "meaning": "genişlik, kuşatmak",
+      "frequency": 96,
+      "examples": ["وَسِعَ (vesia - kuşattı)", "وَاسِع (vasi' - geniş)", "سَعَة (sea)"]
+    },
+    {
+      "id": 80,
+      "root": "ح ب ب",
+      "transliteration": "ḥ-b-b",
+      "meaning": "sevmek",
+      "frequency": 83,
+      "examples": ["أَحَبَّ (ahabbe - sevdi)", "حُبّ (hubb - sevgi)", "حَبِيب (habib)"]
+    },
+    {
+      "id": 81,
+      "root": "ب غ ض",
+      "transliteration": "b-gh-ḍ",
+      "meaning": "nefret etmek",
+      "frequency": 24,
+      "examples": ["أَبْغَضَ (abgada - nefret etti)", "بُغْض (buğd - nefret)"]
+    },
+    {
+      "id": 82,
+      "root": "ق ر ب",
+      "transliteration": "q-r-b",
+      "meaning": "yaklaşmak",
+      "frequency": 108,
+      "examples": ["قَرُبَ (karube - yaklaştı)", "قَرِيب (karib - yakın)", "قُرْبَان (kurban)"]
+    },
+    {
+      "id": 83,
+      "root": "ب ع د",
+      "transliteration": "b-ʿ-d",
+      "meaning": "uzak olmak, sonra",
+      "frequency": 596,
+      "examples": ["بَعُدَ (beude - uzaklaştı)", "بَعِيد (beid - uzak)", "بَعْد (ba'd - sonra)"]
+    },
+    {
+      "id": 84,
+      "root": "ف و ز",
+      "transliteration": "f-w-z",
+      "meaning": "kurtuluş, başarı",
+      "frequency": 29,
+      "examples": ["فَازَ (faze - kurtuldu)", "فَوْز (fevz - kurtuluş)"]
+    },
+    {
+      "id": 85,
+      "root": "خ س ر",
+      "transliteration": "kh-s-r",
+      "meaning": "kaybetmek, ziyan",
+      "frequency": 67,
+      "examples": ["خَسِرَ (hasire - kaybetti)", "خُسْران (hüsran)", "خَاسِر (hasir)"]
+    },
+    {
+      "id": 86,
+      "root": "ن ج و",
+      "transliteration": "n-j-w",
+      "meaning": "kurtulmak, fısıldaşmak",
+      "frequency": 44,
+      "examples": ["نَجَا (neca - kurtuldu)", "نَجَاة (necat)", "نَجْوَى (necva)"]
+    },
+    {
+      "id": 87,
+      "root": "ه ل ك",
+      "transliteration": "h-l-k",
+      "meaning": "helak olmak",
+      "frequency": 51,
+      "examples": ["هَلَكَ (heleke - helak oldu)", "هَلَاك (helak)"]
+    },
+    {
+      "id": 88,
+      "root": "ن ع م",
+      "transliteration": "n-ʿ-m",
+      "meaning": "nimet",
+      "frequency": 141,
+      "examples": ["أَنْعَمَ (en'eme - nimet verdi)", "نِعْمَة (nimet)", "مُنْعِم (mun'im)"]
+    },
+    {
+      "id": 89,
+      "root": "ش ق ي",
+      "transliteration": "sh-q-y",
+      "meaning": "bedbaht olmak",
+      "frequency": 14,
+      "examples": ["شَقِيَ (şakiye - bedbaht oldu)", "شَقِيّ (şakiyy)", "شَقَاء (şeka)"]
+    },
+    {
+      "id": 90,
+      "root": "س ع د",
+      "transliteration": "s-ʿ-d",
+      "meaning": "mutlu olmak",
+      "frequency": 9,
+      "examples": ["سَعِدَ (seide - mutlu oldu)", "سَعِيد (seid - mutlu)", "سَعَادَة (seadet)"]
+    },
+    {
+      "id": 91,
+      "root": "ف ق ه",
+      "transliteration": "f-q-h",
+      "meaning": "anlamak, fıkıh",
+      "frequency": 20,
+      "examples": ["فَقِهَ (fakihe - anladı)", "فِقْه (fıkıh)", "فَقِيه (fakih)"]
+    },
+    {
+      "id": 92,
+      "root": "ع ق ل",
+      "transliteration": "ʿ-q-l",
+      "meaning": "akıl, akletmek",
+      "frequency": 49,
+      "examples": ["عَقَلَ (akale - akıl etti)", "عَقْل (akl - akıl)", "عَاقِل (akıl)"]
+    },
+    {
+      "id": 93,
+      "root": "ف ك ر",
+      "transliteration": "f-k-r",
+      "meaning": "düşünmek",
+      "frequency": 18,
+      "examples": ["فَكَّرَ (fekkere - düşündü)", "فِكْر (fikr - düşünce)"]
+    },
+    {
+      "id": 94,
+      "root": "ت ف ك ر",
+      "transliteration": "t-f-k-r",
+      "meaning": "tefekkür etmek",
+      "frequency": 18,
+      "examples": ["تَفَكَّرَ (tefakkere - tefekkür etti)", "تَفَكُّر (tefekkür)"]
+    },
+    {
+      "id": 95,
+      "root": "ن ظ ر",
+      "transliteration": "n-ẓ-r",
+      "meaning": "bakmak",
+      "frequency": 129,
+      "examples": ["نَظَرَ (nazara - baktı)", "نَظَر (nazar)", "نَاظِر (nazır)"]
+    },
+    {
+      "id": 96,
+      "root": "ع م ي",
+      "transliteration": "ʿ-m-y",
+      "meaning": "kör olmak",
+      "frequency": 50,
+      "examples": ["عَمِيَ (amiye - kör oldu)", "أَعْمَى (a'ma - kör)"]
+    },
+    {
+      "id": 97,
+      "root": "ص م م",
+      "transliteration": "ṣ-m-m",
+      "meaning": "sağır olmak",
+      "frequency": 15,
+      "examples": ["صَمَّ (samme - sağır oldu)", "أَصَمّ (esamm - sağır)"]
+    },
+    {
+      "id": 98,
+      "root": "ك م ه",
+      "transliteration": "k-m-h",
+      "meaning": "dilsiz, suskun",
+      "frequency": 2,
+      "examples": ["أَكْمَه (ekmeh - dilsiz)"]
+    },
+    {
+      "id": 99,
+      "root": "ل ق ي",
+      "transliteration": "l-q-y",
+      "meaning": "karşılaşmak",
+      "frequency": 127,
+      "examples": ["لَقِيَ (lakiye - karşılaştı)", "لِقَاء (lika - buluşma)"]
+    },
+    {
+      "id": 100,
+      "root": "و ج د",
+      "transliteration": "w-j-d",
+      "meaning": "bulmak",
+      "frequency": 107,
+      "examples": ["وَجَدَ (vecede - buldu)", "وُجُود (vücud - varlık)", "مَوْجُود (mevcud)"]
+    }
+  ],
+  "notes": {
+    "toplam_kaplama": "İlk 100 kök birlikte, Kur'an'daki kelimelerin yaklaşık %65-70'ini kapsar",
+    "oneriler": "Bu 100 kökü öğrendikten sonra temel metinleri rahatça anlayabilirsiniz",
+    "tekrar": "50-100 aralığındaki kökler biraz daha az sıklıkta geçer ama yine çok önemlidir"
+  }
+}

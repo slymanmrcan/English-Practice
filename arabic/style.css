@@ -783,6 +783,22 @@ body {
   color: var(--text);
 }
 
+.roots-files {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.roots-file-tag {
+  background: var(--accent-dim);
+  border: 1px solid var(--accent);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  color: var(--accent);
+}
+
 /* Quiz Container & Progress */
 .quiz-container {
   max-width: 600px;

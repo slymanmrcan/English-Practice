@@ -1,0 +1,21 @@
+{
+  "title": "Arapça Kök Koleksiyonu",
+  "description": "Kur'an'da en sık geçen köklerin derlemesi",
+  "files": [
+    {
+      "id": "common_50",
+      "name": "İlk 50 Kök",
+      "file": "common_50.json",
+      "count": 50,
+      "description": "En sık kullanılan ilk 50 kök"
+    },
+    {
+      "id": "common_100",
+      "name": "51-100 arası kök",
+      "file": "common_100.json",
+      "count": 1200,
+      "description": "Kur'an'da geçen tüm köklerin tam listesi"
+    }
+  ],
+  "notes": "Yeni dosya eklemek için 'files' dizisine yeni bir obje ekle"
+}
