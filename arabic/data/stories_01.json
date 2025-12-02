@@ -1,0 +1,928 @@
+{
+  "meta": {
+    "title": "قِصَص لِلمُبْتَدِئِين | Başlangıç Hikayeleri",
+    "level": "A1",
+    "description": "Basit masallar - Arapça okuma pratiği ve gramer analizi",
+    "totalStories": 3
+  },
+  "stories": [
+    {
+      "id": 1,
+      "title": "ذَاتُ الرِّدَاءِ الأَحْمَر",
+      "titleTr": "Kırmızı Başlıklı Kız",
+      "paragraphs": [
+        {
+          "arabic": "كَانَ يَا مَا كَانَ، فِي قَدِيمِ الزَّمَانِ، كَانَتْ هُنَاكَ بِنْتٌ صَغِيرَةٌ جَمِيلَة.",
+          "turkish": "Bir varmış bir yokmuş, eski zamanlarda, güzel küçük bir kız varmış."
+        },
+        {
+          "arabic": "كَانَتْ تَلْبَسُ رِدَاءً أَحْمَرَ دَائِمًا. لِذَلِكَ سَمَّاهَا النَّاسُ \"ذَاتَ الرِّدَاءِ الأَحْمَر\".",
+          "turkish": "Her zaman kırmızı bir pelerin giyerdi. Bu yüzden insanlar ona 'Kırmızı Başlıklı Kız' derdi."
+        },
+        {
+          "arabic": "فِي يَوْمٍ مِنَ الأَيَّامِ، قَالَتْ لَهَا أُمُّهَا: \"اِذْهَبِي إِلَى بَيْتِ جَدَّتِكِ. هِيَ مَرِيضَةٌ. خُذِي لَهَا الطَّعَامَ.\"",
+          "turkish": "Bir gün annesi ona dedi: 'Ninemin evine git. O hasta. Ona yemek götür.'"
+        },
+        {
+          "arabic": "قَالَتِ البِنْتُ: \"حَاضِرٌ يَا أُمِّي.\" وَأَخَذَتِ السَّلَّةَ وَذَهَبَتْ.",
+          "turkish": "Kız dedi: 'Tamam anneciğim.' Sepeti aldı ve gitti."
+        },
+        {
+          "arabic": "فِي الغَابَةِ، قَابَلَتِ الذِّئْبَ الكَبِيرَ. سَأَلَهَا الذِّئْبُ: \"إِلَى أَيْنَ تَذْهَبِينَ؟\"",
+          "turkish": "Ormanda büyük kurda rastladı. Kurt ona sordu: 'Nereye gidiyorsun?'"
+        },
+        {
+          "arabic": "قَالَتْ: \"أَذْهَبُ إِلَى بَيْتِ جَدَّتِي.\"",
+          "turkish": "Dedi: 'Ninemin evine gidiyorum.'"
+        },
+        {
+          "arabic": "ذَهَبَ الذِّئْبُ إِلَى بَيْتِ الجَدَّةِ قَبْلَهَا. دَخَلَ البَيْتَ وَاخْتَبَأَ فِي السَّرِير.",
+          "turkish": "Kurt ondan önce ninenin evine gitti. Eve girdi ve yatağa saklandı."
+        },
+        {
+          "arabic": "جَاءَتِ البِنْتُ وَدَخَلَتِ البَيْتَ. قَالَتْ: \"جَدَّتِي، لِمَاذَا أُذُنَاكِ كَبِيرَتَانِ؟\"",
+          "turkish": "Kız geldi ve eve girdi. Dedi: 'Ninecim, kulakların neden bu kadar büyük?'"
+        },
+        {
+          "arabic": "قَالَ الذِّئْبُ: \"لِأَسْمَعَكِ جَيِّدًا.\"",
+          "turkish": "Kurt dedi: 'Seni iyi duymak için.'"
+        },
+        {
+          "arabic": "قَالَتْ: \"وَلِمَاذَا عَيْنَاكِ كَبِيرَتَانِ؟\" قَالَ: \"لِأَرَاكِ جَيِّدًا.\"",
+          "turkish": "Dedi: 'Peki gözlerin neden bu kadar büyük?' Dedi: 'Seni iyi görmek için.'"
+        },
+        {
+          "arabic": "قَالَتْ: \"وَلِمَاذَا فَمُكِ كَبِير؟\" قَالَ الذِّئْبُ: \"لِآكُلَكِ!\"",
+          "turkish": "Dedi: 'Peki ağzın neden bu kadar büyük?' Kurt dedi: 'Seni yemek için!'"
+        },
+        {
+          "arabic": "فَجْأَةً جَاءَ الصَّيَّادُ وَأَنْقَذَ البِنْتَ وَالجَدَّةَ. وَعَاشُوا فِي سَعَادَةٍ.",
+          "turkish": "Aniden avcı geldi ve kızı ve nineyi kurtardı. Mutlu yaşadılar."
+        }
+      ],
+      "grammar": [
+        {
+          "title": "كَانَ - Nakıs Fiil (Eksik Fiil)",
+          "explanation": "كَانَ nakıs (eksik) fiildir. İsmini merfu, haberini mansub yapar.",
+          "examples": [
+            {
+              "arabic": "كَانَتْ هُنَاكَ بِنْتٌ",
+              "analysis": "كَانَتْ (nakıs fiil, müennes) + بِنْتٌ (ismi كان, merfu)",
+              "turkish": "Bir kız vardı"
+            },
+            {
+              "arabic": "كَانَتْ تَلْبَسُ",
+              "analysis": "كَانَتْ + fiil cümlesi (haber). تَلْبَسُ muzari fiil, müennes gâib",
+              "turkish": "Giyerdi (süreklilik ifade eder)"
+            }
+          ]
+        },
+        {
+          "title": "Mazi (Geçmiş Zaman) Fiiller",
+          "explanation": "Hikayede geçen mazi fiiller ve tasrifleri:",
+          "examples": [
+            {
+              "arabic": "قَالَتْ",
+              "analysis": "ق-و-ل kökü, ecvef fiil (ortası illetli). قَالَ (müzekker) → قَالَتْ (müennes)",
+              "turkish": "Dedi (kadın)"
+            },
+            {
+              "arabic": "ذَهَبَتْ",
+              "analysis": "ذ-ه-ب kökü, sülasi mücerred (1. bab). ذَهَبَ → يَذْهَبُ → اُذْهُبْ",
+              "turkish": "Gitti (kadın)"
+            },
+            {
+              "arabic": "أَخَذَتْ",
+              "analysis": "أ-خ-ذ kökü, sülasi mücerred. أَخَذَ → يَأْخُذُ → خُذْ (emri şaz)",
+              "turkish": "Aldı (kadın)"
+            },
+            {
+              "arabic": "جَاءَ / جَاءَتْ",
+              "analysis": "ج-ي-أ kökü, nakıs fiil (sonu illetli). جَاءَ → يَجِيءُ",
+              "turkish": "Geldi"
+            },
+            {
+              "arabic": "دَخَلَ",
+              "analysis": "د-خ-ل kökü, sülasi mücerred (1. bab). دَخَلَ → يَدْخُلُ → اُدْخُلْ",
+              "turkish": "Girdi"
+            },
+            {
+              "arabic": "اِخْتَبَأَ",
+              "analysis": "خ-ب-أ kökü, ifti'al babı (8. bab). اِخْتَبَأَ → يَخْتَبِئُ. Hemze illetli.",
+              "turkish": "Saklandı"
+            },
+            {
+              "arabic": "سَأَلَ",
+              "analysis": "س-أ-ل kökü, sülasi mücerred. سَأَلَ → يَسْأَلُ",
+              "turkish": "Sordu"
+            },
+            {
+              "arabic": "أَنْقَذَ",
+              "analysis": "ن-ق-ذ kökü, if'al babı (4. bab). أَنْقَذَ → يُنْقِذُ. Geçişli yaptı.",
+              "turkish": "Kurtardı"
+            }
+          ]
+        },
+        {
+          "title": "Emir Fiil Kalıpları",
+          "explanation": "Annesi kıza emir veriyor:",
+          "examples": [
+            {
+              "arabic": "اِذْهَبِي",
+              "analysis": "ذَهَبَ fiilinin müennes muhatabası emri. اِذْهَبْ (müz.) → اِذْهَبِي (müe.)",
+              "turkish": "Git! (kadına)"
+            },
+            {
+              "arabic": "خُذِي",
+              "analysis": "أَخَذَ fiilinin şaz emri. خُذْ (müz.) → خُذِي (müe.). Hemze düşer.",
+              "turkish": "Al! (kadına)"
+            }
+          ]
+        },
+        {
+          "title": "لِـ + Muzari (Ta'lil Lamı - Amaç)",
+          "explanation": "لِـ harfi muzari fiile dahil olunca mansub yapar ve 'için' anlamı verir:",
+          "examples": [
+            {
+              "arabic": "لِأَسْمَعَكِ",
+              "analysis": "لِـ (amaç) + أَسْمَعَ (mansub muzari) + كِ (müennes zamir). سَمِعَ → يَسْمَعُ → لِيَسْمَعَ",
+              "turkish": "Seni duymak için"
+            },
+            {
+              "arabic": "لِأَرَاكِ",
+              "analysis": "لِـ + أَرَى (nakıs fiil, mansub). رَأَى → يَرَى. Elif düşer: لِأَرَى → لِأَرَاكِ",
+              "turkish": "Seni görmek için"
+            },
+            {
+              "arabic": "لِآكُلَكِ",
+              "analysis": "لِـ + آكُلَ (mansub). أَكَلَ → يَأْكُلُ. Hemze med oldu: لِأَأْكُلَ → لِآكُلَ",
+              "turkish": "Seni yemek için"
+            }
+          ]
+        },
+        {
+          "title": "İzafet (إضافة) Terkipleri",
+          "explanation": "Muzaf + Muzafun ileyh yapısı. Muzaf elif-lam almaz, muzafun ileyh mecrurdur:",
+          "examples": [
+            {
+              "arabic": "بَيْتِ جَدَّتِكِ",
+              "analysis": "بَيْت (muzaf) + جَدَّة (muzafun ileyh, mecrur) + كِ (zamir)",
+              "turkish": "Ninenin evi"
+            },
+            {
+              "arabic": "قَدِيمِ الزَّمَانِ",
+              "analysis": "قَدِيم (muzaf) + الزَّمَان (muzafun ileyh, mecrur)",
+              "turkish": "Zamanın eskisi / Eski zaman"
+            },
+            {
+              "arabic": "مَلِكُ الغَابَةِ",
+              "analysis": "مَلِك (muzaf, merfu) + الغَابَة (muzafun ileyh, mecrur)",
+              "turkish": "Ormanın kralı"
+            }
+          ]
+        },
+        {
+          "title": "Tesniye (İkilik) Yapısı",
+          "explanation": "Arapça'da iki şey için tesniye kullanılır. Merfu: ـَانِ, Mansub/Mecrur: ـَيْنِ",
+          "examples": [
+            {
+              "arabic": "أُذُنَاكِ كَبِيرَتَانِ",
+              "analysis": "أُذُن (tekil) → أُذُنَانِ (tesniye, merfu) + كِ (zamir). كَبِيرَة → كَبِيرَتَانِ",
+              "turkish": "Kulakların büyük (ikisi de)"
+            },
+            {
+              "arabic": "عَيْنَاكِ كَبِيرَتَانِ",
+              "analysis": "عَيْن (tekil) → عَيْنَانِ (tesniye) + كِ. Mübteda + haber (ikisi de tesniye)",
+              "turkish": "Gözlerin büyük"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "كَانَ",
+          "root": "ك-و-ن",
+          "pattern": "فَعَلَ",
+          "type": "فعل ناقص (nakıs fiil)",
+          "meaning": "idi, vardı",
+          "conjugation": "كَانَ - يَكُونُ - كُنْ"
+        },
+        {
+          "word": "قَالَ",
+          "root": "ق-و-ل",
+          "pattern": "فَعَلَ",
+          "type": "فعل أجوف (ecvef fiil)",
+          "meaning": "dedi, söyledi",
+          "conjugation": "قَالَ - يَقُولُ - قُلْ"
+        },
+        {
+          "word": "ذَهَبَ",
+          "root": "ذ-ه-ب",
+          "pattern": "فَعَلَ",
+          "type": "فعل صحيح (sahih fiil)",
+          "meaning": "gitti",
+          "conjugation": "ذَهَبَ - يَذْهَبُ - اِذْهَبْ"
+        },
+        {
+          "word": "أَخَذَ",
+          "root": "أ-خ-ذ",
+          "pattern": "فَعَلَ",
+          "type": "فعل مهموز (hemzeli fiil)",
+          "meaning": "aldı",
+          "conjugation": "أَخَذَ - يَأْخُذُ - خُذْ"
+        },
+        {
+          "word": "جَاءَ",
+          "root": "ج-ي-أ",
+          "pattern": "فَعَلَ",
+          "type": "فعل ناقص مهموز",
+          "meaning": "geldi",
+          "conjugation": "جَاءَ - يَجِيءُ - جِئْ"
+        },
+        {
+          "word": "دَخَلَ",
+          "root": "د-خ-ل",
+          "pattern": "فَعَلَ",
+          "type": "فعل صحيح",
+          "meaning": "girdi",
+          "conjugation": "دَخَلَ - يَدْخُلُ - اُدْخُلْ"
+        },
+        {
+          "word": "اِخْتَبَأَ",
+          "root": "خ-ب-أ",
+          "pattern": "اِفْتَعَلَ",
+          "type": "باب الافتعال (8. bab)",
+          "meaning": "saklandı, gizlendi",
+          "conjugation": "اِخْتَبَأَ - يَخْتَبِئُ - اِخْتَبِئْ"
+        },
+        {
+          "word": "سَمِعَ",
+          "root": "س-م-ع",
+          "pattern": "فَعِلَ",
+          "type": "فعل صحيح",
+          "meaning": "duydu, işitti",
+          "conjugation": "سَمِعَ - يَسْمَعُ - اِسْمَعْ"
+        },
+        {
+          "word": "رَأَى",
+          "root": "ر-أ-ي",
+          "pattern": "فَعَلَ",
+          "type": "فعل ناقص مهموز",
+          "meaning": "gördü",
+          "conjugation": "رَأَى - يَرَى - رَ (şaz)"
+        },
+        {
+          "word": "أَكَلَ",
+          "root": "أ-ك-ل",
+          "pattern": "فَعَلَ",
+          "type": "فعل مهموز",
+          "meaning": "yedi",
+          "conjugation": "أَكَلَ - يَأْكُلُ - كُلْ"
+        },
+        {
+          "word": "أَنْقَذَ",
+          "root": "ن-ق-ذ",
+          "pattern": "أَفْعَلَ",
+          "type": "باب الإفعال (4. bab)",
+          "meaning": "kurtardı",
+          "conjugation": "أَنْقَذَ - يُنْقِذُ - أَنْقِذْ"
+        },
+        {
+          "word": "عَاشَ",
+          "root": "ع-ي-ش",
+          "pattern": "فَعَلَ",
+          "type": "فعل أجوف",
+          "meaning": "yaşadı",
+          "conjugation": "عَاشَ - يَعِيشُ - عِشْ"
+        },
+        {
+          "word": "رِدَاء",
+          "root": "ر-د-ي",
+          "pattern": "فِعَال",
+          "type": "اسم (isim)",
+          "meaning": "pelerin, elbise",
+          "plural": "أَرْدِيَة"
+        },
+        {
+          "word": "غَابَة",
+          "root": "غ-ي-ب",
+          "pattern": "فَاعِلَة",
+          "type": "اسم مكان",
+          "meaning": "orman",
+          "plural": "غَابَات"
+        },
+        {
+          "word": "ذِئْب",
+          "root": "ذ-أ-ب",
+          "pattern": "فِعْل",
+          "type": "اسم",
+          "meaning": "kurt",
+          "plural": "ذِئَاب"
+        },
+        {
+          "word": "صَيَّاد",
+          "root": "ص-ي-د",
+          "pattern": "فَعَّال",
+          "type": "صيغة مبالغة",
+          "meaning": "avcı",
+          "plural": "صَيَّادُون"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "الأَرْنَبُ وَالسُّلَحْفَاة",
+      "titleTr": "Tavşan ve Kaplumbağa",
+      "paragraphs": [
+        {
+          "arabic": "كَانَ هُنَاكَ أَرْنَبٌ سَرِيعٌ جِدًّا. كَانَ يَفْتَخِرُ بِسُرْعَتِهِ دَائِمًا.",
+          "turkish": "Çok hızlı bir tavşan vardı. Her zaman hızıyla övünürdü."
+        },
+        {
+          "arabic": "فِي يَوْمٍ، قَالَ الأَرْنَبُ لِلسُّلَحْفَاةِ: \"أَنْتِ بَطِيئَةٌ جِدًّا! أَنَا أَسْرَعُ مِنْكِ.\"",
+          "turkish": "Bir gün tavşan kaplumbağaya dedi: 'Sen çok yavaşsın! Ben senden hızlıyım.'"
+        },
+        {
+          "arabic": "قَالَتِ السُّلَحْفَاةُ: \"هَلْ نَتَسَابَقُ؟\" ضَحِكَ الأَرْنَبُ وَقَالَ: \"نَعَمْ!\"",
+          "turkish": "Kaplumbağa dedi: 'Yarışalım mı?' Tavşan güldü ve dedi: 'Evet!'"
+        },
+        {
+          "arabic": "بَدَأَ السِّبَاقُ. رَكَضَ الأَرْنَبُ بِسُرْعَةٍ. كَانَتِ السُّلَحْفَاةُ بَطِيئَةً لَكِنَّهَا لَمْ تَتَوَقَّفْ.",
+          "turkish": "Yarış başladı. Tavşan hızla koştu. Kaplumbağa yavaştı ama durmadı."
+        },
+        {
+          "arabic": "قَالَ الأَرْنَبُ: \"السُّلَحْفَاةُ بَعِيدَةٌ. سَأَنَامُ قَلِيلًا.\" وَنَامَ تَحْتَ الشَّجَرَة.",
+          "turkish": "Tavşan dedi: 'Kaplumbağa uzakta. Biraz uyuyayım.' Ve ağacın altında uyudu."
+        },
+        {
+          "arabic": "السُّلَحْفَاةُ مَشَتْ وَمَشَتْ. لَمْ تَتَوَقَّفْ أَبَدًا.",
+          "turkish": "Kaplumbağa yürüdü ve yürüdü. Hiç durmadı."
+        },
+        {
+          "arabic": "اِسْتَيْقَظَ الأَرْنَبُ. نَظَرَ حَوْلَهُ. أَيْنَ السُّلَحْفَاة؟",
+          "turkish": "Tavşan uyandı. Etrafına baktı. Kaplumbağa nerede?"
+        },
+        {
+          "arabic": "رَكَضَ الأَرْنَبُ بِسُرْعَةٍ، لَكِنَّ السُّلَحْفَاةَ وَصَلَتْ أَوَّلًا!",
+          "turkish": "Tavşan hızla koştu ama kaplumbağa önce vardı!"
+        },
+        {
+          "arabic": "فَازَتِ السُّلَحْفَاةُ! تَعَلَّمَ الأَرْنَبُ دَرْسًا مُهِمًّا: \"البُطْءُ مَعَ الاِسْتِمْرَارِ أَفْضَلُ مِنَ السُّرْعَةِ مَعَ الكَسَل.\"",
+          "turkish": "Kaplumbağa kazandı! Tavşan önemli bir ders öğrendi: 'Devamlılıkla yavaşlık, tembellikle hızdan iyidir.'"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "يَفْتَخِرُ - İfti'al Babı (8. Bab)",
+          "explanation": "اِفْتَعَلَ babı dönüşlülük ve çaba ifade eder.",
+          "examples": [
+            {
+              "arabic": "يَفْتَخِرُ بِسُرْعَتِهِ",
+              "analysis": "ف-خ-ر kökü → اِفْتَخَرَ (8. bab). يَفْتَخِرُ muzari. بِـ harf-i cer ile kullanılır.",
+              "turkish": "Hızıyla övünür"
+            }
+          ]
+        },
+        {
+          "title": "نَتَسَابَقُ - Tefâ'ul Babı (6. Bab)",
+          "explanation": "تَفَاعَلَ babı müşâreket (karşılıklılık) ifade eder. İki taraf arasında yapılan eylem.",
+          "examples": [
+            {
+              "arabic": "هَلْ نَتَسَابَقُ؟",
+              "analysis": "س-ب-ق kökü → تَسَابَقَ (karşılıklı yarışmak). هَلْ soru edatı. نَتَسَابَقُ muzari, mütekellim çoğul.",
+              "turkish": "Yarışalım mı?"
+            }
+          ]
+        },
+        {
+          "title": "لَمْ + Muzari (Nefi-i Mazi)",
+          "explanation": "لَمْ cezm harfidir. Muzariyi cezm eder ve mazi anlamı verir.",
+          "examples": [
+            {
+              "arabic": "لَمْ تَتَوَقَّفْ",
+              "analysis": "لَمْ (cezm) + تَتَوَقَّفُ (muzari) → تَتَوَقَّفْ (cezimli). و-ق-ف kökü, 5. bab.",
+              "turkish": "Durmadı"
+            }
+          ]
+        },
+        {
+          "title": "سَـ / سَوْفَ + Muzari (İstikbal)",
+          "explanation": "سَـ veya سَوْفَ muzari fiile gelince gelecek zaman ifade eder.",
+          "examples": [
+            {
+              "arabic": "سَأَنَامُ قَلِيلًا",
+              "analysis": "سَـ (yakın gelecek) + أَنَامُ (muzari mütekellim). ن-و-م ecvef fiil.",
+              "turkish": "Biraz uyuyacağım"
+            }
+          ]
+        },
+        {
+          "title": "لَكِنَّ - İstidrak Harfi",
+          "explanation": "لَكِنَّ huruf-i müşebbehe bil-fi'l'dir. İsmini mansub, haberini merfu yapar.",
+          "examples": [
+            {
+              "arabic": "لَكِنَّ السُّلَحْفَاةَ وَصَلَتْ",
+              "analysis": "لَكِنَّ + السُّلَحْفَاةَ (ismi لكنّ, mansub) + وَصَلَتْ (haber, fiil cümlesi)",
+              "turkish": "Ama kaplumbağa vardı"
+            },
+            {
+              "arabic": "لَكِنَّهَا لَمْ تَتَوَقَّفْ",
+              "analysis": "لَكِنَّ + هَا (muttasıl zamir, ismi لكنّ) + لَمْ تَتَوَقَّفْ (haber)",
+              "turkish": "Ama o durmadı"
+            }
+          ]
+        },
+        {
+          "title": "أَفْعَلُ التَّفْضِيل (İsm-i Tafdil)",
+          "explanation": "Üstünlük sıfatı. مِنْ ile karşılaştırma yapılır.",
+          "examples": [
+            {
+              "arabic": "أَنَا أَسْرَعُ مِنْكِ",
+              "analysis": "أَسْرَعُ (ism-i tafdil, س-ر-ع kökünden) + مِنْكِ (harf-i cer + zamir)",
+              "turkish": "Ben senden daha hızlıyım"
+            },
+            {
+              "arabic": "أَفْضَلُ مِنَ السُّرْعَةِ",
+              "analysis": "أَفْضَلُ (ف-ض-ل kökünden ism-i tafdil) + مِنَ السُّرْعَةِ",
+              "turkish": "Hızdan daha iyi"
+            }
+          ]
+        },
+        {
+          "title": "اِسْتَفْعَلَ - İstif'al Babı (10. Bab)",
+          "explanation": "İstek, talep, dönüşüm ifade eder.",
+          "examples": [
+            {
+              "arabic": "اِسْتَيْقَظَ الأَرْنَبُ",
+              "analysis": "ي-ق-ظ kökü → اِسْتَيْقَظَ (uyanmayı istedi = uyandı). Fail: الأَرْنَبُ (merfu)",
+              "turkish": "Tavşan uyandı"
+            }
+          ]
+        },
+        {
+          "title": "تَفَعَّلَ - Tefe''ul Babı (5. Bab)",
+          "explanation": "Mutavaat ve tedric (yavaş yavaş) ifade eder.",
+          "examples": [
+            {
+              "arabic": "تَعَلَّمَ الأَرْنَبُ دَرْسًا",
+              "analysis": "ع-ل-م kökü → تَعَلَّمَ (öğrendi). دَرْسًا meful bih (mansub)",
+              "turkish": "Tavşan bir ders öğrendi"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "سَرِيع",
+          "root": "س-ر-ع",
+          "pattern": "فَعِيل",
+          "type": "صفة مشبهة",
+          "meaning": "hızlı",
+          "opposite": "بَطِيء"
+        },
+        {
+          "word": "بَطِيء",
+          "root": "ب-ط-أ",
+          "pattern": "فَعِيل",
+          "type": "صفة مشبهة",
+          "meaning": "yavaş",
+          "opposite": "سَرِيع"
+        },
+        {
+          "word": "اِفْتَخَرَ",
+          "root": "ف-خ-ر",
+          "pattern": "اِفْتَعَلَ",
+          "type": "باب الافتعال (8. bab)",
+          "meaning": "övündü",
+          "conjugation": "اِفْتَخَرَ - يَفْتَخِرُ - اِفْتَخِرْ"
+        },
+        {
+          "word": "تَسَابَقَ",
+          "root": "س-ب-ق",
+          "pattern": "تَفَاعَلَ",
+          "type": "باب التفاعل (6. bab)",
+          "meaning": "yarıştı (karşılıklı)",
+          "conjugation": "تَسَابَقَ - يَتَسَابَقُ - تَسَابَقْ"
+        },
+        {
+          "word": "رَكَضَ",
+          "root": "ر-ك-ض",
+          "pattern": "فَعَلَ",
+          "type": "فعل صحيح",
+          "meaning": "koştu",
+          "conjugation": "رَكَضَ - يَرْكُضُ - اُرْكُضْ"
+        },
+        {
+          "word": "تَوَقَّفَ",
+          "root": "و-ق-ف",
+          "pattern": "تَفَعَّلَ",
+          "type": "باب التفعل (5. bab)",
+          "meaning": "durdu",
+          "conjugation": "تَوَقَّفَ - يَتَوَقَّفُ - تَوَقَّفْ"
+        },
+        {
+          "word": "نَامَ",
+          "root": "ن-و-م",
+          "pattern": "فَعَلَ",
+          "type": "فعل أجوف",
+          "meaning": "uyudu",
+          "conjugation": "نَامَ - يَنَامُ - نَمْ"
+        },
+        {
+          "word": "مَشَى",
+          "root": "م-ش-ي",
+          "pattern": "فَعَلَ",
+          "type": "فعل ناقص",
+          "meaning": "yürüdü",
+          "conjugation": "مَشَى - يَمْشِي - اِمْشِ"
+        },
+        {
+          "word": "اِسْتَيْقَظَ",
+          "root": "ي-ق-ظ",
+          "pattern": "اِسْتَفْعَلَ",
+          "type": "باب الاستفعال (10. bab)",
+          "meaning": "uyandı",
+          "conjugation": "اِسْتَيْقَظَ - يَسْتَيْقِظُ - اِسْتَيْقِظْ"
+        },
+        {
+          "word": "نَظَرَ",
+          "root": "ن-ظ-ر",
+          "pattern": "فَعَلَ",
+          "type": "فعل صحيح",
+          "meaning": "baktı",
+          "conjugation": "نَظَرَ - يَنْظُرُ - اُنْظُرْ"
+        },
+        {
+          "word": "وَصَلَ",
+          "root": "و-ص-ل",
+          "pattern": "فَعَلَ",
+          "type": "فعل مثال",
+          "meaning": "ulaştı, vardı",
+          "conjugation": "وَصَلَ - يَصِلُ - صِلْ"
+        },
+        {
+          "word": "فَازَ",
+          "root": "ف-و-ز",
+          "pattern": "فَعَلَ",
+          "type": "فعل أجوف",
+          "meaning": "kazandı",
+          "conjugation": "فَازَ - يَفُوزُ - فُزْ"
+        },
+        {
+          "word": "تَعَلَّمَ",
+          "root": "ع-ل-م",
+          "pattern": "تَفَعَّلَ",
+          "type": "باب التفعل (5. bab)",
+          "meaning": "öğrendi",
+          "conjugation": "تَعَلَّمَ - يَتَعَلَّمُ - تَعَلَّمْ"
+        },
+        {
+          "word": "سِبَاق",
+          "root": "س-ب-ق",
+          "pattern": "فِعَال",
+          "type": "مصدر",
+          "meaning": "yarış",
+          "plural": "سِبَاقَات"
+        },
+        {
+          "word": "سُرْعَة",
+          "root": "س-ر-ع",
+          "pattern": "فُعْلَة",
+          "type": "مصدر",
+          "meaning": "hız",
+          "plural": "-"
+        },
+        {
+          "word": "كَسَل",
+          "root": "ك-س-ل",
+          "pattern": "فَعَل",
+          "type": "مصدر",
+          "meaning": "tembellik",
+          "plural": "-"
+        }
+      ],
+      "moral": {
+        "arabic": "مَنْ جَدَّ وَجَدَ",
+        "turkish": "Çalışan kazanır",
+        "grammaticalNote": "مَنْ (şart ismi) + جَدَّ (cevab-ı şart, mazi). جَدَّ: ciddi oldu. وَجَدَ: buldu. Şart cümlesi."
+      }
+    },
+    {
+      "id": 3,
+      "title": "الأَسَدُ وَالفَأْر",
+      "titleTr": "Aslan ve Fare",
+      "paragraphs": [
+        {
+          "arabic": "كَانَ هُنَاكَ أَسَدٌ كَبِيرٌ قَوِيٌّ. هُوَ مَلِكُ الغَابَة.",
+          "turkish": "Büyük, güçlü bir aslan vardı. O ormanın kralıydı."
+        },
+        {
+          "arabic": "فِي يَوْمٍ، كَانَ الأَسَدُ نَائِمًا. جَاءَ فَأْرٌ صَغِيرٌ وَمَشَى عَلَى جِسْمِ الأَسَد.",
+          "turkish": "Bir gün aslan uyuyordu. Küçük bir fare geldi ve aslanın vücudunun üzerinde yürüdü."
+        },
+        {
+          "arabic": "اِسْتَيْقَظَ الأَسَدُ وَأَمْسَكَ الفَأْرَ. قَالَ: \"سَآكُلُكَ!\"",
+          "turkish": "Aslan uyandı ve fareyi yakaladı. Dedi: 'Seni yiyeceğim!'"
+        },
+        {
+          "arabic": "قَالَ الفَأْرُ: \"أَرْجُوكَ! لَا تَأْكُلْنِي! سَأُسَاعِدُكَ يَوْمًا مَا.\"",
+          "turkish": "Fare dedi: 'Lütfen! Beni yeme! Bir gün sana yardım edeceğim.'"
+        },
+        {
+          "arabic": "ضَحِكَ الأَسَدُ: \"أَنْتَ صَغِيرٌ جِدًّا! كَيْفَ تُسَاعِدُنِي؟\" لَكِنَّهُ تَرَكَ الفَأْرَ.",
+          "turkish": "Aslan güldü: 'Sen çok küçüksün! Bana nasıl yardım edeceksin?' Ama fareyi bıraktı."
+        },
+        {
+          "arabic": "بَعْدَ أَيَّامٍ، وَقَعَ الأَسَدُ فِي شَبَكَةِ الصَّيَّاد. لَمْ يَسْتَطِعِ الهُرُوبَ.",
+          "turkish": "Günler sonra aslan avcının ağına düştü. Kaçamadı."
+        },
+        {
+          "arabic": "سَمِعَ الفَأْرُ صَوْتَ الأَسَد. جَاءَ بِسُرْعَةٍ.",
+          "turkish": "Fare aslanın sesini duydu. Hızla geldi."
+        },
+        {
+          "arabic": "قَالَ الفَأْرُ: \"لَا تَخَفْ! سَأُسَاعِدُكَ.\" وَبَدَأَ يَقْضِمُ الشَّبَكَةَ بِأَسْنَانِهِ الصَّغِيرَة.",
+          "turkish": "Fare dedi: 'Korkma! Sana yardım edeceğim.' Ve küçük dişleriyle ağı kemirmeye başladı."
+        },
+        {
+          "arabic": "قَطَعَ الفَأْرُ الشَّبَكَةَ. خَرَجَ الأَسَدُ حُرًّا!",
+          "turkish": "Fare ağı kesti. Aslan özgürce çıktı!"
+        },
+        {
+          "arabic": "قَالَ الأَسَدُ: \"شُكْرًا يَا صَدِيقِي الصَّغِير. تَعَلَّمْتُ دَرْسًا: الصَّغِيرُ يُمْكِنُهُ أَنْ يُسَاعِدَ الكَبِير.\"",
+          "turkish": "Aslan dedi: 'Teşekkürler küçük dostum. Bir ders öğrendim: Küçük olan da büyüğe yardım edebilir.'"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "نَائِم - İsm-i Fail (Özne İsmi)",
+          "explanation": "فَاعِل vezninde olup sürekli sıfat ifade eder.",
+          "examples": [
+            {
+              "arabic": "كَانَ الأَسَدُ نَائِمًا",
+              "analysis": "نَائِم (ism-i fail, ن-و-م kökünden). كان'ın haberi olduğu için mansub: نَائِمًا",
+              "turkish": "Aslan uyuyordu"
+            }
+          ]
+        },
+        {
+          "title": "أَفْعَلَ - İf'al Babı (4. Bab)",
+          "explanation": "Geçişli yapma (ta'diye) ifade eder. Lazım fiili müteaddi yapar.",
+          "examples": [
+            {
+              "arabic": "أَمْسَكَ الفَأْرَ",
+              "analysis": "م-س-ك kökü. مَسَكَ (tuttu) → أَمْسَكَ (yakaladı, sıkıca tuttu). Fail: الأَسَدُ (önceki cümleden). Meful: الفَأْرَ (mansub)",
+              "turkish": "Fareyi yakaladı"
+            }
+          ]
+        },
+        {
+          "title": "لَا + Muzari Meczum (Nehi - Olumsuz Emir)",
+          "explanation": "لَا nâhiye muzariyi cezm eder ve 'yapma!' anlamı verir.",
+          "examples": [
+            {
+              "arabic": "لَا تَأْكُلْنِي",
+              "analysis": "لَا (nehiy) + تَأْكُلُ (muzari) → تَأْكُلْ (meczum) + نِي (meful zamir)",
+              "turkish": "Beni yeme!"
+            },
+            {
+              "arabic": "لَا تَخَفْ",
+              "analysis": "لَا + تَخَافُ (خ-و-ف, ecvef) → تَخَفْ (meczum, vav düştü)",
+              "turkish": "Korkma!"
+            }
+          ]
+        },
+        {
+          "title": "سَـ + Muzari (Yakın Gelecek)",
+          "explanation": "سَـ yakın geleceği, سَوْفَ uzak geleceği ifade eder.",
+          "examples": [
+            {
+              "arabic": "سَآكُلُكَ",
+              "analysis": "سَـ + آكُلُ (hemze + elif = med). أَكَلَ → يَأْكُلُ → سَأَأْكُلُ → سَآكُلُ",
+              "turkish": "Seni yiyeceğim"
+            },
+            {
+              "arabic": "سَأُسَاعِدُكَ",
+              "analysis": "سَـ + أُسَاعِدُ (3. bab, mufâ'ale). س-ع-د kökü.",
+              "turkish": "Sana yardım edeceğim"
+            }
+          ]
+        },
+        {
+          "title": "اِسْتَطَاعَ - İstif'al Babı (10. Bab) - İlletli",
+          "explanation": "ط-و-ع kökünden. Ecvef fiil olduğu için vav elif'e dönüşür.",
+          "examples": [
+            {
+              "arabic": "لَمْ يَسْتَطِعِ الهُرُوبَ",
+              "analysis": "لَمْ + يَسْتَطِيعُ → يَسْتَطِعْ (meczum, ي düştü). الهُرُوبَ meful bih.",
+              "turkish": "Kaçamadı"
+            }
+          ]
+        },
+        {
+          "title": "يُمْكِنُ أَنْ - İmkân İfadesi",
+          "explanation": "يُمْكِنُ (mümkündür) + أَنْ (nasb harfi) + muzari mansub.",
+          "examples": [
+            {
+              "arabic": "يُمْكِنُهُ أَنْ يُسَاعِدَ",
+              "analysis": "يُمْكِنُ (4. bab, م-ك-ن) + هُ (zamir) + أَنْ + يُسَاعِدَ (mansub)",
+              "turkish": "Yardım etmesi mümkün / Yardım edebilir"
+            }
+          ]
+        },
+        {
+          "title": "وَقَعَ فِي - Zarfiyet ile Kullanım",
+          "explanation": "وَقَعَ (düştü) + فِي (içine) = bir şeyin içine düşmek.",
+          "examples": [
+            {
+              "arabic": "وَقَعَ الأَسَدُ فِي شَبَكَةِ الصَّيَّاد",
+              "analysis": "وَقَعَ (و-ق-ع, mazi) + الأَسَدُ (fail, merfu) + فِي شَبَكَةِ (mecrur) + الصَّيَّاد (muzafun ileyh)",
+              "turkish": "Aslan avcının ağına düştü"
+            }
+          ]
+        },
+        {
+          "title": "بَدَأَ + Muzari (Başlama Fiili)",
+          "explanation": "بَدَأَ (başladı) + muzari fiil = bir şeye başlamak.",
+          "examples": [
+            {
+              "arabic": "بَدَأَ يَقْضِمُ الشَّبَكَةَ",
+              "analysis": "بَدَأَ (ب-د-أ, hemzeli) + يَقْضِمُ (ق-ض-م, muzari). يَقْضِمُ: kemiriyor.",
+              "turkish": "Ağı kemirmeye başladı"
+            }
+          ]
+        },
+        {
+          "title": "حَال (Durum Zarfı)",
+          "explanation": "Fiili yapanın durumunu belirtir. Mansub ve nekre olur.",
+          "examples": [
+            {
+              "arabic": "خَرَجَ الأَسَدُ حُرًّا",
+              "analysis": "خَرَجَ (çıktı) + الأَسَدُ (fail) + حُرًّا (hal, mansub). Aslan özgür olarak çıktı.",
+              "turkish": "Aslan özgürce çıktı"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "أَسَد",
+          "root": "أ-س-د",
+          "pattern": "فَعَل",
+          "type": "اسم",
+          "meaning": "aslan",
+          "plural": "أُسُود / أُسْد"
+        },
+        {
+          "word": "فَأْر",
+          "root": "ف-أ-ر",
+          "pattern": "فَعْل",
+          "type": "اسم",
+          "meaning": "fare",
+          "plural": "فِئْرَان"
+        },
+        {
+          "word": "قَوِيّ",
+          "root": "ق-و-ي",
+          "pattern": "فَعِيل",
+          "type": "صفة مشبهة",
+          "meaning": "güçlü, kuvvetli",
+          "opposite": "ضَعِيف"
+        },
+        {
+          "word": "نَائِم",
+          "root": "ن-و-م",
+          "pattern": "فَاعِل",
+          "type": "اسم فاعل",
+          "meaning": "uyuyan",
+          "verb": "نَامَ - يَنَامُ"
+        },
+        {
+          "word": "أَمْسَكَ",
+          "root": "م-س-ك",
+          "pattern": "أَفْعَلَ",
+          "type": "باب الإفعال (4. bab)",
+          "meaning": "tuttu, yakaladı",
+          "conjugation": "أَمْسَكَ - يُمْسِكُ - أَمْسِكْ"
+        },
+        {
+          "word": "رَجَا",
+          "root": "ر-ج-و",
+          "pattern": "فَعَلَ",
+          "type": "فعل ناقص",
+          "meaning": "umdu, rica etti",
+          "conjugation": "رَجَا - يَرْجُو - اُرْجُ"
+        },
+        {
+          "word": "سَاعَدَ",
+          "root": "س-ع-د",
+          "pattern": "فَاعَلَ",
+          "type": "باب المفاعلة (3. bab)",
+          "meaning": "yardım etti",
+          "conjugation": "سَاعَدَ - يُسَاعِدُ - سَاعِدْ"
+        },
+        {
+          "word": "ضَحِكَ",
+          "root": "ض-ح-ك",
+          "pattern": "فَعِلَ",
+          "type": "فعل صحيح",
+          "meaning": "güldü",
+          "conjugation": "ضَحِكَ - يَضْحَكُ - اِضْحَكْ"
+        },
+        {
+          "word": "تَرَكَ",
+          "root": "ت-ر-ك",
+          "pattern": "فَعَلَ",
+          "type": "فعل صحيح",
+          "meaning": "bıraktı, terk etti",
+          "conjugation": "تَرَكَ - يَتْرُكُ - اُتْرُكْ"
+        },
+        {
+          "word": "وَقَعَ",
+          "root": "و-ق-ع",
+          "pattern": "فَعَلَ",
+          "type": "فعل مثال",
+          "meaning": "düştü",
+          "conjugation": "وَقَعَ - يَقَعُ - قَعْ"
+        },
+        {
+          "word": "اِسْتَطَاعَ",
+          "root": "ط-و-ع",
+          "pattern": "اِسْتَفْعَلَ",
+          "type": "باب الاستفعال (10. bab)",
+          "meaning": "-ebilmek, muktedir olmak",
+          "conjugation": "اِسْتَطَاعَ - يَسْتَطِيعُ - اِسْتَطِعْ"
+        },
+        {
+          "word": "هُرُوب",
+          "root": "ه-ر-ب",
+          "pattern": "فُعُول",
+          "type": "مصدر",
+          "meaning": "kaçış",
+          "verb": "هَرَبَ - يَهْرُبُ"
+        },
+        {
+          "word": "خَافَ",
+          "root": "خ-و-ف",
+          "pattern": "فَعَلَ",
+          "type": "فعل أجوف",
+          "meaning": "korktu",
+          "conjugation": "خَافَ - يَخَافُ - خَفْ"
+        },
+        {
+          "word": "قَضِمَ",
+          "root": "ق-ض-م",
+          "pattern": "فَعِلَ",
+          "type": "فعل صحيح",
+          "meaning": "kemirdi",
+          "conjugation": "قَضِمَ - يَقْضَمُ - اِقْضَمْ"
+        },
+        {
+          "word": "قَطَعَ",
+          "root": "ق-ط-ع",
+          "pattern": "فَعَلَ",
+          "type": "فعل صحيح",
+          "meaning": "kesti",
+          "conjugation": "قَطَعَ - يَقْطَعُ - اِقْطَعْ"
+        },
+        {
+          "word": "خَرَجَ",
+          "root": "خ-ر-ج",
+          "pattern": "فَعَلَ",
+          "type": "فعل صحيح",
+          "meaning": "çıktı",
+          "conjugation": "خَرَجَ - يَخْرُجُ - اُخْرُجْ"
+        },
+        {
+          "word": "شَبَكَة",
+          "root": "ش-ب-ك",
+          "pattern": "فَعَلَة",
+          "type": "اسم",
+          "meaning": "ağ",
+          "plural": "شَبَكَات / شِبَاك"
+        },
+        {
+          "word": "حُرّ",
+          "root": "ح-ر-ر",
+          "pattern": "فُعْل",
+          "type": "صفة مشبهة",
+          "meaning": "özgür, hür",
+          "plural": "أَحْرَار"
+        },
+        {
+          "word": "صَدِيق",
+          "root": "ص-د-ق",
+          "pattern": "فَعِيل",
+          "type": "صفة مشبهة / اسم",
+          "meaning": "dost, arkadaş",
+          "plural": "أَصْدِقَاء"
+        }
+      ],
+      "moral": {
+        "arabic": "لَا تَحْقِرْ أَحَدًا",
+        "turkish": "Kimseyi küçümseme",
+        "grammaticalNote": "لَا (nehiy) + تَحْقِرْ (ح-ق-ر, meczum muzari) + أَحَدًا (nekre, meful bih). Olumsuz emir cümlesi."
+      }
+    }
+  ]
+}

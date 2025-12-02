@@ -26,7 +26,7 @@ const App = {
       'pronouns_01', 'demonstratives_01', 'colors_01', 'numbers_01', 'questions_01',
       'emsile_01', 'bina_01', 'maksud_01', 'sarf_01', 'nahiv_01',
       'islamic_terms_01', 'islamic_basics_01',
-      'family_01', 'food_01', 'time_01', 'places_01', 'phrases_01'
+      'family_01', 'food_01', 'time_01', 'places_01', 'phrases_01', 'stories_01'
     ];
     
     for (const file of files) {
@@ -122,7 +122,8 @@ const App = {
       food: { title: 'Yiyecek/İçecek', dataKey: 'food_01', render: this.renderCategoryList },
       time: { title: 'Zaman', dataKey: 'time_01', render: this.renderCategoryList },
       places: { title: 'Mekanlar', dataKey: 'places_01', render: this.renderCategoryList },
-      phrases: { title: 'Günlük Kalıplar', dataKey: 'phrases_01', render: this.renderPhrases }
+      phrases: { title: 'Günlük Kalıplar', dataKey: 'phrases_01', render: this.renderPhrases },
+      stories: { title: 'Hikayeler', dataKey: 'stories_01', render: this.renderStories }
     };
     
     const config = panels[panel];
@@ -291,6 +292,167 @@ const App = {
     }
     
     container.innerHTML = html;
+  },
+  
+  // Aktif hikaye durumu
+  activeStory: null,
+  
+  renderStories(data, container) {
+    if (!data || !data.stories) {
+      container.innerHTML = '<div class="placeholder">Hikaye bulunamadı</div>';
+      return;
+    }
+    
+    // Eğer aktif hikaye varsa onu göster
+    if (this.activeStory !== null) {
+      this.renderSingleStory(data.stories[this.activeStory], container);
+      return;
+    }
+    
+    // Hikaye listesi
+    let html = `
+      <div class="section">
+        <div class="section-title">${data.meta?.title || 'Hikayeler'}</div>
+        <p style="color: var(--text-dim);">${data.meta?.description || ''}</p>
+      </div>
+      <div class="stories-grid">
+    `;
+    
+    data.stories.forEach((story, index) => {
+      html += `
+        <div class="story-card" onclick="App.openStory(${index})">
+          <div class="story-number">${story.id}</div>
+          <div class="story-title-ar">${story.title}</div>
+          <div class="story-title-tr">${story.titleTr}</div>
+          <div class="story-info">${story.paragraphs.length} paragraf • ${story.vocabulary.length} kelime</div>
+        </div>
+      `;
+    });
+    
+    html += '</div>';
+    container.innerHTML = html;
+  },
+  
+  openStory(index) {
+    this.activeStory = index;
+    this.showPanel('stories');
+  },
+  
+  closeStory() {
+    this.activeStory = null;
+    this.showPanel('stories');
+  },
+  
+  renderSingleStory(story, container) {
+    let html = `
+      <div class="story-header">
+        <button class="back-btn" onclick="App.closeStory()">← Geri</button>
+        <div class="story-main-title">
+          <div class="story-title-ar">${story.title}</div>
+          <div class="story-title-tr">${story.titleTr}</div>
+        </div>
+      </div>
+      
+      <!-- Tab Navigation -->
+      <div class="story-tabs">
+        <button class="story-tab active" data-tab="text">📖 Metin</button>
+        <button class="story-tab" data-tab="grammar">📐 Gramer Şerhi</button>
+        <button class="story-tab" data-tab="vocab">📚 Kelime Tahlili</button>
+      </div>
+      
+      <!-- Metin Tab -->
+      <div class="story-tab-content active" id="tab-text">
+        <div class="story-content">
+    `;
+    
+    story.paragraphs.forEach((p, i) => {
+      html += `
+        <div class="story-paragraph">
+          <div class="paragraph-num">${i + 1}</div>
+          <div class="paragraph-ar">${p.arabic}</div>
+          <div class="paragraph-tr">${p.turkish}</div>
+        </div>
+      `;
+    });
+    
+    html += '</div>';
+    
+    // Ders / Hikayenin özü
+    if (story.moral) {
+      html += `
+        <div class="story-moral">
+          <div class="moral-label">📖 Hikayenin Dersi</div>
+          <div class="moral-ar">${story.moral.arabic}</div>
+          <div class="moral-tr">${story.moral.turkish}</div>
+          ${story.moral.grammaticalNote ? `<div class="moral-grammar">${story.moral.grammaticalNote}</div>` : ''}
+        </div>
+      `;
+    }
+    
+    html += '</div>';
+    
+    // Gramer Tab
+    html += '<div class="story-tab-content" id="tab-grammar">';
+    
+    if (story.grammar && story.grammar.length > 0) {
+      story.grammar.forEach(g => {
+        html += `
+          <div class="grammar-section">
+            <div class="grammar-title">${g.title}</div>
+            <div class="grammar-explanation">${g.explanation}</div>
+            <div class="grammar-examples">
+        `;
+        
+        g.examples.forEach(ex => {
+          html += `
+            <div class="grammar-example">
+              <div class="example-ar">${ex.arabic}</div>
+              <div class="example-analysis">${ex.analysis}</div>
+              <div class="example-tr">${ex.turkish}</div>
+            </div>
+          `;
+        });
+        
+        html += '</div></div>';
+      });
+    }
+    
+    html += '</div>';
+    
+    // Kelime Tahlili Tab
+    html += '<div class="story-tab-content" id="tab-vocab">';
+    html += '<div class="vocab-detailed-grid">';
+    
+    story.vocabulary.forEach(v => {
+      html += `
+        <div class="vocab-detailed-item">
+          <div class="vocab-word-ar">${v.word}</div>
+          <div class="vocab-details">
+            <div class="vocab-row"><span class="vocab-label">Kök:</span> <span class="vocab-value ar-text">${v.root || '-'}</span></div>
+            <div class="vocab-row"><span class="vocab-label">Vezin:</span> <span class="vocab-value ar-text">${v.pattern || '-'}</span></div>
+            <div class="vocab-row"><span class="vocab-label">Tür:</span> <span class="vocab-value ar-text">${v.type || '-'}</span></div>
+            <div class="vocab-row"><span class="vocab-label">Anlam:</span> <span class="vocab-value">${v.meaning}</span></div>
+            ${v.conjugation ? `<div class="vocab-row"><span class="vocab-label">Tasrif:</span> <span class="vocab-value ar-text">${v.conjugation}</span></div>` : ''}
+            ${v.plural ? `<div class="vocab-row"><span class="vocab-label">Çoğul:</span> <span class="vocab-value ar-text">${v.plural}</span></div>` : ''}
+            ${v.opposite ? `<div class="vocab-row"><span class="vocab-label">Zıddı:</span> <span class="vocab-value ar-text">${v.opposite}</span></div>` : ''}
+          </div>
+        </div>
+      `;
+    });
+    
+    html += '</div></div>';
+    
+    container.innerHTML = html;
+    
+    // Tab switching
+    container.querySelectorAll('.story-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        container.querySelectorAll('.story-tab').forEach(t => t.classList.remove('active'));
+        container.querySelectorAll('.story-tab-content').forEach(c => c.classList.remove('active'));
+        tab.classList.add('active');
+        container.querySelector('#tab-' + tab.dataset.tab).classList.add('active');
+      });
+    });
   },
   
   renderVocab(data, container) {
