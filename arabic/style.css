@@ -13,7 +13,7 @@
   --accent: #b8860b;
   --accent-dim: rgba(184, 134, 11, 0.15);
   --border: #333;
-  --font-ar: 'Amiri', serif;
+  --font-ar: 'Noto Naskh Arabic', 'Amiri', 'Traditional Arabic', serif;
   --font-ui: 'Inter', system-ui, sans-serif;
 }
 
@@ -165,9 +165,10 @@ body {
 
 .placeholder .ar {
   font-family: var(--font-ar);
-  font-size: 24px;
+  font-size: 32px;
   color: var(--accent);
-  margin-bottom: 12px;
+  margin-bottom: 14px;
+  font-weight: 500;
 }
 
 /* Arabic Text */
@@ -200,11 +201,12 @@ body {
 
 .card-title {
   font-family: var(--font-ar);
-  font-size: 24px;
+  font-size: 30px;
   color: var(--accent);
-  margin-bottom: 4px;
+  margin-bottom: 6px;
   direction: rtl;
   text-align: right;
+  font-weight: 600;
 }
 
 .card-sub {
@@ -231,8 +233,9 @@ body {
 
 .card-value {
   font-family: var(--font-ar);
-  font-size: 16px;
+  font-size: 22px;
   direction: rtl;
+  font-weight: 500;
 }
 
 .card-value.tr {
@@ -281,9 +284,11 @@ body {
 
 .list-ar {
   font-family: var(--font-ar);
-  font-size: 20px;
+  font-size: 26px;
   color: var(--accent);
   direction: rtl;
+  font-weight: 500;
+  line-height: 1.6;
 }
 
 .list-tr {
@@ -308,8 +313,9 @@ body {
 
 .detail-title {
   font-family: var(--font-ar);
-  font-size: 32px;
+  font-size: 40px;
   color: var(--accent);
+  font-weight: 600;
 }
 
 .detail-sub {
@@ -339,9 +345,10 @@ body {
 
 .detail-value {
   font-family: var(--font-ar);
-  font-size: 20px;
+  font-size: 26px;
   color: var(--text);
   direction: rtl;
+  font-weight: 500;
 }
 
 /* Conjugation Table */
@@ -367,8 +374,9 @@ body {
 
 .conj-table td.ar {
   font-family: var(--font-ar);
-  font-size: 18px;
+  font-size: 24px;
   color: var(--text);
+  font-weight: 500;
 }
 
 /* Section */
@@ -437,8 +445,9 @@ body {
 
 .intro-title .ar {
   font-family: var(--font-ar);
-  font-size: 20px;
+  font-size: 26px;
   color: var(--accent);
+  font-weight: 500;
 }
 
 .alphabet-grid {
@@ -457,8 +466,9 @@ body {
 
 .letter-ar {
   font-family: var(--font-ar);
-  font-size: 28px;
+  font-size: 36px;
   color: var(--accent);
+  font-weight: 600;
 }
 
 .letter-name {
@@ -532,9 +542,10 @@ body {
 
 .quiz-category-ar {
   font-family: var(--font-ar);
-  font-size: 22px;
+  font-size: 28px;
   color: var(--accent);
-  margin-bottom: 6px;
+  margin-bottom: 8px;
+  font-weight: 600;
 }
 
 .quiz-category-title {
@@ -577,10 +588,11 @@ body {
 
 .quiz-question-ar {
   font-family: var(--font-ar);
-  font-size: 26px;
+  font-size: 34px;
   color: var(--accent);
   text-align: center;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
+  font-weight: 600;
 }
 
 .quiz-question-text {
@@ -745,9 +757,10 @@ body {
 
 .root-arabic {
   font-family: var(--font-ar);
-  font-size: 26px;
+  font-size: 34px;
   color: var(--accent);
-  letter-spacing: 4px;
+  letter-spacing: 6px;
+  font-weight: 600;
 }
 
 .root-trans {
@@ -776,11 +789,12 @@ body {
 
 .root-ex {
   font-family: var(--font-ar);
-  font-size: 13px;
+  font-size: 18px;
   background: var(--bg-light);
-  padding: 4px 10px;
+  padding: 6px 12px;
   border-radius: 6px;
   color: var(--text);
+  font-weight: 500;
 }
 
 .roots-files {
@@ -819,13 +833,14 @@ body {
 
 .phrase-ar {
   font-family: var(--font-ar);
-  font-size: 20px;
+  font-size: 26px;
   color: var(--accent);
-  margin-bottom: 6px;
+  margin-bottom: 8px;
+  font-weight: 500;
 }
 
 .phrase-card.small .phrase-ar {
-  font-size: 17px;
+  font-size: 22px;
 }
 
 .phrase-tr {
@@ -835,11 +850,12 @@ body {
 
 .phrase-response {
   font-family: var(--font-ar);
-  font-size: 16px;
+  font-size: 20px;
   color: var(--text);
-  margin-top: 8px;
-  padding-top: 8px;
+  margin-top: 10px;
+  padding-top: 10px;
   border-top: 1px dashed var(--border);
+  font-weight: 500;
 }
 
 .phrase-context {
@@ -861,11 +877,12 @@ body {
 
 .situation-title {
   font-family: var(--font-ar);
-  font-size: 16px;
+  font-size: 22px;
   color: var(--accent);
-  margin-bottom: 12px;
-  padding-bottom: 8px;
+  margin-bottom: 14px;
+  padding-bottom: 10px;
   border-bottom: 1px solid var(--border);
+  font-weight: 600;
 }
 
 /* Stories Styles */
@@ -907,9 +924,10 @@ body {
 
 .story-card .story-title-ar {
   font-family: var(--font-ar);
-  font-size: 22px;
+  font-size: 28px;
   color: var(--accent);
-  margin-bottom: 6px;
+  margin-bottom: 8px;
+  font-weight: 600;
 }
 
 .story-card .story-title-tr {
@@ -951,8 +969,9 @@ body {
 
 .story-main-title .story-title-ar {
   font-family: var(--font-ar);
-  font-size: 28px;
+  font-size: 36px;
   color: var(--accent);
+  font-weight: 700;
 }
 
 .story-main-title .story-title-tr {
@@ -974,10 +993,11 @@ body {
 
 .paragraph-ar {
   font-family: var(--font-ar);
-  font-size: 20px;
-  line-height: 1.9;
+  font-size: 26px;
+  line-height: 2.1;
   color: var(--text);
-  margin-bottom: 12px;
+  margin-bottom: 14px;
+  font-weight: 500;
 }
 
 .paragraph-tr {
@@ -1005,9 +1025,10 @@ body {
 
 .moral-ar {
   font-family: var(--font-ar);
-  font-size: 24px;
+  font-size: 30px;
   color: var(--accent);
-  margin-bottom: 6px;
+  margin-bottom: 8px;
+  font-weight: 600;
 }
 
 .moral-tr {
@@ -1094,9 +1115,10 @@ body {
 
 .grammar-title {
   font-family: var(--font-ar);
-  font-size: 18px;
+  font-size: 24px;
   color: var(--accent);
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+  font-weight: 600;
 }
 
 .grammar-explanation {
@@ -1120,9 +1142,11 @@ body {
 
 .example-ar {
   font-family: var(--font-ar);
-  font-size: 20px;
+  font-size: 26px;
   color: var(--text);
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.8;
 }
 
 .example-analysis {
@@ -1156,11 +1180,12 @@ body {
 
 .vocab-word-ar {
   font-family: var(--font-ar);
-  font-size: 24px;
+  font-size: 32px;
   color: var(--accent);
-  margin-bottom: 12px;
-  padding-bottom: 10px;
+  margin-bottom: 14px;
+  padding-bottom: 12px;
   border-bottom: 1px solid var(--border);
+  font-weight: 600;
 }
 
 .vocab-details {
@@ -1188,7 +1213,8 @@ body {
 
 .vocab-value.ar-text {
   font-family: var(--font-ar);
-  font-size: 15px;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .story-vocab {
